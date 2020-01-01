@@ -6,17 +6,26 @@
     <description>Recent content on Unjustified Ponderings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2019 22:03:50 -0800</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 31 Dec 2019 22:03:50 -0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>My LinkedIn</description>
+    </item>
+    
+    <item>
       <title>Adjusting hypotheses</title>
-      <link>/posts/my-first-post/</link>
+      <link>/posts/adjusting-hypotheses/</link>
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/my-first-post/</guid>
+      <guid>/posts/adjusting-hypotheses/</guid>
       <description>I recently experienced a pattern-recognition failure, which inspired some thoughts about machine intelligence. Arriving at a T hallway intersection at a hotel, I glanced at the following sign:
 [ → Elevators ]
 My automatic response was to veer towards the left side. As I was turning, something &amp;ldquo;felt&amp;rdquo; wrong, similar to the discomfort experienced when reading a misspelled word. This prompted me to pause and this time read the sign more carefully, thus revealing that the elevators where in fact located to my right.</description>
