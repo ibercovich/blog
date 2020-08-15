@@ -15,7 +15,8 @@ In summary:
 - Participate in value creation
 - Get in shape
 
-##How am I doing after 45 days?##
+How am I doing after 45 days?
+-----------------------------
 
 Embrace intellectual exploration: Progress on this goal is rather difficult to quantify, and being too focused on attainment might actually hinder the originating intention. Still, I can sense the personal growth. After 10 years, I was starting to develop an aversion to technology topics, but as soon as technology stopped being my job, that disdain disappeared. I’ve been catching up on cryptography (with an interest in privacy), computer architecture (a couple of books on Rust and a refresher course on computer architecture), and machine learning. To stay creative, I spent some time playing with modern tools, such as 3D printing and Unity. I’ve also been reading/listening to business biographies (Iger, Branson, Jobs, Gates, Campbell, Buffett), which I enjoy and later recall better than a typical business book. Next, I’d like to push further out from my comfort zone.
 
@@ -23,7 +24,8 @@ Participate in value creation: I always advise young people to do things for oth
 
 Get in shape: Besides being wholesome for the soul, this goal is easy to measure. I purchased a Garmin Forerunner 935 watch, and started to track various metrics. The trend these days is to focus on VO^2 Max, a measure of both endurance and cardiovascular health. On a typical week, I’m allocating about 6 hours of intense exercising, broken down into 2 bike rides and 2 runs. I enjoy going up and down the mountains, so I trade distance for altitude gain. I’m roughly covering 65 miles and 9000 ft of elevation gain on a typical week, with about 80% of that on the bike. My VO^2 Max is 52, 90th percentile for my age and gender. Through this process I’ve learned that this is about optimal for me, and my fantasies about ultra endurance have become less appealing. I’ve also come to appreciate this is a rhythm I can maintain indefinitely, and that it could have been compatible with my previous work schedule, though I didn’t think so at the time. Next, I’d like to set and achieve some concrete goals (maybe Everesting in 1 week).
 
-##Closing thoughts##
+Closing thoughts
+----------------
 
 While this state feels temporary, I could go on for a while. I’m certainly less productive in the traditional sense, and that is a source of discomfort. On the other hand, I am happier, healthier, and feel more creative and open to possibilities. I’m starting to see new threads emerge and am fantasizing about crazy ideas, and I’m confident this process is building the foundation for the next decade. Time will tell.
 
