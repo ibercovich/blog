@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "How to hire data-driven PMs/Designers"
+date:   2015-04-17 20:08:31 -0700
+categories:
+---
+At FindTheBest (later Graphiq), we have spent a lot of time building a knowledge graph, refining our product development processes, and learning data science techniques to enable data-driven decision making. After seeing a question on Quora asking how to determine if a PM is data-driven, I realized there is more to data-driven teams than raw analytics and good processes. In order to build a data-driven culture, it's imperative that you hire the right kind of people. Here are five ideas that can help an interviewer determine if a candidate is data-driven in their thinking and decision making:
+
+1. Try to find out if they think products are invented or discovered. While the answer lies somewhere in between (start with an invention/vision and discover through iteration), I've found that less experienced people tend to focus too much on the creative/inventive part of the product development lifecycle. A person experienced in data-driven product development will release a simple MVP and let data/feedback be the inspiration for future iteration.
+
+2. See if they care about who came up with the idea. People who are too focused on who came up with an idea are going to make decisions based on emotion. They will either avoid contradictory data or will crush good ideas that originated elsewhere. A great PM/designer is constantly pursuing the right solution and is excited to see other people offer promising suggestions. At FindTheBest, we purposely run rapid-fire brainstorms, so that the group easily forgets who came up with what. A good interview question would be: "Tell me about a time when you came up with a great idea, but didn't end up getting any credit.".
+
+3. Ask about recent examples of decisions they made by collecting and analyzing data. People with practical experience tend to come up with simpler solutions. For example, if we want to learn about user engagement, an experienced person might first focus on single session interactions, while an inexperienced person might quickly jump into tracking multi-session behavior. Another way to get a read on pragmatism would involve explaining a current challenge at your company and asking the interviewee how she would go about finding the answer.
+
+4. Test their ability to do back-of-the-envelope problem solving. When operating in a data-driven environment, there isn't enough time to perform robust analyses for every single decision. That doesn't disqualify smaller decisions from being data-driven, however. A key skill is the ability to recall previous data and use it to quickly guesstimate ROIs for different options. In a sense, people who have worked in data-driven environments for long enough will have data-driven intuition, similar to how grand master chess players have unconsciously memorized millions of plays and patterns.
+
+5. Ask them to describe their ideal product lifecycle. A data-driven PM/designer will take experimentation/iteration and data collection periods into consideration when defining the roadmap to release a feature. Ask them to draw a timeline with designers, engineers, PMs, stakeholders, etc., and to tell you what each group is doing on a weekly basis. A data-driven product lifecycle will be less linear, since it involves a significant amount of iteration. You can dive into this question by defining a hypothetical product and team (1 designer, 2 engineers, 1 PM), and asking the interviewee to allocate them over a period of 4 weeks.
+
+Some of these questions are more applicable to people with work experience, but it’s possible to probe similar attributes by discussing alternate scenarios. For example, highly considered decisions (e.g. choosing a college or car), can reveal a lot about a person’s decision-making style.
