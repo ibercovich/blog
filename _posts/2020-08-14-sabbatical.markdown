@@ -24,6 +24,12 @@ How am I doing after 45 days?
 
 **Get in shape:** Besides being wholesome for the soul, this goal is easy to measure. I purchased a Garmin Forerunner 935 watch, and started to track various metrics. The trend these days is to focus on VO^2 Max, a measure of both endurance and cardiovascular health. On a typical week, I’m allocating about 6 hours of intense exercising, broken down into 2 bike rides and 2 runs. I enjoy going up and down the mountains, so I trade distance for altitude gain. I’m roughly covering 65 miles and 9000 ft of elevation gain on a typical week, with about 80% of that on the bike. My VO^2 Max is 52, 90th percentile for my age and gender. Through this process I’ve learned that this is about optimal for me, and my fantasies about ultra endurance have become less appealing. I’ve also come to appreciate this is a rhythm I can maintain indefinitely, and that it could have been compatible with my previous work schedule, though I didn’t think so at the time. Next, I’d like to set and achieve some concrete goals (maybe [Everesting][everesting] in 1 week).
 
+Closing thoughts
+----------------
+
+While this state feels temporary, I could go on for a while. I’m certainly less productive in the traditional sense, and that is a source of discomfort. On the other hand, I am happier, healthier, and feel more creative and open to possibilities. I’m starting to see new threads emerge and am fantasizing about crazy ideas, and I’m confident this process is building the foundation for the next decade. Time will tell.
+
+
 [toga-party]: http://archive.boston.com/news/education/higher/articles/2006/10/17/umass_amherst_community_police_try_to_put_lid_on_party_life/
 [acquired]: https://www.latimes.com/business/technology/la-fi-tn-graphiq-amazon-20170719-story.html
 [algorithms]: https://www.amazon.com/dp/1250118360/
