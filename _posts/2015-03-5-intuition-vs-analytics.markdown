@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Measuring Success in a UX Team: Intuition vs Analytics"
-date:   2015-04-5 20:08:31 -0700
+date:   2015-03-5 20:08:31 -0700
 categories:
 ---
 Much like economics, UX is a very polarized field. On one hand, you have the traditional practitioners who believe good UX is solely the product of good intuition. These people tend to have backgrounds in design, psychology, marketing, and other arts/social sciences. On the other camp, we find the quants who believe everything can be objectively distilled into numbers. These individuals most likely received an education in an area related to data science. As in many other polarized arguments, the best answer lies somewhere in between. A successful UX team will know where exactly to draw the line on every instance.
