@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to hire data-driven PMs/Designers"
+author: Ivan Bercovich
 date:   2015-04-17 20:08:31 -0700
 categories:
 ---

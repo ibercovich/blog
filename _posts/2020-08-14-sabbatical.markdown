@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "How I'm spending my sabbatical"
+author: Ivan Bercovich
 date:   2020-08-14 20:08:31 -0700
+redirect_from:
+    - /2020/08/15/sabbatical
+    - /2020/08/14/sabbatical
 categories:
 ---
 After finishing college at UMass Amherst, I went straight into my first job. I packed my blue 2001 Honda Civic, and drove across the country, hoping to find my place in the universe. While I was awed at the notion of working for a tech giant, Cisco, I was quickly disillusioned, feeling like an insignificant part of a giant machine. College is also large. UMass Amherst has over twenty thousand undergraduates, and the roughly five thousand graduating seniors fill an entire football field. But colleges are centered around students, and for me academics was a competitive sport. With a heavy course load, a couple degrees, top grades, and the occasional politized [toga party][toga-party] (for which my housemates heroically took the fall to protect my green card proceedings), one could become decently successful. Thus, when buried in the bowels of Cisco, it became evident that I should go to grad school, so I could feel special again. As soon as I got accepted into UCSB for a PhD in Financial Mathematics, I quit my position at Cisco and explored myself and the Bay Area for six months. I can point to some interesting experiences during that time, such as having a couple founders casually walking me through their “AirBnB” website at the YCombinator lobby. But the biggest benefit of this hiatus was simply “being;” exploring without a compass or driven by any goals other than sheer curiosity and serendipity. I’ve always looked back at those days as a period of personal growth.

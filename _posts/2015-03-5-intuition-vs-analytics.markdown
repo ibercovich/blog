@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Measuring Success in a UX Team: Intuition vs Analytics"
+author: Ivan Bercovich
 date:   2015-03-5 20:08:31 -0700
 categories:
 ---
