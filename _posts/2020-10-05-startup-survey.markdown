@@ -10,7 +10,7 @@ I reached out to a few acquaintances who have recently been involved in or are p
 
 Idea
 ----
-Successful companies and founders have a tendency to rewrite history to rationalize discovery and luck as forethought. However, even when companies pivot, they are likely constrained by their initial idea. My viewpoint is that the initial has as its chief purpose to be compelling enough to attract talent and funding. About two thirds of the respondents seem to agree.
+Successful companies and founders have a tendency to rewrite history to rationalize discovery and luck as forethought. However, even when companies pivot, they are likely constrained by their initial idea. My viewpoint is that the initial idea has as its chief purpose to be compelling enough to attract talent and funding. About two thirds of the respondents seem to agree.
 
 ![how important do you think is the initial idea](/assets/startup-survey/initial-idea.png)
 
