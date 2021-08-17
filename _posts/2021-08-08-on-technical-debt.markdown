@@ -11,8 +11,7 @@ This vagueness leads shrewd business leaders to be skeptical of the cries to act
 
 This rarely leads to a great outcome. Big refactorings often end up becoming a creative endeavor or a quest to add cool new technology, as opposed to a set of well defined, independently valuable, and progressively executed milestones, with concrete and measurable results. Efforts will take far longer than originally planned; subsequent projects will attempt to fix new issues introduced due to major re-architectures. Product development speed will stall and morale will collapse. The CEO has to lead the team to shore navigating through the self-inflicted tech debt storm. In the end, the product will be behind the competition, the improvements to the system will be uncertain, and everyone will be exhausted. And the cycle will likely repeat.
 
-The Path Forward
-----------------
+# The Path Forward #
 
 Accept Tech Debt as a natural part of doing business
 -----------------------------------------------------
