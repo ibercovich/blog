@@ -6,6 +6,7 @@ author: Ivan Bercovich
 date:   2021-12-26 20:08:31 -0700
 categories:
 ---
+
 When we invest in a new company, I spend the first few weeks getting to know the team to understand their current challenges to help where I can. A common topic is that of the product lifecycle, everything from defining a north star, to developing a written roadmap, to executing and delivering a successful product. Last month, I wrote down some of the key points that emerged during those discussions. In particular, I wanted to highlight some of the most salient points of tension that emerged during these discussions.
 
 Customer-Specific Requests
