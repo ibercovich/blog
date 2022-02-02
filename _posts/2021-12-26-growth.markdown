@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Growth"
+author: Ivan Bercovich
+date:   2022-02-02 20:08:31 -0700
+categories:
+---
+An acquisition that pays 10 times revenue is generally considered a success story (average multiples might be half that). If that’s so, then why are VCs willing to pay 20x and beyond for a piece of an early stage startup? The answer is growth. Consider a company that is making $625k ARR, but growing 4x year over year. After 2 years of sustained growth, this company will have revenue of $10M, with an enterprise value of $100M. An investor who paid 25x revenue at the beginning of this period, came in at a valuation of $15.6M ($625k * 25). Even after an additional 30% dilution, this investment would return ~4.5x in just two years. In contrast, a company that grows at a very respectable 2x YoY, will have $2.5M in revenue, and yield a meager 12% return after two years and the same dilution. Thus, high valuation multiples are only warranted under the premise of extraordinary growth.
+
+The above numbers are for illustration only. Even the most successful companies decline in their growth rate over time. According to this analysis, top quartile companies grow at 3.3x in the $1-10M revenue range, 2.35x in the $10-25M range, and 1.8x for $50M+. Still, the top quartile includes a wide range with many companies growing at 4x+; especially in the lower end of the revenue range.
+
+Moving Fast
+--------------------------
+In my opinion the entrepreneurial fear that is most justified, is the fear of not moving fast enough. If you want to be irrationally paranoid about something, let it be speed. Unfortunately, while working hard is almost certainly a prerequisite for outstanding growth, it is by no means a guarantee.
+
+As an exercise, I put together a few risk patterns that I’ve observed over the years. These are low precision proxies, weak on their own. However, the stronger the signal, the likelier the problem. Trust your gut.
+
+Wasteful 2-way-door Decisions
+--------------------------
+You’re writing long documents or having extensive meetings / slack conversations about issues that are either not too impactful in the short term, or that are impactful, but easy to change. As a trivial example, consider incorporation. The process of incorporating a Delaware C-Corp (ideal for startups) is trivial. However, the process might be delayed because founders can’t agree on a company name. This is silly because (1) a corporate name doesn’t prevent the company from owning multiple domains or trademarks, and (2) the process of changing a corporation’s name is also trivial. Caution: before you invest heavily in branding, make sure your trademark is defensible- consult a lawyer.
+
+Frupidity
+--------------------------
+The worst thing a company can do with capital is waste it, but the second worst is not leveraging it effectively. This is common when a company raises their first 5M+ round, which often is 3-5x what they have raised up to that point. In an effort to retain corporate frugality (which is a good thing), teams debate ad-nauseum expenses that are negligible in the large scheme of things. A good approach is to set expense levels which require different degrees of approval, with the lowest level not needing any a-priori approval. Think of these expenses as experiments which use capital as a resource instead of people’s time. Once a quarter the leadership team can review expenses and determine what works and doesn’t and start defining a good policy as they go.
+
+Made-Up KPIs
+--------------------------
+Some companies try to justify growth by looking at contrived KPIs. Over time, most companies define KPIs that might be unique, but are proven to track growth. For example, a company that is building a legal search product might care about how many unique legal documents have been added into the index. However, custom metrics make the most sense when there is evidence of correlation with real growth. On the same example, if the content is published on the internet and more documents means more traffic, which results in more sign-ups, then there is correlation. During early stages, it’s best to focus on well established KPIs, such as active users, revenue, pageviews, and so on. For every industry, there are at least a dozen standard KPIs that will provide a benchmark for growth.
+
+Pet & Code Names
+--------------------------
+Rather than talking about specific customer needs, upcoming deals, or existing bugs; the team spends a lot of time talking about a cleverly named project, like “DeathStar”. At times a codename can become the rallying cry for an important initiative, but more often than not projects end up with a funky name when it’s too hard to justify their importance from first principles. In the worst of cases, the codename grows beyond a particular project and into its own permanent track, with “SuperDuperNova” and “NeutronBlast” following. New experimental features and big backend migrations are two examples where I’ve seen this phenomenon. 
+
+Hiring (and Firing)
+--------------------------
+Having the right people on the right seats is essential for success. Yet many companies don’t seem to invest the necessary resources and focus to succeed in building the right team. If hiring is among a company’s top 3 priorities (usually is), the CEO should be spending roughly a third of their time recruiting. Unfortunately, there are not many shortcuts and everyone's competing for the same talent. Retaining an external recruiting firm will do little if that’s the primary strategy. The best people won’t just come to you, so the executive team needs to be developing relationships with potential candidates. If you’re not meeting interesting people you’d love to hire every week, you’re moving too slow. And it’s a long game, so expect months or years-long courting. A perverse consequence of struggling with hiring is not being willing to let bad hires go, which causes smart people not to want to join your company and slows you down even more.
+
+No Demo
+--------------------------
+While it might be efficient to discuss ideas in low fidelity formats like mockups before investing in R&D, this should be mostly for internal purposes. When it comes to sales meetings, investor pitches, hiring, conferences, and other external-facing activities; a mockup is not enough. If a sales pitch is performed using a mockup, the customer might end up with the wrong expectation or misunderstand the product. In a functional demo, customer feedback can be implemented quickly and help close a deal. It takes time to develop the team skills for rapid iteration, which is why whenever possible the team should opt in for going from idea to implementation as quickly as possible. That doesn’t mean all experiments need to be on production or live for all customers (feature flags are a great methodology), it means the team is good at improvising.
+
+Policy, Governance, Security
+--------------------------
+Depending on the product category, regulation and security might have different precedence. But these efforts are usually meant to reduce future risk rather than increase product velocity. When an engineering/product team is allocating more than 20% of resources to these types of initiatives, it’s likely there is a deeper problem. Sometimes this might stem from an early stage company executing on a complex regulation like GDPR by being too granular instead of understanding the spirit of the law. Another possibility is lack of functional expertise (e.g.: security engineer, legal support). Note: always consult a lawyer if unsure.
+
+Non-Core Goals
+--------------------------
+Each employee is a whole person with interests and concerns that go beyond work. Often, many people in the team might share some of these interests or concerns and want to organize around them. For example, the team might get excited about the Rust programming language and organize evening sessions to discuss. Book clubs, volunteering, community service are other examples. These initiatives can be great in strengthening the bond and augmenting group curiosity. However there should be a correlation between the maturity of a company and the degree of attention to non-core (as in not part of the company’s north star) activities. If an early stage company is spending the same amount of energy in these as a publicly traded counterpart, then there might be an issue. It might be an opportunity to do an all-hands, reinforce the company strategy and define a credible and motivating plan to go after.
+
+Re-Architecture or Redesign
+--------------------------
+I already wrote extensively about this topic. Big overhauls tend to take much longer than anticipated, and deliver less value than expected. Identify specific problems and iterate piecemeal, always keeping measurable results in mind.
+
+These are not hard and fast rules, but if reading this post gives you anxiety, consider diving deeper into the issue. And if you need a sounding board, we are always happy to help.
