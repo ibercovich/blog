@@ -7,6 +7,8 @@ categories:
 ---
 An acquisition that pays 10 times revenue is generally considered a success story (average multiples might be half that). If that’s so, then why are VCs willing to pay 20x and beyond for a piece of an early stage startup? The answer is growth. Consider a company that is making $625k ARR, but growing 4x year over year. After 2 years of sustained growth, this company will have revenue of $10M, with an enterprise value of $100M. An investor who paid 25x revenue at the beginning of this period, came in at a valuation of $15.6M ($625k * 25). Even after an additional 30% dilution, this investment would return ~4.5x in just two years. In contrast, a company that grows at a very respectable 2x YoY, will have $2.5M in revenue, and yield a meager 12% return after two years and the same dilution. Thus, high valuation multiples are only warranted under the premise of extraordinary growth.
 
+![growth vs run,sprint,fly](https://raw.githubusercontent.com/ibercovich/ibercovich.github.io/master/assets/growth-chart.png)
+
 The above numbers are for illustration only. Even the most successful companies decline in their growth rate over time. According to this analysis, top quartile companies grow at 3.3x in the $1-10M revenue range, 2.35x in the $10-25M range, and 1.8x for $50M+. Still, the top quartile includes a wide range with many companies growing at 4x+; especially in the lower end of the revenue range.
 
 Moving Fast
