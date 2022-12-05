@@ -8,11 +8,9 @@ categories:
 
 This document summarizes my goals for the year 2022. The goals are grouped by category and listed from most to least important. I am doing this for myself. Writing this down forces me to spend a few hours towards the end of the year to reflect on and appreciate everything that I've done. As a secondary objective, something here might inspire someone else to follow through on their goals.
 
-## 1) Purpose (profession, career, interests)
+## Purpose (profession, career, interests)
 
 I don't believe to be predestined to anything, and my happiness does not depend on how my work is received by the world (beyond the natural desire to be accepted). I get the most purpose from having goals that help me develop in new ways. As long as I can see myself evolving across many dimensions and I can see a path forward, I generally feel purposeful. To put it simply, having things to do, which are also interesting, gives me purpose.
-
-**Goals**
 
 **(score B) Watch less video content** (and improve quality): I am averaging ~7 hours of video content per week, mostly high quality tv shows, with the occasional movie. I don't watch tik-tok/youtube/etc for entertainment, but I do consume educational videos when that's the optimal medium, and I exclude it from the 7 hr cap.
 
@@ -30,13 +28,13 @@ I don't believe to be predestined to anything, and my happiness does not depend 
 
 **(score A) Write a document about purpose:** here it is.
 
-## 2) Connection (partnership, intimacy, family, friends)
+&nbsp; 
+
+## Connection (partnership, intimacy, family, friends)
 
 I appreciate the meaningful connections that I've made throughout my life, including those that were powerful but short lived. I hope to continue nurturing the connections I have and develop new ones. That said, I believe I am significantly below average when it comes to how much time and energy I am willing to invest into relationships. Some times, especially during my younger years, I enjoy just "hanging out" and "chilling" and even some hardcore "partying". But most of the time, and especially when I take a step back and introspect, I much prefer intellectual conversations, shared projects, or interesting experiences. I am generally preoccupied with time management and casual social events, catch-up phone calls, bachelor parties, etc., usually result in me concluding it wasn't a good use of time. I believe most people want to separate their personal life (including friends) from work, but for me the ideal friendship is one where there is a high degree of professional intersection.
 
 I am not very family oriented, I don't celebrate holidays or anniversaries, or other socially meaningful dates, and I find it annoying to receive birthday calls. In general, I don't feel a particular duty or loyalty purely on the basis of family, religion, nation, or any other affiliations. My relationships with family are predicated on the same parameters as other relationships: a history of interactions, common interests, etc. Most of my given family doesn't understand this disposition and, in spite of many profound and introspective conversations, likely believe I'm simply not a good son/brother/etc. Fortunately, I was able to find a life partner that shares many of these characteristics. Given that she's further in the autism spectrum, I've been able to reconcile some of these personality traits with my own neurodiversity. While I find it discomforting that other people can inextricably link their joy and happiness with the quality of their relationship with yours truly, I also accept I can't control others' feelings. Thus, I am trying to make an effort to be more available to my family, even if it remains a fraction of what they'd wish.
-
-**Goals**
 
 **(score B) Experiences with Julia:** Besides being nerds, and in spite of me not being all that much into casual music, Julia and I both enjoy going to live concerts. This year we went to three concerts, including a full day at Outside Lands in San Francisco, and we have already planned a few events for next year. Giving myself a B because I'd like to find other activities we can do together.
 
@@ -56,11 +54,11 @@ I am not very family oriented, I don't celebrate holidays or anniversaries, or o
 
 **(score B) Geek Out with Iv**: My good friend Ivgeni and I went to the Hack-A-Day superconference, and it was a lot of fun. But I was coming from a long week of travel and I experienced a bit too much sensory overload and couldn't focus. I ended up leaving a day earlier.
 
-## 3) Fitness (strength, endurance, physiology, nutrition)
+&nbsp; 
+
+## Fitness (strength, endurance, physiology, nutrition)
 
 I feel better when I eat healthy and exercise. Lately, I've started to pay attention to my aging and experimenting with methods that can soften the transition, such as being more careful with sun exposure and avoiding products that dry my skin. I'm best at sticking with goals when there are clear KPIs, so I am an avid user of Strava and do my best to keep a strict fasting schedule.
-
-**Goals**
 
 **(score B-) Cut down on sugar:** I don't measure my sugar regularly, so I have to go with a guesstimate here, but I disappoint myself with food choices more often than I'd like, particularly when I travel.
 
@@ -76,11 +74,31 @@ I feel better when I eat healthy and exercise. Lately, I've started to pay atten
 
 **(score C) Manage sun exposure:** I started wearing long sleeves and a hat more often, running early morning or at night, and wearing sunscreen on my face. But I still got sunburn way too many days.
 
-## 4) Experience (travel, adventure, surprise, learning)
+Supplements I take
+
+| Name | Actual Form | Amount
+| --- | --- | --- |
+| Calcium | calcium citrate | 500 mg |
+| Vitamin D3 | cholecalciferol | 10 mcg (400 IU) |
+| Magnesium | magnesium bisglycinate | 133 mg |
+| Vitamin K2 | MK-7 is the best form |  
+| Fish Oil | vitamin D as cholecalciferol | 25 mcg (1000 IU) |
+| Fish Oil | omega 3 | 1180 mg |
+| Fish Oil | EPA (eicosapentaenoic acid) | 665 mg |
+| Fish Oil | DHA (docosahexaenoic acid) | 445 mg |
+| Fish Oil | other omega 3 | 70 mg |
+| Policosanol | | 23 mg |
+| Sterols | From Sunflower | 500 mg |
+| Sterols | Beta-sitosterol | 250 mg |
+| Sterols | Stigmasterol | 75 mg |
+| Sterols | Campesterol | 25 mg |
+| NMN | beta nicotinamide mononucleotide | 250 mg | 
+
+&nbsp; 
+
+## Experience (travel, adventure, surprise, learning)
 
 As I've accumulated more experiences, life has become more monotonous. While my past self was concerned (even afraid) of eventual monotony, today I appreciate the opportunity to pursue a continually refined routine. Monotony allows me to eat more healthily, exercise more often, waste less time on things I don't deem important, and quickly course-correct if I'm disappointed in myself. However, I also believe it is important to be able to look back and quickly recall important/interesting moments. Due to our brain's ability to constantly improve our pattern recognition, similar experiences are compressed together, becoming hard to recall individually without a relevant queue. On the other hand, novel experiences tend to invade my consciousness even when I'm not seeking them, providing a constant reminder of a life thoroughly lived. To this end, I try to accrue experience outside of my daily routine each year, though with time I've realized these infrequent events are also a routine but at a more macro scale (e.g. try to ski each season).
-
-**Goals**
 
 **(score B) Ski 14 days**: I ended up skiing 10 days over two trips. It was great and as usual one of my most cherished outdoor experiences. I aspire to do more in future years.
 
@@ -96,11 +114,11 @@ As I've accumulated more experiences, life has become more monotonous. While my 
 
 **(score B) Trip to Nashville & Philly:** I've been to Nashville a couple times and it has always been interesting. This time I stayed in a big AirBnB with Yogi's team during their offsite. Unfortunately I caught COVID and I was stuck out of my home for 10 days after. Yogi also hosted an offsite in Philadelphia, in a really nice AirBnB. We did some golfing, which is very much outside my scope, but it was fun!
 
-## 5) Legacy (children, mentoring, enterprise)
+&nbsp; 
+
+## Legacy (children, mentoring, enterprise)
 
 I am fortunate to have my step-daughter Julia in my life, in spite of not having biological children. We've only shared 4 years under the same roof-- although COVID densified some of that time-- but I believe that this was enough to bootstrap a life long relationship. For people outside of my family, I've had the highest impact when contributing to an individual's professional development. This first requires finding people that want to be mentored 1-1 whose needs are aligned with my strengths. It's also important to have good rapport and get into a flow. For example, for me it is important that a mentee keeps me updated and reaches out from time to time-- I will take initiative initially, but eventually I expect a balanced effort. In spite of my willingness to do so and the relatively simple criteria, mentoring relationships don't emerge often, so I try to put myself out there to meet new young people and always be available to those that I know.
-
-**Goals**
 
 **(score A) Drop Julia for UMass first day:** this was a really nice experience. Julia was a good sport and she hung out with us all three days that we were there. We got to meet some of her new soon-to-be-friends as well. I got to reminisce, running through campus, and hanging out with faculty. Since Julia got a big scholarship, we also made a donation to help support a student in the Electrical & Computer Engineering Department, where I attended.
 
@@ -108,11 +126,11 @@ I am fortunate to have my step-daughter Julia in my life, in spite of not having
 
 **(score B) Hang out with Iv's kids:** given that Julia is out of the house already, I wanted to spend more time with friends' children. I am closest with Iv and Carrie's kids, Alex and Andre. I actually self proclaimed myself as the godfather of Alex and it eventually stuck, so there's that. Our most fun activity was going to LiB together, where we had a lot of fun. I hope to do the same next year. I also went to Alex's birthday and came to Iv's house a few times to hang out. Patricia and I see Carrie at the farmer's market fairly often and when we do, we spend a few minutes connecting. Ivgeni lives in Goleta, which by Santa Barbara standards is far, so I didn't see the kids as much as I would have otherwise. As Alex and Andre get older, I also hope to develop some common interests and share some other experiences.
 
-## 6) Wealth
+&nbsp; 
+
+## Wealth
 
 I believe it's better to let wealth be a result of value creation through my own career, than a process of extracting value from purely financial opportunities. I don't think there is anything wrong with the latter, and I've made moves in that direction, but in general I am happier if I spend less time thinking about wealth maximization so directly. However, once some wealth has been acquired, I do believe it's important to continue to diversify over time. I believe that wealth is Lindy, which means that it takes time to be truly diversified (thus making wealth more durable), beyond the basic RE/ETF/Bonds/etc. I use these goals to think about capital preservation and diversification, while I think about my purpose and career as the means with which new wealth is created. While I don't believe the pursuit of wealth makes me happy, I do believe wealth itself does facilitate the continuous pursuit of happiness.
-
-**Goals**
 
 **(score B) Finalize Real Estate Project**: we have an awesome RE project which is the brainchild of Danny, and we were planning to do some construction this year, but didn't get to it due to permitting/etc. However, this is a great project that has low risk, so generally I am happy with this venture.
 
