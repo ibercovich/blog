@@ -6,7 +6,7 @@ date:   2022-12-04 01:01:01 -0700
 categories:
 ---
 
-This document summarizes my goals for the year 2022. The goals are grouped by category and listed from most to least important. I am doing this for myself. Writing this down forces me to spend a few hours towards the end of the year to reflect on and appreciate everything that I've done. As a secondary objective, something here might inspire someone else to follow through on their goals.
+This document summarizes my goals for the year 2022. The goals themselves are not listed in any particular order, but they are grouped by category. I am doing this for myself. Writing this down forces me to spend a few hours towards the end of the year to reflect on and appreciate everything that I've done. As a secondary objective, something here might inspire someone else to follow through on their goals.
 
 ## Purpose (profession, career, interests)
 
@@ -14,7 +14,7 @@ I don't believe to be predestined to anything, and my happiness does not depend 
 
 **(score B) Watch less video content** (and improve quality): I am averaging ~7 hours of video content per week, mostly high quality tv shows, with the occasional movie. I don't watch tik-tok/youtube/etc for entertainment, but I do consume educational videos when that's the optimal medium, and I exclude it from the 7 hr cap.
 
-**(score A) get back to non-fiction reading:** I have consumed several audiobooks and intellectual podcasts, usually while exercising, probably 150-200 hours at 1.5 speed. I have not read non-fiction books, but I have subscribed to several newsletters which I read on a weekly basis, easily 200 hours of reading.
+**(score A) Get back to non-fiction reading:** I have consumed several audiobooks and intellectual podcasts, usually while exercising, probably 150-200 hours at 1.5 speed. I have not read non-fiction books, but I have subscribed to several newsletters which I read on a weekly basis, easily 200 hours of reading.
 
 **(score C) Build some software side projects:** I wanted to build some software side projects, and while I've been dabbling on code as usual, I didn't build anything I'm proud of. I did personally hire an intern for a few months and co-authored some ideas I've had for a while. The two projects we worked on got zero traction which was a good reminder that results don't just happen.
 
@@ -22,7 +22,7 @@ I don't believe to be predestined to anything, and my happiness does not depend 
 
 **(score A) Raise 2 follow-on rounds:** As an investor, it's important that our portfolio can continue to grow and one measure of that growth is subsequent funding rounds. Our portfolio is fairly new (about 12 months on average) so I had a goal to see 2 subsequent fundraises. Fortunately, we had 3 fundraises for [Cloverleaf](https://cloverleaf.me/), [FreightPOP](https://www.freightpop.com/) and [Unwrap](https://www.unwrap.ai/).
 
-**(score A) Publish 2 professional posts**: this was supposed to be easy, but I procrastinated.[Growth](https://www.scopvc.com/thoughts/2022/1/17/growth) ,[Compensation](https://www.scopvc.com/thoughts/2022/12/4/startup-compensation)
+**(score A) Publish 2 professional posts**: this was supposed to be easy, but I procrastinated: [Growth](https://www.scopvc.com/thoughts/2022/1/17/growth) ,[Compensation](https://www.scopvc.com/thoughts/2022/12/4/startup-compensation).
 
 **(score A+) Maintain operating experience:** While I am currently an investor, my self image is that of a primarily technical operator. In order to keep that self image consistent, it is important for me to keep allocating time towards operating activities. Earlier in the year I was planning to assist CEOs/CTOs with various initiatives, and that was fun. Unexpectedly I was also given the opportunity to take a full time CEO role at [HeyTutor](https://heytutor.com/), which has been a blast.
 
@@ -181,3 +181,4 @@ I believe it's better to let wealth be a result of value creation through my own
 
 **(score A+) Help Julia get scholarships:** Patricia and I put a lot of effort in helping Julia get some scholarships. It's unfair that kids with savvy parents, even if they are well off, have a better shot at certain scholarships than needy kids, but that's how the game works. We played the game and Julia ended up with a mostly free ride for CompSci at UMass.
 
+![Drag Racing](Dragster.jpg)
