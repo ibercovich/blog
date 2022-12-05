@@ -12,17 +12,17 @@ This document summarizes my goals for the year 2022. The goals themselves are no
 
 I don't believe to be predestined to anything, and my happiness does not depend on how my work is received by the world (beyond the natural desire to be accepted). I get the most purpose from having goals that help me develop in new ways. As long as I can see myself evolving across many dimensions and I can see a path forward, I generally feel purposeful. To put it simply, having things to do, which are also interesting, gives me purpose.
 
-**(score B) Watch less video content** (and improve quality): I am averaging ~7 hours of video content per week, mostly high quality tv shows, with the occasional movie. I don't watch tik-tok/youtube/etc for entertainment, but I do consume educational videos when that's the optimal medium, and I exclude it from the 7 hr cap.
+**(score B) Watch less video content** (and improve quality): I am averaging ~5 hours of video content per week, mostly high quality tv shows, with the occasional movie. I don't watch tik-tok/youtube/etc for entertainment, but I do consume educational videos when that's the optimal medium, and I exclude it from the 7 hr cap.
 
 **(score A) Get back to non-fiction reading:** I have consumed several audiobooks and intellectual podcasts, usually while exercising, probably 150-200 hours at 1.5 speed. I have not read non-fiction books, but I have subscribed to several newsletters which I read on a weekly basis, easily 200 hours of reading.
 
-**(score C) Build some software side projects:** I wanted to build some software side projects, and while I've been dabbling on code as usual, I didn't build anything I'm proud of. I did personally hire an intern for a few months and co-authored some ideas I've had for a while. The two projects we worked on got zero traction which was a good reminder that results don't just happen.
+**(score C) Build some software side projects:** I wanted to build some software side projects, and while I've been dabbling in code as usual, I didn't build anything I'm proud of. I did personally hire an intern for a few months and co-authored some ideas I've had for a while. The two projects we worked on got zero traction which was a good reminder that results don't just happen.
 
 **(score A) Visit 2 portfolio companies:** As an investor I wanted to spend quality time with our portfolio companies. I did this by attending company offsites, which are common among fully remote teams. I attended [Voyager's](https://www.voyagerportal.com/) offsite in Panama and went to 2 quarterly retreats with [Yogi](https://meetyogi.com/). I also hosted various leadership activities with [HeyTutor](https://heytutor.com/). I met in person with various portfolio founders who came to Santa Barbara.
 
 **(score A) Raise 2 follow-on rounds:** As an investor, it's important that our portfolio can continue to grow and one measure of that growth is subsequent funding rounds. Our portfolio is fairly new (about 12 months on average) so I had a goal to see 2 subsequent fundraises. Fortunately, we had 3 fundraises for [Cloverleaf](https://cloverleaf.me/), [FreightPOP](https://www.freightpop.com/) and [Unwrap](https://www.unwrap.ai/).
 
-**(score A) Publish 2 professional posts**: this was supposed to be easy, but I procrastinated: [Growth](https://www.scopvc.com/thoughts/2022/1/17/growth) ,[Compensation](https://www.scopvc.com/thoughts/2022/12/4/startup-compensation).
+**(score A) Publish 2 professional posts**: this was supposed to be easy, but I procrastinated: [Growth](https://www.scopvc.com/thoughts/2022/1/17/growth), [Compensation](https://www.scopvc.com/thoughts/2022/12/4/startup-compensation).
 
 **(score A+) Maintain operating experience:** While I am currently an investor, my self image is that of a primarily technical operator. In order to keep that self image consistent, it is important for me to keep allocating time towards operating activities. Earlier in the year I was planning to assist CEOs/CTOs with various initiatives, and that was fun. Unexpectedly I was also given the opportunity to take a full time CEO role at [HeyTutor](https://heytutor.com/), which has been a blast.
 
@@ -38,12 +38,12 @@ I don't believe to be predestined to anything, and my happiness does not depend 
     For All Mankind                      The Kaiju Preservation Society
     Foundation                           How to Think Like a Roman Emperor
     Love, Death + Robots                 Sea of Tranquility (Emily Mandel)
-    Yellowstone                          How to Avoid a Climate Disaster (Bill Gates)
+    Yellowstone                          How to Avoid a Climate Disaster (BillG)
     Pantheon                             Masters of Doom (David Kushner)
     The Peripheral                       Cultish (Amanda Montell)
     1883 (Yellowstone prequel)           Yearbook (Seth Rogen)
     Better Call Saul                     The Anthropocene Reviewed (John Green)
-    How to sell Drugs Oline, Fast        The Code Breaker (Walter Isaacson)
+    How to sell Drugs Online, Fast        The Code Breaker (Walter Isaacson)
     The Last Duel                        The Coddling of the American Mind
     Ozark                                The Fish that Ate the Whale
     Time (BBC 2021)                      Deep Learning for Coders (Jeremy Howard)
@@ -61,7 +61,7 @@ I don't believe to be predestined to anything, and my happiness does not depend 
     Thirteen Lives                       Acquired Podcast: Benchmark Capital
     The Rescue                           The Diff Newsletter
     Bullet Train                         Slow Boring Newsletter
-    Nighmare Alley                       The Overshoot Newsletter
+    Nightmare Alley                       The Overshoot Newsletter
     Licorice Pizza                       Apprecitas Economics Newsletter
     The Worst Person in the World        Stratechery Newsletter
     
@@ -72,15 +72,15 @@ I don't believe to be predestined to anything, and my happiness does not depend 
 
 I appreciate the meaningful connections that I've made throughout my life, including those that were powerful but short lived. I hope to continue nurturing the connections I have and develop new ones. That said, I believe I am significantly below average when it comes to how much time and energy I am willing to invest into relationships. Some times, especially during my younger years, I enjoy just "hanging out" and "chilling" and even some hardcore "partying". But most of the time, and especially when I take a step back and introspect, I much prefer intellectual conversations, shared projects, or interesting experiences. I am generally preoccupied with time management and casual social events, catch-up phone calls, bachelor parties, etc., usually result in me concluding it wasn't a good use of time. I believe most people want to separate their personal life (including friends) from work, but for me the ideal friendship is one where there is a high degree of professional intersection.
 
-I am not very family oriented, I don't celebrate holidays or anniversaries, or other socially meaningful dates, and I find it annoying to receive birthday calls. In general, I don't feel a particular duty or loyalty purely on the basis of family, religion, nation, or any other affiliations. My relationships with family are predicated on the same parameters as other relationships: a history of interactions, common interests, etc. Most of my given family doesn't understand this disposition and, in spite of many profound and introspective conversations, likely believe I'm simply not a good son/brother/etc. Fortunately, I was able to find a life partner that shares many of these characteristics. Given that she's further in the autism spectrum, I've been able to reconcile some of these personality traits with my own neurodiversity. While I find it discomforting that other people can inextricably link their joy and happiness with the quality of their relationship with yours truly, I also accept I can't control others' feelings. Thus, I am trying to make an effort to be more available to my family, even if it remains a fraction of what they'd wish.
+I am not very family oriented, I don't celebrate holidays or anniversaries, or other socially meaningful dates, and I find it annoying to receive birthday calls. In general, I don't feel a particular duty or loyalty purely on the basis of family, religion, nation, or any other affiliations. My relationships with family are predicated on the same parameters as other relationships: a history of interactions, common interests, etc. Most of my bio family doesn't understand this disposition and, in spite of many profound and introspective conversations, likely believe I'm simply not a good son/brother/etc. Fortunately, I was able to find a life partner that shares many of these characteristics. Given that she's further in the autism spectrum, I've been able to reconcile some of these personality traits with my own neurodiversity. While I find it discomforting that other people can inextricably link their joy and happiness with the quality of their relationship with yours truly, I also accept I can't control others' feelings. Thus, I am trying to make an effort to be more available to my family, even if it remains a fraction of what they'd wish.
 
-**(score B) Experiences with Julia:** Besides being nerds, and in spite of me not being all that much into casual music, Julia and I both enjoy going to live concerts. This year we went to three concerts, including a full day at Outside Lands in San Francisco, and we have already planned a few events for next year. Giving myself a B because I'd like to find other activities we can do together.
+**(score B+) Experiences with Julia:** Besides being nerds, and in spite of me not being all that much into casual music, Julia and I both enjoy going to live concerts. This year we went to three concerts, including a full day at Outside Lands in San Francisco, and we have already planned a few events for next year. Giving myself a B+ because I'd like to find other activities we can do together.
 
 **(score A) Go on 1 ski trip w/ friends**: We had a great ski trip in Telluride with my colleagues from [ScOp VC](https://www.scopvc.com/).
 
-**(score B) go to Burning Man:** I ended up going to Lightning in a Bottle with Ivgeni, Carrie, and the kids, and it was really fun. But I missed the Burn and that was disappointing!
+**(score B) go to Burning Man:** I ended up going to Lightning in a Bottle with Ivgeni, Carrie, and the kids, and it was really fun. But I missed the Burn, and that was disappointing!
 
-**(score A) Work on the BrainBurn with Kevin**: My good friend Kevin has been the heart and soul of our Burning Man camp. The key asset of the camp is a mutant vehicle, called the Brain Burn, which has been single handedly built by Kevin. While I've encouraged him with words and dollars, I've been wanting to contribute actual work. This year, Kevin hosted me in Reno for 3 days and we spent some quality time together working on the Brain.
+**(score A) Work on the BrainBurn with Kevin**: My good friend Kevin has been the heart and soul of our Burning Man camp. The key asset of the camp is a mutant vehicle, called the Brain Burn, which has been singlehandedly built by Kevin. While I've encouraged him with words and dollars, I've been wanting to contribute actual work. This year, Kevin hosted me in Reno for 3 days and we spent some quality time together working on the Brain.
 
 **(score C) Host 10 friends/couples for dinner**: This goal was about creating joint connections between Patricia and I, with other couples. We ended up hosting 8 friendly couples and also invited a couple new acquaintances.
 
@@ -147,7 +147,7 @@ As I've accumulated more experiences, life has become more monotonous. While my 
 
 **(score A) Backpacking trip:** My friend Connor plans a yearly backpacking trip for a few of us. I don't think Connor likes me all that much, but I somehow made it into the invite list and after a few trips I think my spot is secured. This year, Ryan took the lead planning the trip and it was our best one yet. We went to the California Sierras, near Mammoth for 4 days.
 
-**(score B) Trip to East Coast with family**: We traveled to Massachusetts to drop Julia for her freshy year at UMass Amherst. It was great to be back, hang out with the profs, and get Julia settled. Patricia and I then spent a few days driving around Vermont and The Berkshires, and it was nice, but not quite as nice as Driving through Utah, Colorado, New Mexico, and Washington, which are some of my preferred settings (more mountains). We then went to Cormac and Kayla's wedding in the Hamptons which was fun, although our AirBnB sucked.
+**(score B) Trip to East Coast with family**: We traveled to Massachusetts to drop Julia for her freshy year at UMass Amherst. It was great to be back, hang out with the profs, and get Julia settled. Patricia and I then spent a few days driving around Vermont and the Berkshires, and it was nice, but not quite as nice as driving through Utah, Colorado, New Mexico, and Washington, which are some of my preferred settings (more mountains). We then went to Cormac and Kayla's wedding in the Hamptons which was fun, although our AirBnB sucked.
 
 **(score B) Trip to Baja California**: I drove down to Mexico for Kyle and Natalie's wedding, which was very nice. We have a lot of friends in common so it was fun to share some time together in an unusual setting. Unfortunately Patricia got sick and I had to go on my own, and I picked a hotel where nobody else was staying so I felt lonely.
 
@@ -181,4 +181,28 @@ I believe it's better to let wealth be a result of value creation through my own
 
 **(score A+) Help Julia get scholarships:** Patricia and I put a lot of effort in helping Julia get some scholarships. It's unfair that kids with savvy parents, even if they are well off, have a better shot at certain scholarships than needy kids, but that's how the game works. We played the game and Julia ended up with a mostly free ride for CompSci at UMass.
 
-![Drag Racing](Dragster.jpg)
+
+![](/assets/2022-goals/family-umass.jpg)
+![](/assets/2022-goals/Ivan-Julia-Emilio-Magui.jpg)
+![](/assets/2022-goals/Ivan-Julia-GreenDay.jpg)
+![](/assets/2022-goals/ivan-kev-sierras.jpg)
+![](/assets/2022-goals/ivan-matt-sierras.jpg)
+![](/assets/2022-goals/ivan-nadia.jpg)
+![](/assets/2022-goals/ivan-patricia-beach.jpg)
+![](/assets/2022-goals/ivan-patricia-cormas-wedding.jpg)
+![](/assets/2022-goals/ivan-patricia-west-mass.jpg)
+![](/assets/2022-goals/julia-patricia-baird.jpg)
+![](/assets/2022-goals/LIB-Iv-Carry-Ivan.jpg)
+![](/assets/2022-goals/mexico.jpg)
+![](/assets/2022-goals/patricia-mass-moca.jpg)
+![](/assets/2022-goals/patricia-rainbow-art.jpg)
+![](/assets/2022-goals/bike-ride.jpg)
+![](/assets/2022-goals/cousins.jpg)
+![](/assets/2022-goals/patricia-rainbow-art2.jpg)
+![](/assets/2022-goals/seven-falls.jpg)
+![](/assets/2022-goals/sierras-crew.jpg)
+![](/assets/2022-goals/ski-telluride.jpg)
+![](/assets/2022-goals/telluride.jpg)
+![](/assets/2022-goals/voyager-panama.jpg)
+![](/assets/2022-goals/Yogi-Nashville.jpg)
+![](/assets/2022-goals/yogi-philly.jpg)
