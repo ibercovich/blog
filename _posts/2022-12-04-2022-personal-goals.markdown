@@ -181,6 +181,9 @@ I believe it's better to let wealth be a result of value creation through my own
 
 **(score A+) Help Julia get scholarships:** Patricia and I put a lot of effort into helping Julia get some scholarships. It's unfair that kids with savvy parents, even if they are well off, have a better shot at certain scholarships than needy kids, but that's how the game works. We played the game and Julia ended up with a mostly free ride for CompSci at UMass.
 
+&nbsp; 
+
+## Misc Photos
 
 ![](/assets/2022-goals/family-umass.jpg)
 ![](/assets/2022-goals/Ivan-Julia-Emilio-Magui.jpg)
