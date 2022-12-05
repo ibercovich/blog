@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2022 Personal Goals"
+title:  "Personal Goals 2022"
 author: Ivan Bercovich
 date:   2022-12-04 01:01:01 -0700
 categories:
