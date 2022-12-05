@@ -74,25 +74,28 @@ I feel better when I eat healthy and exercise. Lately, I've started to pay atten
 
 **(score C) Manage sun exposure:** I started wearing long sleeves and a hat more often, running early morning or at night, and wearing sunscreen on my face. But I still got sunburn way too many days.
 
-Supplements I take
+&nbsp; 
 
-| Name | Actual Form | Amount
-| --- | --- | --- |
-| Calcium | calcium citrate | 500 mg |
-| Vitamin D3 | cholecalciferol | 10 mcg (400 IU) |
-| Magnesium | magnesium bisglycinate | 133 mg |
-| Vitamin K2 | MK-7 is the best form |  
-| Fish Oil | vitamin D as cholecalciferol | 25 mcg (1000 IU) |
-| Fish Oil | omega 3 | 1180 mg |
-| Fish Oil | EPA (eicosapentaenoic acid) | 665 mg |
-| Fish Oil | DHA (docosahexaenoic acid) | 445 mg |
-| Fish Oil | other omega 3 | 70 mg |
-| Policosanol | | 23 mg |
-| Sterols | From Sunflower | 500 mg |
-| Sterols | Beta-sitosterol | 250 mg |
-| Sterols | Stigmasterol | 75 mg |
-| Sterols | Campesterol | 25 mg |
-| NMN | beta nicotinamide mononucleotide | 250 mg | 
+### Supplements I'm taking
+
+    Name           Actual Form                          Quantity
+    -----------    --------------------------------     ----------------
+    Calcium        calcium citrate                      500 mg        
+    Vitamin D3     cholecalciferol                      10 mcg (400 IU) 
+    Magnesium      magnesium bisglycinate               133 mg 
+    Vitamin K2     MK-7                                  
+    Fish Oil       D3 as cholecalciferol                25 mcg (1000 IU) 
+    Fish Oil       omega3                               1180 mg 
+    Fish Oil       EPA                                  665 mg
+    Fish Oil       DHA                                  445 mg
+    Fish Oil       Other                                70 mg
+    Policosanol                                         23 mg
+    Sterols        from sunflower                       500 mg
+    Sterols        beta-sitosterol                      250 mg
+    Sterols        stigmasterol                         75 mg
+    Sterols        campesterol                          25 mg
+    NMN            beta nicotinamide mononucleotide     250 mg
+
 
 &nbsp; 
 
@@ -139,3 +142,4 @@ I believe it's better to let wealth be a result of value creation through my own
 **(score ?) Allocate mortgage money**: I took some money out of our house on an interest only loan with great terms, and I was hoping to allocate it over the coming year. I have not allocated much of it, but in retrospect I think this is a good thing. However, since it's unallocated, I can still make mistakes, so I'm keeping it open.
 
 **(score A+) Help Julia get scholarships:** Patricia and I put a lot of effort in helping Julia get some scholarships. It's unfair that kids with savvy parents, even if they are well off, have a better shot at certain scholarships than needy kids, but that's how the game works. We played the game and Julia ended up with a mostly free ride for CompSci at UMass.
+
