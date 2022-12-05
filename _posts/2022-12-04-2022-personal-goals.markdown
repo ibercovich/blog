@@ -32,7 +32,7 @@ I don't believe to be predestined to anything, and my happiness does not depend 
 
 ### Selection of media I consumed
 
-    Video                                Text / Audio
+    Video (swipe right for more)         Text / Audio
     --------------------------------     -------------------------------------------
     House of the Dragon                  Upgrade (Blake Crouch)
     For All Mankind                      The Kaiju Preservation Society
@@ -61,7 +61,7 @@ I don't believe to be predestined to anything, and my happiness does not depend 
     Thirteen Lives                       Acquired Podcast: Benchmark Capital
     The Rescue                           The Diff Newsletter
     Bullet Train                         Slow Boring Newsletter
-    Nightmare Alley                       The Overshoot Newsletter
+    Nightmare Alley                      The Overshoot Newsletter
     Licorice Pizza                       Apprecitas Economics Newsletter
     The Worst Person in the World        Stratechery Newsletter
     
