@@ -186,6 +186,7 @@ I believe it's better to let wealth be a result of value creation through my own
 ## Misc Photos
 
 ![](/assets/2022-goals/family-umass.jpg)
+![](/assets/2022-goals/ivan-mom.jpg)
 ![](/assets/2022-goals/Ivan-Julia-Emilio-Magui.jpg)
 ![](/assets/2022-goals/Ivan-Julia-GreenDay.jpg)
 ![](/assets/2022-goals/ivan-kev-sierras.jpg)
