@@ -26,7 +26,45 @@ I don't believe to be predestined to anything, and my happiness does not depend 
 
 **(score A+) Maintain operating experience:** While I am currently an investor, my self image is that of a primarily technical operator. In order to keep that self image consistent, it is important for me to keep allocating time towards operating activities. Earlier in the year I was planning to assist CEOs/CTOs with various initiatives, and that was fun. Unexpectedly I was also given the opportunity to take a full time CEO role at [HeyTutor](https://heytutor.com/), which has been a blast.
 
-**(score A) Write a document about purpose:** here it is.
+**(score A) Write a document about purpose:** you are reading it.
+
+&nbsp; 
+
+### Selection of media I consumed
+
+    Video                                Text / Audio
+    --------------------------------     -------------------------------------------
+    House of the Dragon                  Upgrade (Blake Crouch)
+    For All Mankind                      The Kaiju Preservation Society
+    Foundation                           How to Think Like a Roman Emperor
+    Love, Death + Robots                 Sea of Tranquility (Emily Mandel)
+    Yellowstone                          How to Avoid a Climate Disaster (Bill Gates)
+    Pantheon                             Masters of Doom (David Kushner)
+    The Peripheral                       Cultish (Amanda Montell)
+    1883 (Yellowstone prequel)           Yearbook (Seth Rogen)
+    Better Call Saul                     The Anthropocene Reviewed (John Green)
+    How to sell Drugs Oline, Fast        The Code Breaker (Walter Isaacson)
+    The Last Duel                        The Coddling of the American Mind
+    Ozark                                The Fish that Ate the Whale
+    Time (BBC 2021)                      Deep Learning for Coders (Jeremy Howard)
+    Queen's Gambit                       ML with Pytorch and SciKit Learn
+    Shantaram                            Building ML Powered Applications
+    Black Bird                           Dive Into Deep Learning
+    The Outsider                         Lex Fridman & Guido van Rossum #341
+    Station Eleven                       Lex Fridman & Andrej Karpathy #333
+    Top Gun Maverick                     Lex Fridman & Michael Levin #325
+    Argentina, 1985                      Lex Fridman & Anika Harris #326
+    Guillermo del Toro's Pinocchio       Lex Fridman & Nick Lane #318
+    Triangle of Sadness                  Lex Fridman & John Carmack #309
+    Vengeance                            Lex Fridman & Andrew Bustamante #310
+    Weird: The Al Yankovic Story         Lex Fridman & Jack Barsky #301
+    Thirteen Lives                       Acquired Podcast: Benchmark Capital
+    The Rescue                           The Diff Newsletter
+    Bullet Train                         Slow Boring Newsletter
+    Nighmare Alley                       The Overshoot Newsletter
+    Licorice Pizza                       Apprecitas Economics Newsletter
+    The Worst Person in the World        Stratechery Newsletter
+    
 
 &nbsp; 
 
