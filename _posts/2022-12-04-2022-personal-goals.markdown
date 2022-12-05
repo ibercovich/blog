@@ -179,7 +179,7 @@ I believe it's better to let wealth be a result of value creation through my own
 
 **(score ?) Allocate mortgage money**: I took some money out of our house on an interest only loan with great terms, and I was hoping to allocate it over the coming year. I have not allocated much of it, but in retrospect I think this is a good thing. However, since it's unallocated, I can still make mistakes, so I'm keeping it open.
 
-**(score A+) Help Julia get scholarships:** Patricia and I put a lot of effort in helping Julia get some scholarships. It's unfair that kids with savvy parents, even if they are well off, have a better shot at certain scholarships than needy kids, but that's how the game works. We played the game and Julia ended up with a mostly free ride for CompSci at UMass.
+**(score A+) Help Julia get scholarships:** Patricia and I put a lot of effort into helping Julia get some scholarships. It's unfair that kids with savvy parents, even if they are well off, have a better shot at certain scholarships than needy kids, but that's how the game works. We played the game and Julia ended up with a mostly free ride for CompSci at UMass.
 
 
 ![](/assets/2022-goals/family-umass.jpg)
