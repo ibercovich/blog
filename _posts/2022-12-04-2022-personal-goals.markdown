@@ -12,7 +12,7 @@ This document summarizes my goals for the year 2022. The goals themselves are no
 
 I don't believe to be predestined to anything, and my happiness does not depend on how my work is received by the world (beyond the natural desire to be accepted). I get the most purpose from having goals that help me develop in new ways. As long as I can see myself evolving across many dimensions and I can see a path forward, I generally feel purposeful. To put it simply, having things to do, which are also interesting, gives me purpose.
 
-**(score B) Watch less video content** (and improve quality): I am averaging ~5 hours of video content per week, mostly high quality tv shows, with the occasional movie. I don't watch tik-tok/youtube/etc for entertainment, but I do consume educational videos when that's the optimal medium, and I exclude it from the 7 hr cap.
+**(score B) Watch less video content** (and improve quality): I am averaging ~5 hours of video content per week, mostly high quality tv shows, with the occasional movie. I don't watch tik-tok/youtube/etc for entertainment, but I do consume educational videos when that's the optimal medium, and I exclude it from the 5 hr cap.
 
 **(score A) Get back to non-fiction reading:** I have consumed several audiobooks and intellectual podcasts, usually while exercising, probably 150-200 hours at 1.5 speed. I have not read non-fiction books, but I have subscribed to several newsletters which I read on a weekly basis, easily 200 hours of reading.
 
