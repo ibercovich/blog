@@ -196,7 +196,6 @@ I believe it's better to let wealth be a result of value creation through my own
 ![](/assets/2022-goals/ivan-nadia.jpg)
 ![](/assets/2022-goals/ivan-patricia-beach.jpg)
 ![](/assets/2022-goals/ivan-patricia-cormas-wedding.jpg)
-![](/assets/2022-goals/ivan-patricia-west-mass.jpg)
 ![](/assets/2022-goals/julia-patricia-baird.jpg)
 ![](/assets/2022-goals/LIB-Iv-Carry-Ivan.jpg)
 ![](/assets/2022-goals/mexico.jpg)
