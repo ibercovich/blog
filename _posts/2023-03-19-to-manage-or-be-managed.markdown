@@ -29,6 +29,8 @@ As someone who has had the opportunity to manage teams of 100 or more individual
 
 Until the next one.
 
+_image credit, Midjourney: “shakespear play with hamlet, wearing a business suit, talking to his skull, social realism style” (and then some iteration to get the right concept)_
+
 ~~~
 I asked my LLM of choice to complete the post to make sure I wasn’t missing anything critical. A few more basic, but important tips below.
 
