@@ -6,7 +6,7 @@ date:   2023-11-11 01:01:01 -0700
 categories:
 ---
 
-# Tiny Collaborative Eitor #
+# Tiny Collaborative Editor #
 
 I made a simple collaborative editor in preact, using firepad and firebase. Over the years, I've had many ideas for collaborative applications, most recently for collaborating with an LLM. Firepad is great but outdated and the sample code is not meant to be reactive. All dependencies are included via `<script>` tags. This is a great approach for prototyping small applications because it allows for fast debugging and virtually free deployment. Thanks to firebase, this application allows for authentication as well. 
 
