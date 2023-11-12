@@ -109,4 +109,6 @@ function LLM({ firepad }) {
 export default LLM;
 ```
 
+## Screenshot
+
 ![](/assets/tiny-collaborative-editor-screenshot.png)
