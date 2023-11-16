@@ -18,10 +18,6 @@
     font-size: 4rem;
     margin: 1rem 0;
     text-align: center;
-  
-    @media (max-width: 768px) { // Adjust the max-width as needed for your design
-      font-size: 2rem; // Set a smaller font size for mobile
-    }
   }
 
   &-line {
