@@ -6,7 +6,6 @@ date:   2023-03-19 01:01:01 -0700
 categories:
 ---
 
-# To Manage, or be Managed #
 ![](/assets/hamlet2.png)
 
 As someone who has had the opportunity to manage teams of 100 or more individuals, as well as being managed, I have gained some experience and knowledge that I hope can be useful to others. Through trial and error, and a willingness to learn from my mistakes, I have developed a few mental models that have helped me to navigate the challenges of leadership. In this post, I would like to share ten insights with you in the hopes that they may prove helpful in your own professional journey.

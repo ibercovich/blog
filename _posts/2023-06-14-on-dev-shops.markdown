@@ -6,8 +6,6 @@ date:   2023-06-14 01:01:01 -0700
 categories:
 ---
 
-# On Dev Shops #
-
 Companies often turn to software development consulting shops for a helping hand to build or enhance their products. At first glance, this appears to be a rational decision, but hidden beneath short-term benefits, there are darker repercussions with long-lasting implications that can significantly impact both the business and team dynamics.
 
 Consider, for instance, the process of removing a consultant after they have accumulated institutional knowledge. The length of time they have worked for the company makes termination exponentially more difficult. As a result, consulting partnerships can rapidly settle into an awkward, entrenching pattern, and the time it takes to safely end the relationship could drag on for months. 

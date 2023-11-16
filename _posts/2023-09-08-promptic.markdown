@@ -6,8 +6,6 @@ date:   2023-09-08 01:01:01 -0700
 categories:
 ---
 
-# Promptic UI concept #
-
 I made a simple UI in preact to construct LLM prompts from predefined options. The idea is to decouple a few things in such a way that they can be mixed and matched. There is the prompt category, in this case a tutor, which includes a variety of suboptions, such as difficulty, teaching style, subject, etc. Separately, there is a presentation format selector, which loads different preact compoents and also instructs the LLM to return a response in a matching format, in the current example that is screenshots.
 
 ## Formatter Example

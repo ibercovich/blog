@@ -6,8 +6,6 @@ date:   2023-10-21 01:01:01 -0700
 categories:
 ---
 
-# VC Portfolio Simulator
-
 This document is intended to help those interested in venture capital think about the asset class and potential for returns. Unless specified, all results are net to LPs, so carry of 20% is already discounted where appropriate.
 
 As an exercise, I built a simulation that attempts to recreate historical performance tracked by Cambridge Associates. I took data from [this 2020 report](https://www.cambridgeassociates.com/wp-content/uploads/2020/07/WEB-2020-Q1-USVC-Benchmark-Book.pdf) (page 14), and filtered it for the 10 year period between 2004 and 2013. I chose that period because the vintages surrounding the internet bubble show unusually high volatility, and discarded years closer to 2020 given that it takes about 7 years for the TVPI to stabilize.

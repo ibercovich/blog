@@ -6,8 +6,6 @@ date:   2023-11-13 01:01:01 -0700
 categories:
 ---
 
-# On “Overemployment” #
-
 ![](/assets/overemployment.webp)
 
 I recently discovered an [article on overemployment](https://www.businessinsider.com/overemployed-workers-secret-two-multiple-jobs-salaries-tech-tips-2023-11), a term referring to holding multiple full-time jobs secretly. While some, often low-income individuals, juggle multiple part-time roles out of necessity, overemployment typically involves individuals in remote, white-collar, often tech-based, roles. The article portrays these employees positively, as exceptionally productive. I see it differently.

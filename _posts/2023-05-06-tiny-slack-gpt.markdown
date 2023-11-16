@@ -6,8 +6,6 @@ date:   2023-05-06 01:01:01 -0700
 categories:
 ---
 
-# Tiny Slack GPT #
-
 I made a simple, single file script to run GPT in your slack organization. It can participate in conversations when mentioned, summarize long threads, and query a sqlite database containing an organizational knowledge-base (in ScOp's case, a list of investments).
 
 [Fork here](https://github.com/ibercovich/tiny-slack-gpt) 

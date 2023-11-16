@@ -6,8 +6,6 @@ date:   2022-12-03 01:01:01 -0700
 categories:
 ---
 
-# Startup Compensation #
-
 In the startup world, many conversations stall while discussing compensation. This is unsurprising, given that the upside is composed of cash, stock options, growth prospects, and possibly a bespoke role. As an investor, I find myself stepping in as the matchmaker to overcome this final hurdle and get to a mutually agreed offer. To make this process more repeatable, I have come up with a simple framework to facilitate compensation discussions.
 
 ## Framework ##
