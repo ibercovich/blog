@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On Over Employment"
+title:  "On Over-Employment"
 author: Ivan Bercovich
 date:   2023-11-13 01:01:01 -0700
 categories:
