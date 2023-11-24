@@ -1,0 +1,152 @@
+---
+layout: post
+title:  "Personal Goals 2023"
+author: Ivan Bercovich
+date:   2023-12-04 01:01:01 -0700
+categories:
+---
+
+This document summarizes my goals for the year 2023. The goals themselves are not listed in any particular order, but they are grouped by category. I am doing this for myself. Writing this down forces me to spend a few hours towards the end of the year to reflect on and appreciate everything that I've done. As a secondary objective, something here might inspire someone else to follow through on their goals.
+
+## Purpose (profession, career, interests)
+
+I don't believe to be predestined to anything, but I want to work on projects that are relevant. I don't think relevant is strictly the same thing as "good". In fact, "good" is often an excuse for justifying things that don't matter. One approach is to be utilitarian: work on things that will have a durable contribution to GDP. I get the most purpose from having goals that help me develop in new ways. If I can see myself evolving across many dimensions and see a path forward, I generally feel purposeful. To put it simply, having things to do, which are also challenging, interesting, and important, gives me purpose.
+
+**(score A) Spend at least 100 works coding/studying ML** (aka AI): I built several side projects that made use of LLMs. (1) [Tiny Slack GPT](https://blog.ivanbercovich.com/2023/tiny-slack-gpt) is a Slack bot which takes entire conversations as context and can do things like summarizing the viewpoints of different participants in a discussion. It can also assist in a discussion by pulling excerpts from our organization's documents and database. (2) [Promptic](https://blog.ivanbercovich.com/2023/promptic) is a UI to construct dynamic prompts by selecting options. I made this as an experiment for HeyTutor where we were exploring AI lesson creation. The idea is to select subject, difficulty level, learning style, etc., and feed that to an LLM with zero prompt engineering. (3) I prototyped an LLM-based scraper to extract KPIs (i.e.: ARR, ACV) from notes/transcripts from conversations with founders. (4) I prepared an information-dense presentation that discusses implications of AI for the broader economy and presented in person at various venues. 
+
+**(score A) Work with 3 new people I admire:** One of the benefits of being an investor at [ScOp](https://scopvc.com) is getting to work with a portfolio of companies. It also means there are many opportunities to form new professional relationships with people I already know and respect. This year, I was involved in recruiting 4 CTOs: Alex Wilson to [Cloverleaf](https://cloverleaf.me), Phil Gabardo to [Lionize](https://lionize.ai), Tumas Rackaitis to [Rogo](https://rogodata.com), and David Seigle who I directly hired during my time at [HeyTutor](https://heytutor.com). Also at HeyTutor, I had the pleasure to collaborate very closely with Jen Sheffield, now the CEO. Later in the year, I also got to work with my former colleague Heike Schirmer as an executive in residence at ScOp, previously a Director at Amazon Alexa.
+
+**(score B) Work more closely with ML companies in portfolio:** We have many companies in ScOp's portfolio doing interesting work in ML/AI, including [Yogi](https://meetyogi.com), [Rogo](https://rogodata.com), [Unwrap](https://unwrap.ai), [Cloverleaf](https://cloverleaf.me), [Customers.ai](https://customers.ai), and [Flip](https://flipcx.com). While I've spent a fair amount of time looking at their technology challenges and providing support where possible, I still believe my impact could be higher.
+
+**(score A) Write 2 blog posts:** I wrote 5 posts, but LLMs are making writing too easy, so I no longer think this is an important goal. In fact I've been thinking about the future of authentic thought leadership. I used to believe that if I had the best ghost writer working for me 24/7, I would be 100x more successful. But now everyone has a great ghost writer. This means that content is no longer trustworthy or valuable. What comes next? So far, I can't think of many options other than returning to in-person interactions.
+
+**(score F) Complete transaction of _Redacted_:** I thought there was a 50/50 shot at completing a portco transaction in 2023, but it will have to wait. The company is thriving, though, so when the time comes it will be big.
+
+&nbsp; 
+
+### Selection of media I consumed
+
+    Video       
+    --------------------------------  
+    The Fablemans  
+    Oppenheimer    
+    The Menu  
+    Poker Face   
+    Silo    
+    Barry     
+    Living  
+    The Last of Us  
+    Tulsa King
+    Fargo          
+    Capernaum
+    The Covenant
+    The Killer
+    The Whale
+    Daliland
+    Armageddon Time
+    Air (Nike)
+    All Quiet in the Western Front
+    [To Be]*1 (https://shorturl.at/fAG06)
+    Andrej Karpathy's YouTube on ML
+  
+    Text / Audio
+    ----------------------------------
+    [A Fermi Paradox Story] (https://shorturl.at/efqtQ)
+    Chip Wars
+    The Brain that Changes Itself
+    How to do Great Work by Paul Graham
+    Founders #311 James Cameron
+    Founders #263 and #264 Edwin Land
+    Founders #260 Dee Hock
+    Invest like the Best, Palmer Luckey
+    Invest like the Best, Patrick & John Collison
+    Invest like the Best, Josh Kushner
+    Invest like the Best, Bessemer
+    Invest like the Best, Doug Leone
+    
+
+    
+<sub><sup><sub><sup>*1 = https://www.nfb.ca/film/to_be/embed/player/</sup></sub></sup></sub>  
+<sub><sup><sub><sup>*2 = https://www.gwern.net/docs/fiction/2011-yvain-fermiparadox.html</sup></sub></sup></sub>
+
+
+&nbsp; 
+
+## Connection (partnership, intimacy, family, friends)
+
+I appreciate the meaningful connections that I’ve made throughout my life, including those that were powerful but short lived. Relationships are an important part of life, and I hope my future includes rich experiences with old and new friends. Unfortunately, everyone's circumstances and interests change, and that means relationships that were once fresh and relevant tend to fall into the background. My observation is that most people allocate significant time and energy to maintain relationships that would otherwise go stale, whereas I'm okay with some relationships dissipating and others flourishing organically. Having a lot of time to myself is extremely important. I enjoy spending most of my weekends diving deep into a new topic, usually tech related, or hiking/running/biking. This creates some tension with maintaining casual relationships, as they usually involve activities in the weekends. Furthermore, casual social activities tend to not start on time and drag on longer than anticipated, which ends up eating into my coveted solo time. I generally prefer social time involving intellectual conversations, shared projects, physical activity, or interesting/new experiences. I believe most people want to separate their personal life (including friends) from work, but for me the ideal friendship is one where there is a high degree of professional intersection. My relationships with family are predicated on the same parameters as other relationships: a history of interactions, common interests, compatible personalities. Fortunately, I was able to find a life partner that shares many of these characteristics. Given that she’s further in the autism spectrum, I’ve been able to reconcile some of these personality traits with my own neurodiversity. 
+
+**(score A) Greece Trip with Julia:** Julia and I had an amazing trip to Greece in the summer. She had taken a classics class and wanted to see and feel the ruins. We rented a car and drove hundreds of miles to visit several ruins. Among other things, I learned that derelict columns are very very important to the Greek. We walked a ton, ate great food, took a gazillion pictures, and generally strengthened our bond.
+ 
+**(score C) 3 Trips with Friends:** I had more than 3 trips with friends, but I also bailed on a backpacking trip in Alaska with Condog, and I had to cancel a mountaineering trip with Dan due to an important work obligation. Even though I don't regret these decisions, I don't like being unreliable. It's one thing to deprioritize casual social events, and an entirely different one to make weak commitments. This is something I need to improve on. Fortunately, I still had the chance to go skiing with many friends in Colo and Mammoth, and spend time in Reno with the Brain Burn crew.
+
+**(score A) Go to Outside Lands with Julia:** This was our second time going to the event together, so now it's a tradition. Weather was very nice, much less sunny than last year. The most notable moment (a loooong moment) was when we decided to make a front-row attempt during the Foo Fighters performance. We made the call at 2 or 3 pm and fought our way to the absolute best spot, front-center, right by the railings, and watched the performance 8-10 pm. The weather and empty bladders were essential for the success of the mission. Not sure if I would do it again, but it was fun to do it once.
+
+&nbsp; 
+
+## Fitness (strength, endurance, physiology, nutrition)
+
+I feel better when I eat healthy and exercise. Lately, I've started to pay attention to my aging and experimenting with methods that can soften the transition, such as being more careful with sun exposure and avoiding products that dry my skin. I'm best at sticking with goals when there are clear KPIs (that move up), so I am an avid user of Strava and do my best to keep a strict fasting schedule.
+
+**(score A) Go on 75 runs / 150 miles:** 81 runs, 206 miles, 23k ft elevation. I have been less focused on cardio, so I gave myself a relatively easy goal. Most recently, My outdoor running has been negligible. Indoor cardio is just as good, but harder to measure, so I need to find an alternative or pick up my running again.
+
+**(score B-) Do Gibraltar 12 times:** Gibraltar is a local bike route in Santa Barbara that involves about 4000ft of elevation gain, so this would have been 48k ft. I did about 60 one-third-Gibraltars, totalling 60k ft over 434 miles.
+
+**(score B) Pick-up New Workout:** I wanted to keep things interesting with a new sport. I considered some edgy candidates such as roller blading but ended up keeping it simple. I started with Yoga in the first half of the year, but then switched to weightlifting, which is sort of cheating because weightlifting was its own goal. But I've been very dedicated, spending about 5 hours a week lifting, so there isn't time for anything else.
+
+**(score B) Start Weightlifting:** Doing well but started too late in the year.
+
+**(score B) Manage Sun Exposure:** Mostly doing well except a monstrous sunburn the last day of Burning Man.
+
+**(score A) Lower Cholesterol:** Started taking simvastatin. Cholesterol dropped and I'm feeling great-- no obvious side effects. [Guava](https://guavahealth.com) shows how I finally dropped total cholesterol after 11 years of tracking it.
+
+![cholesterol readings](../assets/2023-goals/guava-cholesterol.png)
+
+&nbsp; 
+
+### Supplements I'm taking
+
+    Name           Actual Form                          Quantity
+    -----------    --------------------------------     ----------------
+    Calcium        calcium citrate                      500 mg        
+    Vitamin D3     cholecalciferol                      10 mcg (400 IU) 
+    Magnesium      magnesium bisglycinate               133 mg 
+    Vitamin K2     MK-7                                  
+    Fish Oil       D3 as cholecalciferol                25 mcg (1000 IU) 
+    Fish Oil       omega3                               1180 mg 
+    Fish Oil       EPA                                  665 mg
+    Fish Oil       DHA                                  445 mg
+    Fish Oil       Other                                70 mg
+    Statin         Simvastatin                      
+    NMN            beta nicotinamide mononucleotide     250 mg
+
+
+&nbsp; 
+
+## Experience (travel, adventure, surprise, learning)
+
+As I've accumulated more experiences, life has become more monotonous. While my past self was concerned (even afraid) of eventual monotony, today I appreciate the opportunity to pursue a continually refined routine. Monotony allows me to eat more healthily, exercise more often, waste less time on things I don't deem important, and quickly course-correct if I'm disappointed in myself. However, I also believe it is important to be able to look back and quickly recall important/interesting moments. Due to our brain's ability to constantly improve our pattern recognition, similar experiences are compressed together, becoming hard to recall individually without a relevant queue. On the other hand, novel experiences tend to invade my consciousness even when I'm not seeking them, providing a constant reminder of a life thoroughly lived. To this end, I try to accrue experience outside of my daily routine each year, though with time I've realized these infrequent events are also a routine but at a more macro scale (e.g. try to ski each season).
+
+**(score B) Ski 14 days:** ..
+
+**(score F) Summer Festival:** ..
+
+**(score A) Burning Man:** ..
+
+**(score F) Backpacking Trip:** ..
+
+**(score F) Mountaineering Trip:** ..
+
+&nbsp; 
+
+## Legacy (children, mentoring, enterprise)
+
+I am fortunate to have my step-daughter Julia in my life, in spite of not having biological children. We've only shared 4 years under the same roof-- although COVID densified some of that time-- but I believe that this was enough to bootstrap a life long relationship. For people outside of my family, I've had the highest impact when contributing to an individual's professional development. This first requires finding people that want to be mentored 1-1 whose needs are aligned with my strengths. It's also important to have good rapport and get into a flow. For example, for me it is important that a mentee keeps me updated and reaches out from time to time-- I will take initiative initially, but eventually I expect a balanced effort. In spite of my willingness to do so and the relatively simple criteria, mentoring relationships don't emerge often, so I try to put myself out there to meet new young people and always be available to those that I know.
+
+
+**(score A) Adopt Julia:** I thought it would be a nice gesture to make our relationship official, even if there aren't practical advantages. The process was very easy. We avoided doing the adoption while she was underage, because even if a kid is 17 and they've been living with a step-parent for 5 years, the government will send child services and do the whole ordeal before an adoption is authorized. On the other hand, adopting an adult is trivially easy. So easy, that I suspect you could adopt someone without their knowledge. 
+
+&nbsp; 
+
+## Misc Photos
+
