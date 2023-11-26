@@ -20,55 +20,40 @@ I don't believe to be predestined to anything, but I want to work on projects th
 
 **(score A) Write 2 blog posts:** I wrote 5 posts, but LLMs are making writing too easy, so I no longer think this is an important goal. In fact I've been thinking about the future of authentic thought leadership. I used to believe that if I had the best ghost writer working for me 24/7, I would be 100x more successful. But now everyone has a great ghost writer. This means that content is no longer trustworthy or valuable. What comes next? So far, I can't think of many options other than returning to in-person interactions.
 
+**(score A) Attend 1 AI conference:** NeurIPS
+
 **(score F) Complete transaction of _Redacted_:** I thought there was a 50/50 shot at completing a portco transaction in 2023, but it will have to wait. The company is thriving, though, so when the time comes it will be big.
 
 &nbsp; 
 
 ### Selection of media I consumed
 
-    Video       
-    --------------------------------  
-    The Fablemans  
-    Oppenheimer    
-    The Menu  
-    Poker Face   
-    Silo    
-    Barry     
-    Living  
-    The Last of Us  
-    Tulsa King
-    Fargo          
-    Capernaum
-    The Covenant
-    The Killer
-    The Whale
-    Daliland
-    Armageddon Time
-    Air (Nike)
-    All Quiet in the Western Front
-    [To Be]*1 (https://shorturl.at/fAG06)
-    Andrej Karpathy's YouTube on ML
-  
-    Text / Audio
-    ----------------------------------
-    [A Fermi Paradox Story] (https://shorturl.at/efqtQ)
-    Chip Wars
-    The Brain that Changes Itself
-    How to do Great Work by Paul Graham
-    Founders #311 James Cameron
-    Founders #263 and #264 Edwin Land
-    Founders #260 Dee Hock
-    Invest like the Best, Palmer Luckey
-    Invest like the Best, Patrick & John Collison
-    Invest like the Best, Josh Kushner
-    Invest like the Best, Bessemer
-    Invest like the Best, Doug Leone
+    Movies & Miniseries                 Shows  
+    --------------------------------    --------------------------------   
+    The Fablemans                       Tulsa King
+    Oppenheimer                         Silo 
+    The Menu                            Barry 
+    Poker Face                          Fargo (series)
+    Lessons in Chemistry                The Last of Us
+    Capernaum 
+    The Covenant                        Audio & Text
+    The Killer                          ----------------------------------
+    Your Honor                          Founders #311 James Cameron
+    The Whale                           Founders #263 and #264 Edwin Land
+    Living                              Founders #260 Dee Hock
+    Daliland                            Invest like the Best, Palmer Luckey
+    Armageddon Time                     Invest like the Best, Patrick Collison
+    Air (Nike)                          Invest like the Best, Josh Kushner
+    All Quiet in the Western Front      Invest like the Best, Bessemer
+                                        Invest like the Best, Doug Leone
+    Misc Video                          How to do Great Work by Paul Graham
+    --------------------------------    The Brain that Changes Itself
+    To Be (link #1)                     Chip Wars
+    Andrej Karpathy's YouTube           A Fermi Paradox Story (link #2)
     
-
     
-<sub><sup><sub><sup>*1 = https://www.nfb.ca/film/to_be/embed/player/</sup></sub></sup></sub>  
-<sub><sup><sub><sup>*2 = https://www.gwern.net/docs/fiction/2011-yvain-fermiparadox.html</sup></sub></sup></sub>
-
+<sub><sup>link #1: [To Be](https://www.nfb.ca/film/to_be/embed/player/)</sup></sub>  
+<sub><sup>link #2: [A Fermi Paradox Story](https://www.gwern.net/docs/fiction/2011-yvain-fermiparadox.html)</sup></sub>
 
 &nbsp; 
 
@@ -78,7 +63,7 @@ I appreciate the meaningful connections that I’ve made throughout my life, inc
 
 **(score A) Greece Trip with Julia:** Julia and I had an amazing trip to Greece in the summer. She had taken a classics class and wanted to see and feel the ruins. We rented a car and drove hundreds of miles to visit several ruins. Among other things, I learned that derelict columns are very very important to the Greek. We walked a ton, ate great food, took a gazillion pictures, and generally strengthened our bond.
  
-**(score C) 3 Trips with Friends:** I had more than 3 trips with friends, but I also bailed on a backpacking trip in Alaska with Condog, and I had to cancel a mountaineering trip with Dan due to an important work obligation. Even though I don't regret these decisions, I don't like being unreliable. It's one thing to deprioritize casual social events, and an entirely different one to make weak commitments. This is something I need to improve on. Fortunately, I still had the chance to go skiing with many friends in Colo and Mammoth, and spend time in Reno with the Brain Burn crew.
+**(score B) 3 Trips with Friends:** I had more than 3 trips with friends, but I also bailed on a backpacking trip in Alaska with Condog, and I had to cancel a mountaineering trip with Dan due to an important work obligation. Even though I don't regret these decisions, I don't like being unreliable. It's one thing to deprioritize casual social events, and an entirely different one to make weak commitments. This is something I need to improve on. Fortunately, I still had the chance to go skiing with many friends in Colo and Mammoth, and spend time in Reno with the Brain Burn crew. I also planned a last minute work trip to NYC with Heike which ended up being great.
 
 **(score A) Go to Outside Lands with Julia:** This was our second time going to the event together, so now it's a tradition. Weather was very nice, much less sunny than last year. The most notable moment (a loooong moment) was when we decided to make a front-row attempt during the Foo Fighters performance. We made the call at 2 or 3 pm and fought our way to the absolute best spot, front-center, right by the railings, and watched the performance 8-10 pm. The weather and empty bladders were essential for the success of the mission. Not sure if I would do it again, but it was fun to do it once.
 
@@ -107,18 +92,19 @@ I feel better when I eat healthy and exercise. Lately, I've started to pay atten
 ### Supplements I'm taking
 
     Name           Actual Form                          Quantity
-    -----------    --------------------------------     ----------------
+    -----------    --------------------------------     ----------
     Calcium        calcium citrate                      500 mg        
-    Vitamin D3     cholecalciferol                      10 mcg (400 IU) 
-    Magnesium      magnesium bisglycinate               133 mg 
-    Vitamin K2     MK-7                                  
-    Fish Oil       D3 as cholecalciferol                25 mcg (1000 IU) 
+    Vitamin D3     cholecalciferol                      125 mcg
+    Vitamin K2     MK-4                                 100 mcg
+    Biotin         d-Biotin                             10 mg  
+    Folate         folic acid                           800 mcg                                
+    Fish Oil       D3 as cholecalciferol                25 mcg
     Fish Oil       omega3                               1180 mg 
     Fish Oil       EPA                                  665 mg
     Fish Oil       DHA                                  445 mg
     Fish Oil       Other                                70 mg
-    Statin         Simvastatin                      
-    NMN            beta nicotinamide mononucleotide     250 mg
+    Statin         Simvastatin                          20 mg
+    NAD+           nicotinamide adeninr dinucleotide    1600 mg
 
 
 &nbsp; 
@@ -141,12 +127,57 @@ As I've accumulated more experiences, life has become more monotonous. While my 
 
 ## Legacy (children, mentoring, enterprise)
 
-I am fortunate to have my step-daughter Julia in my life, in spite of not having biological children. We've only shared 4 years under the same roof-- although COVID densified some of that time-- but I believe that this was enough to bootstrap a life long relationship. For people outside of my family, I've had the highest impact when contributing to an individual's professional development. This first requires finding people that want to be mentored 1-1 whose needs are aligned with my strengths. It's also important to have good rapport and get into a flow. For example, for me it is important that a mentee keeps me updated and reaches out from time to time-- I will take initiative initially, but eventually I expect a balanced effort. In spite of my willingness to do so and the relatively simple criteria, mentoring relationships don't emerge often, so I try to put myself out there to meet new young people and always be available to those that I know.
+I am fortunate to have my ~~step-~~daughter Julia in my life, in spite of not having biological children. For people outside of my family, I've had the highest impact when contributing to an individual's professional development. This requires finding people that want to have that kind of relationship, and whose needs are aligned with my strengths. I used to think of this exercise as "mentoring", but in hindsight I've also had impact on peers/friends in addition to mentees. I just enjoy talking about career and personal goals and will do it with anyone that will engage. 
 
 
 **(score A) Adopt Julia:** I thought it would be a nice gesture to make our relationship official, even if there aren't practical advantages. The process was very easy. We avoided doing the adoption while she was underage, because even if a kid is 17 and they've been living with a step-parent for 5 years, the government will send child services and do the whole ordeal before an adoption is authorized. On the other hand, adopting an adult is trivially easy. So easy, that I suspect you could adopt someone without their knowledge. 
+
+**(score A) Mentor 3 Young People:**
+
+**(score A) Support 3 People in their Professional Journey :** David, Alex, Phil, Deven, Heike, Jen
 
 &nbsp; 
 
 ## Misc Photos
 
+![Alt text](<../assets/2023-goals/santa-barbara-flood.gif>)
+![Alt text](../assets/2023-goals/julia-ivan-7-falls.png)
+![Alt text](../assets/2023-goals/diego-ivan-santa-barbara.jpg)
+![Alt text](../assets/2023-goals/julia-ivan-la-red-hot-chilli-peppers-muse.png)
+![Alt text](../assets/2023-goals/ivan-ski-fall.gif)
+![Alt text](../assets/2023-goals/ivan-skinning.png)
+![Alt text](../assets/2023-goals/ivan-dave-ski.png)
+![Alt text](../assets/2023-goals/ivan-misc-ski.png)
+![Alt text](../assets/2023-goals/ivan-mongolia-vail.gif)
+![Alt text](../assets/2023-goals/ivan-patricia-fig-mountain.gif)
+![Alt text](../assets/2023-goals/ivan-patricia-sb-snow.png)
+![Alt text](../assets/2023-goals/ivan-serena-crying.png)
+![Alt text](../assets/2023-goals/ivan-vail.png)
+![Alt text](../assets/2023-goals/ivan-alabama-hills.png)
+![Alt text](../assets/2023-goals/mammoth-record-snow.png)
+![Alt text](../assets/2023-goals/ivan-andre-lucidity.gif)
+![Alt text](../assets/2023-goals/ivan-iv-lucidity.jpg)
+![Alt text](../assets/2023-goals/ivan-dave-garrit.jpg)
+![Alt text](../assets/2023-goals/ivan-gives-koiffman-shot.jpg)
+![Alt text](../assets/2023-goals/ivan-scop-team-escape.jpg)
+![Alt text](../assets/2023-goals/ivan-mother.jpg)
+![Alt text](../assets/2023-goals/ivan-julia-acropolis-2.png)
+![Alt text](../assets/2023-goals/ivan-julia-acropolis.gif)
+![Alt text](../assets/2023-goals/ivan-julia-marathon.png)
+![Alt text](../assets/2023-goals/ivan-julia-cav-greece-2.gif)
+![Alt text](../assets/2023-goals/ivan-julia-cave-greece-1.gif)
+![Alt text](../assets/2023-goals/ivan-ryan-unwrap.jpg)
+![Alt text](../assets/2023-goals/ivan-perry-babby.jpg)
+![Alt text](../assets/2023-goals/ivan-julia-osl-1.png)
+![Alt text](../assets/2023-goals/outside-lands.png)
+![Alt text](../assets/2023-goals/burning-man-opera.gif)
+![Alt text](../assets/2023-goals/burning-man.png)
+![Alt text](../assets/2023-goals/burning-man-camp-break.png)
+![Alt text](../assets/2023-goals/ivan-ivgeni-pizza.png)
+![Alt text](../assets/2023-goals/brainburn-logo.png)
+![Alt text](../assets/2023-goals/ivan-patricia-schnurrs-wedding-vineyard.png)
+![Alt text](../assets/2023-goals/ivan-patricia-schnurrs-wedding.jpg)
+![Alt text](../assets/2023-goals/ivan-patricia-ryans-wedding.jpg)
+![Alt text](../assets/2023-goals/ivan-patricia-airshow.png)
+![Alt text](../assets/2023-goals/ivan-heike-nyc.gif)
+![Alt text](../assets/2023-goals/ivan-shaked-david-nyc.jpg)
