@@ -6,9 +6,7 @@ date:   2023-11-25 01:01:01 -0700
 categories:
 ---
 
-[.csv format](../assets/business-models.csv)
-[google spreadhseet](https://docs.google.com/spreadsheets/d/1NFcvoDnqqBoRO7SgxEFm2SPXTXgy07XmpWef6_tWa4M)
-
+This was a good exercise in collaboration with an LLM. I first made a spreadsheet by hand, where I dumped my current understanding of various business models for startups, based of what I have seen over the past several years. Then I asked the LLM to simplify it, which produced the text below, and then finally I asked to re-write as a csv. I left both versions on [this google spreadsheet](https://docs.google.com/spreadsheets/d/1NFcvoDnqqBoRO7SgxEFm2SPXTXgy07XmpWef6_tWa4M), and here is a [csv of the LLM version only](../assets/business-models.csv)
 
 ## Open Source Ecosystem 
 
