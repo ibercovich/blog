@@ -167,6 +167,20 @@ I am fortunate to have my step-daughter Julia in my life, in spite of not having
 
 &nbsp; 
 
+## Wealth
+
+I believe it's better to let wealth be a result of value creation through my own career, than a process of extracting value from purely financial opportunities. I don't think there is anything wrong with the latter, and I've made moves in that direction, but in general I am happier if I spend less time thinking about wealth maximization so directly. However, once some wealth has been acquired, I do believe it's important to continue to diversify over time. I believe that wealth is Lindy, which means that it takes time to be truly diversified (thus making wealth more durable), beyond the basic RE/ETF/Bonds/etc. I use these goals to think about capital preservation and diversification, while I think about my purpose and career as the means with which new wealth is created. While I don't believe the pursuit of wealth makes me happy, I do believe wealth itself does facilitate the continuous pursuit of happiness.
+
+**(score B) Finalize Real Estate Project**: we have an awesome RE project which is the brainchild of Danny, and we were planning to do some construction this year, but didn't get to it due to permitting/etc. However, this is a great project that has low risk, so generally I am happy with this venture.
+
+**(score D) Reduce stocks and move to ETFs:** I succeeded to the extent that the value of my stocks crashed HARD, so on a percentage basis I now have more index funds. I should have exited individual stock positions sooner. Furthermore, I speculated that the market had hit bottom too early and started buying tech stocks in Jan/Feb 2022, which was way too early. Most embarrassingly, I am now a professional investor, and I do pay a lot of attention when picking companies, and yet when selecting public stocks I did so with no data. You live, you learn.
+
+**(score ?) Allocate mortgage money**: I took some money out of our house on an interest only loan with great terms, and I was hoping to allocate it over the coming year. I have not allocated much of it, but in retrospect I think this is a good thing. However, since it's unallocated, I can still make mistakes, so I'm keeping it open.
+
+**(score A+) Help Julia get scholarships:** Patricia and I put a lot of effort into helping Julia get some scholarships. It's unfair that kids with savvy parents, even if they are well off, have a better shot at certain scholarships than needy kids, but that's how the game works. We played the game and Julia ended up with a mostly free ride for CompSci at UMass.
+
+&nbsp; 
+
 ## Misc Photos
 
 ![](/assets/2022-goals/family-umass.jpg)
