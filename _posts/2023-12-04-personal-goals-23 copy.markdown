@@ -134,7 +134,7 @@ I am fortunate to have my ~~step-~~daughter Julia in my life, in spite of not ha
 
 **(score A) Mentor 3 Young People:**
 
-**(score A) Support 3 People in their Professional Journey :** David, Alex, Phil, Deven, Heike, Jen
+**(score A) Be Helpful to th Professional Journey of 3 People :** David, Alex, Phil, Deven, Heike, Jen
 
 &nbsp; 
 
