@@ -148,40 +148,65 @@ I am fortunate to have my ~~step-~~daughter Julia in my life, in spite of not ha
 
 ## Misc Photos
 
+Flooding in Santa Barbara
 ![Alt text](<../assets/2023-goals/santa-barbara-flood.gif>)
 ![Alt text](../assets/2023-goals/julia-ivan-7-falls.png)
+
+Diego visiting from Israel
 ![Alt text](../assets/2023-goals/diego-ivan-santa-barbara.jpg)
 ![Alt text](../assets/2023-goals/julia-ivan-la-red-hot-chilli-peppers-muse.png)
+
+More skiing
 ![Alt text](../assets/2023-goals/ivan-skinning.png)
 ![Alt text](../assets/2023-goals/ivan-dave-ski.png)
 ![Alt text](../assets/2023-goals/ivan-misc-ski.png)
 ![Alt text](../assets/2023-goals/ivan-mongolia-vail.gif)
+![Alt text](../assets/2023-goals/ivan-vail.png)
+
+Snow in Santa Barbara
 ![Alt text](../assets/2023-goals/ivan-patricia-fig-mountain.gif)
 ![Alt text](../assets/2023-goals/ivan-patricia-sb-snow.png)
+
+I'm great with toddlers...
 ![Alt text](../assets/2023-goals/ivan-serena-crying.png)
-![Alt text](../assets/2023-goals/ivan-vail.png)
+![Alt text](../assets/2023-goals/ivan-andre-lucidity.gif)
+![Alt text](../assets/2023-goals/ivan-perry-babby.jpg)
+
+The Sierras
 ![Alt text](../assets/2023-goals/ivan-alabama-hills.png)
 ![Alt text](../assets/2023-goals/mammoth-record-snow.png)
-![Alt text](../assets/2023-goals/ivan-andre-lucidity.gif)
-![Alt text](../assets/2023-goals/ivan-iv-lucidity.jpg)
+
+Dave's Wedding
 ![Alt text](../assets/2023-goals/ivan-dave-garrit.jpg)
 ![Alt text](../assets/2023-goals/ivan-gives-koiffman-shot.jpg)
+
+ScOp's offsite
 ![Alt text](../assets/2023-goals/ivan-scop-team-escape.jpg)
+
+More Family Photos
 ![Alt text](../assets/2023-goals/ivan-mother.jpg)
 ![Alt text](../assets/2023-goals/ivan-julia-acropolis-2.png)
 ![Alt text](../assets/2023-goals/ivan-julia-marathon.png)
 ![Alt text](../assets/2023-goals/ivan-julia-cave-greece-1.gif)
-![Alt text](../assets/2023-goals/ivan-ryan-unwrap.jpg)
-![Alt text](../assets/2023-goals/ivan-perry-babby.jpg)
 ![Alt text](../assets/2023-goals/ivan-julia-osl-1.png)
 ![Alt text](../assets/2023-goals/outside-lands.png)
+![Alt text](../assets/2023-goals/ivan-patricia-airshow.png)
+
+More Burning Man
 ![Alt text](../assets/2023-goals/burning-man.png)
 ![Alt text](../assets/2023-goals/burning-man-camp-break.png)
 ![Alt text](../assets/2023-goals/ivan-ivgeni-pizza.png)
 ![Alt text](../assets/2023-goals/brainburn-logo.png)
+![Alt text](../assets/2023-goals/ivan-iv-lucidity.jpg)
+
+Schnurr's Wedding
 ![Alt text](../assets/2023-goals/ivan-patricia-schnurrs-wedding-vineyard.png)
 ![Alt text](../assets/2023-goals/ivan-patricia-schnurrs-wedding.jpg)
+
+Ryan's Wedding
 ![Alt text](../assets/2023-goals/ivan-patricia-ryans-wedding.jpg)
-![Alt text](../assets/2023-goals/ivan-patricia-airshow.png)
+![Alt text](../assets/2023-goals/ivan-ryan-unwrap.jpg)
+
+NYC!
 ![Alt text](../assets/2023-goals/ivan-heike-nyc.gif)
 ![Alt text](../assets/2023-goals/ivan-shaked-david-nyc.jpg)
