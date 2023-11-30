@@ -148,14 +148,6 @@ I am fortunate to have my ~~step-~~daughter Julia in my life, in spite of not ha
 
 ## Misc Photos
 
-Flooding in Santa Barbara
-![Alt text](<../assets/2023-goals/santa-barbara-flood.gif>)
-![Alt text](../assets/2023-goals/julia-ivan-7-falls.png)
-
-Diego visiting from Israel
-![Alt text](../assets/2023-goals/diego-ivan-santa-barbara.jpg)
-![Alt text](../assets/2023-goals/julia-ivan-la-red-hot-chilli-peppers-muse.png)
-
 More skiing
 ![Alt text](../assets/2023-goals/ivan-skinning.png)
 ![Alt text](../assets/2023-goals/ivan-dave-ski.png)
@@ -166,6 +158,10 @@ More skiing
 Snow in Santa Barbara
 ![Alt text](../assets/2023-goals/ivan-patricia-fig-mountain.gif)
 ![Alt text](../assets/2023-goals/ivan-patricia-sb-snow.png)
+
+Flooding in Santa Barbara
+![Alt text](<../assets/2023-goals/santa-barbara-flood.gif>)
+![Alt text](../assets/2023-goals/julia-ivan-7-falls.png)
 
 I'm great with toddlers...
 ![Alt text](../assets/2023-goals/ivan-serena-crying.png)
@@ -191,6 +187,7 @@ More Family Photos
 ![Alt text](../assets/2023-goals/ivan-julia-osl-1.png)
 ![Alt text](../assets/2023-goals/outside-lands.png)
 ![Alt text](../assets/2023-goals/ivan-patricia-airshow.png)
+![Alt text](../assets/2023-goals/julia-ivan-la-red-hot-chilli-peppers-muse.png)
 
 More Burning Man
 ![Alt text](../assets/2023-goals/burning-man.png)
@@ -210,3 +207,6 @@ Ryan's Wedding
 NYC!
 ![Alt text](../assets/2023-goals/ivan-heike-nyc.gif)
 ![Alt text](../assets/2023-goals/ivan-shaked-david-nyc.jpg)
+
+Diego visiting from Israel
+![Alt text](../assets/2023-goals/diego-ivan-santa-barbara.jpg)
