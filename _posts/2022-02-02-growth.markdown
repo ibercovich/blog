@@ -51,6 +51,6 @@ Each employee is a whole person with interests and concerns that go beyond work.
 
 Re-Architecture or Redesign
 --------------------------
-[I already wrote extensively about this topic](https://blog.ivanbercovich.com/2021/on-technical-debt). Big overhauls tend to take much longer than anticipated, and deliver less value than expected. Identify specific problems and iterate piecemeal, always keeping measurable results in mind.
+[I already wrote extensively about this topic](/2021/on-technical-debt). Big overhauls tend to take much longer than anticipated, and deliver less value than expected. Identify specific problems and iterate piecemeal, always keeping measurable results in mind.
 
 These are not hard and fast rules, but if reading this post gives you anxiety, consider diving deeper into the issue. And if you need a sounding board, we are always happy to help.
