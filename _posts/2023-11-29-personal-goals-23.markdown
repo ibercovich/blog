@@ -6,7 +6,7 @@ date:   2023-11-29 01:01:01 -0700
 categories:
 ---
 
-This document summarizes my goals for the year 2023. The goals themselves are not listed in any particular order, but they are grouped by category. I am doing this for myself. Writing this down forces me to spend a few hours towards the end of the year to reflect on and appreciate everything that I've done. As a secondary objective, something here might inspire someone else to follow through on their goals.
+This document summarizes my goals for the year 2023. The goals themselves are not listed in any particular order, but they are grouped by category. I am doing this for myself. Writing this down forces me to spend a few hours towards the end of the year to reflect on and appreciate everything that I've done. As a secondary objective, something here might inspire someone else to follow through on their goals. 
 
 ## Purpose (profession, career, interests)
 
