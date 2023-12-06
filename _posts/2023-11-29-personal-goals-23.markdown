@@ -191,9 +191,7 @@ More Family Photos
 
 More Burning Man
 ![Alt text](../assets/2023-goals/burning-man.png)
-![Alt text](../assets/2023-goals/burning-man-camp-break.png)
 ![Alt text](../assets/2023-goals/ivan-ivgeni-pizza.png)
-![Alt text](../assets/2023-goals/brainburn-logo.png)
 ![Alt text](../assets/2023-goals/ivan-iv-lucidity.jpg)
 
 Schnurr's Wedding
