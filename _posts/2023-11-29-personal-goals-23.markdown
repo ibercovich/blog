@@ -160,7 +160,6 @@ Snow in Santa Barbara
 ![Alt text](../assets/2023-goals/ivan-patricia-sb-snow.png)
 
 Flooding in Santa Barbara
-![Alt text](../assets/2023-goals/santa-barbara-flood.gif)
 ![Alt text](../assets/2023-goals/julia-ivan-7-falls.png)
 ![Alt text](../assets/2023-goals/santa-barbara-flood-underpass.png)
 
