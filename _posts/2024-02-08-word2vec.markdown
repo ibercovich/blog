@@ -2,7 +2,7 @@
 layout: post
 title:  "Word2Vec from Scratch"
 author: Ivan Bercovich
-date:   2023-02-09 01:01:01 -0700
+date:   2023-02-08 01:01:01 -0700
 categories:
 ---
 
