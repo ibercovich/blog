@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Word2Vec from Scratch"
+author: Ivan Bercovich
+date:   2023-02-09 01:01:01 -0700
+categories:
+---
+
+Word2Vec was a pivotal paper published a decade ago by researchers at Google. They showed that by attempting to predict a word from their neighbors (or the neighbors from the word), the resulting model acquired compelling semantic capabilities.
+
+The main element of this model is a n x m matrix, where n is the vocabulary size and m is the dimension of the vector to encode each word. A typical value from m is 300. Rather than having an identifier for each of the roughly 200k words in the English language (in addition to proper names and numbers, which are also words), each word can be represented with a coordinate in 300-dimensions. This is known as an embedding, and is a primordial type of language model (and a component of most language models since).
+
+The implication is that if two words are close to each other in this 300-dimensional space, they are similar. Hence, "dog" and "cat" would presumably be closer to each other than "airplane" is to either of them. This is the so called cosine similarity, enabled by vector databases like Pinecone. Furthermore, each of the 300 axes can be thought as having a meaning (although it might not be monosemantic). So for example "dog" would score high on the axis intended to represent "animalness", whereas "plane" would score low.
+
+It's important to understand that this sort of distance calculation wouldn't be possible if each word was identified with a sequential ID, since that's equivalent to having a single dimension. Having higher cardinality allows many words to cluster together around central concepts, like "animals", "computers", "politics", and so on.
+
+The shocking result is that this structure is conducive of performing a sort of arithmetic with words. The canonical example being "king" - "man" + "woman" = "queen". Performing this arithmetic operation on the vectors for the terms in question will yield a new vector within a short proximity of "queen". Proximity, as opposed to identical, is an important characteristic. The relationship between "Paris" => "France" and "Rome" => "Italy", will be similar but not identical, given that it was learned from statistical properties of a text corpus. So the inexactness is a feature.
+
+To learn, [I implemented word2vec from scratch]((https://github.com/ibercovich/word2vec)) (following Olga Chernytska ). Run word2vec_py and play with the results using Inference_ipynb
+
+Take a look at [this interactive visualization](../assets/word2vec_visualization). Try to interpret what is different about the two green clusters.
+
+Note: "king" - "man" + "woman" doesn't always work as expected. When embeddings are trained, dimensions acquire different meaning, due to randomness. In order to work, the embeddings have to learn the right properties (e.g. male vs female). I suspect a larger training set would improve results. After several runs, I ended up with these n-best results:
+
+- king: 0.782
+- queen: 0.535
+- woman: 0.516
+- monarch: 0.515
