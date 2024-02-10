@@ -16,7 +16,7 @@ It's important to understand that this sort of distance calculation wouldn't be 
 
 The shocking result is that this structure is conducive of performing a sort of arithmetic with words. The canonical example being "king" - "man" + "woman" = "queen". Performing this arithmetic operation on the vectors for the terms in question will yield a new vector within a short proximity of "queen". Proximity, as opposed to identical, is an important characteristic. The relationship between "Paris" => "France" and "Rome" => "Italy", will be similar but not identical, given that it was learned from statistical properties of a text corpus. So the inexactness is a feature.
 
-To learn, [I implemented word2vec from scratch]((https://github.com/ibercovich/word2vec)) (following Olga Chernytska ). Run word2vec_py and play with the results using Inference_ipynb
+To learn, [I implemented word2vec from scratch](https://github.com/ibercovich/word2vec) (following [Olga Chernytska](https://github.com/OlgaChernytska/word2vec-pytorch) ). Run word2vec_py and play with the results using Inference_ipynb
 
 Take a look at [this interactive visualization](../assets/word2vec_visualization). Try to interpret what is different about the two green clusters.
 
