@@ -1,0 +1,81 @@
+---
+layout: post
+title: "Thoughts on AI - as of 2023"
+author: Ivan Bercovich
+date: 2024-02-08 01:01:01 -0700
+categories:
+---
+
+This is the transcript of a video I recorded to share some perspectives on AI for the layperson.
+
+## How AI has progressed since 2010s
+
+Jensen Huang, the CEO of Nvidia recently said 2012 was the “first contact”. He was referring to AlexNet, the first example of a deep neural net achieving “supremacy” at a task. Supremacy in AI refers to outperforming an average human at a specific task, in the case of AlexNet it meant image classification (e.g.: a particular dog breed). The algorithms used in AlexNet weren’t new, but prior to this time, there wasn’t a practical way to train these models due to the computational requirements.
+
+AlexNet had about 50M parameters. A parameter can be thought of as a knob that can be adjusted to calibrate the model and improve predictions. For example a binary classifier needs fewer parameters than a multi-class one. The more knobs, the more complex the models and their predictions. But bigger models also require more computation. For example, achieving supremacy in some machine translation tasks using deep nets required 500M parameters and it didn’t happen until 2016.
+
+As GPUs have improved, and have evolved from gaming PCs to server racks, models have grown exponentially. GPT-3 has 175B parameters. GPT-4 is thought to have 1.75T parameters. And the next generation of models will continue this exponential trend.
+
+## What are GPUs?
+
+Graphic processing units (GPUs) had been in development for over a decade by 2012. By chance, these happen to be highly suitable for model training. It turns out the same type of math required to render complex 3D games is applicable to training neural nets. GPUs are very simple and very parallel– they have thousands of “cores”, unlike CPUs which have dozens of cores. By 2012 GPUs were powerful enough to train a type of model called a convolutional neural net, in a single gaming PC.
+
+The main driver of computational capacity has been Moore’s law. This is the idea that by making transistors progressively smaller, we can fit more of them in the same chip and require comparatively less power. Between 1970 and 2012, transistors per CPU increased by a multiple of 1M, but wattage went up by less than 1000x.
+
+Bleeding edge transistors today are about 24 nm, ( which is confusing because the Fabs that make these chips call the process 3 nm ). While there are a few Fabs that can make transistors this small, such as Samsung. There’s only one manufacturer that can make the most advanced chips needed for GPUs and iPhones. This manufacturer is TSMC and is located in Taiwan. These chips are made using a process called Extreme UV Lithography, and require a machine that only one manufacturer, ASML (in the Netherlands), makes. Each machine can be $100s of M and they are the size of a small bus.
+
+This delicate supply chain leaves open the question of what will happen as the world becomes less globalized.
+
+## What are some current bottlenecks for AI improvement?
+
+Computational capabilities are improving fast, but demands for ML have increased even faster. While early models were trained on a gaming PC, more recent ones require many GPUs inside sophisticated data centers. The GPT-3 generation models might have cost $5 - $10M, whereas the next generation of language models (GPT-5) will likely cost 10x that much. If parameters keep growing faster than Moore’s law is improving, which seems to be the case, each following generation will become progressively more expensive.
+
+In addition to compute, larger models require more data. This is another challenge since current state of the art models are already being trained on most of the internet and presumably the majority of digitized books. There is more data out there, for example chats and emails, but it’s lower quality data which might have less impact than a textbook. It seems that for text information, we might be approaching an asymptote.
+
+We are still in the early innings.
+
+We can still extract more knowledge by training models from videos and other media formats, but we still need technical advancements to fully leverage them (e.g. learn physics from video).
+
+Semiconductor companies are building more specialized chips designed to run specific types of neural nets. Likewise, there are opportunities for algorithmic improvements that will reduce the computational complexity of some of these problems.
+
+A lot of work has been done with reinforcement learning, for example by letting a robot learn to play a video game by just playing for many hours and receiving feedback directly from the game. With games, the rules are clear, so it’s relatively easy to learn (although it can take a long time). In the case of general knowledge, it is harder. But it’s possible someone will figure out how to have two agents debate topics endlessly and use external knowledge when necessary to learn from their own debate.
+
+## How AI interacts with the economy
+
+Software has been helping automate processes. But AI seems to bring a different quality. While traditional software has provided sophisticated tools for humans to accomplish objectives. AI is becoming capable of fully automating entire tasks. AI can copy-edit an essay in the style of the NYT. AI can generate a logo. Both of these tasks used to require a professional.
+
+It’s interesting to consider how this will affect the economy. For example, progress with automation in manufacturing has resulted in deflationary forces. Broadly, products tend to become cheaper over time as we automate. Even when something appears to cost about the same, like a car or a laptop, the quality of these products has improved, (so on a per-capability basis, they are cheaper).
+
+In contrast, services, which require having humans in the loop, such as healthcare, education, law, have been inflationary. This is also referred to as the Baumol cost disease. Traditionally the boundary between products and services meant technology didn’t have the same degree of impact in cost. But with AI this is bound to change. As a consequence, we should expect to see decreasing costs and improved quality of services.
+
+## How AI impacts professions
+
+Like every tech shift, some jobs will be displaced and new ones will be created. After the invention of automatic switches, there was no longer a need for phone operators. Some of these operators were late in their careers and struggled to adapt. But nobody in the subsequent generation pursued that profession, so the market solved the problem.
+
+With this wave of AI, there will be displacement, and it will be difficult for some people. It’s possible the displacement is of a higher magnitude than previous shifts. But the economy will adapt. As to which professions will be most affected, it’s not always clear. When cars become self-driving, it’s very likely most driver jobs will go away. However, we will probably still want human judges, even if models become very good at predicting trial outcomes.
+
+There’s something called Jevon’s Paradox which says that when a natural resource becomes cheaper, consumption actually goes up. This works as long as demand is much higher than supply. For example if horses were cheaper, more people would have them, but not nearly to the point of everyone having a horse. On the other hand, if legal services were much cheaper, it’s possible the demand would be orders of magnitude higher (e.g.: you could draft a contract with your spouse to resolve each disagreement). In this sense it’s possible that heavy automation of many legal tasks will actually increase demand for attorneys, even though they would each be more productive.
+
+## How smart is AI compared to humans?
+
+AI has achieved supremacy in specific tasks, meaning that it can reliably beat the average person in translation or image classification. But humans are still computationally more capable and our intelligence is of a more general nature.
+
+The biggest supercomputer today, Frontier, is capable of 10^18 FLOPS - floating point operations per second. Some estimates consider this to be in the range of a human brain. But these supercomputers cost $100s of millions and use 20 megawatts, enough to power a small town. The human brain requires just 20 watts - a few dollars worth of food per day.
+
+Even if we drastically reduce the cost to build and operate these machines, and be competitive with humans. We still haven’t figured out how to leverage this computational capability to build general intelligence. While simply scaling models to be progressively larger has surprised researchers with “emerging” capabilities that were unexpected. Most in the field think that there are still a few discoveries missing before FLOPs can be converted to general intelligence.
+
+That said, things are moving fast and prediction markets estimate that AGI will arrive in the 2030s
+
+## How can someone allocate assets towards AI?
+
+The market clearly recognizes the opportunity which is why stocks like Nvidia have grown tremendously. But we are in the very early innings and it is possible the most valuable companies of the AI era have yet to be founded. So a lot is going to be happening in private markets.
+
+There are some private companies building foundational technology, such as large models and new specialized hardware. These companies require a huge amount of upfront investment. The investment can be so large in fact, that even the biggest VCs are hesitant which is why much of the capital is coming from public companies like Nvidia, MSFT, Amazon. And the “capital” is often coming in the form of computation capacity instead of cash.
+
+On the other hand, you have applied companies that are trying to leverage the new technology for existing use-cases. If I was a founder right now, I would be going after this use-case. Virtually every industry will be greatly impacted by AI, so it’s a matter of picking a space and going after it. This is also where our fund ScOp venture capital is focusing on. We believe Vertical AI will be the spiritual successor to Vertical SaaS.
+
+I believe that even as foundational models get better, there will still be a meaningful advantage to packaging them for a particular use-case. So rather than going to ChatGPT and asking it to be your lawyer, there will be an attorney GPT that understands the specific laws that are relevant to your context, has guardrails, and provides guidance on how to use the information.
+
+## How do we progress with AI responsibly?
+
+TBD
