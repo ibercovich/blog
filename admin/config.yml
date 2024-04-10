@@ -64,29 +64,17 @@ collections:
   - name: "pages"
     label: "Pages"
     folder: "_pages"
+    create: true
+    slug: "{{slug}}"
     editor:
       preview: false
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "about.md"
-        fields:
-          - {
-              label: "Title",
-              name: "title",
-              widget: "hidden",
-              default: "About",
-            }
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "post",
-            }
-          - {
-              label: "Permalink",
-              name: "permalink",
-              widget: "hidden",
-              default: "/about/",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - {
+          label: "Permalink",
+          name: "permalink",
+          widget: "string",
+          default: "/about/",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
