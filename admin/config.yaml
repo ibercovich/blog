@@ -1,0 +1,59 @@
+backend:
+  name: github # git-gateway #
+  repo: ibercovich/blog
+  branch: master # Branch to update (optional; defaults to master)
+  base_url: https://ivanbercovich.com/
+  auth_endpoint: /api/auth
+media_folder: assets
+# in case the public route is different, otherwise automatic
+# public_folder: /assets
+collections:
+  - name: "post"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Author",
+          name: "author",
+          widget: "string",
+          default: "Ivan Bercovich",
+        }
+      - { label: "Date", name: "date", widget: "datetime" }
+      # could be used for intentional summaries, e.g. the ScOp blog
+      # - { label: "Description", name: "description", widget: "string" }
+      - { label: "Categories", name: "categories", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "about.markdown"
+        fields:
+          - {
+              label: "Title",
+              name: "title",
+              widget: "hidden",
+              default: "About",
+            }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "post",
+            }
+          - {
+              label: "Permalink",
+              name: "permalink",
+              widget: "hidden",
+              default: "/about/",
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
