@@ -31,12 +31,13 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
+    folder: "_pages"
     editor:
       preview: false
     files:
       - label: "About Page"
         name: "about"
-        file: "about.markdown"
+        file: "about.md"
         fields:
           - {
               label: "Title",
