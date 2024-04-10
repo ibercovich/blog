@@ -1,8 +1,8 @@
 # Site settings
-title:          "Random Thoughts"
-description:    "A gathering place for thoughts I'd like to share."
-baseurl:        
-url:            "https://blog.ivanbercovich.com"
+title: "Random Thoughts"
+description: "A gathering place for thoughts I'd like to share."
+baseurl:
+url: "https://blog.ivanbercovich.com"
 
 # Social
 twitter_username: ibercovich
@@ -13,19 +13,19 @@ google_analytics: UA-10517874-3
 
 # Author
 author:
-  name:         Ivan Bercovich
-  url:          
-  email:        
+  name: Ivan Bercovich
+  url:
+  email:
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
 include:
   - _pages
 
 # Assets
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir: _sass
+  style: compressed
 
 # Gems
 plugins:
@@ -36,11 +36,11 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:year/:title
-paginate:       20
+permalink: /:year/:title
+paginate: 50
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [Gemfile, Gemfile.lock, tale.gemspec]
 
 # Disqus (Set to your disqus id)
 disqus:

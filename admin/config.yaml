@@ -29,31 +29,31 @@ collections:
       # - { label: "Description", name: "description", widget: "string" }
       - { label: "Categories", name: "categories", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "pages"
-    label: "Pages"
-    editor:
-      preview: false
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "about.markdown"
-        fields:
-          - {
-              label: "Title",
-              name: "title",
-              widget: "hidden",
-              default: "About",
-            }
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "post",
-            }
-          - {
-              label: "Permalink",
-              name: "permalink",
-              widget: "hidden",
-              default: "/about/",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
+  # - name: "pages"
+  #   label: "Pages"
+  #   editor:
+  #     preview: false
+  #   files:
+  #     - label: "About Page"
+  #       name: "about"
+  #       file: "about.markdown"
+  #       fields:
+  #         - {
+  #             label: "Title",
+  #             name: "title",
+  #             widget: "hidden",
+  #             default: "About",
+  #           }
+  #         - {
+  #             label: "Layout",
+  #             name: "layout",
+  #             widget: "hidden",
+  #             default: "post",
+  #           }
+  #         - {
+  #             label: "Permalink",
+  #             name: "permalink",
+  #             widget: "hidden",
+  #             default: "/about/",
+  #           }
+  #         - { label: "Body", name: "body", widget: "markdown" }
