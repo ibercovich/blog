@@ -1,8 +1,8 @@
-@import 'tale/variables';
-@import 'tale/base';
-@import 'tale/code';
-@import 'tale/post';
-@import 'tale/syntax';
-@import 'tale/layout';
-@import 'tale/pagination';
-@import 'tale/catalogue';
+@use 'tale/variables' as *;  // This makes variables and mixins available without namespace
+@use 'tale/base';
+@use 'tale/code';
+@use 'tale/post';
+@use 'tale/syntax';
+@use 'tale/layout';
+@use 'tale/pagination';
+@use 'tale/catalogue';

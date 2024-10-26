@@ -1,17 +1,19 @@
+@use 'variables' as vars;  // This will look for _variables.scss in the same directory
+
 * {
-  @include box-sizing;
+  box-sizing: border-box;
   line-height: 1.5;
 }
 
 html,
 body {
-  color: $default-color;
+  color: vars.$default-color;
   margin: 0;
   padding: 0;
 }
 
 html {
-  font-family: $serif-primary;
+  font-family: vars.$serif-primary;
   font-size: 14px;
   overflow-y: scroll;
 
@@ -30,19 +32,19 @@ h3,
 h4,
 h5,
 h6 {
-  color: $default-shade;
-  font-family: $sans-serif;
+  color: vars.$default-shade;
+  font-family: vars.$sans-serif;
   line-height: normal;
 }
 
 a {
-  color: $blue;
+  color: vars.$blue;
   text-decoration: none;
 }
 
 blockquote {
-  border-left: .25rem solid $grey-2;
-  color: $grey-1;
+  border-left: .25rem solid vars.$grey-2;
+  color: vars.$grey-1;
   margin: .8rem 0;
   padding: .5rem 1rem;
 

@@ -1,3 +1,5 @@
+@use 'variables' as vars;
+
 .container {
   margin: 0 auto;
   max-width: 800px;
@@ -14,7 +16,7 @@ footer,
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
+  box-shadow: 0 2px 2px -2px vars.$shadow-color;
   overflow: auto;
 
   &-container {
@@ -24,8 +26,8 @@ footer,
   }
 
   &-title {
-    @include transition(all .2s ease-out);
-    color: $default-color;
+    @include vars.transition(all .2s ease-out);
+    color: vars.$default-color;
     display: inline-block;
     margin: 0;
     padding-right: .2rem;
@@ -44,8 +46,8 @@ footer,
   }
 
   li {
-    @include transition(all .2s ease-out);
-    color: $default-color;
+    @include vars.transition(all .2s ease-out);
+    color: vars.$default-color;
     display: inline-block;
     opacity: .6;
     padding: 0 2rem 0 0;
@@ -61,8 +63,8 @@ footer,
   }
 
   a {
-    color: $default-color;
-    font-family: $sans-serif;
+    color: vars.$default-color;
+    font-family: vars.$sans-serif;
   }
 }
 
@@ -81,12 +83,12 @@ footer,
 }
 
 footer {
-  font-family: $serif-secondary;
+  font-family: vars.$serif-secondary;
   padding: 2rem 0;
   text-align: center;
 
   span {
-    color: $default-color;
+    color: vars.$default-color;
     font-size: .8rem;
   }
 }
