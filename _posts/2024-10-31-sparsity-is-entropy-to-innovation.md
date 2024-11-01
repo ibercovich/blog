@@ -6,8 +6,6 @@ date: 2024-10-31 01:01:02 -0700
 categories:
 ---
 
-## Sparcity is Entropy to Innovation
-
 Most companies in our portfolio are distributed to some degree, and I believe remote teams are here to stay. But founders should recognize the inherent challenges and take measures to mitigate them.
 
 In recent years, I've observed a religious fervor in favor of remote work, particularly in tech. There's plenty of thought leadership making persuasive arguments in favor of distributed teams. Opposing views, such as Amazon's return to office, are usually met with outrage. I believe this topic is more nuanced, particularly in the context of nurturing innovation.
