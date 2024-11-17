@@ -24,4 +24,4 @@ Incentives matter too. Remote can push us toward transactional relationships. Ma
 
 Building a successful technology company is extraordinarily challenging. While distributed teams offer undeniable advantages in terms of talent access and operational flexibility, there are limitations. The goal shouldn't be to assemble a workforce – it should be to build a team, with shared purpose and genuine relationships. This requires careful consideration of how we structure our organizations, balancing the benefits of flexibility against the inherent human needs that drive innovation.
 
-[![Alt text](../assets/sparsity-is-entropy-to-innovation.webp)](../assets/sparsity-is-entropy-to-innovation.webp)
+[![Alt text](../assets/sparsity-is-entropy-to-innovation.png)](../assets/sparsity-is-entropy-to-innovation.png)
