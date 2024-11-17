@@ -1,11 +1,11 @@
 # Site settings
-title: "Random Thoughts"
-description: "A gathering place for thoughts I'd like to share."
+title: "Never Supervised"
+# description: ""
 baseurl:
-url: "https://blog.ivanbercovich.com"
+url: "https://www.ivanbercovich.com"
 
 # Social
-twitter_username: ibercovich
+twitter_username: neversupervised
 linkedin_username: bercovich
 
 # Google Analytics
