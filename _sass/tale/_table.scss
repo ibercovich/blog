@@ -1,15 +1,21 @@
 @use 'variables' as vars;
 
+// Add a wrapper div for tables
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
 table {
   width: 90%;
+  max-width: 1000px;  // Optional: set a max-width
   border-collapse: collapse;
-  margin: 1.5rem auto;
+  margin: 0 auto;     // This centers the table
   text-align: center;
   font-family: vars.$sans-serif;
   color: vars.$default-color;
   border: 1px solid vars.$grey-3;
-  display: block;
-  overflow-x: auto;
 }
 
 th,

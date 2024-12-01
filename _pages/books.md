@@ -7,6 +7,8 @@ permalink: /books/
 
 Last Updated December 2024
 
+<div class="table-wrapper">
+
 | Title                                | Author                  | Goodreads |
 | ------------------------------------ | ----------------------- | --------- |
 | Algorithms to Live By                | Christian, Brian        | 4.13      |
@@ -79,3 +81,5 @@ Last Updated December 2024
 | Weapons of Math Destruction          | O'Neil, Cathy           | 3.88      |
 | Wool (Silo)                          | Howey, Hugh             | 4.22      |
 | Zero to One                          | Thiel, Peter            | 4.15      |
+
+</div>
