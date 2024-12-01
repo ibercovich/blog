@@ -3,7 +3,7 @@
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.5rem 0;
+  margin: 1.5rem auto;
   text-align: center;
   font-family: vars.$sans-serif;
   color: vars.$default-color;
@@ -47,4 +47,10 @@ caption {
     max-width: 90%;
     overflow-x: auto;
   }
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 0 auto;
+  max-width: 90%;
 }
