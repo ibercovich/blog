@@ -1,9 +1,11 @@
 ---
 layout: post
 author: Ivan Bercovich
-title: Books
+title: Recommended Books
 permalink: /books/
 ---
+
+Last Updated December 2024
 
 | Title                                | Author                  | Goodreads |
 | ------------------------------------ | ----------------------- | --------- |
