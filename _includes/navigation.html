@@ -5,8 +5,13 @@
     </a>
     <ul>
       <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+      <li><a href="{{ '/books' | prepend: site.baseurl }}">Books</a></li>
       {% if site.linkedin_username %}
-        <li><a href="https://www.linkedin.com/in/{{site.linkedin_username}}">LinkedIn</a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/{{site.linkedin_username}}"
+          >LinkedIn</a
+        >
+      </li>
       {% endif %}
       <li><a href="{{ site.baseurl }}/">Posts</a></li>
     </ul>
