@@ -34,7 +34,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
   # - jemoji #Uncomment this to allow emoji in your post
-  - jekyll-spaceship
+  # - jekyll-spaceship
 
 # Permalinks
 permalink: /:year/:title
