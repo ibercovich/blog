@@ -19,7 +19,7 @@ This doesn't list errors of commission, for example when I bought overpriced tec
 - Not applying to more colleges
 - Not starting to invest earlier
 - Not applying to more than just Berkeley for transfer
-- Not going to Stanford or Cornell
+- Not going to Stanford or Cornell fro MS/PhD
 - Not paying more attention to BTC in 2010 (in fact, I had several BTC for $1 each, which my friend sent me, and lost them)
 - Not investing in NVIDIA when I first learned of CUDA in 2015 at $0.5 (split adjusted)
 - Not going all in on AI when I learned of Word2Vec
@@ -29,4 +29,3 @@ This doesn't list errors of commission, for example when I bought overpriced tec
 - Buying $50k of Tesla at $17 in 2018, then immediately selling because my wife thought Elon had a bad moral character and would bankrupt the company
 - Investing in NVIDIA, tepidly $50k at $12/share, when I couldn't find cloud GPUs, but then selling during the crypto hype. Theme: should make smart small bets and ride them
 - Willingly and proactively giving all my equity in Unwrap to my co-founder, a company I founded and controlled, instead of keeping a nominal amount, 2%-5%
--
