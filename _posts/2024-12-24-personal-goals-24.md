@@ -58,10 +58,10 @@ I appreciate the meaningful connections that I’ve made throughout my life, inc
 
 **The Theme for 2024 was Vertical-Networking**.
 
-**(Score A) Join SB Club**
-**(Score A) meet 10 new outstanding people (10s)**
-**(Score D) use the phone less often**
-**(Score B) stronger commitments?**
+**(Score A) Join SB Club** :
+**(Score A) meet 10 new outstanding people (10s)** :
+**(Score D) use the phone less often** :
+**(Score B) stronger commitments?** :
 **(Score B) engage with rationalists**: The Curve, Vision Weekend, Vibe Camp
 
 &nbsp;
@@ -104,13 +104,13 @@ As I've accumulated more experiences, life has become more monotonous. While my 
 
 **The Theme for 2024 was Return to Europe**.
 
-**(Score A) Ski 14 days**
-**(Score B) LiB**
-**(Score A) Burning Man**
-**Lisbon & Vienna**
+**(Score A) Ski 14 days** :
+**(Score B) LiB** :
+**(Score A) Burning Man** :
+**Lisbon & Vienna** :
 **Go on 5 trips** : Lisbon, Vienna, Colo, Telluride, Idaho, white fish, Sierras, Vancouver, New York
-**Backpacking Trip**
-**Go to OSL w/ Julia**
+**Backpacking Trip** :
+**Go to OSL w/ Julia** :
 
 &nbsp;
 
