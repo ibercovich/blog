@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.2"
+gem "jekyll", "4.4.1"
 gem "webrick", "1.9.1"
 # Explicitly set sass-embedded version to match the one installed
 gem "sass-embedded", "1.86.3"
