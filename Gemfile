@@ -15,6 +15,10 @@ gem "concurrent-ruby", "1.3.5"
 gem "ffi", "1.17.1"
 gem "google-protobuf", "4.30.2"
 gem "i18n", "1.14.7"
+gem "jekyll-sass-converter", "3.1.0"
+gem "rexml", "3.4.1"
+gem "rouge", "4.5.1"
+gem "kramdown", "2.5.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
