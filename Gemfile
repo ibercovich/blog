@@ -10,7 +10,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.2"
 gem "webrick", "1.9.0"
 # Explicitly set sass-embedded version to match the one installed
-gem "sass-embedded", "1.81.0"
+gem "sass-embedded", "1.86.3"
 gem "concurrent-ruby", "1.3.5"
 gem "ffi", "1.17.1"
 gem "google-protobuf", "4.30.2"
