@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.3.2"
-gem "webrick", "1.9.0"
+gem "webrick", "1.9.1"
 # Explicitly set sass-embedded version to match the one installed
 gem "sass-embedded", "1.86.3"
 gem "concurrent-ruby", "1.3.5"
@@ -27,9 +27,9 @@ gem "kramdown", "2.5.1"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
-  gem "jekyll-paginate"
-  gem "jekyll-seo-tag"
+  gem "jekyll-paginate", "1.1.0"
+  gem "jekyll-seo-tag", "2.8.0"
   # gem 'jekyll-spaceship'
 end
 
-gem 'jekyll-redirect-from'
+gem 'jekyll-redirect-from', '0.16.0'
