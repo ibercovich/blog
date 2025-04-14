@@ -11,6 +11,7 @@ gem "jekyll", "~> 4.3.2"
 gem "webrick", "1.9.0"
 # Explicitly set sass-embedded version to match the one installed
 gem "sass-embedded", "1.81.0"
+gem "concurrent-ruby", "1.3.5"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
