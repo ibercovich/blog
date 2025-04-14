@@ -14,4 +14,4 @@ As a founder, your attitude sets the tone for your company’s culture. Whatever
 
 Hiring the best people is fiercely competitive. Do you expect an amazing candidate to join your company without meeting in person, possibly multiple times? Building an excellent team also requires the temperament to remove underperformers. A negligible fraction of poor performers ever become top performers. In most cases, after extensive coaching and months (or years) of effort, a poor performer merely becomes average. I've never met a leader who regretted a termination.
 
-If you don't own your culture, the inmates will.
+If you don't own your culture, who does?
