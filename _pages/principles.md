@@ -92,7 +92,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Invade an institution and take over from within
   - How people amassed incredible power
 - Destroy your enemy, Totally
-- [[Speed is THE primary business strategy]]
+- Speed is THE primary business strategy
 - Build enduring institutions
 
 ### Wealth
@@ -141,7 +141,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - "I just don't change jobs" - Jensen Huang
   - I think there is an idea here where one continues to expand instead of quitting and having to restart. I don't think this means to stay on the same job forever. But perhaps is about waiting for an inbound opportunity instead of looking to leave.
 - Do hard things, do your thing, do it for decades
-  - [[Live an Asymmetric life]]
+  - Live an Asymmetric life
 - Try new things regularly
   - "You won't conquer the oceans if you stay within sight of the shore."
 - Relentless is really hard to compete with.
