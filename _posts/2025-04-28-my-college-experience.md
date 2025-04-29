@@ -6,7 +6,7 @@ date: 2025-04-28 01:01:02 -0700
 categories:
 ---
 
-My first semester at UMass was a bit challenging after my first lockdown, but about 6 weeks in I caught up. My ECE classmate Jeff made a funny comment about how he beat me on our first Calculus test, and then I got invigorated and never got a lower score again.
+My first semester at UMass was a bit challenging after my first lockdown (a year I spent in limbo after moving to the USA), but about 6 weeks in I caught up. My ECE classmate Jeff made a funny comment about how he beat me on our first Calculus test, and then I got invigorated and never got a lower score again.
 
 I did in fact see grades as winning or losing. I was smart and studied a lot, but I also very quickly understood all the dynamics of this system, just like I did in high school. I figured out dozens of hacks, to take pass-fail classes and then convert them to grades, to get special permission to take extra credits, to befriend my professors’ assistants to have access to their schedule, to negotiate with advisors to make certain classes count toward more than one degree.
 
