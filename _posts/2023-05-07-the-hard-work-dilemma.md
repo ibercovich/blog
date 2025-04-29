@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "The Hard Work Dilemma"
+title: "The Hard Work Dilemma"
 author: Ivan Bercovich
-date:   2023-05-07 01:01:01 -0700
+date: 2023-05-07 01:01:01 -0700
 categories:
 ---
-
-![](/assets/two-worlds-dilemma.png)
 
 During a recent conversation with a colleague, we discussed the idea of work ethics and the impact they have on personal and professional development. This is a subject that has arisen frequently throughout my career in management, and it's one that I find both intriguing and challenging.
 
