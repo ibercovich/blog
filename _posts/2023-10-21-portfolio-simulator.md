@@ -37,38 +37,19 @@ I took data from [this 2020 report](https://www.cambridgeassociates.com/wp-conte
 ## Modelling assumptions
 
 - **One cheque per company, no follow-on.**  
-  Each of the 24 portfolio companies receives a single initial investment.  
-  This keeps the exercise focused on portfolio‐level dispersion rather than
-  reserve strategy.
+  Each of the 24 portfolio companies receives a single initial investment. This keeps the exercise focused on portfolio‐level dispersion rather than reserve strategy.
 
 - **Net-to-LP multiples.**  
-  All TVPIs are _after_ a 20 % carry and 15 % lifetime management fees
-  (≈ 2 % per year for 7–8 years).  
-  Fees are treated as an upfront reduction of committed capital.
+  All TVPIs are _after_ a 20 % carry and 15 % lifetime management fees (≈ 2 % per year for 7–8 years). Fees are treated as an upfront reduction of committed capital.
 
 - **Capital-call cadence.**  
-  LP capital is called evenly over the first four years  
-  (25 % in years 0-3). This mirrors typical early-stage fund pacing.
+  LP capital is called evenly over the first four years (25 % in years 0-3). This mirrors typical early-stage fund pacing.
 
 - **Liquidity timing.**  
-  Every company exits once, with proceeds distributed to LPs in a single year
-  drawn from a triangular distribution: **year 6 (low) – 9 (mode) – 11 (high)**.
-  This approximates a median time-to-liquidity of ~9 years.
+  For simplicity we assume the fund’s net multiple is realised at the end of year 7. This is encoded directly in the IRR shortcut \( \text{IRR} \approx \text{TVPI}^{1/7} - 1 \), so no explicit exit-year sampling is performed in the final Gamma model.
 
 - **Return distribution.**  
-  Rather than simulate deal-by-deal outcomes, we model the _fund’s_ total
-  performance as a single draw from a **Gamma(α = 2.0, β = 1.1)** distribution.
-  These parameters were chosen so that the resulting percentile bands align
-  with historical benchmarks:
-
-  | Percentile | Target band   | Gamma fit |
-  | ---------- | ------------- | --------- |
-  | 25 th      | 1 – 1.5 ×     | 1.07 ×    |
-  | 50 th      | 1.75 – 2.25 × | 1.89 ×    |
-  | 75 th      | 2.5 – 3 ×     | 3.01 ×    |
-  | 90 th      | 4 – 6 ×       | 4.27 ×    |
-  | 95 th      | 5 – 8 ×       | 5.28 ×    |
-  | 99 th      | 6 – 10 ×      | 7.27 ×    |
+  Rather than simulate deal-by-deal outcomes, we model the _fund’s_ total performance as a single draw from a **Gamma(α = 2.0, β = 1.1)** distribution.
 
 - **IRR proxy.**  
   To give readers an intuitive sense of performance, an approximate IRR is
