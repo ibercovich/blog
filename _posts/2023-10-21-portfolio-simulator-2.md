@@ -28,11 +28,11 @@ As an exercise, I rebuilt the 2004-2013 vintages from Cambridge Associates (CA) 
 
 ## Angel List Fund Performance Calculator (April 2025)
 
-    | Percentile | IRR |
-    | ------- | ------ |
-    | 90th    | 35%   |
-    | 95th    | 40%   |
-    | 99th    | 55%   |
+    | Percentile | Net IRR |
+    | ---------- | ------- |
+    | 90th       | 35%     |
+    | 95th       | 40%     |
+    | 99th       | 55%     |
 
 ## Simulation Rationale
 
