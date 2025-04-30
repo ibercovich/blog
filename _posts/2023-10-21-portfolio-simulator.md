@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Portfolio Simulator 2"
+title: "Portfolio Simulator"
 author: Ivan Bercovich
 date: 2023-10-21 01:01:01 -0700
 categories:
