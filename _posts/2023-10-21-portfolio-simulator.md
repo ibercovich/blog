@@ -46,7 +46,7 @@ I took data from [this 2020 report](https://www.cambridgeassociates.com/wp-conte
   LP capital is called evenly over the first four years (25 % in years 0-3). This mirrors typical early-stage fund pacing.
 
 - **Liquidity timing.**  
-  For simplicity we assume the fund’s net multiple is realised at the end of year 7. This is encoded directly in the IRR shortcut \( \text{IRR} \approx \text{TVPI}^{1/7} - 1 \), so no explicit exit-year sampling is performed in the final Gamma model.
+  For simplicity we assume the fund’s net multiple is realised at the end of year 7. This is encoded directly in the IRR shortcut `(IRR ≈ TVPI^(1/7) − 1)`, so no explicit exit-year sampling is performed in the final Gamma model.
 
 - **Return distribution.**  
   Rather than simulate deal-by-deal outcomes, we model the _fund’s_ total performance as a single draw from a **Gamma(α = 2.0, β = 1.1)** distribution.
