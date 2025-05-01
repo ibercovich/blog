@@ -46,7 +46,7 @@ I took data from [this 2020 report](https://www.cambridgeassociates.com/wp-conte
 - **Deal-outcome model**
   - **55 % outright zeros** (0×)
   - **45 % survivors** drawn from **LogNormal (μ = 1.10, σ = 1.40)**, capped at **200×**  
-    &nbsp;&nbsp;↳ Continuous returns smooth the histogram and still anchor the 95 th percentile near ~6×.
+    &nbsp;&nbsp;↳ Continuous returns smooth the histogram and anchor the 95 th percentile near ~6×.
 - **Capital calls** 25 % of committed capital in each of years 0-3 — mirrors common pacing
 - **Exit timing** Each company realises its full value in a single lump-sum exit **uniformly between years 4-10** — spreads cash flows for a realistic IRR profile
 - **IRR calculation** Exact cash-flow schedule solved with `numpy_financial.irr` — no midpoint shortcuts
