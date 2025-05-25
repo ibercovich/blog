@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Personal Goals 2022"
+title: "Personal Goals 2022"
 author: Ivan Bercovich
-date:   2022-12-04 01:01:01 -0700
+date: 2022-12-04 01:01:01 -0700
 categories:
 ---
 
@@ -28,7 +28,7 @@ I don't believe to be predestined to anything, and my happiness does not depend 
 
 **(score A) Write a document about purpose:** you are reading it.
 
-&nbsp; 
+&nbsp;
 
 ### Selection of media I consumed
 
@@ -64,9 +64,8 @@ I don't believe to be predestined to anything, and my happiness does not depend 
     Nightmare Alley                      The Overshoot Newsletter
     Licorice Pizza                       Apprecitas Economics Newsletter
     The Worst Person in the World        Stratechery Newsletter
-    
 
-&nbsp; 
+&nbsp;
 
 ## Connection (partnership, intimacy, family, friends)
 
@@ -90,7 +89,7 @@ I appreciate the meaningful connections that I've made throughout my life, inclu
 
 **(score B) Geek Out with Iv**: My good friend Ivgeni and I went to the Hack-A-Day superconference, and it was a lot of fun. But I was coming from a long week of travel and I experienced a bit too much sensory overload and couldn't focus. I ended up leaving a day earlier.
 
-&nbsp; 
+&nbsp;
 
 ## Fitness (strength, endurance, physiology, nutrition)
 
@@ -110,18 +109,18 @@ I feel better when I eat healthy and exercise. Lately, I've started to pay atten
 
 **(score C) Manage sun exposure:** I started wearing long sleeves and a hat more often, running early morning or at night, and wearing sunscreen on my face. But I still got sunburn way too many days.
 
-&nbsp; 
+&nbsp;
 
 ### Supplements I'm taking
 
     Name           Actual Form                          Quantity
     -----------    --------------------------------     ----------------
-    Calcium        calcium citrate                      500 mg        
-    Vitamin D3     cholecalciferol                      10 mcg (400 IU) 
-    Magnesium      magnesium bisglycinate               133 mg 
-    Vitamin K2     MK-7                                  
-    Fish Oil       D3 as cholecalciferol                25 mcg (1000 IU) 
-    Fish Oil       omega3                               1180 mg 
+    Calcium        calcium citrate                      500 mg
+    Vitamin D3     cholecalciferol                      10 mcg (400 IU)
+    Magnesium      magnesium bisglycinate               133 mg
+    Vitamin K2     MK-7
+    Fish Oil       D3 as cholecalciferol                25 mcg (1000 IU)
+    Fish Oil       omega3                               1180 mg
     Fish Oil       EPA                                  665 mg
     Fish Oil       DHA                                  445 mg
     Fish Oil       Other                                70 mg
@@ -132,8 +131,7 @@ I feel better when I eat healthy and exercise. Lately, I've started to pay atten
     Sterols        campesterol                          25 mg
     NMN            beta nicotinamide mononucleotide     250 mg
 
-
-&nbsp; 
+&nbsp;
 
 ## Experience (travel, adventure, surprise, learning)
 
@@ -153,7 +151,7 @@ As I've accumulated more experiences, life has become more monotonous. While my 
 
 **(score B) Trip to Nashville & Philly:** I've been to Nashville a couple times and it has always been interesting. This time I stayed in a big AirBnB with Yogi's team during their offsite. Unfortunately I caught COVID and I was stuck out of my home for 10 days after. Yogi also hosted an offsite in Philadelphia, in a really nice AirBnB. We did some golfing, which is very much outside my scope, but it was fun!
 
-&nbsp; 
+&nbsp;
 
 ## Legacy (children, mentoring, enterprise)
 
@@ -165,21 +163,7 @@ I am fortunate to have my step-daughter Julia in my life, in spite of not having
 
 **(score B) Hang out with Iv's kids:** given that Julia is out of the house already, I wanted to spend more time with friends' children. I am closest with Iv and Carrie's kids, Alex and Andre. I actually self proclaimed myself as the godfather of Alex and it eventually stuck, so there's that. Our most fun activity was going to LiB together, where we had a lot of fun. I hope to do the same next year. I also went to Alex's birthday and came to Iv's house a few times to hang out. Patricia and I see Carrie at the farmer's market fairly often and when we do, we spend a few minutes connecting. Ivgeni lives in Goleta, which by Santa Barbara standards is far, so I didn't see the kids as much as I would have otherwise. As Alex and Andre get older, I also hope to develop some common interests and share some other experiences.
 
-&nbsp; 
-
-## Wealth
-
-I believe it's better to let wealth be a result of value creation through my own career, than a process of extracting value from purely financial opportunities. I don't think there is anything wrong with the latter, and I've made moves in that direction, but in general I am happier if I spend less time thinking about wealth maximization so directly. However, once some wealth has been acquired, I do believe it's important to continue to diversify over time. I believe that wealth is Lindy, which means that it takes time to be truly diversified (thus making wealth more durable), beyond the basic RE/ETF/Bonds/etc. I use these goals to think about capital preservation and diversification, while I think about my purpose and career as the means with which new wealth is created. While I don't believe the pursuit of wealth makes me happy, I do believe wealth itself does facilitate the continuous pursuit of happiness.
-
-**(score B) Finalize Real Estate Project**: we have an awesome RE project which is the brainchild of Danny, and we were planning to do some construction this year, but didn't get to it due to permitting/etc. However, this is a great project that has low risk, so generally I am happy with this venture.
-
-**(score D) Reduce stocks and move to ETFs:** I succeeded to the extent that the value of my stocks crashed HARD, so on a percentage basis I now have more index funds. I should have exited individual stock positions sooner. Furthermore, I speculated that the market had hit bottom too early and started buying tech stocks in Jan/Feb 2022, which was way too early. Most embarrassingly, I am now a professional investor, and I do pay a lot of attention when picking companies, and yet when selecting public stocks I did so with no data. You live, you learn.
-
-**(score ?) Allocate mortgage money**: I took some money out of our house on an interest only loan with great terms, and I was hoping to allocate it over the coming year. I have not allocated much of it, but in retrospect I think this is a good thing. However, since it's unallocated, I can still make mistakes, so I'm keeping it open.
-
-**(score A+) Help Julia get scholarships:** Patricia and I put a lot of effort into helping Julia get some scholarships. It's unfair that kids with savvy parents, even if they are well off, have a better shot at certain scholarships than needy kids, but that's how the game works. We played the game and Julia ended up with a mostly free ride for CompSci at UMass.
-
-&nbsp; 
+&nbsp;
 
 ## Misc Photos
 

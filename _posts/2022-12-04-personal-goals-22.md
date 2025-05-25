@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Personal Goals 2022"
+title: "Personal Goals 2022"
 author: Ivan Bercovich
-date:   2022-12-04 01:01:01 -0700
+date: 2022-12-04 01:01:01 -0700
 categories:
 ---
 
@@ -28,7 +28,7 @@ I don't believe to be predestined to anything, and my happiness does not depend 
 
 **(score A) Write a document about purpose:** you are reading it.
 
-&nbsp; 
+&nbsp;
 
 ### Selection of media I consumed
 
@@ -64,9 +64,8 @@ I don't believe to be predestined to anything, and my happiness does not depend 
     Nightmare Alley                      The Overshoot Newsletter
     Licorice Pizza                       Apprecitas Economics Newsletter
     The Worst Person in the World        Stratechery Newsletter
-    
 
-&nbsp; 
+&nbsp;
 
 ## Connection (partnership, intimacy, family, friends)
 
@@ -90,7 +89,7 @@ I appreciate the meaningful connections that I've made throughout my life, inclu
 
 **(score B) Geek Out with Iv**: My good friend Ivgeni and I went to the Hack-A-Day superconference, and it was a lot of fun. But I was coming from a long week of travel and I experienced a bit too much sensory overload and couldn't focus. I ended up leaving a day earlier.
 
-&nbsp; 
+&nbsp;
 
 ## Fitness (strength, endurance, physiology, nutrition)
 
@@ -110,18 +109,18 @@ I feel better when I eat healthy and exercise. Lately, I've started to pay atten
 
 **(score C) Manage sun exposure:** I started wearing long sleeves and a hat more often, running early morning or at night, and wearing sunscreen on my face. But I still got sunburn way too many days.
 
-&nbsp; 
+&nbsp;
 
 ### Supplements I'm taking
 
     Name           Actual Form                          Quantity
     -----------    --------------------------------     ----------------
-    Calcium        calcium citrate                      500 mg        
-    Vitamin D3     cholecalciferol                      10 mcg (400 IU) 
-    Magnesium      magnesium bisglycinate               133 mg 
-    Vitamin K2     MK-7                                  
-    Fish Oil       D3 as cholecalciferol                25 mcg (1000 IU) 
-    Fish Oil       omega3                               1180 mg 
+    Calcium        calcium citrate                      500 mg
+    Vitamin D3     cholecalciferol                      10 mcg (400 IU)
+    Magnesium      magnesium bisglycinate               133 mg
+    Vitamin K2     MK-7
+    Fish Oil       D3 as cholecalciferol                25 mcg (1000 IU)
+    Fish Oil       omega3                               1180 mg
     Fish Oil       EPA                                  665 mg
     Fish Oil       DHA                                  445 mg
     Fish Oil       Other                                70 mg
@@ -132,8 +131,7 @@ I feel better when I eat healthy and exercise. Lately, I've started to pay atten
     Sterols        campesterol                          25 mg
     NMN            beta nicotinamide mononucleotide     250 mg
 
-
-&nbsp; 
+&nbsp;
 
 ## Experience (travel, adventure, surprise, learning)
 
@@ -153,7 +151,7 @@ As I've accumulated more experiences, life has become more monotonous. While my 
 
 **(score B) Trip to Nashville & Philly:** I've been to Nashville a couple times and it has always been interesting. This time I stayed in a big AirBnB with Yogi's team during their offsite. Unfortunately I caught COVID and I was stuck out of my home for 10 days after. Yogi also hosted an offsite in Philadelphia, in a really nice AirBnB. We did some golfing, which is very much outside my scope, but it was fun!
 
-&nbsp; 
+&nbsp;
 
 ## Legacy (children, mentoring, enterprise)
 
@@ -164,39 +162,3 @@ I am fortunate to have my step-daughter Julia in my life, in spite of not having
 **(score B) Mentoring**: I think I'm an impactful mentor, but I aspire to do better. I have counseled several people in regards to job changes. I was fairly instrumental in securing new jobs for a handful of people, and made sure they received strong terms. I gave talks to various teams within our portfolio, to high school students and college freshmen. Various people reached out through mutual connections after hearing that I make an effort to give thoughtful advice.
 
 **(score B) Hang out with Iv's kids:** given that Julia is out of the house already, I wanted to spend more time with friends' children. I am closest with Iv and Carrie's kids, Alex and Andre. I actually self proclaimed myself as the godfather of Alex and it eventually stuck, so there's that. Our most fun activity was going to LiB together, where we had a lot of fun. I hope to do the same next year. I also went to Alex's birthday and came to Iv's house a few times to hang out. Patricia and I see Carrie at the farmer's market fairly often and when we do, we spend a few minutes connecting. Ivgeni lives in Goleta, which by Santa Barbara standards is far, so I didn't see the kids as much as I would have otherwise. As Alex and Andre get older, I also hope to develop some common interests and share some other experiences.
-
-&nbsp; 
-
-## Misc Photos
-
-![](/assets/2022-goals/family-umass.jpg)
-![](/assets/2022-goals/ivan-mom.jpg)
-![](/assets/2022-goals/ivan-andy.jpeg)
-![](/assets/2022-goals/ivan-eduardo.jpeg)
-![](/assets/2022-goals/ivan-quique.jpeg)
-![](/assets/2022-goals/ivan-rony.jpeg)
-![](/assets/2022-goals/Ivan-Julia-Emilio-Magui.jpg)
-![](/assets/2022-goals/Ivan-Julia-GreenDay.jpg)
-![](/assets/2022-goals/ivan-kev-sierras.jpg)
-![](/assets/2022-goals/ivan-matt-sierras.jpg)
-![](/assets/2022-goals/sierras-manpacking.jpg)
-![](/assets/2022-goals/ivan-nadia.jpg)
-![](/assets/2022-goals/hey-tutor-live.jpg)
-![](/assets/2022-goals/ivan-patricia-beach.jpg)
-![](/assets/2022-goals/ivan-patricia-cormas-wedding.jpg)
-![](/assets/2022-goals/julia-patricia-baird.jpg)
-![](/assets/2022-goals/LIB-Iv-Carry-Ivan.jpg)
-![](/assets/2022-goals/superconf-ivgeni.jpg)
-![](/assets/2022-goals/baja-mexico-ivan-matt.jpg)
-![](/assets/2022-goals/patricia-mass-moca.jpg)
-![](/assets/2022-goals/patricia-rainbow-art.jpg)
-![](/assets/2022-goals/bike-ride.jpg)
-![](/assets/2022-goals/cousins.jpg)
-![](/assets/2022-goals/patricia-rainbow-art2.jpg)
-![](/assets/2022-goals/seven-falls.jpg)
-![](/assets/2022-goals/sierras-crew.jpg)
-![](/assets/2022-goals/ski-telluride.jpg)
-![](/assets/2022-goals/telluride.jpg)
-![](/assets/2022-goals/voyager-panama.jpg)
-![](/assets/2022-goals/Yogi-Nashville.jpg)
-![](/assets/2022-goals/yogi-philly.jpg)
