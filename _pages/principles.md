@@ -35,9 +35,19 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Get the most out of getting the most of
 - "I am not done" - John Maeda
 - Divine discontent with our performance - Ogilvy
+- It's possible to become a world expert in a niche topic in months or years
+- Maximize your amplitude
+  - Double down when you feel energized and intentionally rest when drained
+- The more uncomfortable the activity, the more likely it will lead to growth.
+  - The more comfortable the activity, the more likely it will lead to stagnation.
+- Use world entanglement as a forcing functions to accomplish things
+  - e.g.: commit to public speaking, workshops/conferences, exercise with friends
+- Pursue visions
+- Speed is THE primary business strategy
 
 ### Knowledge
 
+- The map is not the territory.
 - Curiosity is the First Virtue
 - Minimize number of areas where to specialize
 - It's possible to know more than anyone else on a topic
@@ -92,7 +102,6 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Invade an institution and take over from within
   - How people amassed incredible power
 - Destroy your enemy, Totally
-- Speed is THE primary business strategy
 - Build enduring institutions
 
 ### Wealth
@@ -122,6 +131,9 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Skill is knowing when you’ve gotten lucky
 - Outcomes are correlated to luck inversely to its dependence on skill
   - Eg: beating you at a game of chess is probably skill, beating you at a hand of poker is luck
+- Venture capital is an access (not asset) class
+- Self-made wealth signals competence
+- Life begins with more time than money; and ends with more money than time.
 
 ### Systems
 
@@ -149,3 +161,8 @@ A list of principles, organized into categories, in no particular order. Very fe
 - When you first feel like quitting, go a bit longer, and then re‑evaluate
 - Build a life. Don't run away from it.
 - You don’t do anyone any favors by lurking, put yourself out there!
+
+### Similar Lists
+
+- [Nabeel S. Qureshi](https://nabeelqu.co/principles)
+- [Eli Tyre](https://elityre.com/principles.html)
