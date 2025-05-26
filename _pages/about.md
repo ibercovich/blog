@@ -12,3 +12,6 @@ Before that, I spent ten years at Graphiq (aka FindTheBest), a startup which we 
 My academic background is in Electrical Engineering and Mathematics, followed by a short stint as a PhD. student in Financial Mathematics. I decided to drop out of my doctorate when a professor presented a proof for a stochastic process which resulted in infinite probability and refused to provide an intuitive explanation- this led me to conclude I was more of an engineer than a mathematician after all. Now I can claim having graduate education or brag about being a dropout, depending on the suitability of the context. My favorite academic subject was Information Theory.
 
 [my resume](/assets/resume.pdf)
+[linkedin](https://linkedin.com/in/bercovich)
+[xitter](https://x.com/neversupervised)
+[github](https://github.com/ibercovich)
