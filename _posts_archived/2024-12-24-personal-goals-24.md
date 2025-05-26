@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Personal Goals 2024"
+title: "Personal Goals 2024"
 author: Ivan Bercovich
-date:   2024-12-24 01:01:01 -0700
+date: 2024-12-24 01:01:01 -0700
 categories:
 ---
 
@@ -58,11 +58,11 @@ I appreciate the meaningful connections that I’ve made throughout my life, inc
 
 **The Theme for 2024 was Vertical-Networking**.
 
-**(Score A) Join SB Club** :
+**(Score B) Join SB Club** : I thought it would be interesting to join a members-only club, particularly since my middle class upbringing never offered something of the sort. In practice, it's just a place I can take people to lunch or dinner, mostly for business reasons. I haven't socialized much with members, who on average are much older. It has been nice to invite friends to lunch each month and be the host.
 **(Score A) meet 10 new outstanding people (10s)** :
 **(Score D) use the phone less often** :
 **(Score B) stronger commitments?** :
-**(Score B) engage with rationalists**: The Curve, Vision Weekend, Vibe Camp
+**(Score B) engage with rationalists**: I've been wanting to connect with more people in the rationalist community and it has become clear this requires traveling. Fortunately it has been easy to find events in San Francisco. The Curve, Vision Weekend, Vibe Camp.
 
 &nbsp;
 
@@ -95,7 +95,6 @@ I feel better when I eat healthy and exercise. Lately, I've started to pay atten
     Fish Oil       Other                                70 mg
     Statin         Rosuvastatin                         5 mg
 
-
 &nbsp;
 
 ## Experience (travel, adventure, surprise, learning)
@@ -104,14 +103,10 @@ As I've accumulated more experiences, life has become more monotonous. While my 
 
 **The Theme for 2024 was Return to Europe**.
 
-**(Score A) Ski 14 days** :
-**(Score B) LiB** :
-**(Score A) Burning Man** :
-**Lisbon & Vienna** :
+**(Score C) Ski 14 days** : I skied much less. One trip to Salt Lake City with Dave Koifman, and another to Taheo with Georg for his 40th birthday.
+**(Score B) LiB** : I went to LiB with Ivgeni, Carrie, the kids, and Georg. I couldn't really get into the mood. I also felt like it was a lot of logistics. Next time I need to find a sprinter van and make it easiest on myself.
+**(Score A) Burning Man** : Longest BM for me and best in terms of weather. I went with the Enclave / Pyrobar crew. It wasn't the best match. But I had a good time. I stayed primarily in the city, spending less time chasing big events. Georg and I spent a lot of quality time together.
+**Lisbon & Vienna** : This was apparently my last offsite with Voyager, given that I didn't get invited to Colombia in 2025. It was nice to spend some summer time in Europe, even though it rained a bit in Vienna. I got a few days to explore with Max Hassert, who was the first couch surfer I hosted 15 years prior.
 **Go on 5 trips** : Lisbon, Vienna, Colo, Telluride, Idaho, white fish, Sierras, Vancouver, New York
-**Backpacking Trip** :
-**Go to OSL w/ Julia** :
-
-&nbsp;
-
-## Misc Photos
+**Backpacking Trip** : We went back to the California Sierra Nevada. I was in poor shape. A few of us also had a terrible case of blisters.
+**(Score A) Go to OSL w/ Julia** : This was our third OSL. Great on all accounts.
