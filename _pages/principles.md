@@ -34,7 +34,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Take responsibility so agency is within
 - Action precedes motivation.
 - Vision without execution is hallucination, Edison
-- [[Speed is THE primary business strategy]]
+- Speed is THE primary business strategy
 - Relentless force applied consistently
 - Uncomfortable activity leads to growth.
   - Comfort leads to stagnation.
@@ -51,7 +51,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Maximize your amplitude
   - Double down when you feel energized and intentionally rest when drained
 - Do hard things, do your thing, do it for decades
-  - [[Live an Asymmetric life]]
+  - Live an Asymmetric life
 - Try new things regularly
   - "You won't conquer the oceans if you stay within sight of the shore."
 - Relentless is really hard to compete with.
