@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "There's no more Proof of Work (draft)"
+title: "No more Proof of Work (draft)"
 author: Ivan Bercovich
 date: 2025-05-25 01:01:02 -0700
 categories:
