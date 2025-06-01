@@ -19,6 +19,8 @@ gem "jekyll-sass-converter", "3.1.0"
 gem "rexml", "3.4.1"
 gem "rouge", "4.5.1"
 gem "kramdown", "2.5.1"
+# Fix for public_suffix version conflict
+gem "public_suffix", "~> 6.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
