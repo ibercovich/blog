@@ -17,7 +17,7 @@ gem "google-protobuf", "~> 4.30"
 gem "i18n", "1.14.7"
 gem "jekyll-sass-converter", "3.1.0"
 gem "rexml", "3.4.1"
-gem "rouge", "4.5.1"
+gem "rouge", "~> 4.5"
 gem "kramdown", "2.5.1"
 # Fix for public_suffix version conflict
 gem "public_suffix", "~> 6.0"
