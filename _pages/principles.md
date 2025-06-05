@@ -27,6 +27,8 @@ A list of principles, organized into categories, in no particular order. Very fe
 - It's possible to become a world expert in a niche topic in months or years
 - The most interesting people are the most interested
 - Go back to the future: use past predictions to understand the future
+- Introspection promotes Inaction
+  - Introspection is important, but during times of high agency it can be counter-productive. Introspective people already have contemplated many scenarios and should be able to trust their gut during a critical period.
 
 ### Agency & Optimization
 
@@ -34,7 +36,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Take responsibility so agency is within
 - Action precedes motivation.
 - Vision without execution is hallucination, Edison
-- Speed is THE primary business strategy
+- [[Speed is THE primary business strategy]]
 - Relentless force applied consistently
 - Uncomfortable activity leads to growth.
   - Comfort leads to stagnation.
@@ -51,7 +53,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Maximize your amplitude
   - Double down when you feel energized and intentionally rest when drained
 - Do hard things, do your thing, do it for decades
-  - Live an Asymmetric life
+  - [[Live an Asymmetric life]]
 - Try new things regularly
   - "You won't conquer the oceans if you stay within sight of the shore."
 - Relentless is really hard to compete with.
@@ -112,6 +114,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - "Market is a voting machine in the short term and a weighing machine in the long term", Ben Graham
 - The more you know the less you diversify
   - Most people are ignorant and don't diversify enough
+  - Build wealth by owning a lot of a great asset
 - Losers average losers
   - On dollar cost averaging stocks on the way down
 - It's not just what you buy, what you pay counts.
@@ -120,6 +123,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Time is the denominator: a week is 2% of the year
 - Stock compensation is a way to "borrow" from employees.
 - A lot of wealth is made through deal‑making between private parties
+  - Private is better than public (mark to market is distracting)
 - For new tech invest early, for mature tech invest late
 - A lot of wealth is generated during periods of multiple expansion (1999, 2021)
 - Feeling sadness after a bad trade trains emotional resilience and deeper learning through the limbic system.
@@ -131,6 +135,9 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Do a review of your year
   - Every year, write it out, figure out what was good and what was bad, use this to make your goals for the next year.
 - Doing as much as you can every day is a form of life extension.
+- Talent is the best asset class
+- Own companies and hold them forever
+- Invest early in people you know and where you share values
 
 ### Systems Thinking & Emergence
 
@@ -147,6 +154,7 @@ A list of principles, organized into categories, in no particular order. Very fe
   - Phone/elevator operators added no value. Less wasted time everywhere.
 - "I just don't change jobs" - Jensen Huang
   - I think there is an idea here where one continues to expand instead of quitting and having to restart. I don't think this means to stay on the same job forever. But perhaps is about waiting for an inbound opportunity instead of looking to leave.
+- Customers want fewer vendors
 
 ### Personal Philosophy & Meaning
 
@@ -155,6 +163,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Find your duty and do it without fretting about the outcome
 - "The meaning of life is to find your gift and the purpose is to give it away", Picasso
 - It's much easier to work on things that are exciting to you.
+  - Follow your compulsion
 - Desire is a contract you make with yourself to be unhappy until you succeed.
 - Happiness means to be content. Success requires dissatisfaction. Pick one.
 - Hedonistic freedom won't bring you happiness.
