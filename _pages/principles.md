@@ -179,6 +179,8 @@ A list of principles, organized into categories, in no particular order. Very fe
   - How much tenacity _everything_ requires. That hotel, that park, that railway.
 - Your dream has to be externally focused – service, rather than self serving
 - Your attitude determines your attitude.
+- Make familiar things strange
+  - Avoid daily life becoming uninteresting. Make the usual salient.
 
 ### Similar Lists
 
