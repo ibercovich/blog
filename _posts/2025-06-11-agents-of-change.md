@@ -6,8 +6,6 @@ date: 2025-06-11 01:01:02 -0700
 categories:
 ---
 
-What if AI Could Evolve Its Own Game Plan?
-
 It was fun contributing to this research alongside akota Barnes, Nikolas Belle, and Alfonso Amayuelas. What if models could go beyond just learning from data and actually make deliberate changes to their own internal workings?
 
 In this work, we set up LLM-based agents to play the strategic board game Settlers of Catan. These agents, through a multi-agent framework (specialized roles like Analyzer, Researcher, Coder), iteratively refined their own prompts and their player agent's Python code to improve their gameplay.
