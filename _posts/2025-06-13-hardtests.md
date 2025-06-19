@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Announcing HardTests"
+title: "RL with Verifiable Rewards"
 author: Ivan Bercovich
 date: 2025-06-13 01:01:02 -0700
 categories:
