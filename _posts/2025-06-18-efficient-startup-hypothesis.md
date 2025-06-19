@@ -8,7 +8,7 @@ categories:
 
 This memo explores what I call the Efficient Startup Hypothesis. Much like the efficient market hypothesis suggests assets are priced fairly or efficiently, there is a force pushing startups to penetrate every sector of the economy that can absorb new disruptors. There is an inevitability that a class of startups will emerge to satisfy a set of problems once technology is capable of doing so.
 
-`While I subscribe to the [great man theory](https://en.wikipedia.org/wiki/Great_man_theory) in the context of a technological revolution being pulled forward a few years, but most startups are a product of their time.`
+> While I subscribe to the [great man theory](https://en.wikipedia.org/wiki/Great_man_theory) in the context of a technological revolution being pulled forward a few years, most startups are a product of their time.
 
 This effect is most visible during a technological dislocation, as with AI today. Why? Because when there is a dislocation, effectively we see many sectors of the economy that had, up to that time, absorbed a lot of the technology that diffused through the economy—at least to the extent that bureaucracy and regulations in those industries allowed—suddenly ripe for more.
 
@@ -30,7 +30,7 @@ But now, it's been three or four years, and that approach of simply picking an i
 
 Today, there is this world of agents. Again, the simpler problems—where an AI can write a summary, book a meeting in the calendar, or handle transcription—have been rapidly picked. These capabilities are now often just integrated features rather than standalone companies. So the remaining problems are those both agentic and difficult.
 
-`When I say "agent," the difference between an agent and an assistant or just a prompt is that the agent has tools—it can take actions, go back, do another thing, and come back without you asking additional questions. If you ask ChatGPT to "write me poetry," that's not an agent. But if you ask it to "find me an analyst to hire in Santa Barbara," and it goes to LinkedIn, checks resumes, and performs multiple actions, that's an agent.`
+> When I say "agent," the difference between an agent and an assistant or just a prompt is that the agent has tools—it can take actions, go back, do another thing, and come back without you asking additional questions. If you ask ChatGPT to "write me poetry," that's not an agent. But if you ask it to "find me an analyst to hire in Santa Barbara," and it goes to LinkedIn, checks resumes, and performs multiple actions, that's an agent.
 
 The key insight is that today's viable AI companies are teaching AI to use tools that don't naturally exist or are proprietary and hard to use—like AutoCAD for house design. You can't simply tell an AI to "design a house" in AutoCAD because there's significant proficiency required in using the tool itself.
 
