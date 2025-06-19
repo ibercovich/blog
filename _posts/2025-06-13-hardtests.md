@@ -6,7 +6,7 @@ date: 2025-06-13 01:01:02 -0700
 categories:
 ---
 
-The challenge of truly robust Reinforcement Learning with Verifiable Rewards (RLVR) is immense, and there's so much opportunity to push the boundaries. Working with Kexun Zhang, Zhongmou He, Yee Man Choi, Jiabao Ji, Junting Zhou, Dejia Xu, Aidan Zhang, and Lei Li on our latest paper has been a reminder of how much exciting work there is to do in making AI more reliable.
+There is so much opportunity to improve Reinforcement Learning with Verifiable Rewards (RLVR). Working with Kexun Zhang, Zhongmou He, Yee Man Choi, Jiabao Ji, Junting Zhou, Dejia Xu, Aidan Zhang, and Lei Li on our latest paper has been a reminder of how much exciting work there is to do in making AI more reliable.
 
 Verifiers play a crucial role in RL, but building reliable ones is tough, especially for difficult coding problems. Existing test datasets can often be too simple, letting buggy or inefficient code slip through.
 
