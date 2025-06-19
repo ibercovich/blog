@@ -24,9 +24,13 @@ oday, that seems silly. It seems silly precisely because of the Efficient Startu
 
 Next came RAG (retrieval augmented generation), allowing large language models to access data beyond their original training set, including real-time or proprietary data. This enabled new entrants to rapidly target every vertical. For instance, Consensus.app is a vertical RAG system for searching scientific journals and medical discoveries, while our own investment, [Rogo.ai](https://rogo.ai), uses RAG and LLMs to support investment analysts.
 
-But now, it's been three or four years, and that approach of simply picking an industry and using a domain-specific knowledge base to build a vertical product is becoming less exciting. The big opportunities have been taken, right? And so we keep moving through.
+But now, it's been three or four years, and that approach of simply picking an industry and using a domain-specific knowledge base to build a vertical product is becoming less exciting. The big opportunities have been taken, right? And so we keep moving through. The "copilot for X industry" metaphor has been exhausted—it's so obvious that you can build a ChatGPT for any industry that there are thousands of each. For reference, Glean, which is essentially RAG for enterprise search, became a huge company precisely because they entered this space early and executed well.
 
-Today, there is this world of agents. Again, the simpler problems—where an AI can write a summary or book a meeting in the calendar—have been rapidly picked. So the remaining problems are those both agentic and difficult.
+Today, there is this world of agents. Again, the simpler problems—where an AI can write a summary, book a meeting in the calendar, or handle transcription—have been rapidly picked. These capabilities are now often just integrated features rather than standalone companies. So the remaining problems are those both agentic and difficult.
+
+    When I say "agent," the difference between an agent and an assistant or just a prompt is that the agent has tools—it can take actions, go back, do another thing, and come back without you asking additional questions. If you ask ChatGPT to "write me poetry," that's not an agent. But if you ask it to "find me an analyst to hire in Santa Barbara," and it goes to LinkedIn, checks resumes, and performs multiple actions, that's an agent.
+
+The key insight is that today's viable AI companies are teaching AI to use tools that don't naturally exist or are proprietary and hard to use—like AutoCAD for house design. You can't simply tell an AI to "design a house" in AutoCAD because there's significant proficiency required in using the tool itself.
 
 For example, [ChipAgents.ai](https://chipagents.ai), another of our investments, is developing an agent for semiconductor design—a complex task requiring specialized tools, proprietary data, and close collaboration with industries hesitant to share data. These elements create significant moats.
 
