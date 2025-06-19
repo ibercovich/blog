@@ -15,6 +15,6 @@ To tackle this, we developed HARDTESTGEN, a pipeline that uses LLMs to synthesiz
 Our 47k HARDTESTGEN tests show dramatically higher precision and recall when evaluating LLM-generated code.
 We've demonstrated that using these harder, better tests significantly improves downstream LLM performance in post-training scenarios like reinforcement learning and self-distillation.
 
-Relevant Links:
-[Dataset and Synthesis Pipeline](https://leililab.github.io/HardTests/)
-[The Full Paper](https://arxiv.org/abs/2505.24098)
+HardTests: Synthesizing High-Quality Test Cases for LLM Coding:
+[Website](https://leililab.github.io/HardTests/)
+[Paper](https://arxiv.org/abs/2505.24098)
