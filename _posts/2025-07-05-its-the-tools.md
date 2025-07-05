@@ -24,6 +24,8 @@ To visualize this clearly, consider the physical world. Imagine asking an LLM to
 
 Yet, this gap isn't limited to the physical realm. Numerous essential tools remain absent in the digital world. For example, costly desktop CAD software used by engineers in architecture, mechanical design, and circuit design is typically proprietary, lacks APIs, and wasn't built with LLMs in mind.
 
+There is one tool that all LLMs rely on, yet nobody fully appreciates: search. The world has invested hundreds of billions of dollars to develop the internet search capabilities we now consider routine. We rarely think twice about granting AIs access to a search API—but if this API didn't already exist, it would require an extraordinary effort for someone to build it from scratch.
+
 If someone creates a critical tool and integrates it with a cutting-edge LLM to achieve valuable tasks, customers will willingly pay a premium for tokens resold by the tool-builder. But these tools aren't trivial MCP servers executing granular tasks. Instead, they involve large data, complex requirements, high compute needs, distributed systems, and advanced simulations.
 
 A company aiming to develop an agentic engineer, detective, or auditor must first construct these sophisticated tools. Interestingly, once critical mass is achieved, the tool-maker can leverage feedback loops to enhance models continually, establishing a durable competitive advantage. One can begin by using reinforcement learning to optimize their own tools, eventually training models from the ground up.
