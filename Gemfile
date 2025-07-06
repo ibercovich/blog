@@ -31,6 +31,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
   gem "jekyll-paginate", "1.1.0"
   gem "jekyll-seo-tag", "2.8.0"
+  gem "jekyll-mermaid", "~> 1.1.0"
   # gem 'jekyll-spaceship'
 end
 
