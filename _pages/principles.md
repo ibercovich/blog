@@ -29,6 +29,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Go back to the future: use past predictions to understand the future
 - Introspection promotes Inaction
   - Introspection is important, but during times of high agency it can be counter-productive. Introspective people already have contemplated many scenarios and should be able to trust their gut during a critical period.
+- AI is an intelligence amplifier, your output is proportional to your input
 
 ### Agency & Optimization
 
@@ -108,6 +109,7 @@ A list of principles, organized into categories, in no particular order. Very fe
   - How people amassed incredible power
 - Destroy your enemy, Totally
 - Build enduring institutions
+- The youth pushes, the wise steer
 
 ### Resource Allocation & Capital
 
