@@ -3,6 +3,7 @@ layout: post
 author: Ivan Bercovich
 title: About
 permalink: /about/
+date: 2024-03-05 20:08:31 -0700
 ---
 
 I am a hands-on investor at my fund, ScOp VC, helping companies develop products and scale teams. I'm interested in vertical applications that leverage complex underlying data (i.e. government, finance, real estate). During the 2010s, my team developed nocode tools for "knowledge engineers", a role we invented at Graphiq to organize our team around knowledge categories (sports, movies, geography). These interests have translated well into a world of LLMs, particularly in cases where the optimal solution involves hairy, domain-specific data.

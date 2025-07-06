@@ -3,6 +3,7 @@ layout: centered
 author: Ivan Bercovich
 title: Recommended Books
 permalink: /books/
+date: 2024-03-05 20:08:31 -0700
 ---
 
     | Title                              | Author                 |

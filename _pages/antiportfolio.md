@@ -3,6 +3,7 @@ layout: centered
 author: Ivan Bercovich
 title: Antiportfolio
 permalink: /antiportfolio/
+date: 2025-07-06 20:08:31 -0700
 ---
 
 In venture investing, an antiportfolio is the most successful companies we could have invested in, but passed.

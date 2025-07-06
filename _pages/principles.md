@@ -3,6 +3,7 @@ layout: centered
 author: Ivan Bercovich
 title: Principles
 permalink: /principles/
+date: 2024-07-06 20:08:31 -0700
 ---
 
 A list of principles, organized into categories, in no particular order. Very few of these are originally mine, but I haven't tracked attribution.
