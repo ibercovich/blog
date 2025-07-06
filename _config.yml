@@ -34,6 +34,8 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-mermaid
   # - jemoji #Uncomment this to allow emoji in your post
   # - jekyll-spaceship
 
