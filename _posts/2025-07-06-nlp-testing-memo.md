@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NLP Testing Memo"
+title: "NLP Testing Memo (2021)"
 author: Ivan Bercovich
 date: 2025-07-06 01:01:02 -0700
 categories:
