@@ -83,6 +83,9 @@ A list of principles, organized into categories, in no particular order. Very fe
 - When you first feel like quitting, go a bit longer, and then re‑evaluate
 - If you're split on a difficult decision take the path more difficult in the short term
 - Fear is almost always a reason to lean in
+- Serendipity lottery tickets eventually pay off
+  - The idea of always leaving enough slack/budget for exploring the unknown
+- Put yourself in positions where new things will happen to you
 
 ### Social Dynamics & Coordination
 
@@ -158,6 +161,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - "I just don't change jobs" - Jensen Huang
   - I think there is an idea here where one continues to expand instead of quitting and having to restart. I don't think this means to stay on the same job forever. But perhaps is about waiting for an inbound opportunity instead of looking to leave.
 - Customers want fewer vendors
+- Start with the Demo
 
 ### Personal Philosophy & Meaning
 
