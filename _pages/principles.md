@@ -114,6 +114,8 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Destroy your enemy, Totally
 - Build enduring institutions
 - The youth pushes, the wise steer
+- Be an instigator
+  - In the context of causing things to happen which otherwise wouldn’t happen. This is something that comes naturally to me.
 
 ### Resource Allocation & Capital
 
@@ -188,6 +190,11 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Your attitude determines your attitude.
 - Make familiar things strange
   - Avoid daily life becoming uninteresting. Make the usual salient.
+- Decide if you want to be ADDish or Focused
+  - Modern technology is making all of us more ADDish, but what is your self image?
+  - An investor has a very ADDish routine (manager schedule), a founder less so.
+- It can be helpful to think of our anti-virtues as diseases or disabilities
+  - "I have the envy disease" gives us permission to be compassionate to ourselves
 
 ### Similar Lists
 
