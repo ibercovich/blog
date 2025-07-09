@@ -196,6 +196,7 @@ A list of principles, organized into categories, in no particular order. Very fe
   - An investor has a very ADDish routine (manager schedule), a founder less so.
 - It can be helpful to think of our anti-virtues as diseases or disabilities
   - "I have the envy disease" gives us permission to be compassionate to ourselves
+- Don't believe everything you think.
 
 ### Similar Lists
 
