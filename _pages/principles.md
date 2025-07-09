@@ -61,6 +61,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Relentless is really hard to compete with.
 - Build a life. Don't run away from it.
 - You don't do anyone any favors by lurking, put yourself out there!
+- You can just do things.
 
 ### Decision Theory & Strategy
 
