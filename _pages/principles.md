@@ -166,6 +166,9 @@ A list of principles, organized into categories, in no particular order. Very fe
   - I think there is an idea here where one continues to expand instead of quitting and having to restart. I don't think this means to stay on the same job forever. But perhaps is about waiting for an inbound opportunity instead of looking to leave.
 - Customers want fewer vendors
 - Start with the Demo
+- The world is full of signals. Make sense of them.
+- "Information is the resolution of uncertainty."
+  - Claude Shannon
 
 ### Personal Philosophy & Meaning
 
