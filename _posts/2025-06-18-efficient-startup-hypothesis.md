@@ -22,7 +22,7 @@ Initially, before ChatGPT gained widespread popularity, there were language mode
 
 After ChatGPT popularized large language models, significantly more people began using them. These models became good enough that, rather than having to fine-tune them to perform a particular task, they could be instructed using natural language. So, people began building what we now call "ChatGPT wrappers"—sophisticated prompts with simple workflows to solve particular problems.
 
-oday, that seems silly. It seems silly precisely because of the Efficient Startup Hypothesis. The technique diffused and disseminated quickly, and it's no longer disruptive in the larger scheme of things. But at the time it was. For instance, companies like Jasper.ai, which did marketing copy, were exactly that. And they built a fairly large company at the time.
+Today, that seems silly. It seems silly precisely because of the Efficient Startup Hypothesis. The technique diffused and disseminated quickly, and it's no longer disruptive in the larger scheme of things. But at the time it was. For instance, companies like Jasper.ai, which did marketing copy, were exactly that. And they built a fairly large company at the time.
 
 Next came RAG (retrieval augmented generation), allowing large language models to access data beyond their original training set, including real-time or proprietary data. This enabled new entrants to rapidly target every vertical. For instance, Consensus.app is a vertical RAG system for searching scientific journals and medical discoveries, while our own investment, [Rogo.ai](https://rogo.ai), uses RAG and LLMs to support investment analysts.
 
