@@ -148,6 +148,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Talent is the best asset class
 - Own companies and hold them forever
 - Invest early in people you know and where you share values
+- The Core Task of Investing Is Making Predictions About the Future. Neither Doing More Work nor Having Higher Conviction Leads to Better Predictive Accuracy.
 
 ### Systems Thinking & Emergence
 
