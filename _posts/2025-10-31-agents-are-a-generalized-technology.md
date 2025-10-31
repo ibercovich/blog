@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Agents are a generalized technology"
+title: "Agents are a Generalized Technology"
 author: Ivan Bercovich
 date: 2025-10-31 01:01:02 -0700
 categories:
