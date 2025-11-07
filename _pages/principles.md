@@ -38,7 +38,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Take responsibility so agency is within
 - Action precedes motivation.
 - Vision without execution is hallucination, Edison
-- [[Speed is THE primary business strategy]]
+- Speed is THE primary business strategy
 - Relentless force applied consistently
 - Uncomfortable activity leads to growth.
   - Comfort leads to stagnation.
@@ -55,7 +55,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Maximize your amplitude
   - Double down when you feel energized and intentionally rest when drained
 - Do hard things, do your thing, do it for decades
-  - [[Live an Asymmetric life]]
+  - Live an Asymmetric life
 - Try new things regularly
   - "You won't conquer the oceans if you stay within sight of the shore."
 - Relentless is really hard to compete with.
@@ -85,6 +85,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - When you first feel like quitting, go a bit longer, and then re‑evaluate
 - If you're split on a difficult decision take the path more difficult in the short term
 - Fear is almost always a reason to lean in
+  - Any really strong reaction is a clue that we should do something.
 - Serendipity lottery tickets eventually pay off
   - The idea of always leaving enough slack/budget for exploring the unknown
 - Put yourself in positions where new things will happen to you
@@ -202,6 +203,8 @@ A list of principles, organized into categories, in no particular order. Very fe
 - It can be helpful to think of our anti-virtues as diseases or disabilities
   - "I have the envy disease" gives us permission to be compassionate to ourselves
 - Don't believe everything you think.
+- "My biggest goal for myself is that my drift is back to real—back to the real me."
+  - Chris Sacca
 
 ### Similar Lists
 
