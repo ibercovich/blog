@@ -206,6 +206,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Don't believe everything you think.
 - "My biggest goal for myself is that my drift is back to real—back to the real me."
   - Chris Sacca
+- To underestimate oneself is no more virtuous than to overestimate oneself.
 
 ### Similar Lists
 
