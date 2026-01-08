@@ -20,6 +20,8 @@ Predicting a weird function by taking one step at a time is hopeless. But there'
 
 We don't have an oracle of the future. But we can do something similar: imagine an extreme version of the future where AI is fully saturated, maximally capable, and nearly free. Then walk backward, asking what still makes sense.
 
+![Climbing from the Valley and Descending from the Peak](/assets/climbing-and-descending.png)
+
 Let's go back to call centers. We replace people with AI agents. Now we transport to the future, the chatbots get really really good, and really really cheap. They can solve any problem anyone calls with, better than any human. They don't only receive calls, they can make them too. They can proactively reach out to other humans to accomplish a task.
 
 Hmmm. These agents can both respond to calls as well as make calls. Why should a human be at either side of these conversations? Let's imagine that far future for a second where every business-oriented phone call (reservations, troubleshooting, etc) has AIs on both ends. Now walk backward. What do these AIs talk about? Do they offer a menu of options to each other? Do they exchange pleasantries? Do they threaten each other with lawyers? Maybe, but it's unlikely those conversations are anything like those we have today.
