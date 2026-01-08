@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Climbing from the Valley and Descending from the Peak
+title: Climb from the Valley and Descend from the Peak
 author: Ivan Bercovich
 date: 2026-01-06T22:47:00.000Z
 ---
