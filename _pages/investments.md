@@ -60,7 +60,7 @@ I've organized my investments in 3 categories. Investments ScOp made, investment
 *   **[Zoo](https://zoo.dev/)** (Dec 2024)
 *   **[Terraform Industries](https://terraformindustries.com/)** (Dec 2024)
 *   **[Tako](https://trytako.com/)** (Jul 2024)
-*   **[Ouros](https://ouros.energy/)** (Due Jan 2026)
+*   **[Ouros](https://ouros.energy/)** (Jan 2026)
 *   **[MyVillage](https://myvillage.co/)**
 *   **[Pasito](https://pasito.ai/)**
 *   **[Komodo Health](https://www.komodohealth.com/)**
