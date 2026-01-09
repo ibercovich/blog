@@ -49,18 +49,18 @@ I've organized my investments in 3 categories. Investments ScOp made, investment
 
 ## Tiny Investments
 
-*   **[Surfline](https://www.surfline.com/)**: Advisory Board.
+*   **[Surfline](https://www.surfline.com/)**: 
 *   **[Keenable.ai](https://keenable.ai/)**
-*   **[Antithesis](https://antithesis.com/)** (Dec 2025)
-*   **[Terran Robotics](https://terranrobotics.ai/)** (Sep 2025)
-*   **[Machina Labs](https://machinalabs.ai/)** (Jul 2025)
-*   **[Civ Robotics](https://civrobotics.com/)** (Mar 2025)
-*   **[Gambit](https://gambit.us/)** (Feb 2025)
-*   **[Astro Mechanica](https://www.astromecha.co/)** (Feb 2025)
-*   **[Zoo](https://zoo.dev/)** (Dec 2024)
-*   **[Terraform Industries](https://terraformindustries.com/)** (Dec 2024)
-*   **[Tako](https://trytako.com/)** (Jul 2024)
-*   **[Ouros](https://ouros.energy/)** (Jan 2026)
+*   **[Antithesis](https://antithesis.com/)** 
+*   **[Terran Robotics](https://terranrobotics.ai/)** 
+*   **[Machina Labs](https://machinalabs.ai/)** 
+*   **[Civ Robotics](https://civrobotics.com/)** 
+*   **[Gambit](https://gambit.us/)** 
+*   **[Astro Mechanica](https://www.astromecha.co/)** 
+*   **[Zoo](https://zoo.dev/)**
+*   **[Terraform Industries](https://terraformindustries.com/)** 
+*   **[Tako](https://trytako.com/)** 
+*   **[Ouros](https://ouros.energy/)** 
 *   **[MyVillage](https://myvillage.co/)**
 *   **[Pasito](https://pasito.ai/)**
 *   **[Komodo Health](https://www.komodohealth.com/)**
