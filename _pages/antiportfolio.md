@@ -6,7 +6,7 @@ permalink: /antiportfolio/
 date: 2025-07-06 20:08:31 -0700
 ---
 
-In venture investing, an antiportfolio is the most successful companies we could have invested in, but passed.
+In venture investing, an antiportfolio is the most successful companies we could have invested in, but passed. After 5 years at ScOp VC, we actually have many of these.
 
 I was thinking about this topic more broadly. What are some life decisions that I contemplated but ultimately made the wrong choice.
 
