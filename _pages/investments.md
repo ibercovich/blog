@@ -9,17 +9,17 @@ I've organized my investments in 3 categories. Investments ScOp made, investment
 
 ## Principal Investments / Companies
 
-    | Company        | Role                | Notes                                  |
-    | -------------- | ------------------- | -------------------------------------- |
-    | ChipAgents     | Board Member        | First Investor                         |
-    | Rogo           | 2nd Investor (Seed) | Recruited CTO Tumas Rackaitis          |
-    | Unwrap         | Co-Founder,Investor | Incubated at AI2                       |
-    | PromptLayer    | Lead (Seed)         |                                        |
-    | Userpilot      | Board Member        |                                        |
-    | HeyTutor       | CEO, Board          |                                        |
-    | Yogi           | Board Member        |                                        |
-    | Voyager Portal | Board Member        |                                        |
-    | Graphiq        | VP Engineering      | Acquired by Amazon 2017                |
+    | Company        | Role                | Notes                         |
+    | -------------- | ------------------- | ----------------------------- |
+    | ChipAgents     | Board Member        | First Investor                |
+    | Rogo           | 2nd Investor (Seed) | Recruited CTO Tumas Rackaitis |
+    | Unwrap         | Co-Founder,Investor | Incubated at AI2              |
+    | PromptLayer    | Lead (Seed)         |                               |
+    | Userpilot      | Board Member        |                               |
+    | HeyTutor       | CEO, Board          |                               |
+    | Yogi           | Board Member        |                               |
+    | Voyager Portal | Board Member        |                               |
+    | Graphiq        | VP Engineering      | Acquired by Amazon 2017       |
 
 ## ScOp's Investments
 
