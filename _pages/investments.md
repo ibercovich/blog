@@ -9,21 +9,21 @@ I've organized my investments in 3 categories. Investments ScOp made, investment
 
 ## Principal Investments / Companies
 
-    | Company        | Role            | Notes                                      |
-    | -------------- | --------------- | ------------------------------------------ |
-    | ChipAgents     | First Investor  | AI Agents for chip design & verification   |
-    | Rogo           | Investor (Seed) | Recruited CTO Tumas Rackaitis              |
-    | Unwrap         | Co-Founder      | Incubated at AI2. Customer feedback        |
-    | PromptLayer    | Lead (Seed)     |                                            |
-    | Userpilot      | Board Member    |                                            |
-    | HeyTutor       | CEO, Board      | Grew 5x in a year (Sep 2022 - Sep 2023)    |
-    | Yogi           | Board Member    |                                            |
-    | Voyager Portal | Board Member    |                                            |
-    | Graphiq        | VP Engineering  | Acquired by Amazon 2017                    |
+    | Company        | Role                | Notes                                  |
+    | -------------- | ------------------- | -------------------------------------- |
+    | ChipAgents     | Board Member        | First Investor                         |
+    | Rogo           | 2nd Investor (Seed) | Recruited CTO Tumas Rackaitis          |
+    | Unwrap         | Co-Founder,Investor | Incubated at AI2                       |
+    | PromptLayer    | Lead (Seed)         |                                        |
+    | Userpilot      | Board Member        |                                        |
+    | HeyTutor       | CEO, Board          |                                        |
+    | Yogi           | Board Member        |                                        |
+    | Voyager Portal | Board Member        |                                        |
+    | Graphiq        | VP Engineering      | Acquired by Amazon 2017                |
 
 ## ScOp's Investments
 
-    | Company      | Company      | Company      |
+    |              |              |              |
     | ------------ | ------------ | ------------ |
     | Pearly       | FlipCX       | Procore      |
     | Pangram      | Artera       | Umbra        |
@@ -37,10 +37,10 @@ I've organized my investments in 3 categories. Investments ScOp made, investment
 
 ## Tiny Investments
 
-    | Company             | Company              | Company       |
-    | ------------------- | -------------------- | ------------- |
-    | Antithesis          | Terraform Industries | Zoo           |
-    | Terran Robotics     | Machina Labs         | Civ Robotics  |
-    | Astro Mechanica     | Gambit               | Tako          |
-    | Ouros               | MyVillage            | Pasito        |
-    | Komodo Health       | Mindcotine           | Keenable.ai   |
+    |                     |                      |                     |
+    | ------------------- | -------------------- | ------------------- |
+    | Antithesis          | Terraform Industries | Zoo                 |
+    | Terran Robotics     | Machina Labs         | Civ Robotics        |
+    | Astro Mechanica     | Gambit               | Tako                |
+    | Ouros               | MyVillage            | Pasito              |
+    | Komodo Health       | Mindcotine           | Keenable.ai         |
