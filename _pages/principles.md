@@ -212,6 +212,8 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Get busy living or get busy dying.
   - Shawshank Redemption 
 
+- We pass our time to forget time is passing.
+
 ### Similar Lists
 
 - [Nabeel S. Qureshi](https://nabeelqu.co/principles)
