@@ -211,7 +211,6 @@ A list of principles, organized into categories, in no particular order. Very fe
 - To underestimate oneself is no more virtuous than to overestimate oneself.
 - Get busy living or get busy dying.
   - Shawshank Redemption 
-
 - We pass our time to forget time is passing.
 
 ### Similar Lists
