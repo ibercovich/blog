@@ -5,7 +5,8 @@
   {% seo %}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ " /assets/main.css" | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% assign css_url = "/assets/main.css" | relative_url %}
+  <link rel="stylesheet" href="{{ css_url }}?v={{ site.time | date: '%s' }}">
 
 
   <!-- Mermaid -->
