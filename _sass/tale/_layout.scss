@@ -64,7 +64,7 @@ footer,
 
   a {
     color: vars.$default-color;
-    font-family: vars.$sans-serif;
+    font-family: vars.$serif-primary;
   }
 }
 
@@ -83,7 +83,7 @@ footer,
 }
 
 footer {
-  font-family: vars.$serif-secondary;
+  font-family: vars.$serif-primary;
   padding: 2rem 0;
   text-align: center;
 

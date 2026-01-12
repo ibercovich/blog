@@ -1,4 +1,4 @@
-@use 'variables' as vars;  // This will look for _variables.scss in the same directory
+@use 'variables' as vars; // This will look for _variables.scss in the same directory
 
 * {
   box-sizing: border-box;
@@ -33,7 +33,7 @@ h4,
 h5,
 h6 {
   color: vars.$default-shade;
-  font-family: vars.$sans-serif;
+  font-family: vars.$serif-primary;
   line-height: normal;
 }
 

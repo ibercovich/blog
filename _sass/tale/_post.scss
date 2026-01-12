@@ -16,7 +16,7 @@
 
   &-title {
     color: vars.$default-shade;
-    font-family: vars.$sans-serif;
+    font-family: vars.$serif-primary;
     font-size: 3rem;
     margin: 1rem 0;
     text-align: center;
@@ -42,10 +42,10 @@
     margin: 0 auto 0.5rem;
   }
 
-  img + em {
+  img+em {
     color: vars.$default-tint;
     display: block;
-    font-family: vars.$sans-serif;
+    font-family: vars.$serif-primary;
     font-size: 0.9rem;
     font-style: normal;
     text-align: center;
