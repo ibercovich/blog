@@ -5,7 +5,7 @@ title: Investments
 permalink: /investments/
 ---
 
-I've organized my investments in 3 categories. Investments where I was a principal (board member, negotiated, sourced, operated), other investments ScOp VC made, and tiny investments via syndicates and F&F rounds.
+I've organized my investments in 3 categories. Investments where I was a principal (board member, negotiated, sourced, operated), other investments ScOp VC made, and small investments via syndicates and F&F rounds.
 
 ## Principal Investments / Companies
 
@@ -39,7 +39,7 @@ I've organized my investments in 3 categories. Investments where I was a princip
 
 </div>
 
-## Tiny Investments
+## Small Investments
 
 <div class="flat-table" markdown="1">
 

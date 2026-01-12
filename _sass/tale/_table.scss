@@ -22,7 +22,26 @@ td {
   border-bottom: 1px solid vars.$grey-2;
   color: vars.$default-color;
   padding: 0.75rem 0;
+  border-bottom: 1px solid vars.$grey-2;
+  color: vars.$default-color;
+  padding: 0.75rem 0;
   vertical-align: top;
+}
+
+// Flat tables (Global: 3-column equal width, no header)
+.flat-table {
+  table {
+    table-layout: fixed; // Forces equal width for columns
+  }
+
+  thead {
+    display: none; // Hide headers
+  }
+
+  th,
+  td {
+    border-bottom: 1px solid vars.$grey-2;
+  }
 }
 
 // Responsive card view
@@ -71,21 +90,22 @@ td {
     font-style: italic; // Optional: helps distinguish
   }
 
-  // Flat tables (equal hierarchy columns)
+  // Flat tables (Mobile: Simple list)
   .flat-table {
     tr {
-      border-bottom: none; // No separator needed for simple lists
+      border-bottom: none;
       margin-bottom: 0;
       padding-bottom: 0;
     }
 
     td {
+      display: block; // Ensure they stack
       font-weight: normal !important;
       font-style: normal !important;
       font-size: 1rem !important;
       color: vars.$default-shade !important;
       padding: 0.25rem 0;
-      border-bottom: 1px solid vars.$grey-2; // Light separator between items
+      border-bottom: 1px solid vars.$grey-2;
     }
   }
 }
