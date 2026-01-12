@@ -70,4 +70,22 @@ td {
     color: vars.$default-color;
     font-style: italic; // Optional: helps distinguish
   }
+
+  // Flat tables (equal hierarchy columns)
+  .flat-table {
+    tr {
+      border-bottom: none; // No separator needed for simple lists
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    td {
+      font-weight: normal !important;
+      font-style: normal !important;
+      font-size: 1rem !important;
+      color: vars.$default-shade !important;
+      padding: 0.25rem 0;
+      border-bottom: 1px solid vars.$grey-2; // Light separator between items
+    }
+  }
 }
