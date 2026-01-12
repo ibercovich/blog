@@ -1,64 +1,35 @@
 @use 'variables' as vars;
 
-// Add a wrapper div for tables
-.table-wrapper {
-  width: 100%;
-  overflow-x: auto;
-  margin: 1.5rem 0;
-}
-
+// Elegant, minimal table styles
 table {
-  width: 90%;
-  max-width: 1000px;  // Optional: set a max-width
   border-collapse: collapse;
-  margin: 0 auto;     // This centers the table
-  text-align: center;
-  font-family: vars.$sans-serif;
-  color: vars.$default-color;
-  border: 1px solid vars.$grey-3;
-}
-
-th,
-td {
-  border: 1px solid vars.$grey-3;
-  padding: 0.75rem;
-  font-size: 90%;
+  margin: 2rem 0;
+  width: 100%;
+  font-family: inherit; // Use Palatino
+  font-size: 1rem;
 }
 
 th {
-  background-color: vars.$grey-2;
+  border-bottom: 2px solid vars.$default-shade;
+  color: vars.$default-shade;
   font-weight: bold;
-  text-transform: uppercase;
+  padding: 0.5rem 0;
+  text-align: left;
+  vertical-align: bottom;
 }
 
-tbody tr:nth-child(odd) {
-  background-color: vars.$grey-1;
+td {
+  border-bottom: 1px solid vars.$grey-2;
+  color: vars.$default-color;
+  padding: 0.75rem 0;
+  vertical-align: top;
 }
 
-tbody tr:nth-child(even) {
-  background-color: vars.$white;
-}
-
-caption {
-  margin-top: 0.5rem;
-  font-size: 85%;
-  font-style: italic;
-  color: vars.$default-tint;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+// Responsive behavior
+@media (max-width: 600px) {
   table {
-    max-width: 90%;
+    display: block;
     overflow-x: auto;
+    white-space: nowrap; // Allows scrolling if needed
   }
-}
-
-.table-container {
-  overflow-x: auto;
-  margin: 0 auto;
-  max-width: 90%;
 }

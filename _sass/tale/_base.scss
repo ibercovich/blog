@@ -69,21 +69,3 @@ img {
 td {
   vertical-align: top;
 }
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-th {
-  text-align: left;
-  border-bottom: 2px solid vars.$default-shade;
-  padding: 0.5rem 0;
-  font-weight: bold;
-}
-
-td {
-  padding: 0.5rem 0;
-  border-bottom: 1px solid vars.$grey-2;
-}

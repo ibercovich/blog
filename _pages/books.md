@@ -3,7 +3,7 @@ layout: centered
 author: Ivan Bercovich
 title: Recommended Books
 permalink: /books/
-date: 2024-03-05 20:08:31 -0700
+date: 2026-01-09 20:08:31 -0700
 ---
 
 | Title                              | Author                 |
@@ -95,5 +95,3 @@ date: 2024-03-05 20:08:31 -0700
 | Zen and the Art of Motorcycle M... | Pirsig, Robert M.      |
 | Zero to One                        | Thiel, Peter           |
 | eBoys                              | Stross, Randall E.     |
-
-Last Updated January 2026
