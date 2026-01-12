@@ -2,7 +2,7 @@
 
 .container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1040px;
   width: 80%;
 }
 
@@ -11,7 +11,7 @@ footer,
 .nav-container {
   display: block;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1040px;
   width: 80%;
 }
 
@@ -68,19 +68,7 @@ footer,
   }
 }
 
-@media (min-width: 850px) {
-  .nav {
-    &-container {
-      text-align: left;
-    }
 
-    ul {
-      bottom: 0;
-      position: absolute;
-      right: 0;
-    }
-  }
-}
 
 footer {
   font-family: vars.$serif-primary;

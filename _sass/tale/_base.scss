@@ -14,11 +14,11 @@ body {
 
 html {
   font-family: vars.$serif-primary;
-  font-size: 24px;
+  font-size: 17px;
   overflow-y: scroll;
 
   @media (min-width: 600px) {
-    font-size: 32px;
+    font-size: 22px;
   }
 }
 
