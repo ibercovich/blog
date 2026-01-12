@@ -25,11 +25,49 @@ td {
   vertical-align: top;
 }
 
-// Responsive behavior
+// Responsive card view
 @media (max-width: 600px) {
-  table {
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
     display: block;
-    overflow-x: auto;
-    white-space: nowrap; // Allows scrolling if needed
+  }
+
+  // Hide headers
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border-bottom: 2px solid vars.$grey-2; // The separator
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  td {
+    border: none;
+    padding: 0.2rem 0;
+    position: relative;
+    white-space: normal;
+  }
+
+  // Book Title
+  td:first-child {
+    font-weight: bold;
+    color: vars.$default-shade;
+    font-size: 1.1rem;
+    padding-bottom: 0;
+  }
+
+  // Author
+  td:last-child {
+    color: vars.$default-color;
+    font-style: italic; // Optional: helps distinguish
   }
 }
