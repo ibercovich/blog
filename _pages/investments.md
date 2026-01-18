@@ -19,7 +19,7 @@ I've organized my investments in 3 categories. Investments where I was a princip
 | HeyTutor       | CEO, Board           |                           |
 | Yogi           | Board Member         |                           |
 | Voyager Portal | Board Member         |                           |
-| Graphiq        | VP Engineering       | Acquired by Amazon 2017   |
+| Graphiq        | VP Eng., then GM     | Acquired by Amazon 2017   |
 
 ## ScOp's Investments
 
