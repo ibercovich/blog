@@ -28,11 +28,11 @@ I've organized my investments in 3 categories. Investments where I was a princip
 |              |              |              |
 | ------------ | ------------ | ------------ |
 | Pearly       | FlipCX       | Procore      |
-| Pangram      | Artera       | Umbra        |
+| Pangram      | Artera       | Umbra Space  |
 | BLVD         | SuiteOp      | Teamworks    |
-| Snag         | FoodReady    | SmartBarrel  |
+| Snag Delivery| FoodReady    | SmartBarrel  |
 | healthARC    | Lifeguard    | HG Insights  |
-| Customers.ai | Guava        | Tovuti       |
+| Customers.ai | Guava Health | Tovuti       |
 | Aavenir      | FreightPOP   | BuyerCaddy   |
 | Designalytics| Cloverleaf   | Surfline     |
 | Spacture     |              |              |
