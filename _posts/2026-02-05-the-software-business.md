@@ -25,7 +25,7 @@ I'm not saying I understand the implications for today's large SaaS companies. S
 
 Think of a business that sells me a tool to do performance reviews. Are they directly solving a problem? The problem is that I want to promote the best and fire the worst. Do I need software to administer the managerial process of performing reviews? Or do I need an AI that tells me who to promote and who to let go? Do you see the difference? Does Salesforce bring me sales, or is it just software to administer the human process of sales?
 
-I've [written before](/2025/hard-is-back) that "the only way out of easy is hard." The same applies here. The businesses that survive this transition won't be the ones selling software to manage a process. They'll be the ones building [the tools agents need](/2025/its-the-tools) to actually solve the problem:
+The businesses that survive will be the ones building [the tools agents need](/2025/its-the-tools) to actually solve the problem:
 
 > If someone creates a critical tool and integrates it with a frontier LLM to achieve valuable tasks, customers will willingly pay a premium for tokens resold by the tool-builder. But these tools aren't trivial MCP servers executing granular tasks. Instead, they involve large data, complex requirements, high compute needs, distributed systems, and advanced simulations.
 
