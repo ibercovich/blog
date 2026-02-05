@@ -13,7 +13,7 @@ The free market argument for housing affordability is to remove red tape and mak
 
 It's all about supply and demand.
 
-So, if simple software — personal apps and internal tools — becomes free, what happens to slightly more sophisticated software? Presumably it becomes cheaper. But where do we draw the line? Five years ago you could build approximately nothing vibecoding. Today, virtually anyone can build an internal tool or personal app. A dedicated vibecoder with enough practice can build a simple SaaS application.
+So, if simple software, like personal apps and internal tools, becomes free, what happens to slightly more sophisticated software? Presumably it becomes cheaper. But where do we draw the line? Five years ago you could build approximately nothing vibecoding. Today, virtually anyone can build an internal tool or personal app. A dedicated vibecoder with enough practice can build a simple SaaS application.
 
 Have we reached the steady state? Where will we be in another five years? Will we have more software or less? Will software be easier to build or harder? Will we have more or fewer people that can build software? What does that mean for the business of selling software?
 
