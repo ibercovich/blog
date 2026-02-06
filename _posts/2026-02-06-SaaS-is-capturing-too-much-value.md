@@ -13,15 +13,27 @@ It's more fair to have metered pricing. You pay for what you use, and both the c
 
 Per-seat pricing is not evil. It's a reasonable way to arrive at a clearing price when the product is a bundle of thousands of actions a user can take in a given month. It's a simple alternative to the false precision of trying to measure the utility of something that is simply too hard to measure.
 
-But AI is going to change the playing field. Businesses will want to pay for results instead of paying for SaaS software that manages the human process which promises to deliver results. As I wrote in [Agents are a Generalized Technology](/2025/agents-are-a-generalized-technology):
+But AI is going to change the playing field. Businesses will want to pay for results instead of paying for SaaS software that manages the human process which promises to deliver results.
+
+<div style="margin-left: 2em;">
 
 > Vertical software has been a way to roughly encode processes into digital machines, so that humans can introduce intelligence into those processes.
+>
+> — [Agents are a Generalized Technology](/2025/agents-are-a-generalized-technology)
+
+</div>
 
 With agents, you'll pay for outcomes.
 
-This is just one force SaaS companies need to contend with. On top of that, software is becoming cheaper to make and easier to migrate across. In [Hard is Back](/2025/hard-is-back):
+This is just one force SaaS companies need to contend with. On top of that, software is becoming cheaper to make and easier to migrate across.
+
+<div style="margin-left: 2em;">
 
 > AI is eroding the last standing barriers of entry. Trivialization of app production will lead to diminishing returns, and upside will vanish.
+>
+> — [Hard is Back](/2025/hard-is-back)
+
+</div>
 
 What else is abundant and easy to substitute? Commodities. What are the gross margins of commodities? SaaS has 70%+ gross margins. Is this sustainable? Why?
 
