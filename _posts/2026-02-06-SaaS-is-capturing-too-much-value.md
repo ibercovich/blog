@@ -15,25 +15,19 @@ Per-seat pricing is not evil. It's a reasonable way to arrive at a clearing pric
 
 But AI is going to change the playing field. Businesses will want to pay for results instead of paying for SaaS software that manages the human process which promises to deliver results.
 
-<div style="margin-left: 2em;">
-
-> Vertical software has been a way to roughly encode processes into digital machines, so that humans can introduce intelligence into those processes.
->
-> — [Agents are a Generalized Technology](/2025/agents-are-a-generalized-technology)
-
-</div>
+<blockquote style="margin-left: 2em; padding-left: 1em; border-left: 3px solid #ccc;">
+  <p>Vertical software has been a way to roughly encode processes into digital machines, so that humans can introduce intelligence into those processes.</p>
+  <cite style="font-size: 0.9em;">— <a href="/2025/agents-are-a-generalized-technology">Agents are a Generalized Technology</a></cite>
+</blockquote>
 
 With agents, you'll pay for outcomes.
 
 This is just one force SaaS companies need to contend with. On top of that, software is becoming cheaper to make and easier to migrate across.
 
-<div style="margin-left: 2em;">
-
-> AI is eroding the last standing barriers of entry. Trivialization of app production will lead to diminishing returns, and upside will vanish.
->
-> — [Hard is Back](/2025/hard-is-back)
-
-</div>
+<blockquote style="margin-left: 2em; padding-left: 1em; border-left: 3px solid #ccc;">
+  <p>AI is eroding the last standing barriers of entry. Trivialization of app production will lead to diminishing returns, and upside will vanish.</p>
+  <cite style="font-size: 0.9em;">— <a href="/2025/hard-is-back">Hard is Back</a></cite>
+</blockquote>
 
 What else is abundant and easy to substitute? Commodities. What are the gross margins of commodities? SaaS has 70%+ gross margins. Is this sustainable? Why?
 
