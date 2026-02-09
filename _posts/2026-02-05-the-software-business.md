@@ -28,6 +28,11 @@ I'm not saying I understand the implications for today's large SaaS companies. S
 
 Think of a business that sells me a tool to do performance reviews. Are they directly solving a problem? The problem is that I want to promote the best and fire the worst. Do I need software to administer the managerial process of performing reviews? Or do I need an AI that tells me who to promote and who to let go? Do you see the difference? Does Salesforce bring me sales, or is it just software to administer the human process of sales?
 
+<blockquote style="margin-left: 2em; padding-left: 1em; border-left: 3px solid #ccc;">
+  <p>Vertical software has been a way to roughly encode processes into digital machines, so that humans can introduce intelligence into those processes.</p>
+  <cite style="font-size: 0.9em;">— <a href="/2025/agents-are-a-generalized-technology">Agents are a Generalized Technology</a></cite>
+</blockquote>
+
 In good business relationships, everyone wins. In order to know everyone is benefiting, both parties need to know the value they're getting. With SaaS, the value to the buyer is often unclear. Customers pay per-seat licenses without knowing exactly how much leverage those licenses bring to the business. Meanwhile, SaaS companies have a tremendous amount of visibility into their customers' utility. They know exactly how often every feature of their product is touched by each user at each company, and how users and companies compare. This relative advantage, especially when the buyer is a smaller business, makes it inevitable that SaaS companies will end up capturing more value than their customers.
 
 It's more fair to have metered pricing. You pay for what you use, and both the customer and the provider understand this number. Gasoline and electricity costs are proportionate to usage, and these expenses can be reduced when needed by reducing consumption. In software, hyperscalers offer similar transactions. Many API products charge per unit of work. This is the future, because it's more fair for the customer and it allows consumption to ebb and flow based on business need.
@@ -35,11 +40,6 @@ It's more fair to have metered pricing. You pay for what you use, and both the c
 Per-seat pricing is not evil. It's a reasonable way to arrive at a clearing price when the product is a bundle of thousands of actions a user can take in a given month. It's a simple alternative to the false precision of trying to measure the utility of something that is simply too hard to measure.
 
 But AI is going to change the playing field. Businesses will want to pay for results instead of paying for SaaS software that manages the human process which promises to deliver results.
-
-<blockquote style="margin-left: 2em; padding-left: 1em; border-left: 3px solid #ccc;">
-  <p>Vertical software has been a way to roughly encode processes into digital machines, so that humans can introduce intelligence into those processes.</p>
-  <cite style="font-size: 0.9em;">— <a href="/2025/agents-are-a-generalized-technology">Agents are a Generalized Technology</a></cite>
-</blockquote>
 
 With agents, you'll pay for outcomes.
 
@@ -49,13 +49,7 @@ Read *The Innovator's Dilemma*. Disruption starts at the bottom. Imagine small b
 
 "But adding features and fixing bugs is going to be hard." Again, don't compare this to enterprise-grade SaaS that needs to support other enterprises, all of which have different requirements. Think of software meant for a single small team with its own needs for a very specific use case. The equivalent of a spreadsheet. Vibe coding can maintain that. And when it gets unwieldy a year later, tell a smarter AI to take all the data from the old product and build a new one.
 
-One of the first things I tell a SaaS founder when they're struggling with bugs and maintenance is to start tracking analytics for every click on every feature and then analyze what is or isn't being used.
-
-I always predict that they'll have a lot of features being used by a tiny fraction of their customers. Even within a feature, there will be a certain config or setting that almost nobody uses. And often, they'll find there are features that actually nobody uses.
-
-Furthermore, on close inspection, they will realize the number of unique users and the level of activity at each customer is lower than they thought.
-
-The point is, it's a reality that enterprise software is complex, has delicate security features, needs to scale, needs to support a lot of use cases, and has been battle-tested for bugs for many years.
+It's a reality that enterprise software is complex, has delicate security features, needs to scale, needs to support a lot of use cases, and has been battle-tested for bugs for many years.
 
 But custom software for small teams doesn't need all the features SaaS companies bundle to justify higher prices.
 
@@ -72,7 +66,15 @@ Software is becoming cheaper to make and easier to migrate across.
   <cite style="font-size: 0.9em;">— <a href="/2025/hard-is-back">Hard is Back</a></cite>
 </blockquote>
 
+One of the first things I tell a SaaS founder when they're struggling with bugs and maintenance is to start tracking analytics for every click on every feature and then analyze what is or isn't being used.
+
+I always predict that they'll have a lot of features being used by a tiny fraction of their customers. Even within a feature, there will be a certain config or setting that almost nobody uses. And often, they'll find there are features that actually nobody uses.
+
+Furthermore, on close inspection, they will realize the number of unique users and the level of activity at each customer is lower than they thought.
+
 What else is abundant and easy to substitute? Commodities. What are the gross margins of commodities? SaaS has 70%+ gross margins. Is this sustainable? Why?
+
+![The past year has seen an explosion in coding productivity](/assets/generated-stuff.png)
 
 The number of software startups going after every vertical will 10x, the price will 1/10th due to competition. It will start with the simpler stuff, but I struggle to see a world where it stops there given how fast code generation is advancing. This has happened before to other industries. Margins compress with competition. It's why free markets are good.
 
