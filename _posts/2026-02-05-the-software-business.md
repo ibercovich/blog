@@ -61,9 +61,11 @@ But custom software for small teams doesn't need all the features SaaS companies
 
 Teams manage hundreds of documents and spreadsheets in their day-to-day business. There's no reason they can't have dozens of neatly defined internal vibe-coded tools to do their jobs.
 
+And there will be more companies that decide to take technology in-house and vertically integrate. Most companies benefit from using the same software every other company in their industry uses. But some ultra innovative companies, like Tesla, like to own the entire stack to do things their own way. Waymo is another example.
+
 I'm very long on the infrastructure to run all this, like [Daytona](https://www.daytona.io/). There's going to be infinitely more custom software.
 
-This is just one more force SaaS companies need to contend with. On top of that, software is becoming cheaper to make and easier to migrate across.
+Software is becoming cheaper to make and easier to migrate across.
 
 <blockquote style="margin-left: 2em; padding-left: 1em; border-left: 3px solid #ccc;">
   <p>AI is eroding the last standing barriers of entry. Trivialization of app production will lead to diminishing returns, and upside will vanish.</p>
@@ -72,7 +74,7 @@ This is just one more force SaaS companies need to contend with. On top of that,
 
 What else is abundant and easy to substitute? Commodities. What are the gross margins of commodities? SaaS has 70%+ gross margins. Is this sustainable? Why?
 
-The number of software startups going after every vertical will 10x, the price will 1/10th due to competition. It will start with the simpler stuff, but I struggle to see a world where it stops there given how fast code generation is advancing. This has happened before to other industries. Margins compress with competition. It's why free markets are good. And there will be more companies that decide to take technology in-house and vertically integrate. Most companies benefit from using the same software every other company in their industry uses. But some ultra innovative companies, like Tesla, like to own the entire stack to do things their own way. I'm thinking of companies like Waymo.
+The number of software startups going after every vertical will 10x, the price will 1/10th due to competition. It will start with the simpler stuff, but I struggle to see a world where it stops there given how fast code generation is advancing. This has happened before to other industries. Margins compress with competition. It's why free markets are good.
 
 SaaS has been capturing too much value. We live in a world where everyone has to pay SaaS taxes in order to operate their business. It's a good time for software operators to carefully consider the nature of their transactions and make sure their customers are getting a good deal.
 
