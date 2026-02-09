@@ -72,11 +72,11 @@ This is just one more force SaaS companies need to contend with. On top of that,
 
 What else is abundant and easy to substitute? Commodities. What are the gross margins of commodities? SaaS has 70%+ gross margins. Is this sustainable? Why?
 
-I can see two angles of attack to the current status quo. The number of software startups going after every vertical will 10x, the price will 1/10th due to competition. It will start with the simpler stuff, but I struggle to see a world where it stops there given how fast code generation is advancing. This has happened before to other industries. Margins compress with competition. It's why free markets are good. And there will be more companies that decide to take technology in-house and vertically integrate. Most companies benefit from using the same software every other company in their industry uses. But some ultra innovative companies, like Tesla, like to own the entire stack to do things their own way. I'm thinking of companies like Waymo.
+The number of software startups going after every vertical will 10x, the price will 1/10th due to competition. It will start with the simpler stuff, but I struggle to see a world where it stops there given how fast code generation is advancing. This has happened before to other industries. Margins compress with competition. It's why free markets are good. And there will be more companies that decide to take technology in-house and vertically integrate. Most companies benefit from using the same software every other company in their industry uses. But some ultra innovative companies, like Tesla, like to own the entire stack to do things their own way. I'm thinking of companies like Waymo.
 
 SaaS has been capturing too much value. We live in a world where everyone has to pay SaaS taxes in order to operate their business. It's a good time for software operators to carefully consider the nature of their transactions and make sure their customers are getting a good deal.
 
-The businesses that survive will be the ones building the tools agents need to actually solve the problem:
+One set of businesses that will thrive will be the ones building the tools agents need to actually solve the problem:
 
 <blockquote style="margin-left: 2em; padding-left: 1em; border-left: 3px solid #ccc;">
   <p>If someone creates a critical tool and integrates it with a frontier LLM to achieve valuable tasks, customers will willingly pay a premium for tokens resold by the tool-builder. But these tools aren't trivial MCP servers executing granular tasks. Instead, they involve large data, complex requirements, high compute needs, distributed systems, and advanced simulations.</p>
