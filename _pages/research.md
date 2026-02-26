@@ -15,7 +15,7 @@ MA Merrill, AG Shaw, N Carlini, B Li, H Raj, I Bercovich, L Shi, JY Shin, et al.
 
 A benchmark of 89 hard terminal tasks from real workflows, where frontier models achieve less than 65% success. Tasks span legacy system configuration, research paper reimplementation, and software engineering problems with human-written solutions and comprehensive verification tests.
 
-![Terminal-Bench Task Architecture](/assets/images/terminal-bench-architecture.png)
+![Terminal-Bench Task Architecture](../assets/images/terminal-bench-architecture.png)
 
 ### 2025
 
@@ -53,7 +53,7 @@ Led the architecture and scaling of Graphiq's Knowledge Graph, building an ontol
 
 Built a natural language question-answering system using bottoms-up semantic parsing over the structured Knowledge Graph. By sequentially combining NER, intent extraction, and NLG templating, we translated text queries into database operations with auto-generated visualizations. Through distributed database optimization and automated indexing, maintained 150-200ms response times at 25,000 queries per second. Internal benchmarks showed higher accuracy than Amazon Alexa and Google on standard query batteries.
 
-![Graphiq Knowledge Platform & Answering Engine Architecture](/assets/images/graphiq-architecture.png)
+![Graphiq Knowledge Platform & Answering Engine Architecture](../assets/images/graphiq-architecture.png)
 
 ## Academic Background
 
