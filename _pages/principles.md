@@ -206,6 +206,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - It can be helpful to think of our anti-virtues as diseases or disabilities
   - "I have the envy disease" gives us permission to be compassionate to ourselves
 - Don't believe everything you think.
+- There's who we think we should be and who we are best at being, and often they are not the same. - Me
 - "My biggest goal for myself is that my drift is back to real—back to the real me."
   - Chris Sacca
 - To underestimate oneself is no more virtuous than to overestimate oneself.
