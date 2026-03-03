@@ -246,25 +246,33 @@
     margin-bottom: 0.2rem;
   }
 
-  /* Editable fields */
-  [contenteditable] {
+  /* Editable fields (edit mode only) */
+  body.edit-mode [contenteditable] {
     outline: none;
     border-radius: 4px;
     transition: background 0.15s, box-shadow 0.15s;
   }
 
-  [contenteditable]:hover {
+  body.edit-mode [contenteditable]:hover {
     background: rgba(91, 106, 191, 0.04);
   }
 
-  [contenteditable]:focus {
+  body.edit-mode [contenteditable]:focus {
     background: rgba(91, 106, 191, 0.06);
     box-shadow: 0 0 0 2px rgba(91, 106, 191, 0.2);
   }
 
-  .message-bubble [contenteditable] {
+  body.edit-mode .message-bubble [contenteditable] {
     padding: 2px 4px;
     margin: -2px -4px;
+  }
+
+  /* Hide edit UI in view mode */
+  body:not(.edit-mode) .export-bar,
+  body:not(.edit-mode) .comment-delete,
+  body:not(.edit-mode) .feedback-label,
+  body:not(.edit-mode) .feedback-box {
+    display: none;
   }
 
   /* Export button */
@@ -361,6 +369,12 @@
 </div>
 
 <script>
+const isEditMode = window.location.hash === '#edit';
+if (isEditMode) document.body.classList.add('edit-mode');
+window.addEventListener('hashchange', () => {
+  document.body.classList.toggle('edit-mode', window.location.hash === '#edit');
+});
+
 const entries = [
   {
     "entry": 20,
@@ -1198,7 +1212,7 @@ function render() {
     }
 
     const contentSpan = document.createElement('span');
-    contentSpan.setAttribute('contenteditable', 'true');
+    if (isEditMode) contentSpan.setAttribute('contenteditable', 'true');
     contentSpan.dataset.entryIndex = entries.indexOf(entry);
     contentSpan.dataset.field = 'content';
     contentSpan.innerHTML = formatContent(entry.content);
@@ -1234,7 +1248,7 @@ function render() {
 
       const noteEl = document.createElement('span');
       noteEl.className = 'comment-note';
-      noteEl.setAttribute('contenteditable', 'true');
+      if (isEditMode) noteEl.setAttribute('contenteditable', 'true');
       noteEl.dataset.entryIndex = entryIdx;
       noteEl.dataset.commentIndex = cIdx;
       noteEl.dataset.field = 'comment';
@@ -1252,7 +1266,7 @@ function render() {
 
     const fbBox = document.createElement('div');
     fbBox.className = 'feedback-box';
-    fbBox.setAttribute('contenteditable', 'true');
+    if (isEditMode) fbBox.setAttribute('contenteditable', 'true');
     fbBox.dataset.entryIndex = entryIdx;
     fbBox.dataset.field = 'feedback';
     if (entry.feedback) fbBox.textContent = entry.feedback;
