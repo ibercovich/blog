@@ -5,8 +5,6 @@ author: Ivan Bercovich
 date: 2026-03-04T00:00:00.000Z
 ---
 
-A couple old
-
 ## Contradictions
 
 As children, we slowly develop distinct worldviews, often influenced by our friends and family. A little girl will observe no correlation between her views on abortion and the Iraq war, and form seemingly independent opinions on both subjects (though likely consistent, due to external influences). As we grow up, we discover collectives who share many of our same beliefs. Rather than continue to ponder what ought to be "right", we subscribe to a few tribes and adopt their belief system. Remaining consistent with a set of pre-conceived views prescribed by a particular tribal denomination is rather easy. Instead of constructing an authentic perspective, one must only imagine the archetypal response. As such, we forego our quest to understand the world on our own terms, perhaps the greatest privilege a sentient being can have. While our social nature makes a degree of herd mentality unavoidable, we can see vestiges of an authentic self by looking through the cracks. We are deeply defined by our contradictions.
