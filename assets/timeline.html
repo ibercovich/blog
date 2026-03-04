@@ -68,6 +68,10 @@
     padding-bottom: 0;
   }
 
+  .entry.removed {
+    display: none;
+  }
+
   /* Left column: chat message */
   .message-col {
     position: relative;
@@ -101,6 +105,11 @@
   .message-source.slack {
     color: #4a154b;
     background: #f0e6f0;
+  }
+
+  .message-source.imessage {
+    color: #1b6b2e;
+    background: #e6f4ea;
   }
 
   .message-channel {
@@ -246,6 +255,25 @@
     margin-bottom: 0.2rem;
   }
 
+  /* Entry remove button */
+  .entry-remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #ccc;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    transition: color 0.15s, background 0.15s;
+  }
+
+  .entry-remove:hover {
+    color: #c44;
+    background: #fef0f0;
+  }
+
   /* Editable fields (edit mode only) */
   body.edit-mode [contenteditable] {
     outline: none;
@@ -270,6 +298,7 @@
   /* Hide edit UI in view mode */
   body:not(.edit-mode) .export-bar,
   body:not(.edit-mode) .comment-delete,
+  body:not(.edit-mode) .entry-remove,
   body:not(.edit-mode) .feedback-label,
   body:not(.edit-mode) .feedback-box {
     display: none;
@@ -357,13 +386,13 @@
 
 <div class="page-header">
   <h1>AI Predictions Timeline</h1>
-  <p>Slack messages from a VC investor, paired with commentary on what came next</p>
+  <p>Messages from a VC investor, paired with commentary on what came next</p>
 </div>
 
 <div class="timeline" id="timeline" style="padding-bottom: 5rem;"></div>
 
 <div class="export-bar">
-  <span class="edit-hint">Click any message or comment to edit inline</span>
+  <span class="edit-hint">Click any message or comment to edit inline. Use x to remove entries or comments.</span>
   <span class="export-status" id="exportStatus">Exported!</span>
   <button class="export-btn" onclick="exportJSON()">Export JSON</button>
 </div>
@@ -376,6 +405,733 @@ window.addEventListener('hashchange', () => {
 });
 
 const entries = [
+  {
+    "entry": 295,
+    "date": "2016-06-24 16:57",
+    "channel": "+17149324337",
+    "source": "imessage",
+    "link": null,
+    "content": "The idea would be to tailor segments of a letter or email to a particular person.\n\nThe question is: are there any tools that give you that much personalization, how much they cost, and how much people would be willing to pay?\n\nSo if you email someone in California who is pro gun control, you can say: \"As a California resident, you should be very concerned. Fortunately, background checks are required if you want to purchase a weapon in California, both for new gun and private gun purchases. However, Nevada and Arizona do not require them. It is no surprise that California has one of the country's lowest rates of accidental gun deaths (0.08 per million); Nevada has 9 times the number of fatalities. The only way to protect your loved ones is to push for federal regulation on gun control.\"",
+    "comments": [
+      {
+        "date": "2020",
+        "note": "A Georgetown University/Stanford study used GPT-3 to generate hundreds of personalized left-wing and right-wing advocacy letters, sending ~32,000 AI-written policy emails to over 7,000 state legislators, with officials barely able to distinguish them from human-written letters (less than 2% differential)"
+      },
+      {
+        "date": "2024-02",
+        "note": "A PNAS study demonstrated real-time integration of user demographic data into GPT-4 prompts to generate personalized political messages at scale, the exact location- and belief-based personalization described in this 2016 message"
+      },
+      {
+        "date": "2024",
+        "note": "The 2024 U.S. election became the first in which generative AI was widely used for political ad targeting and voter outreach, with startups like Battleground AI helping campaigns create AI-personalized text-based ads at scale"
+      }
+    ],
+    "channelName": "Sean Duffy"
+  },
+  {
+    "entry": 279,
+    "date": "2016-07-29 15:10",
+    "channel": "+19259153003",
+    "source": "imessage",
+    "link": null,
+    "content": "Furthermore, because those Alexa skill builders don't have expertise building Q&A systems, their solutions are limited.\n\nYou need to use the Fidelity skill to ask for the price of Apple stock, and they can only handle a very small set of questions within that vertical. For example, \"Apple 2013 earnings\" wouldn't work.\n\nGraphiq is not so much a vertical-specific skill as it is a brain replacement for Alexa. We don't need separate skills for each vertical because we already have a vast knowledge graph. Additionally, we can ingest new data, such as enterprise data, to allow people to ask their own questions -- without any engineering required.",
+    "comments": [
+      {
+        "date": "2017-05",
+        "note": "Amazon acquired Graphiq for an estimated $50 million, integrating its knowledge graph and semantic search technology into Alexa to address exactly the Q&A limitations described here"
+      },
+      {
+        "date": "2022-11-30",
+        "note": "ChatGPT launched, proving that a single general-purpose language model could answer questions across every domain without needing vertical-specific skills -- the same vision articulated in this message six years earlier"
+      },
+      {
+        "date": "2023-09",
+        "note": "OpenAI gave ChatGPT voice capabilities, putting it on a direct collision course with Alexa and Siri by offering the kind of general-purpose voice Q&A that Graphiq envisioned as a 'brain replacement' for Alexa"
+      },
+      {
+        "date": "2024-06-10",
+        "note": "Apple announced Apple Intelligence at WWDC 2024, integrating ChatGPT into Siri, effectively acknowledging that traditional command-and-control voice assistants needed LLM-based general knowledge to remain competitive"
+      }
+    ],
+    "channelName": "Andrea Holland"
+  },
+  {
+    "entry": 262,
+    "date": "2016-10-26 15:47",
+    "channel": "+15086416758",
+    "source": "imessage",
+    "link": null,
+    "content": "I think at least part of our unconscious is like a machine learning algorithm -- driving insights and conclusions without a clear way to reason about it. You get an answer, but you don't know where it came from: an epiphany. Yet it's not random; it's based on your knowledge and experiences, and it's a reflection of what you believe to be true. Just not easily decipherable through logic.\n\nThe whole can be explained, just not emulated or predicted. It's irreducible complexity, but it's not magic.",
+    "comments": [
+      {
+        "date": "2020-04",
+        "note": "A Nature paper titled 'Algorithmic unconscious: why psychoanalysis helps in understanding AI' drew the same parallel between unconscious cognition and neural networks, arguing both process information in opaque, pattern-driven ways that resist logical decomposition"
+      },
+      {
+        "date": "2023-10",
+        "note": "Anthropic published groundbreaking mechanistic interpretability research using sparse autoencoders to decompose neural network activations into interpretable features, directly tackling the 'you get an answer but don't know where it came from' problem described here"
+      },
+      {
+        "date": "2024-05",
+        "note": "Anthropic identified over 34 million interpretable features in Claude Sonnet, demonstrating that neural networks can be partially decomposed and understood -- supporting the claim that the whole 'can be explained' even if not easily predicted"
+      }
+    ],
+    "channelName": "James Connolly"
+  },
+  {
+    "entry": 224,
+    "date": "2020-05-18 01:52",
+    "channel": "+13025404313",
+    "source": "imessage",
+    "link": null,
+    "content": "I think the gig economy is past its prime and it's also a dehumanizing meat market. But the general principle of creating value by unlocking people's ability still stands, and we have experience doing that by enabling knowledge engineers.\n\nThe question is what are some of the trends or subsequent steps in this same thread. For example, the next level could be to enable not just individuals, but groups of people to create value. Hypothetically, you could make a movie by finding a special effects person, a director, actors -- all amateurs -- and produce a high-quality product.\n\nAnother way to up-level is to ask people to do difficult things that require learning, like law or personal support (AA, depression, etc.).\n\nYet another is to build a really specialized system that requires highly capable people who have an unfair advantage in using your system -- similar to what we did with knowledge engineers.\n\nThen there is your target segment. We discussed that consumer would be more fun, and that there are structures that might allow you to target both by offering to consumers for cheaper or free. So what is something that people around the world can do, which is next level compared to today's gigs, which also makes those that consume the product better off in a significant way?",
+    "comments": [
+      {
+        "date": "2020-11",
+        "note": "California's Proposition 22 passed after gig companies spent nearly $200 million to keep workers classified as independent contractors, crystallizing the 'dehumanizing meat market' critique as a mainstream political issue"
+      },
+      {
+        "date": "2023-02",
+        "note": "Runway released Gen-1 and Gen-2 video generation models, beginning to enable exactly the scenario described here: amateurs producing high-quality video content without professional crews"
+      },
+      {
+        "date": "2024-02-15",
+        "note": "OpenAI previewed Sora, its text-to-video model, further democratizing filmmaking by enabling individuals and small teams of amateurs to generate cinematic-quality footage from text prompts"
+      },
+      {
+        "date": "2024",
+        "note": "BetterHelp grew to over 4 million users and 30,000 licensed therapists providing remote mental health support, validating the prediction that 'difficult things that require learning, like personal support (depression, etc.)' would be the next frontier beyond basic gigs"
+      }
+    ],
+    "channelName": "Tom Reno"
+  },
+  {
+    "entry": 199,
+    "date": "2020-06-07 18:32",
+    "channel": "Inventing the future",
+    "source": "imessage",
+    "link": null,
+    "content": "A question I really like, but for which I don't have an answer, is \"what is the next IT industry?\" -- meaning, in what field will we see higher demand than supply of personnel, who can do their job remotely, and where local regulations don't impede them from working abroad?\n\nPhase 1 of the dematerialization of work was Mechanical Turk and its copycats, more than a decade ago. Phase 2 has been more about specialized jobs, like technicians looking at X-rays in India, of which the most successful has been software engineers. I think there is still room in Phase 2, with more disciplines and tasks. And then there will be a third phase, where anyone intelligent can be made to do any job, given the right tools -- perhaps a gamification of work.",
+    "comments": [
+      {
+        "date": "2021",
+        "note": "Upwork and Fiverr's combined market capitalization peaked near $20 billion during the pandemic remote-work boom, validating the growth of Phase 2 specialized remote work platforms"
+      },
+      {
+        "date": "2023",
+        "note": "Scale AI's Remotasks subsidiary expanded data-labeling operations across the Philippines, Kenya, and India, creating a new global workforce category -- AI data annotation -- that fits the Phase 2 pattern of specialized remote work from developing countries"
+      },
+      {
+        "date": "2024-03",
+        "note": "Cognition Labs launched Devin, billed as the first autonomous AI software engineer, pointing toward Phase 3 where AI tools could enable anyone to perform tasks previously requiring deep specialization"
+      },
+      {
+        "date": "2024",
+        "note": "The World Economic Forum projected that AI would create ~97 million new jobs while displacing ~85 million, with 53% of AI-related jobs being remote or hybrid, reinforcing the trend toward dematerialized, location-independent work"
+      }
+    ]
+  },
+  {
+    "entry": 218,
+    "date": "2020-07-03 19:47",
+    "channel": "Inventing the future",
+    "source": "imessage",
+    "link": null,
+    "content": "What are some jobs that require human intelligence and/or emotions, which you could semi-automate by using humans from other countries?",
+    "comments": [
+      {
+        "date": "2023",
+        "note": "OpenAI contracted Sama to employ Kenyan workers at under $2/hour to review and label toxic content for ChatGPT's safety filters -- a job requiring human judgment and emotional resilience, outsourced to a developing country and semi-automated through AI-assisted tooling"
+      },
+      {
+        "date": "2024-02",
+        "note": "Klarna announced its AI chatbot handled two-thirds of customer service chats (2.3 million conversations), but by 2025 reversed course and began rehiring human agents, demonstrating that emotional intelligence in customer service resists full automation and still requires the human-AI hybrid model described here"
+      },
+      {
+        "date": "2025",
+        "note": "According to McKinsey, nearly 60% of outsourced tasks could be partially automated by 2030, with offshore teams shifting from basic query handling to higher-value advisory roles that combine human empathy with AI assistance -- the semi-automation model this message anticipated"
+      }
+    ]
+  },
+  {
+    "entry": 246,
+    "date": "2020-07-21 21:59",
+    "channel": "Inventing the future",
+    "source": "imessage",
+    "link": null,
+    "content": "More and more applications need a knowledge graph, as I've seen in most deals I've evaluated. And I'm not sure there is a modern tool for people to collaborate on building private ontologies.",
+    "comments": [
+      {
+        "date": "2021-06",
+        "note": "Neo4j raised $325M in the largest private database funding round ever, at a $2B+ valuation, reflecting surging enterprise demand for knowledge graphs"
+      },
+      {
+        "date": "2023-10",
+        "note": "Palantir's AIP platform, built on its enterprise Ontology, became the company's fastest-growing product, validating that ontology-driven architectures are central to enterprise AI"
+      },
+      {
+        "date": "2024-07",
+        "note": "Microsoft open-sourced GraphRAG, combining knowledge graphs with LLMs for retrieval, confirming that knowledge graphs became essential infrastructure for AI applications"
+      },
+      {
+        "date": "2024",
+        "note": "Gartner placed GraphRAG on its 2024 Hype Cycle for Generative AI, and knowledge graphs were recognized as critical for grounding LLMs with structured enterprise data"
+      }
+    ]
+  },
+  {
+    "entry": 296,
+    "date": "2020-07-28 20:26",
+    "channel": "Inventing the future",
+    "source": "imessage",
+    "link": null,
+    "content": "APIs to create user accounts and all the basic stuff, as well as some more complicated capabilities and custom schemas. The data never leaves, including machine learning model training, etc. (eventually).",
+    "comments": [
+      {
+        "date": "2021",
+        "note": "Federated learning emerged as a major research focus, enabling ML model training where data never leaves the device, exactly the architecture described here"
+      },
+      {
+        "date": "2022-05",
+        "note": "Hugging Face raised $100M at a $2B valuation, with a core value proposition of letting organizations host and fine-tune models on their own infrastructure"
+      },
+      {
+        "date": "2024-03",
+        "note": "The EU AI Act was adopted by Parliament, mandating data sovereignty and transparency requirements for AI training data, codifying the data-never-leaves principle into law"
+      }
+    ]
+  },
+  {
+    "entry": 241,
+    "date": "2020-08-23 02:08",
+    "channel": "+13233158851",
+    "source": "imessage",
+    "link": null,
+    "content": "A website to gather large datasets for the public good and freely available machine learning models. You would have campaigns to acquire a certain kind of data and have volunteers help out. It shouldn't be basic labeling like they do with Mechanical Turk. I imagine actual data gathering. Or it could be focused purely on the medical space, where you know a bunch of individual demographics and then you ask everyone to test something — eat a certain food, do a certain workout, etc. — and try the results. Learning from individual experimentation at scale.",
+    "comments": [
+      {
+        "date": "2021-03",
+        "note": "LAION (Large-scale Artificial Intelligence Open Network) was founded as a German nonprofit to create open-source AI datasets for the public good, closely matching the concept described here"
+      },
+      {
+        "date": "2021-08",
+        "note": "LAION released LAION-400M, a freely available dataset of 400 million image-caption pairs built through volunteer coordination, the exact campaign-based model proposed in this message"
+      },
+      {
+        "date": "2022-03",
+        "note": "NIH's All of Us Research Program released its first genomic dataset of nearly 100,000 whole genome sequences from diverse volunteers, matching the medical crowdsourcing vision described here"
+      },
+      {
+        "date": "2022",
+        "note": "ZOE's personalized nutrition program, built on crowdsourced individual health experiments (diet, microbiome, blood sugar responses), became the world's largest nutrition study — almost exactly the eat-a-certain-food-and-try-the-results concept described here"
+      }
+    ],
+    "channelName": "Alejandro Koretzky"
+  },
+  {
+    "entry": 263,
+    "date": "2020-08-24 22:31",
+    "channel": "Inventing the future",
+    "source": "imessage",
+    "link": null,
+    "content": "One example is all the cleaning of data you need to do for machine learning. The stuff you did classifying answers we understood but didn't answer might be a good example of a collaborative data project. All the work people need to do inside data warehouses to prepare data for training.",
+    "comments": [
+      {
+        "date": "2021-08",
+        "note": "Scale AI raised $325M at a $7.3B valuation, validating massive demand for collaborative data preparation for machine learning"
+      },
+      {
+        "date": "2021-08",
+        "note": "Snorkel AI, focused on programmatic data labeling as a collaborative workflow rather than brute-force annotation, reached a $1B valuation"
+      },
+      {
+        "date": "2022-02",
+        "note": "dbt Labs raised $222M at a $4.2B valuation for its data transformation tool, reflecting how data cleaning and preparation became a standalone billion-dollar category"
+      }
+    ]
+  },
+  {
+    "entry": 261,
+    "date": "2020-10-10 00:30",
+    "channel": "+12679946356",
+    "source": "imessage",
+    "link": null,
+    "content": "One area that is interesting is learning — not machine learning in the typical sense, but being able to teach your system how to behave with natural language. For example, have smart home or IoT devices and through dialogue arrive at the right settings. Personal knowledge is another interesting area.\n\nDeepMind is an example of a company that got acquired purely off doing research. Rare, but from another perspective also countercultural these days, which can be differentiating. I would probably also consider a big company if it gave us a lab-like environment that is more experimental. For example, Meta has some work on assistants blended into AR which might be cool.",
+    "comments": [
+      {
+        "date": "2022-12",
+        "note": "Home Assistant declared 2023 its 'Year of Voice,' building a local, natural-language voice assistant for smart homes — the exact teach-your-system-through-dialogue concept described here"
+      },
+      {
+        "date": "2021",
+        "note": "Anthropic was founded by former OpenAI researchers as a pure research lab focused on AI safety, following the DeepMind model of research-first company building described here"
+      },
+      {
+        "date": "2023-09",
+        "note": "Meta launched Ray-Ban Meta smart glasses with an integrated AI assistant, exactly the assistants-blended-into-AR concept mentioned in this message"
+      },
+      {
+        "date": "2025-03",
+        "note": "Amazon launched Alexa+, a generative-AI-powered conversational assistant that learns preferences through natural dialogue, validating the teach-through-conversation vision"
+      }
+    ],
+    "channelName": "Alex Yau"
+  },
+  {
+    "entry": 261.1,
+    "date": "2020-10-10 00:30",
+    "channel": "+12679946356",
+    "source": "imessage",
+    "link": null,
+    "content": "What do you think about building a layer that allows you to put rules on top of a machine learning model? The topmost level where you want some level of human oversight and be able to correct bugs in the model until it is reworked. We have a lot of experience with that and understand various techniques. It's also not fancy but necessary.\n\nAnother idea is getting into explainable and visualizable models. We would have to develop quite a bit of expertise, but we have some relevant experience and I'm sure we could be clever about helping people visualize how their models behave. It can be applied to medicine because more and more models will be used for diagnostics.",
+    "comments": [
+      {
+        "date": "2022-08",
+        "note": "OpenAI launched its Moderation API, a rule layer on top of GPT models to enforce content policies — a direct implementation of the rules-on-top-of-ML concept described here"
+      },
+      {
+        "date": "2022-12",
+        "note": "Anthropic published its Constitutional AI paper, describing a system of human-written rules that constrain model behavior, closely matching the 'rules on top of a model with human oversight' vision"
+      },
+      {
+        "date": "2023-04",
+        "note": "NVIDIA open-sourced NeMo Guardrails, a toolkit for adding programmable rules on top of LLMs — the exact architecture proposed in this message"
+      },
+      {
+        "date": "2024-03",
+        "note": "The EU AI Act was adopted by Parliament, mandating explainability and human oversight for high-risk AI systems including medical diagnostics, codifying the concerns raised here into law"
+      },
+      {
+        "date": "2023",
+        "note": "FDA approved 178 AI/ML-enabled medical devices in 2023 alone (up from ~100 in 2020), confirming the prediction that more and more models would be used for diagnostics"
+      }
+    ],
+    "channelName": "Alex Yau"
+  },
+  {
+    "entry": 205,
+    "date": "2020-10-10 00:35",
+    "channel": "+18478686679",
+    "source": "imessage",
+    "link": null,
+    "content": "Explainable AI is a problem. Not only for researchers but also for consumers. Imagine a feather-light experience you can attach to an AI model that walks any user through how it all works and the kind of decisions it makes, and when it succeeds or fails. It lets you play with it by tuning parameters so you can learn to trust the system.\n\nThere are a lot of interesting examples of people starting to explain AI.",
+    "comments": [
+      {
+        "date": "2021",
+        "note": "DARPA's four-year Explainable AI (XAI) program concluded, releasing the XAITK toolkit — a public library of explainability modules that can be attached to ML systems, similar to the 'attachable experience' concept described here"
+      },
+      {
+        "date": "2024-03",
+        "note": "The EU AI Act was adopted, requiring transparency and explainability for high-risk AI systems and granting users a 'right to explanation' — enshrining the consumer-facing explainability need identified here"
+      },
+      {
+        "date": "2023",
+        "note": "Anthropic pioneered interpretability research, publishing methods to visualize and understand how individual features inside Claude activate and make decisions, matching the 'walk users through how it works' vision"
+      }
+    ],
+    "channelName": "Samantha Zhang"
+  },
+  {
+    "entry": 282,
+    "date": "2020-10-13 23:29",
+    "channel": "+13025404313",
+    "source": "imessage",
+    "link": null,
+    "content": "I keep talking to reasonably well-funded and modern companies about ontologies and knowledge graphs, and they say \"yes, exactly, that's what we need.\" I think it's a thing that nobody owns, just like nobody knows what knowledge engineers are. It's on someone to define and own that.\n\nI read a quote somewhere that some of the biggest disruptions come with new vocabulary and concepts because people don't get it with the available terminology.\n\nThis company has to work with the FDA, and they have to explain the nature of the data collection to them. All they have is a big schema, but it would be much more valuable if the FDA itself could inspect the ontology and understand how the data relates.\n\nPeople who work on machine learning need to be able to draw the boundary between what the machine sorts out and what requires human judgment.",
+    "comments": [
+      {
+        "date": "2021-06",
+        "note": "Neo4j's $325M raise at $2B+ valuation confirmed enterprise demand for knowledge graphs, yet no single company had defined and owned the ontology-building category as predicted here"
+      },
+      {
+        "date": "2021-10",
+        "note": "The FDA published its first list of nearly 350 approved AI/ML-enabled medical devices, increasingly requiring structured data schemas for regulatory review — validating the need for FDA-inspectable ontologies"
+      },
+      {
+        "date": "2023",
+        "note": "Palantir built its entire AIP (AI Platform) product around the concept of an enterprise Ontology, effectively becoming the company that 'defined and owned' the ontology layer for enterprises"
+      },
+      {
+        "date": "2024-03",
+        "note": "The EU AI Act mandated human oversight boundaries for high-risk AI systems, formally codifying the need to 'draw the boundary between what the machine sorts out' and what humans must control"
+      }
+    ],
+    "channelName": "Tom Reno"
+  },
+  {
+    "entry": 265,
+    "date": "2020-10-24 16:23",
+    "channel": "+18056366145",
+    "source": "imessage",
+    "link": null,
+    "content": "I think we can apply a lot of what we learned with knowledge graphs and knowledge engineers, not to compete with machine learning, but to test it. A big problem is that a model is tested by scientists to succeed x% of the time, but they rarely look at the type of failures, which sometimes can be really problematic or silly. For example, errors on search-based Q&A tend to be more damaging (racist, etc.). I think beyond the testing of accuracy over a test set, one should be able to construct a battery of tests to make sure an algorithm behaves as expected. I think companies would pay for a third party that evaluates their algorithm, just like companies pay for penetration testing. I like it because it allows me to work on AI without being a phony that just puts AI on the company name; yet it allows me to enter from the side of skepticism and apply our experience with structured knowledge.",
+    "comments": [
+      {
+        "date": "2022-08",
+        "note": "Robust Intelligence raised $30M in Series B (December 2021) to stress-test AI models, validating the market for third-party AI evaluation as a service analogous to penetration testing"
+      },
+      {
+        "date": "2023-01-26",
+        "note": "NIST released the AI Risk Management Framework 1.0, formally establishing standards for testing AI systems beyond simple accuracy metrics, including bias, fairness, and robustness"
+      },
+      {
+        "date": "2023-08-12",
+        "note": "The White House co-organized the largest-ever public AI red-teaming exercise at DEF CON 31, with 2,200 sessions stress-testing models from OpenAI, Anthropic, Google, and Meta, institutionalizing third-party adversarial AI evaluation"
+      },
+      {
+        "date": "2023-10-30",
+        "note": "President Biden's Executive Order on AI required companies to share red-team testing results with the federal government before releasing high-risk systems, codifying the third-party AI evaluation concept described here"
+      },
+      {
+        "date": "2024-10",
+        "note": "Cisco acquired Robust Intelligence for its AI model validation and firewall technology, confirming that third-party AI testing became a major enterprise market"
+      }
+    ],
+    "channelName": "Nick Larusso"
+  },
+  {
+    "entry": 204,
+    "date": "2020-10-31 01:34",
+    "channel": "+12679946356",
+    "source": "imessage",
+    "link": null,
+    "content": "I can imagine there will be opportunities for AI robustness applications in many verticals. Self-driving and other machinery testing is obviously a very big deal.",
+    "comments": [
+      {
+        "date": "2021-06",
+        "note": "NHTSA issued a Standing General Order requiring all manufacturers of vehicles with Level 2+ automation to report crashes monthly, creating a formal AI robustness testing regime for autonomous vehicles"
+      },
+      {
+        "date": "2023-12",
+        "note": "Waymo published safety data over 7.14 million fully autonomous miles showing an 85% reduction in injury-causing crashes vs. human drivers, demonstrating the scale of investment in AI robustness validation for self-driving"
+      },
+      {
+        "date": "2024-08",
+        "note": "The EU AI Act entered into force, classifying AI systems in transportation, medical devices, and critical infrastructure as high-risk and requiring rigorous testing and certification across exactly the verticals predicted here"
+      }
+    ],
+    "channelName": "Alex Yau"
+  },
+  {
+    "entry": 291,
+    "date": "2020-11-02 02:59",
+    "channel": "+12679946356",
+    "source": "imessage",
+    "link": null,
+    "content": "Imagine you're a consumer-facing company and you want your customers to trust your use of AI. It might be a car, medical diagnostics, etc. You could offer your users a playground to interact directly with the algorithm so they can understand what's going on. Maybe even explore it visually by layers and whatnot. That would be one way to take what I pitched and make it more consumer-facing.\n\nAnd there might be value for the company beyond earning trust, because having random people testing your algorithm brings data points.\n\nAnd you can further gamify it if it becomes an important source of data. Like in Alexa we have feedback elicitation, but we never ask customers to spend a few minutes trying to break the system. Imagine how much data you could collect like that.\n\nThe point is, architecture aside, that from a consumer point of view, there might be value in earning trust with AI. And from the company's perspective, you could turn that into a useful feedback loop.",
+    "comments": [
+      {
+        "date": "2023-04",
+        "note": "OpenAI launched its bug bounty program via Bugcrowd, paying up to $20,000 for users who find vulnerabilities, directly implementing the 'gamify people trying to break the system' concept described here"
+      },
+      {
+        "date": "2023-08-12",
+        "note": "DEF CON 31's AI Village hosted 2,200 public red-teaming sessions where attendees tried to break AI models from major companies, matching the idea of inviting random people to adversarially test algorithms for useful data"
+      },
+      {
+        "date": "2024-07",
+        "note": "The EU AI Act's transparency provisions require consumer-facing AI systems to disclose when users are interacting with AI, reflecting the predicted need for companies to earn consumer trust through AI transparency"
+      }
+    ],
+    "channelName": "Alex Yau"
+  },
+  {
+    "entry": 271,
+    "date": "2020-11-24 17:34",
+    "channel": "lame.ai",
+    "source": "imessage",
+    "link": null,
+    "content": "One way to think about MLOps is that it will encompass the same size as the DevOps market as more applications go from pure software to having progressively more machine learning.",
+    "comments": [
+      {
+        "date": "2022",
+        "note": "The MLOps market was valued at approximately $1.1–1.4 billion in 2022, already establishing itself as a distinct and rapidly growing category parallel to DevOps"
+      },
+      {
+        "date": "2023-04",
+        "note": "MarketsandMarkets projected the MLOps market would reach $5.9 billion by 2027 at a 41% CAGR, confirming the trajectory toward DevOps-scale market size"
+      },
+      {
+        "date": "2025",
+        "note": "The MLOps market reached approximately $2.3–3.0 billion in 2025, with projections to $29.6 billion by 2032. Meanwhile, 58% of vendors prioritize integrating MLOps directly with DevOps pipelines, validating the convergence predicted here"
+      }
+    ]
+  },
+  {
+    "entry": 300,
+    "date": "2020-11-25 23:01",
+    "channel": "chat509597886779369007",
+    "source": "imessage",
+    "link": null,
+    "content": "Suppose you have an AI that determines someone should get no bail. There are parameters deeper within that model. Suppose that it's unexplainable by itself, but the judge adds some remarks based on what he sees. That label or tag can later help others understand. Think of it as labeling neurons or layers by what they seem to be doing. It doesn't affect the performance but improves the understanding.",
+    "comments": [
+      {
+        "date": "2023-10",
+        "note": "Anthropic published 'Towards Monosemanticity,' decomposing 512 neurons into over 4,000 interpretable features and labeling them by what they represent (e.g., DNA sequences, legal language), directly implementing the concept of labeling neurons by what they seem to be doing"
+      },
+      {
+        "date": "2024-05",
+        "note": "Anthropic published 'Scaling Monosemanticity,' extracting millions of interpretable features from Claude 3 Sonnet and labeling them with human-readable concepts like 'The Golden Gate Bridge' or 'code bugs,' scaling the neuron-labeling idea described here to production models"
+      },
+      {
+        "date": "2024-08",
+        "note": "The EU AI Act entered into force, classifying AI used in criminal justice and bail decisions as high-risk and requiring explainability and human oversight, codifying the exact judicial AI scenario described in this message"
+      }
+    ]
+  },
+  {
+    "entry": 240,
+    "date": "2020-12-04 03:51",
+    "channel": "+18052805432",
+    "source": "imessage",
+    "link": null,
+    "content": "This is where I'm interested in the MLOps space, in particular on the interface between product owners and machine learning models. We see a future in which the lifecycle of machine learning solutions is similar to what we see in software today, with players specialized in building, testing, deploying, and monitoring. We hypothesize testing and product management intersect strongly when it comes to machine learning. Models are typically evaluated by their performance against a test set, but this data might have poor coverage of all real-world scenarios, be inherently biased, and have highly damaging misses. In other words, it's not enough to say a model beat a human benchmark — companies will want to test for specific patterns, such as racism/sexism, use cases, landscape changes (e.g., a new regulation), etc. At Amazon, we \"invented\" the role of a knowledge engineer or \"KE\" (though this is not a new term, it has been out of fashion for quite some time). A knowledge engineer is essentially the product manager responsible for an AI solution. In the case of Alexa, there is a knowledge engineer for Sports, Politics, History, and so on, who are proficient at internal tools that enable direct control of the application. When teams build machine learning solutions, the capabilities of the product are defined and constrained by the dataset. Thus, if a PM wants to correct behaviors or expand functionality, they need to facilitate the acquisition of relevant training data. This indirect interface leads to a slow iteration cycle and non-deterministic results. Instead, we want knowledge engineers and PMs to define feature-specific tests at scale and to some extent act as an adversarial agent in machine learning development. Put another way, we want product owners to be able to understand and sculpt the model gradient as directly as possible.",
+    "comments": [
+      {
+        "date": "2023-01-26",
+        "note": "NIST released the AI Risk Management Framework 1.0, establishing formal processes for testing AI systems for bias, fairness, and real-world scenario coverage, institutionalizing the pattern-specific testing approach described here"
+      },
+      {
+        "date": "2023-08",
+        "note": "OpenAI launched GPT-3.5 fine-tuning APIs, enabling product owners to directly shape model behavior rather than relying solely on dataset changes, addressing the 'indirect interface' and 'slow iteration cycle' problem described here"
+      },
+      {
+        "date": "2023-10-30",
+        "note": "Biden's Executive Order on AI mandated red-team testing for specific harmful patterns (bias, discrimination, security vulnerabilities) before deployment, formalizing the adversarial product-management role for AI described in this message"
+      },
+      {
+        "date": "2024-10",
+        "note": "Cisco acquired Robust Intelligence for its AI validation platform that automates testing and compliance across the ML lifecycle, including bias, safety, and regulatory checks, commercializing the specialized ML testing layer predicted here"
+      }
+    ],
+    "channelName": "Dylan Wenzlau"
+  },
+  {
+    "entry": 283,
+    "date": "2020-12-07 18:24",
+    "channel": "lame.ai",
+    "source": "imessage",
+    "link": null,
+    "content": "I'm convinced you can start with an ontology GUI and build essential tools for data-intensive applications.",
+    "comments": [
+      {
+        "date": "2023-04",
+        "note": "Palantir launched AIP (Artificial Intelligence Platform), built on top of its ontology layer, demonstrating that an ontology-driven interface is a viable foundation for data-intensive AI applications. Revenue growth accelerated from 13% to 49% following this launch"
+      },
+      {
+        "date": "2024",
+        "note": "Microsoft released GraphRAG, which uses LLM-generated knowledge graphs to augment retrieval and outperform baseline RAG, validating the idea that structured ontological representations are foundational to data-intensive AI applications"
+      },
+      {
+        "date": "2024",
+        "note": "The knowledge graph market was valued at $1.07 billion in 2024 and projected to reach $6.94 billion by 2030, confirming that ontology-driven platforms became essential infrastructure for data-intensive applications"
+      }
+    ]
+  },
+  {
+    "entry": 286,
+    "date": "2020-12-07 18:37",
+    "channel": "lame.ai",
+    "source": "imessage",
+    "link": null,
+    "content": "Imagine that you start with the ontology — collections and attributes — and you define what kind of data you expect there. You might not only define the data type and ranges, but maybe also statistical properties, like heart rates go from 15 to 250, with a certain mean and variance (this is an example from Evidation). You can also define tests to verify this data is as intended. You also explain the purpose of this data — you have a history log that explains where it's being used and how it's being modified. You then associate this with any column on any table, and on regular intervals this data gets tested and everyone knows if something has gotten messed up.",
+    "comments": [
+      {
+        "date": "2021-02",
+        "note": "Monte Carlo Data, the data observability company, raised a $25M Series B in February 2021 to build exactly this kind of automated data quality monitoring — detecting anomalies in statistical properties across data pipelines"
+      },
+      {
+        "date": "2022-02",
+        "note": "Great Expectations, the open-source data quality tool whose core concept of 'expectations' mirrors the statistical-property-based tests described here, raised $40M in Series B funding"
+      },
+      {
+        "date": "2022-02",
+        "note": "dbt Labs raised $222M at a $4.2B valuation, with data testing and contracts becoming central features of the modern data stack — dbt's later data contracts feature (v1.5, April 2023) enforces the exact schema-level validation described in this message"
+      },
+      {
+        "date": "2022",
+        "note": "The 'data contracts' movement led by Andrew Jones at GoCardless and Chad Sanderson at Convoy formalized the idea of defining expected data shapes, statistical properties, and ownership metadata — closely matching this message's vision"
+      }
+    ]
+  },
+  {
+    "entry": 194,
+    "date": "2020-12-08 01:41",
+    "channel": "+17076318974",
+    "source": "imessage",
+    "link": null,
+    "content": "I just dream of making knowledge engineering a role at every company. I'm just looking for an entryway.",
+    "comments": [
+      {
+        "date": "2021-06",
+        "note": "Neo4j raised $325M in Series F at a $2B+ valuation in June 2021, the largest investment in a private database company at the time, reflecting surging enterprise demand for knowledge graph infrastructure"
+      },
+      {
+        "date": "2023",
+        "note": "The knowledge graph market was valued at $1B in 2022 and projected to grow at 13.5% CAGR through 2032, with companies like Google, Microsoft, Amazon, and Neo4j all offering enterprise knowledge graph products"
+      },
+      {
+        "date": "2023",
+        "note": "The rise of RAG (Retrieval-Augmented Generation) made knowledge engineering skills essential for grounding LLMs in structured data, creating the exact enterprise role envisioned here — combining ontology design with AI systems"
+      }
+    ],
+    "channelName": "Zach Trafny"
+  },
+  {
+    "entry": 252,
+    "date": "2020-12-09 22:59",
+    "channel": "Hackathon",
+    "source": "imessage",
+    "link": null,
+    "content": "One way to think about plumbing + knowledge graphs is that the API should provide primitives that, once defined, allow you to build SKS, an automated earnings report (Narratives), etc. So maybe the conversation is about various capabilities that are broadly necessary across SaaS products, which are closely related to knowledge graphs and ontologies.",
+    "comments": [
+      {
+        "date": "2022",
+        "note": "Google launched its Enterprise Knowledge Graph API in 2022, providing exactly the kind of knowledge graph primitives (entity reconciliation, schema mapping via schema.org) that could be composed into higher-level SaaS features"
+      },
+      {
+        "date": "2023",
+        "note": "GraphRAG emerged as a major application pattern in 2023-2024, combining knowledge graph primitives with LLMs to power structured reasoning across SaaS products — validating the idea that KG primitives are broadly necessary building blocks"
+      },
+      {
+        "date": "2022",
+        "note": "Atlan, a data catalog built on a knowledge graph architecture, was named a Leader in Forrester's Enterprise Data Catalogs Wave in Q2 2022, demonstrating that ontology-driven primitives were becoming foundational SaaS infrastructure"
+      }
+    ]
+  },
+  {
+    "entry": 257,
+    "date": "2020-12-10 01:44",
+    "channel": "Hackathon",
+    "source": "imessage",
+    "link": null,
+    "content": "That feels like the right level of complexity to target. Because if you go much lower to something like a named entity recognition library, you're competing on very well-defined metrics and spending a lot of money training better machine learning models.",
+    "comments": [
+      {
+        "date": "2021",
+        "note": "Hugging Face's model hub grew rapidly in 2021, hosting thousands of free NER models that commoditized the task — confirming that competing at the NER library level meant racing against an open-source tsunami"
+      },
+      {
+        "date": "2022-08",
+        "note": "Stable Diffusion's open-source release in August 2022 demonstrated the pattern described here at scale: state-of-the-art AI quickly gets replicated and open-sourced, making it expensive to compete on raw model benchmarks alone"
+      },
+      {
+        "date": "2023-02",
+        "note": "Meta released LLaMA in February 2023, an open-source LLM whose 13B model outperformed GPT-3's 175B on most benchmarks, further proving that competing on well-defined ML metrics is a losing strategy as open-source catches up"
+      }
+    ]
+  },
+  {
+    "entry": 212,
+    "date": "2021-01-05 21:30",
+    "channel": "+18478686679",
+    "source": "imessage",
+    "link": null,
+    "content": "Generation of content is an interesting and open opportunity.",
+    "comments": [
+      {
+        "date": "2021",
+        "note": "Jasper (then Conversion.ai) launched in January 2021 using GPT-3 for content generation and hit $42.5M ARR by end of year, validating content generation as a massive opportunity"
+      },
+      {
+        "date": "2022-10",
+        "note": "Jasper raised $125M at a $1.5B valuation in October 2022, and Copy.ai hit $10M ARR, confirming AI content generation as one of the fastest-growing application categories"
+      }
+    ],
+    "channelName": "Samantha Zhang"
+  },
+  {
+    "entry": 212.1,
+    "date": "2021-01-05 21:30",
+    "channel": "+18478686679",
+    "source": "imessage",
+    "link": null,
+    "content": "What you see with AI is that very quickly something that was state of the art gets replicated and open-sourced.",
+    "comments": [
+      {
+        "date": "2022-08",
+        "note": "Stable Diffusion was released as open source in August 2022, replicating the capabilities of proprietary image generation models like DALL-E 2 within months"
+      },
+      {
+        "date": "2023-02",
+        "note": "Meta released LLaMA in February 2023, an open-source LLM that matched or exceeded GPT-3's performance, setting off an explosion of open-source LLM development"
+      },
+      {
+        "date": "2023-03",
+        "note": "Stanford released Alpaca in March 2023, fine-tuning LLaMA to replicate ChatGPT-like instruction-following for under $600, demonstrating how rapidly open source closes the gap"
+      }
+    ],
+    "channelName": "Samantha Zhang"
+  },
+  {
+    "entry": 212.2,
+    "date": "2021-01-05 21:30",
+    "channel": "+18478686679",
+    "source": "imessage",
+    "link": null,
+    "content": "OpenAI is one of those places where you can be really good and still be at the bottom of the totem pole. It's good to be able to work with people better than yourself. I'm more interested in applications and I prefer actually \"open\" stuff like BERT and other open-source models, but it's possible OpenAI-style APIs are the only option.",
+    "comments": [
+      {
+        "date": "2020-06",
+        "note": "OpenAI launched the GPT-3 API in June 2020 as a closed, paid service — abandoning its open-source roots and confirming the tension this message identifies between openness and commercial API access"
+      },
+      {
+        "date": "2023-02",
+        "note": "Vice published 'OpenAI Is Now Everything It Promised Not to Be: Corporate, Closed-Source, and For-Profit,' crystallizing the exact criticism this message anticipated about OpenAI's shift away from openness"
+      },
+      {
+        "date": "2023-02",
+        "note": "Meta's release of LLaMA proved the 'open' alternative was viable after all, though OpenAI-style APIs remained the dominant commercial model as predicted"
+      }
+    ],
+    "channelName": "Samantha Zhang"
+  },
+  {
+    "entry": 212.3,
+    "date": "2021-01-05 21:30",
+    "channel": "+18478686679",
+    "source": "imessage",
+    "link": null,
+    "content": "The whole notion of the intersection between humans and AIs and how they collaborate is super interesting.",
+    "comments": [
+      {
+        "date": "2021-06",
+        "note": "GitHub Copilot launched in technical preview in June 2021, literally embodying the human-AI collaboration concept as an 'AI pair programmer' that works alongside developers"
+      },
+      {
+        "date": "2022",
+        "note": "RLHF (Reinforcement Learning from Human Feedback) became the standard technique for training AI assistants like ChatGPT, making human-AI collaboration fundamental to the training process itself"
+      },
+      {
+        "date": "2023-03",
+        "note": "Microsoft launched Microsoft 365 Copilot in March 2023, embedding AI collaboration directly into Word, Excel, and PowerPoint — making human-AI collaboration the default interaction model for hundreds of millions of knowledge workers"
+      }
+    ],
+    "channelName": "Samantha Zhang"
+  },
+  {
+    "entry": 208,
+    "date": "2021-04-30 16:57",
+    "channel": "+18056366145",
+    "source": "imessage",
+    "link": null,
+    "content": "Right now I'm looking into the ecosystem around AI — for example, the workflows that annotators use and the support systems to build good AI.",
+    "comments": [
+      {
+        "date": "2021-04",
+        "note": "Scale AI was valued at $7.3B in April 2021, just days before this message, reflecting massive growth in the data annotation ecosystem this message was investigating"
+      },
+      {
+        "date": "2022-01",
+        "note": "Scale AI won a $250M federal contract in January 2022 to provide annotation and data labeling tools to U.S. government agencies, validating annotation infrastructure as critical to AI development"
+      },
+      {
+        "date": "2022",
+        "note": "RLHF (Reinforcement Learning from Human Feedback) became the key technique behind ChatGPT's success, making human annotation workflows — the exact 'support systems to build good AI' referenced here — the most important bottleneck in AI development"
+      }
+    ],
+    "channelName": "Nick Larusso"
+  },
   {
     "entry": 20,
     "date": "2021-11-17 16:58",
@@ -432,6 +1188,16 @@ const entries = [
     ]
   },
   {
+    "entry": 331,
+    "date": "2022-08-14 22:15",
+    "channel": "+12816390485",
+    "source": "imessage",
+    "link": null,
+    "content": "\"Fellow European Jewish emigre, and fellow Manhattan Project physicist Stanislaw Ulam contracted a case of viral encephalitis, an inflammation of the brain. His doctors told him that he should 'rest his brain,' i.e., avoid thinking too hard. A desperate Ulam tried to distract himself by playing solitaire, but couldn't help wondering about the probabilities of winning. Failing to solve the problem with any statistical trick then known, he was unable to prevent himself from developing what is now called the Monte Carlo method, which proved instrumental in the development of the hydrogen bomb and much of modern statistics.\"\n\nSo you can learn to forecast the probability of a process you know nothing about simply by simulating it.\n\nMonte Carlo is an early form of simulation. You can extrapolate the parameters that drive a random process by simulating it and then making observations, instead of actually knowing the distribution.",
+    "comments": [],
+    "channelName": "Kevin Marion"
+  },
+  {
     "entry": 41,
     "date": "2022-10-13 11:36",
     "channel": "UDGBMD40K",
@@ -455,6 +1221,79 @@ const entries = [
         "note": "RAG (Retrieval-Augmented Generation) over personal data combined with a base LLM became one of the most pursued application patterns of 2023-2024, matching this message's proposed architecture"
       }
     ]
+  },
+  {
+    "entry": 248,
+    "date": "2022-10-28 03:09",
+    "channel": "+13102793352",
+    "source": "imessage",
+    "link": null,
+    "content": "I truly believe we can replace a lot of our process challenges with technology. I think we can systematize all our workflows — from recruiting, to onboarding, to scheduling, and so on.\n\nAnd then our EBITDA would get close to our gross profit.",
+    "comments": [
+      {
+        "date": "2024-04",
+        "note": "Rippling, which automates recruiting, onboarding, payroll, and IT provisioning from a single employee record, raised $200M at a $13.5B valuation — validating the exact 'systematize all workflows' thesis described here"
+      },
+      {
+        "date": "2024-02",
+        "note": "Klarna announced its AI assistant was handling 75% of customer service chats (2.3 million conversations), contributing to a projected $40M profit improvement by cutting headcount from 5,500 to 3,400"
+      },
+      {
+        "date": "2025-10",
+        "note": "Workday acquired Paradox, an AI recruiting and scheduling assistant, for $1B — confirming that automating HR workflows from recruiting to onboarding became a billion-dollar category"
+      }
+    ],
+    "channelName": "Ryan Neman"
+  },
+  {
+    "entry": 221,
+    "date": "2022-12-05 19:31",
+    "channel": "+14154184247",
+    "source": "imessage",
+    "link": null,
+    "content": "If you don't get this stuff, you're fucked in another 10 years.\n\nIf you don't align your career against this — like if you're into content or video production, you should be using AI-assisted tools and be aware of how they will evolve. If you're a banker, you should too. If you are not bringing AI into your tool belt, you're fucked.\n\nYou're older and you have wealth. But someone coming out of college or earlier in their career — they better figure this out.",
+    "comments": [
+      {
+        "date": "2024-01",
+        "note": "Duolingo cut 10% of its contract translators and writers in favor of GPT-4, one of the first high-profile cases of AI directly replacing content professionals"
+      },
+      {
+        "date": "2024",
+        "note": "A Randstad survey found that while 75% of companies were adopting AI, only 35% of workers had received any AI training — confirming the skills gap warning in this message"
+      },
+      {
+        "date": "2025-05",
+        "note": "Anthropic CEO Dario Amodei warned that AI could eliminate 50% of entry-level white-collar jobs within five years, echoing the urgency expressed here two and a half years earlier"
+      },
+      {
+        "date": "2025",
+        "note": "Entry-level job postings in the U.S. declined roughly 35% from January 2023 levels, with junior tech postings down as much as 67%, hitting exactly the early-career workers this message warned about"
+      }
+    ],
+    "channelName": "Joshua Spiegelman"
+  },
+  {
+    "entry": 197,
+    "date": "2022-12-22 20:50",
+    "channel": "+18057050861",
+    "source": "imessage",
+    "link": null,
+    "content": "As long as it's machine learning heavy, I'm interested. The next project has to be AI.\n\nI've always subscribed to that viewpoint, but I don't think it's as true right now. The leap in AI is too big. It's like in the early 2000s saying that your solution must be internet-related — that would be a reasonable requirement.\n\nI would at least think very carefully about the various ways in which AI could eat the 2010-era tech approach to that problem and make sure those are covered. To me, AI is mostly about automating as many employees and roles as possible. In construction it's tricky because robots might be part of the solution, and that's really hard.",
+    "comments": [
+      {
+        "date": "2023-03",
+        "note": "Goldman Sachs published a report estimating AI could automate 300 million jobs globally, framing AI-driven role automation as the central economic story — three months after this message made the same argument"
+      },
+      {
+        "date": "2025-02",
+        "note": "PulteGroup built an entire house using Hadrian X, a bricklaying robot that lays over 1,000 bricks per hour, confirming that construction robotics is viable but remains one of the hardest AI automation frontiers"
+      },
+      {
+        "date": "2025",
+        "note": "The construction robotics market grew at over 15% per year, with the Association of Builders and Contractors reporting 454,000 unfilled construction jobs — validating both the opportunity and the difficulty noted here"
+      }
+    ],
+    "channelName": "Danny Seigle"
   },
   {
     "entry": 47,
@@ -549,6 +1388,33 @@ const entries = [
     ]
   },
   {
+    "entry": 236,
+    "date": "2023-03-10 20:46",
+    "channel": "+15089044857",
+    "source": "imessage",
+    "link": null,
+    "content": "I don't think the trend of people doing entry-level work continuously increasing their relative income is going to last. There's too much pressure to reduce costs, and a lot of progress on AI and robotics.\n\nThe main theory for why the Industrial Revolution happened is that employees became too expensive, rather than the invention of any one machine or another.",
+    "comments": [
+      {
+        "date": "2024-04",
+        "note": "California raised the fast-food minimum wage to $20, and within a year 10,700 fast-food jobs were lost as 89% of restaurant operators reduced hours and replaced labor with kiosks and automation"
+      },
+      {
+        "date": "2025-05",
+        "note": "Klarna CEO announced AI helped shrink the company's workforce by 40%, with remaining employees earning higher salaries — a direct example of expensive labor driving automation, mirroring Robert Allen's theory of the Industrial Revolution cited here"
+      },
+      {
+        "date": "2025",
+        "note": "A 'low-hiring, low-firing' equilibrium emerged across the U.S. labor market: companies reduced headcount through attrition rather than backfilling roles, disproportionately eliminating entry-level positions as predicted"
+      },
+      {
+        "date": "2025-09",
+        "note": "CNBC reported AI was ending entry-level jobs and dismantling the career ladder, with a 50% decline in new role starts for workers with less than one year of post-graduate experience"
+      }
+    ],
+    "channelName": "Shaked Sivan"
+  },
+  {
     "entry": 63,
     "date": "2023-03-19 10:27",
     "channel": "general",
@@ -582,6 +1448,37 @@ const entries = [
     ]
   },
   {
+    "entry": 327,
+    "date": "2023-03-20 15:55",
+    "channel": "+18056366145",
+    "source": "imessage",
+    "link": null,
+    "content": "A lot of people are going to go off and work on first-order consequences of LLMs, but the big opportunities are probably second and third order, where you're not competing with everyone else looking to make a quick buck.\n\nAs an example, a first-order approach would be to just ask GPT to come up with a lesson to learn algebra. It will probably do a good job. But for what we do, we still need to make sure it meets various educational standards and that we can measure results confidently.\n\nA second-order use would be taking a lesson that already exists and rewriting it for a kid who is interested in cars, or fishing, or hiking. That would add engagement and will almost certainly keep the underlying material consistent with our objective.\n\nAnother example might be to use an LLM to train the tutors themselves. Since we need physical people at schools because part of the problem is that kids need supervision, we need to deal with humans. But we might be able to train them better if we require that everyone spends a certain number of minutes per week talking to the AI, and we measure the interactions.\n\nBut the basic stuff — like using LLMs to answer emails or send wedding thank-you notes — is going to get cherry-picked quickly and not be worth much. I think.",
+    "comments": [
+      {
+        "date": "2024",
+        "note": "The 'thin wrapper' AI startup wave collapsed — 254 venture-backed startups filed for bankruptcy in Q1 2024 alone, a 60% jump from 2023, as first-order LLM applications like email assistants became commoditized exactly as predicted"
+      },
+      {
+        "date": "2024-03",
+        "note": "LAUSD launched 'Ed,' a $6M AI personal assistant for 55,000 students, but the ed-tech firm behind it collapsed within months — illustrating the gap between first-order AI demos and the harder second-order work of meeting educational standards"
+      },
+      {
+        "date": "2024",
+        "note": "A randomized controlled trial of Tutor CoPilot — an AI system that coaches human tutors in real time — showed a 4 percentage-point increase in student mastery, with the largest gains (+9 p.p.) for students of lower-rated tutors. This validated the second-order 'use AI to train the tutors' idea described here"
+      },
+      {
+        "date": "2023-05",
+        "note": "Khan Academy launched Khanmigo, which personalizes lessons to student interests and context rather than simply generating answers — the second-order approach described in this message. By 2025 it reached 700,000 students"
+      },
+      {
+        "date": "2024-09",
+        "note": "Infosys chairman told CNBC that LLMs will be commoditized and the real value will come from applications built on top of them — restating the first-order vs. second-order framework laid out here 18 months earlier"
+      }
+    ],
+    "channelName": "Nick Larusso"
+  },
+  {
     "entry": 68,
     "date": "2023-04-11 08:14",
     "channel": "ai",
@@ -613,6 +1510,33 @@ const entries = [
         "note": "Gemini Ultra released by Google, further validating that increased compute yielded predictable capability improvements"
       }
     ]
+  },
+  {
+    "entry": 235,
+    "date": "2023-05-05 17:22",
+    "channel": "+18052523998",
+    "source": "imessage",
+    "link": null,
+    "content": "Yeah. Putting teachers out of a job.\n\nMaybe. I think the politically correct thing to say about AI is that it will make everyone's lives better. I personally think what will happen is that 80% of people in any profession that competes with AI will lose their jobs, and 20% will be the ones who can be more creative and make more money by scaling themselves out.\n\nI've met a lot of teachers at LAUSD and they aren't very smart or creative or even kind to children. They will be easily replaced.\n\nYou'll have to actually be an outstanding teacher, and then yeah, sure, parents will prefer a human like that involved.\n\nOtherwise, you'll have nannies taking care of kids while they learn from AIs.",
+    "comments": [
+      {
+        "date": "2024-03",
+        "note": "LAUSD — the very district mentioned here — launched an AI student assistant called Ed, making it the first major U.S. school district to deploy a personal AI learning tool at scale"
+      },
+      {
+        "date": "2023-03",
+        "note": "An OpenAI-affiliated paper ('GPTs are GPTs') found that 80% of the U.S. workforce could have at least 10% of their tasks affected by LLMs — the same 80% figure used in this message, applied to the broader workforce"
+      },
+      {
+        "date": "2025-05",
+        "note": "Anthropic CEO Dario Amodei warned that AI could eliminate 50% of entry-level white-collar jobs within five years, validating the prediction that a large share of workers in AI-competing professions will be displaced"
+      },
+      {
+        "date": "2025-09",
+        "note": "Khan Academy's Khanmigo AI tutor reached 700,000 K-12 students in the 2024-25 school year, with projections to exceed one million — demonstrating the viability of AI-delivered instruction at scale"
+      }
+    ],
+    "channelName": "Sean O’Bryen"
   },
   {
     "entry": 73,
@@ -694,6 +1618,37 @@ const entries = [
     ]
   },
   {
+    "entry": 219,
+    "date": "2023-10-02 03:43",
+    "channel": "+13104675545",
+    "source": "imessage",
+    "link": null,
+    "content": "Pushing the envelope is discussing how current trends will change the world in the future and how we can be investing in those trends. For example, the difference between \"every company will just sprinkle AI\" versus \"there will actually be AI-native companies that will outperform.\"\n\nIf it stays hypothetical, maybe not. But you can work backwards. For example, one of my perspectives — which might be wrong but I want to explore more — is that SaaS will hit a wall and new business models will emerge. There are fewer and fewer vertical SaaS companies that can grow as large as Procore. Meanwhile, you'll get many companies that look different from the winners of the last 10 years, which will be the new winners. And having the ability to seek and identify those will definitely be an edge.",
+    "comments": [
+      {
+        "date": "2024-09",
+        "note": "Klarna announced it was dropping Salesforce and Workday in favor of AI-powered internal tools, becoming the highest-profile example of a company rejecting traditional SaaS in favor of AI-native alternatives"
+      },
+      {
+        "date": "2025",
+        "note": "AI-native startups were growing at over 100% while traditional SaaS stalled at 23% growth, and companies like Cursor reached $100M ARR in about 12 months with roughly 30 employees — a pattern impossible under the old SaaS playbook"
+      },
+      {
+        "date": "2025-08",
+        "note": "Forrester CEO George Colony predicted AI would 'gut SaaS' and collapse bloated software pricing models, moving from per-seat subscriptions to usage-based and outcome-based pricing"
+      },
+      {
+        "date": "2025",
+        "note": "Procore's revenue growth decelerated from 21% to roughly 14% year-over-year as the company transitioned its go-to-market model, illustrating the ceiling on vertical SaaS growth described here"
+      },
+      {
+        "date": "2026-03",
+        "note": "Cursor hit $2B ARR, doubling in just three months, demonstrating that AI-native companies can scale to massive revenue with a fraction of the headcount traditional SaaS required"
+      }
+    ],
+    "channelName": "Heike Schirmer"
+  },
+  {
     "entry": 103,
     "date": "2023-11-27 17:19",
     "channel": "ai",
@@ -748,6 +1703,33 @@ const entries = [
     ]
   },
   {
+    "entry": 203,
+    "date": "2024-05-18 18:15",
+    "channel": "+16617143809",
+    "source": "imessage",
+    "link": null,
+    "content": "Progress can't be stopped. AGI is inevitable. It's probably true that the nature of the first AGI or ASI might be path-dependent on choices we make as humans — just like inventing nukes is inevitable but self-destruction isn't. But there are hundreds of countries, millions of companies, and billions of people. It's too hard to control. The only thing that gives some level of control is the fact that doing AI is very expensive, so it's hard to do completely in secret. It will happen anyway, so you may as well be part of it — and may as well have the USA lead.",
+    "comments": [
+      {
+        "date": "2025-01-21",
+        "note": "Trump announced the $500B Stargate Project with OpenAI, Oracle, and SoftBank — the US government explicitly embracing the 'may as well lead' posture described here"
+      },
+      {
+        "date": "2025-01-20",
+        "note": "DeepSeek-R1 launched from China, matching frontier US models despite export controls — validating that AI progress can't be stopped even with national-level restrictions"
+      },
+      {
+        "date": "2025-01-15",
+        "note": "Biden's AI Diffusion Rule imposed global export controls on AI chips and model weights, tiering countries into three categories — a direct attempt at the kind of control this message argued was futile"
+      },
+      {
+        "date": "2025-02-09",
+        "note": "Sam Altman published 'Three Observations,' stating OpenAI is 'confident we know how to build AGI as we have traditionally understood it' — aligning with the claim that AGI is inevitable"
+      }
+    ],
+    "channelName": "David Schnurr"
+  },
+  {
     "entry": 133,
     "date": "2024-05-29 15:35",
     "channel": "fund-partners",
@@ -796,6 +1778,37 @@ const entries = [
         "note": "Anthropic launched Claude with agentic coding capabilities"
       }
     ]
+  },
+  {
+    "entry": 290,
+    "date": "2024-09-13 23:41",
+    "channel": "+16507223931",
+    "source": "imessage",
+    "link": null,
+    "content": "Yeah, the whole internet economy will change. Free content doesn't make a lot of sense in an age of AI assistants.\n\nPR is a bit different. I mean content that is actually useful, like writing a blog post about how to repair a bike. If nobody ever reads the blog post except ChatGPT, and then it plagiarizes it, there's no incentive for original content.\n\nWe'll go back to paid content, which could be good for you in the right context.",
+    "comments": [
+      {
+        "date": "2024-05-14",
+        "note": "Google launched AI Overviews in US search results, summarizing web content directly in the search page and reducing click-through to the original source — the exact dynamic described here"
+      },
+      {
+        "date": "2025",
+        "note": "Global publisher traffic from Google dropped by a third in 2025, with 60% of searches ending in zero clicks — confirming that the free-content-supported-by-ads model was collapsing"
+      },
+      {
+        "date": "2024-07-30",
+        "note": "Perplexity AI launched its Publishers' Program with revenue sharing after plagiarism accusations from media outlets — an early attempt to address the broken incentive problem identified here"
+      },
+      {
+        "date": "2023-12-27",
+        "note": "The New York Times sued OpenAI for copyright infringement, alleging ChatGPT reproduced its content without permission — the 'plagiarizes it' concern made into a landmark legal case"
+      },
+      {
+        "date": "2024",
+        "note": "By late 2024, 79% of top news websites were blocking AI training bots via robots.txt, up dramatically from prior years — publishers acting on the realization that free content was being exploited without compensation"
+      }
+    ],
+    "channelName": "Noah Greenberg"
   },
   {
     "entry": 155,
@@ -1133,7 +2146,6 @@ function formatDate(dateStr) {
 }
 
 function formatCommentDate(dateStr) {
-  // Handles YYYY-MM-DD, YYYY-MM, or YYYY
   const parts = dateStr.split('-');
   if (parts.length === 3) {
     const d = new Date(dateStr + 'T00:00:00');
@@ -1152,29 +2164,50 @@ function escapeHtml(text) {
 }
 
 function formatContent(text) {
-  // Escape HTML first
   let html = escapeHtml(text);
-  // Convert URLs to links
   html = html.replace(/(https?:\/\/[^\s<>|]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
   return html;
 }
 
-function channelLabel(channel) {
-  // DM-style channel IDs
+function channelLabel(channel, source, channelName) {
+  if (source === 'imessage') {
+    if (channelName) return channelName;
+    if (/^\+\d+$/.test(channel)) return channel;
+    if (/^chat\d+$/.test(channel)) return 'group';
+    return channel;
+  }
   if (/^U[A-Z0-9]+$/.test(channel)) return 'DM';
   return '#' + channel;
+}
+
+function sourceLabel(source) {
+  if (source === 'imessage') return 'iMessage';
+  return 'Slack';
 }
 
 function render() {
   const container = document.getElementById('timeline');
 
-  entries.forEach(entry => {
+  entries.forEach((entry, entryIdx) => {
     const row = document.createElement('div');
     row.className = 'entry';
+    row.dataset.entryIndex = entryIdx;
 
     // Left: message
     const msgCol = document.createElement('div');
     msgCol.className = 'message-col';
+    msgCol.style.position = 'relative';
+
+    // Remove button
+    const removeBtn = document.createElement('span');
+    removeBtn.className = 'entry-remove';
+    removeBtn.textContent = '\u00d7 remove';
+    removeBtn.title = 'Remove this entry from export';
+    removeBtn.addEventListener('click', () => {
+      row.classList.add('removed');
+      row.dataset.removed = 'true';
+    });
+    msgCol.appendChild(removeBtn);
 
     const dateEl = document.createElement('div');
     dateEl.className = 'message-date';
@@ -1184,14 +2217,15 @@ function render() {
     const badgesRow = document.createElement('div');
     badgesRow.className = 'message-badges';
 
+    const src = entry.source || 'slack';
     const sourceEl = document.createElement('span');
-    sourceEl.className = 'message-source slack';
-    sourceEl.textContent = 'Slack';
+    sourceEl.className = 'message-source ' + src;
+    sourceEl.textContent = sourceLabel(src);
     badgesRow.appendChild(sourceEl);
 
     const channelEl = document.createElement('span');
     channelEl.className = 'message-channel';
-    channelEl.textContent = channelLabel(entry.channel);
+    channelEl.textContent = channelLabel(entry.channel, src, entry.channelName);
     badgesRow.appendChild(channelEl);
 
     msgCol.appendChild(badgesRow);
@@ -1199,7 +2233,6 @@ function render() {
     const bubble = document.createElement('div');
     bubble.className = 'message-bubble';
 
-    // Handle reply-to if present
     if (entry.replyTo) {
       const quoted = document.createElement('div');
       quoted.className = 'quoted-reply';
@@ -1213,7 +2246,7 @@ function render() {
 
     const contentSpan = document.createElement('span');
     if (isEditMode) contentSpan.setAttribute('contenteditable', 'true');
-    contentSpan.dataset.entryIndex = entries.indexOf(entry);
+    contentSpan.dataset.entryIndex = entryIdx;
     contentSpan.dataset.field = 'content';
     contentSpan.innerHTML = formatContent(entry.content);
     bubble.appendChild(contentSpan);
@@ -1221,11 +2254,9 @@ function render() {
     msgCol.appendChild(bubble);
     row.appendChild(msgCol);
 
-    // Right: commentary items
+    // Right: commentary
     const commentCol = document.createElement('div');
     commentCol.className = 'commentary-col';
-
-    const entryIdx = entries.indexOf(entry);
 
     (entry.comments || []).forEach((c, cIdx) => {
       const item = document.createElement('div');
@@ -1241,10 +2272,10 @@ function render() {
       });
       item.appendChild(deleteBtn);
 
-      const dateEl = document.createElement('span');
-      dateEl.className = 'comment-date';
-      dateEl.textContent = formatCommentDate(c.date);
-      item.appendChild(dateEl);
+      const cdateEl = document.createElement('span');
+      cdateEl.className = 'comment-date';
+      cdateEl.textContent = formatCommentDate(c.date);
+      item.appendChild(cdateEl);
 
       const noteEl = document.createElement('span');
       noteEl.className = 'comment-note';
@@ -1258,7 +2289,6 @@ function render() {
       commentCol.appendChild(item);
     });
 
-    // Feedback box
     const fbLabel = document.createElement('div');
     fbLabel.className = 'feedback-label';
     fbLabel.textContent = 'feedback';
@@ -1278,44 +2308,39 @@ function render() {
 }
 
 function collectEdits() {
-  // First, mark deleted comments so we skip them
-  const deletedSet = new Set();
+  const deletedComments = new Set();
   document.querySelectorAll('.comment-item[data-deleted="true"]').forEach(el => {
     const noteEl = el.querySelector('[data-field="comment"]');
     if (noteEl) {
       const idx = parseInt(noteEl.dataset.entryIndex);
       const cIdx = parseInt(noteEl.dataset.commentIndex);
-      deletedSet.add(idx + ':' + cIdx);
+      deletedComments.add(idx + ':' + cIdx);
       if (entries[idx]?.comments?.[cIdx]) {
         entries[idx].comments[cIdx] = null;
       }
     }
   });
 
-  // Remove nulled comments
   entries.forEach(entry => {
     if (entry.comments) {
       entry.comments = entry.comments.filter(c => c !== null);
     }
   });
 
-  // Read content edits back from the DOM into the entries array
   document.querySelectorAll('[contenteditable][data-field="content"]').forEach(el => {
     const idx = parseInt(el.dataset.entryIndex);
     if (entries[idx]) entries[idx].content = el.innerText;
   });
 
-  // Update comment text edits (skip deleted ones, and guard against index mismatches)
   document.querySelectorAll('[contenteditable][data-field="comment"]').forEach(el => {
     const idx = parseInt(el.dataset.entryIndex);
     const cIdx = parseInt(el.dataset.commentIndex);
-    if (deletedSet.has(idx + ':' + cIdx)) return;
+    if (deletedComments.has(idx + ':' + cIdx)) return;
     if (entries[idx]?.comments?.[cIdx]) {
       entries[idx].comments[cIdx].note = el.innerText;
     }
   });
 
-  // Collect feedback
   document.querySelectorAll('[contenteditable][data-field="feedback"]').forEach(el => {
     const idx = parseInt(el.dataset.entryIndex);
     if (!entries[idx]) return;
@@ -1330,7 +2355,15 @@ function collectEdits() {
 
 function exportJSON() {
   collectEdits();
-  const json = JSON.stringify(entries, null, 2);
+
+  // Filter out removed entries
+  const removedIndices = new Set();
+  document.querySelectorAll('.entry[data-removed="true"]').forEach(el => {
+    removedIndices.add(parseInt(el.dataset.entryIndex));
+  });
+  const exported = entries.filter((_, i) => !removedIndices.has(i));
+
+  const json = JSON.stringify(exported, null, 2);
   const blob = new Blob([json], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
