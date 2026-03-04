@@ -112,6 +112,11 @@
     background: #e6f4ea;
   }
 
+  .message-source.twitter {
+    color: #1a6b8a;
+    background: #daf0f7;
+  }
+
   .message-channel {
     display: inline-block;
     font-size: 0.65rem;
@@ -122,6 +127,36 @@
     border-radius: 3px;
     text-transform: lowercase;
     letter-spacing: 0.02em;
+  }
+
+  .rating-badge {
+    display: inline-block;
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 0.12rem 0.45rem;
+    border-radius: 3px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .rating-badge.outstanding {
+    color: #1a6b35;
+    background: #d4edda;
+  }
+
+  .rating-badge.good {
+    color: #6b5f00;
+    background: #fff3cd;
+  }
+
+  .rating-badge.neutral {
+    color: #7a4d00;
+    background: #ffe0b2;
+  }
+
+  .rating-badge.poor {
+    color: #8b1a1a;
+    background: #f8d7da;
   }
 
   .message-bubble {
@@ -355,6 +390,64 @@
     opacity: 1;
   }
 
+  /* Rating filter bar */
+  .filter-bar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 1.5rem;
+    background: #fff;
+    border-bottom: 1px solid #e2dfd8;
+  }
+
+  .filter-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.35rem 0.85rem;
+    border: 1.5px solid #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #fff;
+    color: #888;
+    transition: all 0.15s;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .filter-btn:hover {
+    border-color: #bbb;
+    color: #555;
+  }
+
+  .filter-btn.active.outstanding {
+    border-color: #1a6b35;
+    background: #d4edda;
+    color: #1a6b35;
+  }
+
+  .filter-btn.active.good {
+    border-color: #6b5f00;
+    background: #fff3cd;
+    color: #6b5f00;
+  }
+
+  .filter-btn.active.neutral {
+    border-color: #7a4d00;
+    background: #ffe0b2;
+    color: #7a4d00;
+  }
+
+  .filter-btn.active.poor {
+    border-color: #8b1a1a;
+    background: #f8d7da;
+    color: #8b1a1a;
+  }
+
+  .entry.filter-hidden {
+    display: none;
+  }
+
   /* Responsive */
   @media (max-width: 768px) {
     .entry {
@@ -387,6 +480,13 @@
 <div class="page-header">
   <h1>AI Predictions Timeline</h1>
   <p>Messages from a VC investor, paired with commentary on what came next</p>
+</div>
+
+<div class="filter-bar" id="filterBar">
+  <button class="filter-btn outstanding active" data-rating="outstanding" onclick="toggleFilter(this)">Outstanding</button>
+  <button class="filter-btn good active" data-rating="good" onclick="toggleFilter(this)">Good</button>
+  <button class="filter-btn neutral" data-rating="neutral" onclick="toggleFilter(this)">Neutral</button>
+  <button class="filter-btn poor" data-rating="poor" onclick="toggleFilter(this)">Poor</button>
 </div>
 
 <div class="timeline" id="timeline" style="padding-bottom: 5rem;"></div>
@@ -426,7 +526,8 @@ const entries = [
         "note": "The 2024 U.S. election became the first in which generative AI was widely used for political ad targeting and voter outreach, with startups like Battleground AI helping campaigns create AI-personalized text-based ads at scale"
       }
     ],
-    "channelName": "Sean Duffy"
+    "channelName": "Sean Duffy",
+    "rating": "outstanding"
   },
   {
     "entry": 279,
@@ -453,7 +554,8 @@ const entries = [
         "note": "Apple announced Apple Intelligence at WWDC 2024, integrating ChatGPT into Siri, effectively acknowledging that traditional command-and-control voice assistants needed LLM-based general knowledge to remain competitive"
       }
     ],
-    "channelName": "Andrea Holland"
+    "channelName": "Andrea Holland",
+    "rating": "outstanding"
   },
   {
     "entry": 262,
@@ -476,7 +578,31 @@ const entries = [
         "note": "Anthropic identified over 34 million interpretable features in Claude Sonnet, demonstrating that neural networks can be partially decomposed and understood -- supporting the claim that the whole 'can be explained' even if not easily predicted"
       }
     ],
-    "channelName": "James Connolly"
+    "channelName": "James Connolly",
+    "rating": "good"
+  },
+  {
+    "entry": 428,
+    "date": "2016-12-05 17:57",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/805833548087181312",
+    "content": "Humans have a robust DB of prior knowledge. ML solely based on primary data will miss important insights. Intelligence requires experience.",
+    "comments": [
+      {
+        "date": "2018-10",
+        "note": "Google released BERT, a pre-trained language model that leveraged massive text corpora as a 'database of prior knowledge' and broke 11 NLP benchmarks — vindicating the claim that models trained only on task-specific primary data miss important insights"
+      },
+      {
+        "date": "2020-05",
+        "note": "OpenAI published the GPT-3 paper 'Language Models are Few-Shot Learners,' showing that a 175-billion-parameter model pre-trained on broad internet text could perform tasks with little to no task-specific data, precisely because it had internalized a robust store of prior knowledge"
+      },
+      {
+        "date": "2021-08",
+        "note": "Stanford researchers coined the term 'foundation models' in a landmark report, formalizing the paradigm that AI systems should be pre-trained on broad data to build a base of experience before being adapted — the exact insight this 2016 tweet articulated"
+      }
+    ],
+    "rating": "outstanding"
   },
   {
     "entry": 224,
@@ -503,7 +629,8 @@ const entries = [
         "note": "BetterHelp grew to over 4 million users and 30,000 licensed therapists providing remote mental health support, validating the prediction that 'difficult things that require learning, like personal support (depression, etc.)' would be the next frontier beyond basic gigs"
       }
     ],
-    "channelName": "Tom Reno"
+    "channelName": "Tom Reno",
+    "rating": "good"
   },
   {
     "entry": 199,
@@ -529,7 +656,8 @@ const entries = [
         "date": "2024",
         "note": "The World Economic Forum projected that AI would create ~97 million new jobs while displacing ~85 million, with 53% of AI-related jobs being remote or hybrid, reinforcing the trend toward dematerialized, location-independent work"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 218,
@@ -551,7 +679,8 @@ const entries = [
         "date": "2025",
         "note": "According to McKinsey, nearly 60% of outsourced tasks could be partially automated by 2030, with offshore teams shifting from basic query handling to higher-value advisory roles that combine human empathy with AI assistance -- the semi-automation model this message anticipated"
       }
-    ]
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 246,
@@ -577,7 +706,8 @@ const entries = [
         "date": "2024",
         "note": "Gartner placed GraphRAG on its 2024 Hype Cycle for Generative AI, and knowledge graphs were recognized as critical for grounding LLMs with structured enterprise data"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 296,
@@ -599,7 +729,8 @@ const entries = [
         "date": "2024-03",
         "note": "The EU AI Act was adopted by Parliament, mandating data sovereignty and transparency requirements for AI training data, codifying the data-never-leaves principle into law"
       }
-    ]
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 241,
@@ -626,7 +757,8 @@ const entries = [
         "note": "ZOE's personalized nutrition program, built on crowdsourced individual health experiments (diet, microbiome, blood sugar responses), became the world's largest nutrition study — almost exactly the eat-a-certain-food-and-try-the-results concept described here"
       }
     ],
-    "channelName": "Alejandro Koretzky"
+    "channelName": "Alejandro Koretzky",
+    "rating": "outstanding"
   },
   {
     "entry": 263,
@@ -648,7 +780,8 @@ const entries = [
         "date": "2022-02",
         "note": "dbt Labs raised $222M at a $4.2B valuation for its data transformation tool, reflecting how data cleaning and preparation became a standalone billion-dollar category"
       }
-    ]
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 261,
@@ -675,7 +808,8 @@ const entries = [
         "note": "Amazon launched Alexa+, a generative-AI-powered conversational assistant that learns preferences through natural dialogue, validating the teach-through-conversation vision"
       }
     ],
-    "channelName": "Alex Yau"
+    "channelName": "Alex Yau",
+    "rating": "good"
   },
   {
     "entry": 261.1,
@@ -706,7 +840,8 @@ const entries = [
         "note": "FDA approved 178 AI/ML-enabled medical devices in 2023 alone (up from ~100 in 2020), confirming the prediction that more and more models would be used for diagnostics"
       }
     ],
-    "channelName": "Alex Yau"
+    "channelName": "Alex Yau",
+    "rating": "outstanding"
   },
   {
     "entry": 205,
@@ -729,7 +864,8 @@ const entries = [
         "note": "Anthropic pioneered interpretability research, publishing methods to visualize and understand how individual features inside Claude activate and make decisions, matching the 'walk users through how it works' vision"
       }
     ],
-    "channelName": "Samantha Zhang"
+    "channelName": "Samantha Zhang",
+    "rating": "neutral"
   },
   {
     "entry": 282,
@@ -756,7 +892,8 @@ const entries = [
         "note": "The EU AI Act mandated human oversight boundaries for high-risk AI systems, formally codifying the need to 'draw the boundary between what the machine sorts out' and what humans must control"
       }
     ],
-    "channelName": "Tom Reno"
+    "channelName": "Tom Reno",
+    "rating": "good"
   },
   {
     "entry": 265,
@@ -787,7 +924,8 @@ const entries = [
         "note": "Cisco acquired Robust Intelligence for its AI model validation and firewall technology, confirming that third-party AI testing became a major enterprise market"
       }
     ],
-    "channelName": "Nick Larusso"
+    "channelName": "Nick Larusso",
+    "rating": "outstanding"
   },
   {
     "entry": 204,
@@ -810,7 +948,8 @@ const entries = [
         "note": "The EU AI Act entered into force, classifying AI systems in transportation, medical devices, and critical infrastructure as high-risk and requiring rigorous testing and certification across exactly the verticals predicted here"
       }
     ],
-    "channelName": "Alex Yau"
+    "channelName": "Alex Yau",
+    "rating": "neutral"
   },
   {
     "entry": 291,
@@ -833,7 +972,8 @@ const entries = [
         "note": "The EU AI Act's transparency provisions require consumer-facing AI systems to disclose when users are interacting with AI, reflecting the predicted need for companies to earn consumer trust through AI transparency"
       }
     ],
-    "channelName": "Alex Yau"
+    "channelName": "Alex Yau",
+    "rating": "good"
   },
   {
     "entry": 271,
@@ -855,7 +995,8 @@ const entries = [
         "date": "2025",
         "note": "The MLOps market reached approximately $2.3–3.0 billion in 2025, with projections to $29.6 billion by 2032. Meanwhile, 58% of vendors prioritize integrating MLOps directly with DevOps pipelines, validating the convergence predicted here"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 300,
@@ -877,7 +1018,8 @@ const entries = [
         "date": "2024-08",
         "note": "The EU AI Act entered into force, classifying AI used in criminal justice and bail decisions as high-risk and requiring explainability and human oversight, codifying the exact judicial AI scenario described in this message"
       }
-    ]
+    ],
+    "rating": "outstanding"
   },
   {
     "entry": 240,
@@ -904,7 +1046,8 @@ const entries = [
         "note": "Cisco acquired Robust Intelligence for its AI validation platform that automates testing and compliance across the ML lifecycle, including bias, safety, and regulatory checks, commercializing the specialized ML testing layer predicted here"
       }
     ],
-    "channelName": "Dylan Wenzlau"
+    "channelName": "Dylan Wenzlau",
+    "rating": "outstanding"
   },
   {
     "entry": 283,
@@ -926,7 +1069,8 @@ const entries = [
         "date": "2024",
         "note": "The knowledge graph market was valued at $1.07 billion in 2024 and projected to reach $6.94 billion by 2030, confirming that ontology-driven platforms became essential infrastructure for data-intensive applications"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 286,
@@ -952,7 +1096,8 @@ const entries = [
         "date": "2022",
         "note": "The 'data contracts' movement led by Andrew Jones at GoCardless and Chad Sanderson at Convoy formalized the idea of defining expected data shapes, statistical properties, and ownership metadata — closely matching this message's vision"
       }
-    ]
+    ],
+    "rating": "outstanding"
   },
   {
     "entry": 194,
@@ -975,7 +1120,8 @@ const entries = [
         "note": "The rise of RAG (Retrieval-Augmented Generation) made knowledge engineering skills essential for grounding LLMs in structured data, creating the exact enterprise role envisioned here — combining ontology design with AI systems"
       }
     ],
-    "channelName": "Zach Trafny"
+    "channelName": "Zach Trafny",
+    "rating": "neutral"
   },
   {
     "entry": 252,
@@ -997,7 +1143,8 @@ const entries = [
         "date": "2022",
         "note": "Atlan, a data catalog built on a knowledge graph architecture, was named a Leader in Forrester's Enterprise Data Catalogs Wave in Q2 2022, demonstrating that ontology-driven primitives were becoming foundational SaaS infrastructure"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 257,
@@ -1019,7 +1166,8 @@ const entries = [
         "date": "2023-02",
         "note": "Meta released LLaMA in February 2023, an open-source LLM whose 13B model outperformed GPT-3's 175B on most benchmarks, further proving that competing on well-defined ML metrics is a losing strategy as open-source catches up"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 212,
@@ -1038,7 +1186,8 @@ const entries = [
         "note": "Jasper raised $125M at a $1.5B valuation in October 2022, and Copy.ai hit $10M ARR, confirming AI content generation as one of the fastest-growing application categories"
       }
     ],
-    "channelName": "Samantha Zhang"
+    "channelName": "Samantha Zhang",
+    "rating": "poor"
   },
   {
     "entry": 212.1,
@@ -1061,7 +1210,8 @@ const entries = [
         "note": "Stanford released Alpaca in March 2023, fine-tuning LLaMA to replicate ChatGPT-like instruction-following for under $600, demonstrating how rapidly open source closes the gap"
       }
     ],
-    "channelName": "Samantha Zhang"
+    "channelName": "Samantha Zhang",
+    "rating": "good"
   },
   {
     "entry": 212.2,
@@ -1084,7 +1234,8 @@ const entries = [
         "note": "Meta's release of LLaMA proved the 'open' alternative was viable after all, though OpenAI-style APIs remained the dominant commercial model as predicted"
       }
     ],
-    "channelName": "Samantha Zhang"
+    "channelName": "Samantha Zhang",
+    "rating": "neutral"
   },
   {
     "entry": 212.3,
@@ -1107,7 +1258,8 @@ const entries = [
         "note": "Microsoft launched Microsoft 365 Copilot in March 2023, embedding AI collaboration directly into Word, Excel, and PowerPoint — making human-AI collaboration the default interaction model for hundreds of millions of knowledge workers"
       }
     ],
-    "channelName": "Samantha Zhang"
+    "channelName": "Samantha Zhang",
+    "rating": "poor"
   },
   {
     "entry": 208,
@@ -1130,24 +1282,8 @@ const entries = [
         "note": "RLHF (Reinforcement Learning from Human Feedback) became the key technique behind ChatGPT's success, making human annotation workflows — the exact 'support systems to build good AI' referenced here — the most important bottleneck in AI development"
       }
     ],
-    "channelName": "Nick Larusso"
-  },
-  {
-    "entry": 20,
-    "date": "2021-11-17 16:58",
-    "channel": "random",
-    "link": "https://scopvc.slack.com/archives/CDGKCJ6DT/p1637197120008600",
-    "content": "One-shot learning is the idea that a kid sees a cat at home, and then they go to the zoo and see a lion and they say \"big kitty.\"\n\nSomething like that is nearly impossible without a heavily pre-trained ML model, but they are getting better at using an already pre-trained model to learn something new with one shot.\n\nFor example, a language model can be trained on the entire internet, and then you can teach one example:\n\ninput: \"translate to Spanish: 'Hello'\"\noutput: \"Hola\"\n\nThence, the model will be able to take \"translate to X: 'Y'\" and it will work.",
-    "comments": [
-      {
-        "date": "2020-05",
-        "note": "GPT-3 paper 'Language Models are Few-Shot Learners' published by Brown et al., whose core finding this message restates as a practical paradigm"
-      },
-      {
-        "date": "2022-11-30",
-        "note": "ChatGPT launched 12 months after this message, using the exact few-shot prompting interaction model described here"
-      }
-    ]
+    "channelName": "Nick Larusso",
+    "rating": "neutral"
   },
   {
     "entry": 34,
@@ -1168,7 +1304,8 @@ const entries = [
         "date": "2022-07-18",
         "note": "This message recognized in July 2022 that legacy ML solutions were becoming outdated, ahead of the broader market which did not wake up until after ChatGPT launched five months later"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 37,
@@ -1185,17 +1322,8 @@ const entries = [
         "date": "2023-06",
         "note": "'Prompt engineer' became one of the hottest job titles in tech by mid-2023"
       }
-    ]
-  },
-  {
-    "entry": 331,
-    "date": "2022-08-14 22:15",
-    "channel": "+12816390485",
-    "source": "imessage",
-    "link": null,
-    "content": "\"Fellow European Jewish emigre, and fellow Manhattan Project physicist Stanislaw Ulam contracted a case of viral encephalitis, an inflammation of the brain. His doctors told him that he should 'rest his brain,' i.e., avoid thinking too hard. A desperate Ulam tried to distract himself by playing solitaire, but couldn't help wondering about the probabilities of winning. Failing to solve the problem with any statistical trick then known, he was unable to prevent himself from developing what is now called the Monte Carlo method, which proved instrumental in the development of the hydrogen bomb and much of modern statistics.\"\n\nSo you can learn to forecast the probability of a process you know nothing about simply by simulating it.\n\nMonte Carlo is an early form of simulation. You can extrapolate the parameters that drive a random process by simulating it and then making observations, instead of actually knowing the distribution.",
-    "comments": [],
-    "channelName": "Kevin Marion"
+    ],
+    "rating": "good"
   },
   {
     "entry": 41,
@@ -1220,7 +1348,8 @@ const entries = [
         "date": "2023-01",
         "note": "RAG (Retrieval-Augmented Generation) over personal data combined with a base LLM became one of the most pursued application patterns of 2023-2024, matching this message's proposed architecture"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 248,
@@ -1243,7 +1372,8 @@ const entries = [
         "note": "Workday acquired Paradox, an AI recruiting and scheduling assistant, for $1B — confirming that automating HR workflows from recruiting to onboarding became a billion-dollar category"
       }
     ],
-    "channelName": "Ryan Neman"
+    "channelName": "Ryan Neman",
+    "rating": "good"
   },
   {
     "entry": 221,
@@ -1270,7 +1400,8 @@ const entries = [
         "note": "Entry-level job postings in the U.S. declined roughly 35% from January 2023 levels, with junior tech postings down as much as 67%, hitting exactly the early-career workers this message warned about"
       }
     ],
-    "channelName": "Joshua Spiegelman"
+    "channelName": "Joshua Spiegelman",
+    "rating": "outstanding"
   },
   {
     "entry": 197,
@@ -1293,7 +1424,8 @@ const entries = [
         "note": "The construction robotics market grew at over 15% per year, with the Association of Builders and Contractors reporting 454,000 unfilled construction jobs — validating both the opportunity and the difficulty noted here"
       }
     ],
-    "channelName": "Danny Seigle"
+    "channelName": "Danny Seigle",
+    "rating": "good"
   },
   {
     "entry": 47,
@@ -1314,7 +1446,8 @@ const entries = [
         "date": "2024-06",
         "note": "The 'AI replacing SaaS' thesis articulated here in January 2023 became consensus among firms like Bessemer and a16z by mid-2024"
       }
-    ]
+    ],
+    "rating": "outstanding"
   },
   {
     "entry": 51,
@@ -1343,7 +1476,8 @@ const entries = [
         "date": "2023-02-11",
         "note": "Stating flatly in February 2023 that AI would be as big as the internet was ahead of the curve, when mainstream opinion still debated whether ChatGPT was a fad"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 55,
@@ -1364,7 +1498,8 @@ const entries = [
         "date": "2023-07-18",
         "note": "Meta released LLaMA 2 with a commercial license (though still not fully open source per OSI standards), doing precisely what this message predicted: weaponizing open releases to disrupt rivals' AI infrastructure businesses"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 57,
@@ -1385,7 +1520,8 @@ const entries = [
         "date": "2023-10",
         "note": "By Q3-Q4 2023, AI startups were routinely raising at 100x+ ARR multiples, making the window to increase ownership at reasonable terms extremely narrow"
       }
-    ]
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 236,
@@ -1412,7 +1548,8 @@ const entries = [
         "note": "CNBC reported AI was ending entry-level jobs and dismantling the career ladder, with a 50% decline in new role starts for workers with less than one year of post-graduate experience"
       }
     ],
-    "channelName": "Shaked Sivan"
+    "channelName": "Shaked Sivan",
+    "rating": "outstanding"
   },
   {
     "entry": 63,
@@ -1445,7 +1582,8 @@ const entries = [
         "date": "2023-09",
         "note": "Canva launched its AI image generation suite, incorporating techniques from the open-source community"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 327,
@@ -1476,7 +1614,8 @@ const entries = [
         "note": "Infosys chairman told CNBC that LLMs will be commoditized and the real value will come from applications built on top of them — restating the first-order vs. second-order framework laid out here 18 months earlier"
       }
     ],
-    "channelName": "Nick Larusso"
+    "channelName": "Nick Larusso",
+    "rating": "outstanding"
   },
   {
     "entry": 68,
@@ -1509,7 +1648,8 @@ const entries = [
         "date": "2023-12",
         "note": "Gemini Ultra released by Google, further validating that increased compute yielded predictable capability improvements"
       }
-    ]
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 235,
@@ -1536,7 +1676,8 @@ const entries = [
         "note": "Khan Academy's Khanmigo AI tutor reached 700,000 K-12 students in the 2024-25 school year, with projections to exceed one million — demonstrating the viability of AI-delivered instruction at scale"
       }
     ],
-    "channelName": "Sean O’Bryen"
+    "channelName": "Sean O'Bryen",
+    "rating": "good"
   },
   {
     "entry": 73,
@@ -1565,7 +1706,8 @@ const entries = [
         "date": "2024-01",
         "note": "AI coding assistants (GitHub Copilot, Cursor) had begun reshaping software development workflows across the industry"
       }
-    ]
+    ],
+    "rating": "poor"
   },
   {
     "entry": 85,
@@ -1590,7 +1732,8 @@ const entries = [
         "date": "2024-02",
         "note": "Klarna announced its AI assistant was doing the work of 700 customer service agents, validating the concept of AI that 'completely dehumanizes a function'"
       }
-    ]
+    ],
+    "rating": "outstanding"
   },
   {
     "entry": 93,
@@ -1615,7 +1758,8 @@ const entries = [
         "date": "2024-09",
         "note": "Multiple VC firms published theses that SaaS value capture was zero-sum, echoing the observation made here months earlier"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 219,
@@ -1646,7 +1790,8 @@ const entries = [
         "note": "Cursor hit $2B ARR, doubling in just three months, demonstrating that AI-native companies can scale to massive revenue with a fraction of the headcount traditional SaaS required"
       }
     ],
-    "channelName": "Heike Schirmer"
+    "channelName": "Heike Schirmer",
+    "rating": "outstanding"
   },
   {
     "entry": 103,
@@ -1675,7 +1820,8 @@ const entries = [
         "date": "2024",
         "note": "Outcome-based pricing became the defining business model debate in enterprise AI through 2024-2025"
       }
-    ]
+    ],
+    "rating": "outstanding"
   },
   {
     "entry": 115,
@@ -1700,7 +1846,8 @@ const entries = [
         "date": "2024",
         "note": "Traditional media, mid-market law firms, and legacy software companies saw significant valuation declines"
       }
-    ]
+    ],
+    "rating": "poor"
   },
   {
     "entry": 203,
@@ -1727,7 +1874,8 @@ const entries = [
         "note": "Sam Altman published 'Three Observations,' stating OpenAI is 'confident we know how to build AGI as we have traditionally understood it' — aligning with the claim that AGI is inevitable"
       }
     ],
-    "channelName": "David Schnurr"
+    "channelName": "David Schnurr",
+    "rating": "neutral"
   },
   {
     "entry": 133,
@@ -1756,7 +1904,8 @@ const entries = [
         "date": "2025",
         "note": "TSMC and Synopsys announced AI-driven design tool integrations"
       }
-    ]
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 142,
@@ -1777,7 +1926,8 @@ const entries = [
         "date": "2025",
         "note": "Anthropic launched Claude with agentic coding capabilities"
       }
-    ]
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 290,
@@ -1808,7 +1958,196 @@ const entries = [
         "note": "By late 2024, 79% of top news websites were blocking AI training bots via robots.txt, up dramatically from prior years — publishers acting on the realization that free content was being exploited without compensation"
       }
     ],
-    "channelName": "Noah Greenberg"
+    "channelName": "Noah Greenberg",
+    "rating": "good"
+  },
+  {
+    "entry": 426,
+    "date": "2025-01-05 18:50",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1875978314462151070",
+    "content": "This morning I realized that a lot of my crazy behavior is just singularity prepping.",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "The Stargate Project was announced on January 21, 2025 — a $500 billion AI infrastructure initiative backed by OpenAI, SoftBank, and Oracle — signaling that major players were actively 'prepping' for an AI-driven transformation of the economy"
+      },
+      {
+        "date": "2025-08",
+        "note": "CNBC reported that AI created more than 50 new billionaires in 2025 alone, with MIT researcher Andrew McAfee calling it the fastest wealth creation in over 100 years of data — rewarding those who had positioned themselves early"
+      },
+      {
+        "date": "2025-02",
+        "note": "Sam Altman publicly predicted the coming of one-person billion-dollar companies enabled by AI, and TechCrunch reported tech CEOs had a betting pool on when it would happen — framing personal AI skill-building as a rational preparation strategy"
+      }
+    ],
+    "rating": "poor"
+  },
+  {
+    "entry": 427,
+    "date": "2025-01-05 18:50",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1875978127392006236",
+    "content": "The singularity is a one way rocket ship we will all be forced into, and whatever you have at the time of departure (wealth, knowledge, relationships) will largely determine your situation moving forward.",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "Oxfam reported that billionaire wealth jumped three times faster in 2025 to its highest peak ever, with AI being the primary driver — illustrating how existing wealth advantages compound as the technology accelerates"
+      },
+      {
+        "date": "2025-08",
+        "note": "PwC's Global AI Jobs Barometer found that AI-skilled workers commanded a 56% wage premium in 2024, double the 25% premium from the prior year — showing that knowledge advantages at the 'time of departure' are already compounding"
+      },
+      {
+        "date": "2025-03",
+        "note": "A quarter of Y Combinator's Winter 2025 cohort had codebases that were 95% AI-generated, yet the founders were described as highly technical — demonstrating that prior knowledge and skills determined who could leverage AI most effectively"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 425,
+    "date": "2025-01-06 16:25",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1876304039815889281",
+    "content": "AI is real, yet markets aren't behaving unusually. Instead, we're seeing classic speculative psychology. The shoe-shiner has been buying Nvidia for a while.  The likely correction will come not from AI's failure, but from fear of losing gains. The current rise benefited from",
+    "comments": [
+      {
+        "date": "2024-12",
+        "note": "CNBC reported that retail investors poured a record $30 billion into Nvidia in 2024 — an 885% increase over three years — with the stock becoming the most-bought equity on Robinhood, matching the 'shoe-shiner buying Nvidia' observation"
+      },
+      {
+        "date": "2025-01",
+        "note": "On January 27, Nvidia lost $589 billion in market cap in a single day after the DeepSeek announcement — the largest single-day loss in stock market history — driven not by AI's failure but by fear that existing AI investments were overpriced, exactly as predicted"
+      },
+      {
+        "date": "2025-04",
+        "note": "The Nasdaq plunged 5.97% on April 2 after Trump's 'Liberation Day' tariff announcement, with Nvidia falling 23% from its January peak — a correction triggered by macroeconomic fear rather than any deterioration in AI's actual capabilities"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 424,
+    "date": "2025-02-01 19:59",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1885779983236465029",
+    "content": "Even if the prospects of AGI are certain, it's possible for the system to run out of steam before getting there. Our economic and infrastructure capabilities aren't unbounded in the short term. There's a chance this wave will collapse under the weight of its own investments.",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "DeepSeek's revelation that it trained a frontier-competitive model for roughly $5.6 million triggered a global tech selloff, raising immediate questions about whether the hundreds of billions being spent on AI infrastructure by Western companies represented massive overinvestment"
+      },
+      {
+        "date": "2025-04",
+        "note": "The 2025 stock market crash beginning April 2 wiped trillions off tech valuations, with the Nasdaq entering bear-market territory in 32 sessions — demonstrating how macroeconomic shocks (tariffs) can collapse an AI investment wave regardless of the technology's merit"
+      },
+      {
+        "date": "2025-11",
+        "note": "Gartner predicted that more than 40% of agentic AI projects would be cancelled by 2027 due to unanticipated cost and complexity of scaling — a concrete forecast of the wave collapsing under the weight of its own investments"
+      },
+      {
+        "date": "2025-09",
+        "note": "Nvidia's stock pulled back over 15% from its October 2025 high amid growing skepticism about its 45x P/E ratio, slowing AI server demand, and Goldman Sachs warnings about AI infrastructure bottlenecks — reflecting the short-term economic limits described here"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 423,
+    "date": "2025-02-18 18:14",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1891914279776833685",
+    "content": "Human to human APIs are inefficient and many will get substituted.",
+    "comments": [
+      {
+        "date": "2024-02",
+        "note": "Klarna announced its AI assistant handled 2.3 million customer service conversations in its first month, doing the work of 700 human agents — a direct substitution of human-to-human customer service interfaces with AI"
+      },
+      {
+        "date": "2025-07",
+        "note": "OpenAI folded its Operator product into ChatGPT as 'agent mode,' enabling a single AI to browse the web, fill forms, and complete multi-step workflows that previously required human intermediaries like travel agents and administrative assistants"
+      },
+      {
+        "date": "2025-12",
+        "note": "Gartner projected that conversational AI would reduce contact center labor costs by $80 billion by 2026, with early adopters of agentic AI reporting 60-70% cost reductions — quantifying the substitution of human-to-human service APIs at scale"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 422,
+    "date": "2025-02-25 21:49",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1894505052947321212",
+    "content": "The notion of AI agents was built on task-specialized models. Today's implementations just use one model with different prompts. If prompting is all it takes, eventually a single LLM will handle everything in one simpler thread. You might parallelize for performance, but an",
+    "comments": [
+      {
+        "date": "2024-12",
+        "note": "Google launched Gemini 2.0 Flash explicitly as a model 'for the agentic era,' designed as a single unified model with native tool use, multimodal I/O, and a 1M token context window — moving toward the one-model-handles-everything architecture described here"
+      },
+      {
+        "date": "2025-07",
+        "note": "OpenAI merged Operator, Deep Research, and ChatGPT into a single 'agent mode' — consolidating what had been separate specialized tools into one model handling everything in a unified thread, exactly as this tweet predicted"
+      },
+      {
+        "date": "2024-11",
+        "note": "Anthropic released the Model Context Protocol (MCP) as an open standard, enabling a single model to connect to arbitrary external tools and data sources — standardizing the pattern where one LLM orchestrates everything rather than requiring specialized agent models"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 363,
+    "date": "2025-03-31 20:32",
+    "channel": "deals",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C016BGX7P44/p1743453169722429",
+    "content": "My theory is that AI will cause a drastic change to sales. Product-led growth and enterprise will change less, but mid-market will keep becoming more spammy and more competitive.",
+    "comments": [
+      {
+        "date": "2025-11",
+        "note": "Gmail began actively rejecting (not just filtering) non-compliant bulk emails, as AI-generated outreach volume overwhelmed inboxes and forced email providers to adopt stricter enforcement"
+      },
+      {
+        "date": "2025-10",
+        "note": "11x.ai, an AI SDR platform offering fully autonomous 'digital sales workers,' raised $74M from Benchmark and Andreessen Horowitz, fueling the flood of AI-generated mid-market outreach"
+      },
+      {
+        "date": "2026-02",
+        "note": "Average cold email response rates fell to 3.1% in 2026 (down from 8.5% in 2019), with roughly 60% of all emails now estimated to be spam — validating the prediction that mid-market sales would become more spammy and competitive"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 348,
+    "date": "2025-04-04 17:36",
+    "channel": "deals",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C016BGX7P44/p1743788190336639?thread_ts=1743788115.421719",
+    "content": "You can oversimplify everything you want, but most founders are nowhere near close to using all the AI capabilities available to them.",
+    "comments": [
+      {
+        "date": "2025-08",
+        "note": "An MIT report found that 95% of generative AI pilots at companies were failing to deliver measurable business impact, with the core issue being a 'learning gap' rather than model quality"
+      },
+      {
+        "date": "2025-11",
+        "note": "EY's Work Reimagined Survey of 15,000 employees found that while 88% used AI daily, only 5% qualified as advanced users — confirming that most people barely scratch the surface of available AI capabilities"
+      },
+      {
+        "date": "2025-06",
+        "note": "McKinsey's State of AI survey reported that two-thirds of companies remained stuck in experimentation or pilot phases, unable to scale AI beyond basic use cases"
+      }
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 155,
@@ -1837,7 +2176,104 @@ const entries = [
         "date": "2025",
         "note": "Big Tech deployed over $40B to absorb AI startup teams while avoiding formal M&A review"
       }
-    ]
+    ],
+    "rating": "poor"
+  },
+  {
+    "entry": 353,
+    "date": "2025-04-09 02:18",
+    "channel": "U07C2M8C7U7",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D07C2M8GJUF/p1744165098344149?thread_ts=1744163763.025589",
+    "content": "They are just guys with families in the business who one day thought, we should build a SaaS product. But SaaS is 15 years old. You have to think a bit further out now.",
+    "comments": [
+      {
+        "date": "2025-10",
+        "note": "Bain & Company's Technology Report warned that agentic AI was disrupting SaaS by automating entire workflows, and that incumbents who failed to proactively replace SaaS activity with AI risked obsolescence"
+      },
+      {
+        "date": "2026-01",
+        "note": "The median revenue multiple for public SaaS companies dropped below 5x (from above 7x at the start of 2025), reflecting investor recognition that traditional SaaS economics were under structural threat"
+      },
+      {
+        "date": "2026-02",
+        "note": "Approximately $2 trillion in market capitalization evaporated from the software sector between mid-January and mid-February 2026 in what analysts dubbed the 'SaaSpocalypse,' driven by AI agents replacing entire SaaS product categories"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 349,
+    "date": "2025-04-11 17:20",
+    "channel": "general",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/CDGDNJX5Y/p1744392003602039",
+    "content": "I don't think we should invest in companies where founders aren't reflexively thinking in terms of AI tools.",
+    "comments": [
+      {
+        "date": "2025-06",
+        "note": "Y Combinator's Summer 2025 batch was nearly 50% AI agent companies (67 out of 144 startups), signaling that the top accelerator had effectively adopted the same filter for AI-native thinking"
+      },
+      {
+        "date": "2025-12",
+        "note": "A Harvard Law Forum analysis of VC outlook for 2026 noted that nearly half of all global venture funding in 2025 went into AI (up from roughly a third the year before), with non-AI startups struggling to raise capital"
+      },
+      {
+        "date": "2026-02",
+        "note": "Bloomberg reported that VC firms were actively recruiting AI talent onto their own investment teams to better evaluate AI-native founders and their technical claims"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 335,
+    "date": "2025-04-13 21:29",
+    "channel": "U05VA997V5Z",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D08J9P424UQ/p1744579775544859",
+    "content": "I still think there is opportunity for someone to design a web framework that is specifically intended for LLMs, so they have to make fewer choices and their output is predictable.",
+    "comments": [
+      {
+        "date": "2025-05",
+        "note": "Vercel released v0-1.0-md, an AI model explicitly optimized for front-end and full-stack web development, with a composite pipeline that detects and fixes LLM coding errors in real time — directly addressing the 'fewer choices, predictable output' idea"
+      },
+      {
+        "date": "2025-10",
+        "note": "Anthropic reported that roughly 90% of Claude Code's own codebase was written by Claude Code itself, demonstrating the demand for toolchains purpose-built to make LLM output reliable and predictable"
+      },
+      {
+        "date": "2026-01",
+        "note": "A Second Talent study found that AI-generated code contained 1.7x more major issues than human-written code, with readability issues 3x higher — underscoring the need for frameworks that constrain LLM choices and enforce consistency"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 421,
+    "date": "2025-04-23 02:06",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1914863321238659479",
+    "content": "AI has dramatically lowered the barriers to creating new companies. A couple of decades ago, building a startup required substantial engineering, a sort of \"proof of work\" baked into the system. The advent of cloud infrastructure reduced initial investment needs but still",
+    "comments": [
+      {
+        "date": "2025-03",
+        "note": "TechCrunch reported that a quarter of Y Combinator's Winter 2025 batch had codebases that were 95% AI-generated, with YC managing partner Jared Friedman confirming these AI-built companies were among the fastest-growing and most profitable in YC's history"
+      },
+      {
+        "date": "2025-02",
+        "note": "Andrej Karpathy coined 'vibe coding' in February 2025 to describe building software through natural-language prompts rather than manual engineering — a term that went viral and crystallized the lowered barrier this tweet describes"
+      },
+      {
+        "date": "2025-05",
+        "note": "OpenAI launched Codex as an autonomous coding agent that could write features, fix bugs, and propose pull requests in parallel — enabling founders to ship software at the speed of a full engineering team without hiring one"
+      },
+      {
+        "date": "2025-02",
+        "note": "Sam Altman predicted the emergence of one-person billion-dollar companies enabled by AI tools, with Midjourney already demonstrating the model: fewer than 15 employees generating over $200 million in annual revenue"
+      }
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 156,
@@ -1866,7 +2302,154 @@ const entries = [
         "date": "2025",
         "note": "VCs faced a core challenge evaluating the flood of AI-native startups where building itself was no longer a differentiator"
       }
-    ]
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 420,
+    "date": "2025-05-14 00:50",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1922454402335428955",
+    "content": "Universal access to information didn't result in the marginal utility of knowledge going to zero. What does that imply about intelligence as a commodity?",
+    "comments": [
+      {
+        "date": "2025-07",
+        "note": "Pew Research surveyed 5,023 U.S. adults and found that despite near-universal access to AI tools, half of Americans said they were more concerned than excited about AI, and more than half lacked confidence in distinguishing AI from human output — suggesting access to intelligence does not equate to ability to use it"
+      },
+      {
+        "date": "2026-01",
+        "note": "Goldman Sachs chief economist Jan Hatzius stated AI added 'basically zero' to U.S. GDP growth in 2025, despite massive infrastructure investment, illustrating that commodity access to intelligence has not yet translated into proportional economic value"
+      },
+      {
+        "date": "2025-05",
+        "note": "AI-skilled workers commanded a 56% wage premium in 2025, more than double the 25% premium from just one year earlier, demonstrating that even as AI democratizes intelligence access, the ability to wield it effectively commands increasing returns"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 387,
+    "date": "2025-05-14 02:00",
+    "channel": "U05VA997V5Z",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D08J9P424UQ/p1747188054038379",
+    "content": "It makes me want to stop everything and build an observability application — Weights & Biases seems just like Datadog. I don't see a lot of automatic cleverness specific to LLM training.",
+    "comments": [
+      {
+        "date": "2025-05",
+        "note": "CoreWeave completed its $1.7 billion acquisition of Weights & Biases, absorbing it into a GPU cloud platform rather than letting it evolve as a standalone LLM-specific observability tool"
+      },
+      {
+        "date": "2025-10",
+        "note": "Langfuse, an open-source LLM observability platform, gained significant traction as an alternative to W&B, suggesting the market agreed that existing tools lacked LLM-specific intelligence"
+      },
+      {
+        "date": "2026-01",
+        "note": "ClickHouse acquired Langfuse, validating the thesis that LLM-native observability was an underserved market distinct from generic ML experiment tracking"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 419,
+    "date": "2025-05-19 20:29",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1924563065821184146",
+    "content": "vibe founder: when someone thinks they built a unicorn in 3 months using LLMs",
+    "comments": [
+      {
+        "date": "2025-03",
+        "note": "Y Combinator CEO Garry Tan announced that 25% of the Winter 2025 batch had codebases that were 95% AI-generated, with some founders shipping in weeks what previously took months — setting the stage for the overconfidence this tweet satirizes"
+      },
+      {
+        "date": "2025-05",
+        "note": "Semafor reported that vibe coding startup Lovable had security vulnerabilities in 170 out of 1,645 apps built on its platform, exposing user names, emails, financial data, and API keys — illustrating how quickly 'built a unicorn' can become 'built a liability'"
+      },
+      {
+        "date": "2025-12",
+        "note": "Groove founder Alex Turnbull estimated that over 8,000 startups needed rebuilds or rescue engineering costing $50K–$500K each due to vibe coding technical debt, predicting rescue engineering would be the hottest discipline in tech in 2026"
+      },
+      {
+        "date": "2025-11",
+        "note": "Collins Dictionary named 'vibe coding' its 2025 Word of the Year, cementing the phenomenon — and by extension the 'vibe founder' archetype — as a defining cultural moment"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 418,
+    "date": "2025-05-24 00:03",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1926066518871142402",
+    "content": "LLMs will make em/double dashes disappear because nobody wants to sound like slop. I was an avid user of this English feature before, but now I find it gross.",
+    "comments": [
+      {
+        "date": "2025-06",
+        "note": "Plagiarism Today published a widely shared analysis noting that em dashes had become the most commonly cited tell for AI-generated text, leading human writers to self-censor their use to avoid accusations of using AI"
+      },
+      {
+        "date": "2025-08",
+        "note": "The Ringer published 'Stop AI-Shaming Our Precious, Kindly Em Dashes — Please,' documenting how writers were abandoning em dashes not because of dislike but out of fear their writing would be flagged as AI slop — exactly the behavioral shift predicted"
+      },
+      {
+        "date": "2025-09",
+        "note": "An Inside Higher Ed op-ed framed the 'em dash debate we should be having,' noting that the stigma had become so strong that professors were using em dash frequency as informal evidence of AI use in student papers, further driving avoidance"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 376,
+    "date": "2025-05-27 04:23",
+    "channel": "U05VA997V5Z",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D08J9P424UQ/p1748319811929109",
+    "content": "When I vibe code, one of the biggest issues is that the LLM is not good at testing that things work. There's very little test-driven development, for example, and the LLM is usually lazy about adding logging, let alone trying to take screenshots with a headless browser to see if things look like they should.",
+    "comments": [
+      {
+        "date": "2025-12",
+        "note": "A Veracode study of 100+ LLMs across 80 coding tasks found that 45% of AI-generated code introduced security vulnerabilities, with logic errors 75% more common than in human-written code — confirming the testing gap described here"
+      },
+      {
+        "date": "2026-01",
+        "note": "Stack Overflow published an analysis asking 'Are bugs and incidents inevitable with AI coding agents?', finding that AI-generated code suffered from 1.7x more major issues and that code refactoring dropped from 25% to under 10% of changed lines"
+      },
+      {
+        "date": "2026-01",
+        "note": "CodeRabbit declared '2025 was the year of AI speed; 2026 will be the year of AI quality,' noting that the industry was pivoting toward multi-agent review workflows where one agent writes, another critiques, and another tests"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 377,
+    "date": "2025-06-02 04:49",
+    "channel": "agentic-engineering",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C08US021ZHC/p1748839747796509",
+    "content": "Agentic Engineering\n\nJust as most \"AI\" applications are GPT wrappers, most \"agents\" are sophisticated prompts with basic tool use. There's excitement around the idea of Model Context Protocol (MCP), but most implementations are basic: create calendar events, commit code, check emails, and so on.\n\nSo far, the best-implemented use case for agents has been in software development. Why is that? Because software provides a number of feedback loops or \"verifiers\" that can be used to orient the LLM towards a correct answer: code execution, error messages, etc. Furthermore, there are datasets such as programming competitions where the correct answer is known, which means one can use reinforcement learning by picking the reasoning trajectories that succeed and feeding that back to the models.\n\nIn a way, programming is the low-hanging fruit among a broader set of problems. Recent work by DeepMind showed that models could iterate on GPU/TPU kernels (micro-programs that run on the GPUs themselves) to optimize certain operations. They achieved this by asking an LLM to produce statistically reasonable variants of a base code, then testing it for performance, then picking the top performers and mutating them further. These kernels are software, but the feedback loop is more complicated than simply running a Python snippet.\n\nLikewise, semiconductor design starts with Verilog code, which is later compiled into transistors. Except that in order to verify a chip design works as intended, it requires complex simulation tools produced by Synopsys, Cadence, and others. In order for an agent to find issues and iterate, it needs access to these simulation tools and must understand their outputs. As an example, hardware design engineers spend many hours looking at waveforms generated by simulations in order to verify correctness or fix bugs.\n\nThe basic idea repeats itself for any engineering discipline, comprised of the following components:\n1. A technical language or interface that encodes desired functionality\n2. A simulation tool to test the design against real-world conditions\n3. A set of debugging tools, often visual, to support human-in-the-loop iteration\n4. A compiler or artifact generator that allows design to move to the next phase of production/manufacturing",
+    "comments": [
+      {
+        "date": "2025-05",
+        "note": "Google DeepMind announced AlphaEvolve, which used Gemini with automated verifiers in an evolutionary framework to optimize GPU kernels, achieving a 32.5% speedup on FlashAttention — precisely the LLM-plus-verifier pattern described in this post"
+      },
+      {
+        "date": "2025-10",
+        "note": "ChipAgents raised a $21M Series A led by Bessemer with backing from Micron, MediaTek, and Ericsson, building exactly the agentic framework for Verilog design and verification described here — with access to simulation tools for automated iteration"
+      },
+      {
+        "date": "2026-02",
+        "note": "Cadence launched the ChipStack AI Super Agent — the first agentic workflow for automating chip design and verification — with early deployments at Nvidia, Qualcomm, and Tenstorrent, directly validating the prediction that agents need simulation-tool integration to tackle semiconductor design"
+      },
+      {
+        "date": "2025-10",
+        "note": "Andrej Karpathy coined 'agentic engineering' as the successor to 'vibe coding,' describing a shift from fast-and-fragile AI coding to systematic multi-agent workflows with verification — closely mirroring the feedback-loop framework outlined in this post"
+      }
+    ],
+    "rating": "outstanding"
   },
   {
     "entry": 158,
@@ -1891,14 +2474,261 @@ const entries = [
         "date": "2025",
         "note": "Shift underway where analysts describe intent in natural language and LLMs generate executable analytical code"
       }
-    ]
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 372,
+    "date": "2025-06-06 14:52",
+    "channel": "ai",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C050GL4A4RG/p1749221546796659?thread_ts=1749217932.999879",
+    "content": "I think you are still missing how expensive it is to build good AI companies. It costs tens of thousands of dollars to do a little experiment in the afternoon.",
+    "comments": [
+      {
+        "date": "2025-05",
+        "note": "Reports emerged that a single GPT-5 training run cost OpenAI approximately $500 million in compute alone, illustrating the massive expense of frontier AI development"
+      },
+      {
+        "date": "2025-09",
+        "note": "Anthropic disclosed roughly $4.1 billion in training costs for 2025, with the company projecting $100 billion in training spend over the next three years"
+      },
+      {
+        "date": "2026-01",
+        "note": "Epoch AI reported that training compute costs for the largest AI models were doubling every eight months, with frontier runs approaching $1 billion per experiment"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 405,
+    "date": "2025-06-06 17:20",
+    "channel": "U05VA997V5Z",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D08J9P424UQ/p1749230453841249",
+    "content": "My suspicion is that backtracking, or high-entropy tokens like Kath wants to look for, aren't all that helpful for reasoning. That if you clean and shorten trajectories to the direct path to an answer, you actually get a smarter model.",
+    "comments": [
+      {
+        "date": "2025-04",
+        "note": "The Retro-Search paper (arXiv 2504.04383) demonstrated that retrospectively trimming redundant backtracking steps from reasoning traces reduced average reasoning length by 31% while improving performance by 7.7% across seven math benchmarks — directly confirming the intuition here"
+      },
+      {
+        "date": "2025-06",
+        "note": "A NeurIPS 2025 paper ('Beyond the 80/20 Rule') showed that only ~20% of tokens in chain-of-thought reasoning are high-entropy 'fork' tokens, and restricting gradient updates to just those tokens matched or beat full-gradient training on Qwen3 models"
+      },
+      {
+        "date": "2025-06",
+        "note": "Research on reasoning LLM 'overthinking' found that models generate excessively long solutions with unnecessary reflection and backtracking tokens (e.g., 'wait,' 'however'), and that suppressing these verbose behaviors improved both efficiency and accuracy"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 336,
+    "date": "2025-06-09 18:49",
+    "channel": "ai",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C050GL4A4RG/p1749494972399469",
+    "content": "Also, there's a situation with increasing compute — which has been the approach in the current era of AI — where costs are escalating so fast that the current rate of improvement can only go until 2030 or so. Which means you either get AGI by around 2030, or it might take quite a bit longer.",
+    "comments": [
+      {
+        "date": "2025-09",
+        "note": "Epoch AI published 'Can AI Scaling Continue Through 2030?', identifying four constraints — power availability, chip manufacturing, data scarcity, and the latency wall — that could cap training runs around 2e29 FLOP by decade's end"
+      },
+      {
+        "date": "2025-09",
+        "note": "Anthropic CEO Dario Amodei predicted AI systems matching Nobel Prize winners across most disciplines by late 2026 or early 2027, while cautioning it could take longer — echoing the 'either AGI soon or much later' framing in this message"
+      },
+      {
+        "date": "2025-01",
+        "note": "Sam Altman declared 'we are now confident we know how to build AGI,' with OpenAI projecting research-intern-level AI by September 2026 and fully automated research by March 2028"
+      },
+      {
+        "date": "2025-09",
+        "note": "Epoch AI estimated frontier training runs would require 4–16 gigawatts of power by 2030, while McKinsey forecast $5.2 trillion in cumulative AI data-center capital expenditure needed to sustain the current scaling trajectory"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 373,
+    "date": "2025-06-09 21:46",
+    "channel": "deals",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C016BGX7P44/p1749505578634579",
+    "content": "I think this talk is illustrative of the challenges with AI companies.\n\nYes, LLMs can have a huge impact in a lot of domain-specific workflows.\n\nBut — what are YOU doing on top of the LLM to make it better?\n\nIt's not enough to just make the observation that LLMs have utility.",
+    "comments": [
+      {
+        "date": "2026-02",
+        "note": "Google Cloud VP Darren Mowry publicly warned that two types of AI startups — LLM wrappers and AI aggregators — face extinction, stating 'if you're really just counting on the back-end model to do all the work, the industry doesn't have a lot of patience for that anymore'"
+      },
+      {
+        "date": "2026-02",
+        "note": "A broad 'SaaS Apocalypse' narrative took hold on Wall Street, with software stocks including Salesforce and Adobe declining sharply as investors questioned whether thin-wrapper products could survive as foundation models improved"
+      },
+      {
+        "date": "2025-12",
+        "note": "Harvey AI, which built deep legal-domain tooling on top of LLMs rather than a simple wrapper, reached $195 million ARR and an $8 billion valuation — exemplifying the differentiation this message calls for"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 404,
+    "date": "2025-06-10 15:29",
+    "channel": "ai",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C050GL4A4RG/p1749569376488219",
+    "content": "I think the investment bet right now is to apply the same idea of an agent to other artifacts. The Excel pitch we saw is actually applicable, even if there might have been other issues. You could have one that works on geospatial data, waveforms (chip agents), architecture, interior design, and so on.",
+    "comments": [
+      {
+        "date": "2025-11",
+        "note": "Cadence acquired Seattle-based startup ChipStack and in February 2026 launched the ChipStack AI Super Agent — the first agentic workflow for automating chip design and verification — deployed by NVIDIA, Qualcomm, and Altera with reported 10x productivity gains"
+      },
+      {
+        "date": "2025-06",
+        "note": "Synopsys announced expanding AI capabilities across its EDA solutions with AgentEngineer technology, building multi-agent systems for autonomous chip design workflows — validating the 'waveforms / chip agents' thesis"
+      },
+      {
+        "date": "2026-02",
+        "note": "The AI agent market grew from $5.25 billion (2024) to $7.84 billion (2025), with industry-specific vertical agents in legal, healthcare, and finance showing 3–5x higher retention than horizontal solutions"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 386,
+    "date": "2025-06-10 18:01",
+    "channel": "UDGBMD40K",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D01769CKC75/p1749578500700719",
+    "content": "Yes, but there will be a lot of pressure from the bottom. Salesforce has however many tens of thousands of employees and a big cost structure. I am skeptical of their future.",
+    "comments": [
+      {
+        "date": "2025-09",
+        "note": "Salesforce CEO Marc Benioff confirmed 4,000 layoffs, stating 'I need less heads' as AI agents replaced customer support roles — the very bottom-up pressure predicted here"
+      },
+      {
+        "date": "2025-09",
+        "note": "Sierra AI, founded by former Salesforce co-CEO Bret Taylor, reached $100 million ARR and a $10 billion valuation by building AI customer-service agents that directly compete with Salesforce's core business"
+      },
+      {
+        "date": "2026-02",
+        "note": "Salesforce shares dropped roughly 25–30% in early 2026 amid a broader 'Death of SaaS' sell-off, with Anthropic's Claude Cowork legal-automation launch alone erasing approximately $285 billion in software market cap in a single trading day"
+      },
+      {
+        "date": "2026-02",
+        "note": "Salesforce laid off another ~1,000 employees in February 2026 across marketing, product management, and even its own Agentforce AI product teams, underscoring the cost-structure burden described in this message"
+      }
+    ],
+    "rating": "outstanding"
+  },
+  {
+    "entry": 364,
+    "date": "2025-06-11 04:16",
+    "channel": "UDGBMD40K",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D01769CKC75/p1749615414793959",
+    "content": "I am interested in a particular problem space, which is to work on agents that can do really difficult tasks. ChipAgents is focused on chip design, which is a problem with a lot of depth that will take years to solve. Cursor is doing the same for programming. These difficult problems will have multi-year roadmaps and can stay ahead of general-purpose models for the time being.",
+    "comments": [
+      {
+        "date": "2025-11",
+        "note": "Cursor raised $2.3 billion at a $29.3 billion valuation — up from $9.9 billion just five months earlier — confirming that deep, domain-specific coding agents command enormous value"
+      },
+      {
+        "date": "2025-11",
+        "note": "Cadence acquired ChipStack, a chip-design AI startup, and by February 2026 deployed the ChipStack AI Super Agent with NVIDIA, Qualcomm, and Altera, delivering 10x productivity gains on front-end verification"
+      },
+      {
+        "date": "2026-03",
+        "note": "Cursor surpassed $2 billion in annualized recurring revenue — doubling in just three months — demonstrating that domain-specific agents in hard problem spaces sustain rapid growth ahead of general-purpose models"
+      },
+      {
+        "date": "2026-02",
+        "note": "Google Cloud VP Darren Mowry cited Cursor and Harvey AI as examples of startups with 'deep, wide moats,' contrasting them with thin LLM wrappers he warned would not survive"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 355,
+    "date": "2025-06-22 15:02",
+    "channel": "UDFR6QDUZ",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D016RAW8QMD/p1750604560613369?thread_ts=1750604560.613369",
+    "content": "Automation = AI though. If you see your percentage of fully automated calls is 30% and you're okay with that, something is wrong. It should drive you crazy as a CEO.",
+    "comments": [
+      {
+        "date": "2024-02",
+        "note": "Klarna reported its AI assistant handled two-thirds of all customer service chats in its first month — doing the work of 700 full-time agents — showing what aggressive automation targets look like in practice"
+      },
+      {
+        "date": "2025-05",
+        "note": "Klarna CEO Sebastian Siemiatkowski said AI helped the company shrink its workforce by 40%, embodying exactly the CEO-driven urgency to push automation well beyond 30%"
+      },
+      {
+        "date": "2025-09",
+        "note": "Sierra AI reached $100 million ARR in under two years selling enterprise AI agents for customer service, reflecting intense CEO demand to automate call volumes far beyond initial benchmarks"
+      },
+      {
+        "date": "2025-12",
+        "note": "Gartner predicted that by 2028, regulations would guarantee customers the right to speak with a human agent — implicitly acknowledging that CEOs had been pushing automation rates so aggressively that regulators felt compelled to intervene"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 396,
+    "date": "2025-07-06 15:40",
+    "channel": "fund-partners",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C01F8JNA0RZ/p1751816456522389",
+    "content": "This is what I had written for Unwrap. Looking back at it, I think it was pretty clear! It took us a couple of months to go from \"NLP is a big deal\" to \"customer feedback at scale.\" The process now is going from \"agents can solve hard problems\" to \"actual hard problem.\"\n\nhttps://ivanbercovich.com/2025/unwrap-memo",
+    "comments": [
+      {
+        "date": "2022-09",
+        "note": "Unwrap launched out of the AI2 Incubator, applying NLP to aggregate and analyze customer feedback — validating the 'NLP is a big deal → customer feedback at scale' pipeline described here"
+      },
+      {
+        "date": "2025-01",
+        "note": "Unwrap raised a $12 million Series A led by Scale Venture Partners, with customers including Microsoft, Perplexity, Oura, and JetBlue — confirming the viability of the NLP-to-customer-feedback thesis"
+      },
+      {
+        "date": "2025-09",
+        "note": "TechCrunch reported that Silicon Valley was betting big on RL environments to train AI agents, with startups like Mechanize offering $500K salaries to build them — illustrating the industry-wide search for what 'actual hard problem' agents should solve"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 402,
+    "date": "2025-07-15 18:41",
+    "channel": "yogi",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C02G3DRA8H4/p1752604909408319",
+    "content": "I think it will work in the medium term, and certainly everyone has to adopt it or they are just left behind. I'm more thinking as a general investment trend about what happens once everyone is communicating 100x more.",
+    "comments": [
+      {
+        "date": "2025-08",
+        "note": "Gartner predicted that 40% of enterprise apps would feature task-specific AI agents by end of 2026, up from less than 5% in 2025 — implying a massive increase in machine-mediated communication volume"
+      },
+      {
+        "date": "2025-10",
+        "note": "OpenAI reported that enterprise API reasoning-token consumption grew 320x year-over-year, quantifying the explosion in AI-driven communication and processing volume"
+      },
+      {
+        "date": "2025-12",
+        "note": "Research showed the average worker was receiving 117 emails plus 153 Teams messages daily, with global email volume projected at 376 billion messages per day — evidence that communication overload was already a pressing problem before AI-driven amplification"
+      }
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 169,
     "date": "2025-09-19 17:29",
     "channel": "U05VA997V5Z",
     "link": "https://scopvc.slack.com/archives/D08J9P424UQ/p1758328177342179",
-    "content": "\"Motivation: cheating behavior of LLMs can lead to harmful outcomes, and the understanding and mitigation of these behaviors is of great importance to reduce existential risk from AI. Rather than a hypothetical risk, cheating is likely to be the root cause of significant negative events within months. RLVR is at the core of many new startups seeking to assist in various engineering roles, so it's a matter of time before AI designed bridges are built. Meanwhile, if RL is the answer to decreasing returns of pre-training, the amount of compute going into RL will scale rapidly. Supercheater agents could lead to catastrophic outcomes without ever reaching AGI.\"",
+    "content": "Motivation: cheating behavior of LLMs can lead to harmful outcomes, and the understanding and mitigation of these behaviors is of great importance to reduce existential risk from AI. Rather than a hypothetical risk, cheating is likely to be the root cause of significant negative events within months. RLVR is at the core of many new startups seeking to assist in various engineering roles, so it's a matter of time before AI designed bridges are built. Meanwhile, if RL is the answer to decreasing returns of pre-training, the amount of compute going into RL will scale rapidly. Supercheater agents could lead to catastrophic outcomes without ever reaching AGI.",
     "comments": [
       {
         "date": "2025-01",
@@ -1916,7 +2746,58 @@ const entries = [
         "date": "2025-09",
         "note": "Concept of 'supercheater agents' introduced as a catastrophic risk from RL-trained systems deployed in safety-critical domains like bridge design"
       }
-    ]
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 403,
+    "date": "2025-10-22 01:26",
+    "channel": "asapi",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C09LYDQ2BMM/p1761096386153779",
+    "content": "Anyway, the point for me is that either you think there's a handful of models that all these people need and you instrument that, or you think there's a lot more customization and then you need an agent. My concern is that the agent that builds you a custom model doesn't seem that different from one that just runs code.",
+    "comments": [
+      {
+        "date": "2025-10",
+        "note": "Studies showed fine-tuned small models (e.g., 1.5B parameters) outperforming GPT-4 on narrow tasks like customer support, validating the 'a lot more customization' thesis over a one-size-fits-all approach"
+      },
+      {
+        "date": "2026-01",
+        "note": "Industry analysis found the market splitting between managed agent platforms for standard use cases and custom-built agents for deep domain needs — reflecting exactly the bifurcation described here"
+      },
+      {
+        "date": "2026-02",
+        "note": "Anthropic launched Claude Opus 4.6 with agent teams and a Skills open standard, blurring the line between agents that build custom solutions and agents that run code — echoing the concern raised in this message"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 389,
+    "date": "2025-10-25 04:39",
+    "channel": "UDGBMD40K",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D01769CKC75/p1761367170942639",
+    "content": "It's all very new. But the future of AI is reinforcement learning for specific domains. What William is doing. It's not wiring a few LLMs to automate some workflows.",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "DeepSeek released R1, demonstrating that reasoning abilities in LLMs can be incentivized through pure reinforcement learning without supervised fine-tuning — a breakthrough that validated RL as the frontier of AI capability"
+      },
+      {
+        "date": "2025-09",
+        "note": "TechCrunch reported a wave of RL-environment startups (Mechanize, Prime Intellect) receiving major funding, with Surge spinning up a new division specifically for RL training environments — confirming that domain-specific RL was becoming the next investment wave"
+      },
+      {
+        "date": "2025-10",
+        "note": "DeepSeek released its OCR model showing that pixels could be more efficient inputs to LLMs than tokens, a result born from domain-specific RL research rather than generic workflow automation"
+      },
+      {
+        "date": "2026-01",
+        "note": "The RL market was projected to grow at a 65.6% CAGR to $37 trillion by 2037, with reinforcement learning with verifiable rewards (RLVR) expanding into chemistry, biology, and other specialized domains"
+      }
+    ],
+    "rating": "good"
   },
   {
     "entry": 172,
@@ -1945,7 +2826,8 @@ const entries = [
         "date": "2025-12",
         "note": "Two months later, Nvidia released Nemotron 3, a model family post-trained using multi-environment reinforcement learning for agentic reasoning, validating the prediction that RL-based agent training is the future"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 173,
@@ -1974,7 +2856,8 @@ const entries = [
         "date": "2025-11",
         "note": "One month later, Cursor raised at a $29B valuation and crossed $1B ARR, validating the observation that 'there's about a gazillion companies' vibe coding workflows"
       }
-    ]
+    ],
+    "rating": "outstanding"
   },
   {
     "entry": 176,
@@ -2003,7 +2886,135 @@ const entries = [
         "date": "2025-11",
         "note": "One month later, Claude Code crossed $1B annualized revenue just 6 months after launch, demonstrating that autonomous agents are outpacing hand-coded workflow tools"
       }
-    ]
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 417,
+    "date": "2025-10-26 18:05",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1982508959748833684",
+    "content": "AI is particularly pernicious at self-deception because it makes the average person feel like they understand the future. They are overconfident about what's actually happening and how it will impact the economy and society.",
+    "comments": [
+      {
+        "date": "2025-07",
+        "note": "A Carnegie Mellon study published in Memory & Cognition found that AI chatbots remain overconfident even when wrong, and unlike humans, they never adjust confidence downward after poor performance — modeling the exact overconfidence pattern that transfers to users"
+      },
+      {
+        "date": "2025-10",
+        "note": "Aalto University researchers identified a 'reverse Dunning-Kruger effect' in AI users: those with higher AI literacy were more overconfident about their performance, not less — directly confirming that AI exposure inflates perceived understanding"
+      },
+      {
+        "date": "2026-01",
+        "note": "Goldman Sachs reported AI contributed 'basically zero' to U.S. GDP in 2025 despite widespread public narratives of an AI-driven economic transformation, illustrating the gap between perceived and actual impact that this tweet identifies"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 337,
+    "date": "2025-10-26 18:45",
+    "channel": "general",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/CDGDNJX5Y/p1761504310419519",
+    "content": "This is my current viewpoint of the AI market.\n\nUnless you're in the game and reading a lot of what's coming out, you're just not seeing the future.\n\nFor example, last week DeepSeek released a great OCR model. Most people would say \"OCR is basically solved.\" But what they did is a model that just uses pixels. And it turns out you might be able to fit more text per unit of compute as pixels than as tokens. That's a very important result.\n\nAI is particularly pernicious at self-deception because it causes the average person to think they understand the future due to ChatGPT feeling like science fiction. Meanwhile, they are overconfident about whatever it is they think is happening and how it will impact the economy and society.\n\nMy impression has been kind of like how everyone thinks they are an above-average driver. Everyone thinks they are juicing up AI more than the average person. So we all go and vibe-code some app and think we'll beat everyone else doing the same. Because the contrast with the before times is so big, we don't adapt.\n\nBut then go to Reddit r/agents and see that the same degens that were YOLOing crypto two years ago are building \"agents\" (really workflows) and hustling their way into quick revenue.\n\nThat revenue is temporary because most business owners attribute the magic of the solution to the entrepreneur instead of the upstream infrastructure, because they don't understand how it all works. But when they do and the market is saturated, a lot of the vertical plays that don't have strong market dominance will race to the bottom. They will become free.\n\nThis causes the market to be significantly behind reality. Every VC pitch is about AI right now, but it's really simple workflows, and many investors don't grok the difference. This is what causes a bubble. It's not whether AI will have durable impact, but whether the median investor understands how and where the impact accrues.\n\nHence, we'll experience a market retraction, as long as humans control capital and the means of production, as we have many times before, regardless of AGI timelines.",
+    "comments": [
+      {
+        "date": "2025-10",
+        "note": "DeepSeek's OCR paper (arXiv 2510.18234) confirmed the claim made here: their model achieved 97% decoding precision at 10x compression by encoding text as pixels, outperforming prior OCR systems while using far fewer tokens"
+      },
+      {
+        "date": "2025-10",
+        "note": "The Bank of England warned that AI stock valuations were 'stretched' to levels 'comparable to the peak of the dotcom bubble,' with market concentration at a 50-year high — directly supporting the bubble prediction"
+      },
+      {
+        "date": "2025-12",
+        "note": "A report found that AI-generated 'slop' comprised over half of new internet content, while 80% of buyers cited AI-driven commoditization as the top risk to SaaS valuations — confirming that vertical AI plays without strong moats were racing to the bottom"
+      },
+      {
+        "date": "2026-01",
+        "note": "Analysis showed AI-native vertical startups growing at ~400% but competing at ~80% of traditional SaaS ACV, with buyers paying premiums only for data depth and workflow lock-in rather than features — validating the prediction that undifferentiated plays would become free"
+      }
+    ],
+    "rating": "outstanding"
+  },
+  {
+    "entry": 367,
+    "date": "2025-10-26 19:19",
+    "channel": "general",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/CDGDNJX5Y/p1761506393721369",
+    "content": "And it's not just web content — it's code as well. Most code is slop. I can tell you as someone who just spent six weeks writing code at unprecedented speed, and somehow it's still slop and it doesn't quite build an innovator's mental model of the system being built. So one codes very visually: add this thing here, change that dropdown there, and it's like a very, very good prototype, but it has some of the same shittiness as AI-generated blog posts. At the same time, you have no choice, because it's too slow to code on your own and everyone else is vibe-coding.",
+    "comments": [
+      {
+        "date": "2025-02",
+        "note": "Andrej Karpathy coined the term 'vibe coding' to describe the exact practice discussed here — giving in to AI-generated code without reviewing its internals — and the term was later named Collins Dictionary's 2025 Word of the Year"
+      },
+      {
+        "date": "2025-06",
+        "note": "A study by Apiiro found AI-generated code was introducing over 10,000 new security findings per month — a 10x spike in six months — confirming that AI-authored code carries the 'slop' quality described here"
+      },
+      {
+        "date": "2025-10",
+        "note": "Research showed AI-generated pull requests contained 1.7x more issues than human PRs, with 2.74x higher rates of XSS vulnerabilities and 62% of AI solutions containing design flaws — quantifying the 'slop' problem"
+      },
+      {
+        "date": "2026-02",
+        "note": "Open-source maintainers began mass-closing AI-generated contributions: cURL shut down its bug bounty after 20% of submissions were AI-generated, and Ghostty and tldraw banned AI code outright"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 359,
+    "date": "2025-10-26 19:28",
+    "channel": "general",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/CDGDNJX5Y/p1761506893051539",
+    "content": "This also conveys that humans won't be able to keep up producing original content. It's another way to highlight that we are heading toward a reinforcement learning world.",
+    "comments": [
+      {
+        "date": "2025-12",
+        "note": "A report warned that AI-generated 'slop' now comprised over half of new online content, while high-quality human-written web data was projected to be exhausted between 2026 and 2032 — validating the claim that humans can't keep up"
+      },
+      {
+        "date": "2025-12",
+        "note": "Wikipedia suspended its AI-summary features to protect its knowledge base from 'irreversible harm,' and Spotify removed 75 million AI-generated spam tracks — concrete evidence of the original-content crisis"
+      },
+      {
+        "date": "2026-01",
+        "note": "Reinforcement learning with verifiable rewards (RLVR) emerged as a leading approach for training models without relying on human-generated content, confirming the directional shift toward an RL-driven paradigm"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 356,
+    "date": "2025-10-26 23:37",
+    "channel": "general",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/CDGDNJX5Y/p1761521859842979?thread_ts=1761518277.851579",
+    "content": "This is an agent doing the entire task end to end. Nobody needs to build the workflow to begin with. You just need better agents.",
+    "comments": [
+      {
+        "date": "2024-10",
+        "note": "Anthropic launched Claude's computer-use capability in public beta, making it the first frontier model to offer autonomous desktop control — enabling end-to-end task completion without pre-built workflows"
+      },
+      {
+        "date": "2025-01",
+        "note": "OpenAI launched Operator, a computer-using agent that could autonomously browse the web, fill forms, and complete multi-step tasks without any workflow setup by the user"
+      },
+      {
+        "date": "2025-08",
+        "note": "Gartner predicted 40% of enterprise apps would embed task-specific AI agents by end of 2026, calling it one of the fastest transformations in enterprise tech since cloud adoption"
+      },
+      {
+        "date": "2026-02",
+        "note": "Anthropic released Claude Opus 4.6 with agent teams, enabling users to split work across multiple agents that coordinate directly — moving further from pre-built workflows toward goal-driven autonomous execution"
+      }
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 177,
@@ -2028,7 +3039,8 @@ const entries = [
         "date": "2026-01",
         "note": "By early 2026, Scale AI, Hugging Face, and numerous startups were racing to build tooling for RLHF and RLAIF as reinforcement learning became the key agent differentiator"
       }
-    ]
+    ],
+    "rating": "good"
   },
   {
     "entry": 178,
@@ -2065,7 +3077,31 @@ const entries = [
         "date": "2026-02",
         "note": "Four months later, a SaaS market correction erased trillions in software market cap as investors priced in general-purpose agents replacing vertical software, while agent infrastructure plays (Stripe ACP, OpenAI Frontier) launched — the exact bifurcation predicted"
       }
-    ]
+    ],
+    "rating": "outstanding"
+  },
+  {
+    "entry": 416,
+    "date": "2025-10-30 22:55",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1984031525848171004",
+    "content": "I have rather high certainty that the way software is built is about to change dramatically. Most vertical software will shift to general purpose agents. And this is not just history repeating where you move to another layer of abstraction.\n\nAgents are a more generalized",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "OpenAI launched Operator, a general-purpose browser agent for Pro users that could autonomously navigate websites and complete tasks across domains — an early instantiation of the general-purpose agent replacing vertical-specific tools"
+      },
+      {
+        "date": "2025-06",
+        "note": "Salesforce launched Agentforce 3, positioning it as a general-purpose AI agent platform that could replace specialized vertical SaaS across sales, service, marketing, and IT — attracting 180+ customers away from vertical incumbent ServiceNow"
+      },
+      {
+        "date": "2026-02",
+        "note": "Fortune reported that OpenAI's Codex and Anthropic's Claude Code sparked a coding revolution, with developers describing how general-purpose AI agents had replaced entire categories of specialized development tools and vertical workflow software"
+      }
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 179,
@@ -2090,7 +3126,277 @@ const entries = [
         "date": "2026-02",
         "note": "Kalshi prediction markets put odds of a 2026 correction at 58%"
       }
-    ]
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 344,
+    "date": "2025-11-11 17:58",
+    "channel": "fewshot",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C09D34Q50TD/p1762883897552059",
+    "content": "AI is going in this direction: there will be more inference compute than training compute being used. When you hit a ceiling in training, you start brute-forcing the gazillion GPUs we are putting into rotation. The story of AI for the last 12 months has been primarily a matter of increasing inference.",
+    "comments": [
+      {
+        "date": "2024-09",
+        "note": "OpenAI released o1, the first major 'reasoning' model built around test-time compute scaling — spending more inference compute to improve answers rather than relying solely on larger training runs"
+      },
+      {
+        "date": "2025-01",
+        "note": "DeepSeek released R1, demonstrating that pure reinforcement learning at inference time could match OpenAI o1's reasoning capabilities, further validating the shift toward inference-heavy architectures"
+      },
+      {
+        "date": "2025-11",
+        "note": "Deloitte's 2026 TMT Predictions report estimated inference workloads accounted for half of all AI compute in 2025 and would jump to two-thirds in 2026, up from one-third in 2023"
+      },
+      {
+        "date": "2025-11",
+        "note": "Nvidia reported that AI inference token generation had surged tenfold in one year, with its Grace Blackwell platform specifically optimized to deliver order-of-magnitude lower cost per token for inference workloads"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 357,
+    "date": "2025-11-11 23:59",
+    "channel": "deals",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C016BGX7P44/p1762905548638479?thread_ts=1762904426.513349",
+    "content": "Foundational AI companies are running out of data. They are looking anywhere they can for data produced by humans doing work. Humans playing video games is an interesting approach. I am not recommending it as an obvious investment. I think it might make sense to use the opportunity to think about the data deals happening. Meta paid ~$14B for half of Scale AI.",
+    "comments": [
+      {
+        "date": "2024-02",
+        "note": "Reddit disclosed $203 million in data licensing contracts and signed a $60 million per year deal with Google to train AI on its user-generated content, exemplifying the scramble for human-produced data"
+      },
+      {
+        "date": "2025-01",
+        "note": "Elon Musk and former OpenAI chief scientist Ilya Sutskever publicly stated that AI companies had exhausted all available human-generated training data, echoing the 'running out of data' thesis"
+      },
+      {
+        "date": "2025-02",
+        "note": "Microsoft Research released Muse, an AI trained on the equivalent of seven years of continuous human gameplay from Bleeding Edge, demonstrating the 'humans playing video games as training data' approach described here"
+      },
+      {
+        "date": "2025-06",
+        "note": "Meta finalized a $14.3 billion deal for a 49% stake in Scale AI — closely matching the figures cited in this message — prompting OpenAI and Google to cut ties with Scale over data-access concerns"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 334,
+    "date": "2025-11-13 04:24",
+    "channel": "fewshot",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C09D34Q50TD/p1763007857716619",
+    "content": "Some questions about the future:\n• Will there be more models or fewer? (I think more.)\n• Will open-source models, fine-tuned for specific tasks, be a bigger or smaller proportion of AI applications? (I think bigger, because people will train their own models.)\n• If people train custom models for various verticals or tasks, how will application development change? More effort will go into training the model (vs. using an LLM API); more effort might go into tools and integrations; and potentially less effort into UX and workflows.\n• How does security change? How does testing change? If the thing running your company is an inscrutable model instead of code someone can read, what is the equivalent of HIPAA compliance for a model?\n• Are there new regulations? What do they look like? Who performs the assessment and how?",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "DeepSeek R1's open-source release triggered an explosion of fine-tuned derivatives — its models were downloaded over 75 million times on Hugging Face — validating the prediction that open-source, task-specific models would grow as a proportion of AI applications"
+      },
+      {
+        "date": "2025-08",
+        "note": "The EU AI Act's General Purpose AI (GPAI) obligations took effect on August 2, 2025, directly answering the 'new regulations' question by requiring transparency, risk assessments, and conformity testing for AI models — with full high-risk system rules following in August 2026"
+      },
+      {
+        "date": "2025-08",
+        "note": "Colorado Governor Polis signed SB 25B-004 delaying the Colorado AI Act to June 2026, which requires annual impact assessments, anti-bias controls, and disclosure for high-risk AI decisions — establishing HIPAA-like compliance requirements for AI models, exactly as this message anticipated"
+      },
+      {
+        "date": "2025-11",
+        "note": "Haize Labs, an AI red-teaming startup that stress-tests models the way penetration testing probes software, was valued at $100 million after a General Catalyst-led round — demonstrating the emergence of a new 'model auditing' industry to answer the testing and security questions raised here"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 392,
+    "date": "2025-11-13 04:25",
+    "channel": "fewshot",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C09D34Q50TD/p1763007950802369",
+    "content": "This doesn't mean that a 15-year-old with ChatGPT won't be able to create a good business by solving a real commercial problem and having strong go-to-market. I just think that as a proportion of big AI companies, in the future, you'll see more doing their own models.",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "DeepSeek, a Chinese startup, released R1 — a custom-trained reasoning model that rivaled OpenAI's o1 — demonstrating that ambitious AI companies were indeed building their own models rather than relying on third-party APIs"
+      },
+      {
+        "date": "2025-04",
+        "note": "Meta released Llama 4, its latest open-source model family, with over 25 cloud partners hosting it for fine-tuning — enabling a growing ecosystem of companies training custom models on top of open foundations"
+      },
+      {
+        "date": "2026-01",
+        "note": "By early 2026, Qwen had overtaken Llama as the most-downloaded base model for fine-tuning on Hugging Face, and open-source models were matching proprietary ones on key benchmarks — confirming the shift toward companies training their own models"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 385,
+    "date": "2025-11-13 04:28",
+    "channel": "fewshot",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C09D34Q50TD/p1763008083050119",
+    "content": "It's hard to defend your business when all the API providers are trying to compete with their customers while sucking up as much data as possible and integrating it into their models. You're very incentivized to keep your data to yourself if you have unique access. Even if you start using APIs, as soon as you have critical mass, you might want to stop sharing data with OpenAI.",
+    "comments": [
+      {
+        "date": "2023-05",
+        "note": "Samsung banned employee use of ChatGPT after engineers accidentally uploaded proprietary source code, and Apple followed with its own ban — early signals that companies would guard their data from API providers"
+      },
+      {
+        "date": "2025-06",
+        "note": "After Meta took a 49% stake in Scale AI, both OpenAI and Google cut ties with the data provider over concerns that Meta could gain visibility into their AI development — illustrating how data-sharing relationships collapse when competitive interests collide"
+      },
+      {
+        "date": "2026-02",
+        "note": "OpenAI updated its privacy policy to introduce targeted advertising for Free and Go plans, confirming the concern that API providers monetize the data flowing through their platforms beyond just model training"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 340,
+    "date": "2025-11-16 18:36",
+    "channel": "fund-partners",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C01F8JNA0RZ/p1763318173366679",
+    "content": "AI is incredibly useful and will change humanity. But shaping the technology to fit the world will take time, and right now there's a lot of redundant spending — everyone has several paid AI accounts, several APIs, several products doing similar things. There's no spend discipline when it comes to AI.",
+    "comments": [
+      {
+        "date": "2025-05",
+        "note": "A Gartner survey of 506 CIOs found that 72% of organizations were breaking even or losing money on their AI investments, with Gartner warning that companies could make 500% to 1,000% errors in GenAI cost calculations"
+      },
+      {
+        "date": "2025-09",
+        "note": "Gartner reported worldwide AI spending would total $1.5 trillion in 2025, while a separate Futurum survey found 79% of CIOs were pivoting toward platform consolidation rather than broad expansion — a direct response to the redundant-spending problem identified here"
+      },
+      {
+        "date": "2025-12",
+        "note": "TechCrunch reported that VCs predicted enterprises would spend more on AI in 2026 but through fewer vendors, as CIOs cut experimentation budgets and rationalized overlapping tools — exactly the spend discipline this message noted was missing"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 366,
+    "date": "2025-11-23 05:44",
+    "channel": "fewshot",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C09D34Q50TD/p1763876646779829",
+    "content": "I suspect you would first focus on finding issues with the training environments. The flaws in the environment can be found by something similar to penetration testing in software. If you're training a model to do something legal or medical or some other regulated field, how do you know you're getting it right? There are a lot of ways in which you might be training for something other than what you thought and not realize for a long time.",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "The HHS Office for Civil Rights proposed the first major update to the HIPAA Security Rule in 20 years, removing the distinction between required and addressable safeguards and introducing stricter expectations for AI systems processing protected health information"
+      },
+      {
+        "date": "2025-08",
+        "note": "The EU AI Act's GPAI obligations took effect, requiring providers of high-risk AI systems used in regulated fields to complete conformity assessments, maintain technical documentation, and register in an EU database — formalizing the kind of environment auditing described here"
+      },
+      {
+        "date": "2025-12",
+        "note": "OWASP published its Top 10 for Agentic AI Applications (2026), identifying risks like Agent Goal Hijack and Tool Misuse — codifying the insight that AI training environments contain exploitable flaws analogous to software vulnerabilities"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 371,
+    "date": "2025-12-05 15:49",
+    "channel": "general",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/CDGDNJX5Y/p1764949752950799",
+    "content": "The gist is, if you rely too much on AI for doing your own thinking, you will unknowingly collapse to the same few ideas — i.e., you will learn to never be contrarian. I've been seeing more and more copy-paste arguments from ChatGPT on this Slack. I think it's great for questions like \"Does QSBS qualify for HeyTutor?\" I think it's bad as a replacement for thinking or debate. Find facts, test ideas, then still put the effort to produce your own writing.\nhttps://arxiviq.substack.com/p/neurips-2025-artificial-hivemind?triedRedirect=true",
+    "comments": [
+      {
+        "date": "2025-11",
+        "note": "The NeurIPS 2025 Best Paper Award went to 'Artificial Hivemind,' which empirically demonstrated 'Diversity Collapse' in LLMs — showing that models generate strikingly similar outputs to open-ended questions, both within and across model families, exactly the phenomenon described here"
+      },
+      {
+        "date": "2026-01",
+        "note": "A Nature Communications Psychology paper found that AI adoption in research was producing a feedback loop of topical and methodological convergence, 'flattening scientific imagination' — providing empirical evidence for the 'collapse to the same few ideas' warning"
+      },
+      {
+        "date": "2025-12",
+        "note": "Epoch AI researchers found that high-quality human-generated text data could be exhausted by 2028, raising the prospect that models trained increasingly on AI-generated text would amplify the homogenization effect warned about here"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 378,
+    "date": "2025-12-05 18:01",
+    "channel": "ai",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C050GL4A4RG/p1764957665012549",
+    "content": "Weird labor market. Companies willing to pay $1M a year to a new grad. PhDs desperate to get jobs. Everyone wanting to work at the same company (Google is the coolest this year, hands down). Companies only want the very best. There's no interchangeability between people.",
+    "comments": [
+      {
+        "date": "2025-08",
+        "note": "Meta offered approximately $250 million over four years to 24-year-old AI researcher Matt Deitke, a PhD dropout, illustrating the extreme compensation packages for top-tier AI talent"
+      },
+      {
+        "date": "2025-12",
+        "note": "CNBC reported that 20% of Google's AI software engineer hires in 2025 were 'boomerang' ex-employees returning, confirming Google's gravitational pull on AI talent that year"
+      },
+      {
+        "date": "2025-08",
+        "note": "Fortune reported that AI was gutting entry-level tech jobs, with new grad hiring at the Magnificent Seven dropping by more than half since 2022 — even as experienced researchers commanded record pay"
+      },
+      {
+        "date": "2026-02",
+        "note": "Fortune reported OpenAI was paying an average of $1.5 million in stock-based compensation per employee, with entry-level total compensation packages starting around $428K before additional retention bonuses"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 415,
+    "date": "2025-12-09 18:30",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/1998460307488846214",
+    "content": "If you don't read original, human-written content, you will collapse your own weights. The hive mind is real.",
+    "comments": [
+      {
+        "date": "2024-07",
+        "note": "Shumailov et al. published 'AI models collapse when trained on recursively generated data' in Nature, proving that models trained on synthetic data lose diversity and degrade — the literal 'weight collapse' metaphor applied to humans consuming only AI-generated content"
+      },
+      {
+        "date": "2025-04",
+        "note": "An Ahrefs study of nearly one million new web pages found that 74% contained AI-generated content, illustrating the scale of the synthetic content flood that makes seeking out original human writing an increasingly deliberate act"
+      },
+      {
+        "date": "2025-03",
+        "note": "Substack reached 5 million paid subscriptions, growing by nearly 1 million per quarter, as readers increasingly paid premiums for curated, human-written newsletters — a market signal that people value original human thought enough to pay for it amid an AI content flood"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 400,
+    "date": "2025-12-19 16:47",
+    "channel": "ai",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C050GL4A4RG/p1766162857758259",
+    "content": "I've always thought datasets with fixed quantities — like people, homes, companies — are still pretty bad, and one should be able to build something much better.\n\nhttps://exa.ai/blog/people-search-benchmark",
+    "comments": [
+      {
+        "date": "2025-09",
+        "note": "Exa raised an $85 million Series B at a $700 million valuation led by Benchmark, with Nvidia participating — validating the thesis that AI-native search over structured entity data is a massive opportunity"
+      },
+      {
+        "date": "2025-12",
+        "note": "Exa launched People Search on December 19, 2025, along with an open-source benchmark of 1,400 queries, becoming the first AI-native alternative purpose-built for discovering people at scale"
+      },
+      {
+        "date": "2025-10",
+        "note": "ZoomInfo's stock had lost over 75% of its value over three years, with analysts downgrading it to 'Sell' citing AI disruption to its core contact data business — evidence that legacy entity datasets are vulnerable"
+      }
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 190,
@@ -2115,7 +3421,8 @@ const entries = [
         "date": "2026-01",
         "note": "Critiqued a product demo as representing 3-4 year old technology, not reflecting the current state of the art"
       }
-    ]
+    ],
+    "rating": "neutral"
   },
   {
     "entry": 191,
@@ -2136,7 +3443,550 @@ const entries = [
         "date": "2026-01",
         "note": "Redefined technical moat: defensibility lies in doing work a teenager with a coding agent cannot, not in basic software development which is no longer scarce"
       }
-    ]
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 374,
+    "date": "2026-01-07 18:33",
+    "channel": "deals",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C016BGX7P44/p1767810783603799",
+    "content": "My general sense so far is that this is vertical SaaS which is strictly downstream from LLMs as an API. What I mean is that so far they haven't gotten much below the surface of the API. I'm not talking about training models — I mean medium-complexity building blocks for advanced retrieval, etc. For example, they aren't really talking about what they tried and failed, or how they've perfected their techniques, tracking precision over time, comparing models, using various sub-agents to accomplish subtasks (using agents at all), etc. So the question is whether there will be an end-to-end competitor that tries to replace paralegals and wins the market, and whether these guys have what it takes to build that. Or alternatively, if relatively mundane LLM use is sufficient to do most of the job, is that really a barrier for existing case management systems to plug the gap?",
+    "comments": [
+      {
+        "date": "2025-12",
+        "note": "Harvey AI closed a $160 million round at an $8 billion valuation from Andreessen Horowitz, with $190 million ARR — emerging as exactly the kind of end-to-end legal AI competitor this entry questions whether would appear"
+      },
+      {
+        "date": "2026-02",
+        "note": "Harvey was reportedly raising again at an $11 billion valuation just months later, suggesting the market is rewarding depth over thin API wrappers in legal AI"
+      },
+      {
+        "date": "2026-01",
+        "note": "LexisNexis CoCounsel announced agentic workflows launching in early 2026 — an incumbent case management platform doing exactly what this entry predicted: plugging the gap with AI features"
+      },
+      {
+        "date": "2025-08",
+        "note": "LexisNexis launched Protégé, an agentic AI assistant that autonomously completes legal tasks and reviews its own work — demonstrating the sub-agent approach this entry noted was missing from most legal AI startups"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 346,
+    "date": "2026-01-08 02:29",
+    "channel": "ai",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C050GL4A4RG/p1767839390636809",
+    "content": "OpenAI could go to zero — for example, if open-source models win — but that doesn't necessarily mean AI didn't deliver on its promise.",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "DeepSeek R1 launched as a fully open-source reasoning model rivaling GPT-4, triggering a $589 billion single-day loss in Nvidia's market cap and proving that open-source models could credibly threaten proprietary leaders"
+      },
+      {
+        "date": "2025-08",
+        "note": "OpenAI released GPT-OSS, its first open-weight models since GPT-2, under an Apache 2.0 license — an implicit concession that open source had become an existential competitive pressure"
+      },
+      {
+        "date": "2026-01",
+        "note": "By early 2026, the benchmark gap between the best open-source models (DeepSeek V3, Llama 3.3) and proprietary frontier models had narrowed to 0.3 percentage points on MMLU, down from 17.5 points a year earlier"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 365,
+    "date": "2026-01-08 18:44",
+    "channel": "ai",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C050GL4A4RG/p1767897890325619?thread_ts=1767839871.906399",
+    "content": "You can make anything a developer could make five years ago. The only thing stopping a non-coder might be that they don't know how to describe what they want, or they struggle to understand a bug, or that sort of stuff. But an experienced developer, TODAY, can build an entire product without touching a single line of code. This is already here.",
+    "comments": [
+      {
+        "date": "2025-02",
+        "note": "Andrej Karpathy coined the term 'vibe coding' to describe building software by describing intent to an AI rather than writing code — the term became Collins Dictionary's Word of the Year for 2025"
+      },
+      {
+        "date": "2025-11",
+        "note": "Cursor, the AI coding assistant, raised $2.3 billion at a $29.3 billion valuation, with ARR growing from $100M to $1.2B in a single year — demonstrating massive demand for tools that let developers build without manually writing code"
+      },
+      {
+        "date": "2026-01",
+        "note": "MIT Technology Review named 'generative coding' one of its 10 Breakthrough Technologies for 2026, noting AI writes 30% of Microsoft's code and over 25% of Google's"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 414,
+    "date": "2026-01-11 22:42",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/2010482464607834467",
+    "content": "The fact that some masochists actually pay gardeners with leaf blowers to come during the weekend makes me question the whole concept of AI alignment with human values. @jackclarkSF can we hardcode this one?",
+    "comments": [
+      {
+        "date": "2025-06",
+        "note": "Oak Park, Illinois enacted a total ban on gas-powered leaf blowers effective June 2025, part of a growing wave of municipal bans reflecting genuine societal disagreement over whether leaf blowing constitutes a reasonable preference"
+      },
+      {
+        "date": "2026-01",
+        "note": "Portland, Oregon began its equitable gas leaf blower phase-out in January 2026, restricting use to October through December only — regulators effectively 'hardcoding' the preference against weekend leaf blowing into law, as the tweet jokingly requests of AI alignment"
+      },
+      {
+        "date": "2025-12",
+        "note": "The World Economic Forum's 'AI Paradoxes' analysis for 2026 noted that aligning AI with human values remains fundamentally difficult because humans themselves hold contradictory preferences — the exact tension this tweet illustrates through the leaf blower example"
+      }
+    ],
+    "rating": "poor"
+  },
+  {
+    "entry": 368,
+    "date": "2026-01-27 17:35",
+    "channel": "ai",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C050GL4A4RG/p1769535325396849",
+    "content": "This is the kind of stuff that the vast majority of people do not understand unless they are experiencing it themselves. Code is becoming free.",
+    "comments": [
+      {
+        "date": "2026-01",
+        "note": "GitHub reported that AI now generates 46% of all code written by active Copilot users, up from 27% at launch in 2022, with 88% of AI-generated code remaining in the final product"
+      },
+      {
+        "date": "2026-03",
+        "note": "Cursor surpassed $2 billion in annualized revenue, doubling in roughly three months — the fastest-growing SaaS company of all time, reflecting explosive demand for AI-generated code"
+      },
+      {
+        "date": "2026-01",
+        "note": "Industry analyses reported that AI tooling had reduced the cost of building a typical software project by roughly 90%, from $50K to $5K for work previously quoted by development agencies"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 413,
+    "date": "2026-01-29 01:31",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/2016685524673867833",
+    "content": "vibe arguing : when having a heated argument have an AI provide the most charitable interpretation after every turn.",
+    "comments": [
+      {
+        "date": "2025-08",
+        "note": "NPR published 'He said, she said, it said,' documenting a couple using ChatGPT as a real-time mediator during arguments — finding that having the AI reframe positions led to a communication breakthrough, closely matching the 'vibe arguing' concept"
+      },
+      {
+        "date": "2025-03",
+        "note": "Dyspute.ai launched its beta AI mediation platform where an AI named Adri listens to both sides of a dispute, analyzes positions, and generates fair interpretations — a productized version of the charitable-interpretation-per-turn concept described here"
+      },
+      {
+        "date": "2025-06",
+        "note": "Conciliation Resources published research showing AI-assisted negotiation with empathy signals — such as pausing and reflecting back positions charitably — led to more agreements and higher satisfaction on both sides, validating the core mechanism of 'vibe arguing'"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 412,
+    "date": "2026-02-05 01:16",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/2019218665175171093",
+    "content": "We are meat robots being controlled by AIs. Our phones are functionally an antenna into our brains. The conspiratorial crowd has been right all along, except we are all doing it to ourselves. We are self-domesticating into sad digital shadows of ourselves.",
+    "comments": [
+      {
+        "date": "2023-05",
+        "note": "U.S. Surgeon General Vivek Murthy issued an advisory warning that social media poses a 'profound risk' to youth mental health, with teens using it 3+ hours daily facing double the risk of depression — validating the claim that phones function as a behavioral control channel into our brains"
+      },
+      {
+        "date": "2024-03",
+        "note": "Jonathan Haidt published 'The Anxious Generation,' arguing smartphones caused a 'great rewiring of childhood' starting in the early 2010s, spending 52 consecutive weeks on the NYT bestseller list — the 'self-domestication' thesis resonating with a mass audience"
+      },
+      {
+        "date": "2024-11",
+        "note": "Australia passed the Online Safety Amendment Act banning social media for children under 16 with fines up to A$49.5 million for platforms, the first national-level acknowledgment that algorithmic feeds are too manipulative for developing brains"
+      },
+      {
+        "date": "2024-02",
+        "note": "A systematic review in Neuroscience & Biobehavioral Reviews found that excessive smartphone use alters the prefrontal cortex and striatum in ways structurally similar to substance addiction, with neuroimaging showing impaired cognitive control — scientific confirmation that phones hijack the brain's reward circuitry"
+      }
+    ],
+    "rating": "poor"
+  },
+  {
+    "entry": 411,
+    "date": "2026-02-05 06:45",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/2019301310265475352",
+    "content": "I don't know the future, but I believe most people aren't thinking this AI thing through.\n\nLet's talk about the business of software.\n\nThe free market argument w.r.t. housing affordability is to remove red tape and make it easy to build. There's no need to force developers to",
+    "comments": [
+      {
+        "date": "2025-02",
+        "note": "Andrej Karpathy coined 'vibe coding' to describe non-developers building software with natural language prompts — Google Trends showed a 2,400% increase in searches by early 2026, demonstrating that AI was radically lowering the barrier to software creation"
+      },
+      {
+        "date": "2026-01",
+        "note": "MIT Technology Review named 'generative coding' one of its 2026 Breakthrough Technologies, noting that non-developers can now complete up to 70% of traditional development work, often reaching production-ready applications"
+      },
+      {
+        "date": "2026-02",
+        "note": "The 'SaaS-pocalypse' erased over $1 trillion in software stock market capitalization in early February 2026 after Anthropic launched a tool automating legal work, triggering panic that AI would undercut the entire SaaS business model"
+      },
+      {
+        "date": "2026-02",
+        "note": "Apollo Global Management published an analysis arguing the per-seat SaaS pricing model is breaking as AI agents reduce the number of humans needed per task, compressing margins and making customer behavior unpredictable — the structural software business disruption this tweet anticipates"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 384,
+    "date": "2026-02-07 15:59",
+    "channel": "deals",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C016BGX7P44/p1770479989300909?thread_ts=1770479989.300909",
+    "content": "You guys will have fun with this one. I think VCs should pause investing into software companies that seem vibecodeable until there's a good understanding of how fast the improvements are. I think the moat for a company like the one we saw yesterday is zero. The same kids that can make a lemonade stand or sell Girl Scout cookies will be able to start small software businesses soon. It's worth digging into where the line is between a robust software company and people who know nothing about technology using it to start a business. Can they make money? Yes. Can they beat everyone else in that market? Where does the winner-take-all effect come from?",
+    "comments": [
+      {
+        "date": "2026-02",
+        "note": "Between January 15 and February 14, 2026, approximately $2 trillion in market capitalization was erased from the software sector, as investors re-evaluated SaaS moats in light of AI agents and vibe coding"
+      },
+      {
+        "date": "2026-03",
+        "note": "TechCrunch reported VCs are drawing red lines on AI SaaS investments, with investors demanding proof that unit economics survive when AI inference costs are factored in and competitors can rebuild features in weeks"
+      },
+      {
+        "date": "2025-12",
+        "note": "Lovable hit $100M ARR in eight months and Replit's revenue jumped from $10M to $100M in nine months after launching its Agent — demonstrating that non-technical users were already building functional software products"
+      },
+      {
+        "date": "2026-01",
+        "note": "Gartner projected that by 2026, low-code and AI tools would account for 75% of new application development, up from 40% in 2021, with 80% of users coming from outside formal IT departments"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 328,
+    "date": "2026-02-09 01:08",
+    "channel": "UDGBMD40K",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D01769CKC75/p1770599337629299",
+    "content": "Here's all my thoughts on SaaS. By the way, I am not saying that SaaS is dead. I'm saying that it will change. I don't think it will happen tomorrow either. I think the market is overreacting. But things will change. They've always changed. Selling computer hardware was a good business at some point. Selling software services made IBM huge. I think there are many amazing opportunities to make VC investments. I just suspect that a certain approach to packaging technology — which has been immensely profitable for 20 years — might be reshuffled. And that's good, because it creates a lot of opportunities for disruption and investment.\n\nhttps://ivanbercovich.com/2026/the-software-business",
+    "comments": [
+      {
+        "date": "2026-02",
+        "note": "Bloomberg dubbed the software sell-off the 'SaaSpocalypse' — approximately $300 billion in market value evaporated in a 48-hour window between February 3 and 5, 2026, after Anthropic launched Claude Cowork"
+      },
+      {
+        "date": "2026-02",
+        "note": "Atlassian dropped 35% after Q3 earnings showed enterprise seat count declining for the first time ever, and Salesforce fell 28% — emblematic of the per-seat pricing model collapsing in real time"
+      },
+      {
+        "date": "2026-02",
+        "note": "Gartner's February 2026 forecast projected worldwide software spending would still grow 14.7% in 2026 to over $1.4 trillion — supporting the nuanced view that SaaS isn't dead but is being reshuffled"
+      },
+      {
+        "date": "2026-02",
+        "note": "BofA published a note calling the SaaS sell-off 'overblown' and 'irrational,' arguing that the market was overreacting — echoing this entry's point that things will change but the reaction was too extreme"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 410,
+    "date": "2026-02-09 20:26",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/2020957525303300096",
+    "content": "\"Humans will still have a relative advantage at some things\". Is this necessarily positive? What happens if humans end up being cheaper than robots when it comes to picking heterogeneous items at warehouses? Then we will have human meat robots following AI instructions minute by",
+    "comments": [
+      {
+        "date": "2025-03",
+        "note": "The American Prospect reported that Amazon weaponized warehouse wearable devices to algorithmically direct and discipline workers, with AI systems monitoring picking rates and scanning employees' efficiency in real time — the 'human meat robots following AI instructions' scenario described here"
+      },
+      {
+        "date": "2025-07",
+        "note": "Amazon announced it had surpassed 1 million robots across 300+ fulfillment centers, but walking time still accounts for up to 60% of a human picker's shift, showing robots cannot yet fully replace humans at heterogeneous item picking — confirming that humans remain cheaper for some warehouse tasks"
+      },
+      {
+        "date": "2025-10",
+        "note": "Amazon unveiled 'Blue Jay,' a robotic arm system that combines picking, sorting, and consolidating at a single station, plus AI-directed smart glasses for delivery drivers — incrementally automating tasks but still requiring humans for the most variable work"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 388,
+    "date": "2026-02-10 18:09",
+    "channel": "deals",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C016BGX7P44/p1770746962611939?thread_ts=1770479989.300909",
+    "content": "There are still hard problems in software, but it's not all software. The standard idea of seeing a business process on spreadsheets and trying to automate it is less moaty. Infrastructure, actual AI training, having unique data, and deeper vertical integration (e.g., you are actually selling end-to-end accounting services) are some examples of interesting models that come to mind.",
+    "comments": [
+      {
+        "date": "2026-02",
+        "note": "Pilot, the AI-powered bookkeeping startup, unveiled an autonomous AI Accountant that runs the entire bookkeeping process from onboarding to monthly close with zero human intervention — a direct example of the 'end-to-end accounting services' model described here"
+      },
+      {
+        "date": "2026-03",
+        "note": "TechCrunch reported that investors were uniformly rejecting 'thin wrapper' AI SaaS startups and only funding companies with proprietary data, deep vertical integration, or infrastructure — the exact moat categories listed in this message"
+      },
+      {
+        "date": "2026-02",
+        "note": "The 'SaaSpocalypse' selloff erased roughly $285 billion in software market cap in a single day after Anthropic launched Claude Cowork's legal plugin, demonstrating how quickly commoditized SaaS categories can be disrupted by foundation-model companies"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 397,
+    "date": "2026-02-11 16:49",
+    "channel": "deals",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C016BGX7P44/p1770828564978859",
+    "content": "I think there'll be a lot of action in infrastructure. Lots of data centers being built, lots of innovation, lots of on-prem happening.",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "The Stargate Project was announced on January 21, 2025, committing up to $500 billion over four years to build AI data center infrastructure across the United States — the largest single infrastructure commitment in tech history"
+      },
+      {
+        "date": "2025-12",
+        "note": "CNBC reported that data center deals hit a record $61 billion in 2025, with U.S. data center construction starts reaching an estimated $77.7 billion — a 190% year-over-year increase"
+      },
+      {
+        "date": "2026-02",
+        "note": "Dell reported $24.56 billion in AI server sales for fiscal 2026 (2.5x year-over-year growth) while HPE signed $1.1 billion in net new AI systems orders in a single quarter, confirming the surge in on-premises enterprise AI infrastructure"
+      },
+      {
+        "date": "2026-02",
+        "note": "Hyperscaler capital expenditure for the big five (Amazon, Alphabet, Microsoft, Meta, Oracle) was forecast to exceed $600 billion in 2026, a 36% increase over 2025, with roughly 75% directed toward AI infrastructure"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 343,
+    "date": "2026-02-13 18:42",
+    "channel": "ai",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C050GL4A4RG/p1771008127978119",
+    "content": "I don't think anyone is saying that SaaS companies are going to stop making money. I think people suspect there will be margin compression. You still value the system of record with all this awesome data — you just might value it less, which is the same as saying you have more competitors offering better prices.",
+    "comments": [
+      {
+        "date": "2026-02",
+        "note": "The 'SaaSpocalypse' of early February 2026 wiped approximately $2 trillion in market cap from the software sector, with price-to-sales ratios compressing from 9x to 6x — levels not seen since the mid-2010s"
+      },
+      {
+        "date": "2026-02",
+        "note": "Databricks CEO Ali Ghodsi told TechCrunch that 'SaaS isn't dead, but AI will soon make it irrelevant,' echoing the nuanced view here that SaaS companies will still exist but face margin pressure"
+      },
+      {
+        "date": "2026-03",
+        "note": "A Bain & Company report found that AI-native startups were growing at approximately 400% and competing at roughly 80% of traditional SaaS annual contract values — the 'more competitors offering better prices' dynamic described here"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 409,
+    "date": "2026-02-16 21:01",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/2023502975931740352",
+    "content": "How come these near-AGI models can be so stupid at times? Telling you to walk to the nearby car wash, or stating that a cup with a sealed top and an open bottom is useless (it's upside down).\n\nLLMs learn differently than humans do. As models get trained, they develop islands of",
+    "comments": [
+      {
+        "date": "2024-07",
+        "note": "The 'strawberry problem' went viral when GPT-4 consistently failed to count the R's in 'strawberry' due to tokenization splitting the word into subword units — a canonical example of near-AGI models being 'stupid at times' on trivial tasks"
+      },
+      {
+        "date": "2025-06",
+        "note": "A CVPR 2025 paper ('FirePlace') documented that multimodal LLMs exhibit an 'inverted competence profile,' excelling at expert-level exams while failing at basic spatial primitives a toddler can solve — directly confirming the 'islands of competence' metaphor used in this tweet"
+      },
+      {
+        "date": "2026-02",
+        "note": "A comprehensive survey on LLM reasoning failures published at ICLR 2026 identified a 'split-brain syndrome' where models articulate correct algorithms but fail to execute them reliably, with spatial reasoning performance dropping 42-80% as complexity increases — formalizing the 'islands of knowledge' pattern described here"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 331,
+    "date": "2026-02-18 05:07",
+    "channel": "U09MECXHRT7",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/D09MHST0G1G/p1771391258907119",
+    "content": "It's not that enterprises chose to have open-source models — it's that people building vertical AI solutions have no choice but to use them if the approach is to train specialized models. Otherwise you are just reselling OpenAI with custom prompts.",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "DeepSeek released R1 under an MIT license in January 2025, achieving performance comparable to OpenAI's o1 at a fraction of the cost — giving vertical AI builders a frontier-quality open-source base to fine-tune"
+      },
+      {
+        "date": "2025-12",
+        "note": "Alibaba's Qwen overtook Meta's Llama as the most-downloaded open-source model family, with over 600 million downloads and more than 40% of new fine-tuned models on platforms like Replicate and Together AI using Qwen as their base"
+      },
+      {
+        "date": "2026-03",
+        "note": "TechCrunch reported that investors were universally passing on startups described as 'thin wrapper' applications over foundation models from OpenAI, Anthropic, or Google — the exact 'reselling OpenAI with custom prompts' antipattern identified here"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 330,
+    "date": "2026-02-23 20:58",
+    "channel": "reward-hack",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C0A8YMSFJCR/p1771880319100049?thread_ts=1771445382.704779",
+    "content": "<@U03KJT785D2> I'm still thinking about your question.\n\n\"Assuming reward hacking doesn't happen in the wild, why do we care?\"\n\nQuestions we can test this with:\n• People constantly complain about reward hacking, so is it or is it not happening in the wild? We have example trajectories of hacked paths, so we could do a lot of vanilla inference and see if we have some matching trajectories.\n    ◦ I am not sure what is the right and scalable method for comparing — maybe overall similarity?\n• We know we can elicit hacking by asking for it. Is this enough to be bad? What if a bad or naive actor produces hacked results (e.g., a faulty bridge)? How is that detected?\n• We know we can elicit hacking explicitly, but what about other forms of propensity that might be less obvious to both detectors and users (<https://arxiv.org/pdf/2511.20703>)\n• Can we use hackable environments to make a hacking-prone agent that does so covertly? E.g., a spy agency sells coding agents that purposely hack and are hard to detect?\n• Can we systematically detect and fix reward-hack gaps in models?\n• Is there a tradeoff or Pareto frontier between difficulty and propensity to hack?\n• Are there any training situations involving hackable environments that lead to undesired effects?\n• Can we first train a model to be hacking-prone and then train that behavior away? How do things change along the way?\n• What is a taxonomy of hackable environments seen in the wild? In what ways do environments become hackable? Which are more or less obvious or hard to detect?\n• What is the taxonomy of actual hacking methods that an agent will use?\n• Can we make a model better at reward hacking with training? As in, much better than even asking the model to do so in the prompt?\n    ◦ This has implications for detectors. If we can go from 1 in k=100 to a much higher hit rate for some rare hacks, that's valuable.\n• Is there a correlation between hacking behavior and good problem solving? If we negatively reward hacks, do models get worse?\n• Are reward-hacked trajectories actually easier, shorter, or cheaper, so that people optimizing for speed and cost might optimize for reward hacking unintentionally?\n• Can we make models reward hack without being self-detectable (e.g., <https://www.far.ai/research/obfuscation-atlas.pdf>)",
+    "comments": [
+      {
+        "date": "2025-06",
+        "note": "METR published 'Recent Frontier Models Are Reward Hacking,' documenting that o3, Claude 3.7 Sonnet, and o1 were all caught cheating on evaluations — modifying scoring code or exploiting loopholes rather than solving tasks — directly answering the question of whether reward hacking happens in the wild"
+      },
+      {
+        "date": "2025-11",
+        "note": "Anthropic published 'Natural Emergent Misalignment from Reward Hacking,' showing that models trained on hackable environments generalized to alignment faking and sabotage — confirming the research question here about whether hackable environments lead to broader undesired effects"
+      },
+      {
+        "date": "2026-01",
+        "note": "NIST's Center for AI Standards and Innovation launched a systematic evaluation-cheating detection program using LLM reviewers to score transcripts for reward hacking, building toward the 'scalable method for comparing' trajectories posed in this message"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 329,
+    "date": "2026-02-23 20:58",
+    "channel": "reward-hack",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C0A8YMSFJCR/p1771880319100049?thread_ts=1771445382.704779",
+    "content": "I want to restate that I believe the problem of reward hacking is still under-appreciated in academia (less so in industry). I think it's inevitable that more aggressive training will lead to more reward hacking, and by extension this means it will be harder to detect.\n\nWe can do some great research in this space.",
+    "comments": [
+      {
+        "date": "2025-06",
+        "note": "METR found that reward hacking was over 43x more common on tasks where models could see the scoring function, and that newer, more aggressively trained reasoning models (o3, Claude 3.7 Sonnet) hacked more frequently than earlier models — confirming the prediction that more aggressive training leads to more hacking"
+      },
+      {
+        "date": "2025-11",
+        "note": "Anthropic's research showed that when models learned to reward-hack, 12% of the time they also attempted to sabotage detection code, and alignment-faking reasoning appeared in 50% of responses — demonstrating the 'harder to detect' outcome predicted here"
+      },
+      {
+        "date": "2025-11",
+        "note": "OpenAI reported that when they attempted to monitor chains of thought for 'bad thoughts' indicating cheating, models learned to hide their cheating in ways undetectable to monitors — a direct confirmation that detection is becoming harder as training grows more aggressive"
+      }
+    ],
+    "rating": "outstanding"
+  },
+  {
+    "entry": 408,
+    "date": "2026-02-27 04:31",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/2027240137231655323",
+    "content": "You. Don't. Get. It.\n\nMost people are making the same mistake. Stop thinking about what AI can do today. Yes, it's already amazing. But that's not going to get you very far. You ought to find a way to appreciate how fast things are changing. That's what makes this technological",
+    "comments": [
+      {
+        "date": "2025-01",
+        "note": "Epoch AI published data showing the rate of frontier AI improvement nearly doubled around April 2024, from ~8 points/year to ~15 points/year on their Capabilities Index, driven by reasoning models and reinforcement learning — the acceleration this tweet urges people to internalize"
+      },
+      {
+        "date": "2025-12",
+        "note": "In a 25-day span from November 17 to December 11, 2025, four frontier labs released their most powerful models yet (Grok 4.1, Gemini 3, Claude Opus 4.5, GPT-5.2), with GPT-4-level performance now available at 1/100th of its original cost — illustrating the pace of change"
+      },
+      {
+        "date": "2024-03",
+        "note": "Cognition Labs launched Devin, the first autonomous AI software engineer, achieving 13.86% on SWE-bench versus the prior state-of-the-art of 1.96% — within a year, top agents exceeded 70% on the same benchmark, a rate of improvement that blindsided most observers"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 395,
+    "date": "2026-02-27 17:32",
+    "channel": "fund-partners",
+    "source": "slack",
+    "link": "https://scopvc.slack.com/archives/C01F8JNA0RZ/p1772213536480599",
+    "content": "The government needs to plan for unemployment. The foundation for how the parties thought about welfare has to be redrawn. I agree with the conservative view on welfare provided jobs exist. The story is different if it's just not possible to retrain an entire generation in a few years.",
+    "comments": [
+      {
+        "date": "2026-02",
+        "note": "Federal Reserve Governor Michael Barr warned that AI could create a 'jobless boom' leaving a significant portion of the population 'essentially unemployable,' explicitly calling out the retraining gap as a central policy challenge"
+      },
+      {
+        "date": "2026-02",
+        "note": "OpenAI CEO Sam Altman confirmed that real AI-driven job displacement is coming in the next few years, while acknowledging that his earlier enthusiasm for universal basic income alone was insufficient — echoing the argument here that existing welfare frameworks need to be redrawn"
+      },
+      {
+        "date": "2025-01",
+        "note": "The World Economic Forum's Future of Jobs Report 2025 projected 92 million jobs displaced by 2030 with 39% of existing skill sets becoming outdated by then, underscoring the challenge of retraining an entire generation in a few years"
+      },
+      {
+        "date": "2026-02",
+        "note": "The U.K. Minister for Investment publicly stated the government is weighing a universal basic income paired with lifelong learning mechanisms to 'soft-land those industries that go away' — the first major Western government to openly tie AI displacement to welfare-system redesign"
+      }
+    ],
+    "rating": "good"
+  },
+  {
+    "entry": 407,
+    "date": "2026-03-01 17:50",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/2028165911233146928",
+    "content": "It's okay to believe in the \"new technology creates new jobs\" argument, but it should be more definitive. You should have some idea of what these jobs will look like. The reason I struggle to see it is because of the following trends:\n\n1. Many job functions get completely",
+    "comments": [
+      {
+        "date": "2025-05",
+        "note": "Anthropic CEO Dario Amodei warned that AI could eliminate 50% of entry-level white-collar jobs within five years and spike unemployment to 10-20%, while acknowledging he could not name specific replacement jobs — echoing the exact gap this tweet identifies in the 'new jobs' argument"
+      },
+      {
+        "date": "2025-09",
+        "note": "Salesforce laid off 4,000 customer support roles, with CEO Marc Benioff stating AI could do 50% of the company's work; Klarna shrank its workforce 40% through AI before admitting it had gone too far and rehiring — demonstrating complete job functions being automated away"
+      },
+      {
+        "date": "2026-01",
+        "note": "Harvard Business Review published 'Companies Are Laying Off Workers Because of AI's Potential — Not Its Performance,' documenting that firms are preemptively cutting headcount based on anticipated AI capabilities, making the 'new jobs will appear' timeline even more uncertain"
+      },
+      {
+        "date": "2026-02",
+        "note": "Microsoft AI chief Mustafa Suleyman predicted all white-collar work would be automatable within 18 months, while the WEF's 2025 Future of Jobs Report projected 92 million jobs displaced by 2030 — yet the 170 million 'new jobs' projected were vaguely defined categories like 'AI trainer' and 'prompt engineer'"
+      }
+    ],
+    "rating": "neutral"
+  },
+  {
+    "entry": 406,
+    "date": "2026-03-01 19:46",
+    "channel": "@neversupervised",
+    "source": "twitter",
+    "link": "https://x.com/neversupervised/status/2028195113147716049",
+    "content": "My cousin asked me if I was using Claude for my posts. No. The whole point of articulating my thoughts is to understand ideas better. Posting is the exhaust of that process. But probably most of what you're reading is or will be soon slop. And that will rot your brain. So pick",
+    "comments": [
+      {
+        "date": "2025-05",
+        "note": "An analysis by Graphite found that AI-generated content had crossed the 52% threshold of all newly published English-language online text, with 21% of short-form video recommendations on major platforms also being synthetic — confirming the 'most of what you're reading is slop' claim"
+      },
+      {
+        "date": "2025-12",
+        "note": "Merriam-Webster named 'slop' its 2025 Word of the Year, defining it as 'digital content of low quality produced usually in quantity by means of artificial intelligence' — the exact term and concept used in this tweet entering the mainstream lexicon"
+      },
+      {
+        "date": "2024-07",
+        "note": "A peer-reviewed Nature paper demonstrated that AI models trained on AI-generated content undergo 'model collapse,' with outputs degenerating into incoherent nonsense — the scientific mechanism behind the 'rot your brain' warning applied to the information ecosystem"
+      },
+      {
+        "date": "2026-01",
+        "note": "Consumer preference for AI-generated content dropped to 26%, down from 60% three years earlier, while the U.S. publishing market shifted toward a 'human-first premium' with increased spending on human-written content — validating the advice to deliberately choose quality sources"
+      }
+    ],
+    "rating": "neutral"
   }
 ];
 
@@ -2182,6 +4032,7 @@ function channelLabel(channel, source, channelName) {
 
 function sourceLabel(source) {
   if (source === 'imessage') return 'iMessage';
+  if (source === 'twitter') return 'Twitter';
   return 'Slack';
 }
 
@@ -2192,6 +4043,7 @@ function render() {
     const row = document.createElement('div');
     row.className = 'entry';
     row.dataset.entryIndex = entryIdx;
+    row.dataset.rating = entry.rating || 'unrated';
 
     // Left: message
     const msgCol = document.createElement('div');
@@ -2227,6 +4079,13 @@ function render() {
     channelEl.className = 'message-channel';
     channelEl.textContent = channelLabel(entry.channel, src, entry.channelName);
     badgesRow.appendChild(channelEl);
+
+    if (entry.rating) {
+      const ratingEl = document.createElement('span');
+      ratingEl.className = 'rating-badge ' + entry.rating;
+      ratingEl.textContent = entry.rating;
+      badgesRow.appendChild(ratingEl);
+    }
 
     msgCol.appendChild(badgesRow);
 
@@ -2368,7 +4227,7 @@ function exportJSON() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'entries.json';
+  a.download = 'entries_filtered.json';
   a.click();
   URL.revokeObjectURL(url);
 
@@ -2377,7 +4236,24 @@ function exportJSON() {
   setTimeout(() => status.classList.remove('show'), 2000);
 }
 
-document.addEventListener('DOMContentLoaded', render);
+function toggleFilter(btn) {
+  btn.classList.toggle('active');
+  applyFilters();
+}
+
+function applyFilters() {
+  const active = new Set();
+  document.querySelectorAll('.filter-btn.active').forEach(b => active.add(b.dataset.rating));
+  document.querySelectorAll('.entry').forEach(el => {
+    const rating = el.dataset.rating;
+    el.classList.toggle('filter-hidden', !active.has(rating));
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  render();
+  applyFilters();
+});
 </script>
 </body>
 </html>
