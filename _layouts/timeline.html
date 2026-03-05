@@ -1,0 +1,460 @@
+---
+layout: default
+---
+
+<!-- Timeline fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+<style>
+  /* Widen the site for the timeline */
+  main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .timeline-header {
+    text-align: center;
+    padding: 2.5rem 1.5rem 1.5rem;
+    border-bottom: 1px solid #e2dfd8;
+  }
+
+  .timeline-header h1 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #111;
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline-header p {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    color: #777;
+    font-size: 1rem;
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .timeline {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  .tl-entry {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    gap: 2rem;
+    align-items: start;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eae7e0;
+  }
+
+  .tl-entry:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .tl-entry.filter-hidden {
+    display: none;
+  }
+
+  .message-col {
+    position: relative;
+  }
+
+  .message-date {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.4rem;
+  }
+
+  .message-badges {
+    display: flex;
+    gap: 0.35rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .message-source {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    letter-spacing: 0.02em;
+  }
+
+  .message-source.slack {
+    color: #4a154b;
+    background: #f0e6f0;
+  }
+
+  .message-source.imessage {
+    color: #1b6b2e;
+    background: #e6f4ea;
+  }
+
+  .message-source.twitter {
+    color: #1a6b8a;
+    background: #daf0f7;
+  }
+
+  .message-channel {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: #7c6f9f;
+    background: #eeebf5;
+    padding: 0.15rem 0.5rem;
+    border-radius: 3px;
+    text-transform: lowercase;
+    letter-spacing: 0.02em;
+  }
+
+  .rating-badge {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 0.12rem 0.45rem;
+    border-radius: 3px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .rating-badge.outstanding {
+    color: #1a6b35;
+    background: #d4edda;
+  }
+
+  .rating-badge.good {
+    color: #6b5f00;
+    background: #fff3cd;
+  }
+
+  .rating-badge.neutral {
+    color: #7a4d00;
+    background: #ffe0b2;
+  }
+
+  .rating-badge.poor {
+    color: #8b1a1a;
+    background: #f8d7da;
+  }
+
+  .message-bubble {
+    background: #ffffff;
+    border: 1px solid #e5e2db;
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #2a2a2a;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  .message-bubble a {
+    color: #5b6abf;
+    text-decoration: underline;
+    text-decoration-color: #c3c8e8;
+    word-break: break-all;
+  }
+
+  .message-bubble a:hover {
+    text-decoration-color: #5b6abf;
+  }
+
+  .quoted-reply {
+    border-left: 3px solid #d0cdc6;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.75rem;
+    background: #f5f4f1;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.82rem;
+    color: #666;
+  }
+
+  .quoted-reply .reply-author {
+    font-weight: 600;
+    color: #555;
+    font-size: 0.78rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .commentary-col {
+    padding-top: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .comment-item {
+    display: flex;
+    gap: 0.6rem;
+    align-items: baseline;
+  }
+
+  .comment-date {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: #b0a99e;
+    white-space: nowrap;
+    min-width: 5.2rem;
+    text-align: right;
+    letter-spacing: 0.02em;
+    flex-shrink: 0;
+  }
+
+  .comment-note {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 0.82rem;
+    line-height: 1.55;
+    color: #7a756d;
+  }
+
+  .filter-bar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e2dfd8;
+  }
+
+  .filter-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.35rem 0.85rem;
+    border: 1.5px solid #ddd;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #fff;
+    color: #888;
+    transition: all 0.15s;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .filter-btn:hover {
+    border-color: #bbb;
+    color: #555;
+  }
+
+  .filter-btn.active.outstanding {
+    border-color: #1a6b35;
+    background: #d4edda;
+    color: #1a6b35;
+  }
+
+  .filter-btn.active.good {
+    border-color: #6b5f00;
+    background: #fff3cd;
+    color: #6b5f00;
+  }
+
+  .filter-btn.active.neutral {
+    border-color: #7a4d00;
+    background: #ffe0b2;
+    color: #7a4d00;
+  }
+
+  .filter-btn.active.poor {
+    border-color: #8b1a1a;
+    background: #f8d7da;
+    color: #8b1a1a;
+  }
+
+  @media (max-width: 768px) {
+    .tl-entry {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .commentary-col {
+      padding-top: 0;
+      padding-left: 1rem;
+      border-left: 2px solid #e2dfd8;
+    }
+
+    .timeline-header {
+      padding: 2rem 1rem 1rem;
+    }
+
+    .timeline-header h1 {
+      font-size: 1.35rem;
+    }
+
+    .timeline {
+      padding: 1.5rem 1rem 3rem;
+    }
+  }
+</style>
+
+{{ content }}
+
+<script>
+const entries = window.__TIMELINE_ENTRIES || [];
+
+function formatDate(dateStr) {
+  const d = new Date(dateStr.replace(' ', 'T'));
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function formatCommentDate(dateStr) {
+  const parts = dateStr.split('-');
+  if (parts.length === 3) {
+    const d = new Date(dateStr + 'T00:00:00');
+    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  } else if (parts.length === 2) {
+    const d = new Date(dateStr + '-01T00:00:00');
+    return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  }
+  return dateStr;
+}
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function formatContent(text) {
+  let html = escapeHtml(text);
+  html = html.replace(/(https?:\/\/[^\s<>|]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+  return html;
+}
+
+function channelLabel(channel, source) {
+  if (source === 'imessage') return channel || 'private';
+  if (/^U[A-Z0-9]+$/.test(channel)) return 'DM';
+  return '#' + channel;
+}
+
+function sourceLabel(source) {
+  if (source === 'imessage') return 'iMessage';
+  if (source === 'twitter') return 'Twitter';
+  return 'Slack';
+}
+
+function render() {
+  const container = document.getElementById('timeline');
+
+  entries.forEach((entry) => {
+    const row = document.createElement('div');
+    row.className = 'tl-entry';
+    row.dataset.rating = entry.rating || 'unrated';
+
+    const msgCol = document.createElement('div');
+    msgCol.className = 'message-col';
+
+    const dateEl = document.createElement('div');
+    dateEl.className = 'message-date';
+    dateEl.textContent = formatDate(entry.date);
+    msgCol.appendChild(dateEl);
+
+    const badgesRow = document.createElement('div');
+    badgesRow.className = 'message-badges';
+
+    const src = entry.source || 'slack';
+    const sourceEl = document.createElement('span');
+    sourceEl.className = 'message-source ' + src;
+    sourceEl.textContent = sourceLabel(src);
+    badgesRow.appendChild(sourceEl);
+
+    const channelEl = document.createElement('span');
+    channelEl.className = 'message-channel';
+    channelEl.textContent = channelLabel(entry.channel, src);
+    badgesRow.appendChild(channelEl);
+
+    if (entry.rating) {
+      const ratingEl = document.createElement('span');
+      ratingEl.className = 'rating-badge ' + entry.rating;
+      ratingEl.textContent = entry.rating;
+      badgesRow.appendChild(ratingEl);
+    }
+
+    msgCol.appendChild(badgesRow);
+
+    const bubble = document.createElement('div');
+    bubble.className = 'message-bubble';
+
+    if (entry.replyTo) {
+      const quoted = document.createElement('div');
+      quoted.className = 'quoted-reply';
+      const author = document.createElement('div');
+      author.className = 'reply-author';
+      author.textContent = entry.replyTo.author;
+      quoted.appendChild(author);
+      quoted.appendChild(document.createTextNode(entry.replyTo.content));
+      bubble.appendChild(quoted);
+    }
+
+    const contentSpan = document.createElement('span');
+    contentSpan.innerHTML = formatContent(entry.content);
+    bubble.appendChild(contentSpan);
+
+    msgCol.appendChild(bubble);
+    row.appendChild(msgCol);
+
+    const commentCol = document.createElement('div');
+    commentCol.className = 'commentary-col';
+
+    (entry.comments || []).forEach((c) => {
+      const item = document.createElement('div');
+      item.className = 'comment-item';
+
+      const cdateEl = document.createElement('span');
+      cdateEl.className = 'comment-date';
+      cdateEl.textContent = formatCommentDate(c.date);
+      item.appendChild(cdateEl);
+
+      const noteEl = document.createElement('span');
+      noteEl.className = 'comment-note';
+      noteEl.textContent = c.note;
+      item.appendChild(noteEl);
+
+      commentCol.appendChild(item);
+    });
+
+    row.appendChild(commentCol);
+    container.appendChild(row);
+  });
+}
+
+function toggleFilter(btn) {
+  btn.classList.toggle('active');
+  applyFilters();
+}
+
+function applyFilters() {
+  const active = new Set();
+  document.querySelectorAll('.filter-btn.active').forEach(b => active.add(b.dataset.rating));
+  document.querySelectorAll('.tl-entry').forEach(el => {
+    el.classList.toggle('filter-hidden', !active.has(el.dataset.rating));
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  render();
+  applyFilters();
+});
+</script>
