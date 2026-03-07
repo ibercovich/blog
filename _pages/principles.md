@@ -153,6 +153,8 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Own companies and hold them forever
 - Invest early in people you know and where you share values
 - The Core Task of Investing Is Making Predictions About the Future. Neither Doing More Work nor Having Higher Conviction Leads to Better Predictive Accuracy.
+- You can't fight the distribution
+  - If an asset class has power law returns, your portfolio will have power law characteristics
 
 ### Systems Thinking & Emergence
 
