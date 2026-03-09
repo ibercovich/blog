@@ -93,16 +93,6 @@ const tweets = window.__TWEETS || [];
 const deleted = new Set();
 let editMode = false;
 
-function escapeHtml(text) {
-  const div = document.createElement('div');
-  div.textContent = text;
-  return div.innerHTML;
-}
-
-function linkify(text) {
-  return text.replace(/(https?:\/\/[^\s<>&]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
-}
-
 function formatDate(iso) {
   const d = new Date(iso + 'T00:00:00');
   return d.toLocaleDateString('en-US', { month: 'long', day: '2-digit', year: 'numeric' });
@@ -139,7 +129,7 @@ function render() {
 
     const p = document.createElement('p');
     p.className = 'tweet-text';
-    p.innerHTML = linkify(escapeHtml(tw.text));
+    p.innerHTML = tw.html;
     item.appendChild(p);
 
     if (tw.images) {
