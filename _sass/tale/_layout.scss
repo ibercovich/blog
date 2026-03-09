@@ -38,6 +38,25 @@ footer,
     }
   }
 
+  &-social {
+    display: inline-block;
+    margin-left: .3rem;
+    font-size: .85rem;
+
+    a {
+      @include vars.transition(all .2s ease-out);
+      color: vars.$default-color;
+      opacity: .4;
+      margin: 0 .15rem;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        opacity: .8;
+      }
+    }
+  }
+
   ul {
     list-style-type: none;
     margin: 1rem 0 0;
