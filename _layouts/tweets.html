@@ -1,0 +1,214 @@
+---
+layout: default
+---
+
+<style>
+  .tweet-text {
+    white-space: pre-wrap;
+    margin-top: 0.5rem;
+  }
+
+  .tweet-delete {
+    display: none;
+    float: right;
+    background: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    color: #666;
+    cursor: pointer;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+  }
+
+  .tweet-delete:hover {
+    border-color: #8b1a1a;
+    color: #8b1a1a;
+  }
+
+  .edit-mode .tweet-delete {
+    display: inline-block;
+  }
+
+  .edit-mode .catalogue-item.deleted {
+    opacity: 0.25;
+  }
+
+  .edit-mode .catalogue-item.deleted .tweet-delete {
+    color: #1a6b35;
+    border-color: #1a6b35;
+  }
+
+  .edit-bar {
+    display: none;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1rem;
+  }
+
+  .edit-bar.visible {
+    display: block;
+  }
+
+  .edit-bar button {
+    background: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    color: #333;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
+    margin: 0 0.25rem;
+  }
+
+  .edit-bar button:hover {
+    border-color: #333;
+  }
+
+  .edit-bar .count {
+    color: #666;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+</style>
+
+{{ content }}
+
+<div class="post">
+  <h1 class="post-title">Tweets</h1>
+  <span class="post-info"><span>@neversupervised</span></span>
+  <div class="post-line"></div>
+
+  <div class="edit-bar" id="editBar">
+    <button onclick="exportKept()">Export kept tweets</button>
+    <button onclick="resetDeleted()">Reset</button>
+    <span class="count" id="editCount"></span>
+  </div>
+
+  <div class="catalogue" id="tweetsContainer"></div>
+</div>
+
+<script>
+const tweets = window.__TWEETS || [];
+const deleted = new Set();
+let editMode = false;
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function linkify(text) {
+  return text.replace(/(https?:\/\/[^\s<>&]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+}
+
+function formatDate(iso) {
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('en-US', { month: 'long', day: '2-digit', year: 'numeric' });
+}
+
+function render() {
+  const container = document.getElementById('tweetsContainer');
+  container.innerHTML = '';
+
+  tweets.forEach((tw) => {
+    const item = document.createElement('div');
+    item.className = 'catalogue-item';
+    item.dataset.id = tw.id;
+    if (deleted.has(tw.id)) item.classList.add('deleted');
+
+    const url = 'https://x.com/neversupervised/status/' + tw.id;
+
+    const btn = document.createElement('button');
+    btn.className = 'tweet-delete';
+    btn.textContent = deleted.has(tw.id) ? 'restore' : 'delete';
+    btn.onclick = function() { toggleDelete(tw.id); };
+    item.appendChild(btn);
+
+    const time = document.createElement('time');
+    time.setAttribute('datetime', tw.date);
+    time.className = 'catalogue-time';
+    const link = document.createElement('a');
+    link.href = url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.textContent = formatDate(tw.date);
+    time.appendChild(link);
+    item.appendChild(time);
+
+    const p = document.createElement('p');
+    p.className = 'tweet-text';
+    p.innerHTML = linkify(escapeHtml(tw.text));
+    item.appendChild(p);
+
+    if (tw.images) {
+      tw.images.forEach((src) => {
+        const img = document.createElement('img');
+        img.src = src;
+        img.alt = '';
+        item.appendChild(img);
+      });
+    }
+
+    container.appendChild(item);
+  });
+
+  updateCount();
+}
+
+function toggleDelete(id) {
+  if (deleted.has(id)) {
+    deleted.delete(id);
+  } else {
+    deleted.add(id);
+  }
+  const item = document.querySelector('[data-id="' + id + '"]');
+  if (item) {
+    item.classList.toggle('deleted');
+    const btn = item.querySelector('.tweet-delete');
+    btn.textContent = deleted.has(id) ? 'restore' : 'delete';
+  }
+  updateCount();
+}
+
+function updateCount() {
+  const el = document.getElementById('editCount');
+  const kept = tweets.length - deleted.size;
+  el.textContent = kept + ' / ' + tweets.length + ' kept';
+}
+
+function resetDeleted() {
+  deleted.clear();
+  document.querySelectorAll('.catalogue-item.deleted').forEach(el => {
+    el.classList.remove('deleted');
+    el.querySelector('.tweet-delete').textContent = 'delete';
+  });
+  updateCount();
+}
+
+function exportKept() {
+  const kept = tweets.filter(t => !deleted.has(t.id));
+  const blob = new Blob([JSON.stringify(kept, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'tweets-kept.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function checkEditMode() {
+  const wasEdit = editMode;
+  editMode = window.location.hash === '#edit';
+  document.querySelector('.post').classList.toggle('edit-mode', editMode);
+  document.getElementById('editBar').classList.toggle('visible', editMode);
+  if (editMode && !wasEdit) updateCount();
+}
+
+window.addEventListener('hashchange', checkEditMode);
+document.addEventListener('DOMContentLoaded', () => {
+  render();
+  checkEditMode();
+});
+</script>
