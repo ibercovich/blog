@@ -52,11 +52,6 @@ window.__TWEETS = [
     "text": "A huge proportion of comercial transactions are driven by the seller reaching out to the buyer. Businesses are always looking for efficient channels where the cost of finding qualified leads is minimized.\n\nSome of the best channels are \"free\", in the sense that the channel itself doesn't monetize the transaction. It's not really free in that there's still sales and marketing effort that goes into these channels.\n\nSEO is a classic example. Once upon a time, a company could drive a huge amount of inbound interest by ranking high in organic search for relevant terms. Being great at SEO used to be a super weapon. TripAdvisor, Yelp, and others built empires by optimizing their rankings.\n\nFor years there was fearmongering about Google showing answers directly in search or including interactive widgets like maps or flights that competed with vertical websites. As it's often the case those fears took longer than expected to make a real dent.\n\nNow we find ourselves in a moment where SEO as a channel is being squeezed from both ends. On one side we have LLMs answering virtually anything without requiring us to visit a website. On the other hand producing content is effectively free, so there's an explosion of websites competing for the same queries. This has made SEO a significantly less effective channel.\n\nBut the impact goes across all channels. AIs can write customized emails at scale, so nobody trusts their inbox, and soon AIs will be reading and filtering our emails anyway. Same is true for texts, phone calls, etc.\n\nEvery free channel will become saturated because of AI.\n\nIn order to have effective channels there has to be some sort of scarcity. When high quality websites and sales calls were driven by humans who cost money, that was the limiting factor. AI takes that away, hence overwhelming many channels.\n\nSo what will happen next?\n\nAdvertising as a channel will strenghten. Whoever has a captive audience will be able to sell it to the highest bidder. In person events, which have natural filtering mechanisms, will become more valuable.\n\nWhat else?"
   },
   {
-    "id": "2025073033040593115",
-    "date": "2026-02-21",
-    "text": "A huge proportion of comercial transactions are driven by the seller reaching out to the buyer. Businesses are always looking for efficient channels where the cost of finding qualified leads is minimized.\n\nSome of the best channels are \"free\", in the sense that the channel itself doesn't monetize the transaction. It's not really free in that there's still sales and marketing effort that goes into these channels.\n\nSEO is a classic example. Once upon a time, a company could drive a huge amount of inbound interest by ranking high in organic search for relevant terms. Being great at SEO used to be a super weapon. TripAdvisor, Yelp, and others built empires by optimizing their rankings.\n\nFor years there was fearmongering about Google showing answers directly in search or including interactive widgets like maps or flights that competed with vertical websites. As it's often the case those fears took longer than expected to make a real dent.\n\nNow we find ourselves in a moment where SEO as a channel is being squeezed from both ends. On one side we have LLMs answering virtually anything without requiring us to visit a website. On the other hand producing content is effectively free, so there's an explosion of websites competing for the same queries. This has made SEO a significantly less effective channel.\n\nBut the impact goes across all channels. AIs can write customized emails at scale, so nobody trusts their inbox, and soon AIs will be reading and filtering our emails anyway. Same is true for texts, phone calls, etc.\n\nEvery free channel will become saturated because of AI.\n\nIn order to have effective channels there has to be some sort of scarcity. When high quality websites and sales calls were driven by humans who cost money, that was the limiting factor. AI takes that away, hence overwhelming many channels.\n\nSo what will happen next?\n\nAdvertising as a channel will strenghten. Whoever has a captive audience will be able to sell it to the highest bidder. In person events, which have natural filtering mechanisms, will become more valuable.\n\nWhat else?"
-  },
-  {
     "id": "2025072749866254711",
     "date": "2026-02-21",
     "text": "A huge proportion of comercial transactions are driven by the seller reaching out to the buyer. Businesses are always looking for efficient channels where the cost of finding qualified leads is minimized.\n\nSome of the best channels are \"free\", in the sense that the channel itself doesn't monetize the transaction. It's not really free in that there's still sales and marketing effort that goes into these channels.\n\nSEO is a classic example. Once upon a time, a company could drive a huge amount of inbound interest by ranking high in organic search for relevant terms. Being great at SEO used to be a super weapon. TripAdvisor, Yelp, and others built empires by optimizing their rankings.\n\nFor years there was fearmongering about Google showing answers directly in search or including interactive widgets like maps or flights that competed with vertical websites. As it's often the case those fears took longer than expected to make a real dent.\n\nNow we find ourselves in a moment where SEO as a channel is being squeezed from both ends. On one side we have LLMs answering virtually anything without requiring us to visit a website. On the other hand producing content is effectively free, so there's an explosion of websites competing for the same queries. This has made SEO a significantly less effective channel.\n\nBut the impact goes across all channels. AIs can write customized emails at scale, so nobody trusts their inbox, and soon AIs will be reading and filtering our emails anyway. Same is true for texts, phone calls, etc.\n\nEvery free channel will become saturated because of AI.\n\nIn order to have effective channels there has to be some sort of scarcity. When high quality websites and sales calls were driven by humans who cost money, that was the limiting factor. AI takes that away, hence overwhelming many channels.\n\nSo what will happen next?\n\nAdvertising as a channel will strenghten. Whoever has a captive audience will be able to sell it to the highest bidder. In person events, which have natural filtering mechanisms, will become more valuable.\n\nWhat else?"
@@ -70,11 +65,6 @@ window.__TWEETS = [
     "id": "2023502975931740352",
     "date": "2026-02-16",
     "text": "How come these near-AGI models can be so stupid at times? Telling you to walk to the nearby car wash, or stating that a cup with a sealed top and an open bottom is useless (it’s upside down).\n\nLLMs learn differently than humans do. As models get trained, they develop islands of generalization. When we step outside that territory, the behavior is disappointing. When we’re operating in the right domain, an AI is much, much smarter than all but a tiny percentage of humans at most topics. Outside, it can be likewise much dumber than all but a small fraction of humans.\n\nLLMs have much more peaky learning than humans do. But as we make them bigger and feed them more FLOPs, the islands grow and start to overlap. It becomes harder and harder to find notable examples, which is why these prompts go viral.\n\nThe scaling laws continue to work. The error rates continue to drop predictably. AIs will continue to outsmart humans in more and more end-to-end tasks. Eventually this will cover most economically valuable tasks.\n\nThat’s not to say there aren’t issues, that benchmarks aren’t flawed, or that transformers are sufficient to get to AGI. These examples are great for honing our intuition about how AI works. But they aren’t hard evidence against AGI."
-  },
-  {
-    "id": "2022775301089169531",
-    "date": "2026-02-14",
-    "text": "I write everything by hand, right \n@pangramlabs ?"
   },
   {
     "id": "2022347175683092824",
@@ -134,22 +124,17 @@ window.__TWEETS = [
   {
     "id": "2012927215802142835",
     "date": "2026-01-18",
-    "text": "Look at the comments on this article. The arguments are weak. “Teachers weren’t replaced by the internet in 1999!”, “My bathroom remodeler has a one-year wait list!”, “Musk’s predictions have been wrong before!”, “We heard the same thing about Y2K!” It might or might not be true, but people aren’t making good arguments; they’re wishing what they want the truth to be.​​​​​​​​​​​​​​​​\n\nhttps://t.co/7IsUeeu1Qv ("
+    "text": "2/ Look at the comments on this article. The arguments are weak. “Teachers weren’t replaced by the internet in 1999!”, “My bathroom remodeler has a one-year wait list!”, “Musk’s predictions have been wrong before!”, “We heard the same thing about Y2K!” It might or might not be true, but people aren’t making good arguments; they’re wishing what they want the truth to be.​​​​​​​​​​​​​​​​\n\nhttps://t.co/7IsUeeu1Qv ("
   },
   {
     "id": "2012702189580685533",
     "date": "2026-01-18",
-    "text": "\"Every time technology displaced jobs, it also created new ones\" is a weak argument. History doesn't repeat, but it rhymes. Observing past employment patterns is broadly helpful. It gives us a prior for calibrating our skepticism and tells us where to point our flashlight. But history does not predict the future.\n\nThe best way to understand the future is to live in it. It's hard to have a good opinion about the impact of self-driving cars if you've never been in a Waymo. Go use the shit out of AI, for every possible use-case in your life. Try AI before you call your lawyer, do your taxes, reply to an email, negotiate a job offer, go to the doctor, take your pet to the vet. Try AI for things that briefly cross your mind, but which would have made no sense to act on in the past: make a prank website, build an app for your family, ask for renderings of a redesigned living room. Get into the habit of turning thoughts into generated artifacts, and then revisit that phrase. You should come to the realization that much of the economy is about to shift from people to machines.\n\nIt might very well be true that enough new jobs humans can be easily trained for are on their way. But it has to be A LOT of jobs. And there's an obvious tradeoff between new jobs having a low-enough barrier to onboard displaced humans fast, while being hard enough to challenge the ever-smarter AIs.\n\nThe future is here, at your fingertips. Go check it out."
+    "text": "1/ \"Every time technology displaced jobs, it also created new ones\" is a weak argument. History doesn't repeat, but it rhymes. Observing past employment patterns is broadly helpful. It gives us a prior for calibrating our skepticism and tells us where to point our flashlight. But history does not predict the future.\n\nThe best way to understand the future is to live in it. It's hard to have a good opinion about the impact of self-driving cars if you've never been in a Waymo. Go use the shit out of AI, for every possible use-case in your life. Try AI before you call your lawyer, do your taxes, reply to an email, negotiate a job offer, go to the doctor, take your pet to the vet. Try AI for things that briefly cross your mind, but which would have made no sense to act on in the past: make a prank website, build an app for your family, ask for renderings of a redesigned living room. Get into the habit of turning thoughts into generated artifacts, and then revisit that phrase. You should come to the realization that much of the economy is about to shift from people to machines.\n\nIt might very well be true that enough new jobs humans can be easily trained for are on their way. But it has to be A LOT of jobs. And there's an obvious tradeoff between new jobs having a low-enough barrier to onboard displaced humans fast, while being hard enough to challenge the ever-smarter AIs.\n\nThe future is here, at your fingertips. Go check it out."
   },
   {
     "id": "2010482464607834467",
     "date": "2026-01-11",
     "text": "The fact that some masochists actually pay gardeners with leaf blowers to come during the weekend makes me question the whole concept of AI alignment with human values. @jackclarkSF can we hardcode this one?"
-  },
-  {
-    "id": "2008705539337830661",
-    "date": "2026-01-07",
-    "text": "What you're going through can't be solved from the outside. Your actions are yours. Your consequences are yours. Not in the sense of fault, but in the sense of ownership. There's always more control over what's inside than what's outside. You can't make others feel something. You can only feel something yourself."
   },
   {
     "id": "2008705468017922212",
@@ -196,12 +181,12 @@ window.__TWEETS = [
   {
     "id": "1993792510230188034",
     "date": "2025-11-26",
-    "text": "Plausible, annoying truths about work:\n- More hours yields better results\n- Younger teams outperform\n- Selecting for skill != selecting for diversity\n- Value varies drastically between people\n- Compensation is the minimum that retains\n- Niceness has fast-diminishing returns"
+    "text": "2/ Plausible, annoying truths about work:\n- More hours yields better results\n- Younger teams outperform\n- Selecting for skill != selecting for diversity\n- Value varies drastically between people\n- Compensation is the minimum that retains\n- Niceness has fast-diminishing returns"
   },
   {
     "id": "1993792509001318668",
     "date": "2025-11-26",
-    "text": "One reason I offend people is because I get obsessed with inconvenient but plausible ideas/facts. This can be really upsetting! When I was a young aspiring technologist I heard @paulg claim that having English as a second language was disadvantageous. It hurt. But it was plausible!"
+    "text": "1/ One reason I offend people is because I get obsessed with inconvenient but plausible ideas/facts. This can be really upsetting! When I was a young aspiring technologist I heard @paulg claim that having English as a second language was disadvantageous. It hurt. But it was plausible!"
   },
   {
     "id": "1993785815793848491",
@@ -272,11 +257,6 @@ window.__TWEETS = [
     "text": "Meanwhile @nikolas_belle enjoying the glory of of this slop-fest while procrastinating on our rebuttals..."
   },
   {
-    "id": "1950953643378938219",
-    "date": "2025-07-31",
-    "text": "https://www.tiktok.com/@sarainwondertech/video/7516511570889936150\n\nhttps://www.youtube.com/watch?v=jyFK57qlYRo\n\nhttps://youtu.be/szCcd_vvjXg?si=4VVh2cCwqVLGBi0s\n\nhttps://www.youtube.com/watch?v=1WNzPFtPEQs\n\nhttps://www.emergentmind.com/topics/catanatron-framework"
-  },
-  {
     "id": "1950953642259079648",
     "date": "2025-07-31",
     "text": "I'm not surprised, but still impressed by the volume of people/bots that grab research papers and churn social media slop. Not sure if this is the case for all papers or if our topic being the board game Settlers of Catan attracted some fandom."
@@ -292,32 +272,32 @@ window.__TWEETS = [
   {
     "id": "1945293859170181474",
     "date": "2025-07-16",
-    "text": "Music might do this for other people. But listening to headphones is the same as looking at a photo. Our brain knows it’s close to us. You need to listen to far away sounds (birds, outdoor concerts), to get the equivalent of looking at the mountains."
+    "text": "6/ Music might do this for other people. But listening to headphones is the same as looking at a photo. Our brain knows it’s close to us. You need to listen to far away sounds (birds, outdoor concerts), to get the equivalent of looking at the mountains."
   },
   {
     "id": "1945293857375105415",
     "date": "2025-07-16",
-    "text": "It just makes our brain allocate more compute to our perception and less to our inner monologue."
+    "text": "5/ It just makes our brain allocate more compute to our perception and less to our inner monologue."
   },
   {
     "id": "1945293855856918598",
     "date": "2025-07-16",
-    "text": "I used to rationalize this as “the mountain makes me realize how small I am”. But I think it’s much lower level. Giving more perceptual space for objects beyond ourselves affects our conscious experience to be more outward focused."
+    "text": "4/ I used to rationalize this as “the mountain makes me realize how small I am”. But I think it’s much lower level. Giving more perceptual space for objects beyond ourselves affects our conscious experience to be more outward focused."
   },
   {
     "id": "1945293854061584501",
     "date": "2025-07-16",
-    "text": "I find that focusing my attention visually on something far away, for example a mountain, produces a feeling similar to awe."
+    "text": "3/ I find that focusing my attention visually on something far away, for example a mountain, produces a feeling similar to awe."
   },
   {
     "id": "1945293851998003677",
     "date": "2025-07-16",
-    "text": "Headless meditation is by far the easiest for me to practice."
+    "text": "2/ Headless meditation is by far the easiest for me to practice."
   },
   {
     "id": "1945293850312106172",
     "date": "2025-07-16",
-    "text": "I suspect there is a significant fraction of people who “love being in nature” who actually get their satisfaction from being in big open spaces and nature just so happens to be one."
+    "text": "1/ I suspect there is a significant fraction of people who “love being in nature” who actually get their satisfaction from being in big open spaces and nature just so happens to be one."
   },
   {
     "id": "1944953697206985008",
@@ -358,11 +338,6 @@ window.__TWEETS = [
     ]
   },
   {
-    "id": "1929301890342298016",
-    "date": "2025-06-01",
-    "text": "https://ivanbercovich.com/2025/hard-is-back"
-  },
-  {
     "id": "1929301888778047574",
     "date": "2025-06-01",
     "text": "The arc of contemporary startups has singularly progressed towards a relentless reduction of barriers of entry. Yet, startups have avoided the fate predicted by the proverbial invisible hand, which would drag their gross margins to the efficient frontier. While demand created by \"software eating the world\" is large it’s not infinite, and AI is eroding the last standing barriers of entry. Trivialization of apps production will lead to diminishing returns, and upside will vanish. There will be no more low hanging fruit, at least not the kind that leads to monopolies. The solution is to go do hards shit. Hard is Back."
@@ -399,11 +374,6 @@ window.__TWEETS = [
     "id": "1925613378053316855",
     "date": "2025-05-22",
     "text": "Kids need to learn, because the brain is a learning machine. When the brain learns, it changes. It is a physical manifestation of what you know. If you want an organized brain that’s pleasant to live inside, focus on one topic at a time and build a solid knowledge graph. If you \"learn\" TikTok all day, your brain will resemble white noise, and you'll live a tortured existence."
-  },
-  {
-    "id": "1925571535966019800",
-    "date": "2025-05-22",
-    "text": "The tragedy of ambition it to spend an entire life preparing for something, to then realize it was all preparation and no thing."
   },
   {
     "id": "1925571322949894502",
@@ -498,42 +468,42 @@ window.__TWEETS = [
   {
     "id": "1890653484908679239",
     "date": "2025-02-15",
-    "text": "But I’m definitely in favor of immigration, not just for the highly educated, but also for those that embody American values like ambition and hard work."
+    "text": "8/ But I’m definitely in favor of immigration, not just for the highly educated, but also for those that embody American values like ambition and hard work."
   },
   {
     "id": "1890653482320859532",
     "date": "2025-02-15",
-    "text": "Im also in favor of asylum not being America’s legal immigration backdoor."
+    "text": "7/ Im also in favor of asylum not being America’s legal immigration backdoor."
   },
   {
     "id": "1890653479372300708",
     "date": "2025-02-15",
-    "text": "Overall, support policing illegal immigration, because it’s illegal, and because it does cause societal problems."
+    "text": "6/ Overall, support policing illegal immigration, because it’s illegal, and because it does cause societal problems."
   },
   {
     "id": "1890653476692046047",
     "date": "2025-02-15",
-    "text": "I’ve also had cringe experiences. A driver tried to indoctrinate me to believe women are possessions. He was particularly humiliated by the fact his wife had a higher income."
+    "text": "5/ I’ve also had cringe experiences. A driver tried to indoctrinate me to believe women are possessions. He was particularly humiliated by the fact his wife had a higher income."
   },
   {
     "id": "1890653474053923040",
     "date": "2025-02-15",
-    "text": "I’ve also met an Afghani driver that worked with the US army as a translator, out in the field, being shot, saving lives. I think it’s awesome to turn some of these people into Americans."
+    "text": "4/ I’ve also met an Afghani driver that worked with the US army as a translator, out in the field, being shot, saving lives. I think it’s awesome to turn some of these people into Americans."
   },
   {
     "id": "1890653470270624140",
     "date": "2025-02-15",
-    "text": "I’m almost certain he’s a net positive to America, by the way. Well spoken, thoughtful, resilient. He also loves America."
+    "text": "3/ I’m almost certain he’s a net positive to America, by the way. Well spoken, thoughtful, resilient. He also loves America."
   },
   {
     "id": "1890653467632394243",
     "date": "2025-02-15",
-    "text": "At a time when I find myself nodding at some abstract idea of how immigration policy can improve, it’s grounding to meet someone like Fahar."
+    "text": "2/ At a time when I find myself nodding at some abstract idea of how immigration policy can improve, it’s grounding to meet someone like Fahar."
   },
   {
     "id": "1890653464679657903",
     "date": "2025-02-15",
-    "text": "I prefer Waymo to Uber. But I have to confess a meaningful amount of my outgroup empathy comes from talking to Uber drivers. For example I just got a ride by a kind man who left Somalia and spent 8 years in an Ugandan refugee camp before coming to the US."
+    "text": "1/ I prefer Waymo to Uber. But I have to confess a meaningful amount of my outgroup empathy comes from talking to Uber drivers. For example I just got a ride by a kind man who left Somalia and spent 8 years in an Ugandan refugee camp before coming to the US."
   },
   {
     "id": "1890626491358089284",
@@ -543,32 +513,27 @@ window.__TWEETS = [
   {
     "id": "1890569649030386015",
     "date": "2025-02-15",
-    "text": "I’m not convinced that UI affordances are dead as long as we want to give users a sense of control."
+    "text": "5/ I’m not convinced that UI affordances are dead as long as we want to give users a sense of control."
   },
   {
     "id": "1890569646652145986",
     "date": "2025-02-15",
-    "text": "Except that if the user asks for a coding canvas and the model does something else, it will be more frustrating than having to press a button."
+    "text": "4/ Except that if the user asks for a coding canvas and the model does something else, it will be more frustrating than having to press a button."
   },
   {
     "id": "1890569644731220428",
     "date": "2025-02-15",
-    "text": "I expect users will attempt to prompt models for things like “think a lot, be introspective” or “make sure to search the web”, which will bring us back to where we started."
+    "text": "3/ I expect users will attempt to prompt models for things like “think a lot, be introspective” or “make sure to search the web”, which will bring us back to where we started."
   },
   {
     "id": "1890569642780844124",
     "date": "2025-02-15",
-    "text": "I understand the impetus and it might be okay for consumer use cases. But it will increase the gap between user expectations and outcome. This will be a bigger problem if it’s ported to APIs."
+    "text": "2/ I understand the impetus and it might be okay for consumer use cases. But it will increase the gap between user expectations and outcome. This will be a bigger problem if it’s ported to APIs."
   },
   {
     "id": "1890569640855691467",
     "date": "2025-02-15",
-    "text": "Alexa lost to LLMs, but we learned in the process. One lesson is that building an orchestrator that selects sub components (music, kindle) is hard. I think @sama ‘s suggestion that GPT5 will be the orchestrator might run the same course."
-  },
-  {
-    "id": "1890480968705671347",
-    "date": "2025-02-14",
-    "text": "h/t to @danseigle for the Jamie Diamond inspiration"
+    "text": "1/ Alexa lost to LLMs, but we learned in the process. One lesson is that building an orchestrator that selects sub components (music, kindle) is hard. I think @sama ‘s suggestion that GPT5 will be the orchestrator might run the same course."
   },
   {
     "id": "1890480641394741641",
@@ -618,12 +583,12 @@ window.__TWEETS = [
   {
     "id": "1890480031526236526",
     "date": "2025-02-14",
-    "text": "As a founder, your attitude sets the tone for your company’s culture. Whatever standards you set for yourself will be halved through each layer of management."
+    "text": "2/ As a founder, your attitude sets the tone for your company’s culture. Whatever standards you set for yourself will be halved through each layer of management."
   },
   {
     "id": "1890479928162021443",
     "date": "2025-02-14",
-    "text": "Your team is your most expensive and valuable resource. A single great hire can alter the trajectory of your business. Tolerating mediocrity will lead to a mediocre team. It’s possible to build a healthy culture while maintaining high standards— in fact, low expectations often lead to more dissatisfaction and morale issues."
+    "text": "1/ Your team is your most expensive and valuable resource. A single great hire can alter the trajectory of your business. Tolerating mediocrity will lead to a mediocre team. It’s possible to build a healthy culture while maintaining high standards— in fact, low expectations often lead to more dissatisfaction and morale issues."
   },
   {
     "id": "1889725870895698276",
@@ -644,11 +609,6 @@ window.__TWEETS = [
     "id": "1885781175719153817",
     "date": "2025-02-01",
     "text": "What are the odds this is the last bull market?"
-  },
-  {
-    "id": "1885779983236465029",
-    "date": "2025-02-01",
-    "text": "Even if the prospects of AGI are certain, it’s possible for the system to run out of steam before getting there. Our economic and infrastructure capabilities aren’t unbounded in the short term. There’s a chance this wave will collapse under the weight of its own investments. Technological “winters” don’t just happen due to lack of foresight. Still, we are very close right now…"
   },
   {
     "id": "1885779726901580142",
@@ -681,35 +641,19 @@ window.__TWEETS = [
     "text": "The singularity is a one way rocket ship we will all be forced into, and whatever you have at the time of departure (wealth, knowledge, relationships) will largely determine your situation moving forward."
   },
   {
-    "id": "1873956787436810551",
-    "date": "2024-12-31",
-    "text": "Since the  o3 demo, the AI intelligentsia remains flabbergasted that markets haven't reacted more, reasoning investors must not grasp AGI/ASI's true potential. Maybe markets don't get it. But maybe the AI crowd doesn't get markets.\n\n- Nvidia dominates the AI trade now. But for how long?\n- If OpenAI were public, how would you split capital between them?\n- What CAPEX is needed for Nvidia's continued growth? What could cause even temporary CAPEX slowdown? How would markets react for a stock with such meteoric growth?\n- Even without capability slowdowns, the world has limits on immediate marginal utility. Tech deployment takes time.\n- What if Taiwan faces invasion?\n- What if Jensen Huang steps down?\n- What if Google commercializes TPUs? Or Amazon + Anthropic have a breakthrough?\n\nI understand Nvidia's unique position and AI's potentially unprecedented implications. But assuming there are no market complications between here and there seems naive!"
-  },
-  {
     "id": "1873956590703034369",
     "date": "2024-12-31",
     "text": "Since the  o3 demo, the AI intelligentsia remains flabbergasted that markets haven't reacted more, reasoning investors must not grasp AGI/ASI's true potential. Maybe markets don't get it. But maybe the AI crowd doesn't get markets.\n\n- Nvidia dominates the AI trade now. But for how long?\n- If OpenAI were public, how would you split capital between them?\n- What CAPEX is needed for Nvidia's continued growth? What could cause even temporary CAPEX slowdown? How would markets react for a stock with such meteoric growth?\n- Even without capability slowdowns, the world has limits on immediate marginal utility. Tech deployment takes time.\n- What if Taiwan faces invasion?\n- What if Jensen Huang steps down?\n- What if Google commercializes TPUs? Or Amazon + Anthropic have a breakthrough?\n\nI understand Nvidia's unique position and AI's potentially unprecedented implications. But assuming there are no market complications between here and there seems naive!"
   },
   {
-    "id": "1871707641233424484",
-    "date": "2024-12-25",
-    "text": "Here's a letter signed by 108 economists opposing @JMilei 's policies. Of the 19 signatories from the USA, 10 were from @UMassAmherst, my alma mater. Glancing at the UMass names, it's not clear who has expertise in LatAm. Maybe it's time to take it back @UMassEcon (h/t…",
-    "images": [
-      "/assets/tweets/1871707641233424484-GfmWXt2aAAAQLnY.png",
-      "/assets/tweets/1871707641233424484-GfmWXt3bMAA3b6v.jpg",
-      "/assets/tweets/1871707641233424484-GfmWXt2bIAACETj.jpg",
-      "/assets/tweets/1871707641233424484-GfmWXt2aoAAefzj.jpg"
-    ]
-  },
-  {
     "id": "1871701880860229675",
     "date": "2024-12-24",
-    "text": "A key point of free speech is having debates in the open and adjusting our viewpoints. Just like academic papers get retracted when proven wrong, these public statements and their signatories should be prepared to acknowledge mistakes."
+    "text": "2/ A key point of free speech is having debates in the open and adjusting our viewpoints. Just like academic papers get retracted when proven wrong, these public statements and their signatories should be prepared to acknowledge mistakes."
   },
   {
     "id": "1871700865238827204",
     "date": "2024-12-24",
-    "text": "Idea: collect all public letters signed by a lot of \"very important people\", reach out to every signatory and get a statement of whether they still support it. Make a new document with updated viewpoints and offer the opportunity for dissenters to sign."
+    "text": "1/ Idea: collect all public letters signed by a lot of \"very important people\", reach out to every signatory and get a statement of whether they still support it. Make a new document with updated viewpoints and offer the opportunity for dissenters to sign."
   },
   {
     "id": "1871699940491288723",
@@ -720,17 +664,6 @@ window.__TWEETS = [
       "/assets/tweets/1871699940491288723-GfmWXt3bMAA3b6v.jpg",
       "/assets/tweets/1871699940491288723-GfmWXt2bIAACETj.jpg",
       "/assets/tweets/1871699940491288723-GfmWXt2aoAAefzj.jpg"
-    ]
-  },
-  {
-    "id": "1871699665902850475",
-    "date": "2024-12-24",
-    "text": "Here's a letter signed by 108 economists opposing @JMilei 's policies. Of the 19 signatories from the USA, 10 were from @UMassAmherst, my alma matter. Glancing at the UMass names, it's not clear who has expertise in LatAm. Maybe it's time to take it back @UMassEcon.",
-    "images": [
-      "/assets/tweets/1871699665902850475-GfmWXt2aAAAQLnY.png",
-      "/assets/tweets/1871699665902850475-GfmWXt3bMAA3b6v.jpg",
-      "/assets/tweets/1871699665902850475-GfmWXt2bIAACETj.jpg",
-      "/assets/tweets/1871699665902850475-GfmWXt2aoAAefzj.jpg"
     ]
   },
   {
@@ -752,42 +685,42 @@ window.__TWEETS = [
   {
     "id": "1870520424209293620",
     "date": "2024-12-21",
-    "text": "@RobertElderSoft @karpathy @jeremyphoward @TheCurveConf To be clear, wealth is not bad. Money might be the best signal as far as allocating personal effort. But it can also add noise. For example, I often tell startups to never be someone’s best cash offer. Because then you can’t distinguish cash from curiosity optimizers."
+    "text": "8/ @RobertElderSoft @karpathy @jeremyphoward @TheCurveConf To be clear, wealth is not bad. Money might be the best signal as far as allocating personal effort. But it can also add noise. For example, I often tell startups to never be someone’s best cash offer. Because then you can’t distinguish cash from curiosity optimizers."
   },
   {
     "id": "1870519534177951798",
     "date": "2024-12-21",
-    "text": "@RobertElderSoft @karpathy @jeremyphoward I was recently at @TheCurveConf and met some of the smartest, most relevantly skilled people. Everyone there has a path to 99.x th percentile wealth. But many were optimizing for a deeper inner drive."
+    "text": "7/ @RobertElderSoft @karpathy @jeremyphoward I was recently at @TheCurveConf and met some of the smartest, most relevantly skilled people. Everyone there has a path to 99.x th percentile wealth. But many were optimizing for a deeper inner drive."
   },
   {
     "id": "1870516592511221977",
     "date": "2024-12-21",
-    "text": "@RobertElderSoft I feel similarly about @karpathy and @jeremyphoward. They sequenced better by getting rich first, but today sacrifice income to pursue projects that inspire me."
+    "text": "6/ @RobertElderSoft I feel similarly about @karpathy and @jeremyphoward. They sequenced better by getting rich first, but today sacrifice income to pursue projects that inspire me."
   },
   {
     "id": "1870514947140288984",
     "date": "2024-12-21",
-    "text": "@RobertElderSoft What would happen if we ledgered lifetime earnings and recognition at birth. One could argue that identifying geniuses sooner and giving them a platform would be better for society. But intuitively we know the struggle is often essential for the end result."
+    "text": "5/ @RobertElderSoft What would happen if we ledgered lifetime earnings and recognition at birth. One could argue that identifying geniuses sooner and giving them a platform would be better for society. But intuitively we know the struggle is often essential for the end result."
   },
   {
     "id": "1870513982018388296",
     "date": "2024-12-21",
-    "text": "This video by @RobertElderSoft https://youtu.be/tVz_hf4Jbe0 gave me a similar feeling. It’s not schadenfreude. It’s the feeling that not everyone smart and competent is being juiced up by the machine. And this inefficiency breeds creativity on the margins."
+    "text": "4/ This video by @RobertElderSoft https://youtu.be/tVz_hf4Jbe0 gave me a similar feeling. It’s not schadenfreude. It’s the feeling that not everyone smart and competent is being juiced up by the machine. And this inefficiency breeds creativity on the margins."
   },
   {
     "id": "1870512359594450966",
     "date": "2024-12-21",
-    "text": "While free market capitalism rewards societal contributions well, much of civilization's brilliance exists outside this system (or takes decades to be properly valued). There's something magical about walking into a small shop or museum in the middle of nowhere and meeting a secret genius."
+    "text": "3/ While free market capitalism rewards societal contributions well, much of civilization's brilliance exists outside this system (or takes decades to be properly valued). There's something magical about walking into a small shop or museum in the middle of nowhere and meeting a secret genius."
   },
   {
     "id": "1870512203901837430",
     "date": "2024-12-21",
-    "text": "Of course, I want Gwern and others to have the best possible life, and wealth is undeniably part of that. What moves me is seeing hyper-intelligent, competent people who optimize for something beyond wealth. /"
+    "text": "2/ Of course, I want Gwern and others to have the best possible life, and wealth is undeniably part of that. What moves me is seeing hyper-intelligent, competent people who optimize for something beyond wealth. /"
   },
   {
     "id": "1870512019201556703",
     "date": "2024-12-21",
-    "text": "I'm inspired when I discover someone I admire, like @gwern, isn't wealthy (h/t @dwarkesh_sp). Let me explain... /"
+    "text": "1/ I'm inspired when I discover someone I admire, like @gwern, isn't wealthy (h/t @dwarkesh_sp). Let me explain... /"
   },
   {
     "id": "1870315413508427897",
@@ -825,11 +758,6 @@ window.__TWEETS = [
     "text": "Someone asked for 5 non-cookie-cutter pro tips for people in their 20s and 30s. These are not my top tips, just the ones that came to mind in the moment.\n\n1. Be very thoughtful about who you date, since you often end up marrying someone you happen to be dating. If family dynamics, wealth, religious beliefs, or education are important to you, date people within that pool. There are plenty of people in whatever reasonable pool you define.\n\n2. Help those you admire. Don't look for compensation or think about the nature of the transaction. Simply offer to help and add value to people you respect. This could be through an art project, a non-profit, or work.\n\n3. If you feel like you would rather do something else professionally, first take a breather. Most of us have had an urge to quit and venture into the unknown. We can usually compound a bit further, get to the next promotion, accomplish a big result, and so on.\n\n4. If, after being patient, you still want to do something else but are primarily concerned about having a safe income, quit immediately (assuming you can actually afford it). Markets naturally optimize salaries to keep you longer than you want. Don't let that hold you back. My best professional decisions came with an income drop.\n\n5. Develop relationships with the kind of people you want to be more like. There's only so much time for personal relationships, and it's okay to optimize your time and shift your social budget over time. It's okay to let some relationships wither intentionally, even if it's with a relative or formerly close friend who brings you down."
   },
   {
-    "id": "1864128891356631196",
-    "date": "2024-12-04",
-    "text": "@danseigle \"Some of the critics were concerned the bubbles were not safe.\" =&gt; Please proceed to the bubble-free 99.99921% of Santa Barbara."
-  },
-  {
     "id": "1864097562984345790",
     "date": "2024-12-04",
     "text": "Consuming information as small snacks might satiate our endless, dopamine fueled gobbling of new tokens. Unlike LLMs, I seem to require sequentially coherent  long-form content to effectively update. Newsletters are a helpful escape from newsfeeds. But there is nothing like reading a great book, hours at a time, to refactor one's understanding."
@@ -865,14 +793,6 @@ window.__TWEETS = [
     "text": "Everyone seeks meaningful work. Those who achieve it, do it, and those who don't, promote it. Marketing-driven ventures signal trouble."
   },
   {
-    "id": "835321348306030592",
-    "date": "2017-02-25",
-    "text": "\"Port of Split\" is not the movie \"Split\". @googleresearch needs more structure in their knowledge graph.",
-    "images": [
-      "/assets/tweets/835321348306030592-C5eoVe9VMAAuR8_.jpg"
-    ]
-  },
-  {
     "id": "805833548087181312",
     "date": "2016-12-05",
     "text": "Humans have a robust DB of prior knowledge. ML solely based on primary data will miss important insights. Intelligence requires experience."
@@ -883,35 +803,9 @@ window.__TWEETS = [
     "text": "Pitching a product by its metrics (drive KPI by x%) is enticing, but leads to commoditization. Qualitative value can be more defensible."
   },
   {
-    "id": "785210569188007936",
-    "date": "2016-10-09",
-    "text": "Seems anticompetitive. @google forbids paywalls for news UNLESS they're using amp. Policy change? What am I missing?",
-    "images": [
-      "/assets/tweets/785210569188007936-CuWg2DYVIAA7vd1.jpg"
-    ]
-  },
-  {
-    "id": "779417827220389888",
-    "date": "2016-09-23",
-    "text": "http://www.forbes.com/sites/danwoods/2016/09/23/why-siri-alexa-and-cortana-will-destroy-seo/#1733008a7ea6"
-  },
-  {
-    "id": "774436174475571200",
-    "date": "2016-09-10",
-    "text": "Challenges with unsupervised semantic/knowledge graphs. Google shows Sully (Monsters Inc) as a frame in the new film",
-    "images": [
-      "/assets/tweets/774436174475571200-Cr9ZltsUMAA-ryG.jpg"
-    ]
-  },
-  {
     "id": "755632639013482500",
     "date": "2016-07-20",
     "text": "It is the very obsession with the focus narrative that drives us to observe false adjacencies which result in lack of focus."
-  },
-  {
-    "id": "744217752466915328",
-    "date": "2016-06-18",
-    "text": "The big search upgrade — and how Amazon could beat Google at its own game http://venturebeat.com/2016/06/18/the-big-search-upgrade-and-how-amazon-could-beat-google-at-its-own-game/ via @VentureBeat"
   },
   {
     "id": "691149440489361408",
@@ -919,55 +813,14 @@ window.__TWEETS = [
     "text": "A leader's job is not necessarily to make decisions, but to assure decisions get made."
   },
   {
-    "id": "656909304637734912",
-    "date": "2015-10-21",
-    "text": "Search for Apple, returns Apple Inc on KG. Search for Apple Inc returns local Apple Store. @google #knowledgegraph",
-    "images": [
-      "/assets/tweets/656909304637734912-CR3PiAsVEAAvZK3.png"
-    ]
-  },
-  {
-    "id": "655169198277136388",
-    "date": "2015-10-16",
-    "text": "Search for GrEy returns Knowledge Graph result for GrAy, Search for GrAy does not return KG results. @googleresearch http://t.co/oI2stVfZY2",
-    "images": [
-      "/assets/tweets/655169198277136388-CReg6diUkAAAjkG.png"
-    ]
-  },
-  {
     "id": "646726839730221056",
     "date": "2015-09-23",
     "text": "As makers, we’re often introverts. We need not be gregarious to grow professionally, but should always be growing our sphere of influence."
   },
   {
-    "id": "644674969381699584",
-    "date": "2015-09-18",
-    "text": "Fantastic post by @moyicat about our malleable UI, capable of representing @GraphiqHQ's vast Knowledge Graph  http://bit.ly/1Kkcd9v"
-  },
-  {
-    "id": "639202963043536896",
-    "date": "2015-09-02",
-    "text": "A great article describing the different factors at play when performing a company valuation: http://bit.ly/1JCayMc"
-  },
-  {
     "id": "634288900127612928",
     "date": "2015-08-20",
     "text": "Regret's only purpose should be to avoid future regret. When feeling regretful, craft some advice for your future self, and then let it go."
-  },
-  {
-    "id": "631235955060400128",
-    "date": "2015-08-11",
-    "text": "FindTheBest Becomes Graphiq, Launches New Visualization Tools For Publishers | TechCrunch https://lnkd.in/bwwbKWq"
-  },
-  {
-    "id": "628086240408043522",
-    "date": "2015-08-03",
-    "text": "Related article that relates the pursuit of wisdom with deep spirituality, even for those of us who are non-religious http://bit.ly/ZD99SP"
-  },
-  {
-    "id": "625470746442076162",
-    "date": "2015-07-27",
-    "text": "Fantastic post about energy, electric cars, and Tesla Motors. http://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html"
   },
   {
     "id": "592373754262466560",
@@ -988,41 +841,6 @@ window.__TWEETS = [
     "id": "573876850390274049",
     "date": "2015-03-06",
     "text": "\"Anything worth doing is worth overdoing.\" @allenkim77"
-  },
-  {
-    "id": "573678357285584896",
-    "date": "2015-03-06",
-    "text": "My answer to Why have recommendation engines not improved dramatically over the past 5-8 years? http://qr.ae/jNW4N"
-  },
-  {
-    "id": "570759656022409216",
-    "date": "2015-02-26",
-    "text": "Some believe disruption equals breaking the laws of physics or escaping socioeconomic processes. I disagree. Good po…http://bit.ly/1EtbbGb"
-  },
-  {
-    "id": "570030818229391360",
-    "date": "2015-02-24",
-    "text": "My answer to How do you measure success in a UX team? What are the key performance indicators? http://qr.ae/EkXLa"
-  },
-  {
-    "id": "569962291887788032",
-    "date": "2015-02-23",
-    "text": "My answer to How do news organizations use Google analytics or other similar products? What are the important metric… http://qr.ae/E4ORX"
-  },
-  {
-    "id": "568151414364614656",
-    "date": "2015-02-18",
-    "text": "My answer to Is there any questionnaire to measure how data-driven Product Managers are? http://qr.ae/ETFm6"
-  },
-  {
-    "id": "567928551963525120",
-    "date": "2015-02-18",
-    "text": "My answer to What are good workflows for handling users’ feature requests and bug reports? http://qr.ae/E7dd1"
-  },
-  {
-    "id": "567912376873406464",
-    "date": "2015-02-18",
-    "text": "My answer to What are some good ways to keep spammers away from a minimum viable product (MVP)? http://qr.ae/E7mBm"
   },
   {
     "id": "567912235944800256",
@@ -1100,14 +918,6 @@ window.__TWEETS = [
     "text": "\"Data tells us what's going on, but doesn't tell us what to do about it\" Thanks for presenting @thesash!  and @johnmaeda for the intro!"
   },
   {
-    "id": "522243430869921792",
-    "date": "2014-10-15",
-    "text": "Engineering philosophies: [CodeMonkey, Pragmatic, Sweet Spot, Idealistic, Dogmatic]. Hitting the \"Sweet Spot\" is HARD http://t.co/wrMIoRyQQo",
-    "images": [
-      "/assets/tweets/522243430869921792-Bz9hofpCIAARMic.jpg"
-    ]
-  },
-  {
     "id": "522236675359907840",
     "date": "2014-10-15",
     "text": "Prioritize relentlessly and defer aggressively. Exponential growth yields \"resource inflation\". Future investments are relatively cheap."
@@ -1126,176 +936,6 @@ window.__TWEETS = [
     "id": "520282533364133889",
     "date": "2014-10-09",
     "text": "Nobody owns common sense. Organizations shouldn't rely on a few individuals to make good judgment calls. Good ideas can come from anywhere."
-  },
-  {
-    "id": "517507833223335936",
-    "date": "2014-10-02",
-    "text": "8 Questions With : Luke DePass and Ivan Bercovich http://lnkd.in/bya2XAN"
-  },
-  {
-    "id": "501489271824330752",
-    "date": "2014-08-18",
-    "text": "FTB quoted in a WSJ article. http://lnkd.in/bezYWVu"
-  },
-  {
-    "id": "492728327665246208",
-    "date": "2014-07-25",
-    "text": "Dwight Howard Surprises http://FindTheBest.com, Joins our Kickball Team http://lnkd.in/bHxuSHb"
-  },
-  {
-    "id": "466208294504513537",
-    "date": "2014-05-13",
-    "text": "Comparison Site FindTheBest Adds Real Estate Data To Help Home Buyers... http://lnkd.in/bz9huQM"
-  },
-  {
-    "id": "466204027437740032",
-    "date": "2014-05-13",
-    "text": "FindTheBest launches Homes! http://lnkd.in/b8XPcFt"
-  },
-  {
-    "id": "385127457822494720",
-    "date": "2013-10-01",
-    "text": "Kevin O'Connor in Patent Troll Debate: http://lnkd.in/bWyUUdd"
-  },
-  {
-    "id": "380385043325014016",
-    "date": "2013-09-18",
-    "text": "Angry Business Owner Wages War on 'Troll' http://lnkd.in/b7d6492"
-  },
-  {
-    "id": "380149234206380032",
-    "date": "2013-09-18",
-    "text": "FindTheBest sues patent trolls under anti-Mafia RICO Act http://lnkd.in/bJKiGvG"
-  },
-  {
-    "id": "380089681922113536",
-    "date": "2013-09-17",
-    "text": "Kevin O'Connor To Sit on DC Patent Summit Panel http://lnkd.in/bfH9fdw"
-  },
-  {
-    "id": "380089438920921088",
-    "date": "2013-09-17",
-    "text": "Here's how a law designed to fight the Mafia could stop abusive... http://lnkd.in/bnRnQDu"
-  },
-  {
-    "id": "380079180957753344",
-    "date": "2013-09-17",
-    "text": "A patent troll take a punch on the nose, but there are still (too)... http://lnkd.in/bH3urDf"
-  },
-  {
-    "id": "380033466940661760",
-    "date": "2013-09-17",
-    "text": "Troll Fighting: Anatomy of a Patent Lawsuit http://lnkd.in/bmS9qWj"
-  },
-  {
-    "id": "379741214691454976",
-    "date": "2013-09-16",
-    "text": "Angry entrepreneur replies to patent troll with racketeering lawsuit http://lnkd.in/bgwszKN"
-  },
-  {
-    "id": "375725038697058304",
-    "date": "2013-09-05",
-    "text": "A Handy Guide To Divorce Rates By State http://lnkd.in/EPfpyR"
-  },
-  {
-    "id": "375724868081176576",
-    "date": "2013-09-05",
-    "text": "The Top 10 Smartphones on the Market | http://TIME.com http://lnkd.in/fNyg-t"
-  },
-  {
-    "id": "364604446346448897",
-    "date": "2013-08-06",
-    "text": "How FindTheBest Got Lean http://lnkd.in/us3ExW"
-  },
-  {
-    "id": "360937252781694976",
-    "date": "2013-07-27",
-    "text": "How to slaughter a patent troll in 5 steps http://lnkd.in/pJ_ZNZ"
-  },
-  {
-    "id": "359709104928866307",
-    "date": "2013-07-23",
-    "text": "Anyone interested in participating on a DataWeek panel titled \"Big Data for Everyone\", focused on data for consumers? Reach Out on LinkedIn."
-  },
-  {
-    "id": "311154220839600128",
-    "date": "2013-03-11",
-    "text": "Computer Algorithms Increasingly Rely on Humans http://lnkd.in/hkHATt"
-  },
-  {
-    "id": "308976088770555904",
-    "date": "2013-03-05",
-    "text": "FindTheBest Raises $11M, Looks to Scale Data-Driven Comparison Site... http://lnkd.in/SecarM"
-  },
-  {
-    "id": "308975952044625921",
-    "date": "2013-03-05",
-    "text": "FindTheBest raises $11M for comparison-search platform http://lnkd.in/S9zpru"
-  },
-  {
-    "id": "308974193834356736",
-    "date": "2013-03-05",
-    "text": "Data-Driven Comparison Shopping Platform FindTheBest Raises $11M From... http://lnkd.in/UT-Vwe"
-  },
-  {
-    "id": "307279224979484672",
-    "date": "2013-03-01",
-    "text": "http://lnkd.in/Ups35P"
-  },
-  {
-    "id": "185780484452782081",
-    "date": "2012-03-30",
-    "text": "FindTheBest never sleeps http://lnkd.in/uWn_-j"
-  },
-  {
-    "id": "182170533830459392",
-    "date": "2012-03-20",
-    "text": "Comparison Engine FindTheBest Debuts Local Classifieds http://lnkd.in/Q_NEqr"
-  },
-  {
-    "id": "182169858232958976",
-    "date": "2012-03-20",
-    "text": "http://lnkd.in/RpPhta"
-  },
-  {
-    "id": "182168648696336385",
-    "date": "2012-03-20",
-    "text": "FindTheBest adds classifieds, helps you comparison shop for new stuff | VentureBeat http://lnkd.in/Me3ctH"
-  },
-  {
-    "id": "175026354088189953",
-    "date": "2012-03-01",
-    "text": "Personalizing eCommerce: The Evolution of Filters http://lnkd.in/uM8b2R"
-  },
-  {
-    "id": "172003853691142144",
-    "date": "2012-02-21",
-    "text": "FindTheBest on the news http://lnkd.in/_MiFY8"
-  },
-  {
-    "id": "144451573546893312",
-    "date": "2011-12-07",
-    "text": "FindTheBest Adds Smart Ratings And A Better Way To Compare Products http://lnkd.in/UxxD72"
-  },
-  {
-    "id": "66546215369719808",
-    "date": "2011-05-06",
-    "text": "FindTheBest gets closer to conquer the world! http://tcrn.ch/kj3DYv\nLooking for a job? Send me an email. http://lnkd.in/E-sMwf"
-  },
-  {
-    "id": "10000219630",
-    "date": "2010-03-05",
-    "text": "smart people can rationalize anything bit.ly/ciWSwh #twitter"
-  },
-  {
-    "id": "9199340584",
-    "date": "2010-02-16",
-    "text": "Check this article about how 'lucky' and 'unlucky' people actually behave differently-http://bit.ly/akaAKO #luck #motivation #inspiration"
-  },
-  {
-    "id": "9198167176",
-    "date": "2010-02-16",
-    "text": "Check out this beautiful post titled \"The night I met Einstein\" - very inspirational: http://bit.ly/agWJ1H #Einstein #inspirational #music"
   },
   {
     "id": "8519318773",
@@ -1323,4 +963,5 @@ window.__TWEETS = [
     "text": "In matters of personal success, is it better to focus our energy on a single pursuit, or to save some time for the unknown? Can we do both?"
   }
 ];
+window.__BLOCKED = ["2025073033040593115", "2022775301089169531", "2008705539337830661", "1950953643378938219", "1929301890342298016", "1925571535966019800", "1890480968705671347", "1885779983236465029", "1873956787436810551", "1871707641233424484", "1871699665902850475", "1864128891356631196", "835321348306030592", "785210569188007936", "779417827220389888", "774436174475571200", "744217752466915328", "656909304637734912", "655169198277136388", "644674969381699584", "639202963043536896", "631235955060400128", "628086240408043522", "625470746442076162", "573678357285584896", "570759656022409216", "570030818229391360", "569962291887788032", "568151414364614656", "567928551963525120", "567912376873406464", "522243430869921792", "517507833223335936", "501489271824330752", "492728327665246208", "466208294504513537", "466204027437740032", "385127457822494720", "380385043325014016", "380149234206380032", "380089681922113536", "380089438920921088", "380079180957753344", "380033466940661760", "379741214691454976", "375725038697058304", "375724868081176576", "364604446346448897", "360937252781694976", "359709104928866307", "311154220839600128", "308976088770555904", "308975952044625921", "308974193834356736", "307279224979484672", "185780484452782081", "182170533830459392", "182169858232958976", "182168648696336385", "175026354088189953", "172003853691142144", "144451573546893312", "66546215369719808", "10000219630", "9199340584", "9198167176"];
 </script>
