@@ -10,6 +10,7 @@ layout: default
     border-right: 6px solid #3a2a1a;
     padding: 0;
     background: #1a1207;
+    overflow: hidden;
   }
 
   .shelf {
@@ -187,10 +188,22 @@ layout: default
   }
 
   function booksPerShelf() {
-    var w = window.innerWidth;
-    if (w <= 450) return 8;
-    if (w <= 700) return 12;
-    return 16;
+    var container = document.getElementById('bookshelf');
+    var w = container.clientWidth;
+    // Determine spine width + margin based on viewport breakpoints
+    var vw = window.innerWidth;
+    var spineW, padW;
+    if (vw <= 450) {
+      spineW = 32; // 30px + 2px margin
+      padW = 12;   // 6px padding each side
+    } else if (vw <= 700) {
+      spineW = 38; // 36px + 2px margin
+      padW = 12;
+    } else {
+      spineW = 46; // 44px + 2px margin
+      padW = 20;   // 10px padding each side
+    }
+    return Math.max(1, Math.floor((w - padW) / spineW));
   }
 
   function render() {
