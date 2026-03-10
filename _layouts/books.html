@@ -85,31 +85,47 @@ layout: default
   }
 
   .book-modal {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 800px;
+    max-height: 80vh;
+    padding: 1.5rem;
+  }
+
+  .book-modal-left {
+    flex-shrink: 0;
     text-align: center;
-    max-width: 90vw;
   }
 
   .book-modal img {
-    max-height: 60vh;
-    max-width: 80vw;
+    max-height: 55vh;
+    max-width: 40vw;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
     border-radius: 4px;
   }
 
-  .book-modal .book-info {
+  .book-modal-right {
     color: #fff;
-    margin-top: 1rem;
-    font-size: 1rem;
+    overflow-y: auto;
+    max-height: 60vh;
   }
 
-  .book-modal .book-info .book-title {
+  .book-modal-right .book-title {
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
   }
 
-  .book-modal .book-info .book-author {
+  .book-modal-right .book-author {
     color: #ccc;
-    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .book-modal-right .book-synopsis {
+    color: #ddd;
+    font-size: 0.9rem;
+    line-height: 1.6;
   }
 
   .book-modal-close {
@@ -141,6 +157,22 @@ layout: default
     .book-spine .spine-title {
       font-size: 9px;
     }
+    .book-modal {
+      flex-direction: column;
+      align-items: center;
+      max-height: 85vh;
+      padding: 1rem;
+      overflow-y: auto;
+    }
+    .book-modal img {
+      max-height: 35vh;
+      max-width: 70vw;
+    }
+    .book-modal-right {
+      text-align: center;
+      max-height: none;
+      overflow-y: visible;
+    }
   }
 
   @media (max-width: 450px) {
@@ -167,10 +199,13 @@ layout: default
 <div class="book-modal-overlay" id="bookModal">
   <button class="book-modal-close" id="bookModalClose">&times;</button>
   <div class="book-modal">
-    <img id="bookModalCover" src="" alt="">
-    <div class="book-info">
+    <div class="book-modal-left">
+      <img id="bookModalCover" src="" alt="">
+    </div>
+    <div class="book-modal-right">
       <div class="book-title" id="bookModalTitle"></div>
       <div class="book-author" id="bookModalAuthor"></div>
+      <div class="book-synopsis" id="bookModalSynopsis"></div>
     </div>
   </div>
 </div>
@@ -250,6 +285,7 @@ layout: default
     var img = document.getElementById('bookModalCover');
     var titleEl = document.getElementById('bookModalTitle');
     var authorEl = document.getElementById('bookModalAuthor');
+    var synopsisEl = document.getElementById('bookModalSynopsis');
 
     if (book.cover) {
       img.src = book.cover;
@@ -259,12 +295,15 @@ layout: default
     }
     titleEl.textContent = book.title;
     authorEl.textContent = book.author;
+    synopsisEl.textContent = book.synopsis || '';
+    synopsisEl.style.display = book.synopsis ? 'block' : 'none';
     overlay.classList.add('active');
   }
 
   function closeModal() {
     document.getElementById('bookModal').classList.remove('active');
     document.getElementById('bookModalCover').src = '';
+    document.getElementById('bookModalSynopsis').textContent = '';
   }
 
   document.getElementById('bookModal').addEventListener('click', function(e) {
