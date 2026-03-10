@@ -53,7 +53,7 @@ window.__BOOKS = [
     "author": "Barnum, P.T.",
     "isbn": "9781557094940",
     "cover": "/assets/covers/art-of-money-getting-or-golden-rules-for-making-money.jpg",
-    "color": "#746c62"
+    "color": "#291821"
   },
   {
     "title": "Bad Blood",
@@ -74,7 +74,7 @@ window.__BOOKS = [
     "author": "Bogle, John C.",
     "isbn": "9780470138137",
     "cover": "/assets/covers/common-sense-on-mutual-funds-updated-10th-anniversary-edition.jpg",
-    "color": "#9f7d4c"
+    "color": "#616b7c"
   },
   {
     "title": "Creativity, Inc.",
@@ -123,7 +123,7 @@ window.__BOOKS = [
     "author": "Isaacson, Walter",
     "isbn": "9781982181284",
     "cover": "/assets/covers/elon-musk.jpg",
-    "color": "#372d2e"
+    "color": "#392c2b"
   },
   {
     "title": "Enlightenment Now",
@@ -137,7 +137,7 @@ window.__BOOKS = [
     "author": "Lewis, Michael",
     "isbn": "9780393244670",
     "cover": "/assets/covers/flash-boys.jpg",
-    "color": "#eb0522"
+    "color": "#ee1b2c"
   },
   {
     "title": "Founders at Work",
@@ -214,7 +214,7 @@ window.__BOOKS = [
     "author": "Heath, Chip",
     "isbn": "9781400064281",
     "cover": "/assets/covers/made-to-stick.jpg",
-    "color": "#de9620"
+    "color": "#ff5402"
   },
   {
     "title": "Man's Search for Meaning",
@@ -515,7 +515,7 @@ window.__BOOKS = [
     "author": "Wolfe, Tom",
     "isbn": "9780312427566",
     "cover": "/assets/covers/the-right-stuff.jpg",
-    "color": "#b2ada4"
+    "color": "#c1bbb6"
   },
   {
     "title": "The Scaling Era",
@@ -564,14 +564,14 @@ window.__BOOKS = [
     "author": "McCullough, David",
     "isbn": "9781476728759",
     "cover": "/assets/covers/the-wright-brothers.jpg",
-    "color": "#b4b5b7"
+    "color": "#b4b4b5"
   },
   {
     "title": "Total Recall",
     "author": "Schwarzenegger, Arnold",
     "isbn": "9781410452108",
     "cover": "/assets/covers/total-recall.jpg",
-    "color": "#8b8b8a"
+    "color": "#888584"
   },
   {
     "title": "Vaccinated",
@@ -599,7 +599,7 @@ window.__BOOKS = [
     "author": "Riddle, A.G.",
     "isbn": "9781940026206",
     "cover": "/assets/covers/winter-world.jpg",
-    "color": "#d4e2ea"
+    "color": "#252f39"
   },
   {
     "title": "Wool Omnibus",
