@@ -247,6 +247,9 @@ layout: default
     <div class="ctrl-row">
       <label><span class="ctrl-label">&square;</span><input type="checkbox" id="showBorder"></label>
     </div>
+    <div class="ctrl-row">
+      <label><span class="ctrl-label">Lo</span><input type="checkbox" id="lowRes"></label>
+    </div>
   </div>
 </div>
 
@@ -272,6 +275,11 @@ function sizeViewport() {
   viewport.style.height = Math.max(300, h) + "px";
 }
 sizeViewport();
+
+/* ── Mobile detection & texture scaling ── */
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+let forceLowRes = false;
+let TEX_SCALE = isMobile ? 0.25 : 1;
 
 /* ── Constants ── */
 const BOOK_SPINE = 0.28;
@@ -318,8 +326,8 @@ document.getElementById("settingsBtn").addEventListener("click", () => {
 });
 
 /* ── Renderer ── */
-const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
-renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+const renderer = new THREE.WebGLRenderer({ antialias: !isMobile, alpha: false });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, isMobile ? 1.5 : 2));
 renderer.setSize(viewport.clientWidth, viewport.clientHeight);
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 viewport.appendChild(renderer.domElement);
@@ -349,7 +357,7 @@ textureLoader.setCrossOrigin("anonymous");
 
 function createPaperTexture() {
   const c = document.createElement("canvas");
-  c.width = 256; c.height = 256;
+  c.width = Math.round(256 * TEX_SCALE); c.height = Math.round(256 * TEX_SCALE);
   const ctx = c.getContext("2d");
   ctx.fillStyle = "#f5ede0";
   ctx.fillRect(0, 0, c.width, c.height);
@@ -379,8 +387,9 @@ function wrapText(ctx, text, maxWidth) {
 
 function createCoverCanvas(book) {
   const c = document.createElement("canvas");
-  c.width = 1024; c.height = 1365;
+  c.width = Math.round(1024 * TEX_SCALE); c.height = Math.round(1365 * TEX_SCALE);
   const ctx = c.getContext("2d");
+  const s = TEX_SCALE;
   const base = new THREE.Color(book.color);
   const dark = base.clone().multiplyScalar(0.6);
   const light = base.clone().lerp(new THREE.Color("#ffffff"), 0.18);
@@ -393,18 +402,18 @@ function createCoverCanvas(book) {
   ctx.fillStyle = "rgba(255,255,255,0.1)";
   for (let i = 0; i < 8; i++) {
     ctx.beginPath();
-    ctx.arc(c.width * (0.15 + i * 0.1), c.height * (0.12 + (i % 2) * 0.1), 32 + i * 7, 0, Math.PI * 2);
+    ctx.arc(c.width * (0.15 + i * 0.1), c.height * (0.12 + (i % 2) * 0.1), (32 + i * 7) * s, 0, Math.PI * 2);
     ctx.fill();
   }
   ctx.fillStyle = "rgba(0,0,0,0.2)";
-  ctx.fillRect(50, 54, c.width - 100, 6);
+  ctx.fillRect(50 * s, 54 * s, c.width - 100 * s, 6 * s);
   ctx.fillStyle = "#ffffff";
-  ctx.font = "700 86px system-ui, sans-serif";
+  ctx.font = `700 ${Math.round(86 * s)}px system-ui, sans-serif`;
   ctx.textAlign = "left"; ctx.textBaseline = "top";
-  wrapText(ctx, book.title, c.width - 120).forEach((line, i) => ctx.fillText(line, 60, 92 + i * 94));
-  ctx.font = "500 42px system-ui, sans-serif";
+  wrapText(ctx, book.title, c.width - 120 * s).forEach((line, i) => ctx.fillText(line, 60 * s, 92 * s + i * 94 * s));
+  ctx.font = `500 ${Math.round(42 * s)}px system-ui, sans-serif`;
   ctx.fillStyle = "rgba(255,255,255,0.9)";
-  ctx.fillText(book.author, 60, c.height - 110);
+  ctx.fillText(book.author, 60 * s, c.height - 110 * s);
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   t.anisotropy = renderer.capabilities.getMaxAnisotropy();
@@ -418,8 +427,9 @@ function spineTextColor(base) {
 
 function createSpineTexture(book) {
   const c = document.createElement("canvas");
-  c.width = 512; c.height = 2048;
+  c.width = Math.round(512 * TEX_SCALE); c.height = Math.round(2048 * TEX_SCALE);
   const ctx = c.getContext("2d");
+  const s = TEX_SCALE;
   const base = new THREE.Color(book.color);
   const dark = base.clone().multiplyScalar(0.55);
   const light = base.clone().lerp(new THREE.Color("#ffffff"), 0.08);
@@ -430,12 +440,12 @@ function createSpineTexture(book) {
   ctx.fillStyle = grad;
   ctx.fillRect(0, 0, c.width, c.height);
   ctx.fillStyle = "rgba(255,255,255,0.12)";
-  ctx.fillRect(18, 0, 6, c.height);
+  ctx.fillRect(18 * s, 0, 6 * s, c.height);
   ctx.fillStyle = spineTextColor(base);
   ctx.translate(c.width / 2, c.height / 2);
   ctx.rotate(-Math.PI / 2);
-  let fontSize = 176;
-  if (book.title.length > 22) fontSize = Math.round(176 * (22 / book.title.length));
+  let fontSize = Math.round(176 * s);
+  if (book.title.length > 22) fontSize = Math.round(176 * s * (22 / book.title.length));
   ctx.font = `700 ${fontSize}px system-ui, sans-serif`;
   ctx.textAlign = "center"; ctx.textBaseline = "middle";
   ctx.fillText(book.title, 0, 0);
@@ -468,6 +478,20 @@ function getBookMaterials(book) {
     textureLoader.load(book.cover, (texture) => {
       texture.colorSpace = THREE.SRGBColorSpace;
       texture.anisotropy = renderer.capabilities.getMaxAnisotropy();
+      if ((isMobile || forceLowRes) && texture.image) {
+        const img = texture.image;
+        const maxDim = 512;
+        if (img.width > maxDim || img.height > maxDim) {
+          const scale = maxDim / Math.max(img.width, img.height);
+          const sw = Math.round(img.width * scale);
+          const sh = Math.round(img.height * scale);
+          const oc = document.createElement("canvas");
+          oc.width = sw; oc.height = sh;
+          oc.getContext("2d").drawImage(img, 0, 0, sw, sh);
+          texture.image = oc;
+          texture.needsUpdate = true;
+        }
+      }
       coverMat.map = texture;
       coverMat.needsUpdate = true;
     }, undefined, () => {});
@@ -741,6 +765,14 @@ document.getElementById("showBorder").addEventListener("change", (e) => {
   viewport.style.outline = e.target.checked ? "2px solid blue" : "none";
 });
 
+document.getElementById("lowRes").addEventListener("change", (e) => {
+  forceLowRes = e.target.checked;
+  TEX_SCALE = forceLowRes ? 0.25 : (isMobile ? 0.25 : 1);
+  materialCache.clear();
+  rebuildShelfLayout();
+  fitCamera();
+});
+
 updateDebugValues();
 
 /* ── Animation helpers ── */
@@ -916,7 +948,7 @@ document.addEventListener("click", (e) => {
 window.addEventListener("resize", () => {
   sizeViewport();
   renderer.setSize(viewport.clientWidth, viewport.clientHeight);
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, isMobile ? 1.5 : 2));
   rebuildShelfLayout();
   fitCamera();
   updateHoveredBook();
