@@ -343,14 +343,17 @@ const shelfGroup = new THREE.Group();
 shelfGroup.rotation.x = SHELF_STAGE_ROT_X;
 scene.add(shelfGroup);
 
-/* ── Lighting ── */
+/* ── Lighting (skip on mobile — using BasicMaterial) ── */
+const useLitMat = !isMobile;
 scene.add(new THREE.HemisphereLight(0xffffff, 0xd8d2ca, 1.25));
-const keyLight = new THREE.DirectionalLight(0xffffff, 1.15);
-keyLight.position.set(5, 8, 10);
-scene.add(keyLight);
-const fillLight = new THREE.DirectionalLight(0xf3ede4, 0.65);
-fillLight.position.set(-6, 2, 6);
-scene.add(fillLight);
+if (useLitMat) {
+  const keyLight = new THREE.DirectionalLight(0xffffff, 1.15);
+  keyLight.position.set(5, 8, 10);
+  scene.add(keyLight);
+  const fillLight = new THREE.DirectionalLight(0xf3ede4, 0.65);
+  fillLight.position.set(-6, 2, 6);
+  scene.add(fillLight);
+}
 
 /* ── Geometry & textures ── */
 const bookGeometry = new THREE.BoxGeometry(BOOK_SPINE, BOOK_HEIGHT, BOOK_DEPTH);
@@ -459,46 +462,62 @@ function createSpineTexture(book) {
 
 const paperTexture = createPaperTexture();
 const materialCache = new Map();
+const MatClass = useLitMat ? THREE.MeshStandardMaterial : THREE.MeshBasicMaterial;
 
-function getBookMaterials(book) {
-  if (materialCache.has(book.title)) return materialCache.get(book.title);
-  const coverTex = createCoverCanvas(book);
-  const spineTex = createSpineTexture(book);
+function makeMat(opts) {
+  if (!useLitMat) {
+    const { color, map } = opts;
+    return new MatClass({ color: color || 0xffffff, map: map || null });
+  }
+  return new MatClass(opts);
+}
+
+function createPlaceholderMaterials(book) {
   const baseColor = new THREE.Color(book.color);
   const backColor = baseColor.clone().multiplyScalar(0.72);
+  const coverMat = makeMat({ color: baseColor, roughness: 0.72, metalness: 0.02 });
+  const backMat  = makeMat({ color: backColor, roughness: 0.85, metalness: 0.01 });
+  const topMat   = makeMat({ color: "#f5ede0", roughness: 0.95, metalness: 0 });
+  const spineMat = makeMat({ color: baseColor, roughness: 0.76, metalness: 0.02 });
+  const foreMat  = makeMat({ color: "#f5ede0", roughness: 0.95, metalness: 0 });
+  return [coverMat, backMat, topMat, topMat, spineMat, foreMat];
+}
 
-  const coverMat = new THREE.MeshStandardMaterial({ color: 0xffffff, map: coverTex, roughness: 0.72, metalness: 0.02 });
-  const backMat  = new THREE.MeshStandardMaterial({ color: backColor, roughness: 0.85, metalness: 0.01 });
-  const topMat   = new THREE.MeshStandardMaterial({ color: "#f5ede0", map: paperTexture, roughness: 0.95, metalness: 0 });
-  const spineMat = new THREE.MeshStandardMaterial({ color: 0xffffff, map: spineTex, roughness: 0.76, metalness: 0.02 });
-  const foreMat  = new THREE.MeshStandardMaterial({ color: "#f5ede0", map: paperTexture, roughness: 0.95, metalness: 0 });
+function hydrateBookMaterials(book, materials) {
+  const coverTex = createCoverCanvas(book);
+  const spineTex = createSpineTexture(book);
+  materials[0].map = coverTex; materials[0].color.set(0xffffff); materials[0].needsUpdate = true;
+  materials[2].map = paperTexture; materials[2].needsUpdate = true;
+  materials[3] = materials[2];
+  materials[4].map = spineTex; materials[4].color.set(0xffffff); materials[4].needsUpdate = true;
+  materials[5].map = paperTexture; materials[5].needsUpdate = true;
 
-  const materials = [coverMat, backMat, topMat, topMat, spineMat, foreMat];
-  materialCache.set(book.title, materials);
-
-  if (book.cover) {
+  if (book.cover && !isMobile && !forceLowRes) {
     textureLoader.load(book.cover, (texture) => {
       texture.colorSpace = THREE.SRGBColorSpace;
       texture.anisotropy = renderer.capabilities.getMaxAnisotropy();
-      if ((isMobile || forceLowRes) && texture.image) {
-        const img = texture.image;
-        const maxDim = 512;
-        if (img.width > maxDim || img.height > maxDim) {
-          const scale = maxDim / Math.max(img.width, img.height);
-          const sw = Math.round(img.width * scale);
-          const sh = Math.round(img.height * scale);
-          const oc = document.createElement("canvas");
-          oc.width = sw; oc.height = sh;
-          oc.getContext("2d").drawImage(img, 0, 0, sw, sh);
-          texture.image = oc;
-          texture.needsUpdate = true;
-        }
-      }
-      coverMat.map = texture;
-      coverMat.needsUpdate = true;
+      materials[0].map = texture;
+      materials[0].needsUpdate = true;
     }, undefined, () => {});
   }
 
+  materialCache.get(book.title).hydrated = true;
+}
+
+function disposeBookMaterials(book) {
+  const entry = materialCache.get(book.title);
+  if (!entry || !entry.hydrated) return;
+  entry.forEach((mat, i) => {
+    if (mat.map && mat.map !== paperTexture) { mat.map.dispose(); mat.map = null; }
+  });
+  entry.hydrated = false;
+}
+
+function getBookMaterials(book) {
+  if (materialCache.has(book.title)) return materialCache.get(book.title);
+  const materials = createPlaceholderMaterials(book);
+  materials.hydrated = false;
+  materialCache.set(book.title, materials);
   return materials;
 }
 
@@ -553,11 +572,8 @@ function buildBookMesh(book, rowIndex, columnIndex, rowBookCount) {
   shelfGroup.add(pivot);
 }
 
-function getBooksPerRow(vpWidth) {
-  const maxBooks = parseInt(document.getElementById("maxBooks").value, 10);
-  const widthRatio = Math.min(1.0, vpWidth / 800);
-  const target = Math.round(maxBooks * widthRatio);
-  return Math.max(6, Math.min(maxBooks, target));
+function getBooksPerRow() {
+  return parseInt(document.getElementById("maxBooks").value, 10);
 }
 
 function rebuildShelfLayout() {
@@ -568,7 +584,7 @@ function rebuildShelfLayout() {
   bookStates.length = 0;
   shelfGroup.clear();
 
-  booksPerRow = getBooksPerRow(viewport.clientWidth);
+  booksPerRow = getBooksPerRow();
   document.getElementById("debugBPR").textContent = "books/row: " + booksPerRow;
 
   const innerEdgeWidth = BOOK_SPINE + 0.015;
@@ -666,6 +682,29 @@ function openBook(state) {
   setInfo(state.book);
   updateInfoPanelPosition();
   infoPanel.classList.add("visible");
+  if (state.book.cover && (isMobile || forceLowRes)) {
+    const entry = materialCache.get(state.book.title);
+    if (entry && !entry.coverLoaded) {
+      textureLoader.load(state.book.cover, (texture) => {
+        texture.colorSpace = THREE.SRGBColorSpace;
+        texture.anisotropy = renderer.capabilities.getMaxAnisotropy();
+        const img = texture.image;
+        const maxDim = 512;
+        if (img && (img.width > maxDim || img.height > maxDim)) {
+          const scale = maxDim / Math.max(img.width, img.height);
+          const oc = document.createElement("canvas");
+          oc.width = Math.round(img.width * scale);
+          oc.height = Math.round(img.height * scale);
+          oc.getContext("2d").drawImage(img, 0, 0, oc.width, oc.height);
+          texture.image = oc;
+          texture.needsUpdate = true;
+        }
+        entry[0].map = texture;
+        entry[0].needsUpdate = true;
+        entry.coverLoaded = true;
+      }, undefined, () => {});
+    }
+  }
 }
 
 function closeBook() {
@@ -772,6 +811,9 @@ document.getElementById("showBorder").addEventListener("change", (e) => {
 document.getElementById("lowRes").addEventListener("change", (e) => {
   forceLowRes = e.target.checked;
   TEX_SCALE = forceLowRes ? 0.25 : (isMobile ? 0.25 : 1);
+  materialCache.forEach((entry, key) => {
+    entry.forEach(mat => { if (mat.map && mat.map !== paperTexture) { mat.map.dispose(); mat.map = null; } });
+  });
   materialCache.clear();
   rebuildShelfLayout();
   fitCamera();
@@ -840,6 +882,33 @@ function updateTargets(delta) {
   });
 }
 
+/* ── Lazy texture management ── */
+const frustum = new THREE.Frustum();
+const projScreenMatrix = new THREE.Matrix4();
+const tmpSphere = new THREE.Sphere();
+let texTickCounter = 0;
+
+function updateLazyTextures() {
+  projScreenMatrix.multiplyMatrices(camera.projectionMatrix, camera.matrixWorldInverse);
+  frustum.setFromProjectionMatrix(projScreenMatrix);
+  const expandedFrustum = frustum;
+
+  bookStates.forEach(state => {
+    const worldPos = new THREE.Vector3();
+    state.mesh.getWorldPosition(worldPos);
+    tmpSphere.set(worldPos, 2.0);
+    const visible = expandedFrustum.intersectsSphere(tmpSphere) || selectedBook === state;
+    const entry = materialCache.get(state.book.title);
+    if (!entry) return;
+    if (visible && !entry.hydrated) {
+      hydrateBookMaterials(state.book, entry);
+      state.mesh.material = entry;
+    } else if (!visible && entry.hydrated) {
+      disposeBookMaterials(state.book);
+    }
+  });
+}
+
 /* ── Render loop ── */
 function animate() {
   requestAnimationFrame(animate);
@@ -863,6 +932,9 @@ function animate() {
 
   updateTargets(delta);
   if (selectedBook) updateInfoPanelPosition();
+
+  if (++texTickCounter % 10 === 0) updateLazyTextures();
+
   renderer.render(scene, camera);
 }
 animate();
