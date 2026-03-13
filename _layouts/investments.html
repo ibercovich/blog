@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+<style>
+  .inv-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .inv-link:hover {
+    color: #000;
+  }
+
+  .inv-section-title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 1rem;
+  }
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2.5rem;
+  }
+
+  .card {
+    padding: 1rem 1.1rem;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    transition: background 0.15s ease;
+  }
+
+  .card:nth-child(3n) {
+    border-right: none;
+  }
+
+  .card:hover {
+    background: #f9f9f9;
+  }
+
+  .card-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .card-name .inv-link::after {
+    content: ' \2197';
+    font-size: 0.6em;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+  }
+
+  .card:hover .card-name .inv-link::after {
+    opacity: 0.4;
+  }
+
+  .card-badge {
+    display: inline-block;
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: #666;
+    margin-bottom: 0.3rem;
+  }
+
+  .card-note {
+    font-size: 0.78rem;
+    color: #999;
+    font-style: italic;
+    margin-top: 0.25rem;
+  }
+
+  @media (max-width: 600px) {
+    .cards-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .card:nth-child(3n) {
+      border-right: 1px solid #e5e5e5;
+    }
+    .card:nth-child(2n) {
+      border-right: none;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .cards-grid {
+      grid-template-columns: 1fr;
+    }
+    .card {
+      border-right: none;
+    }
+  }
+</style>
+
+{{ content }}
+
+<div class="post">
+  <h1 class="post-title">Investments</h1>
+  <p class="post-info" style="font-style: italic;">I've organized my investments in 3 categories. Investments where I was a principal (board member, negotiated, sourced, operated), other investments ScOp VC made, and personal investments via syndicates and F&amp;F rounds.</p>
+  <div class="post-line"></div>
+
+  <div id="investmentsContainer"></div>
+</div>
+
+<script>
+(function() {
+  var data = window.__INVESTMENTS || {};
+
+  function link(co) {
+    if (co.url) return '<a class="inv-link" href="' + co.url + '" target="_blank" rel="noopener">' + co.name + '</a>';
+    return '<span class="inv-link" style="cursor:default">' + co.name + '</span>';
+  }
+
+  function esc(s) {
+    var d = document.createElement('div');
+    d.textContent = s || '';
+    return d.innerHTML;
+  }
+
+  function cardGrid(title, companies, detailed) {
+    var h = '<div class="inv-section-title">' + title + '</div>';
+    h += '<div class="cards-grid">';
+    for (var i = 0; i < companies.length; i++) {
+      var co = companies[i];
+      h += '<div class="card">';
+      h += '<div class="card-name">' + link(co) + '</div>';
+      if (detailed && co.role) h += '<div class="card-badge">' + esc(co.role) + '</div>';
+      if (detailed && co.notes) h += '<div class="card-note">' + esc(co.notes) + '</div>';
+      h += '</div>';
+    }
+    h += '</div>';
+    return h;
+  }
+
+  function render() {
+    var container = document.getElementById('investmentsContainer');
+    var html = '';
+    if (data.principal) html += cardGrid('Principal Investments', data.principal, true);
+    if (data.scop) html += cardGrid("ScOp's Investments", data.scop, false);
+    if (data.personal) html += cardGrid('Personal Investments', data.personal, false);
+    container.innerHTML = html;
+  }
+
+  document.addEventListener('DOMContentLoaded', render);
+})();
+</script>
