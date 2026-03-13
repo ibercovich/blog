@@ -170,6 +170,8 @@ layout: default
     </svg>
   </button>
 
+  <div id="debugBPR" style="display:none;position:absolute;bottom:8px;left:8px;background:rgba(0,0,0,0.6);color:#fff;font:12px monospace;padding:2px 6px;border-radius:4px;z-index:101;pointer-events:none"></div>
+
   <div id="controls">
     <h3>Book Position</h3>
     <div class="ctrl-row">
@@ -191,8 +193,8 @@ layout: default
 
     <h3>Shelf</h3>
     <div class="ctrl-row">
-      <label><span class="ctrl-label">#</span><input type="range" id="maxBooks" min="6" max="64" step="1" value="38"></label>
-      <span id="vMaxBooks">38</span>
+      <label><span class="ctrl-label">#</span><input type="range" id="maxBooks" min="6" max="64" step="1" value="24"></label>
+      <span id="vMaxBooks">24</span>
     </div>
     <div class="ctrl-row">
       <label><span class="ctrl-label">R</span><input type="range" id="shelfRadius" min="0.5" max="3.0" step="0.05" value="1.0"></label>
@@ -553,7 +555,7 @@ function buildBookMesh(book, rowIndex, columnIndex, rowBookCount) {
 
 function getBooksPerRow(vpWidth) {
   const maxBooks = parseInt(document.getElementById("maxBooks").value, 10);
-  const widthRatio = Math.min(1.0, vpWidth / 1440);
+  const widthRatio = Math.min(1.0, vpWidth / 800);
   const target = Math.round(maxBooks * widthRatio);
   return Math.max(6, Math.min(maxBooks, target));
 }
@@ -567,6 +569,7 @@ function rebuildShelfLayout() {
   shelfGroup.clear();
 
   booksPerRow = getBooksPerRow(viewport.clientWidth);
+  document.getElementById("debugBPR").textContent = "books/row: " + booksPerRow;
 
   const innerEdgeWidth = BOOK_SPINE + 0.015;
   const innerRadius = innerEdgeWidth / (2 * Math.tan(Math.PI / booksPerRow));
@@ -763,6 +766,7 @@ cYaw.addEventListener("input", updateCameraFromSliders);
 
 document.getElementById("showBorder").addEventListener("change", (e) => {
   viewport.style.outline = e.target.checked ? "2px solid blue" : "none";
+  document.getElementById("debugBPR").style.display = e.target.checked ? "block" : "none";
 });
 
 document.getElementById("lowRes").addEventListener("change", (e) => {
