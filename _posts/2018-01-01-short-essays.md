@@ -2,7 +2,7 @@
 layout: post
 title: Short Essays
 author: Ivan Bercovich
-date: 2026-03-04T00:00:00.000Z
+date: 2018-01-01T00:00:00.000Z
 ---
 
 ## Contradictions
