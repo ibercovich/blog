@@ -32,6 +32,8 @@ This task didn't end up in the official terminal bench 1.0 dataset — it took t
   <source src="/assets/install-windows-xp-highlights-fast.mp4" type="video/mp4">
 </video>
 
+What follows are some personal opinions about what constitutes a good task.
+
 ## Benchmarks Are Not Prompts
 
 When you prompt an LLM, you want it to succeed. You repeat yourself, you emphasize, you add examples, you structure everything just right. That's what works.
