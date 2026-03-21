@@ -36,9 +36,9 @@ This task didn't end up in the official terminal bench 1.0 dataset — it took t
 
 When you prompt an LLM, you want it to succeed. You repeat yourself, you emphasize, you add examples, you structure everything just right. That's what works.
 
-A benchmark is the opposite. We tend to write instructions in a way that we are trying to encourage the agent to get it right, but that's not the point of the benchmark. The point of a benchmark is to do it as compact as possible and challenge the agent. Think of it as an interview question for a principal engineering role. Hints are for entry-level employees where you want to know if they can think well. Principal engineers need to deliver the answer on their own.
+A benchmark is adversarial. We tend to write instructions in a way that we are trying to encourage the agent to get it right, but that's not the point of the benchmark. The point of a benchmark is to do it as compact as possible and challenge the agent. Think of it as an interview question for a principal engineering role. Hints are for entry-level employees where you want to know if they can think well. Principal engineers need to deliver the answer on their own.
 
-The ideal task is you can describe it in two paragraphs. It's difficult to solve. The agent will have to think before even doing anything. But then the actual solution doesn't have to be itself very complex. Not hard because it requires a lot of resources, or the task is expansive. You can ask an agent to optimize a small program and that might be just as hard as optimizing a larger one if the requirements are aggressive enough. The best task authors write the shortest instructions.
+The ideal task is you can describe it in two paragraphs. It's difficult to solve. The agent will have to think before even doing anything. But then the actual solution doesn't have to be itself very complex. Not hard because it requires a lot of resources, or the task is expansive. You can ask an agent to optimize a small program and that might be just as hard as optimizing a larger one if the requirements are aggressive enough. While not a requirment, the most elegant tasks have short, well-specified, self-explanatory (e.g. no README needed) instructions. Think literate programming.
 
 ## A Taxonomy of Bad Tasks
 
@@ -46,9 +46,7 @@ The ideal task is you can describe it in two paragraphs. It's difficult to solve
 
 The most common and most obvious problem. Someone asks an LLM to write their task instructions and submits whatever comes out. It's immediately recognizable: the tone is wrong, it's verbose, it's over-structured, and it reads like it was written to maximize the probability that the agent succeeds.
 
-I've rejected PRs outright for this. *I'm sorry but this has too much obvious LLM generation. You can look at some previous merged PRs where the author reacted to a lot of feedback before merging and iterate based on that. It'd be too much work for us to point everything that needs improving.*
-
-Instructions must be written by hand, or heavily edited from whatever an LLM suggests. They are not meant to be a forced prompt with emphasis and repetition to coerce the attention heads to listen to you. Direct and to the point. Specific and sufficient, but not redundant and attention grabbing. I looked into integrating Pangram to automatically check whether instructions were written by hand. That's how pervasive the problem is.
+Instructions must be written by hand, or heavily edited from whatever an LLM suggests. They are not meant to be a forced prompt with emphasis and repetition to coerce the attention heads to listen to you. Direct and to the point. Specific and sufficient, but not redundant and attention grabbing.
 
 ### Over-Prescriptive Instructions
 
@@ -60,27 +58,17 @@ Write the instruction as if it's intended for a smart human. Clear, but not redu
 
 A related failure mode: repeating yourself. I'll see instructions where point 5 is a "success criteria" section that just restates points 1 through 4. Unlike when designing a prompt for high probability of success, here it's enough to say things once, as long as it's clear.
 
-### Unnecessary Artifacts
-
-READMEs, format guides, helper documents, supplemental files that don't need to be there.
-
-Is the readme necessary to complete the task? Otherwise we don't need to include it. Are all the explanations necessary? It seems like a lot is self-explanatory from property names. Can it just be done as JSON schema with additional clarification only if it's ambiguous?
-
-I've changed my mind on this over time. I used to include supplemental documents in my own tasks. But they add confusion to reviewing and might leak into the agent's context. Keep the task clean. Only include files that exist for the agent to interact with. Test, solution, Dockerfile, task config. That's it. I wouldn't just install packages in case the agent wants them. If the solution is not using them, remove them. We've been trying to keep tasks lean.
-
 ### Clerical Difficulty
 
 I've been thinking about the distinction between tasks that fail because the structure of the expected output is convoluted — a long instruction explaining how to form a complex JSON object — versus tasks that fail for something intrinsically difficult. There's something categorically different between the two. I call these clerical or administrative errors, and tasks that fail exclusively because of that are bad.
 
-If an agent fails because it put a dollar sign in the amount field when you expected a float, or because it used a top-level key when you wanted a bare array, that's not measuring capability. That's measuring format compliance. The ambiguity is sufficient for a human to want clarification. Either the test should be resilient, or you should define the expectation in the instructions. Using so much of the instruction to detail the output format tends to make models fail not because of the complexity of the task, but because of some clerical error.
+If an agent fails because it put a dollar sign in the amount field when you expected a float, or because it used a top-level key when you wanted a bare array, that's not measuring capability. That's measuring format compliance. Using so much of the instruction to detail the output format tends to make models fail not because of the complexity of the task, but because of some clerical error. Of course it's important for models to get formating right, every time, even when the distinction is nuanced. It's just that this is nor the same sort of capability that Terminal Bench is setting out to solve. If a task is challening to SOTA models, it shouldn't be because they can't spell "strawberry".
+
+A related problem is tasks that are too wide — asking for a lot of little deliverables instead of solving a concrete large problem.
 
 ### Trivial Tasks
 
-This is trivial. It's not aligned with the goal of Terminal Bench. Take a look at some of the other tasks in the repository to get a sense of what they should look like.
-
-Task is trivial and artificial. Do you have a specific use-case where you had to do this as part of your job? What came after downloading the spreadsheet? This is like a 5 min task for an expert, and I can't imagine much longer for a jr.
-
-I don't have a formula for difficulty, but I have a question I always ask: how do you know this is medium difficulty? Did you test it against various models? What were the results? How many SOTA agents did you try? Can you show a few failure examples and tb task debug output for them? If you can't show interesting failures from capable models, your task probably isn't hard enough.
+I don't have a formula for difficulty, but I have a question I always ask: how do you estimate the difficulty? Did you test it against various models? What were the results? How many SOTA agents did you try? Can you show a few failure examples and `harbor task debug` output for them? If you can't show interesting failures from capable models, your task might not be hard enough.
 
 What counts as "hard" is an ongoing discussion. The TB3 rubric anchors difficulty on what's hard for a human expert, and that's a reasonable starting point. But LLM capabilities are very jagged. The analogy of something being harder for humans as also being a challenge to LLMs does not always hold. LLMs can read and cross-reference a million lines of logs in seconds — that's not hard for them even though it would take a person days. Conversely, things humans find straightforward, like navigating an interactive TUI, can completely stall an agent. So testing against models isn't the definition of difficulty, but it's the best diagnostic we have, and it often reveals that what you thought was hard is actually easy, or vice versa.
 
@@ -90,27 +78,23 @@ The difficulty bar keeps rising as SOTA improves. Many tasks I reviewed for TB2 
 
 That's a dramatically higher bar than "not single command trivial." Tasks that were fine for TB2 — set up a web server, write a cron job, parse some logs — are now course-project-level work.
 
-Tasks should be authentic engineering problems, not artificial constructs. The best ones come from real problems someone actually had to solve. It's kind of crazy that we are outsourcing semi-artificial tasks when people are doing real tasks every day. People are doing things with LLMs that could be tasks without thinking that they're working on tasks. Every day you spend an hour solving a problem, that's a task. Is there a reason to install this version, or did you pick one arbitrarily? I'm just trying to understand how this is a real problem and not something contrived.
-
-I actually think if you can crank out the hard task fast, even if there is some iteration on the test and all that, it takes a certain conception. It's much harder to grab a medium task and try to make it hard — it feels contrived. A related problem is tasks that are too wide — asking for a lot of little deliverables instead of solving a concrete large problem.
+Tasks should be authentic engineering problems, not artificial constructs. The best ones come from real problems someone actually had to solve. It's kind of crazy that major labs are outsourcing semi-artificial tasks when people are doing real tasks every day. People are doing things with LLMs that could be tasks without thinking that they're working on tasks. Every day you spend an hour solving a problem, that's a task.
 
 ### Solutions That Assume Hidden Knowledge
 
-The submitted solution.sh should solve the problem as an agent would. Hardcoding an answer which implies knowledge not self-evident in the instructions is not helpful. The person creating the task is making assumptions that are not included in the instructions. The task is underspecified, and you don't realize until you actually read the solution.
+The submitted `solution.sh` should solve the problem as an agent would. Hardcoding an answer which implies knowledge not self-evident in the instructions is not helpful. The person creating the task is making assumptions that are not included in the instructions. The task is underspecified, and you don't realize until you actually read the solution.
 
-I watch for this carefully. Can you discuss the typos? I want to make sure the solution doesn't display inside knowledge that the agent wouldn't be able to know. Are there some commands you can include that would reveal the exact issue before you apply the patch? A proper oracle will actually ask questions of the system. It will go through a series of commands to figure out what's wrong, and then upon figuring out what's wrong, it will produce a solution. If the solution jumps straight to the answer without exploratory steps, something is wrong.
+I watch for this carefully. I want to make sure the solution doesn't display inside knowledge that the agent wouldn't be able to know. Are there some commands you can include that would reveal the exact issue before you apply the patch? A proper oracle will actually ask questions of the system. It will go through a series of commands to figure out what's wrong, and then upon figuring out what's wrong, it will produce a solution. If the solution jumps straight to the answer without exploratory steps, it might be making unfair assumptions.
 
-The problem is that you know the ground truth. So it might seem that you are being fair because your solution is looking for levenshtein_distance and so on, but you could have just as easily come up with typos that didn't pass your particular choice of data cleaning. The solution isn't investigating the issue. It's just writing down the answer to a known issue. Either call out the fix and let the model have that in the context, or the solution should identify the issue based on the information given.
+The problem is that you know the ground truth. So it might seem that you are being fair because your invoice processing solution is looking for levenshtein_distance and so on, but you could have just as easily come up with typos that didn't pass your particular choice of data cleaning. The solution isn't investigating the issue. It's just writing down the answer to a known issue. Either call out the fix and let the model have that in the context, or the solution should identify the issue based on the information given.
 
 ### Tests That Validate the Wrong Things
 
 Tests should verify outcomes, not implementations.
 
-Why are you testing that Pandas is installed? This was never requested in the task. Doing a lot of string comparisons to evaluate source code is going to be brittle. You should test examples beyond the one you tell the agent to test with.
+Why test that Pandas is installed? This was never requested in the task. Doing a lot of string comparisons to evaluate source code is going to be brittle. You should test examples beyond the one you tell the agent to test with.
 
-I see this constantly: tests that check for specific libraries instead of whether the output is correct, tests so tightly coupled to the oracle solution that any alternative correct approach would fail. It seems like one set of tests is verifying functionally that the right people can do the right operations. There is another set of tests that looks at linux permissions directly. To what degree are these testing the same thing? Is it possible for permissions to look slightly different and still accomplish the goal?
-
-The way I think about unit tests is that you're testing all the functionality in the code so that if something breaks you know exactly what broke. Whereas what we're doing is different — we know if the test fails the solution doesn't work, but it doesn't tell us exactly what broke. Our tests should be conclusive, not comprehensive. If sub-requirements are guaranteed to be implied by passing a test, we don't test them. Can you think of a solid test that guarantees everything else works if it passes?
+I've seen this often: tests that check for specific libraries instead of whether the output is correct, tests so tightly coupled to the oracle solution that any alternative correct approach would fail. There was a task which required setting Linux permissions in such a way that only certain people could perform certain operations. There was one set of tests verifying functionally that the right people can do the right operations. There was another set of tests that looked at linux permissions directly. To what degree are these testing the same thing? Is it possible for permissions to look slightly different and still accomplish the goal?
 
 For tasks with inherent variance, testing gets harder. I ran a word2vec task 25 times. The queen - woman + man = king analogy returned king among the top 75 results 100% of the time, but the variance was wide, from #1 to #40. You have to do the work upfront to find where the variance settles.
 
