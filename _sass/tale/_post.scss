@@ -35,7 +35,9 @@
     text-align: justify;
   }
 
-  a:hover {
+  p a,
+  li a,
+  blockquote a {
     text-decoration: underline;
   }
 
