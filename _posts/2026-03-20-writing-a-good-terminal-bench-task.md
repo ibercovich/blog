@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Writing a Good Terminal Bench Task
+title: What Makes a Good Terminal Bench Task
 author: Ivan Bercovich
 date: 2026-03-20T00:00:00.000Z
 ---
-
-# What Makes a Good Terminal Bench Task
 
 Most people write benchmark tasks the way they write prompts. They shouldn't. A prompt is designed to help the agent succeed. A benchmark is designed to find out if it can.
 
