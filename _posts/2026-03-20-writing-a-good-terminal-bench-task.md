@@ -28,7 +28,7 @@ The task had a 2-hour agent timeout, one of the longest in the benchmark, becaus
 
 It was hard for me as the task developer to be sure it was actually working, so I required the agent to set up VNC on port 5901 with an nginx web proxy so I could visually confirm the installation was progressing. For verification, I searched the virtual disk for the MD5 hashes of 12 specific Windows files: ntoskrnl.exe, kernel32.dll, explorer.exe, ntldr, and others. But I went further. The test takes a VNC screenshot and compares it against reference screenshots of the login screen using structural similarity (SSIM), requiring at least 85% match. It also verifies the tb-admin user was created by searching the virtual disk for the user account picture bitmap, which only exists if the OEM setup scripts ran successfully during installation.
 
-This task didn't end up in the official terminal bench 1.0 dataset — it took too long to run and made logistics painful. I think it's still one of the coolest tbench tasks created to date. I went from knowing very little about benchmarks to being an official reviewer, and submitted many other tasks which did get merged, including [install-windows-3.11](https://www.tbench.ai/benchmarks/terminal-bench-2/install-windows-3.11) and [video-processing](https://www.tbench.ai/benchmarks/terminal-bench-2/video-processing).
+This task didn't end up in the official terminal bench 1.0 dataset because it took too long to run and made logistics painful. I think it's still one of the coolest tbench tasks created to date. I went from knowing very little about benchmarks to being an official reviewer, and submitted many other tasks which did get merged, including [install-windows-3.11](https://www.tbench.ai/benchmarks/terminal-bench-2/install-windows-3.11) and [video-processing](https://www.tbench.ai/benchmarks/terminal-bench-2/video-processing).
 
 <video controls preload="metadata" style="max-width: 100%; height: auto;">
   <source src="/assets/install-windows-xp-highlights-fast.mp4" type="video/mp4">
@@ -72,19 +72,7 @@ I've been thinking about the distinction between tasks that fail because the str
 
 If an agent fails because it put a dollar sign in the amount field when you expected a float, or because it used a top-level key when you wanted a bare array, it's measuring format compliance. Using so much of the instruction to detail the output format tends to make models fail not because of the complexity of the task, but because of some clerical error. Of course it's important for models to get formatting right, every time, even when the distinction is nuanced. It's just that this is not the same sort of capability that Terminal Bench is setting out to solve. If a task is challenging to SOTA models, it shouldn't be because they can't spell "strawberry".
 
-A related problem is tasks that are too wide — asking for a lot of little deliverables instead of solving a concrete large problem.
-
-### Trivial Tasks
-
-How do you estimate the difficulty? Did you test it against various models? What were the results? How many SOTA agents did you try? Can you show a few failure examples and `harbor task debug` output for them? If you can't show interesting failures from capable models, your task might not be short of great.
-
-What counts as "hard" is an ongoing discussion. The TB3 rubric anchors difficulty on what's hard for a human expert, and that's a reasonable starting point. But LLM capabilities are very jagged. The analogy of something being harder for humans as also being a challenge to LLMs does not always hold. LLMs can read and cross-reference a million lines of logs in seconds — that's not hard for them even though it would take a person days. Conversely, things humans find straightforward, like navigating an interactive TUI, can completely stall an agent. So testing against models isn't the definition of difficulty, but it's the best diagnostic we have, and it often reveals that what you thought was hard is actually easy, or vice versa.
-
-The difficulty bar keeps rising as SOTA improves. Many tasks I reviewed for TB2 that seemed reasonable would be too easy today. The [TB3 rubric](https://github.com/harbor-framework/terminal-bench-3/blob/main/TASK_PROPOSAL_RUBRIC.md) is explicit:
-
-> As a general rule, any task that could be solved by an average undergraduate student in under a few days is too easy. This means typical problems that feel like course projects are unlikely to be accepted. These projects include tasks like writing simple compilers or operating systems; or implementing simple algorithms or protocols.
-
-Tasks should be authentic engineering problems, not artificial constructs. The best ones come from real problems someone actually had to solve. It's kind of crazy that major labs are outsourcing semi-artificial tasks when people are doing real tasks every day. People are doing things with LLMs that could be tasks without realizing so. Every week you spend a few hours solving a problem, that's a task.
+A related problem is tasks that are too wide, asking for a lot of little deliverables instead of solving a concrete large problem.
 
 ### Solutions That Assume Hidden Knowledge
 
@@ -104,17 +92,15 @@ I've seen this often: tests that check for specific libraries instead of whether
 
 For tasks with inherent variance, testing gets harder. I ran my own word2vec task 25 times. The queen - woman + man = king analogy returned king among the top 75 results 100% of the time, but the variance was wide, from #1 to #40. I could test a number of things about the resulting model, but I never felt satisfied with this canonical test.
 
-There are tasks that check that a file by a certain name or in a certain location exists. It's better to check for md5 hashes or specific functionality.
-
 Sometimes, the task includes dependencies that the agent has access to. For example, when the goal is to implement a missing feature in a larger application. In those cases, it's important to test the outcome with a copy of the original code, to guarantee the task is not passing due to spurious changes.
 
-What about LLM-as-a-judge? The [TB3 rubric](https://github.com/harbor-framework/terminal-bench-3/blob/main/TASK_PROPOSAL_RUBRIC.md) allows it in rare and extraordinary circumstances, but only if it can be shown that the verifier essentially never makes a mistake — for example, by showing that multiple different LLMs always make the same determination.
+What about LLM-as-a-judge? The [TB3 rubric](https://github.com/harbor-framework/terminal-bench-3/blob/main/TASK_PROPOSAL_RUBRIC.md) allows it in rare and extraordinary circumstances, but only if it can be shown that the verifier essentially never makes a mistake, for example, by showing that multiple different LLMs always make the same determination.
 
 ### Reward Hacking and Environment Leakage
 
 Make sure the agent doesn't have access to data that shouldn't be available. Anything generated or copied in the Dockerfile will generally be accessible. If you place something in /tests, it will be copied later, right before tests run. If the agent does have access to the reference answer, what stops it from copying it?
 
-There have been discussions about root vs userland tasks, and Tbench supports both. But limiting the agent permissions is one way to make a hard task in uninteresting ways. In my experience, it's better to give the agent unrestricted access and avoid wasting time navigating permissions.
+Because it's easier to reward hack as root, there have been discussions about root vs userland agents, and Tbench supports both. But limiting the agent permissions is one way to make a hard task in uninteresting ways. In my experience, it's better to give the agent unrestricted access and avoid wasting time navigating permissions.
 
 It's essential to make sure the environment is not reward hackable. It doesn't matter if the models you're testing play by the book. Benchmarks have to be resistant to being gamed, or they are unworthy. When a popular benchmark is discovered to be hackable, the authors lose credibility, alongside many papers which might have used that benchmark as evidence of results.
 
@@ -122,11 +108,19 @@ One idea I think is helpful: modify the harness to include test signatures in th
 
 ## What Difficulty Actually Means
 
-Difficulty should come from the problem, not from the environment. Not from resource pressure, not from verbose instructions, not from trick formatting. It's like IQ. There is a true measure of difficulty. And we are sort of trying to come up with a way to estimate it, and we may be off. Even our own judgment may be off.
+In general, difficulty should come from the problem, not from the environment. Not from resource pressure, not from verbose instructions, not from trick formatting. There is a true measure of difficulty, and we are sort of trying to come up with a way to estimate it. We may be off. Even our own judgment may be off.
+
+How do you estimate the difficulty? Did you test it against various models? What were the results? How many SOTA agents did you try? Can you show a few failure examples and `harbor task debug` output for them? If you can't show interesting failures from capable models, your task might be short of great.
+
+What counts as "hard" is an ongoing discussion. The TB3 rubric anchors difficulty on what's hard for a human expert, and that's a reasonable starting point. But LLM capabilities are very jagged. The analogy of something being harder for humans as also being a challenge to LLMs does not always hold. LLMs can read and cross-reference a million lines of logs in seconds. That's not hard for them even though it would take a person days. Conversely, things humans find straightforward, like navigating an interactive TUI, can completely stall an agent. So testing against models isn't the definition of difficulty, but it's the best diagnostic we have, and it often reveals that what you thought was hard is actually easy, or vice versa.
+
+The difficulty bar keeps rising as SOTA improves. Many tasks I reviewed for TB2 that seemed reasonable would be too easy today. The [TB3 rubric](https://github.com/harbor-framework/terminal-bench-3/blob/main/TASK_PROPOSAL_RUBRIC.md) is explicit:
+
+> As a general rule, any task that could be solved by an average undergraduate student in under a few days is too easy. This means typical problems that feel like course projects are unlikely to be accepted. These projects include tasks like writing simple compilers or operating systems; or implementing simple algorithms or protocols.
 
 There might be a natural timeout beyond which more reasoning is hopeless, but artificially low timeouts hide insights. I suspect a lot of useful information is going into the timeout black hole. It would be useful for tests to be progressive — giving a letter grade to the agent solution — to see a continuous tradeoff between time spent and quality.
 
-We tried letting the agent know about its timeout — you have 10 minutes left, you have five minutes left. I thought that would work, but actually it makes the agents freak out towards the end, and they start doing crazy, irrational stuff. So that didn't work.
+We tried letting the agent know about its timeout: you have 10 minutes left, you have five minutes left. I thought that would work, but actually it makes the agents freak out towards the end, and they start doing irrational stuff. So that didn't work.
 
 Constraining resources creates a different kind of difficulty, and often an unfair one. If agents assume normal conditions and we constrain resources without putting it in the prompt, that's unfair. It's also hard to get exactly right. Tasks that pass in one infrastructure setting will fail in an almost identical counterpart when resources are intentionally a limiting factor.
 
@@ -150,6 +144,6 @@ AI is a very empirical field. Without hands-on experience it's hard to develop t
 
 Benchmarks are where SOTA has to earn its name. This is where you develop your intuition for what we might see in the coming months and years. Anyone can get access to AI. Most people don't have a good sense for where we are in the capability curve.
 
-The best tasks describe a real problem that an experienced engineer would recognize, in language that an experienced engineer would use, with tests that verify the outcome rather than the approach. But I suspect we'll start seeing difficult tasks emerge from the vibecoding world, particularly for complex functions like finance, where the problem is genuinely hard but the person who needs it solved isn't a developer. The scope of what we should test is wider than we think.
+Tasks should be authentic engineering problems, not artificial constructs. The best ones come from real problems someone actually had to solve. It's kind of crazy that major labs are outsourcing semi-artificial tasks when people are doing real tasks every day. People are doing things with LLMs that could be tasks without realizing so. Every week you spend a few hours solving a problem, that's a task.
 
-[Terminal Bench 3](https://github.com/harbor-framework/terminal-bench-3) accepting submissions.
+The best tasks describe a real problem that an experienced engineer would recognize, in language that an experienced engineer would use, with tests that verify the outcome rather than the approach. But I suspect we'll start seeing difficult tasks emerge from the vibecoding world, particularly for complex functions like finance, where the problem is genuinely hard but the person who needs it solved isn't a developer. The scope of what we should test is wider than we think.
