@@ -46,6 +46,8 @@ The ideal task can be described in two paragraphs. It's difficult to solve. The 
 
 A benchmark has to straddle a balance between being as realistic as possible while still remaining legible. As capabilities and time horizons expand, this becomes difficult. Running a benchmark of tasks [involving swarms replicating highly complex software](https://www.anthropic.com/engineering/building-c-compiler) remains expensive, and relies on the credibility of the reviewer (in this case Nicholas Carlini). For the rest of us, if we want our benchmarks to be credible and gain traction, we benefit from making our tasks tractable. Likewise, if we want a busy leaderboard, we have to make the benchmark accessible to all model/agent developers, which means the cost and infrastructure complexity can't be disproportionate.
 
+_Note: we are working on [Terminal Bench Challenges](https://github.com/harbor-framework/terminal-bench-challenges), where a single highly complex task, such as writing a c compiler or a web browser, is a full benchmark._
+
 ## A Taxonomy of Bad Tasks
 
 To a large degree, the value gained by contributing to a project like Terminal Bench is access to concrete feedback. In that light, I want to share some specific examples of common issues.
