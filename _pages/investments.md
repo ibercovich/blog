@@ -61,7 +61,9 @@ window.__INVESTMENTS = {
     { name: "Komodo Health", url: "https://www.komodohealth.com/" },
     { name: "Mindcotine", url: "https://www.mindcotine.com/" },
     { name: "Keenable.ai", url: "https://keenable.ai/" },
-    { name: "Umbra Space", url: "https://umbra.space/" }
+    { name: "Umbra Space", url: "https://umbra.space/" },
+    { name: "Lebane", url: "https://www.lebane.app/" },
+    { name: "Baris", url: "https://everybaris.com/" }
   ]
 };
 </script>
