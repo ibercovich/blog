@@ -16,7 +16,7 @@ gem "ffi", "~> 1.17"
 gem "google-protobuf", "~> 4.30"
 gem "i18n", "1.14.7"
 gem "jekyll-sass-converter", "3.1.0"
-gem "rexml", "3.4.1"
+gem "rexml", "3.4.2"
 gem "rouge", "~> 4.5"
 gem "kramdown", "2.5.1"
 # Fix for public_suffix version conflict
