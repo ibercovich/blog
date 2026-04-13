@@ -17,4 +17,4 @@ If your analytics record exactly what everybody did, and you can replay that and
 
 The key insight is that you should be able to replay everything. Assume your application has no bugs, because what you're really trying to do is build a better application that behaves the same. If there's a bug, whatever, you can replicate the bug. That's a feature, not a problem.
 
-I think replay analytics is a product someone should build. It's not trivial. You need the database in the right state. You need to replay everything end to end. But if you can do it, you get something powerful: a perfect specification that isn't a document. It's reality.
+I think replay analytics is a product someone should build. It's not trivial. You need the database in the right state. You need to replay everything end to end. But if you can do it, you get something powerful.
