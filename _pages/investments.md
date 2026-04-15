@@ -63,7 +63,8 @@ window.__INVESTMENTS = {
     { name: "Keenable.ai", url: "https://keenable.ai/" },
     { name: "Umbra Space", url: "https://umbra.space/" },
     { name: "Lebane", url: "https://www.lebane.app/" },
-    { name: "Baris", url: "https://everybaris.com/" }
+    { name: "Baris", url: "https://everybaris.com/" },
+    { name: "Propin", url: "https://propin.ai/" }
   ]
 };
 </script>
