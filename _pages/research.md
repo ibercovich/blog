@@ -9,6 +9,12 @@ permalink: /research/
 
 ### 2026
 
+**[Terminal Wrench: A Dataset of 331 Reward-Hackable Environments and 3,632 Exploit Trajectories](https://arxiv.org/abs/2604.17596)**
+I Bercovich, I Segal, K Zhang, S Saxena, A Raghunathan, Z Zhong
+*arXiv preprint arXiv:2604.17596*
+
+A dataset of 331 confirmed reward-hackable terminal-agent benchmark environments with 3,632 exploit trajectories across Claude Opus 4.6, Gemini 3.1 Pro, and GPT-5.4. Catalogs 11 exploit categories from output spoofing to binary hijacking and rootkit-style binary patching. A monitorability study shows detection AUC drops from 0.97 to 0.92 when chain-of-thought reasoning is stripped from trajectories.
+
 **[Terminal-bench: Benchmarking agents on hard, realistic tasks in command line interfaces](https://arxiv.org/abs/2601.11868)**
 MA Merrill, AG Shaw, N Carlini, B Li, H Raj, I Bercovich, L Shi, JY Shin, et al.
 *arXiv preprint arXiv:2601.11868*
