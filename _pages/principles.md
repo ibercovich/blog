@@ -66,6 +66,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - You don't do anyone any favors by lurking, put yourself out there!
 - You can just do things.
 - Action produces information.
+- Structure is not the opposite of freedom; freedom without structure can turn into aimlessness
 
 ### Decision Theory & Strategy
 
@@ -122,6 +123,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - The youth pushes, the wise steer
 - Be an instigator
   - In the context of causing things to happen which otherwise wouldn’t happen. This is something that comes naturally to me.
+- You can get used to being famous but you never get used to being ignored
 
 ### Resource Allocation & Capital
 
