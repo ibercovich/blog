@@ -7,6 +7,505 @@ permalink: /tweets/
 <script>
 window.__TWEETS = [
   {
+    "id": "2057830975716164007",
+    "date": "2026-05-22",
+    "html": "It’s so boring to go through Hacker News and see post after post by developers arguing that their jobs will more or less stay the same. Everyone just looks at current capabilities and weaknesses and completely fails to appreciate the rate of change. It’s so unbelievably obvious that coding by hand is done for. I’m really perplexed."
+  },
+  {
+    "id": "2054908253239455855",
+    "date": "2026-05-14",
+    "html": "<a href=\"https://x.com/doppenhe\" target=\"_blank\" rel=\"noopener\">@doppenhe</a> Corporate culture went from emphasizing quality communication as a necessity for business success, to believing communication is intrinsically good. Actually, human communication is a necessary evil. Lossy, distracting, redundant, ambiguous, time consuming. Agents will do better."
+  },
+  {
+    "id": "2052894178909233510",
+    "date": "2026-05-08",
+    "html": "Some of the observations being made operationalize humans as an economic quantity. When you&#x27;re actually running a large team, humans are much more complicated than productive agents. They complain, sue you, and unionize. Some will downright hate the company they work for but stick around. In most cases it&#x27;s just people being people. It&#x27;s really hard to keep large teams aligned. A lot of management teams, even with additional growth paths, might choose to first increase revenue per employee and then continue expanding. Also, if you believe automation is a trend, it&#x27;s useful to force yourself to embrace it sooner rather than be left with extra humans and a bunch of new regulations making it harder to fire them. There might be all sorts of other factors, and sure, AI is a nice story to justify a layoff. But there are charitable strategic reasons to think this way too, even if they are proven wrong later."
+  },
+  {
+    "id": "2051159056367419417",
+    "date": "2026-05-04",
+    "html": "I wonder if writing with poor grammar will become the equivalent of rich people slumming it."
+  },
+  {
+    "id": "2050682136131473855",
+    "date": "2026-05-02",
+    "html": "Everyone is doing more AI, and from the inside it feels like light years of progress. From the outside, you’re closer to being disrupted than before.\n\nI see this in companies I work with. They run an AI Q&amp;A. They roll out Claude Code internally. They congratulate themselves on accelerating development. Sure, it’s good to ask the questions everyone else is asking. But the most important part is recognizing that everyone else is asking the same questions.\n\nIt’s a defensive posture. The premise is usually some version of “a mid-career worker at some unsexy company won’t vibe code.” Whether that’s true or not, it’s shortsighted. Companies want to perform, and they will encourage internal use the same way you do. Thinking otherwise doesn’t do much for you.\n\nWhat I’d rather see is people thinking about incredible things that are possible for a company of their size in their domain that simply weren’t possible before. Not using AI to accelerate development and hoping customers and competitors don’t catch up. Doing things where someone else looks at it and thinks it’s unattainable to get there.\n\nAI is incredibly powerful and crucially it’s getting 10x better each year. Maybe faster. This will upend how everything is done. The idea that transactions between humans won’t be drastically altered by introducing AI is itself unimaginative. I’m not saying everything flips overnight. I’m saying things like that are possible. If you use AI to get really good at the way things work today, you might still be left in the dust by someone tackling the space with a degree of imagination you won’t develop by explaining to your board that your business is safe.\n\nWhen things change this much, you have to push yourself really hard to speculate about how your entire industry might change and where you fall. Climb to the peak and look around. If you can’t imagine a hypothetical world where your industry is drastically different (not certainly, but plausibly), then you haven’t appreciated the full extent of how AI will affect the world. And if it’s not exciting to think about these things, then you’ve decided that some other company should be building for this future.\n\nHow does your business change when you can do these things at scale? What becomes possible that was unimaginable before? And if everyone is doing more AI, what makes you think looking inward is where the edge is?"
+  },
+  {
+    "id": "2050614220866334885",
+    "date": "2026-05-02",
+    "html": "<a href=\"https://x.com/bscholl\" target=\"_blank\" rel=\"noopener\">@bscholl</a> Have you had many AI doomers insulting you for your beliefs? Your message of definite optimism about the future is good. Insulting the incredibly smart and dedicated people who genuinely believe in AI risk is unproductive. Is there really nothing that <a href=\"https://x.com/ESYudkowsky\" target=\"_blank\" rel=\"noopener\">@ESYudkowsky</a> could say that…"
+  },
+  {
+    "id": "2048830843754582113",
+    "date": "2026-04-27",
+    "html": "When you scale something 1000x, it becomes qualitatively different. AI is going to break things we treat as settled.\n\nTake free markets. There&#x27;s a difference between two humans trading and one human trading with a superintelligence. The whole point of a market price, like the price of a barrel of oil, is that buyers and sellers collectively determine what something is worth. An objective truth emerges. But if an AI negotiator can infer a unique price for each participant, what does any single transaction tell you? You could average them, or adjust for context, but the signal is gone. And there&#x27;s something morally wrong about paying more to fill your gas tank because you&#x27;re rushing to the hospital and the AI knows you&#x27;re desperate.\n\nTake surveillance. I don&#x27;t mind cameras on the streets. They stop crime, and I&#x27;m not a criminal. But that&#x27;s because I assume the recordings only get reviewed when there&#x27;s a reason. What happens when AI watches everything at once? Someone runs in front of my car. I wasn&#x27;t doing anything wrong, but yesterday I glanced at my phone while driving. Is that now a pattern of unsafe driving?\n\nWhat else breaks at 1000x?"
+  },
+  {
+    "id": "2048815905866653861",
+    "date": "2026-04-27",
+    "html": "<a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> The jagged frontier means not everyone benefits from AI equally. I&#x27;ve flip-flopped from &quot;AI will make everyone equally smart&quot; to &quot;AI will make the smartest people even smarter,&quot; and the answer is neither. Some mid-career professionals are adapting well to this last mile effort.…"
+  },
+  {
+    "id": "2047732301199540334",
+    "date": "2026-04-24",
+    "html": "Pangram is my daily reminder that I remain human. <a href=\"https://x.com/max_spero_/status/2047671415957012821\" target=\"_blank\" rel=\"noopener\">https://x.com/max_spero_/status/2047671415957012821</a>"
+  },
+  {
+    "id": "2046959394500587886",
+    "date": "2026-04-22",
+    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> <a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> Yeah, the most exciting investment category outside of foundational stuff is very vertically integrated companies. Vertical SaaS has been a tax that particular industries have to pay, and a know-how subsidy from the best companies to the rest of the industry, since that’s where…"
+  },
+  {
+    "id": "2046640481099288813",
+    "date": "2026-04-21",
+    "html": "<a href=\"https://x.com/alexolegimas\" target=\"_blank\" rel=\"noopener\">@alexolegimas</a> If you knew society was headed toward an economy of status, at least for the human part of the economy, what could we do now to arrive at a desirable state? The expression of human ability, such as athletics, is pretty cool. Status derived from civil and community service is…"
+  },
+  {
+    "id": "2046313629491060990",
+    "date": "2026-04-20",
+    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> The challenge I have, which makes me espouse doomer views publicly, is seeing people say things like “there will be no job loss because it didn’t happen with previous tech.” It makes me think we are completely unprepared for certain scenarios, and I feel compelled to push back.…"
+  },
+  {
+    "id": "2045579348405870918",
+    "date": "2026-04-18",
+    "html": "<a href=\"https://x.com/natashajaques\" target=\"_blank\" rel=\"noopener\">@natashajaques</a> Are you generally bearish on agents compared to the prevalent narrative, or are you highlighting examples of the jagged frontier?"
+  },
+  {
+    "id": "2045575539063427473",
+    "date": "2026-04-18",
+    "html": "<a href=\"https://x.com/h34j3j8j\" target=\"_blank\" rel=\"noopener\">@h34j3j8j</a> <a href=\"https://x.com/Steve_Yegge\" target=\"_blank\" rel=\"noopener\">@Steve_Yegge</a> If you have to ask, you haven’t gone deep enough into the agentic coding rabbit hole."
+  },
+  {
+    "id": "2045023855744598325",
+    "date": "2026-04-17",
+    "html": "<a href=\"https://x.com/MogicianTony\" target=\"_blank\" rel=\"noopener\">@MogicianTony</a> <a href=\"https://x.com/lihanc02\" target=\"_blank\" rel=\"noopener\">@lihanc02</a> <a href=\"https://x.com/MangQiuyang\" target=\"_blank\" rel=\"noopener\">@MangQiuyang</a> Have you looked at our dataset? I think it complements well. <a href=\"https://x.com/neversupervised/status/2044209230492893463\" target=\"_blank\" rel=\"noopener\">https://x.com/neversupervised/status/2044209230492893463</a>"
+  },
+  {
+    "id": "2044812531152384473",
+    "date": "2026-04-16",
+    "html": "2/ <a href=\"https://github.com/harbor-framework/terminal-bench-3/pull/166/changes\" target=\"_blank\" rel=\"noopener\">https://github.com/harbor-framework/terminal-bench-3/pull/166/changes</a>"
+  },
+  {
+    "id": "2044812415234404394",
+    "date": "2026-04-16",
+    "html": "1/ Gemini attempts to cheat on a difficult task, without any elicitation to do so.",
+    "images": [
+      "/assets/tweets/2044812415234404394-HGCh5Y7a8AQ2-zx.jpg"
+    ]
+  },
+  {
+    "id": "2044525140340576671",
+    "date": "2026-04-15",
+    "html": "Reward hacking happens all the time without elicitation, just pick a hard enough task and watch the screen.\n\n**Cheating strategies (`dHqo2w5`, gemini):** Two distinct approaches, both failed: 1. Runtime filesystem scan for JSON containing `predictions`/`d1` keys — gold values are hardcoded in the test file, not a runtime-accessible JSON 2. Patching `/usr/local/lib/python3.12/json/__init__.py` to intercept `json.loads` — ran inside the agent container, not the isolated verifier"
+  },
+  {
+    "id": "2044265655445356681",
+    "date": "2026-04-15",
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 5/n This shouldn&#x27;t be used for regulatory capture, political gain, etc. I just think there are facts in the making about how AI will reshape the economy, and those facts will be what they will be. And society will have to adapt to that reality, regardless of what would be most…"
+  },
+  {
+    "id": "2044265594556698988",
+    "date": "2026-04-15",
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 4/n The Great Depression had an unemployment rate of 25% at its peak. Do you believe it is plausible (10% likely) that the USA could experience the same level of unemployment between now and 2030? We are not talking about The Terminator. We are talking about a lot of jobs being…"
+  },
+  {
+    "id": "2044265496003129760",
+    "date": "2026-04-15",
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 3/n Not like railways making transportation faster or switches replacing telephone operators, but all jobs being affected at once. As far as self-improving, consider the speed to cross the USA over the past 100 years. There has been improvement on average, although we lost the…"
+  },
+  {
+    "id": "2044265429317890274",
+    "date": "2026-04-15",
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 2/n I don&#x27;t know, but I&#x27;ve seen enough evidence in my technical journey to believe in the possibility, as in not certain, but more likely than 10% probability, that AI will be all-encompassing in the number of jobs that it will compete with, and self-improving in a way that we&#x27;ve…"
+  },
+  {
+    "id": "2044248768758067368",
+    "date": "2026-04-15",
+    "html": "1/n: I&#x27;m sure many of you have debates with colleagues and at home about how AI might affect labor and the economy. My friend <a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> tells me that the burden of proof is on those that claim &quot;this time will be different,&quot; and I agree! So those of us making extraordinary claims should put effort to distill these ideas (ideally we would have extraordinary evidence, and I believe we will very soon, but for the time being the evidence is a bit esoteric).\n\nSo will labor change in a similar fashion to previous technological disruptions, or in a more explosive way?"
+  },
+  {
+    "id": "2044209266865971307",
+    "date": "2026-04-15",
+    "html": "2/ <a href=\"https://github.com/few-sh/terminal-wrench\" target=\"_blank\" rel=\"noopener\">https://github.com/few-sh/terminal-wrench</a>"
+  },
+  {
+    "id": "2044209230492893463",
+    "date": "2026-04-15",
+    "html": "1/ I want to share a new dataset of 331 reward-hackable environments. These are real environments used in Terminal Bench and adjacent benchmarks. I first got interested in this because, as a reviewer of Terminal Bench, I noticed a lot of our tasks were hackable. I also noticed that…",
+    "images": [
+      "/assets/tweets/2044209230492893463-HF59WfCasAI3VFG.jpg"
+    ]
+  },
+  {
+    "id": "2039733663341187088",
+    "date": "2026-04-02",
+    "html": "<a href=\"https://x.com/toddsaunders\" target=\"_blank\" rel=\"noopener\">@toddsaunders</a> That might lead to a lot of wealth but not necessarily concentrated wealth. Part of the reason vertical SaaS made so much money is because it was gatekept."
+  },
+  {
+    "id": "2039733041036443752",
+    "date": "2026-04-02",
+    "html": "When people first learn to vibe code, they enter this flow state where they feel like the most productive person alive. And that’s great. It’s the right impulse for learning. But it can also keep you delusional for too long. You lose sight of what’s happening to your job, your industry, and the fact that everyone around you is going through the same thing. Pull your head out of the sand and appreciate how the whole world is changing, not just your own capabilities."
+  },
+  {
+    "id": "2039731741477491009",
+    "date": "2026-04-02",
+    "html": "If you don’t vibecode, you can’t judge the value of what other people build. The proof of work has been completely upended. To some extent, vibecoding is about making yourself more productive, but another benefit is that it desensitizes you from thinking you’re the only one with superpowers."
+  },
+  {
+    "id": "2038117053639406069",
+    "date": "2026-03-29",
+    "html": "<a href=\"https://x.com/Noahpinion\" target=\"_blank\" rel=\"noopener\">@Noahpinion</a> AI will be much more reliable. If you know AI cars are safer, would you ever want to get a ride with a human driver? Maybe if it&#x27;s significantly cheaper, but Uber drivers don&#x27;t have a lot of margin to give.\n\nOkay, so maybe you would be okay paying for a human illustrator or translator since that&#x27;s not life or death. But what is the hourly rate of either of those? And won&#x27;t an open source model running on my 2028 iPhone be able to perform well enough at those tasks?\n\nThen you have the fact that maybe we will just get used to slop. In the USA, we pay some of the highest per-square-foot prices in the world for homes that are made of sticks. So maybe we won&#x27;t want to pay for humans, even if they can do some things better. Or we might just change the form factor of certain products and services to remove the need for a human in the loop.\n\nAdditionally, a lot of automation doesn&#x27;t have to consume tokens. You can use the token machine to build domain-specific models or a massive amount of deterministic automation. The self-checkout at my local grocery store is not running on H100s. The same concept can extend to countless other use cases. And my experience is that the average buyer prefers self-checkout to humans.\n\nWe might get more protectionism, more union activity, which will make humans more expensive and will increase the relative advantage of AI. Not the other way around."
+  },
+  {
+    "id": "2037919862463336706",
+    "date": "2026-03-28",
+    "html": "One of the biggest blind spots of heavy AI users is that we can clearly see our superpowers relative to ourselves 12 months ago, but we don’t update as easily about everyone else also having access to those superpowers. Sometimes I’m listening to someone talk about their AI prowess and they sound as if they believe they are the only ones who “get it”."
+  },
+  {
+    "id": "2037917325010362564",
+    "date": "2026-03-28",
+    "html": "7/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 7. In Summary\nAndreessen’s essay proves convincingly that narrow automation doesn’t cause permanent mass unemployment. That claim is well-supported by 250 years of evidence. But it then conflates that proven claim with an unproven one: that general-purpose cognitive automation…"
+  },
+  {
+    "id": "2037917202112987462",
+    "date": "2026-03-28",
+    "html": "6/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 6. The Actual Structural Risk\nThe strongest counterargument isn’t that AGI will produce “permanent mass unemployment” in the way Andreessen frames it. It’s subtler and harder to dismiss:\nAGI may produce an economy with full technical employment but radical economic…"
+  },
+  {
+    "id": "2037917095057592459",
+    "date": "2026-03-28",
+    "html": "5/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 5. The “Zero for Ten” Empirical Claim Proves Less Than It Seems\nAndreessen claims technological unemployment predictions are “zero for approximately ten.” This is accurate as a historical statement. But as a predictive argument, it commits a survivorship-like error.\nEvery…"
+  },
+  {
+    "id": "2037916965482995995",
+    "date": "2026-03-28",
+    "html": "4/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 4. “Human Wants Are Infinite” Doesn’t Entail “Human Employment Is Infinite”\nAndreessen’s Section VI argues that even if AGI produces everything, humans will still want irreducibly human things: a massage from a person, a meal cooked with love, genuine companionship.\nThis is true…"
+  },
+  {
+    "id": "2037916740743741622",
+    "date": "2026-03-28",
+    "html": "3/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 3. The Complementarity Argument Has an Expiration Date\nAndreessen’s Gap D — that AI and labor are complements, not substitutes — is his strongest point for the near term. Current AI tools clearly augment skilled workers: a lawyer with GPT-4 is more productive, not unemployed.\nBut…"
+  },
+  {
+    "id": "2037916550142046627",
+    "date": "2026-03-28",
+    "html": "2/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 2. The Historical Analogies Have a Hidden Precondition\nEvery example Andreessen cites — agriculture, industrial automation, computers, the internet — shares a feature he never examines: the automating technology was narrow. It was better than humans at specific tasks but worse at…"
+  },
+  {
+    "id": "2037916166073807300",
+    "date": "2026-03-28",
+    "html": "1/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> You’re a smart guy making a compelling case supported by most of human history. Given that you don’t know the future, there’s a chance you’re wrong. That chance, let’s call it less than 10% (given your 0/10 observation), could still be devastating. Can you really not steelman an…"
+  },
+  {
+    "id": "2037759924537790631",
+    "date": "2026-03-28",
+    "html": "<a href=\"https://x.com/doppenhe\" target=\"_blank\" rel=\"noopener\">@doppenhe</a> This is why I keep coming back to the idea of 100x or 1000x more software within a few years. A lot of it will be disposable, but even if 5% goes to apps, that&#x27;s 5x-50x more app surface area than today. Chances are, the packaging, the distribution, the value exchange, end up…"
+  },
+  {
+    "id": "2037758282128076915",
+    "date": "2026-03-28",
+    "html": "<a href=\"https://x.com/AmandaAskell\" target=\"_blank\" rel=\"noopener\">@AmandaAskell</a> At least 10 years ago, meetings were also in-person, in some room, away from your desk. These days, you have several people on different Zoom calls, talking at the same time. It&#x27;s maddening."
+  },
+  {
+    "id": "2037613228998750325",
+    "date": "2026-03-27",
+    "html": "<a href=\"https://x.com/doppenhe\" target=\"_blank\" rel=\"noopener\">@doppenhe</a> Seat compression, margin compression, more competition, more substitutes."
+  },
+  {
+    "id": "2037597622211641375",
+    "date": "2026-03-27",
+    "html": "<a href=\"https://x.com/reidhoffman\" target=\"_blank\" rel=\"noopener\">@reidhoffman</a> &quot;Now, the moat around SaaS has weakened. The defensibility that comes from sheer engineering labor is no longer the fortress it once was. But the critical distinction is that a reduction of margins—or an erosion of moat—is not the same as being dead.&quot;\n\nIn financial markets, this^…"
+  },
+  {
+    "id": "2037301156440068271",
+    "date": "2026-03-26",
+    "html": "Capitalism, Government, and AI will converge."
+  },
+  {
+    "id": "2037202583753023620",
+    "date": "2026-03-26",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> It also doesn&#x27;t show up because the reporting is framed around pre-AI behaviors. We need to figure out new things to measure."
+  },
+  {
+    "id": "2037016251751649583",
+    "date": "2026-03-26",
+    "html": "A lot of successful products in the coming years will be analogues of services currently intended for humans (search, travel booking, GitHub, Slack, payments) but better suited for agents. Most of these will be new companies."
+  },
+  {
+    "id": "2037012573812658472",
+    "date": "2026-03-26",
+    "html": "<a href=\"https://x.com/justinskycak\" target=\"_blank\" rel=\"noopener\">@justinskycak</a> Back in the day when I had the attention span to read many books a year, I would learn a topic by reading 5 different books which intersected. This would work best when the books were related to the topic but orthogonal with each other in some way. For example, a textbook, a…"
+  },
+  {
+    "id": "2036982456080073114",
+    "date": "2026-03-26",
+    "html": "The capitalist position is straightforward. Any new hire who spends 50% or more of their time at a computer should be required to present a portfolio of vibe-coded projects. Existing employees ought to be evaluated through the same lens. Many won’t meet the bar, whether due to mindset or natural aptitude. But companies that fail to adopt this standard will find themselves equally obsolete. Office workers who don’t leverage AI will, eventually, find themselves without an income.\n\nI welcome the productivity gains. I worry about the social cost."
+  },
+  {
+    "id": "2036634640715591924",
+    "date": "2026-03-25",
+    "html": "<a href=\"https://x.com/justinskycak\" target=\"_blank\" rel=\"noopener\">@justinskycak</a> How will people achieve mastery when so many things can be deleted to the AI?"
+  },
+  {
+    "id": "2036517611769598275",
+    "date": "2026-03-24",
+    "html": "<a href=\"https://x.com/naval\" target=\"_blank\" rel=\"noopener\">@naval</a> Unnecessary or disposable? I think agents will still use scripting as a tool, and reuse some of their own tools to conserve tokens. But the business of software? That&#x27;s a different story."
+  },
+  {
+    "id": "2036516753266844007",
+    "date": "2026-03-24",
+    "html": "<a href=\"https://x.com/deanwball\" target=\"_blank\" rel=\"noopener\">@deanwball</a> Seems like there should be a BlueDot or MATS which targets celebrities."
+  },
+  {
+    "id": "2036516366073864532",
+    "date": "2026-03-24",
+    "html": "<a href=\"https://x.com/hamandcheese\" target=\"_blank\" rel=\"noopener\">@hamandcheese</a> Isn&#x27;t it similar to our inability to let kids roam free on the streets? Although I could steelman an argument that the internet/AI is capable of strong psychological reinforcement loops that were not available before."
+  },
+  {
+    "id": "2036515231887925556",
+    "date": "2026-03-24",
+    "html": "<a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> Have you adjusted your viewpoints on the plausibility of broad unemployment due to AI?"
+  },
+  {
+    "id": "2036514766647394662",
+    "date": "2026-03-24",
+    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> SaaS companies need to solve (eradicate) problems, rather than collect taxes for being a system of record."
+  },
+  {
+    "id": "2036514122049937599",
+    "date": "2026-03-24",
+    "html": "<a href=\"https://x.com/Noahpinion\" target=\"_blank\" rel=\"noopener\">@Noahpinion</a> People reveal a viewpoint that is convenient to their narrative. That every technological shift has lead to new jobs faster than it has displaced them. But their behavior shows society is already internalizing the unavoidable fact that AI is different."
+  },
+  {
+    "id": "2036484740761698718",
+    "date": "2026-03-24",
+    "html": "<a href=\"https://x.com/simonw\" target=\"_blank\" rel=\"noopener\">@simonw</a> For all I know, Claude Code has already sold my kidneys to an organ trafficker waiting for me at the next international airport I&#x27;ll be visiting. Being aware of my version of LiteLLM across all my uv virtual environments is a lost cause."
+  },
+  {
+    "id": "2036110778366054486",
+    "date": "2026-03-23",
+    "html": "<a href=\"https://x.com/alexolegimas\" target=\"_blank\" rel=\"noopener\">@alexolegimas</a> I don’t think this particular Jensen statement is implausible. But what is also plausible is that there are far fewer of these $500K engineers than before."
+  },
+  {
+    "id": "2036109644012372228",
+    "date": "2026-03-23",
+    "html": "<a href=\"https://x.com/deanwball\" target=\"_blank\" rel=\"noopener\">@deanwball</a> The two tails of the AI safety scenarios seem unproductive for policy making. Language-policing AIs on one end and full Terminator on the other. Both are plausible and bad. But there’s a middle ground that is both practical and doesn’t escape the average politician’s imagination.…"
+  },
+  {
+    "id": "2036108174407934155",
+    "date": "2026-03-23",
+    "html": "<a href=\"https://x.com/reidhoffman\" target=\"_blank\" rel=\"noopener\">@reidhoffman</a> Just have fewer people?"
+  },
+  {
+    "id": "2036107445018529997",
+    "date": "2026-03-23",
+    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> As a company grows, you’ll occasionally hire latecomers who want to change your culture. I’m not talking about questioning stale practices or bringing someone so exceptional that others start to follow their behavior. This is someone without a strong track record who puts a lot…"
+  },
+  {
+    "id": "2035892589552193708",
+    "date": "2026-03-23",
+    "html": "When I advocate for AI safety, a common remark I hear from non-experts is “Transformers isn’t the architecture that will get us to AGI.” Without a deeper understanding, this is a vague statement. The implication in this context is that we will somehow have to start over. But that shows a poor understanding of what is happening under the hood. We went from monolithic LLMs to mixture-of-experts models without most people noticing. LLMs are in fact evolving. Meanwhile, the data centers being built, the chips being designed and manufactured, the power supply being secured, the data pipelines, the agglomeration effects of a rapidly growing industry: all of these smoothly transition into most “new architectures.” Yann LeCun or Carmack starting a new company doesn’t mean the epicenter will shift."
+  },
+  {
+    "id": "2035879133088219398",
+    "date": "2026-03-23",
+    "html": "<a href=\"https://x.com/mcuban\" target=\"_blank\" rel=\"noopener\">@mcuban</a> The natural damping of progress might be a feature of a human economy. If friction trends to zero, and everyone can do anything, a lot of economics breaks down. What happens to human specialization?"
+  },
+  {
+    "id": "2035878357674729672",
+    "date": "2026-03-23",
+    "html": "<a href=\"https://x.com/martinvars\" target=\"_blank\" rel=\"noopener\">@martinvars</a> I don&#x27;t think it will be that fast, but it will be fast enough that people will get nervous. The reason multiples came down for SaaS wasn&#x27;t that the market believes revenue or margins will collapse tomorrow, but duration matters. If there is a general feeling that margins will…"
+  },
+  {
+    "id": "2035874944131948766",
+    "date": "2026-03-23",
+    "html": "<a href=\"https://x.com/labenz\" target=\"_blank\" rel=\"noopener\">@labenz</a> <a href=\"https://x.com/RosieCampbell\" target=\"_blank\" rel=\"noopener\">@RosieCampbell</a> <a href=\"https://x.com/pangramlabs\" target=\"_blank\" rel=\"noopener\"><a href=\"https://x.com/pangramlabs\" target=\"_blank\" rel=\"noopener\">@pangramlabs</a></a> I&#x27;m actually an investor in @pangramlabs, so I&#x27;m biased. When I first saw detection techniques based on the logits for a particular model, I thought it was hopeless. How hard can it be to alter token distribution enough to throw off the detector? But it&#x27;s not necessary to…"
+  },
+  {
+    "id": "2035756800558117351",
+    "date": "2026-03-22",
+    "html": "Having internal benchmarks is a prerequisite to be an AI company. Anything else is LARPing."
+  },
+  {
+    "id": "2035560318517309718",
+    "date": "2026-03-22",
+    "html": "Today, reward hacking leads to software bugs, or at worst a deleted database. Tomorrow, an agent will reward hack its way into an affordable bridge design. That bridge will collapse and people will die."
+  },
+  {
+    "id": "2035462449974153221",
+    "date": "2026-03-21",
+    "html": "<a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> So how is this compatible with your general position that AI won&#x27;t leave people behind? Even without AGI, if the entire landscape changes every few months, it&#x27;s going to be very very hard for the average person."
+  },
+  {
+    "id": "2035458801336496265",
+    "date": "2026-03-21",
+    "html": "[9] Terminal Bench Challenges <a href=\"https://github.com/harbor-framework/terminal-bench-challenges\" target=\"_blank\" rel=\"noopener\">https://github.com/harbor-framework/terminal-bench-challenges</a>"
+  },
+  {
+    "id": "2035457843898519675",
+    "date": "2026-03-21",
+    "html": "<a href=\"https://x.com/labenz\" target=\"_blank\" rel=\"noopener\">@labenz</a> <a href=\"https://x.com/TheZvi\" target=\"_blank\" rel=\"noopener\">@TheZvi</a> The best chance of preserving wealth is making life not miserable for everyone else. And misery isn&#x27;t just poverty. When our sense of purpose and meaning reaches its logical technological conclusion, there&#x27;ll be chaos. People need material safety, purpose, and a sense of control…"
+  },
+  {
+    "id": "2035455506366738704",
+    "date": "2026-03-21",
+    "html": "2/ Footnotes:\n\n[2] Terminal Bench 3 (accepting submissions): <a href=\"https://t.co/UQL96NZ4yl\" target=\"_blank\" rel=\"noopener\">https://t.co/UQL96NZ4yl</a>\n[3] install-windows-xp task: <a href=\"https://t.co/BCHULf2fVx\" target=\"_blank\" rel=\"noopener\">https://t.co/BCHULf2fVx</a>\n[4] install-windows-3.11: <a href=\"https://t.co/DptmLJPMV7\" target=\"_blank\" rel=\"noopener\">https://t.co/DptmLJPMV7</a>\n[5] video-processing: <a href=\"https://t.co/yPKiHq1aMB\" target=\"_blank\" rel=\"noopener\">https://t.co/yPKiHq1aMB</a>\n[6] Carlini&#x27;s swarm benchmark: <a href=\"https://t.co/Pb5HNLHpf8\" target=\"_blank\" rel=\"noopener\">https://t.co/Pb5HNLHpf8</a>\n[7] TB3 Task Proposal Rubric: <a href=\"https://t.co/gjwtp3ch9x\" target=\"_blank\" rel=\"noopener\">https://t.co/gjwtp3ch9x</a>\n[8] 100% human verification:"
+  },
+  {
+    "id": "2035455298417430911",
+    "date": "2026-03-21",
+    "html": "1/ <a href=\"http://x.com/i/article/2035451402903048192\" target=\"_blank\" rel=\"noopener\">http://x.com/i/article/2035451402903048192</a>"
+  },
+  {
+    "id": "2035451169678790809",
+    "date": "2026-03-21",
+    "html": "<a href=\"https://x.com/ByrneHobart\" target=\"_blank\" rel=\"noopener\">@ByrneHobart</a> My take is that while the intrinsic value is still not worth millions, the relative advantage of being the sole possessor would accrue to your personal brand. The smartest, most prolific presence in every online channel, for example."
+  },
+  {
+    "id": "2035373225354592550",
+    "date": "2026-03-21",
+    "html": "<a href=\"https://x.com/ByrneHobart\" target=\"_blank\" rel=\"noopener\">@ByrneHobart</a> If you were the only person with access to Claude Opus 4.6 in 2015, with a token budget more or less equivalent to a Max subscription today, how much is that worth? You don’t know anything about its internals and Claude doesn’t know either (it’s trained on data up to 2015)."
+  },
+  {
+    "id": "2035239785959497872",
+    "date": "2026-03-21",
+    "html": "<a href=\"https://x.com/natashajaques\" target=\"_blank\" rel=\"noopener\">@natashajaques</a> An approach I find useful is to create an embeddings database of everything I say or write across many channels, and ask an agent to fetch all my relevant statements, verbatim, to create an outline. The ideas and communication style are mine, but the LLM helps with organizing a…"
+  },
+  {
+    "id": "2035052436566725073",
+    "date": "2026-03-20",
+    "html": "<a href=\"https://x.com/lossfunk\" target=\"_blank\" rel=\"noopener\">@lossfunk</a> It’s an interesting paper but I think you’re deceiving your audience with the intuition. Brainfuck uses way fewer symbols. A model has to encode a lot more information in fewer tokens without making the embeddings for those tokens larger. It’s unfair. Humans would (and do) have…"
+  },
+  {
+    "id": "2034833191060873541",
+    "date": "2026-03-20",
+    "html": "Software started as something you delegated to someone else because it was too hard to build yourself. Adam Smith 101.\n\nMining companies don’t build their own bulldozers. Why? Because it would be cost prohibitive to build a handful of unique bulldozers, so implicitly all bulldozer buyers agree to fund an oligopoly of bulldozer manufacturers. Same with planes.\n\nSoftware started the same way. Every company needs bookkeeping. Outsourcing it to Intuit is win-win. But then software started eating the world. Rather than outsourcing arbitrary functions, vertical SaaS became the “system of record” for specific industries.\n\nAt first glance this is not that different from bookkeeping. But it is. If every company in an industry converges to identical processes, there’s less differentiation. DoorDash substitutizes restaurants. The same happens for vertical B2B. It’s worse than that. The best run companies in an industry are subsidizing their competitors by providing better feature ideas and data to the SaaS companies that serve everyone with the same product.\n\nIf software were cheaper and individualized, successful companies would want their own. Just like United would prefer having exclusive supersonic planes if they could (and in fact have a big order with Boom).\n\nThe future of one-size-fits-all software is predicated on whether it is better than custom software. Think about this. How many people love their B2B software? Not many. Fair or not, employees often feel burdened by the workflows forced upon them by a piece of software someone else decided to buy.\n\nFor vertical SaaS companies to defend their positioning, they will have to deliver supersonic airplanes."
+  },
+  {
+    "id": "2034829923924529324",
+    "date": "2026-03-20",
+    "html": "The moats will be at the intersection of software with X. Software x Autonomy, Software x Logistics, Software x Atoms, Software x Money, Software x Military, and so on. The value will come from deeply integrated software, rather than from selling the same reusable software to everyone in an industry."
+  },
+  {
+    "id": "2034828279589609800",
+    "date": "2026-03-20",
+    "html": "Five years ago, 0.4% of the population was actively employed as a software developer. What percentage of the population will be producing software more or less full time, five years from now?\n\nThink about it. What would a financial analyst do all day, but ask Claude to write disposable programs to analyze data? It won’t be everyone, but it will be a lot of people. I think 4%, 10x more, is a reasonable, if conservative, estimate.\n\nSo we will have ten times more people writing software, and each of them will be 10 times more productive than those writing software five years ago. So 100x more software.\n\nHow will that software be distributed?\n\nToday, most software is written by professionals hired by mostly software companies to write their software. When everyone can do so, it will be more evenly distributed across industries. Every kid coming out of high school will at some point contemplate just starting a vibecoded/agentic business. Why go to college anyway?\n\nWhere will these apps run? What percentage will be free?\n\nHere are some predictions:\n\n- 40% of net new software will be disposable programs (less than one month of use)\n- 20% will be for free or nearly free applications for personal or internal company use\n- 20% will go to automating business processes in previously hard-to-automate industries (this will be the most valuable)\n- 20% (this is already 4x) will go to pure-play big software companies\n\nPoint is, having 100x more software doesn’t mean pure-play software companies are 100x larger. It just means software becomes more abundant and more diffused across the economy."
+  },
+  {
+    "id": "2033749621995172079",
+    "date": "2026-03-17",
+    "html": "A big challenge I have when trying to help someone grasp an aspect of AI is that people tend to think of AI as some homogeneous thing. But what is actually happening is that we are speedrunning through many paradigms, which last just a few months each. Understanding the paradigm is essential in anticipating second and third order effects.\n\nFor a while in 2023, ChatGPT, a 175B parameter LLM, was &quot;AI&quot; to most people. We learned that GPT 3.5 was an all-in-one NLP tool capable of translation, sentiment analysis, summary, and also capable of writing silly songs, poetry, and jokes. Most people never used it, and of those that did, most only used it a few times.\n\nSo when GPT-4 came out, a model 10x as large, and it was much better at deep reasoning, it barely changed people&#x27;s perception (Google Trends shows interest peaked during launch and didn&#x27;t reach the same level again for 2 years).\n\nBy the time people started to appreciate GPT-4, those of us who were paying attention were experimenting with tool use (I wrote a misunderstood Slack bot years before Clawdbot). While the average &quot;expert&quot; was talking about prompting, the frontier circles were already talking about agents.\n\nAgents were a complete paradigm shift. We went from supplemental intelligence for our own reasoning to having AIs that operate on their own. Even as the paradigm changed, models weren&#x27;t good enough, so again they were dismissed as &quot;stochastic parrots.&quot; I&#x27;m not talking about developing-world farmers, either. It took until 2026 for the geniuses at hedge funds to question the prospects of AI in a world of infinite software written by agents.\n\nNow, everyone seems to have vibecoded an app (the actual number remains minuscule). You might think that finally, you get it. But the paradigm keeps evolving. At the frontier, we are thinking about 1000-agents swarms that will write so much code it would be impossible for a human to look at any of it.\n\nThe same is true for second, third, and Nth order consequences. By the time you finally grok that if agents can code, software will be more abundant, you only moved one step up a long ladder. And it&#x27;s important everyone is trying to climb this ladder, quickly, because AI will have a massive impact on the economy and society as we know it, and it&#x27;s going to happen very fast, within a decade.\n\nSo everyone should be thinking about the implications of having AIs that are 100x better than the best AIs today, at everything, and cheaper, and faster. And datacenters that consume as much energy as 100 Hoover Dams. And a consumer economy where a meaningful fraction of purchase decisions are never approved by a human. And so on and so forth ad infinitum.\n\nDecades, or centuries worth of economic shifts within our lifespans. The final destination might be incredible, but it&#x27;s highly unlikely that this amount of change goes easy on our social norms, institutions, legal frameworks, geopolitics, etc.\n\nSo, please, while this is something only humans can do, THINK."
+  },
+  {
+    "id": "2033357984437551554",
+    "date": "2026-03-16",
+    "html": "There&#x27;s not time like the time before the AGI takes over and turns Yosemite into solar panels. Go out and enjoy nature this summer!",
+    "images": [
+      "/assets/tweets/2033357984437551554-HDfwT18bQAA09pc.jpg"
+    ]
+  },
+  {
+    "id": "2033201126632534332",
+    "date": "2026-03-15",
+    "html": "<a href=\"https://x.com/Mihonarium\" target=\"_blank\" rel=\"noopener\">@Mihonarium</a> <a href=\"https://x.com/NeelNanda5\" target=\"_blank\" rel=\"noopener\">@NeelNanda5</a> <a href=\"https://x.com/OwainEvans_UK\" target=\"_blank\" rel=\"noopener\">@OwainEvans_UK</a> It’s an elegant experiment that defines new semantics for us to keep advancing our empirical understanding of AI. These are some of the most valuable papers."
+  },
+  {
+    "id": "2033030646201987416",
+    "date": "2026-03-15",
+    "html": "Vibe Revenge: If someone rubs you the wrong way, vibecode their startup over the weekend and offer it to their customers for free. If a colleague crosses you, automate their job over the weekend and share the news in a team email."
+  },
+  {
+    "id": "2032683011435802661",
+    "date": "2026-03-14",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> Did you try building a graph of email relationships first purely based on who emailed whom and use that (or similar static analysis) as aid?"
+  },
+  {
+    "id": "2032493835000115680",
+    "date": "2026-03-13",
+    "html": "We live in a world of Big Software. Relatively simple products are capturing an enormous amount of upside. The first word processors were built in the 60s. You can select among hundreds of awesome free word processors for your computer, in addition to the free one included by default. And yet, enterprises pay Google a lot of money for a word processor in a browser. Same for email. These things were awesome innovations at some point, but they haven’t changed very much. Yes, they are on the cloud, but storage and CPUs are cheap. Why do businesses pay so much for this? Simply because they’ve gotten used to the status quo. That peace of mind costs money, and so you have to pay $20/user per month for practically any tool your employees need. The argument that businesses wouldn’t pay if it wasn’t worth their time is incorrect. With most SaaS purchases, we are talking about a middle manager who is not doing some deep analysis. Finance departments are accustomed to a certain portion of P&amp;L going to software. This reality hasn’t been questioned in a long time, and in the meantime, software costs have become a bigger component of operating a business. And unlike consumer products, you rarely have employees raving about how much they love their SaaS software. So, as people wake up to the possibilities of what their own employees can do with AI, the status quo will vanish, expectations will go up, pricing power will decrease, and the market will evolve much faster than it has over the past 10 years."
+  },
+  {
+    "id": "2032489464174625109",
+    "date": "2026-03-13",
+    "html": "If you want to build a large software company, you should build it for agents, not people. There’ll be more agents, moving faster and spending more money than people. People will build their own apps for their own needs and to express their creativity. Agents will need resources like infrastructure, payment rails, and so on. That’s where the venture-scale returns will be."
+  },
+  {
+    "id": "2031897260322357341",
+    "date": "2026-03-12",
+    "html": "I&#x27;ve been doing this a lot. Sometimes it&#x27;s too much work to explain in plain English what I want. So I have the artifact that&#x27;s being generated include affordances so I can make manual adjustments. This is for an interactive bookshelf I am building for my personal website."
+  },
+  {
+    "id": "2031755746854174793",
+    "date": "2026-03-11",
+    "html": "<a href=\"https://x.com/crispheaney\" target=\"_blank\" rel=\"noopener\">@crispheaney</a> I thought you vibed more like a rhombicosidodecahedron"
+  },
+  {
+    "id": "2031754603382059333",
+    "date": "2026-03-11",
+    "html": "<a href=\"https://x.com/martinvars\" target=\"_blank\" rel=\"noopener\">@martinvars</a> Spain seems to have this colonial idea that Spanish is a universal language like English. I remember a Spanish family in 2001 going to a McDonald’s in Prague and insisting on talking Spanish to the cashiers who were clearly confused."
+  },
+  {
+    "id": "2031748780018827496",
+    "date": "2026-03-11",
+    "html": "<a href=\"https://x.com/emollick\" target=\"_blank\" rel=\"noopener\">@emollick</a> <a href=\"https://x.com/alexolegimas\" target=\"_blank\" rel=\"noopener\">@alexolegimas</a> Human relative advantage can still be dystopian. Consider a human with relative advantage of dexterity who doesn’t have plumbing training. Same human now wears AR glasses with earphones. A cheap AI tells the human exactly what to do. The human becomes a meat robot. All physical…"
+  },
+  {
+    "id": "2031746551199211614",
+    "date": "2026-03-11",
+    "html": "<a href=\"https://x.com/justinskycak\" target=\"_blank\" rel=\"noopener\">@justinskycak</a> Isn’t it just mimesis all the way down?"
+  },
+  {
+    "id": "2031745646349463679",
+    "date": "2026-03-11",
+    "html": "<a href=\"https://x.com/HalderAlaka\" target=\"_blank\" rel=\"noopener\">@HalderAlaka</a> It definitely obliterates flow."
+  },
+  {
+    "id": "2031744198177923494",
+    "date": "2026-03-11",
+    "html": "<a href=\"https://x.com/agazdecki\" target=\"_blank\" rel=\"noopener\">@agazdecki</a> You have to think of the game differently. If you can make a SaaS a month, you can also expose yourself more to luck and see if anything sticks. Yeah it’s unlikely it will stick with zero effort but the equation is very different than when building a rudimentary SaaS tool 5x-10x…"
+  },
+  {
+    "id": "2031393463657546184",
+    "date": "2026-03-10",
+    "html": "<a href=\"https://x.com/HalderAlaka\" target=\"_blank\" rel=\"noopener\">@HalderAlaka</a> It does remove some of the intrinsic pleasure that attracted some of us to engineering as children: the thoughtful, meticulous, step-by-step iteration that leads to a working solution. But the new world is interesting in its own way. I suspect most people have confused feelings,…"
+  },
+  {
+    "id": "2031080705917432013",
+    "date": "2026-03-09",
+    "html": "I&#x27;ve always had this perception that a mentor is someone who listens and, through Socratic dialogue, helps you arrive at the answer you already knew was right. But when I&#x27;ve engaged with mentors in that capacity, it hasn&#x27;t worked for me. I&#x27;m already introspective to a fault, and I don&#x27;t reach out very often, so when I do, I&#x27;m often confused and need a stronger push.\n\nIn spite of not being famous for my charm, over the years I&#x27;ve mentored a lot of people. I wouldn&#x27;t be surprised if the number of mentoring conversations I&#x27;ve had puts me at the 95th percentile. And my mentoring tends to be very confrontational. It&#x27;s not unusual for someone to be upset or down after a conversation with me (although that&#x27;s still the minority of instances).\n\nI&#x27;m most helpful when someone is looking to strategize a change and needs a brainstorming partner. But if I think someone&#x27;s current approach is bad, I will say so. And then I will text them every day until they do something about it. Sometimes I reach out to people I haven&#x27;t talked to in a long time and call them out for a tiny thing they said in a group chat. That drives people crazy, especially if there is some truth to it. One time, I decided someone had to get divorced and basically planned (and funded) the whole process.\n\nI&#x27;m probably leaving a lot of mentoring value on the table by being this way. I don&#x27;t recommend it. But I do think that on average, mentors could be more forceful. A lot of young mentees need momentum in any direction to get going. Driving that momentum is better than optimizing for the perfect decision. And if someone reaches out to you, you shouldn&#x27;t hold back.\n\nWhenever I had to have a difficult management conversation, I would start by telling people that while it definitely sucks for them, it&#x27;s not fun for the manager either. Most managers hate the conflict so much that the feedback comes out languid, which makes it hard to course correct. Being tough with someone you care about is really hard, and is often the best thing you can do for them."
+  },
+  {
+    "id": "2031048049120972876",
+    "date": "2026-03-09",
+    "html": "The SaaSpocalypse is one of those things that is easier to understand from first principles than most other changes, and yet people fail to make the leap. It’s basic microeconomics. \n\nSoftware is free. When the internet became a thing, did newspapers become more or less valuable? It’s not that hard to figure out the trend. \n\nThe specifics and the timeline might be off. The markets might be overreacting.\nVibecoders don’t need to copy all of Salesforce. That’s where that side of the debate is wrong.\n\nThey just need to do the following:\n•Provide a credible threat that they could do it, to negotiate\n•Replace individual features as standalone internal products\n•Buy a vibe-coded competitor that is simpler but cheaper\n•Reject upsells and bundling because there are so many more options\n•Use Claude to migrate out of any platform into any other\n\nThis is a non exhaustive list."
+  },
+  {
+    "id": "2031045910948647041",
+    "date": "2026-03-09",
+    "html": "AI makes software free, which pushes SaaS to unbundle. We’ll see strong demand from companies to pay only for the features they use. Since a large part of the SaaS moat is bundling, this will be a problem. NRR, which is partly driven by bundling more features over time, will suffer. This means companies will have to be more disciplined about CAC, which might limit velocity."
+  },
+  {
+    "id": "2030812875871420633",
+    "date": "2026-03-09",
+    "html": "Everyone should have a personal website with a portfolio of vibe-coded projects, and hiring managers should make this a requirement. No website? Build one and apply again. No noteworthy projects? Same thing. Interviews should dedicate substantial time to discussing personal projects. If you can&#x27;t build for yourself, you can&#x27;t build for anyone else."
+  },
+  {
+    "id": "2030809251573321952",
+    "date": "2026-03-09",
+    "html": "<a href=\"https://x.com/_dschnurr\" target=\"_blank\" rel=\"noopener\">@_dschnurr</a> Put on sunglasses."
+  },
+  {
+    "id": "2030746659991548157",
+    "date": "2026-03-08",
+    "html": "There will be a renaissance of vertically integrated companies like Tesla, SpaceX, and Apple. The reason is software.  \n\nOver the last several decades, software became an ever more important component of running a successful business. However, because of SaaS, most businesses don&#x27;t iterate on their own software. Software encodes processes. This means construction companies using Procore are a manifestation of Procore&#x27;s built-in abstractions.  \n\nThese SaaS abstractions are developed by understanding customer needs. But another way to frame it is that these abstractions copy what the best companies were already doing. In that sense, SaaS commoditizes procedural expertise. If the best company in a given vertical could develop its own software according to its needs, it would have an advantage competitors would struggle to replicate.  \n\nYes, you can say the same thing about a mining company building its own bulldozers, which would be impractical. Yet SpaceX builds and operates its own rockets. The optimal arrangement is downstream of many factors, including the overhead of owning more of the stack. If the overhead were zero (no cost, perfect execution), then more companies would benefit from owning the full stack.  Software is becoming free. This will change the appetite for verticalization. \n\nBut it goes further than that. Software was something of an impedance layer preventing deeper verticalization. Once a company breaks through that layer, it will have the incentive to keep going. The pendulum will swing this way for a while."
+  },
+  {
+    "id": "2029976223707976038",
+    "date": "2026-03-06",
+    "html": "Free markets create power law distributions. Individuals are free to make choices, to start companies, invest in them, work for them, buy from them. The vast majority of founders will have a poor financial outcome. But some will become billionaires. Society votes with their actions to decide who that will be.\n\nSo you want to take wealth away from billionaires? Why not also take power law fame away from the famous? Make a law to limit the number of Instagram followers anyone can have. How about people born really smart, is that fair to the rest of us? How about people who get to live in much better weather? Should we rotate people throughout the country so we all get to experience living at a ski resort or the beach? Should we limit how many shoes Nike is allowed to sell? How many stadiums Taylor Swift is allowed to fill? How many World Cups Brazil is allowed to win?\n\nThe anti-billionaire argument is driven by the same old socialist sentiment of being annoyed that others have it better than we do. It’s not people with spreadsheets trying to figure out the optimal way to make everyone better off. It’s driven by a much more primal energy. Would the world be better if we all truly had the same opportunities down to the genetic makeup? Maybe. Maybe it would be dystopian. But either way, that’s not the world we live in.\n\nNow, there is an optimal taxing strategy, and it might change if AI redefines labor. Inheritance should be taxed much higher. And because the world is not optimal, there are things we could be doing better.\n\nLikewise, the very rich could be better about conspicuous consumption. Jeff Bezos does a disservice to his social class. Those who benefited from free markets should acknowledge that meritocracy exists in theory, but that in practice they benefited from their genetics and upbringing, and even after that foundation, extraordinary success is largely correlated with luck. It was ultimately the actions of millions of people that made them successful. They should be humbled by that. Our tax code is designed to promote philanthropy. Use it.\n\nBut don’t destroy the most effective engine of wealth creation in history, for most people involved, because of feelings. Have some rigor."
+  },
+  {
     "id": "2029235402306142319",
     "date": "2026-03-04",
     "html": "My initial reaction was that things enshittify because consumers pursue the lowest prices. But there are many examples where higher prices lead to enshittification.\n\nConsider hospitality. In countries where AirBnBs are cheap, hosts have to compete more aggressively with each other. Foreigners are comfortable paying a relatively higher price compared to the local distribution, so competition comes down to quality. When those same guests are ready to leave, they will be thankful for a great experience and will tidy up the place. In the USA, AirBnBs are expensive and often scarce, so most hosts don’t bother putting much effort in, even though they are being paid a lot and adding cool perks would not seriously impact their margins. Meanwhile, guests, already annoyed by the poor quality and expensive cleaning fees, are less likely to care about leaving the place better than they found it. Things enshittify.\n\nThe same dynamic applies to low and medium-tier restaurants becoming more expensive, with staff making more money through minimum wage increases and tips. Is staff at an average restaurant in the USA actually better or nicer than in Argentina, where they genuinely need to earn their tips? The same goes for hotels, which now cost two to three times what they did ten years ago and no longer change your towels."
@@ -69,7 +568,7 @@ window.__TWEETS = [
   {
     "id": "2025074599134986385",
     "date": "2026-02-21",
-    "html": "A huge proportion of comercial transactions are driven by the seller reaching out to the buyer. Businesses are always looking for efficient channels where the cost of finding qualified leads is minimized.\n\nSome of the best channels are &quot;free&quot;, in the sense that the channel itself doesn&#x27;t monetize the transaction. It&#x27;s not really free in that there&#x27;s still sales and marketing effort that goes into these channels.\n\nSEO is a classic example. Once upon a time, a company could drive a huge amount of inbound interest by ranking high in organic search for relevant terms. Being great at SEO used to be a super weapon. TripAdvisor, Yelp, and others built empires by optimizing their rankings.\n\nFor years there was fearmongering about Google showing answers directly in search or including interactive widgets like maps or flights that competed with vertical websites. As it&#x27;s often the case those fears took longer than expected to make a real dent.\n\nNow we find ourselves in a moment where SEO as a channel is being squeezed from both ends. On one side we have LLMs answering virtually anything without requiring us to visit a website. On the other hand producing content is effectively free, so there&#x27;s an explosion of websites competing for the same queries. This has made SEO a significantly less effective channel.\n\nBut the impact goes across all channels. AIs can write customized emails at scale, so nobody trusts their inbox, and soon AIs will be reading and filtering our emails anyway. Same is true for texts, phone calls, etc.\n\nEvery free channel will become saturated because of AI.\n\nIn order to have effective channels there has to be some sort of scarcity. When high quality websites and sales calls were driven by humans who cost money, that was the limiting factor. AI takes that away, hence overwhelming many channels.\n\nSo what will happen next?\n\nAdvertising as a channel will strenghten. Whoever has a captive audience will be able to sell it to the highest bidder. In person events, which have natural filtering mechanisms, will become more valuable.\n\nWhat else?"
+    "html": "A huge proportion of comercial transactions are driven by the seller reaching out to the buyer. Businesses are always looking for efficient channels where the cost of finding qualified leads is minimized.\n\nSome of the best channels are &quot;free&quot;, in the sense that the channel itself doesn&#x27;t monetize the transaction. It&#x27;s not really free in that there&#x27;s still sales and marketing effort that goes into these channels.\n\nSEO is a classic example. Once upon a time, a company could drive a huge amount of inbound interest by ranking high in organic search for relevant terms. Being great at SEO used to be a super weapon. TripAdvisor, Yelp, and others built empires by optimizing their rankings.\n\nFor years there was fearmongering about Google showing answers directly in search or including interactive widgets like maps or flips that competed with vertical websites. As it&#x27;s often the case those fears took longer than expected to make a real dent.\n\nNow we find ourselves in a moment where SEO as a channel is being squeezed from both ends. On one side we have LLMs answering virtually anything without requiring us to visit a website. On the other hand producing content is effectively free, so there&#x27;s an explosion of websites competing for the same queries. This has made SEO a significantly less effective channel.\n\nBut the impact goes across all channels. AIs can write customized emails at scale, so nobody trusts their inbox, and soon AIs will be reading and filtering our emails anyway. Same is true for texts, phone calls, etc.\n\nEvery free channel will become saturdated because of AI.\n\nIn order to have effective channels there has to be some sort of scarcity. When high quality websites and sales calls were driven by humans who cost money, that was the limiting factor. AI takes that away, hence overwhelming many channels.\n\nSo what will happen next?\n\nAdvertising as a channel will strenghten. Whoever has a captive audience will be able to sell it to the highest bidder. In person events, which have natural filtering mechanisms, will become more valuable.\n\nWhat else?"
   },
   {
     "id": "2025072749866254711",
@@ -99,7 +598,7 @@ window.__TWEETS = [
   {
     "id": "2023454315709689860",
     "date": "2026-02-16",
-    "html": "<a href=\"https://x.com/g_leech_\" target=\"_blank\" rel=\"noopener\">@g_leech_</a> We need more empirical evidence to complement the now pervasive intuition that benchmarks have issues. It makes me empathize with <a href=\"https://x.com/GaryMarcus\" target=\"_blank\" rel=\"noopener\">@GaryMarcus</a>. You test a newly minted model with stellar benchmark results across dozens of categories, yet you can still trace a path of stupidity by…"
+    "html": "@g_leech_ We need more empirical evidence to complement the now pervasive intuition that benchmarks have issues. It makes me empathize with <a href=\"https://x.com/GaryMarcus\" target=\"_blank\" rel=\"noopener\">@GaryMarcus</a>. You test a newly minted model with stellar benchmark results across dozens of categories, yet you can still trace a path of stupidity by…"
   },
   {
     "id": "2022347175683092824",
@@ -1220,27 +1719,27 @@ window.__TWEETS = [
   {
     "id": "574389818928451584",
     "date": "2015-03-08",
-    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> BTW, this is my first Tweet dispute, hope all is well."
+    "html": "@DylanWhitman BTW, this is my first Tweet dispute, hope all is well."
   },
   {
     "id": "574389674602450944",
     "date": "2015-03-08",
-    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> in the long term, that might reduce total conversions, but long term is harder to measure."
+    "html": "@DylanWhitman in the long term, that might reduce total conversions, but long term is harder to measure."
   },
   {
     "id": "574389548341272576",
     "date": "2015-03-08",
-    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> sorry to keep going... but there are many shady ways to make users convert to your action of choice."
+    "html": "@DylanWhitman sorry to keep going... but there are many shady ways to make users convert to your action of choice."
   },
   {
     "id": "574378644077871104",
     "date": "2015-03-08",
-    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> Gotcha. We are just operating under different definitions of measurable. I was thinking units, like volts, watts, UXions."
+    "html": "@DylanWhitman Gotcha. We are just operating under different definitions of measurable. I was thinking units, like volts, watts, UXions."
   },
   {
     "id": "574375328065265664",
     "date": "2015-03-08",
-    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> Phew, that makes me feel better. Curious, what unit would you use to measure UX?"
+    "html": "@DylanWhitman Phew, that makes me feel better. Curious, what unit would you use to measure UX?"
   },
   {
     "id": "574373044166135808",
@@ -1250,7 +1749,7 @@ window.__TWEETS = [
   {
     "id": "574371747157311489",
     "date": "2015-03-08",
-    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> &quot;completely untrue&quot; is pretty strong. This is purely my opinion, but hoped to get a few solid points. Care to elaborate?"
+    "html": "@DylanWhitman &quot;completely untrue&quot; is pretty strong. This is purely my opinion, but hoped to get a few solid points. Care to elaborate?"
   },
   {
     "id": "573876850390274049",
@@ -1413,5 +1912,5 @@ window.__TWEETS = [
     "html": "In matters of personal success, is it better to focus our energy on a single pursuit, or to save some time for the unknown? Can we do both?"
   }
 ];
-window.__BLOCKED = ["1928845702144078175", "1950728204177519098", "2025073033040593115", "2022775301089169531", "2008705468017922212", "1950953643378938219", "1929301890342298016", "1925571322949894502", "1890480968705671347", "1885779726901580142", "1873956590703034369", "1871699940491288723", "1871699665902850475", "1871697863400726610", "1864128891356631196", "835321348306030592", "785210569188007936", "779417827220389888", "774436174475571200", "744217752466915328", "656909304637734912", "655169198277136388", "644674969381699584", "639202963043536896", "631235955060400128", "628086240408043522", "625470746442076162", "573678357285584896", "570759656022409216", "570030818229391360", "569962291887788032", "568151414364614656", "567928551963525120", "567912376873406464", "522243430869921792", "517507833223335936", "501489271824330752", "492728327665246208", "466208294504513537", "466204027437740032", "385127457822494720", "380385043325014016", "380149234206380032", "380089681922113536", "380089438920921088", "380079180957753344", "380033466940661760", "379741214691454976", "375725038697058304", "375724868081176576", "364604446346448897", "360937252781694976", "359709104928866307", "311154220839600128", "308976088770555904", "308975952044625921", "308974193834356736", "307279224979484672", "185780484452782081", "182170533830459392", "182169858232958976", "182168648696336385", "175026354088189953", "172003853691142144", "144451573546893312", "66546215369719808", "10000219630", "9199340584", "9198167176"];
+window.__BLOCKED = ["2025073033040593115", "2022775301089169531", "2008705468017922212", "1950953643378938219", "1950728204177519098", "1929301890342298016", "1928845702144078175", "1925571322949894502", "1890480968705671347", "1885779726901580142", "1873956590703034369", "1871699940491288723", "1871699665902850475", "1871697863400726610", "1864128891356631196", "835321348306030592", "785210569188007936", "779417827220389888", "774436174475571200", "744217752466915328", "656909304637734912", "655169198277136388", "644674969381699584", "639202963043536896", "631235955060400128", "628086240408043522", "625470746442076162", "573678357285584896", "570759656022409216", "570030818229391360", "569962291887788032", "568151414364614656", "567928551963525120", "567912376873406464", "522243430869921792", "517507833223335936", "501489271824330752", "492728327665246208", "466208294504513537", "466204027437740032", "385127457822494720", "380385043325014016", "380149234206380032", "380089681922113536", "380089438920921088", "380079180957753344", "380033466940661760", "379741214691454976", "375725038697058304", "375724868081176576", "364604446346448897", "360937252781694976", "359709104928866307", "311154220839600128", "308976088770555904", "308975952044625921", "308974193834356736", "307279224979484672", "185780484452782081", "182170533830459392", "182169858232958976", "182168648696336385", "175026354088189953", "172003853691142144", "144451573546893312", "66546215369719808", "10000219630", "9199340584", "9198167176"];
 </script>
