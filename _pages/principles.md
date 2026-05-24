@@ -59,6 +59,7 @@ A list of principles, organized into categories, in no particular order. Very fe
   - Double down when you feel energized and intentionally rest when drained
 - Do hard things, do your thing, do it for decades
   - Live an Asymmetric life
+- Live the most unlikely version of your life
 - Try new things regularly
   - "You won't conquer the oceans if you stay within sight of the shore."
 - Relentless is really hard to compete with.
