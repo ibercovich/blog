@@ -29,10 +29,44 @@ layout: default
   }
 
   .card {
+    position: relative;
+    overflow: hidden;
     padding: 1rem 1.1rem;
     border-bottom: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
     transition: background 0.15s ease;
+  }
+
+  .card-ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 84px;
+    height: 84px;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  .card-ribbon span {
+    position: absolute;
+    top: 15px;
+    right: -30px;
+    display: block;
+    width: 120px;
+    padding: 2px 0;
+    transform: rotate(45deg);
+    background: #2f7d4f;
+    color: #fff;
+    font-size: 0.52rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-ribbon--ipo span {
+    background: #2f5fb0;
   }
 
   .card:nth-child(3n) {
@@ -133,6 +167,10 @@ layout: default
     for (var i = 0; i < companies.length; i++) {
       var co = companies[i];
       h += '<div class="card">';
+      if (co.exit) {
+        var ribbonClass = co.exit.toLowerCase() === 'ipo' ? ' card-ribbon--ipo' : '';
+        h += '<div class="card-ribbon' + ribbonClass + '"><span>' + esc(co.exit) + '</span></div>';
+      }
       h += '<div class="card-name">' + link(co) + '</div>';
       if (detailed && co.role) h += '<div class="card-badge">' + esc(co.role) + '</div>';
       if (detailed && co.notes) h += '<div class="card-note">' + esc(co.notes) + '</div>';
