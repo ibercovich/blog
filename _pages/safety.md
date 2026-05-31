@@ -188,8 +188,8 @@ Where to meet people and find collaborators. The recurring series below are wort
 - [ILIAD](https://www.iliadconference.com/) — Free alignment unconference with participant-led sessions, Berkeley; annual, open application.
 - [Apart Research hackathons](https://apartresearch.com/sprints) — Monthly open weekend research sprints, remote + global hubs; free, no credentials needed.
 - [IASEAI](https://www.iaseai.org/) — Academic/policy conference of the Intl. Association for Safe & Ethical AI; annual, call for papers.
-- [TAIS](https://tais2026.cc/) — One-day technical AI-safety conference, Oxford; open registration.
-- [ControlConf](https://controlconf.org/) — Conference on AI control — keeping powerful AI systems in check; gathers researchers working on control techniques.
+- [TAIS](https://tais2026.cc/) — Annual one-day technical AI-safety conference, Oxford; free and open to all backgrounds.
+- [ControlConf](https://controlconf.org/) — Conference on AI control (run by Redwood Research and FAR.AI), Berkeley; gathers researchers building safeguards robust to misaligned models.
 - [AI Security Forum](https://aisecurity.forum/) — Recurring forum (Washington DC and Las Vegas / DEF CON week) for people securing AI systems, model weights, hardware, and compute — across labs, government, and research.
 - [LSAIR](https://lsair.eu/) — Large-Scale AI Risks; interdisciplinary conference on the ethics, safety, and governance of advanced AI.
 - [Australian AI Safety Forum](https://www.aisafetyforum.au/) — Interdisciplinary conference (Australians for AI Safety) spanning research, government, industry, and civil society.
