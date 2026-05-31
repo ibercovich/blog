@@ -176,7 +176,11 @@ These fund the space but don't take unsolicited proposals — listed so you know
 
 ## Conferences & Events {#events}
 
-Where to meet people and find collaborators. For the live, up-to-date calendar (dates and deadlines), see [aisafety.com/events](https://aisafety.com/events). The recurring series below are the ones worth knowing by name.
+Where to meet people and find collaborators. The recurring series below are worth knowing by name; for the full, up-to-date calendar of dated events, use the trackers:
+
+- [aisafety.com/events-and-training](https://aisafety.com/events-and-training) — the broadest AI-safety calendar (conferences, bootcamps, fellowships, hackathons, meetups).
+- [IASEAI — upcoming events](https://www.iaseai.org/upcoming-events) — events from the International Association for Safe & Ethical AI.
+- [mlsafety.org/events](https://www.mlsafety.org/events) — safety workshops co-located with NeurIPS / ICML / ICLR.
 
 - [FAR.AI Alignment Workshop](https://www.far.ai/events/alignment-workshop) — Curated ~300-person technical alignment gathering, several times a year near major ML conferences; apply via EOI.
 - [EA Global](https://www.effectivealtruism.org/ea-global) — Multi-city conferences with a heavy AI-safety track, built around 1:1 networking; application-based.
@@ -192,7 +196,7 @@ Where to meet people and find collaborators. For the live, up-to-date calendar (
 - [AI Safety Australia & New Zealand](https://luma.com/AI_Safety_NZ) — AISANZ; AI-safety conferences for the Australia/NZ region.
 - [LessWrong Community Weekend](https://www.lesswrong.com/events) — Annual European rationalist unconference with a strong AI-safety contingent.
 
-*Also:* safety workshops co-located with NeurIPS/ICML/ICLR (tracker: [mlsafety.org/events](https://www.mlsafety.org/events)), and the online [MAISU](https://www.lesswrong.com/events) unconference.
+*Also:* the online [MAISU](https://www.lesswrong.com/events) unconference, and academic safety workshops at NeurIPS / ICML / ICLR (see the mlsafety.org tracker above).
 
 ---
 
