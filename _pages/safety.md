@@ -9,6 +9,8 @@ date: 2026-05-31 00:00:00 -0700
 
 A personal, evolving map of AI-safety entities that are *actively looking for people* — hiring, running programs, convening, or funding. Not a complete landscape: the filter is "can I get involved here?" Unlisted by design.
 
+> **Start here:** [aisafety.com](https://aisafety.com/) — a comprehensive, regularly-updated hub for the whole AI-safety landscape (orgs, courses, jobs, events, funding, communities). The page below is my curated, opinionated subset, focused on getting involved.
+
 **Jump to:** [Organizations](#organizations) · [Programs & Fellowships](#programs) · [Incubators & Coworking](#incubators) · [Funding](#funding) · [Conferences & Events](#events) · [People (Connectors)](#people)
 
 ---
@@ -90,6 +92,17 @@ Cohort-based on-ramps to skill up and do real safety work.
 - [Principles of Intelligence](https://princint.ai/) — Formerly PIBBSS; bridges complex-systems science and alignment via a 3-month summer fellowship and a paid math-alignment residency (with Iliad) at LISA London.
 - [ERA Fellowship](https://erafellowship.org/) — 10-week fully-funded Cambridge fellowship for researchers/entrepreneurs working on frontier AI risk; expression of interest open.
 - [AI Leadership Collective](https://aileadershipcollective.com/) — Free 3-month fellowship + community helping frontier-lab employees drive internal safety initiatives.
+- [CBAI](https://www.cbai.ai/) — Cambridge Boston Alignment Initiative; runs CAMBRIA, a full-time ARENA-based ML upskilling program for aspiring technical AI-safety researchers (meals/travel covered).
+- [CAISH](https://caish.org/) — Cambridge AI Safety Hub; technical programs including a hardware-assurance course on verifying what AI chips compute, where, and at what scale.
+- [EleutherAI — SOAR](https://www.eleuther.ai/soar) — Summer of Open AI Research; people with little/no research experience contribute to open projects under mentorship (remote, via Discord).
+- [Effective Thesis](https://www.effectivethesis.org/) — Pairs students and early-career researchers with high-impact orgs to turn their thesis into a real research project, with mentorship.
+- [BASE](https://www.baseresearch.org/) — Black in AI Safety and Ethics; part-time fellowship developing Black researchers across alignment, security, and governance.
+- [Talos Network](https://www.talosnetwork.org/) — AI Policy Leaders Programme: trains aspiring policy professionals for AI-governance careers, with mentorship and think-tank placements.
+- [Stanford CISAC](https://cisac.fsi.stanford.edu/) — Center for International Security and Cooperation; academic-year fellowships (pre/postdoc, junior faculty) on AI in strategic stability and geopolitics.
+- [High Impact Professionals](https://www.highimpactprofessionals.org/) — Impact Accelerator helping experienced professionals transition into high-impact careers, including AI safety.
+- [Human-Aligned AI Summer School](https://humanaligned.ai/) — Intensive summer school on technical AI alignment research; talks, workshops, and discussions.
+- [Foresight Fellowship](https://foresight.org/engage/fellowship/) — Year-long program helping early-career scientists and engineers advance AI safety, with networking and expert exchange.
+- [plzdontkillus](https://plzdontkillus.com/) — Experimental creator bootcamp where participants post daily short-form AI-safety content, with workshops and mentorship.
 
 ---
 
@@ -163,7 +176,7 @@ These fund the space but don't take unsolicited proposals — listed so you know
 
 ## Conferences & Events {#events}
 
-Where to meet people and find collaborators.
+Where to meet people and find collaborators. For the live, up-to-date calendar (dates and deadlines), see [aisafety.com/events](https://aisafety.com/events). The recurring series below are the ones worth knowing by name.
 
 - [FAR.AI Alignment Workshop](https://www.far.ai/events/alignment-workshop) — Curated ~300-person technical alignment gathering, several times a year near major ML conferences; apply via EOI.
 - [EA Global](https://www.effectivealtruism.org/ea-global) — Multi-city conferences with a heavy AI-safety track, built around 1:1 networking; application-based.
@@ -173,6 +186,11 @@ Where to meet people and find collaborators.
 - [IASEAI](https://www.iaseai.org/) — Academic/policy conference of the Intl. Association for Safe & Ethical AI; annual, call for papers.
 - [TAIS](https://tais2026.cc/) — One-day technical AI-safety conference, Oxford; open registration.
 - [ControlConf](https://controlconf.org/) — Conference on AI control — keeping powerful AI systems in check; gathers researchers working on control techniques.
+- [AI Security Forum](https://aisecurity.forum/) — Recurring forum (Washington DC and Las Vegas / DEF CON week) for people securing AI systems, model weights, hardware, and compute — across labs, government, and research.
+- [LSAIR](https://lsair.eu/) — Large-Scale AI Risks; interdisciplinary conference on the ethics, safety, and governance of advanced AI.
+- [Australian AI Safety Forum](https://www.aisafetyforum.au/) — Interdisciplinary conference (Australians for AI Safety) spanning research, government, industry, and civil society.
+- [AI Safety Australia & New Zealand](https://luma.com/AI_Safety_NZ) — AISANZ; AI-safety conferences for the Australia/NZ region.
+- [LessWrong Community Weekend](https://www.lesswrong.com/events) — Annual European rationalist unconference with a strong AI-safety contingent.
 
 *Also:* safety workshops co-located with NeurIPS/ICML/ICLR (tracker: [mlsafety.org/events](https://www.mlsafety.org/events)), and the online [MAISU](https://www.lesswrong.com/events) unconference.
 
