@@ -24,6 +24,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Profound insight come from focusing intently on the smallest details
   - e.g.: go deeper, narrower, or simpler with all ideas, projects, etc
 - Minimize number of areas where to specialize
+- Commoditization of knowledge gives lived experience a comparative advantage
 - It's possible to know more than anyone else on a topic
 - It's possible to become a world expert in a niche topic in months or years
 - The most interesting people are the most interested
