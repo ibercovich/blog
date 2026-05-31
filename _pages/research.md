@@ -5,6 +5,20 @@ title: Research
 permalink: /research/
 ---
 
+## Current Work
+
+I'm leading task quality for [Terminal-Bench 3](https://github.com/harbor-framework/terminal-bench-3/), the next iteration of the Terminal-Bench benchmark, launching June 2026. The goal is a harder, more realistic set of command-line tasks that pushes beyond the limits of current frontier models, with a heavy emphasis on verifier robustness and resistance to reward hacking.
+
+## Under Review
+
+Three papers are currently under review at NeurIPS 2026. Details are limited while they're in the submission process.
+
+**Hardening agent benchmarks against reward hacking.** A method for automatically building exploit-resistant verifiers for agent benchmarks, using adversarial loops of cooperating LLM agents rather than per-task manual patching.
+
+**Ultra-long-horizon software engineering.** A benchmark of project-scale software tasks that take hours and millions of tokens, designed to measure sustained agent progress and to resist single-test shortcut solutions.
+
+**Search strategies for autonomous ML research agents.** A framework for studying how different search and quality-diversity strategies affect the ability of autonomous agents to explore and produce genuinely novel machine learning research.
+
 ## Publications
 
 ### 2026
