@@ -85,3 +85,7 @@ University of California, Santa Barbara
 University of Massachusetts Amherst
 *Summa Cum Laude, GPA 3.95/4.00*
 *Departmental Honors with greatest distinction*
+
+---
+
+Full publication list on [Google Scholar](https://scholar.google.com/citations?hl=en&user=UYoHaPoAAAAJ).

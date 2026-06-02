@@ -16,12 +16,12 @@ window.__INVESTMENTS = {
     { name: "HeyTutor", url: "https://heytutor.com/", role: "CEO, Board" },
     { name: "Yogi", url: "https://www.meetyogi.com/", role: "Board Member" },
     { name: "Voyager Portal", url: "https://www.voyagerportal.com/", role: "Board Member" },
-    { name: "Graphiq", role: "VP Eng., then GM", notes: "Acquired by Amazon 2017", exit: "Acquired" }
+    { name: "Graphiq", role: "VP Eng., then GM", notes: "Acquired by Amazon 2017" }
   ],
   scop: [
     { name: "Pearly", url: "https://www.pearly.co/" },
     { name: "FlipCX", url: "https://flipcx.com/" },
-    { name: "Procore", url: "https://www.procore.com/", exit: "IPO" },
+    { name: "Procore", url: "https://www.procore.com/" },
     { name: "Pangram", url: "https://www.pangram.com/" },
     { name: "Artera", url: "https://artera.io/" },
     { name: "Umbra Space", url: "https://umbra.space/" },
