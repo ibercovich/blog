@@ -7,7 +7,7 @@ permalink: /research/
 
 ## Current Work
 
-I'm leading task quality for [Terminal-Bench 3](https://github.com/harbor-framework/terminal-bench-3/), the next iteration of the Terminal-Bench benchmark, launching June 2026. The goal is a harder, more realistic set of command-line tasks that pushes beyond the limits of current frontier models, with a heavy emphasis on verifier robustness and resistance to reward hacking.
+I'm deeply involved with task quality for [Terminal-Bench 3](https://github.com/harbor-framework/terminal-bench-3/), the next iteration of the Terminal-Bench benchmark, launching June 2026. The goal is a harder, more realistic set of command-line tasks that pushes beyond the limits of current frontier models, with a heavy emphasis on verifier robustness and resistance to reward hacking.
 
 ## Under Review
 
