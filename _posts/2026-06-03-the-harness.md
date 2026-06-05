@@ -11,7 +11,7 @@ If that's where things are heading, the question for any vertical AI company is 
 
 Take chip design, the hardest vertical I know.
 
-There's a bottleneck in semiconductors. We keep designing more ambitious chips every year (more transistors, more complexity, tighter timelines), and at the same time the supply of people who actually know how to design and verify them is shrinking. Verification engineering, the job of proving that a chip does exactly what it's supposed to do before you commit it to silicon, is a growing-in-demand role in the US. But the average age of the people doing it is over 40, and fewer people are going to school for it. So you have demand going up and the talent pipeline going down. That's a bottleneck, and bottlenecks like that are exactly where I want to be investing.
+There's a bottleneck in semiconductors. We keep designing more ambitious chips every year (more transistors, more complexity, tighter timelines), and at the same time the supply of people who actually know how to design and verify them is shrinking. Verification engineering, the job of proving that a chip does exactly what it's supposed to do before you commit it to silicon, is a growing-in-demand role in the US. But the average age of the people doing it is over 40, and fewer people are going to school for it. Even the ones who do aren't job-ready: curricula run years behind industry, and in some specialties a PhD is just the starting point for another five years of training. So you have demand going up and the talent pipeline going down. That's a bottleneck, and bottlenecks like that are exactly where I want to be investing.
 
 ## What designing a chip actually looks like
 
@@ -53,7 +53,7 @@ That's the opposite of the other camp. There's a well-funded effort that takes t
 
 ## Why can't the incumbents just do it?
 
-The obvious question is why EDA companies don't simply take the AI route themselves. The answer is talent. The kind of people who can actually do this work are extraordinarily scarce, on the order of thousands in the entire world, and they command very high salaries. They will go to a startup and take equity. There's no way the compensation structure of a thirty-year-old EDA company can digest this personnel, and those people don't want to work there. You go to an AI conference and everyone wants to be at a startup, or at one of the big labs. EDA isn't cool. So there's no realistic way for the incumbents to assemble a team of fifty or a hundred of these people to go build this, even though they can see it coming. That's the opening.
+The obvious question is why EDA companies don't simply take the AI route themselves. Part of the answer is incentives. They charge by the compute-hour, so a tool that runs 100x faster is a tool that bills 100x less. Nobody builds the thing that cannibalizes their own meter. The other part is talent. The kind of people who can actually do this work are extraordinarily scarce, on the order of thousands in the entire world, and they command very high salaries. They will go to a startup and take equity. There's no way the compensation structure of a thirty-year-old EDA company can digest this personnel, and those people don't want to work there. You go to an AI conference and everyone wants to be at a startup, or at one of the big labs. EDA isn't cool. So there's no realistic way for the incumbents to assemble a team of fifty or a hundred of these people to go build this, even though they can see it coming. That's the opening.
 
 ## How is venture capital changing?
 
