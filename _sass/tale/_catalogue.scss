@@ -1,6 +1,14 @@
 @use 'variables' as vars;
 
 .catalogue {
+  &-disclaimer {
+    color: vars.$default-tint;
+    font-family: vars.$serif-secondary;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
   &-item {
     border-bottom: 1px solid vars.$grey-2;
     color: vars.$default-color;

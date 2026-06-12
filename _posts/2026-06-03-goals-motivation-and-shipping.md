@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Transcript: Goals, Motivation, and Shipping"
+title: "Goals, Motivation, and Shipping"
 author: Ivan Bercovich
 date: 2026-06-03T00:00:00.000Z
 ---

@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if paginator.page == 1 %}
+  <p class="catalogue-disclaimer">
+    Many of these posts are built from transcripts of conversations throughout my day. I'll get to better editing someday.
+  </p>
+{% endif %}
+
 <div class="catalogue">
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
