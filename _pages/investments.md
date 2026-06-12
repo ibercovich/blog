@@ -64,7 +64,10 @@ window.__INVESTMENTS = {
     { name: "Umbra Space", url: "https://umbra.space/" },
     { name: "Lebane", url: "https://www.lebane.app/" },
     { name: "Baris", url: "https://everybaris.com/" },
-    { name: "Propin", url: "https://propin.ai/" }
+    { name: "Propin", url: "https://propin.ai/" },
+    { name: "Harbor", url: "https://harborframework.com/" },
+    { name: "Quaise Energy", url: "https://www.quaise.com/" },
+    { name: "Mulberry Industries", url: "https://www.mulberryindustries.com/" }
   ]
 };
 </script>
