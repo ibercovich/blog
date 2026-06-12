@@ -13,7 +13,7 @@ I'm deeply involved with task quality for [Terminal-Bench 3](https://github.com/
 
 **Training secure coding agents.** A follow-up to [SusVibes](https://arxiv.org/abs/2512.03262), moving from benchmarking to training. The original work showed that frontier models produce functionally correct but insecure code. This project improves data synthesis methods and explores training outcomes.
 
-**Training coding agents with privileged information.** Coding agents learn from sparse, binary rewards, so most rollouts yield no training signal. This project injects oracle hints (such as the fix patch) at training time to elicit correct trajectories the model can't reach unaided, and uses action-level entropy to decide when a teacher should guide the agent versus let it act on its own.
+**Training coding agents with privileged information.** This project injects oracle hints (such as the fix patch) at training time to elicit correct trajectories the model can't reach unaided, and uses action-level entropy to decide when a teacher should guide the agent versus let it act on its own.
 
 ## Under Review
 
