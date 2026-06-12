@@ -11,7 +11,7 @@ I'm deeply involved with task quality for [Terminal-Bench 3](https://github.com/
 
 ## In Progress
 
-**Training secure coding agents.** A follow-up to [SusVibes](https://arxiv.org/abs/2512.03262), moving from benchmarking to training. Where the original work showed that frontier models produce functionally correct but insecure code on most real-world tasks, this project applies supervised fine-tuning and reinforcement learning, with improved methods for synthesizing security-focused task data, to close the gap between code that works and code that is actually secure.
+**Training secure coding agents.** A follow-up to [SusVibes](https://arxiv.org/abs/2512.03262), moving from benchmarking to training. The original work showed that frontier models produce functionally correct but insecure code. This project improves data synthesis methods and explores training outcomes.
 
 ## Under Review
 
