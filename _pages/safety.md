@@ -122,6 +122,7 @@ For starting an org, finding cofounders, or just being in the room.
 - [LISA](https://www.safeai.org.uk/) — London coworking hub with memberships, residencies, and hosted programs; rolling applications.
 - [Mox](https://moxsf.com/) — SF coworking + community for safety-minded builders; day passes or membership.
 - [AI Safety Founders Network](https://aisfounders.com/) — Community connecting people building for-profit AI-safety startups; cofounder matching, Discord, and events.
+- [Surplus](https://surplus.dev/) — Software incubator (from Manifund and Mox) for founders building public goods in the age of transformative AI; a 3-month SF program with seed funding, mentorship, and space; cohort applications.
 
 *Fiscal sponsors* (back-office homes for new nonprofit projects): [Ashgro](https://www.ashgro.org/), [Rethink Priorities Special Projects](https://rethinkpriorities.org/our-services/special-projects/), [EV Operations](https://ev.org/ops/), [Impact Ops](https://impact-ops.org/), [Berkeley Existential Risk Initiative](https://existence.org/), [Players Philanthropy Fund](https://www.ppf.org/fiscal-sponsorship).
 
