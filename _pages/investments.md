@@ -67,7 +67,8 @@ window.__INVESTMENTS = {
     { name: "Propin", url: "https://propin.ai/" },
     { name: "Harbor", url: "https://harborframework.com/" },
     { name: "Quaise Energy", url: "https://www.quaise.com/" },
-    { name: "Mulberry Industries", url: "https://www.mulberryindustries.com/" }
+    { name: "Mulberry Industries", url: "https://www.mulberryindustries.com/" },
+    { name: "Made by Thomas", url: "https://madebythomas.ai/" }
   ]
 };
 </script>
