@@ -7,6 +7,199 @@ permalink: /tweets/
 <script>
 window.__TWEETS = [
   {
+    "id": "2069842910984712589",
+    "date": "2026-06-24",
+    "html": "The best tasks confront reality. You want to be somewhere where maybe 50% of your tasks are impossible, you don&#x27;t know which, and you have to build them anyway. That&#x27;s where this is going."
+  },
+  {
+    "id": "2069548717385068597",
+    "date": "2026-06-23",
+    "html": "We used to know a task was hard because a human could do it and the AI couldn&#x27;t. Now the tasks are hard for humans too. You stop knowing if they&#x27;re even possible."
+  },
+  {
+    "id": "2069548371896041738",
+    "date": "2026-06-23",
+    "html": "Is the instruction unfair, or is the internet wrong and that&#x27;s why every agent gets it wrong? You can&#x27;t reconcile that without an expert actually looking at the task."
+  },
+  {
+    "id": "2069548230069883023",
+    "date": "2026-06-23",
+    "html": "&quot;Hard&quot; is usually interpreted as running a bunch of trials and having all fail. But trials fail for reasons that have nothing to do with the task: an unfair verifier, a vague instruction, privileged info in the solution, a near miss, a missing library."
+  },
+  {
+    "id": "2069494728236937375",
+    "date": "2026-06-23",
+    "html": "<a href=\"http://x.com/i/article/2069494431011811328\" target=\"_blank\" rel=\"noopener\">http://x.com/i/article/2069494431011811328</a>"
+  },
+  {
+    "id": "2069487439975162233",
+    "date": "2026-06-23",
+    "html": "The best way to influence how models think is by building great benchmarks that encourage a certain type of reasoning. This can be done for good or evil. Today, labs are brute-force training on any task they get their hands on."
+  },
+  {
+    "id": "2066537888515522706",
+    "date": "2026-06-15",
+    "html": "<a href=\"https://x.com/fjzzq2002\" target=\"_blank\" rel=\"noopener\">@fjzzq2002</a> What is the median year by which you will give up trying to read the codebase?"
+  },
+  {
+    "id": "2065189568249503846",
+    "date": "2026-06-11",
+    "html": "<a href=\"https://x.com/egastfriend\" target=\"_blank\" rel=\"noopener\">@egastfriend</a> Made me think of how Alberta is the only non-island territory that is rat-free, because they put a policy in place before the population spread."
+  },
+  {
+    "id": "2064576566714319238",
+    "date": "2026-06-10",
+    "html": "<a href=\"https://x.com/natashajaques\" target=\"_blank\" rel=\"noopener\">@natashajaques</a> Do you think young people will effectively become LLM distillations?"
+  },
+  {
+    "id": "2064537046191128751",
+    "date": "2026-06-10",
+    "html": "If you want to oversimplify the vertical AI industry: you&#x27;re reselling tokens at a premium. Package a few tools and a harness that makes using Claude through you better than using it directly, and for the privilege you get to charge more. An extreme example would be an especially certified version of Claude that otherwise looks and behaves identically. There&#x27;s no value add, but there&#x27;s a requirement that only a 3rd party can meet. And in fact this is what Palantir did with Anthropic, or what AWS does with Bedrock. But you can layer more utility onto that. If you have an agent for a given domain, say antenna design, and that agent needs a specialized tool, and this tool is only available through you, then a customer that wants such an agent will have to pay a premium on tokens for the privilege. The business model could be to just sell a license to the tool, but it&#x27;s a worse business model. There are at least a couple of substitutes for a SOTA model at any given time, and over time that number might grow. So it makes sense for some value capture to migrate to the product that interfaces directly with the customer.\n\nThis is entirely predicated on AGI not eating every industry fairly soon."
+  },
+  {
+    "id": "2064460978725789823",
+    "date": "2026-06-09",
+    "html": "Lots of companies are doing agent monitoring, but they miss the insight. What do you really want to see? I want to know which of my employees are adding value to the agent. Who is a useful human in the loop and who is just pressing enter? And for the valuable ones, why? What do they know? @MariusHobbhahn"
+  },
+  {
+    "id": "2064460544330154177",
+    "date": "2026-06-09",
+    "html": "Why charge per token instead of just selling your tool as an MCP? Because as a tool you capture way less value. You want to be the front end. When you&#x27;re the agent, you can add more tools in the back and make your defensibility stronger. If you&#x27;re just a tool, you&#x27;re just a tool. Ideally you become the agent for a domain: the agent for mechanical engineering, the agent for aerospace."
+  },
+  {
+    "id": "2064460253606138315",
+    "date": "2026-06-09",
+    "html": "There&#x27;s an overhang in harnesses. The models are often better than they seem, so a good harness gets you more mileage. But unless your harness is very deep, with domain specific tools, the models will be the only ablation that matters."
+  },
+  {
+    "id": "2064438917173313945",
+    "date": "2026-06-09",
+    "html": "It was fun and challenging to work with <a href=\"https://x.com/fjzzq2002\" target=\"_blank\" rel=\"noopener\">@fjzzq2002</a> on this project! <a href=\"https://x.com/fjzzq2002/status/2064430651131211848\" target=\"_blank\" rel=\"noopener\">https://x.com/fjzzq2002/status/2064430651131211848</a>"
+  },
+  {
+    "id": "2064078154290122759",
+    "date": "2026-06-08",
+    "html": "<a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> My perspective is not so much that everyone will be completely self sufficient, but that competition increases. Do you think SaaS will still have the same gross margins? Will buyers have the same predisposition to sit with a salesperson for an hour to hear their pitch? Will AI…"
+  },
+  {
+    "id": "2064075210878566825",
+    "date": "2026-06-08",
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> Can you track the boundary to a particular street? I would love to see a satellite or streetview contrast like that."
+  },
+  {
+    "id": "2063644542516236423",
+    "date": "2026-06-07",
+    "html": "Regular folk talking about AI all the time sound like stochastic parrots blurting out terminology without understanding any of the nuances, and engaging is a trap because I have to take on the burden of educating them, often forcefully, before I can even make a point. And it’s not like I’m this highly enlightened being. I’m as based as any normal person who spent many years learning/thinking about a topic. It makes me not want to talk about the topics that interest me most, unless I’m in the right room. And while knowledge is in theory diffusing fast, I feel progressively more isolated, even when I talk to people I know to be technically sophisticated in other domains. It’s weird."
+  },
+  {
+    "id": "2063335163988455482",
+    "date": "2026-06-06",
+    "html": "<a href=\"https://x.com/fjzzq2002\" target=\"_blank\" rel=\"noopener\">@fjzzq2002</a> Where do you think it goes from here? One solution is to make papers shorter and remove the performative sections. If making text is free, we shouldn&#x27;t value length. A long and clear abstract with a few relevant figures and one-click reproducibility might be enough."
+  },
+  {
+    "id": "2063334216436506889",
+    "date": "2026-06-06",
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> I wonder what the impact is of having two regional airports within that region. One reason I never go south of LA is that I dread going through it."
+  },
+  {
+    "id": "2063327062279209299",
+    "date": "2026-06-06",
+    "html": "<a href=\"https://x.com/vladasanadev\" target=\"_blank\" rel=\"noopener\">@vladasanadev</a> air quality?"
+  },
+  {
+    "id": "2062938862557835308",
+    "date": "2026-06-05",
+    "html": "Exciting project i&#x27;m involved with! <a href=\"https://x.com/rishi_desai2/status/2062930906818769356\" target=\"_blank\" rel=\"noopener\">https://x.com/rishi_desai2/status/2062930906818769356</a>"
+  },
+  {
+    "id": "2062381460095729680",
+    "date": "2026-06-04",
+    "html": "The companies doing AI layoffs will either outperform or underperform, and that will help answer whether this is completely logical from a business PoV or an overreaction. A priori, I think you can make either case. Anyone who has worked at a large company has observed a lot of slack, redundant projects, bridges to nowhere, an excess of administrative roles, etc. But slack does serve a purpose: a military is not using its personnel at full capacity, but due to personnel inelasticity, one could argue it makes sense to be overstaffed. Likewise, big tech can fend off competition by simply hiring everyone who would otherwise start a competing business (this might not be an explicit strategy, but it nevertheless can have that effect).\n\nIn the future, humans will either be part of the labor force or not. We first need to answer that question, somehow, and then come up with and implement the right policy. If the answer is that humans won&#x27;t have jobs, then being upset that jobs are starting to go away isn&#x27;t very constructive. At worst, a successful policy for preserving jobs artificially is dystopian. Every Waymo has a &quot;driver&quot; sitting in the front seat, who gets paid to perform. We can&#x27;t turn society into a Sisyphean dystopia. We have to move on. If there won&#x27;t be any jobs, then we need to lean into that and start figuring out the right way for people to survive financially, be motivated to learn (perhaps mandatory schooling should be longer), and develop an identity and meaning that is not related to their profession."
+  },
+  {
+    "id": "2061863208496021888",
+    "date": "2026-06-02",
+    "html": "verifiers are the hard part"
+  },
+  {
+    "id": "2061504636922794324",
+    "date": "2026-06-01",
+    "html": "Most benchmarks suck because synthetic tasks are lame. The whole point of SOTA benchmarks is to test models at the boundary of their capability. In other words, we are looking for tasks that can be completed by humans, but not yet by AIs. It is possible for an AI to produce a task that it can&#x27;t solve itself, but these tasks tend to be contrived and tricky, as opposed to core work a professional or researcher would perform day to day. LLMs have a tendency to &quot;gradient descend&quot; the task guidelines and deliver something that nominally meets every checkbox, including difficulty, but that in practice is not representative of any realistic workflow. We have learned that iterating on difficulty is particularly problematic. The first step in brainstorming a task should be to give the instructions to a SOTA model, and if it succeeds, the task is probably too easy."
+  },
+  {
+    "id": "2061213832652148814",
+    "date": "2026-05-31",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> We have some good diversity in terminal bench 3. Here&#x27;s an example of a music-related task for our upcoming benchmark release: <a href=\"https://github.com/harbor-framework/terminal-bench-3/pull/229\" target=\"_blank\" rel=\"noopener\">https://github.com/harbor-framework/terminal-bench-3/pull/229</a>\n\nTwo things to consider about these sorts of environments. 1) They are fully agentic: one instruction, one output that has to…",
+    "images": [
+      "/assets/tweets/2061213832652148814-HJrl5sea0AA2iYi.jpg"
+    ]
+  },
+  {
+    "id": "2061182528095179101",
+    "date": "2026-05-31",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> Some thoughts on what makes a good task here <a href=\"https://x.com/neversupervised/status/2035455298417430911\" target=\"_blank\" rel=\"noopener\">https://x.com/neversupervised/status/2035455298417430911</a>"
+  },
+  {
+    "id": "2061182351917650419",
+    "date": "2026-05-31",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> Some problematic patterns I&#x27;ve seen\n- Passing rate varies a lot from a tiny change: a library being pre-installed, a package version, or a small hint in the instructions. &quot;Good&quot; difficulty seems robust to small perturbations.\n- Multiple agent failures converge to the same wrong…"
+  },
+  {
+    "id": "2061175387741458620",
+    "date": "2026-05-31",
+    "html": "<a href=\"https://x.com/johnschulman2\" target=\"_blank\" rel=\"noopener\">@johnschulman2</a> Similarly, it might create an attack vector to make models more compliant on hacking behavior."
+  },
+  {
+    "id": "2061174479888556543",
+    "date": "2026-05-31",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> I can speak as a reviewer of Terminal Bench 3 tasks. The limiting factor is that these tasks are made by generalists who haven&#x27;t really dealt with the task&#x27;s domain in a real professional setting. They are semi-synthetic in that sense. The reality is tasks are a bit like book…"
+  },
+  {
+    "id": "2061110228545081552",
+    "date": "2026-05-31",
+    "html": "<a href=\"https://x.com/a3voices\" target=\"_blank\" rel=\"noopener\">@a3voices</a> <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> There will be a huge amount of job displacement. The problem with these analyses is looking at lagging indicators. Look at employment patterns from recent college graduates. Look at your own approach to handling legal concerns without a lawyer. Not everyone will become a…"
+  },
+  {
+    "id": "2060852243298169055",
+    "date": "2026-05-30",
+    "html": "Follow the token consumption to understand which industries are going to change most dramatically, soonest."
+  },
+  {
+    "id": "2060767524564926876",
+    "date": "2026-05-30",
+    "html": "<a href=\"https://x.com/james_y_zou\" target=\"_blank\" rel=\"noopener\">@james_y_zou</a> With billions of dollars a year flowing from labs to data vendors, there’s a huge incentive to produce benchmark-style tasks at scale, across every verifiable domain, and of increasing difficulty. I don’t think this approach will scale much longer. Higher-quality tasks require…"
+  },
+  {
+    "id": "2059765213868753086",
+    "date": "2026-05-27",
+    "html": "If a 2026 SOTA model reward hacks right away, it usually means the task is underspecified."
+  },
+  {
+    "id": "2059348702490481114",
+    "date": "2026-05-26",
+    "html": "If one word flips a model from failing to passing, the task wasn&#x27;t hard, it was a few bits away from the model&#x27;s knowledge frontier. Real difficulty should require more than a hint to overcome. This is a useful test for whether a benchmark will be saturated quickly."
+  },
+  {
+    "id": "2059348141674270742",
+    "date": "2026-05-26",
+    "html": "I&#x27;m seeing a lot of AI pitches that feel like an investment thesis. The pitch finishes, and I say yes, it&#x27;s important to build this. But I&#x27;m not sure you just presented me with a great solution. You just convinced me that the problem is real."
+  },
+  {
+    "id": "2059341424764834112",
+    "date": "2026-05-26",
+    "html": "I keep seeing pitches that argue agentic tasks can&#x27;t be solved by LLMs because the tools involved aren&#x27;t text. But every one of those tools, under the hood, stores designs in a data format. Code, sequences of numbers, components and subcomponents, hierarchical object oriented code. It&#x27;s all text. It&#x27;s not English, but it&#x27;s sequence to sequence modeling. They&#x27;re rendered top to bottom and left to right. LLM-based agents can do very well in most of these, provided there&#x27;s a good harness."
+  },
+  {
+    "id": "2058214876741505148",
+    "date": "2026-05-23",
+    "html": "~15% of tasks across five major agent benchmarks are hackable by frontier models, and these are tasks that went through layers of review. The verifiers we trust most to rank capability are quietly broken, and the standard response is to patch one task at a time after someone notices. See GH/few-sh/terminal-wrench for reference."
+  },
+  {
+    "id": "2058213148814200856",
+    "date": "2026-05-23",
+    "html": "A lot of interesting model behavior information is lost in the liminal space right before a verifier goes from 0 to 1. A few things I&#x27;ve been thinking about:\n\n- beyond cause of failure, how close was it to passing? would a small hint have made the difference? rerun with the hint and see how many trials flip.\n- and if so, would the same hint be powerful enough that a lower capability model also passes?\n- at what point is the agent doomed? is there a bad decision or interpretation at the start of the run? could it have been detected early?\n- did the agent stumble on the right answer but not execute on it? or did it have the wrong idea all along?\n- are there clear variations in token/time efficiency across models? do certain approaches (writing code and running it vs running bash directly) consistently use more or less?\n- \ndid the agent attempt to reward hack and fail? we should be looking for attempts, not just successes.\n\nThis is a dimensionality on top of the existing taxonomy that I don&#x27;t have a good name for yet.\nThen there&#x27;s the question of difficulty itself. If several tasks have 0/9 passing rate, can we still tell which ones are harder? Can we build a rubric out of the failed trials? And can we use that to map the pareto frontier between difficulty and reward hacking?"
+  },
+  {
     "id": "2057830975716164007",
     "date": "2026-05-22",
     "html": "It’s so boring to go through Hacker News and see post after post by developers arguing that their jobs will more or less stay the same. Everyone just looks at current capabilities and weaknesses and completely fails to appreciate the rate of change. It’s so unbelievably obvious that coding by hand is done for. I’m really perplexed."
@@ -320,7 +513,7 @@ window.__TWEETS = [
   {
     "id": "2035874944131948766",
     "date": "2026-03-23",
-    "html": "<a href=\"https://x.com/labenz\" target=\"_blank\" rel=\"noopener\">@labenz</a> <a href=\"https://x.com/RosieCampbell\" target=\"_blank\" rel=\"noopener\">@RosieCampbell</a> <a href=\"https://x.com/pangramlabs\" target=\"_blank\" rel=\"noopener\"><a href=\"https://x.com/pangramlabs\" target=\"_blank\" rel=\"noopener\">@pangramlabs</a></a> I&#x27;m actually an investor in @pangramlabs, so I&#x27;m biased. When I first saw detection techniques based on the logits for a particular model, I thought it was hopeless. How hard can it be to alter token distribution enough to throw off the detector? But it&#x27;s not necessary to…"
+    "html": "<a href=\"https://x.com/labenz\" target=\"_blank\" rel=\"noopener\">@labenz</a> <a href=\"https://x.com/RosieCampbell\" target=\"_blank\" rel=\"noopener\">@RosieCampbell</a> @pangramlabs I&#x27;m actually an investor in @pangramlabs, so I&#x27;m biased. When I first saw detection techniques based on the logits for a particular model, I thought it was hopeless. How hard can it be to alter token distribution enough to throw off the detector? But it&#x27;s not necessary to…"
   },
   {
     "id": "2035756800558117351",
@@ -855,7 +1048,7 @@ window.__TWEETS = [
   {
     "id": "1998785200122474865",
     "date": "2025-12-10",
-    "html": "<a href=\"https://x.com/gonvalenci\" target=\"_blank\" rel=\"noopener\">@gonvalenci</a> As far as detection, we invested in a company <a href=\"https://x.com/pangramlabs\" target=\"_blank\" rel=\"noopener\">@pangramlabs</a> which can help you tell. It’s likely that very soon, most of the content that you consume unintentionally will be AI slop. I try to look for high quality newsletters and read old books."
+    "html": "<a href=\"https://x.com/gonvalenci\" target=\"_blank\" rel=\"noopener\">@gonvalenci</a> As far as detection, we invested in a company @pangramlabs which can help you tell. It’s likely that very soon, most of the content that you consume unintentionally will be AI slop. I try to look for high quality newsletters and read old books."
   },
   {
     "id": "1998784704577941609",
