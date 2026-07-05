@@ -11,7 +11,7 @@ gem "jekyll", "4.4.1"
 gem "webrick", "1.9.1"
 # Explicitly set sass-embedded version to match the one installed
 gem "sass-embedded", "~> 1.86"
-gem "concurrent-ruby", "1.3.5"
+gem "concurrent-ruby", "1.3.7"
 gem "ffi", "~> 1.17"
 gem "google-protobuf", "~> 4.30"
 gem "i18n", "1.14.7"
