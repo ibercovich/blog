@@ -211,6 +211,8 @@ A list of principles, organized into categories, in no particular order. Very fe
   - An investor has a very ADDish routine (manager schedule), a founder less so.
 - It can be helpful to think of our anti-virtues as diseases or disabilities
   - "I have the envy disease" gives us permission to be compassionate to ourselves
+- Failure isn't real. It comes from our perception of how we are perceived.
+  - If we were in a deserted island and had to survive, a failed project would just be a learning experience.
 - Don't believe everything you think.
 - There's who we think we should be and who we are best at being, and often they are not the same. - Me
 - "My biggest goal for myself is that my drift is back to real—back to the real me."
