@@ -116,7 +116,7 @@ window.__BOOKS = [
     "isbn": "9781617296864",
     "cover": "/assets/covers/deep-learning-with-keras.jpg",
     "color": "#E6773C",
-    "synopsis": "This book introduces deep learning using Python and the Keras library, written by Keras creator Francois Chollet. It covers core concepts through intuitive explanations and practical examples in computer vision, natural-language processing, and generative models."
+    "synopsis": "Antonio Gulli and Sujit Pal provide a practical introduction to building deep learning models with Python and Keras. Through hands-on examples, the book covers neural network foundations, convolutional and recurrent networks, generative models, and applications in image and text processing."
   },
   {
     "title": "Devil Take the Hindmost",
@@ -236,7 +236,7 @@ window.__BOOKS = [
     "isbn": "9780812932294",
     "cover": "/assets/covers/losing-my-virginity.jpg",
     "color": "#F51814",
-    "synopsis": "Edward Swift recalls growing up in the Big Thicket of East Texas, a lush and eccentric Southern landscape filled with memorable family members and colorful neighbors. Through stories of his widowed mother, his quirky aunts and uncles, and his grandfather, he paints a portrait of a vanishing way of life rich in humor, tragedy, and unconditional love."
+    "synopsis": "Richard Branson recounts how he built Virgin from a student magazine and mail-order record business into a global group spanning music, airlines, and other industries. The memoir combines lessons from starting and competing in businesses with stories of risk-taking, adventure, and survival."
   },
   {
     "title": "Made to Stick",
@@ -524,7 +524,7 @@ window.__BOOKS = [
     "isbn": "9780449016190",
     "cover": "/assets/covers/the-end-of-eternity.jpg",
     "color": "#000000",
-    "synopsis": "A raw food cookbook from the founders of the Rawlicious restaurant chain, offering over 100 raw, vegan, and gluten-free recipes including smoothies, nori rolls, lasagna, pad thai, and desserts. It also provides an introduction to the benefits of raw food and practical advice for beginners."
+    "synopsis": "Andrew Harlan belongs to the Eternals, an elite group that travels through time and alters history to protect humanity. When he falls in love with a woman whose existence is threatened by a planned change, he defies Eternity and risks unraveling the future."
   },
   {
     "title": "The Everything Store",
