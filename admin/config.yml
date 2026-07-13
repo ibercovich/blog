@@ -4,6 +4,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
   base_url: https://ivanbercovich.com/
   auth_endpoint: /api/auth
+  auth_scope: public_repo
 media_folder: assets
 # in case the public route is different, otherwise automatic
 # public_folder: /assets
