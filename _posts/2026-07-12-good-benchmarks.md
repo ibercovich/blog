@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Good Benchmarks"
+title: Good Benchmarks
 author: Ivan Bercovich
 date: 2026-07-12 15:22:58 -0700
-description: "How to design realistic, verifiable, well-specified, and genuinely difficult agent benchmark tasks."
-categories:
+description: How to design realistic, verifiable, well-specified, and genuinely
+  difficult agent benchmark tasks.
+categories: []
 ---
+>Benchmarks are where SOTA has to earn its name.
 
-Benchmarks are where SOTA has to earn its name.
 This post is about designing good tasks. The examples come from Terminal Bench, where contributors collectively spent thousands of hours developing and reviewing hundreds of them. The source material for this post came from conversations with  [@kjhennegen](https://x.com/kjhennegen), [@ryanmart3n](https://x.com/ryanmart3n),  [@alexgshaw](https://x.com/alexgshaw), [@bla1990so](https://x.com/bla1990so), [@isegal](https://x.com/isegal), [@kexun\_zhang](https://x.com/kexun_zhang), [@StevenDillmann](https://x.com/StevenDillmann), [@never\_settles\_](https://x.com/never_settles_), [@ekellbuch](https://x.com/ekellbuch), [@LiBoxuan91538](https://x.com/LiBoxuan91538), [@AllenHa13152844](https://x.com/AllenHa13152844), [@lschmidt3](https://x.com/lschmidt3), and many other TBench contributors.
 
 Terminal Bench is a hard benchmark for agents, and we're trying to do realistic tasks. Evals used to ask if an AI understood something or could complete a specific, well-defined minitask. Agents are much harder to evaluate, both from the point of view of verification and the amount of compute it takes to know that an agent is working.
