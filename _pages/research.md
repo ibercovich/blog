@@ -29,6 +29,12 @@ Three papers are currently under review at NeurIPS 2026.
 
 ### 2026
 
+**[Good Benchmarks](/2026/good-benchmarks)**
+Ivan Bercovich
+*Blog post, July 2026*
+
+Good tasks are correct, solvable, verifiable, well-specified, and hard for interesting reasons. The best tasks describe a real problem an experienced practitioner would recognize, in language a practitioner would use, with tests that verify the outcome rather than the approach.
+
 **[Terminal Wrench: A Dataset of 331 Reward-Hackable Environments and 3,632 Exploit Trajectories](https://arxiv.org/abs/2604.17596)**
 I Bercovich, I Segal, K Zhang, S Saxena, A Raghunathan, Z Zhong
 *arXiv preprint arXiv:2604.17596*
