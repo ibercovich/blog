@@ -39,6 +39,7 @@ collections:
         hint: "Set this once when publishing. Editing or saving the post does not update it."
       - { name: "description", widget: "hidden", required: false }
       - { name: "image", widget: "hidden", required: false }
+      - { name: "draft", widget: "hidden", required: false }
       - label: "Custom permalink"
         name: "permalink"
         widget: "string"
@@ -64,6 +65,10 @@ collections:
   - name: "post_archived"
     label: "Posts Archived"
     folder: "_posts_archived"
+    # Exclude legacy centered pages stored alongside archived posts.
+    filter:
+      field: "layout"
+      value: "post"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
@@ -74,13 +79,35 @@ collections:
       - {
           label: "Author",
           name: "author",
-          widget: "string",
+          widget: "hidden",
           default: "Ivan Bercovich",
         }
-      - { label: "Date", name: "date", widget: "datetime" }
-      # could be used for intentional summaries, e.g. the ScOp blog
-      # - { label: "Description", name: "description", widget: "string" }
-      - { label: "Categories", name: "categories", widget: "list" }
+      - label: "Original publication date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        picker_utc: false
+        hint: "Set this once when publishing. Editing or saving the post does not update it."
+      - { name: "description", widget: "hidden", required: false }
+      - { name: "image", widget: "hidden", required: false }
+      - { name: "draft", widget: "hidden", required: false }
+      - label: "Custom permalink"
+        name: "permalink"
+        widget: "string"
+        required: false
+        hint: "Leave empty to use the normal year-and-title URL."
+      - label: "Redirect paths"
+        name: "redirect_from"
+        widget: "list"
+        required: false
+        default: []
+        hint: "Old site paths that should redirect to this post."
+        field: { label: "Path", name: "path", widget: "string" }
+      - label: "Exclude from search engines"
+        name: "noindex"
+        widget: "boolean"
+        required: false
+        default: false
       - { label: "Body", name: "body", widget: "markdown" }
 
   ########################

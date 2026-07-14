@@ -23,6 +23,12 @@ function collection(name) {
   return config.slice(start, next === -1 ? undefined : next);
 }
 
+function fieldSchema(name) {
+  const block = collection(name);
+  const fields = block.slice(block.indexOf("\n    fields:"));
+  return fields.split("\n\n", 1)[0].trim();
+}
+
 test("the live post schema exposes the front matter used by the site", () => {
   const block = collection("post");
 
@@ -35,7 +41,7 @@ test("the live post schema exposes the front matter used by the site", () => {
   }
 
   assert.match(block, /name: "author"[\s\S]{0,80}widget: "hidden"/);
-  for (const field of ["description", "image"]) {
+  for (const field of ["description", "image", "draft"]) {
     assert.match(
       block,
       new RegExp(`name: ["']${field}["'][^\\n]+widget: ["']hidden["']`),
@@ -55,6 +61,14 @@ test("publication dates never default to the edit time", () => {
   );
 });
 
+test("archived posts use the same front matter schema as live posts", () => {
+  assert.equal(fieldSchema("post_archived"), fieldSchema("post"));
+  assert.doesNotMatch(
+    collection("post_archived"),
+    /name: ["']?categories["']?/
+  );
+});
+
 test("Pages exposes exactly the five ordinary pages as explicit files", () => {
   const block = collection("pages");
 
@@ -70,9 +84,11 @@ test("Pages exposes exactly the five ordinary pages as explicit files", () => {
   assert.deepEqual(files, EDITABLE_PAGE_FILES);
 });
 
-test("Posts excludes non-post layouts such as Timeline", () => {
-  assert.match(
-    collection("post"),
-    /filter:[\s\S]{0,120}field:\s*["']?layout["']?[\s\S]{0,80}value:\s*["']?post["']?/
-  );
+test("Post collections exclude non-post layouts", () => {
+  for (const name of ["post", "post_archived"]) {
+    assert.match(
+      collection(name),
+      /filter:[\s\S]{0,120}field:\s*["']?layout["']?[\s\S]{0,80}value:\s*["']?post["']?/
+    );
+  }
 });
