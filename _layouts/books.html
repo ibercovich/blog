@@ -266,7 +266,16 @@ layout: default
 <script type="module">
 import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
 
-const books = window.__BOOKS || [];
+let books = [];
+try {
+  const response = await fetch({{ "/books/data.json" | relative_url | jsonify }});
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  const data = await response.json();
+  if (!Array.isArray(data)) throw new Error("Expected an array");
+  books = data;
+} catch (error) {
+  console.error("Unable to load books data", error);
+}
 if (!books.length) { console.warn("No books data found"); }
 
 /* ── Fill above the fold ── */

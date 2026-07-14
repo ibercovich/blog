@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import books from a CSV into _pages/books.md with cover colors.
+"""Import books from a CSV into the Git-backed ``_books`` collection.
 
 Usage:
     python scripts/import_books.py path/to/books.csv
@@ -7,25 +7,37 @@ Usage:
 
 Reads GOOGLE_BOOKS_API_KEY from scripts/.env if --google-api-key is not given.
 CSV format: title, author, isbn (no header row).
+
+Imports merge into the existing collection. Books that are not present in the
+CSV are left untouched, as are Decap-managed fields on existing books.
 """
 
 import argparse
 import csv
 import json
-import os
 import re
 import time
 from collections import Counter
+from dataclasses import dataclass
 from pathlib import Path
-from urllib.parse import quote
 
 import requests
+import yaml
 from PIL import Image
 
 BLOG_ROOT = Path(__file__).resolve().parent.parent
-OUTPUT_PATH = BLOG_ROOT / "_pages" / "books.md"
+BOOKS_DIR = BLOG_ROOT / "_books"
 COVERS_DIR = BLOG_ROOT / "assets" / "covers"
 SYNOPSIS_CACHE = Path(__file__).resolve().parent / "synopsis_cache.json"
+
+
+@dataclass
+class BookFile:
+    """A collection document and its preserved Markdown body."""
+
+    path: Path
+    data: dict
+    body: str = ""
 
 
 def slugify(text):
@@ -323,21 +335,117 @@ def save_synopsis_cache(cache):
     )
 
 
-def load_existing_books():
-    """Parse existing books.md and return a dict keyed by (title, author)."""
-    if not OUTPUT_PATH.exists():
-        return {}
-    text = OUTPUT_PATH.read_text(encoding="utf-8")
-    # Extract JSON array from: window.__BOOKS = [...];
-    match = re.search(r"window\.__BOOKS\s*=\s*(\[.*?\])\s*;", text, re.DOTALL)
+FRONT_MATTER_RE = re.compile(
+    r"\A---[ \t]*\r?\n(.*?)^---[ \t]*(?:\r?\n|\Z)",
+    re.DOTALL | re.MULTILINE,
+)
+
+
+def read_book_file(path):
+    """Read one collection document without discarding its Markdown body."""
+    text = path.read_text(encoding="utf-8")
+    match = FRONT_MATTER_RE.match(text)
     if not match:
-        return {}
+        raise ValueError(f"{path} does not contain valid YAML front matter")
+
+    data = yaml.safe_load(match.group(1)) or {}
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} front matter must be a mapping")
+    return BookFile(path=path, data=data, body=text[match.end():])
+
+
+def write_book_file(book):
+    """Write one collection document while retaining all metadata and its body."""
+    BOOKS_DIR.mkdir(parents=True, exist_ok=True)
+    front_matter = yaml.safe_dump(
+        book.data,
+        allow_unicode=True,
+        default_flow_style=False,
+        sort_keys=False,
+        width=1000,
+    ).rstrip()
+    text = f"---\n{front_matter}\n---\n{book.body}"
+
+    if book.path.exists() and book.path.read_text(encoding="utf-8") == text:
+        return False
+
+    # A sibling temporary file keeps an interrupted write from truncating a
+    # collection document. Path.replace is atomic on the same filesystem.
+    temporary_path = book.path.with_name(f".{book.path.name}.tmp")
     try:
-        books = json.loads(match.group(1))
-    except json.JSONDecodeError:
-        return {}
-    # Key by lowercase (title, author) for matching
-    return {(b["title"].lower(), b["author"].lower()): b for b in books}
+        temporary_path.write_text(text, encoding="utf-8")
+        temporary_path.replace(book.path)
+    finally:
+        if temporary_path.exists():
+            temporary_path.unlink()
+    return True
+
+
+def load_existing_books():
+    """Load every Git-backed collection document, without changing any files."""
+    if not BOOKS_DIR.exists():
+        return []
+    return [read_book_file(path) for path in sorted(BOOKS_DIR.glob("*.md"))]
+
+
+def normalize_isbn(isbn):
+    """Normalize an ISBN for matching and storage."""
+    return re.sub(r"[\s-]+", "", str(isbn or "")).upper()
+
+
+def identity_key(title, author):
+    """Return the legacy title/author identity used as an ISBN fallback."""
+    return (str(title or "").strip().casefold(), str(author or "").strip().casefold())
+
+
+def add_to_indexes(book, by_isbn, by_identity):
+    """Index a book and fail closed if the collection contains ambiguity."""
+    title = book.data.get("title", "")
+    author = book.data.get("author", "")
+    identity = identity_key(title, author)
+    if not all(identity):
+        raise ValueError(f"{book.path} must define non-empty title and author fields")
+    if identity in by_identity and by_identity[identity].path != book.path:
+        raise ValueError(
+            f"Duplicate title/author in {by_identity[identity].path} and {book.path}"
+        )
+    by_identity[identity] = book
+
+    isbn = normalize_isbn(book.data.get("isbn"))
+    if isbn:
+        if isbn in by_isbn and by_isbn[isbn].path != book.path:
+            raise ValueError(f"Duplicate ISBN {isbn} in {by_isbn[isbn].path} and {book.path}")
+        by_isbn[isbn] = book
+
+
+def index_existing_books(books):
+    """Build unambiguous indexes for merging CSV rows into the collection."""
+    by_isbn = {}
+    by_identity = {}
+    for book in books:
+        add_to_indexes(book, by_isbn, by_identity)
+    return by_isbn, by_identity
+
+
+def unused_book_path(title, isbn=""):
+    """Choose a new path without overwriting an unrelated collection document."""
+    base = slugify(title) or normalize_isbn(isbn).lower() or "book"
+    candidate = BOOKS_DIR / f"{base}.md"
+    if not candidate.exists():
+        return candidate
+
+    suffix = normalize_isbn(isbn).lower()
+    if suffix:
+        candidate = BOOKS_DIR / f"{base}-{suffix}.md"
+        if not candidate.exists():
+            return candidate
+
+    counter = 2
+    while True:
+        candidate = BOOKS_DIR / f"{base}-{counter}.md"
+        if not candidate.exists():
+            return candidate
+        counter += 1
 
 
 FALLBACK_ISBNS = {
@@ -381,49 +489,54 @@ def short_title(title):
 
 
 def recompute_colors():
-    """Re-extract dominant colors for all existing books using okmain."""
-    existing = load_existing_books()
-    if not existing:
-        print("No existing books found in books.md")
+    """Re-extract colors in place without rebuilding collection documents."""
+    books = load_existing_books()
+    if not books:
+        print(f"No existing books found in {BOOKS_DIR}")
         return
 
-    all_books = list(existing.values())
-    print(f"Recomputing colors for {len(all_books)} books")
+    print(f"Recomputing colors for {len(books)} books")
+    updated = 0
 
-    for i, book in enumerate(all_books):
-        title = book["title"]
-        cover_path = book.get("cover", "")
-        print(f"[{i+1}/{len(all_books)}] {title}")
+    for i, book in enumerate(books):
+        title = book.data.get("title", book.path.stem)
+        cover_path = str(book.data.get("cover", "") or "")
+        print(f"[{i+1}/{len(books)}] {title}")
 
         if not cover_path:
-            print(f"  no cover, keeping color {book.get('color', '')}")
+            print(f"  no cover, keeping color {book.data.get('color', '')}")
             continue
 
-        # Read cover from local file
-        local_file = BLOG_ROOT / cover_path.lstrip("/")
+        # Covers should be repository-local. Refuse paths that escape the blog
+        # root rather than reading arbitrary files named in front matter.
+        local_file = (BLOG_ROOT / cover_path.lstrip("/")).resolve()
+        try:
+            local_file.relative_to(BLOG_ROOT.resolve())
+        except ValueError:
+            print(f"  unsafe cover path, keeping color {book.data.get('color', '')}")
+            continue
         if not local_file.exists():
             print(f"  cover file missing: {local_file}")
             continue
 
-        image_data = local_file.read_bytes()
-        color = extract_dominant_color(image_data)
+        try:
+            color = extract_dominant_color(local_file.read_bytes())
+        except Exception as error:
+            print(f"  extraction failed ({error}), keeping {book.data.get('color', '')}")
+            continue
         if color:
-            old = book.get("color", "")
-            book["color"] = color
+            old = book.data.get("color", "")
+            if color == old:
+                print(f"  unchanged: {color}")
+                continue
+            book.data["color"] = color
+            write_book_file(book)
+            updated += 1
             print(f"  {old} -> {color}")
         else:
-            print(f"  extraction failed, keeping {book.get('color', '')}")
+            print(f"  extraction failed, keeping {book.data.get('color', '')}")
 
-    # Sort and write
-    all_books.sort(key=lambda b: b["title"].lower())
-    books_json = json.dumps(all_books, indent=2, ensure_ascii=False)
-    with open(OUTPUT_PATH, "w") as f:
-        f.write("---\nlayout: books\ntitle: Books\npermalink: /books/\n---\n\n")
-        f.write("<script>\nwindow.__BOOKS = ")
-        f.write(books_json)
-        f.write(";\n</script>\n")
-
-    print(f"\nWrote {len(all_books)} books to {OUTPUT_PATH}")
+    print(f"\nUpdated {updated} of {len(books)} collection documents")
 
 
 def main():
@@ -463,10 +576,16 @@ def main():
                 continue
             title = row[0].strip()
             author = clean_author(row[1].strip())
-            isbn = row[2].strip() if len(row) > 2 else ""
+            if not title or not author:
+                print(f"Skipping row with missing title or author: {row!r}")
+                continue
+            isbn = normalize_isbn(row[2]) if len(row) > 2 else ""
             if not isbn:
                 normalized = title.replace("\u2019", "'")
-                isbn = FALLBACK_ISBNS.get(title, "") or FALLBACK_ISBNS.get(normalized, "")
+                isbn = normalize_isbn(
+                    FALLBACK_ISBNS.get(title, "")
+                    or FALLBACK_ISBNS.get(normalized, "")
+                )
             books.append({"title": title, "author": author, "isbn": isbn})
 
     print(f"Loaded {len(books)} books from CSV")
@@ -475,43 +594,55 @@ def main():
     if anthropic_key:
         print("Using Anthropic API key for synopsis cleaning")
 
-    # Load existing books.md data to preserve already-curated fields
+    # Load the complete collection before writing anything. This both protects
+    # arbitrary Decap fields and catches ambiguous records before an import.
     existing_books = load_existing_books()
+    by_isbn, by_identity = index_existing_books(existing_books)
     if existing_books:
-        print(f"Found {len(existing_books)} existing books in books.md")
+        print(f"Found {len(existing_books)} existing books in {BOOKS_DIR}")
 
     synopsis_cache = load_synopsis_cache()
 
     default_color = "#6b4c3b"
-    results = []
+    created = 0
+    updated = 0
+    preserved = 0
     for i, book in enumerate(books):
         display_title = short_title(clean_title(book["title"]))
         full_title = clean_title(book["title"])
         author = book["author"]
-        isbn = book["isbn"]
+        isbn = normalize_isbn(book["isbn"])
         slug = slugify(display_title)
         print(f"[{i+1}/{len(books)}] {display_title} — {author}")
 
-        # Check if this book already exists in books.md
-        existing = existing_books.get((display_title.lower(), author.lower()))
+        # ISBN is the stable identity when available. Title and author retain
+        # compatibility with older CSV files that omit it.
+        existing = by_isbn.get(isbn) if isbn else None
+        if existing is None:
+            existing = by_identity.get(identity_key(display_title, author))
         if existing:
-            # Preserve all curated data from the existing entry
-            local_path = existing.get("cover", "")
-            color = existing.get("color", default_color)
-            synopsis = existing.get("synopsis", "")
-            print(f"  preserved from books.md (cover={bool(local_path)}, color={color}, synopsis={len(synopsis)} chars)")
-            results.append({
-                "title": display_title,
-                "author": author,
-                "isbn": isbn or existing.get("isbn", ""),
-                "cover": local_path,
-                "color": color,
-                "synopsis": synopsis,
-            })
+            # Keep the existing document—including status, collections,
+            # recommendations, dates, unknown future fields, and body. Only
+            # fill a missing ISBN when the CSV supplies one.
+            existing_isbn = normalize_isbn(existing.data.get("isbn"))
+            if isbn and not existing_isbn:
+                existing.data["isbn"] = isbn
+                by_isbn[isbn] = existing
+                if write_book_file(existing):
+                    updated += 1
+                print("  added missing ISBN; preserved all other collection metadata")
+            else:
+                if isbn and existing_isbn and isbn != existing_isbn:
+                    print(
+                        f"  ISBN differs ({isbn} vs {existing_isbn}); "
+                        "preserving the collection value"
+                    )
+                preserved += 1
+                print("  already in collection; preserved without changes")
             continue
 
         # New book — fetch cover, color, synopsis as before
-        existing_files = list(COVERS_DIR.glob(f"{slug}.*")) if COVERS_DIR.exists() else []
+        existing_files = sorted(COVERS_DIR.glob(f"{slug}.*")) if COVERS_DIR.exists() else []
         if existing_files:
             local_path = f"/assets/covers/{existing_files[0].name}"
             image_data = existing_files[0].read_bytes()
@@ -549,28 +680,27 @@ def main():
             synopsis_cache[cache_key] = synopsis
             save_synopsis_cache(synopsis_cache)
 
-        results.append({
+        data = {
             "title": display_title,
             "author": author,
             "isbn": isbn,
             "cover": local_path,
             "color": color,
+            "status": "read",
+            "collections": [],
             "synopsis": synopsis,
-        })
+        }
+        new_book = BookFile(path=unused_book_path(display_title, isbn), data=data)
+        add_to_indexes(new_book, by_isbn, by_identity)
+        write_book_file(new_book)
+        created += 1
+        print(f"  wrote {new_book.path.relative_to(BLOG_ROOT)}")
         time.sleep(0.25)
 
-    # Sort alphabetically by title
-    results.sort(key=lambda b: b["title"].lower())
-
-    # Write output
-    books_json = json.dumps(results, indent=2, ensure_ascii=False)
-    with open(OUTPUT_PATH, "w") as f:
-        f.write("---\nlayout: books\ntitle: Books\npermalink: /books/\n---\n\n")
-        f.write("<script>\nwindow.__BOOKS = ")
-        f.write(books_json)
-        f.write(";\n</script>\n")
-
-    print(f"\nWrote {len(results)} books to {OUTPUT_PATH}")
+    print(
+        f"\nImport complete: {created} added, {updated} updated, "
+        f"{preserved} already present. {len(by_identity)} books in collection."
+    )
 
 
 if __name__ == "__main__":

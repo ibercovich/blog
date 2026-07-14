@@ -23,6 +23,10 @@ markdown: kramdown
 include:
   - _pages
 
+collections:
+  books:
+    output: false
+
 # Assets
 sass:
   sass_dir: _sass

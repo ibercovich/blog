@@ -111,6 +111,77 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   ########################
+  # BOOKS COLLECTION
+  ########################
+  - name: "books"
+    label: "Books"
+    label_singular: "Book"
+    folder: "_books"
+    create: true
+    extension: "md"
+    format: "yaml-frontmatter"
+    slug: "{{slug}}"
+    identifier_field: "title"
+    summary: "{{title}} — {{author}}"
+    sortable_fields: ["title", "author", "status", "commit_date"]
+    view_filters:
+      - { label: "Read", field: "status", pattern: "read" }
+      - { label: "Want to read", field: "status", pattern: "want_to_read" }
+      - { label: "Recommended", field: "recommended", pattern: "true" }
+      - { label: "Physical copies", field: "physical_copy", pattern: "true" }
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        hint: "Use Last, First so author sorting remains useful."
+      - label: "ISBN"
+        name: "isbn"
+        widget: "string"
+        required: false
+        pattern: ['^(?:[0-9]{9}[0-9X]|[0-9]{13})$', "Use ISBN-10 or ISBN-13 without spaces or hyphens."]
+      - label: "Cover"
+        name: "cover"
+        widget: "image"
+        required: false
+        media_folder: "/assets/covers"
+        public_folder: "/assets/covers"
+        choose_url: false
+        allow_multiple: false
+      - label: "Spine color"
+        name: "color"
+        widget: "color"
+        default: "#6B4C3B"
+        allowInput: true
+        hint: "Used while a cover loads and on the animated book spine."
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        default: "read"
+        options:
+          - { label: "Read", value: "read" }
+          - { label: "Want to read", value: "want_to_read" }
+      - label: "Collections"
+        name: "collections"
+        widget: "list"
+        required: false
+        default: []
+        hint: "Optional shelves or tags, entered as a comma-separated list."
+      - { label: "Physical copy", name: "physical_copy", widget: "boolean", required: false }
+      - { label: "Recommended", name: "recommended", widget: "boolean", required: false }
+      - label: "Finished on"
+        name: "finished_on"
+        widget: "datetime"
+        required: false
+        default: ""
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+      - { label: "Description", name: "synopsis", widget: "text", required: false }
+
+  ########################
   # PAGES COLLECTION
   ########################
   - name: "pages"

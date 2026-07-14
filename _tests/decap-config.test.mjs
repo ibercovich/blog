@@ -69,6 +69,33 @@ test("archived posts use the same front matter schema as live posts", () => {
   );
 });
 
+test("Books is a Git-backed folder collection with the tracking fields", () => {
+  const block = collection("books");
+
+  assert.match(block, /^    folder: ["']_books["']$/m);
+  assert.match(block, /^    create: true$/m);
+  assert.match(block, /^    format: ["']yaml-frontmatter["']$/m);
+
+  for (const field of [
+    "title",
+    "author",
+    "isbn",
+    "cover",
+    "color",
+    "status",
+    "collections",
+    "physical_copy",
+    "recommended",
+    "finished_on",
+    "synopsis",
+  ]) {
+    assert.match(block, new RegExp(`name: ["']${field}["']`), `books.${field}`);
+  }
+
+  assert.match(block, /name: ["']cover["'][\s\S]{0,180}media_folder: ["']\/assets\/covers["']/);
+  assert.match(block, /label: ["']Want to read["'], value: ["']want_to_read["']/);
+});
+
 test("Pages exposes exactly the five ordinary pages as explicit files", () => {
   const block = collection("pages");
 
