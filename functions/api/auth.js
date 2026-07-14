@@ -123,9 +123,6 @@ function tokenPromptResponse() {
         margin: 1.5rem 0 0;
         padding-top: 1rem;
       }
-      .field + .field {
-        margin-top: 1rem;
-      }
     </style>
   </head>
   <body>
@@ -137,29 +134,16 @@ function tokenPromptResponse() {
         <strong>ibercovich/blog</strong>.
       </p>
       <form id="token-form" action="about:blank" method="post" autocomplete="on">
-        <div class="field">
-          <label for="username">Username</label>
-          <input
-            id="username"
-            type="text"
-            value="NA"
-            autocomplete="username"
-            autocapitalize="none"
-            spellcheck="false"
-          >
-        </div>
-        <div class="field">
-          <label for="token">Password</label>
-          <input
-            id="token"
-            type="password"
-            autocomplete="current-password"
-            autocapitalize="none"
-            maxlength="1024"
-            required
-            spellcheck="false"
-          >
-        </div>
+        <label for="token">Password</label>
+        <input
+          id="token"
+          type="password"
+          autocomplete="current-password"
+          autocapitalize="none"
+          maxlength="1024"
+          required
+          spellcheck="false"
+        >
         <button id="continue" type="submit" disabled>Continue</button>
         <p id="status" class="status" role="status" aria-live="polite">
           Connecting to Decap…

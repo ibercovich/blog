@@ -116,14 +116,10 @@ test("serves a browser-only fine-grained token prompt", async () => {
   const inputs = [...html.matchAll(/<input\b[^>]*>/g)].map(
     (match) => match[0]
   );
-  const usernameInput = inputs.find((input) => /\sid="username"/.test(input));
   const tokenInput = inputs.find((input) => /\sid="token"/.test(input));
-  assert.ok(usernameInput);
+  assert.equal(inputs.length, 1);
   assert.ok(tokenInput);
-  assert.match(usernameInput, /\stype="text"/);
-  assert.match(usernameInput, /\svalue="NA"/);
-  assert.match(usernameInput, /\sautocomplete="username"/);
-  assert.doesNotMatch(usernameInput, /\sname=/);
+  assert.doesNotMatch(html, /id="username"|autocomplete="username"/);
   assert.match(tokenInput, /\stype="password"/);
   assert.doesNotMatch(tokenInput, /\sname=/);
   assert.match(tokenInput, /\sautocomplete="current-password"/);
