@@ -112,10 +112,21 @@ test("serves a browser-only fine-grained token prompt", async () => {
   assert.match(csp, /frame-ancestors 'none'/);
   assert.match(html, /<input[\s\S]+type="password"/);
   assert.match(html, /action="about:blank" method="post"/);
-  const tokenInput = html.match(/<input\s+[\s\S]*?>/)?.[0];
+  assert.match(html, /<form[^>]+autocomplete="on"/);
+  const inputs = [...html.matchAll(/<input\b[^>]*>/g)].map(
+    (match) => match[0]
+  );
+  const usernameInput = inputs.find((input) => /\sid="username"/.test(input));
+  const tokenInput = inputs.find((input) => /\sid="token"/.test(input));
+  assert.ok(usernameInput);
   assert.ok(tokenInput);
+  assert.match(usernameInput, /\stype="text"/);
+  assert.match(usernameInput, /\svalue="NA"/);
+  assert.match(usernameInput, /\sautocomplete="username"/);
+  assert.doesNotMatch(usernameInput, /\sname=/);
+  assert.match(tokenInput, /\stype="password"/);
   assert.doesNotMatch(tokenInput, /\sname=/);
-  assert.match(tokenInput, /autocomplete="off"/);
+  assert.match(tokenInput, /\sautocomplete="current-password"/);
   assert.match(tokenInput, /spellcheck="false"/);
   assert.match(html, /fine-grained GitHub token/);
   assert.doesNotMatch(html, /github\.com\/login\/oauth/);
