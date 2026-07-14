@@ -7,6 +7,14 @@ const config = await readFile(
   "utf8"
 );
 
+const EDITABLE_PAGE_FILES = [
+  "_pages/about.md",
+  "_pages/antiportfolio.md",
+  "_pages/principles.md",
+  "_pages/research.md",
+  "_pages/safety.md",
+];
+
 function collection(name) {
   const marker = `  - name: "${name}"`;
   const start = config.indexOf(marker);
@@ -44,5 +52,27 @@ test("publication dates never default to the edit time", () => {
   assert.match(
     collection("post"),
     /Editing or saving the post does not update it\./
+  );
+});
+
+test("Pages exposes exactly the five ordinary pages as explicit files", () => {
+  const block = collection("pages");
+
+  assert.match(block, /^    files:\s*$/m);
+  assert.doesNotMatch(block, /^    folder:/m);
+  assert.doesNotMatch(block, /^    create:\s*true\s*$/m);
+
+  const files = [
+    ...block.matchAll(/^\s+file:\s*["']?([^"'\s]+)["']?\s*$/gm),
+  ]
+    .map(([, file]) => file)
+    .sort();
+  assert.deepEqual(files, EDITABLE_PAGE_FILES);
+});
+
+test("Posts excludes non-post layouts such as Timeline", () => {
+  assert.match(
+    collection("post"),
+    /filter:[\s\S]{0,120}field:\s*["']?layout["']?[\s\S]{0,80}value:\s*["']?post["']?/
   );
 });

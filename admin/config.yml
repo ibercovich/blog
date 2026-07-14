@@ -14,6 +14,10 @@ collections:
   - name: "post"
     label: "Posts"
     folder: "_posts"
+    # Keep custom-layout entries such as Timeline out of the standard editor.
+    filter:
+      field: "layout"
+      value: "post"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
@@ -84,18 +88,81 @@ collections:
   ########################
   - name: "pages"
     label: "Pages"
-    folder: "_pages"
-    create: true
-    slug: "{{slug}}"
     editor:
       preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - {
-          label: "Permalink",
-          name: "permalink",
-          widget: "string",
-          default: "/about/",
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
+    # Data-heavy pages stay code-managed until their embedded data is extracted.
+    files:
+      - name: "about"
+        label: "About"
+        file: "_pages/about.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "centered" }
+          - { label: "Author", name: "author", widget: "hidden", default: "Ivan Bercovich" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
+          - label: "Last updated date"
+            name: "date"
+            widget: "datetime"
+            required: false
+            picker_utc: false
+            hint: "Change this manually after a meaningful update. Saving alone does not update it."
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - name: "research"
+        label: "Research"
+        file: "_pages/research.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "centered" }
+          - { label: "Author", name: "author", widget: "hidden", default: "Ivan Bercovich" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/research/" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - name: "principles"
+        label: "Principles"
+        file: "_pages/principles.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "centered" }
+          - { label: "Author", name: "author", widget: "hidden", default: "Ivan Bercovich" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/principles/" }
+          - label: "Last updated date"
+            name: "date"
+            widget: "datetime"
+            required: false
+            picker_utc: false
+            hint: "Change this manually after a meaningful update. Saving alone does not update it."
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - name: "safety"
+        label: "AI Safety"
+        file: "_pages/safety.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "centered" }
+          - { label: "Author", name: "author", widget: "hidden", default: "Ivan Bercovich" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/safety/" }
+          - { label: "Exclude from search engines", name: "noindex", widget: "hidden", default: true }
+          - label: "Last updated date"
+            name: "date"
+            widget: "datetime"
+            required: false
+            picker_utc: false
+            hint: "Change this manually after a meaningful update. Saving alone does not update it."
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - name: "antiportfolio"
+        label: "Antiportfolio"
+        file: "_pages/antiportfolio.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "centered" }
+          - { label: "Author", name: "author", widget: "hidden", default: "Ivan Bercovich" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/antiportfolio/" }
+          - label: "Last updated date"
+            name: "date"
+            widget: "datetime"
+            required: false
+            picker_utc: false
+            hint: "Change this manually after a meaningful update. Saving alone does not update it."
+          - { label: "Body", name: "body", widget: "markdown" }
