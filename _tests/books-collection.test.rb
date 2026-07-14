@@ -36,6 +36,12 @@ class BooksCollectionTest < Minitest::Test
       assert_includes STATUSES, book.fetch("status"), "#{path}: invalid status"
       assert_kind_of Array, book.fetch("collections", []), "#{path}: collections must be a list"
 
+      %w[physical_copy recommended].each do |field|
+        next unless book.key?(field)
+
+        assert_includes [true, false], book[field], "#{path}: #{field} must be boolean"
+      end
+
       isbn = book["isbn"].to_s
       assert_match(/\A(?:\d{9}[\dX]|\d{13})\z/, isbn, "#{path}: invalid ISBN") unless isbn.empty?
 
@@ -55,6 +61,11 @@ class BooksCollectionTest < Minitest::Test
     page = ROOT.join("_pages/books.md").read
     refute_includes page, "window.__BOOKS"
     refute_includes page, '"synopsis"'
+  end
+
+  def test_interactive_shelf_uses_only_recommended_books
+    layout = ROOT.join("_layouts/books.html").read
+    assert_includes layout, "data.filter((book) => book.recommended === true)"
   end
 
   private

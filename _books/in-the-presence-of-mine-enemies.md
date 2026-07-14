@@ -6,5 +6,6 @@ cover: "/assets/covers/in-the-presence-of-mine-enemies.jpg"
 color: "#29455C"
 status: "read"
 collections: []
+recommended: true
 synopsis: "In an alternate history where Germany's Third Reich won World War II and controls most of Europe and North America, a dangerous secret persists within the heart of the Nazi regime. Hidden behind perfect Aryan facades, Jewish families survive in secret, living their lives and raising their children while constantly fearing discovery."
 ---

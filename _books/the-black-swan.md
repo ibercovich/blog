@@ -6,5 +6,6 @@ cover: "/assets/covers/the-black-swan.jpg"
 color: "#FEFEFD"
 status: "read"
 collections: []
+recommended: true
 synopsis: "The book explores the outsized role that rare, highly improbable events play in shaping our world, from financial markets to personal life. It examines why humans are so bad at predicting these events and how we can better account for radical uncertainty."
 ---

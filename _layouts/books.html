@@ -272,7 +272,7 @@ try {
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const data = await response.json();
   if (!Array.isArray(data)) throw new Error("Expected an array");
-  books = data;
+  books = data.filter((book) => book.recommended === true);
 } catch (error) {
   console.error("Unable to load books data", error);
 }

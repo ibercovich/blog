@@ -6,5 +6,6 @@ cover: "/assets/covers/sam-walton-made-in-america.jpg"
 color: "#F9F8F8"
 status: "read"
 collections: []
+recommended: true
 synopsis: "Sam Walton recounts how he grew a single dime store in rural Arkansas into Wal-Mart, the world's largest retailer. He shares his philosophy on competition, partnership, and the practical business principles that guided his success."
 ---
