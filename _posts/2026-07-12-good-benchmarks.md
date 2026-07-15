@@ -156,4 +156,4 @@ In the end it's mostly about authors doing good work. Reviewers can tighten a go
 
 Quality over quantity.
 
-cite: https://arxiv.org/abs/2607.12217
+cite: [https://arxiv.org/abs/2607.12217](https://arxiv.org/abs/2607.12217)
