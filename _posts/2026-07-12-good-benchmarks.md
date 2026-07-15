@@ -155,3 +155,5 @@ It's a little crazy that major labs outsource semi-artificial tasks while people
 In the end it's mostly about authors doing good work. Reviewers can tighten a good task or kill a bad one, but you can't handhold someone into a good task. Most benchmarks would be better off with fewer, better tasks.
 
 Quality over quantity.
+
+cite: https://arxiv.org/abs/2607.12217
