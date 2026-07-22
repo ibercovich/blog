@@ -7,8 +7,6 @@ description: Learning hard things wires the brain for focus and persistence, and
   AI lets students skip the struggle that builds it.
 categories: []
 ---
-I would be terrified to go to a doctor who graduated now. I don't think they're learning anything. I wouldn't be learning anything if I were in college today, even though I love learning. When you're competing with everybody, it's so easy. It's so tempting.
-
 I'm not an expert in education. I was CEO of an education company for a year because it was in our portfolio, and I'm not an expert in spite of that. But here's how I think about it.
 
 Your brain just wants to learn. One way your brain is similar to AI is that it just learns. Even someone who says they hate learning, hate studying, hate reading: they're still learning. They're just not learning the traditional things. If you spend all day looking at TikTok, what are you going to learn? The names of the influencers and what brand of clothing they wear. You're going to learn it. You can't help it. You see people you'd consider very non-intellectual who know everything about some celebrity. They've learned something.
