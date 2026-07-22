@@ -29,9 +29,9 @@ Three papers are currently under review at NeurIPS 2026.
 
 ### 2026
 
-**[Good Benchmarks](/2026/good-benchmarks)**
+**[Good Benchmarks](https://arxiv.org/abs/2607.12217)**
 Ivan Bercovich
-*Blog post, July 2026*
+*arXiv preprint arXiv:2607.12217*
 
 Good tasks are correct, solvable, verifiable, well-specified, and hard for interesting reasons. The best tasks describe a real problem an experienced practitioner would recognize, in language a practitioner would use, with tests that verify the outcome rather than the approach.
 

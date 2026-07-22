@@ -6,6 +6,7 @@ date: 2026-07-12 15:22:58 -0700
 description: How to design realistic, verifiable, well-specified, and genuinely
   difficult agent benchmark tasks.
 categories: []
+cite: https://arxiv.org/abs/2607.12217
 ---
 >Benchmarks are where SOTA has to earn its name.
 
