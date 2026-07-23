@@ -3,8 +3,8 @@ title: A Probability Path
 author: Resnick, Sidney I.
 goodreads_id: '1884889'
 isbn: '9780817640552'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-probability-path-gr-1884889.jpg
+color: '#FF00FE'
 status: read
 collections: []
 physical_copy: false

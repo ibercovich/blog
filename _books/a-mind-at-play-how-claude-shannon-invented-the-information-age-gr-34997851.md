@@ -3,8 +3,8 @@ title: 'A Mind at Play: How Claude Shannon Invented the Information Age'
 author: Soni, Jimmy
 goodreads_id: '34997851'
 isbn: '9781476766706'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-mind-at-play-how-claude-shannon-invented-the-information-age-gr-34997851.jpg
+color: '#CFD5C0'
 status: want_to_read
 collections: []
 physical_copy: false

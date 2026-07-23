@@ -3,8 +3,8 @@ title: 'A Piece of the Action: How the Middle Class Joined the Money Class'
 author: Nocera, Joe
 goodreads_id: '1751047'
 isbn: '9780684804354'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-piece-of-the-action-how-the-middle-class-joined-the-money-class-gr-1751047.jpg
+color: '#205C7E'
 status: want_to_read
 collections: []
 physical_copy: false

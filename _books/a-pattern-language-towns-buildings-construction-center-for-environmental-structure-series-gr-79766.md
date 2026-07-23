@@ -3,8 +3,8 @@ title: 'A Pattern Language: Towns, Buildings, Construction (Center for Environme
 author: Alexander, Christopher W.
 goodreads_id: '79766'
 isbn: '9780195019193'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-pattern-language-towns-buildings-construction-center-for-environmental-structure-series-gr-79766.jpg
+color: '#E5C790'
 status: want_to_read
 collections: []
 physical_copy: false

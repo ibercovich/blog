@@ -3,8 +3,8 @@ title: A Promised Land
 author: Obama, Barack
 goodreads_id: '55361205'
 isbn: '9781524763183'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-promised-land-gr-55361205.jpg
+color: '#B5B5B5'
 status: read
 collections: []
 physical_copy: false

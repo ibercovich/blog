@@ -2,8 +2,8 @@
 title: 'A Psalm for the Wild-Built (Monk & Robot, #1)'
 author: Chambers, Becky
 goodreads_id: '55077657'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-psalm-for-the-wild-built-monk-robot-1-gr-55077657.jpg
+color: '#877448'
 status: tbd
 collections: []
 physical_copy: false

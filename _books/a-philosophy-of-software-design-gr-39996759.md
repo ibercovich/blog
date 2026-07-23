@@ -3,8 +3,8 @@ title: A Philosophy of Software Design
 author: Ousterhout, John
 goodreads_id: '39996759'
 isbn: '9781732102200'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-philosophy-of-software-design-gr-39996759.jpg
+color: '#ABD3D4'
 status: want_to_read
 collections: []
 physical_copy: false

@@ -3,8 +3,8 @@ title: A Practical Introduction to Electronic Circuits (Volume 0)
 author: Jones, Martin Hartley
 goodreads_id: '5393254'
 isbn: '9780521478793'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-practical-introduction-to-electronic-circuits-volume-0-gr-5393254.jpg
+color: '#A9694A'
 status: read
 collections: []
 physical_copy: false
