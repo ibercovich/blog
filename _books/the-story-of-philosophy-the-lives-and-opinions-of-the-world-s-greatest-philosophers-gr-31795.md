@@ -3,8 +3,8 @@ title: 'The Story of Philosophy: The Lives and Opinions of the World''s Greatest
 author: Durant, Will
 goodreads_id: '31795'
 isbn: '9780671739164'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-story-of-philosophy-the-lives-and-opinions-of-the-world-s-greatest-philosophers-gr-31795.jpg
+color: '#3A3D3F'
 status: read
 collections: []
 physical_copy: false

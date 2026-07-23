@@ -2,8 +2,8 @@
 title: The First Fifteen Lives of Harry August
 author: North, Claire
 goodreads_id: '35066358'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-first-fifteen-lives-of-harry-august-gr-35066358.jpg
+color: '#535153'
 status: read
 collections: []
 physical_copy: false

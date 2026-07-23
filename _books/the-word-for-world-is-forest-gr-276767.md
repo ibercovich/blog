@@ -2,8 +2,8 @@
 title: The Word for World Is Forest
 author: Guin, Ursula K. Le
 goodreads_id: '276767'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-word-for-world-is-forest-gr-276767.jpg
+color: '#485E60'
 status: tbd
 collections: []
 physical_copy: false

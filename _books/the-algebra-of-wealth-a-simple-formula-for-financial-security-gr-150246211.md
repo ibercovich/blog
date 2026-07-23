@@ -3,8 +3,8 @@ title: 'The Algebra of Wealth: A Simple Formula for Financial Security'
 author: Galloway, Scott
 goodreads_id: '150246211'
 isbn: '9780593714027'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-algebra-of-wealth-a-simple-formula-for-financial-security-gr-150246211.jpg
+color: '#E1CB83'
 status: want_to_read
 collections: []
 physical_copy: false

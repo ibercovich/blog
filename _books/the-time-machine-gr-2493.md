@@ -2,8 +2,8 @@
 title: The Time Machine
 author: Wells, H.G.
 goodreads_id: '2493'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-time-machine-gr-2493.jpg
+color: '#175794'
 status: read
 collections: []
 physical_copy: false

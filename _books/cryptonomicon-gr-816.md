@@ -2,8 +2,8 @@
 title: Cryptonomicon
 author: Stephenson, Neal
 goodreads_id: '816'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/cryptonomicon-gr-816.jpg
+color: '#393838'
 status: want_to_read
 collections: []
 physical_copy: false

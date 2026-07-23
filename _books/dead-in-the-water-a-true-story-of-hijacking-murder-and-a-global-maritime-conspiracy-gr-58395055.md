@@ -3,8 +3,8 @@ title: 'Dead in the Water: A True Story of Hijacking, Murder, and a Global Marit
 author: Campbell, Matthew
 goodreads_id: '58395055'
 isbn: '9780593329238'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/dead-in-the-water-a-true-story-of-hijacking-murder-and-a-global-maritime-conspiracy-gr-58395055.jpg
+color: '#21354E'
 status: want_to_read
 collections: []
 physical_copy: false

@@ -3,8 +3,8 @@ title: Practical Programming for Strength Training
 author: Rippetoe, Mark
 goodreads_id: '1677880'
 isbn: '9780976805410'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/practical-programming-for-strength-training-gr-1677880.jpg
+color: '#756949'
 status: read
 collections: []
 physical_copy: false

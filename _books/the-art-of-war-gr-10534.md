@@ -2,8 +2,8 @@
 title: The Art of War
 author: Tzu, Sun
 goodreads_id: '10534'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-art-of-war-gr-10534.jpg
+color: '#383430'
 status: read
 collections: []
 physical_copy: false

@@ -3,8 +3,8 @@ title: 'Trade Wars Are Class Wars: How Rising Inequality Distorts the Global Eco
 author: Klein, Matthew C.
 goodreads_id: '52009042'
 isbn: '9780300244175'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/trade-wars-are-class-wars-how-rising-inequality-distorts-the-global-economy-and-threatens-international-peace-gr-52009042.jpg
+color: '#837969'
 status: want_to_read
 collections: []
 physical_copy: false

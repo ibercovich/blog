@@ -3,8 +3,8 @@ title: 'Machines of Loving Grace: The Quest for Common Ground Between Humans and
 author: Markoff, John
 goodreads_id: '23460922'
 isbn: '9780062266682'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/machines-of-loving-grace-the-quest-for-common-ground-between-humans-and-robots-gr-23460922.jpg
+color: '#8D1402'
 status: read
 collections: []
 physical_copy: false

@@ -3,8 +3,8 @@ title: 'Buffettology: The Previously Unexplained Techniques That Have Made Warre
 author: Buffett, Mary
 goodreads_id: '1132'
 isbn: '9780684848211'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/buffettology-the-previously-unexplained-techniques-that-have-made-warren-buffett-the-world-s-most-famous-investor-gr-1132.jpg
+color: '#E1E0DF'
 status: want_to_read
 collections: []
 physical_copy: false

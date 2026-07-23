@@ -3,8 +3,8 @@ title: 'The Nvidia Way: Jensen Huang and the Making of a Tech Giant'
 author: Kim, Tae
 goodreads_id: '218319936'
 isbn: '9781324086727'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-nvidia-way-jensen-huang-and-the-making-of-a-tech-giant-gr-218319936.jpg
+color: '#2B56AE'
 status: read
 collections: []
 physical_copy: false

@@ -14,6 +14,7 @@ import re
 import tempfile
 import time
 import warnings
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -797,11 +798,13 @@ def parse_ids(values):
     return result
 
 
-def run(limit, ids, dry_run, resume, api_key, delay):
+def run(limit, ids, dry_run, resume, api_key, delay, workers=1):
     if limit is not None and limit < 0:
         raise ValueError("--limit must be zero or greater")
     if delay < 0:
         raise ValueError("--delay must be zero or greater")
+    if workers < 1:
+        raise ValueError("--workers must be at least 1")
     books = load_existing_books()
     protected = snapshot_protected(books)
     originals = {book.path: book.path.read_bytes() for book in books}
@@ -829,37 +832,55 @@ def run(limit, ids, dry_run, resume, api_key, delay):
             pending.append(book)
     if limit is not None:
         pending = pending[:limit]
-    session, counts = build_session(), {}
-    try:
+    counts = {}
+
+    def enrich(book):
+        session = build_session()
+        try:
+            result = process_book(
+                session,
+                book,
+                originals[book.path],
+                api_key,
+                overrides,
+                dry_run,
+            )
+        except Exception as error:
+            result = result_base(book)
+            result.update(
+                status="error",
+                reasons=[f"{error.__class__.__name__}:{error}"],
+                candidates=[],
+            )
+        finally:
+            session.close()
+        return book, result
+
+    def checkpoint(index, enriched):
+        book, result = enriched
+        goodreads_id = str(book.data["goodreads_id"]).strip()
+        status = result["status"]
+        counts[status] = counts.get(status, 0) + 1
+        print(f"[{index}/{len(pending)}] Goodreads {goodreads_id}: {status}")
+        if not dry_run:
+            report[goodreads_id] = result
+            write_report(report)
+        assert_protected_unchanged(protected)
+
+    if workers == 1:
         for index, book in enumerate(pending, 1):
-            goodreads_id = str(book.data["goodreads_id"]).strip()
-            try:
-                result = process_book(
-                    session,
-                    book,
-                    originals[book.path],
-                    api_key,
-                    overrides,
-                    dry_run,
-                )
-            except Exception as error:
-                result = result_base(book)
-                result.update(
-                    status="error",
-                    reasons=[f"{error.__class__.__name__}:{error}"],
-                    candidates=[],
-                )
-            status = result["status"]
-            counts[status] = counts.get(status, 0) + 1
-            print(f"[{index}/{len(pending)}] Goodreads {goodreads_id}: {status}")
-            if not dry_run:
-                report[goodreads_id] = result
-                write_report(report)
-            assert_protected_unchanged(protected)
+            checkpoint(index, enrich(book))
             if delay and index < len(pending):
                 time.sleep(delay)
-    finally:
-        session.close()
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = {}
+            for index, book in enumerate(pending, 1):
+                futures[executor.submit(enrich, book)] = book
+                if delay and index < len(pending):
+                    time.sleep(delay)
+            for index, future in enumerate(as_completed(futures), 1):
+                checkpoint(index, future.result())
     assert_protected_unchanged(protected)
     summary = ", ".join(f"{key}={counts[key]}" for key in sorted(counts)) or "none"
     print(
@@ -970,6 +991,12 @@ def main():
         default=1.0,
         help="Polite delay between books in seconds (default: 1.0)",
     )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Concurrent books to process (default: 1)",
+    )
     parser.add_argument("--self-check", action="store_true")
     args = parser.parse_args()
     if args.self_check:
@@ -982,6 +1009,7 @@ def main():
         resume=args.resume,
         api_key=args.google_api_key,
         delay=args.delay,
+        workers=args.workers,
     )
 
 

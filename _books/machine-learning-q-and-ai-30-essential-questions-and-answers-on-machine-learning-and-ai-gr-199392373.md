@@ -3,8 +3,8 @@ title: 'Machine Learning Q and AI: 30 Essential Questions and Answers on Machine
 author: Raschka, Sebastian
 goodreads_id: '199392373'
 isbn: '9781718503762'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/machine-learning-q-and-ai-30-essential-questions-and-answers-on-machine-learning-and-ai-gr-199392373.jpg
+color: '#FEFBD0'
 status: read
 collections: []
 physical_copy: false

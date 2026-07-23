@@ -3,8 +3,8 @@ title: 'Crisis and Leviathan: Critical Episodes in the Growth of American Govern
 author: Higgs, Robert
 goodreads_id: '16611'
 isbn: '9780195059007'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/crisis-and-leviathan-critical-episodes-in-the-growth-of-american-government-a-pacific-research-institute-for-public-policy-book-gr-16611.jpg
+color: '#3F6D63'
 status: want_to_read
 collections: []
 physical_copy: false

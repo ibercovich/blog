@@ -3,8 +3,8 @@ title: 'The Power Broker: Robert Moses and the Fall of New York'
 author: Caro, Robert A.
 goodreads_id: '1111'
 isbn: '9780394720241'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-power-broker-robert-moses-and-the-fall-of-new-york-gr-1111.jpg
+color: '#867240'
 status: want_to_read
 collections: []
 physical_copy: false

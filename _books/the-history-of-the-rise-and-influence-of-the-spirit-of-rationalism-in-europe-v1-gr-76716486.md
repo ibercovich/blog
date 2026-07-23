@@ -3,8 +3,8 @@ title: The History Of The Rise And Influence Of The Spirit Of Rationalism In Eur
 author: Lecky, William Edward Hartpole
 goodreads_id: '76716486'
 isbn: '9781497913172'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-history-of-the-rise-and-influence-of-the-spirit-of-rationalism-in-europe-v1-gr-76716486.jpg
+color: '#C42126'
 status: want_to_read
 collections: []
 physical_copy: false

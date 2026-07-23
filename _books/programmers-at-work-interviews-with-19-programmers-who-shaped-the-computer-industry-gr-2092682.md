@@ -3,8 +3,8 @@ title: 'Programmers at Work: Interviews With 19 Programmers Who Shaped the Compu
 author: Lammers, Susan
 goodreads_id: '2092682'
 isbn: '9781556152115'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/programmers-at-work-interviews-with-19-programmers-who-shaped-the-computer-industry-gr-2092682.jpg
+color: '#B7B7B7'
 status: want_to_read
 collections: []
 physical_copy: false

@@ -3,8 +3,8 @@ title: 'How Asia Works: Success and Failure in the World''s Most Dynamic Region'
 author: Studwell, Joe
 goodreads_id: '16144575'
 isbn: '9780802119599'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/how-asia-works-success-and-failure-in-the-world-s-most-dynamic-region-gr-16144575.jpg
+color: '#B41B2E'
 status: want_to_read
 collections: []
 physical_copy: false

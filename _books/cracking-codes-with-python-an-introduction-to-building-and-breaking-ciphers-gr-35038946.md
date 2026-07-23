@@ -3,8 +3,8 @@ title: 'Cracking Codes with Python: An Introduction to Building and Breaking Cip
 author: Sweigart, Al
 goodreads_id: '35038946'
 isbn: '9781593278229'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/cracking-codes-with-python-an-introduction-to-building-and-breaking-ciphers-gr-35038946.jpg
+color: '#FEFBCF'
 status: want_to_read
 collections: []
 physical_copy: false

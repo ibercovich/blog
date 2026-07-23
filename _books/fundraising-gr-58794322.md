@@ -2,8 +2,8 @@
 title: Fundraising
 author: Breslow, Ryan
 goodreads_id: '58794322'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/fundraising-gr-58794322.jpg
+color: '#C5564B'
 status: want_to_read
 collections: []
 physical_copy: false

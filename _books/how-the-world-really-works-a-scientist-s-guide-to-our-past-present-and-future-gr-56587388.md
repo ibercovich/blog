@@ -3,8 +3,8 @@ title: 'How the World Really Works: A Scientist''s Guide to Our Past, Present an
 author: Smil, Vaclav
 goodreads_id: '56587388'
 isbn: '9780241454404'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/how-the-world-really-works-a-scientist-s-guide-to-our-past-present-and-future-gr-56587388.jpg
+color: '#EB6C35'
 status: want_to_read
 collections: []
 physical_copy: false

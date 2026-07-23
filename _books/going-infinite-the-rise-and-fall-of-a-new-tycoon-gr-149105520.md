@@ -3,8 +3,8 @@ title: 'Going Infinite: The Rise and Fall of a New Tycoon'
 author: Lewis, Michael
 goodreads_id: '149105520'
 isbn: '9781324074335'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/going-infinite-the-rise-and-fall-of-a-new-tycoon-gr-149105520.jpg
+color: '#DA9931'
 status: want_to_read
 collections: []
 physical_copy: false

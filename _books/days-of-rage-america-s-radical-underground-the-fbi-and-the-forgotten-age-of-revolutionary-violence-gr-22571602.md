@@ -3,8 +3,8 @@ title: 'Days of Rage: America''s Radical Underground, the FBI, and the Forgotten
 author: Burrough, Bryan
 goodreads_id: '22571602'
 isbn: '9781594204296'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/days-of-rage-america-s-radical-underground-the-fbi-and-the-forgotten-age-of-revolutionary-violence-gr-22571602.jpg
+color: '#36302E'
 status: want_to_read
 collections: []
 physical_copy: false

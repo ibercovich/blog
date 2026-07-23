@@ -3,8 +3,8 @@ title: 'Generative Deep Learning: Teaching Machines to Paint, Write, Compose, an
 author: Foster, David
 goodreads_id: '44144492'
 isbn: '9781492041948'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/generative-deep-learning-teaching-machines-to-paint-write-compose-and-play-gr-44144492.jpg
+color: '#362420'
 status: want_to_read
 collections: []
 physical_copy: false

@@ -2,8 +2,8 @@
 title: Farthest North Being the Record of a Voyage of Exploration of the Ship 'Fram' 1893-1896 Vol. I
 author: Nansen, Fridtjof
 goodreads_id: '11578060'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/farthest-north-being-the-record-of-a-voyage-of-exploration-of-the-ship-fram-1893-1896-vol-i-gr-11578060.jpg
+color: '#F4DEAE'
 status: want_to_read
 collections: []
 physical_copy: false

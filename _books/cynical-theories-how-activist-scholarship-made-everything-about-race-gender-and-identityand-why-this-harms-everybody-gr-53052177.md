@@ -3,8 +3,8 @@ title: 'Cynical Theories: How Activist Scholarship Made Everything about Race, G
 author: Pluckrose, Helen
 goodreads_id: '53052177'
 isbn: '9781634312028'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/cynical-theories-how-activist-scholarship-made-everything-about-race-gender-and-identityand-why-this-harms-everybody-gr-53052177.jpg
+color: '#FBFADE'
 status: want_to_read
 collections: []
 physical_copy: false

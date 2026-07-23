@@ -3,8 +3,8 @@ title: 'Becoming a Supple Leopard, 1st Edition: The Ultimate Guide To Resolving 
 author: Starrett, Kelly
 goodreads_id: '13594266'
 isbn: '9781936608584'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/becoming-a-supple-leopard-1st-edition-the-ultimate-guide-to-resolving-pain-preventing-injury-and-opti-gr-13594266.jpg
+color: '#AFB8C3'
 status: read
 collections: []
 physical_copy: false

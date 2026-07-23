@@ -2,8 +2,8 @@
 title: Labyrinth
 author: Riddle, A.G.
 goodreads_id: '241536157'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/labyrinth-gr-241536157.jpg
+color: '#583221'
 status: read
 collections: []
 physical_copy: false

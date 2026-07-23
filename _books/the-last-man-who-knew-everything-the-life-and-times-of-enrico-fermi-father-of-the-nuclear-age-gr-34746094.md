@@ -3,8 +3,8 @@ title: 'The Last Man Who Knew Everything: The Life and Times of Enrico Fermi, Fa
 author: Schwartz, David N.
 goodreads_id: '34746094'
 isbn: '9780465072927'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-last-man-who-knew-everything-the-life-and-times-of-enrico-fermi-father-of-the-nuclear-age-gr-34746094.jpg
+color: '#CEEBEF'
 status: want_to_read
 collections: []
 physical_copy: false

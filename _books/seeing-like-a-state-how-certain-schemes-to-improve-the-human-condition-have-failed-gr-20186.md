@@ -3,8 +3,8 @@ title: 'Seeing Like a State: How Certain Schemes to Improve the Human Condition 
 author: Scott, James C.
 goodreads_id: '20186'
 isbn: '9780300078152'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed-gr-20186.jpg
+color: '#7E634C'
 status: want_to_read
 collections: []
 physical_copy: false

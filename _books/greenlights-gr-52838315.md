@@ -3,8 +3,8 @@ title: Greenlights
 author: McConaughey, Matthew
 goodreads_id: '52838315'
 isbn: '9780593139134'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/greenlights-gr-52838315.jpg
+color: '#A37448'
 status: read
 collections: []
 physical_copy: false

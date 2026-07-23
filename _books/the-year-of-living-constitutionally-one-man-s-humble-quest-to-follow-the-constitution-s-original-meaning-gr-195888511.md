@@ -3,8 +3,8 @@ title: 'The Year of Living Constitutionally: One Man''s Humble Quest to Follow t
 author: Jacobs, A.J.
 goodreads_id: '195888511'
 isbn: '9780593136744'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-year-of-living-constitutionally-one-man-s-humble-quest-to-follow-the-constitution-s-original-meaning-gr-195888511.jpg
+color: '#FFF4CD'
 status: want_to_read
 collections: []
 physical_copy: false

@@ -3,8 +3,8 @@ title: 'The Creative Act: A Way of Being'
 author: Rubin, Rick
 goodreads_id: '60965426'
 isbn: '9780593652886'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-creative-act-a-way-of-being-gr-60965426.jpg
+color: '#CDD1C8'
 status: want_to_read
 collections: []
 physical_copy: false

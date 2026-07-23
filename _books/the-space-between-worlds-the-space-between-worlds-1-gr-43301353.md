@@ -2,8 +2,8 @@
 title: 'The Space Between Worlds (The Space Between Worlds, #1)'
 author: Johnson, Micaiah
 goodreads_id: '43301353'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-space-between-worlds-the-space-between-worlds-1-gr-43301353.jpg
+color: '#F5EBDE'
 status: read
 collections: []
 physical_copy: false

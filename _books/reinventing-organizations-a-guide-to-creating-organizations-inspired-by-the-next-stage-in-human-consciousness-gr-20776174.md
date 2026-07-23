@@ -3,8 +3,8 @@ title: 'Reinventing Organizations: A Guide to Creating Organizations Inspired by
 author: Laloux, Frederic
 goodreads_id: '20776174'
 isbn: '9782960133509'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/reinventing-organizations-a-guide-to-creating-organizations-inspired-by-the-next-stage-in-human-consciousness-gr-20776174.jpg
+color: '#6A847D'
 status: want_to_read
 collections: []
 physical_copy: false

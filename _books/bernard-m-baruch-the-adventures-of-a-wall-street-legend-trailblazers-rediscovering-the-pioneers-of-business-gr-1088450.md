@@ -3,8 +3,8 @@ title: 'Bernard M. Baruch: The Adventures of a Wall Street Legend (Trailblazers,
 author: Grant, James
 goodreads_id: '1088450'
 isbn: '9780471170754'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/bernard-m-baruch-the-adventures-of-a-wall-street-legend-trailblazers-rediscovering-the-pioneers-of-business-gr-1088450.jpg
+color: '#C6C79D'
 status: want_to_read
 collections: []
 physical_copy: false

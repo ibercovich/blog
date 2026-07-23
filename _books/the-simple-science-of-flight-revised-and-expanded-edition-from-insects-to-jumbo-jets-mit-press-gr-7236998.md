@@ -3,8 +3,8 @@ title: 'The Simple Science of Flight, revised and expanded edition: From Insects
 author: Tennekes, Henk
 goodreads_id: '7236998'
 isbn: '9780262513135'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-simple-science-of-flight-revised-and-expanded-edition-from-insects-to-jumbo-jets-mit-press-gr-7236998.jpg
+color: '#2D5078'
 status: want_to_read
 collections: []
 physical_copy: false

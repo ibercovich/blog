@@ -2,8 +2,8 @@
 title: 'High Performance MySQL: Optimization, Backups, Replication, and More'
 author: Schwartz, Baron
 goodreads_id: '19939480'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/high-performance-mysql-optimization-backups-replication-and-more-gr-19939480.jpg
+color: '#E51837'
 status: read
 collections: []
 physical_copy: false

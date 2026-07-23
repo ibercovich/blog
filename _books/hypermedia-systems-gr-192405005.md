@@ -2,8 +2,8 @@
 title: Hypermedia Systems
 author: Gross, Carson
 goodreads_id: '192405005'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/hypermedia-systems-gr-192405005.jpg
+color: '#979797'
 status: read
 collections: []
 physical_copy: false

@@ -3,8 +3,8 @@ title: 'Engineering in Plain Sight: An Illustrated Field Guide to the Constructe
 author: Hillhouse, Grady
 goodreads_id: '60690050'
 isbn: '9781718502321'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/engineering-in-plain-sight-an-illustrated-field-guide-to-the-constructed-environment-gr-60690050.jpg
+color: '#928475'
 status: want_to_read
 collections: []
 physical_copy: false

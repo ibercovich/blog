@@ -3,8 +3,8 @@ title: Wanderers
 author: Wendig, Chuck
 goodreads_id: '34019083'
 isbn: '9780399182105'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/wanderers-gr-34019083.jpg
+color: '#04424B'
 status: read
 collections: []
 physical_copy: false

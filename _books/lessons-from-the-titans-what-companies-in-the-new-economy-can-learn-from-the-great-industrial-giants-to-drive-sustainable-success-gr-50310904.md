@@ -3,8 +3,8 @@ title: 'Lessons from the Titans: What Companies in the New Economy Can Learn fro
 author: Davis, Scott
 goodreads_id: '50310904'
 isbn: '9781260468397'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/lessons-from-the-titans-what-companies-in-the-new-economy-can-learn-from-the-great-industrial-giants-to-drive-sustainable-success-gr-50310904.jpg
+color: '#3D3735'
 status: want_to_read
 collections: []
 physical_copy: false

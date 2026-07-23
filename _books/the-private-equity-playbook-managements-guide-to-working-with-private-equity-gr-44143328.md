@@ -3,8 +3,8 @@ title: 'The Private Equity Playbook: Management’s Guide to Working with Privat
 author: Coffey, Adam
 goodreads_id: '44143328'
 isbn: '9781544513256'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-private-equity-playbook-managements-guide-to-working-with-private-equity-gr-44143328.jpg
+color: '#8D8261'
 status: read
 collections: []
 physical_copy: false
