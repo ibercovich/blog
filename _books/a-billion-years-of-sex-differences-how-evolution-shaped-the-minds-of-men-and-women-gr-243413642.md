@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book surveys research on average psychological and behavioral differences between men and women, covering mating, parenting, aggression, toy preferences, work, mental health, and equality. It evaluates evolutionary and social explanations for these patterns and considers how acknowledging population-level differences can coexist with removing bias, barriers, and restrictive gender expectations.
 ---

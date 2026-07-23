@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book reconstructs the speculative boom, Wall Street crash, and political struggle that helped transform an apparent age of prosperity into the Great Depression. Following bankers, investors, officials, fraudsters, and skeptics, it examines how easy credit, ambition, ignored warnings, and battles between finance and government shaped the collapse and its national consequences.
 ---

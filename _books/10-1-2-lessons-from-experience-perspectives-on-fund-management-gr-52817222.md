@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book presents a series of lessons on the gap between academic investment theory and everyday fund-management practice, including whether investment skill can be measured and persist over time. It also examines how uncertainty, cognitive bias, human fallibility, and hubris shape portfolio decisions and the challenge of building and running an investment firm.
 ---

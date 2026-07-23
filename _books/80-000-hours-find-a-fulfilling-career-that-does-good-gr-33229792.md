@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The guide frames the roughly 80,000 hours in a working life as an opportunity to build a satisfying career while addressing important problems. It challenges passion-first advice and offers frameworks for comparing problems and roles, testing personal fit, building flexible career capital, and choosing among direct work, advocacy, research, and earning to give.
 ---
