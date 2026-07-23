@@ -3,8 +3,8 @@ title: A History of π
 author: Beckmann, Petr
 goodreads_id: '586616'
 isbn: '9780312381851'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-history-of-gr-586616.jpg
+color: '#232322'
 status: want_to_read
 collections: []
 physical_copy: false

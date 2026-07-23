@@ -34,6 +34,7 @@ from import_books import (
 
 
 REPORT_PATH = BLOG_ROOT / "_import" / "goodreads" / "covers.jsonl"
+OVERRIDES_PATH = BLOG_ROOT / "_import" / "goodreads" / "cover-overrides.jsonl"
 MIN_WIDTH, MIN_HEIGHT = 200, 280
 PREFERRED_WIDTH, PREFERRED_HEIGHT = 300, 450
 MIN_ASPECT, MAX_ASPECT = 0.35, 1.05
@@ -223,6 +224,54 @@ def candidate(source, url, lookup_url, source_id=None):
     return result
 
 
+def load_overrides():
+    if not OVERRIDES_PATH.exists():
+        return {}
+    entries = {}
+    for number, line in enumerate(
+        OVERRIDES_PATH.read_text(encoding="utf-8").splitlines(), 1
+    ):
+        if not line.strip():
+            continue
+        try:
+            entry = json.loads(line)
+        except json.JSONDecodeError as error:
+            raise ValueError(
+                f"{OVERRIDES_PATH}:{number} contains invalid JSON"
+            ) from error
+        goodreads_id = str(entry.get("goodreads_id") or "")
+        source_url = str(entry.get("source_url") or "")
+        source_page = str(entry.get("source_page") or source_url)
+        if not goodreads_id.isdigit() or goodreads_id in entries:
+            raise ValueError(
+                f"{OVERRIDES_PATH}:{number} has invalid/duplicate goodreads_id"
+            )
+        if not is_http_url(source_url) or not is_http_url(source_page):
+            raise ValueError(f"{OVERRIDES_PATH}:{number} has an invalid URL")
+        entries[goodreads_id] = {
+            "source_url": source_url,
+            "source_page": source_page,
+            "note": str(entry.get("note") or ""),
+        }
+    return entries
+
+
+def discover_override(book, overrides):
+    goodreads_id = str(book.data["goodreads_id"]).strip()
+    override = overrides.get(goodreads_id)
+    if not override:
+        return [], []
+    item = candidate(
+        "manual_review",
+        override["source_url"],
+        override["source_page"],
+        goodreads_id,
+    )
+    if override["note"]:
+        item["review_note"] = override["note"]
+    return [item], []
+
+
 def discover_open_library(isbn):
     value = normalize_isbn(isbn)
     if not canonical_isbn(value):
@@ -316,9 +365,10 @@ def discover_google(session, isbn, api_key):
     return found, ([] if found else ["google_books:no_exact_isbn_image"])
 
 
-def discover_candidates(session, book, api_key):
+def discover_candidates(session, book, api_key, overrides):
     found, issues = [], []
     for lookup in (
+        lambda: discover_override(book, overrides),
         lambda: discover_open_library(book.data.get("isbn")),
         lambda: discover_goodreads(session, str(book.data["goodreads_id"]).strip()),
         lambda: discover_google(session, book.data.get("isbn"), api_key),
@@ -478,6 +528,9 @@ def select_best(inspected):
     ]
     if not valid:
         return None
+    reviewed = [pair for pair in valid if pair[0].get("source") == "manual_review"]
+    if reviewed:
+        return max(reviewed, key=lambda pair: pair[0]["pixel_area"])
     largest_area = max(pair[0]["pixel_area"] for pair in valid)
     # Near-equivalent Goodreads images are usually clean retail covers; Open
     # Library scans can contain library stickers or title pages. Preserve area
@@ -666,7 +719,7 @@ def resume_current(book, entry, dry_run):
     return True
 
 
-def process_book(session, book, original_record, api_key, dry_run):
+def process_book(session, book, original_record, api_key, overrides, dry_run):
     result = result_base(book)
     if str(book.data.get("cover") or "").strip():
         result.update(
@@ -685,7 +738,9 @@ def process_book(session, book, original_record, api_key, dry_run):
             candidates=[],
         )
         return result
-    candidates, lookup_issues = discover_candidates(session, book, api_key)
+    candidates, lookup_issues = discover_candidates(
+        session, book, api_key, overrides
+    )
     inspected = [inspect_candidate(session, item) for item in candidates]
     safe_candidates = [item for item, _ in inspected]
     best = select_best(inspected)
@@ -763,7 +818,7 @@ def run(limit, ids, dry_run, resume, api_key, delay):
         raise ValueError(f"unknown Goodreads IDs: {', '.join(sorted(unknown, key=int))}")
     if ids:
         eligible = [book for book in eligible if str(book.data["goodreads_id"]) in ids]
-    report, pending, resumed = load_report(), [], 0
+    report, overrides, pending, resumed = load_report(), load_overrides(), [], 0
     for book in eligible:
         goodreads_id = str(book.data["goodreads_id"]).strip()
         if resume and goodreads_id in report and resume_current(
@@ -780,7 +835,12 @@ def run(limit, ids, dry_run, resume, api_key, delay):
             goodreads_id = str(book.data["goodreads_id"]).strip()
             try:
                 result = process_book(
-                    session, book, originals[book.path], api_key, dry_run
+                    session,
+                    book,
+                    originals[book.path],
+                    api_key,
+                    overrides,
+                    dry_run,
                 )
             except Exception as error:
                 result = result_base(book)
@@ -884,6 +944,9 @@ def self_check():
     smaller = copy.deepcopy(good)
     smaller["pixel_area"] = 1
     assert select_best([(smaller, b"small"), (good, normalized)])[1] == normalized
+    reviewed = copy.deepcopy(smaller)
+    reviewed["source"] = "manual_review"
+    assert select_best([(reviewed, b"reviewed"), (good, normalized)])[1] == b"reviewed"
     transient = {"status": "no_valid_candidate", "reasons": ["goodreads:http_202"]}
     assert resume_current(None, transient, False) is False
     final = {"status": "no_valid_candidate", "reasons": ["open_library:http_404"]}

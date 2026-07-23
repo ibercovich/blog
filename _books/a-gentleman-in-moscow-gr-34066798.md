@@ -2,8 +2,8 @@
 title: A Gentleman in Moscow
 author: Towles, Amor
 goodreads_id: '34066798'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-gentleman-in-moscow-gr-34066798.jpg
+color: '#181925'
 status: want_to_read
 collections: []
 physical_copy: false

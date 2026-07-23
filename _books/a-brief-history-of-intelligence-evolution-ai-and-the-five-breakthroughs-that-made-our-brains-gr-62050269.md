@@ -2,8 +2,8 @@
 title: 'A Brief History of Intelligence: Evolution, AI, and the Five Breakthroughs That Made Our Brains'
 author: Bennett, Max Solomon
 goodreads_id: '62050269'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-brief-history-of-intelligence-evolution-ai-and-the-five-breakthroughs-that-made-our-brains-gr-62050269.jpg
+color: '#D4D4CE'
 status: want_to_read
 collections: []
 physical_copy: false

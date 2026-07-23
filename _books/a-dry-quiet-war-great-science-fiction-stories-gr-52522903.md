@@ -2,8 +2,8 @@
 title: A Dry, Quiet War (Great Science Fiction Stories)
 author: Daniel, Tony
 goodreads_id: '52522903'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-dry-quiet-war-great-science-fiction-stories-gr-52522903.jpg
+color: '#A19255'
 status: want_to_read
 collections: []
 physical_copy: false

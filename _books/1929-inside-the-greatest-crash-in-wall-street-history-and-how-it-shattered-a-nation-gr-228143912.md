@@ -3,8 +3,8 @@ title: '1929: Inside the Greatest Crash in Wall Street History--and How It Shatt
 author: Sorkin, Andrew Ross
 goodreads_id: '228143912'
 isbn: '9780593296974'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/1929-inside-the-greatest-crash-in-wall-street-history-and-how-it-shattered-a-nation-gr-228143912.jpg
+color: '#EE1D23'
 status: want_to_read
 collections: []
 physical_copy: false

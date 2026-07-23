@@ -3,8 +3,8 @@ title: 'A Map That Reflects the Territory: Essays by the Lesswrong Community'
 author: LessWrong, LessWrong
 goodreads_id: '57061497'
 isbn: '9781736128503'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/a-map-that-reflects-the-territory-essays-by-the-lesswrong-community-gr-57061497.jpg
+color: '#D4D4D4'
 status: currently_reading
 collections: []
 physical_copy: false

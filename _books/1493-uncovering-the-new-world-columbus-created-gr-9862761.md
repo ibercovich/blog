@@ -3,8 +3,8 @@ title: '1493: Uncovering the New World Columbus Created'
 author: Mann, Charles C.
 goodreads_id: '9862761'
 isbn: '9780307265722'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/1493-uncovering-the-new-world-columbus-created-gr-9862761.jpg
+color: '#B4D8D3'
 status: want_to_read
 collections: []
 physical_copy: false

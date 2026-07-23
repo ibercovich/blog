@@ -2,8 +2,8 @@
 title: '80,000 Hours: Find a fulfilling career that does good'
 author: Todd, Benjamin
 goodreads_id: '33229792'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/80-000-hours-find-a-fulfilling-career-that-does-good-gr-33229792.jpg
+color: '#31BED2'
 status: want_to_read
 collections: []
 physical_copy: false
