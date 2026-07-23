@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The biography follows Claude Shannon from a curious, mechanically inventive childhood through his work in cryptography, electrical engineering, and the mathematical theory of information. It explains how his ideas underpin digital communication and computing while also tracing the puzzles, machines, gambling experiments, and playful habits that shape his approach to discovery.
 ---

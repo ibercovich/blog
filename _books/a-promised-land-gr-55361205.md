@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The memoir follows Obama's path from early political aspirations and community organizing through the 2008 election and the opening years of his presidency. It recounts forming an administration and confronting the financial crisis, health-care reform, Afghanistan strategy, Wall Street regulation, the Deepwater Horizon disaster, and the operation against Osama bin Laden, while reflecting on presidential power, partisan politics, diplomacy, race, and family life.
 ---

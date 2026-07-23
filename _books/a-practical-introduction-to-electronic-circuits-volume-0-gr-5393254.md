@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book introduces electronics through practical explanations and experiments, beginning with amplification and transistors before progressing through feedback, impedance matching, semiconductor behavior, power supplies, pulse handling, and analogue integrated circuits. Later chapters cover oscillators, digital logic, microcomputer circuits, component identification, device selection, operational-amplifier data, and computer interfacing while keeping mathematical treatment subordinate to circuit concepts.
 ---
