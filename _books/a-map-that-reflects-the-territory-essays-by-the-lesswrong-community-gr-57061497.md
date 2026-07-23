@@ -9,5 +9,5 @@ status: currently_reading
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This five-volume set collects forty-one essays selected through the LessWrong community’s review of writing published in 2018. Organized around epistemology, agency, coordination, curiosity, and artificial-intelligence alignment, the essays examine general methods for forming accurate beliefs and making effective decisions across topics including probability, introspection, markets, aesthetics, altruism, and machine learning.
 ---

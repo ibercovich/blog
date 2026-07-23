@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In a galaxy divided into zones that limit intelligence and technology, an experiment releases a destructive superintelligence while two human children become stranded among a species whose individuals form group minds. A rescue mission crosses a vast communications network and a widening interstellar war, seeking the children and a possible defense before the threat spreads.
 ---
