@@ -1,0 +1,13 @@
+---
+title: Metaplanetary
+author: Daniel, Tony
+goodreads_id: '116171'
+isbn: '9780061020254'
+cover: ''
+color: '#6B4C3B'
+status: want_to_read
+collections: []
+physical_copy: false
+recommended: false
+synopsis: ''
+---

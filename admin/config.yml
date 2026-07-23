@@ -127,6 +127,8 @@ collections:
     view_filters:
       - { label: "Read", field: "status", pattern: "read" }
       - { label: "Want to read", field: "status", pattern: "want_to_read" }
+      - { label: "Currently reading", field: "status", pattern: "currently_reading" }
+      - { label: "TBD", field: "status", pattern: "tbd" }
       - { label: "Recommended", field: "recommended", pattern: "true" }
       - { label: "Physical copies", field: "physical_copy", pattern: "true" }
     editor:
@@ -142,6 +144,11 @@ collections:
         widget: "string"
         required: false
         pattern: ['^(?:[0-9]{9}[0-9X]|[0-9]{13})$', "Use ISBN-10 or ISBN-13 without spaces or hyphens."]
+      - label: "Goodreads ID"
+        name: "goodreads_id"
+        widget: "string"
+        required: false
+        pattern: ['^[0-9]+$', "Use the numeric ID from the legacy Goodreads record."]
       - label: "Cover"
         name: "cover"
         widget: "image"
@@ -163,14 +170,16 @@ collections:
         options:
           - { label: "Read", value: "read" }
           - { label: "Want to read", value: "want_to_read" }
+          - { label: "Currently reading", value: "currently_reading" }
+          - { label: "TBD", value: "tbd" }
       - label: "Collections"
         name: "collections"
         widget: "list"
         required: false
         default: []
         hint: "Optional shelves or tags, entered as a comma-separated list."
-      - { label: "Physical copy", name: "physical_copy", widget: "boolean", required: false }
-      - { label: "Recommended", name: "recommended", widget: "boolean", required: false }
+      - { label: "Physical copy", name: "physical_copy", widget: "boolean", required: false, default: false }
+      - { label: "Recommended", name: "recommended", widget: "boolean", required: false, default: false }
       - label: "Finished on"
         name: "finished_on"
         widget: "datetime"
