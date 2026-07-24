@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Andrew Ross Sorkin reconstructs the events of the 2008 financial crisis through the perspectives of the Wall Street executives and government officials who negotiated the emergency responses to the collapse of Lehman Brothers and the near-failures of institutions including Bear Stearns and AIG. The book chronicles the closed-door decisions that determined which firms would be saved and which allowed to fail.
 ---

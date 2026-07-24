@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Professor Pierre Aronnax and two companions, after investigating reports of a sea monster, are captured and held aboard the futuristic submarine Nautilus by its enigmatic commander, Captain Nemo. The novel follows their globe-spanning underwater journey through oceans, lost ruins, and polar ice as they seek an opportunity to escape.
 ---

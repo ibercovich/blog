@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: John Durant argues that modern humans thrive by emulating key aspects of their ancestral environment, applying evolutionary principles to diet, movement, and sleep to address chronic conditions like obesity and diabetes. Drawing on anthropology, paleontology, and contemporary science, the book offers a framework for building a personal "habitat" suited to long-term health.
 ---

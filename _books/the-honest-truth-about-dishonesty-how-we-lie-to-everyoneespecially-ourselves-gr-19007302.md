@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Honest Truth About Dishonesty uses behavioral economics experiments to challenge the assumption that people cheat only when the rational benefits outweigh the risks, showing instead that most individuals engage in small, self-serving deceptions that preserve their self-image as honest people. Ariely maps the conditions—distance from money, social norms, conflicts of interest—that expand or contract the range of dishonesty people permit themselves.
 ---

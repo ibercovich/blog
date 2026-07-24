@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Simon Baron-Cohen argues that the human capacity for invention rests on a Systemizing Mechanism—the ability to detect if-and-then patterns—which appears most strongly in people with autism and has driven technological progress for millennia. He contends that autistic cognition has been central to human advancement from early stone tools to the digital revolution, and calls for society to better support those who think differently.
 ---

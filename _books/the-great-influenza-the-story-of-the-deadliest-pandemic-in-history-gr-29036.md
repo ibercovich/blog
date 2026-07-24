@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Great Influenza examines the 1918 influenza pandemic, which killed tens of millions worldwide, through the parallel stories of the scientists racing to understand the virus and the political leaders who suppressed information about it. Barry argues that the collision of modern science with an overwhelming epidemic reveals how institutional failures and willful ignorance can magnify a biological catastrophe.
 ---

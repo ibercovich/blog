@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Eric M. Jackson, an early PayPal employee, recounts the company's rapid growth from unknown startup to online payment powerhouse, detailing its battles with regulators, fraudsters, the American Mafia, and eBay's competing service. The book offers an insider's view of the decisions and conflicts that shaped PayPal before its acquisition by eBay in 2002.
 ---

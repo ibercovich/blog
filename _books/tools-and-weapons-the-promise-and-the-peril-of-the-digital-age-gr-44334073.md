@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Microsoft president Brad Smith and Carol Ann Browne examine how the same digital technologies that create enormous social benefits also generate serious dangers, covering issues including privacy, cybersecurity, artificial intelligence, surveillance, and the responsibilities that large technology companies bear toward governments, customers, and society. The book argues that if technology changes the world, the companies creating it have an obligation to help navigate the consequences.
 ---

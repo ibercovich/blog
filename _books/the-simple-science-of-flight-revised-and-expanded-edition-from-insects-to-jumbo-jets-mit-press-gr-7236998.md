@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Henk Tennekes explores the aerodynamic principles shared by insects, birds, and aircraft, showing that creatures as different as gnats and jumbo jets obey the same physical laws governing wing size, energy consumption, and lift. The revised edition adds analysis of bar-tailed godwit migration, the convergence of modern jetliners, and new treatment of drag and trailing vortices.
 ---

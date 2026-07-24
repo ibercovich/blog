@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Donald MacKenzie examines how automated high-frequency trading emerged in the 1990s and reshaped global financial markets by compressing trade execution to nanoseconds, drawing on more than three hundred interviews with traders, technologists, exchange officials, and regulators. The book analyzes the physical infrastructure of speed, including fiber-optic cables and microwave towers, and the social and regulatory conflicts this technological arms race has produced.
 ---

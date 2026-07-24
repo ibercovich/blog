@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Erik Brynjolfsson and Andrew McAfee argue that digital technology is driving a second machine age in which computers begin to automate cognitive tasks as the industrial revolution automated physical ones, generating enormous economic bounty while simultaneously disrupting labor markets and widening inequality. The book examines which skills and policies will allow workers and societies to share the gains from accelerating technological progress.
 ---

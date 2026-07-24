@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Daniel Yergin surveys the global quest for energy across oil, natural gas, renewables, and electricity, tracing how competing energy systems shape geopolitics, economic power, and climate policy. The book examines the forces driving the transition from fossil fuels to new energy sources and the security dilemmas nations face as they navigate that shift.
 ---

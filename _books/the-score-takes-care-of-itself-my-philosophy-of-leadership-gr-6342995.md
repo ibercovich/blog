@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Bill Walsh outlines the leadership philosophy he applied while transforming the San Francisco 49ers from the NFL's worst franchise into a dynasty, centering on the idea that excellence in organizational process—what he calls the Standard of Performance—produces winning results rather than the other way around. The book draws on Walsh's career to illustrate principles about building culture, teaching, and maintaining standards under pressure.
 ---

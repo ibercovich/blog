@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ray Kurzweil argues that accelerating technological progress—driven by the exponential growth of computing power—will lead by 2029 to artificial intelligence that surpasses human intelligence in all domains, and by 2045 to a Singularity in which humans and machines merge. The book presents a framework of overlapping technological revolutions in genetics, nanotechnology, and robotics as the pathway to this transformation.
 ---

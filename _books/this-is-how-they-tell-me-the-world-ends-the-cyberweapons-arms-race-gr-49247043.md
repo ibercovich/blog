@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nicole Perlroth chronicles the global market for software vulnerabilities known as zero-days, tracing how the United States government became the dominant buyer of these digital weapons and then lost control of its stockpile to hostile nations and criminal groups. The book examines the resulting cyberweapons arms race through attacks including Stuxnet and WannaCry, and the systemic risks it poses to critical infrastructure.
 ---

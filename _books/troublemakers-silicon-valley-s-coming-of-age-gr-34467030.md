@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Leslie Berlin profiles seven individuals who drove the technological transformation of Silicon Valley during the 1970s and early 1980s, covering the simultaneous development of the microprocessor, personal computer, biotechnology, venture capital, and other industries that reshaped the global economy. The narrative history examines how these pioneers, working across companies including Apple, Atari, Intel, and Genentech, collectively established the region's distinctive culture of innovation.
 ---

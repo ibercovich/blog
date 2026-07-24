@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Tarang Shah and Shital Shah present structured interviews with thirty-five prominent venture capitalists, asking each about the criteria they use to evaluate investments, how they structure deals, and the common mistakes that cause startups to fail. The book draws on conversations with investors who backed companies including YouTube, Twitter, Facebook, and Zappos to illustrate how top VCs identify and build high-growth businesses.
 ---

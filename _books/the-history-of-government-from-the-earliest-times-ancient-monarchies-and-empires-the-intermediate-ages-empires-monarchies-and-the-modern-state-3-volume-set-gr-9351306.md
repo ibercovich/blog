@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The History of Government from the Earliest Times is a three-volume comparative survey spanning five thousand years of political organization, from Sumerian city-states to the modern nation-state, examining how different forms of rule have emerged, persisted, and collapsed across civilizations. Finer analyzes government through five recurring themes—state-building, military formats, belief systems, social stratification, and duration—to construct a comprehensive typology of political power.
 ---

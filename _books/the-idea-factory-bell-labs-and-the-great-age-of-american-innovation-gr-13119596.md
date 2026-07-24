@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Idea Factory chronicles Bell Laboratories from the 1920s to the 1980s, showing how AT&T's research arm produced the transistor, the laser, information theory, and cellular telephony through a unique concentration of scientific talent and institutional patience. Gertner uses the careers of figures like Claude Shannon and William Shockley to explore what organizational conditions enable sustained, transformative innovation.
 ---

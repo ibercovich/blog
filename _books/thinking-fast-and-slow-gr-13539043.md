@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Daniel Kahneman presents research on two cognitive systems governing human judgment: System 1, which operates quickly through intuition and emotion, and System 2, which engages in slower, deliberate reasoning. The book examines the capabilities and biases of each mode and shows how intuitive impressions shape choices in ways that often diverge from rational models.'
 ---

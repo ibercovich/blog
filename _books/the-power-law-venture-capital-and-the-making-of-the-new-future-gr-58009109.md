@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Sebastian Mallaby draws on interviews with founders of leading VC firms—Sequoia, Kleiner Perkins, Accel, and Benchmark—to narrate how Silicon Valley investors financed the technologies that shaped the modern economy. The book examines the power law dynamic in which a handful of outsized winners define fund returns, and considers how this logic drives bias, U.S.-China competition, and innovation policy.
 ---

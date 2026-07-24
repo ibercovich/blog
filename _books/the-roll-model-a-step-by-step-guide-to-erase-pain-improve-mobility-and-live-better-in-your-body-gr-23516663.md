@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Roll Model presents Jill Miller's self-massage system using therapy balls to relieve pain, improve mobility, and increase body awareness through techniques she calls the Roll Model Method. The book combines anatomical explanations, step-by-step rolling sequences from head to toe, and case studies illustrating how the approach addresses chronic pain and movement restrictions.
 ---

@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Human suffering is framed as a result of identifying with the thinking mind and dwelling outside the present moment. Through spiritual explanations and practical exercises drawing on several traditions, the book teaches readers to observe thoughts without being controlled by them and to cultivate sustained awareness of the present.
 ---

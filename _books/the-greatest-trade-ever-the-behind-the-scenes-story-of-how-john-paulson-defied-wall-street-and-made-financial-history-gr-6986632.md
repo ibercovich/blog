@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Greatest Trade Ever reconstructs how hedge fund manager John Paulson, aided by analyst Paolo Pellegrini, recognized that subprime mortgage securities were catastrophically overvalued and structured a short position that earned more than fifteen billion dollars when the housing market collapsed in 2007–2008. Zuckerman traces the financial reasoning, personal tensions, and market dynamics behind what became the most profitable trade in Wall Street history.
 ---

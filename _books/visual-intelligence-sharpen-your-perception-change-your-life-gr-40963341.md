@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Amy Herman adapts the curriculum of her Art of Perception seminar, which uses close observation of artworks to train professionals—including police officers, physicians, and military personnel—to see more accurately and communicate what they notice. The book applies these visual analysis techniques to real-world decision-making, showing how disciplined looking can sharpen judgment across a wide range of fields.
 ---

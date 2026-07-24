@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Vickie Schumacher explains how a revocable living trust works as an alternative to a will, outlining how it enables individuals to avoid probate, retain control of assets during their lifetime, and simplify the transfer of wealth at death. The book walks through how to create and fund a trust, what supplemental documents are needed, and how to tailor an estate plan to individual circumstances.
 ---

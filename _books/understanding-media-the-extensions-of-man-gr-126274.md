@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Marshall McLuhan argues that the nature of a medium rather than its content shapes human perception and social organization, a premise he calls the medium is the message. The book surveys media from print to television, treating each as an extension of human faculties whose structural form alters how people think and relate.
 ---

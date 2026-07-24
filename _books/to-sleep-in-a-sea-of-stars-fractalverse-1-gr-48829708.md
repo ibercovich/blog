@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: During a routine survey of an uncolonized moon, xenobiologist Kira Navárez discovers an alien artifact that fuses to her body, triggering a conflict that draws humanity into a war spanning multiple star systems. The novel follows Kira as she attempts to understand and control the alien entity bonded to her while Earth's colonies fight for survival.
 ---

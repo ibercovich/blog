@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Hundred-Page Machine Learning Book compresses the core concepts of modern machine learning—supervised and unsupervised learning, neural networks, regularization, and model evaluation—into a concise, mathematically grounded introduction aimed at practitioners and students who need working knowledge without exhaustive theoretical treatment. Burkov prioritizes clarity and applicability, covering the algorithms that underpin most real-world systems without sacrificing rigor.
 ---

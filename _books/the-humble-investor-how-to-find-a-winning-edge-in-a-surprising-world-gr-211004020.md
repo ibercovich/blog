@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Humble Investor presents a meta-analysis of market research and investor behavior, arguing that excessive confidence in forecasts is a root cause of poor returns and that portfolios built on fundamentals, diversification, and countercyclical rebalancing consistently outperform those driven by predictions and models. Rasmussen contends that acknowledging the limits of knowledge—embracing humility over hubris—is the practical edge available to any investor.
 ---

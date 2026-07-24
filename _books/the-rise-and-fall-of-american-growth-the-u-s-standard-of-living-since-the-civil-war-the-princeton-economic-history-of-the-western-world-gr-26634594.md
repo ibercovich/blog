@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert Gordon contends that the century between 1870 and 1970 was a singular period of transformation in American living standards, driven by electricity, indoor plumbing, motor vehicles, and modern medicine—improvements of a scale that cannot be replicated. He argues that the economy since 1970 faces structural headwinds including rising inequality, educational stagnation, and demographic change that will suppress future growth.
 ---

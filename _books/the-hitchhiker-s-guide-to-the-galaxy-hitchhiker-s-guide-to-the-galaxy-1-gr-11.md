@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Hitchhiker's Guide to the Galaxy follows Arthur Dent, an ordinary Englishman rescued moments before Earth is demolished to make way for a hyperspace bypass, as he travels the universe with his alien friend Ford Prefect armed only with a towel and the hitchhiker's guide itself. Adams uses absurdist science fiction to satirize human pretension, bureaucratic indifference, and the cosmic insignificance of any individual's concerns.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Gregory Clark uses surname tracking across more than twenty societies and eight centuries to argue that social mobility rates are far lower and more persistent than standard estimates suggest, remaining largely constant regardless of policy or regime. The findings challenge the assumption that education reform or redistribution can meaningfully accelerate movement up and down the social ladder.
 ---

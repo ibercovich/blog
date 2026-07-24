@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book explains how private-equity firms select, govern, improve, and exit portfolio companies, and what managers need to understand when operating under that ownership model. It covers deal structures, sponsor expectations, governance, growth strategies, and the process of building value during a fund's holding period.
 ---

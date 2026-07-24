@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Brad Feld and Jason Mendelson break down every clause of a venture capital term sheet, explaining what each provision means economically and how it affects founder control, so entrepreneurs can negotiate with informed confidence. The book covers the full funding process, from understanding who the key players are to recognizing the legal and strategic implications of deal terms.
 ---

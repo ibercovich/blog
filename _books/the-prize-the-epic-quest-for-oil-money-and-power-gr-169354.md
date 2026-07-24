@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book traces the global oil industry from the Pennsylvania oil rush through the OPEC embargo, Iranian Revolution, and Gulf War. It shows how competition for petroleum shaped wars, economies, and geopolitics, making oil a central resource in modern industrial development and international power.
 ---

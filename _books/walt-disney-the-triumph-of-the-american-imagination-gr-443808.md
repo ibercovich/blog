@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Neal Gabler traces Walt Disney's life from a childhood of hardship through his decades of innovation in animation, film, television, and theme parks, drawing on complete access to the Disney archives. The biography portrays Disney as a complex figure whose creative ambitions were shadowed by financial crises, periods of withdrawal, and feelings of inadequacy.
 ---

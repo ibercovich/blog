@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Annie Duke draws on her career as a professional poker player to argue that decisions should be evaluated as bets under uncertainty rather than judged solely by outcomes. The book offers frameworks for separating luck from skill, quantifying what is known versus unknown, and making higher-quality choices when complete information is unavailable.
 ---

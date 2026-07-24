@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ryan Holiday exposes the mechanics by which online rumors are manufactured and traded up through the media ecosystem until they become mainstream headlines with real-world consequences. Drawing on his own experience as a media manipulator, he details how bloggers and marketers exploit the toxic economics of digital news to spread misinformation at scale.
 ---

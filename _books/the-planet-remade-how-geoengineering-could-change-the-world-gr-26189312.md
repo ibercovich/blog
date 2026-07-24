@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Oliver Morton surveys proposals for deliberately intervening in the climate system—including injecting aerosols into the stratosphere and seeding ocean plankton—examining the science, history, and geopolitical risks that make solar geoengineering both appealing and contested. He argues that dismissing these technologies entirely would be as irresponsible as treating them as a simple substitute for emissions reductions.
 ---

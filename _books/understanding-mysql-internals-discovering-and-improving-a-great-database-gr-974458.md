@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Sasha Pachev, a former MySQL development team member, provides a technical tour of MySQL's internal architecture, covering its core data structures, storage engine interface, and replication system. The book is designed for developers who want to understand how MySQL works at the code level in order to extend, tune, or contribute to the database.
 ---

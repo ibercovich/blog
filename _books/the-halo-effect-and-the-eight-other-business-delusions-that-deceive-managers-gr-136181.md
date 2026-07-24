@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'The Halo Effect argues that most popular business books and case studies are built on a fundamental cognitive error: when companies perform well, observers attribute positive qualities to their culture, leadership, and strategy, while the same attributes are rated negatively when results disappoint. Rosenzweig identifies nine such delusions that distort business analysis and calls for a more rigorous, uncertainty-aware approach to understanding corporate performance.'
 ---

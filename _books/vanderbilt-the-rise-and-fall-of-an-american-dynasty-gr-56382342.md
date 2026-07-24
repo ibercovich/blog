@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Anderson Cooper and Katherine Howe trace the Vanderbilt family from Cornelius Vanderbilt's accumulation of a vast fortune in shipping and railroads through successive generations who expanded, squandered, and ultimately dispersed the wealth. The book examines how the family shaped the Gilded Age economy and culture while chronicling the personal rivalries and extravagances that marked their decline.
 ---

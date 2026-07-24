@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Sloan Wilson argues that the Darwinian revolution remains incomplete because evolutionary theory has not been consistently applied to human culture, social behavior, and policy. The book uses examples ranging from poultry breeding to factory organization to show how evolutionary principles can serve as a practical framework for designing more effective groups and institutions.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Anne-Marie Slaughter argues that true gender equality requires restructuring workplaces and revaluing caregiving rather than asking individuals to manage incompatible demands on their own. Drawing on her experience leaving a senior government role and on broader research, she proposes that when men and women share caregiving equally, both individuals and economies benefit.
 ---

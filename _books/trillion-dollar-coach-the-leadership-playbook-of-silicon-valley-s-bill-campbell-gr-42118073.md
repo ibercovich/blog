@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Eric Schmidt, Jonathan Rosenberg, and Alan Eagle document the coaching methods of Bill Campbell, who mentored executives at Google, Apple, and Intuit while remaining largely unknown to the public, based on interviews with more than eighty people he worked with. The book identifies principles Campbell used to build high-performing teams, including prioritizing trust, developing people, and resolving interpersonal tensions before they escalated.
 ---

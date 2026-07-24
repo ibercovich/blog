@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jernau Morat Gurgeh, the Culture's foremost game player, travels to the empire of Azad to compete in a game so complex that its winner becomes emperor, only to face blackmail, assassination, and an adversary who plays by entirely different rules. The novel uses this contest as a lens to examine the contrast between the Culture's egalitarian values and the brutal hierarchies of an alien civilization.
 ---

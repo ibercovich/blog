@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Investigative journalists Bastian Obermayer and Frederik Obermaier recount how an anonymous source led them to a massive trove of leaked documents from the Panamanian law firm Mossack Fonseca, revealing how politicians, oligarchs, and criminals use offshore shell companies to hide wealth. The book traces the year-long secret collaboration of more than 400 journalists worldwide that brought the story to light.
 ---

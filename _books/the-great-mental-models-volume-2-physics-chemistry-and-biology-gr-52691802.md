@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Great Mental Models Volume 2 extracts more than twenty thinking frameworks from physics, chemistry, and biology—concepts like thermodynamics, catalysts, and evolution—and translates them into practical tools for everyday decision-making. Parrish and Beaubien contend that the hard sciences offer a wealth of underused models that can sharpen curiosity, strengthen relationships, and improve leadership judgment.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Donella Meadows introduces the principles of systems thinking, explaining how stocks, flows, and feedback loops combine to produce complex behavior in organizations, economies, and ecosystems. The book argues that major global challenges such as poverty, environmental degradation, and conflict are fundamentally system failures that cannot be resolved by fixing individual parts in isolation.
 ---

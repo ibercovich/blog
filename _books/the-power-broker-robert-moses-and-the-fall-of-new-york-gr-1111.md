@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert A. Caro examines how Robert Moses, holding no elected office, dominated New York planning for nearly half a century by controlling public authorities and bureaucratic appointments to build highways, parks, and housing that reshaped the city and the lives of millions. The biography reveals how Moses accumulated power outside democratic accountability, leaving an enduring imprint of displacement and urban decline.
 ---

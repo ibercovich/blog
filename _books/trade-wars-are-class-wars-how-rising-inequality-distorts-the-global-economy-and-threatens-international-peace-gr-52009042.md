@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Matthew Klein and Michael Pettis argue that trade imbalances between the United States, China, and Europe are not primarily caused by competing national interests but by domestic political choices that suppress wages and consumption to benefit wealthy elites, forcing surplus savings into export-driven growth. The book contends that these class-based distributional conflicts manifest internationally as trade wars and threaten global stability.
 ---

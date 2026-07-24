@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: A network of epidemiologists, public-health officials, and doctors recognizes the threat of COVID-19 early while established institutions fail to respond. Their attempts to model and contain the outbreak reveal structural weaknesses in the CDC and the broader U.S. public-health system, along with the costs of acting outside normal channels.
 ---

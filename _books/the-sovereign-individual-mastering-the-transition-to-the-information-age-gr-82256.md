@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Davidson and Rees-Mogg forecast that the information age will erode nation-state power by making it impossible for governments to tax and coerce mobile individuals and capital, producing what they call a fourth stage of human society in which sovereign individuals transact outside traditional political structures. The book outlines financial strategies for adapting to this transition and examines consequences for democracy and warfare.
 ---
