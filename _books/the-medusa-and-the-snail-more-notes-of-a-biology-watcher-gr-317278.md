@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Thomas collects twenty-nine brief essays that range across biology, medicine, and human behavior, exploring topics such as disease, death, cloning, the nature of mistakes, and the kinship between humans and other organisms. Written with wit and philosophical curiosity, the pieces use biological phenomena as lenses for reflecting on the broader conditions of human existence.
 ---

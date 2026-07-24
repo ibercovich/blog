@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Hobbit Frodo Baggins inherits the One Ring forged by the dark lord Sauron to dominate Middle-earth, and sets out with a diverse company of humans, elves, dwarves, and hobbits to destroy it in the fires of Mount Doom. The journey leads them from the Shire through perilous mountains and underground mines before the fellowship is broken at the edge of Mordor.
 ---

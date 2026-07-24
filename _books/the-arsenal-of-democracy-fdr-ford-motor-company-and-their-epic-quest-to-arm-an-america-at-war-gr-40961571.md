@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: A.J. Baime chronicles how Edsel Ford defied his pacifist father to commit Ford Motor Company to building the world's largest airplane factory, aiming to produce a bomber every hour for the Allied war effort. The narrative tracks the industrial mobilization from Detroit's assembly lines to World War II battlefields, centering Edsel Ford as a pivotal figure in America's victory.
 ---

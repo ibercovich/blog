@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Napoleon Hill distills interviews with industrialists including Andrew Carnegie, Henry Ford, and Thomas Edison into thirteen principles for achieving success, centered on the power of a definite chief aim and the cultivation of a burning desire to attain it. First published in 1937, the book presents success as primarily a mental discipline rooted in faith, persistence, and the organized planning of one's goals.
 ---

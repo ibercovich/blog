@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Peter Zeihan maps the consequences of deglobalization, arguing that the American-led global order established after World War II is unraveling, leaving countries to secure their own food, energy, and goods with aging, shrinking populations. The book traces how different regions and industries will fare as global supply chains fragment and international trade collapses.
 ---

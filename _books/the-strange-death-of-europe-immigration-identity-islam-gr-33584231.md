@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Strange Death of Europe argues that a combination of mass immigration, declining birth rates, and a loss of cultural self-confidence is transforming European civilization in ways its citizens did not choose and cannot easily reverse. Murray draws on travels across the continent to examine the political, demographic, and philosophical forces he believes are driving this transformation.
 ---

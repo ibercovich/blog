@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Trevor Kletz examines real accidents at chemical and process plants to identify recurring failures in equipment design, operating procedures, and management decisions that allowed disasters to occur. Each case history explains the root cause and outlines changes that would have prevented the incident, building a practical guide for improving industrial safety.
 ---

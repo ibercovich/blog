@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Wu examines a recurring pattern in the history of information industries—radio, telephone, film, television, and the internet—whereby each medium begins as an open, decentralized technology and eventually consolidates under the control of a dominant corporate power. The book uses this historical pattern to analyze the competitive strategies of contemporary technology companies and warn about the concentration of control over information flow.
 ---

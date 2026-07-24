@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Story of the Universe in 100 Stars uses one hundred individual stars—bright and faint, near and far, long dead and yet unborn—as entry points into the history of astronomy and the scientists who shaped it. Each profile illuminates a key discovery, from the stellar evidence for dark matter to the proof of Einstein's general relativity.
 ---

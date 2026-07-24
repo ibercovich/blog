@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Christopher Chant discovers that his recurring dreams of traveling through a mysterious in-between place are real journeys to alternate worlds, and that he can bring objects back—drawing the attention of powerful enchanters who want him trained at Chrestomanci Castle. The novel traces his childhood as he learns the extent of his nine lives and his destiny as the next controller of the world's magic.
 ---

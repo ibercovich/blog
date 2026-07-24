@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: McGilchrist argues across two volumes that Western civilization has become dominated by the brain's left hemisphere—which privileges narrow, instrumental thinking—at the expense of the right hemisphere's capacity for broad contextual awareness, leading to distorted views of consciousness, matter, and meaning. Drawing on neuroscience, philosophy, and the arts, the book proposes that restoring the right hemisphere's primacy is necessary to understand reality more completely.
 ---

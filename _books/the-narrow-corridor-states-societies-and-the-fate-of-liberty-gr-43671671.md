@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Daron Acemoglu and James Robinson argue that liberty persists only in a narrow corridor where state power and societal resistance remain in rough balance, and that tipping too far toward either despotism or anarchy destroys it. The book surveys historical cases across continents to show how this contested equilibrium forms, holds, and collapses.
 ---

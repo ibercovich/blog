@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jeff Jarvis distills principles from Google's business model—such as openness, network effects, and giving away value to build platforms—and applies them to industries ranging from healthcare and education to journalism and retail. The book argues that companies in every sector must rethink their relationship with customers and data to survive the internet age.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Timothy Ferriss presents a self-experimentation framework for optimizing physical performance, drawing on interviews with athletes and medical professionals alongside his own decade of quantified self-testing. The book covers fat loss, muscle gain, sleep, sexual health, and athletic performance through unconventional methods grounded in data rather than mainstream fitness advice.
 ---

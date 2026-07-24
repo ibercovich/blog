@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nathaniel Moon, born with complete consciousness and miraculous abilities, has spent his life performing anonymous acts of healing as a hospital janitor in Middle Falls, Oregon, deliberately avoiding the attention his powers would attract. When a violent threat to his goddaughter forces him to act openly, his carefully maintained obscurity unravels, changing his life and those around him.
 ---

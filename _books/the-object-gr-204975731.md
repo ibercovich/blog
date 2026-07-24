@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Hard science fiction novel following NASA analyst Melody Adams, who identifies an anomalous object near Pluto that she suspects is an extrasolar spacecraft, only to have her career derailed before a second approach toward Saturn forces a mission to investigate. The story centers on first-contact communication with an intelligence whose mode of existence makes finding common ground nearly impossible.
 ---

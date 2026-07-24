@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Balaji Srinivasan proposes that online communities can evolve into sovereign entities—network states—by building shared values, crowdfunding physical territory, and eventually gaining diplomatic recognition, enabled by blockchain technology and remote coordination. The book outlines a framework for how this process could unfold as an alternative to reforming or seceding from existing nation-states.
 ---

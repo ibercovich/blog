@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Set in a nanotechnology-enabled future where nation-states have given way to cultural enclaves, the novel follows an illicit interactive primer that falls into the hands of a young girl named Nell growing up in poverty. The book traces how the primer — designed to raise an independent thinker — shapes Nell amid the social upheavals of a neo-Victorian society built on molecular manufacturing.
 ---

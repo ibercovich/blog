@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Kevin Kelly frames technology as an autonomous force he calls the technium, which follows trajectories analogous to biological evolution and has its own set of tendencies or wants. He argues that understanding these inherent directions can help humanity align its choices with technology's long-term development rather than resist or be blindsided by it.
 ---

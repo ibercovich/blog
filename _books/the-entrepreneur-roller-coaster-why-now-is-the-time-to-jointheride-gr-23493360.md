@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Darren Hardy prepares prospective entrepreneurs for the emotional volatility of starting and running a business, using a roller coaster metaphor to describe the inevitable highs and lows they will face. The book focuses on four skills Hardy identifies as critical to entrepreneurial success: sales, recruiting, leadership, and productivity.'
 ---

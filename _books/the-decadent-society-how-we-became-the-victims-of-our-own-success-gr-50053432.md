@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ross Douthat argues that Western societies have entered a period of stagnation characterized by technological plateau, demographic decline, cultural repetition, and political gridlock — a condition he terms decadence. The book examines how prosperity and success have paradoxically produced a civilization that recycles rather than innovates, and considers what forces might eventually break the stalemate.
 ---

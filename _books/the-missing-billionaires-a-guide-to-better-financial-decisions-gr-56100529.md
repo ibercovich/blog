@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Victor Haghani and James White examine why wealthy families across history rarely preserved their fortunes across generations, tracing the failure to poor decisions about risk, spending, and investment sizing rather than bad luck. The book presents a framework grounded in expected-utility theory for integrating lifetime saving, spending, and portfolio choices into a coherent financial plan.
 ---

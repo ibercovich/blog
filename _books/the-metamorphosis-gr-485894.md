@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Gregor Samsa wakes one morning to find himself transformed into a giant insect-like creature, and the story follows the deteriorating relationships between him and his family as they struggle to adapt to his new existence. Kafka's novella uses this fantastical premise to examine themes of alienation, economic dependency, guilt, and the ways identity can be destroyed by the needs and perceptions of others.
 ---

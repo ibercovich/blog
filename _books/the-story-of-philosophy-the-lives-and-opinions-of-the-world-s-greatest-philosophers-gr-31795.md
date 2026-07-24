@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Story of Philosophy surveys the lives and ideas of major Western thinkers from Socrates and Plato through Nietzsche and Dewey, showing how each philosopher's thought grew from and responded to those who came before. Durant situates each figure within the economic and intellectual conditions of their era, making the tradition of philosophy accessible to a general audience.
 ---

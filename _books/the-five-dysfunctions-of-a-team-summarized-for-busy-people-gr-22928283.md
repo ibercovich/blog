@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This condensed summary of Patrick Lencioni's Five Dysfunctions of a Team distills the original book's core framework for readers who want the key concepts without the full business fable narrative. It covers the five dysfunctions—absence of trust, fear of conflict, lack of commitment, avoidance of accountability, and inattention to results—along with practical guidance for addressing each one.
 ---

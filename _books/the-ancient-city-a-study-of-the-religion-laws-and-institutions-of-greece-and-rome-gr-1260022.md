@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Numa Denis Fustel de Coulanges argues in this 1864 study that ancient Greek and Roman civic institutions—laws, property, and political organization—were rooted in domestic religion and ancestor worship rather than secular reason. Tracing beliefs through marriage, burial, and political structure, the book shows how the family hearth cult formed the foundation of all ancient civic life.
 ---

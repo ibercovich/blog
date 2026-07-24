@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Rob Copeland investigates Bridgewater Associates and its founder Ray Dalio through hundreds of interviews with current and former employees, challenging the public image Dalio built around his published principles. The book portrays a firm where surveillance, internal conflict, and a culture of radical transparency as practiced differed sharply from the management philosophy Dalio promoted externally.
 ---

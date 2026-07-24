@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'The Two Towers, the second volume of The Lord of the Rings, splits its narrative between two threads: Aragorn, Legolas, and Gimli pursue the Orc captors of Merry and Pippin, while Frodo and Sam journey toward Mordor guided by the treacherous Gollum. The volume spans the battle of Helm''s Deep, the fall of Isengard, and Frodo''s capture at Cirith Ungol.'
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Seth Godin introduces the concept of the Dip — the difficult stretch that separates early enthusiasm from genuine mastery in any endeavor — and argues that knowing when to push through versus when to quit is the key strategic skill. The book makes the case that strategic quitting frees resources for the pursuits where one can realistically become the best in the world.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Peter Drucker defines effectiveness as consistently doing the right things and argues it is a learnable discipline rather than an innate talent, built from five core practices: managing time, choosing where to contribute, building on strengths, setting priorities, and making sound decisions. The book is addressed to knowledge workers at all levels who must convert their time and thinking into organizational results.'
 ---

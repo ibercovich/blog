@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Randy Komisar, drawing on his experience as a Silicon Valley virtual CEO, uses a fictional dialogue with two aspiring entrepreneurs to argue that building a business around deferred passion leads to unfulfilling work and poor decisions. The book contends that integrating personal values and purpose into a venture from the start produces both better companies and more meaningful lives.
 ---

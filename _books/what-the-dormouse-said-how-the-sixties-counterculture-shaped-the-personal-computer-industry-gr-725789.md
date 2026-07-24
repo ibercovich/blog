@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: John Markoff traces how the counterculture of the San Francisco Bay Area in the 1960s—marked by communalism, drug experimentation, and anti-establishment values—directly influenced the engineers and researchers who built the foundations of personal computing. The book argues that the ethos of augmenting human consciousness shaped design decisions around the keyboard, screen, and mouse that define computing to this day.
 ---

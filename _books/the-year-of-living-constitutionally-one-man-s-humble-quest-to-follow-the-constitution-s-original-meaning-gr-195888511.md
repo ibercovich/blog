@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: A.J. Jacobs spends a year attempting to live by the original meaning of the U.S. Constitution, carrying a musket, petitioning Congress by hand, and consulting constitutional scholars from across the political spectrum to understand how the founders' intent applies to contemporary life. The book uses his comedic immersive journalism to explore genuine debates about originalism, textualism, and how Americans interpret their foundational document.
 ---

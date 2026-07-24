@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Dave Weisberg chronicles the history of computer-aided design from its research roots at MIT through the development of major commercial CAD systems and companies, drawing on his experience as a participant in the field's early decades. The book traces how CAD technologies transformed engineering practice, changing not just the speed and accuracy of design work but the entire approach engineers take to their craft.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: During the COVID-19 pandemic, out-of-work Jamie Gray stumbles into a job with a nonprofit organization that cares for kaiju—massive creatures—on a parallel Earth where enormous monsters have evolved undisturbed by humans. When profit-driven outsiders discover the alternate world, their recklessness threatens to trigger catastrophic consequences on both Earths.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Joël Glenn Brenner spent years gaining unprecedented access to the secretive Hershey and Mars companies, producing a dual portrait of the rival chocolate empires and the contrasting personalities who built them — utopian philanthropist Milton Hershey and the relentlessly competitive Forrest Mars. The book examines the marketing battles, corporate intrigue, and industry dynamics that shaped the global candy business.
 ---

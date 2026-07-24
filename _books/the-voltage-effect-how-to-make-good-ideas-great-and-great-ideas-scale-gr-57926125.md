@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Economist John List identifies the five reasons promising ideas fail when moved from small pilots to large-scale implementation, drawing on decades of field experiments in education, public health, and business. He then outlines the principles that allow a select group of ideas to maintain their impact at scale, calling this capacity the voltage effect.
 ---

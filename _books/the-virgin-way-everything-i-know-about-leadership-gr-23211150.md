@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Richard Branson draws on four decades of building the Virgin Group to present his unconventional approach to leadership organized around the themes of listening, learning, laughing, and leading. He argues that fun, family, and the neglected skill of truly listening to people are more central to business success than conventional management wisdom suggests.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Domingos surveys the five major schools of machine learning—symbolists, connectionists, evolutionaries, Bayesians, and analogizers—and argues that a single unified learning algorithm, the Master Algorithm, could in principle derive any knowledge from data. The book examines how each school draws on disciplines including neuroscience, statistics, and evolutionary biology, and considers what such a universal learner would mean for science, business, and society.
 ---

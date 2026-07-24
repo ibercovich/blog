@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert Greene identifies eighteen laws governing human behavior—covering envy, grandiosity, group conformity, and related drives—drawing on historical figures from Pericles to Martin Luther King Jr. to illustrate each pattern. The book argues that recognizing these forces in others, and in oneself, enables greater control over decisions and relationships.
 ---

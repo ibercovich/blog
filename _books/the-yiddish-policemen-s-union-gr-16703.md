@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Set in an alternate history where Alaska became a Jewish homeland after Israel's 1948 collapse, the novel follows homicide detective Meyer Landsman as he investigates a chess prodigy's murder in a Sitka flophouse two months before the district reverts to American sovereignty. The mystery draws Landsman into conspiracies reaching from Orthodox criminal networks to the highest levels of the U.S. government.
 ---

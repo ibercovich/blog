@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Pema Chödrön presents teachings from a month-long meditation retreat, arguing that the Buddhist practice of maitri—loving-kindness toward oneself and others—begins with accepting rather than escaping the full range of human experience, from joy to confusion to suffering. She shows how fully inhabiting one's present situation, rather than seeking relief from it, opens the path toward genuine compassion and courage.
 ---

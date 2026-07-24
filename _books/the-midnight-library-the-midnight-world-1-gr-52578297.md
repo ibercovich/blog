@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nora Seed, at the lowest point of her life, finds herself in a mysterious library between life and death where each book allows her to inhabit an alternate version of her life based on different choices she could have made. As she moves between these possible lives—pursuing different careers, relationships, and paths—she must determine what would actually make her existence worth living.
 ---

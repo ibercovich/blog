@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: As Earth's final hours approach, bridgers Infinity Fowler and Desmond Weaver must fight through societal collapse to evacuate 718 civic leaders to an alternate world in thirty-six hours. The refugees and bridgers arrive expecting civilization but instead find a ravaged planet where humans live in caves and compete for survival.
 ---

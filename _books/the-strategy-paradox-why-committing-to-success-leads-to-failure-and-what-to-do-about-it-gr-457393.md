@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Strategy Paradox argues that the strategies most likely to produce spectacular success are identical to those most likely to cause catastrophic failure, because both require bold commitments made under genuine uncertainty about the future. Raynor proposes that companies use strategic options to maintain flexibility and hedge against multiple possible futures rather than betting everything on a single plan.
 ---

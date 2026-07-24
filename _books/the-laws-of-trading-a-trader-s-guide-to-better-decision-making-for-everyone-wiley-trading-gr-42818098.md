@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Agustin Lebron distills the mental models used by professional proprietary traders into a set of laws covering adverse selection, risk, edge, and decision-making under uncertainty, showing how these frameworks apply well beyond financial markets. The book argues that trading forces a clarity of thought about information and incentives that makes it a useful lens for anyone who must make consequential decisions.
 ---

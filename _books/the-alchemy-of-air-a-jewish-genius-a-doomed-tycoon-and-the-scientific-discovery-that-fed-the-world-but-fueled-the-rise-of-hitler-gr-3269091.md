@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Thomas Hager tells the story of Fritz Haber and Carl Bosch, whose process for synthesizing nitrogen from air enabled mass fertilizer production and transformed global food supply while also fueling military explosives in both world wars. The narrative follows Haber's chemistry and Bosch's industrial engineering through the rise of German chemical power and the catastrophic events that ultimately consumed them.
 ---

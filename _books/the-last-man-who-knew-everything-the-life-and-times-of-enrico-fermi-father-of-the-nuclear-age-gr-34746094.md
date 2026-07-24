@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Schwartz draws on new archival material to trace the life of Enrico Fermi, the physicist who bridged classical and quantum mechanics, led the first nuclear chain reaction, and contributed centrally to the Manhattan Project. The biography examines Fermi's rare command of both theory and experiment, his complex personal life, and his decades-long influence as a mentor to a generation of physicists.
 ---

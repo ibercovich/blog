@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Christian Brose argues that America's military advantage is eroding because its defense establishment prioritizes expensive individual platforms over the networked systems needed to observe threats, decide, and act faster than adversaries. The book calls for restructuring how the United States develops and acquires weapons technology so that it can maintain effective deterrence against China and other rivals.
 ---

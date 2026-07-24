@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Startup Playbook presents face-to-face interviews with forty founders of companies such as PayPal, LinkedIn, AOL, and Zipcar, distilling their hard-won advice into a practical guide for aspiring entrepreneurs. Topics covered range from selecting the right idea and securing funding to running lean operations and overcoming the obstacles that accompany rapid growth.
 ---

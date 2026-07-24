@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Trial of Extinction, fifth in the Bridgers series, follows interdimensional guardians Infinity and Desmond as they lead survivors of a destroyed Earth on an alternate world teeming with giant arthropods. An unexpected arrival triggers a catastrophic chain of events that forces the group into a deadly trial designed to judge whether humanity deserves to continue existing.
 ---

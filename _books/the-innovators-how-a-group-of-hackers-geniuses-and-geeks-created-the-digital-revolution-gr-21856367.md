@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Walter Isaacson chronicles the people who created the computer and the internet, beginning with Ada Lovelace in the 1840s and continuing through the transistor, microchip, software, and networked communications of the twentieth century. The book argues that the digital revolution emerged from collaborative teams rather than lone geniuses, with each breakthrough built on the shared work of prior generations.
 ---

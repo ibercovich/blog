@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Bob Johansson is killed crossing the street and wakes up a century later as an AI uploaded into an interstellar probe, legally property of the state and tasked with finding habitable planets. He uses von Neumann replication to create copies of himself, and the resulting legion of Bobs fans out across the galaxy on separate missions.
 ---

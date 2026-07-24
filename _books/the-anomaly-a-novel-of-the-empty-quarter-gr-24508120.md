@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: A Princeton Middle East scholar leads a team sent to investigate a geophysical anomaly beneath Arabia's Empty Quarter, where some believe an ancient lost city lies buried under the sands. The novel blends archaeology and Arabian mythology as Professor Emily Goddard confronts mysteries linked to her childhood in the region alongside forces that resist conventional explanation.
 ---

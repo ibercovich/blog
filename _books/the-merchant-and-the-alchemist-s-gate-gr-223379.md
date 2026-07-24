@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Set in medieval Baghdad, a fabric merchant encounters an alchemist's gate capable of transporting people twenty years forward or backward in time, then hears the intertwined tales of others who have used it. Through nested narratives structured like the Arabian Nights, the novelette explores whether knowledge of the past or future can change one's fate.
 ---

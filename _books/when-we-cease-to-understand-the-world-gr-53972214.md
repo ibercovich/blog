@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Benjamín Labatut blends documented history and fiction in five linked chapters to portray scientists—including Fritz Haber, Werner Heisenberg, and Alexander Grothendieck—whose breakthroughs in chemistry, physics, and mathematics carried catastrophic consequences alongside their insights. The book examines the psychological and moral cost of radical discovery and the point at which human understanding begins to destabilize the world it describes.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Set in 2075, the novel follows a lunar penal colony's revolution against Earth's economic exploitation, orchestrated by a small group of conspirators that includes a self-aware supercomputer named Mike. Heinlein uses the rebellion to examine libertarian political philosophy, the mechanics of revolution, and questions about consciousness and individual freedom.
 ---

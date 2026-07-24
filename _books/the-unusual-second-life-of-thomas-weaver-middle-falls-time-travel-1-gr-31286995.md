@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Thomas Weaver is a 54-year-old alcoholic who, after swallowing a fistful of pills, wakes inside his 16-year-old body with full memory of his failed life and a chance to prevent the accident that killed his brother. Set in the 1970s, the novel follows him navigating the limits of foreknowledge, a serial killer, and the complexities of rewriting the past.
 ---

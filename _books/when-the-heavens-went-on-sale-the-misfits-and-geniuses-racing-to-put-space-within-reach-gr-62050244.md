@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ashlee Vance follows four small aerospace companies—Astra, Firefly, Planet Labs, and Rocket Lab—as they race to make rocket launches and satellite deployments fast and cheap enough to open low Earth orbit for commercial use. The book chronicles the chaotic, high-stakes engineering culture of the new space industry and its ambition to transform the orbital economy.
 ---

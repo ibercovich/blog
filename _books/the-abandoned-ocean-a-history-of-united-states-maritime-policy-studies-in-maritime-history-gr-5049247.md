@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Andrew Gibson and Arthur Donovan trace United States maritime policy from the Revolutionary War through the late twentieth century, examining federal efforts to promote and subsidize American shipping in coastal and foreign trade. The authors argue that U.S. maritime policy has persistently failed to sustain a viable merchant marine in foreign trade due to flawed conception, inadequate funding, and outdated strategic assumptions.
 ---

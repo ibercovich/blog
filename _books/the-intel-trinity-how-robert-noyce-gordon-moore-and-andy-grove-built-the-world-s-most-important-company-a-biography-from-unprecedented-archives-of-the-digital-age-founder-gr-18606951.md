@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Michael Malone draws on unprecedented access to Intel's archives to tell the company's full history through the parallel lives of Robert Noyce, Gordon Moore, and Andy Grove, each representing a distinct pillar of the organization. The book shows how Noyce's vision, Moore's science, and Grove's operational rigor combined to build the defining company of the digital age.
 ---

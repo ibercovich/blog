@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Steven Pressfield identifies Resistance—the internal force of procrastination, self-doubt, and fear—as the universal enemy of creative and entrepreneurial work, arguing that it grows stronger the more important a project is to the creator. The book prescribes a professional mindset over an amateur one as the primary weapon for overcoming this invisible antagonist and completing meaningful work.
 ---

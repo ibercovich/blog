@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Unaccountability Machine argues that large institutions systematically produce outcomes nobody inside them wants because responsibility for decisions gets absorbed into complex rule-sets and standard procedures, a phenomenon Davies calls accountability sinks. Drawing on the management cybernetics of Stafford Beer, the book explains how this diffusion of decision-making authority has generated political and economic dysfunction at scale.
 ---

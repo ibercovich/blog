@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jim McKelvey recounts how he and Jack Dorsey founded Square after losing a sale they couldn't complete without accepting American Express, and how the startup survived an assault by Amazon through a cluster of interdependent innovations he calls the Innovation Stack. The book argues this pattern of compounding, competition-proof invention is rare but repeatable for entrepreneurs who commit to solving genuinely new problems.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Brian Christian investigates how artificial intelligence systems can be built to reflect human values, tracing the historical development of machine learning and reporting on researchers working to align AI behavior with human intentions. Through interviews with scientists across academia and industry, the book examines technical failures, ethical blind spots, and promising directions in the effort to make AI systems beneficial and controllable.
 ---

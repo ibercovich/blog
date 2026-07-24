@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Theoretical physicist Matt Strassler uses the puzzle of why Earth hurtles through space at tremendous speed yet we feel nothing to introduce the concept that empty space is a sea whose ripples constitute all matter and energy. The book traces everyday experience through quantum fields and the Higgs boson to show how familiar reality emerges from what appears to be nothing.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Oliver Sacks presents case studies of people who have lost capacities most take for granted—face recognition, spatial perception, reading, or sight itself—and uses these neurological disruptions to illuminate how the brain constructs visual experience. The book draws on Sacks's own diagnosis of eye cancer and lifelong prosopagnosia to connect clinical observation with personal reckoning.
 ---

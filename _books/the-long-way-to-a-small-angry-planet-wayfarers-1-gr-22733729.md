@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Rosemary Harper joins the crew of the Wayfarer, a tunneling ship that bores wormholes through space, and accompanies them on a long journey to a volatile destination at the edge of Galactic Commons territory. The novel focuses less on plot than on the lives and relationships of a diverse crew navigating both the cosmos and each other.
 ---

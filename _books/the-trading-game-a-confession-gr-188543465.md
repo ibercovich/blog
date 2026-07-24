@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Trading Game is a memoir by Gary Stevenson tracing his path from a working-class childhood in East London to becoming Citibank's most profitable trader during the 2008 financial crisis, and his eventual disillusionment with the finance industry. Stevenson recounts how his trading profits stemmed from a grim thesis about rising inequality, and why that realization led him to abandon a lucrative career.
 ---

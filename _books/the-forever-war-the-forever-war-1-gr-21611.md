@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Private William Mandella is drafted into an interstellar war against the alien Taurans, and relativistic time dilation means each tour of duty returns him to an Earth centuries older and unrecognizable. The novel uses this premise to examine the absurdity of war and the alienation of soldiers who outlive the civilization they fought to protect.
 ---

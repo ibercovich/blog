@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jorge Luis Borges collects stories that explore philosophical puzzles around infinity, identity, memory, and the nature of literature, featuring characters including an unrepentant Nazi, an imprisoned Mayan priest, and a man awaiting his assassin in a Buenos Aires guesthouse. The volume also includes the brief vignettes of The Maker, written as Borges faced failing eyesight and examined the relationship between imagination and personal identity.
 ---

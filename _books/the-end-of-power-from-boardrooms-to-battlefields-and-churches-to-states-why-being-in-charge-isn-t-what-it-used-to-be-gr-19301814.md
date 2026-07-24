@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Moises Naim argues that power across governments, corporations, militaries, and religions has become easier to acquire but harder to exercise and sustain. Drawing on global examples, he shows how micropowers now challenge once-dominant megaplayers, forcing a rethinking of how authority functions in the modern world.
 ---

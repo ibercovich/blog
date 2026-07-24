@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Ten Commandments for Business Failure inverts conventional business advice by cataloguing the behaviors and attitudes most reliably guaranteed to sink an organization, drawn from Donald Keough's decades as a senior executive at Coca-Cola. Each commandment—such as stop taking risks, isolate yourself, and love your bureaucracy—is illustrated with anecdotes showing how these patterns have destroyed real companies.
 ---

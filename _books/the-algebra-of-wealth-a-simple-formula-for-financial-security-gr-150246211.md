@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Scott Galloway outlines a framework for building financial security, arguing that career strategy, economic timing, and compound investing matter more than passion or individual achievement alone. The book draws on Galloway's experience as a professor and entrepreneur to offer practical guidance on navigating modern economic conditions including inflation, housing costs, and wealth concentration.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Po Bronson profiles dozens of people across different ages and backgrounds who abandoned conventional careers to pursue work that felt genuinely meaningful, documenting the fears and reversals they encountered along the way. The stories together examine what it costs to answer the question of vocation honestly and what becomes possible when people do.
 ---

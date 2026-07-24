@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert DeHoff's textbook presents thermodynamics as a systematic framework for predicting the equilibrium behavior of materials, integrating principles, strategies, and thermochemical data to construct phase diagrams, predominance diagrams, and Pourbaix corrosion maps. Each chapter builds on a consistent classification of thermodynamic systems and properties, making the treatment accessible to materials science and engineering students.
 ---

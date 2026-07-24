@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Eric Beinhocker surveys complexity economics and evolutionary theory to argue that wealth creation follows the logic of biological evolution—differentiate, select, amplify—rather than the equilibrium models of traditional economics. The book contends that treating the economy as a complex adaptive system, akin to an ecosystem or the brain, better explains how markets generate novelty, growth, and instability.
 ---

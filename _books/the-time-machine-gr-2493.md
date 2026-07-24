@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'The Time Machine sends a Victorian inventor far into the future, where he discovers humanity has split into two species: the frail, childlike Eloi and the subterranean, predatory Morlocks. Wells uses this evolutionary vision as a critique of Victorian class divisions, extrapolating the gulf between leisure classes and laboring classes to its logical endpoint.'
 ---

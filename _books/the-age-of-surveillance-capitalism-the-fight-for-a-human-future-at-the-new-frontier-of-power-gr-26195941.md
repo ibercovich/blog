@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Shoshana Zuboff examines surveillance capitalism as an unprecedented economic logic in which corporations extract human behavioral data as raw material to predict and modify conduct for profit. She traces how this system, pioneered by major technology firms, threatens individual autonomy and democratic governance while deepening inequality and enabling new forms of social control.
 ---

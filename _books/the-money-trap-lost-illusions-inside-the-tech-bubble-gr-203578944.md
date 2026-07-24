@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Alok Sama recounts his years as chief dealmaker at SoftBank, navigating mega-deals alongside founder Masayoshi Son while contending with a smear campaign that jeopardized his career and personal life. The memoir traces the euphoria and dysfunction of the late-stage tech investment boom through the perspective of someone inside the deals that defined it.
 ---

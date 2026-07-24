@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Tao of Seneca, Volume 1, presents the first sixty-four of Seneca's letters to his friend Lucilius, curated and introduced by Tim Ferriss as a practical guide to Stoic philosophy. The letters address themes such as contentment with enough, the cultivation of inner character, and the nature of true friendship.
 ---

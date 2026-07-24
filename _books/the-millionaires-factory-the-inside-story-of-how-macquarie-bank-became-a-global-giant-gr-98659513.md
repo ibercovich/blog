@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Moullakis and Wright trace Macquarie Bank's rise from a small Australian merchant bank founded in 1969 to a global infrastructure and asset management powerhouse, examining the strategic decisions, scandals, and management culture behind its growth. Drawing on interviews with past and present executives, the book explains the loose-tight risk philosophy that made Macquarie both distinctive and profitable.
 ---

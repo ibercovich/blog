@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Frederick Brooks draws on his experience managing the IBM OS/360 project to argue that adding engineers to a late software project makes it later, and that large programming efforts require conceptual integrity that only a small, coordinated team can achieve. The essays address scheduling, communication overhead, and the fundamental difficulty of building complex software systems.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The final book of The Long Winter trilogy follows the survivors of humanity who have settled on the planet Eos, only to find that their predecessor colony has vanished without explanation and that buried artifacts on the planet's surface hold secrets about the grid and humanity's origins. James and Emma race to unravel the mystery while a new, unforeseen threat emerges against their fragile society.
 ---

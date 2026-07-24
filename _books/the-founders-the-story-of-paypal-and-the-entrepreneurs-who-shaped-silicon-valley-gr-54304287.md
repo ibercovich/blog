@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jimmy Soni reconstructs PayPal's turbulent founding years through hundreds of interviews and access to internal documents, tracing the clashes between Confinity and X.com that eventually merged into the company and exploring the outsized ambitions of figures like Peter Thiel and Elon Musk. The book examines how the network that emerged from PayPal's early battles went on to reshape Silicon Valley's culture and investment landscape.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nicholas Negroponte proposes a vision of human-computer collaboration in which machines serve as active design partners rather than passive tools, drawing on early research from the MIT Architecture Machine Group into artificial intelligence, computer graphics, and human-computer interaction. The book examines how adaptive and sensory machines could engage in genuine dialogue with architects to produce more responsive built environments.
 ---

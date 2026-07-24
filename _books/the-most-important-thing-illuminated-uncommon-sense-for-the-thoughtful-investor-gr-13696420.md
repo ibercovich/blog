@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Howard Marks distills his investment philosophy into principles covering second-level thinking, risk assessment, market cycles, and the psychology of patient opportunism, with commentary added by investors including Joel Greenblatt and Seth Klarman. The annotated edition extends the original text by embedding practical counterpoints and illustrative examples alongside Marks's core arguments.
 ---

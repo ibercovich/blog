@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Dona Wong presents a practical reference for creating clear and accurate charts, maps, and tables, organized as a series of illustrated workshops showing what works and what fails in data presentation. The book covers chart types, color use, labeling, and common pitfalls, drawing on Wong's experience producing graphics for The New York Times and The Wall Street Journal.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Joel Greenblatt presents a simple stock-screening formula—rank companies by return on capital and earnings yield, then buy the top-ranked ones in a systematic rotation—and explains why buying above-average businesses at below-average prices has historically produced returns that exceed the market averages. The book uses accessible language and arithmetic to argue that individual investors can apply disciplined value principles without complex financial modeling.
 ---

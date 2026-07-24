@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nick Lane investigates why complex life arose only once in four billion years of evolution, arguing that the answer lies in the unique energy dynamics created when an archaeon engulfed a bacterium to form the first mitochondria-bearing cell. He shows how the resulting leap in cellular energy capacity unlocked the genetic raw material needed for the evolution of plants, animals, and all other complex organisms.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: M. Mitchell Waldrop traces the life of J.C.R. Licklider, the psychologist-turned-computer-scientist whose vision of interactive human-computer communication laid the conceptual groundwork for both personal computing and the internet. The biography shows how Licklider used his position at ARPA to fund and inspire a generation of researchers who built the systems he had imagined.
 ---

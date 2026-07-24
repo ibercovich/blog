@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Upton Sinclair's novel follows Lithuanian immigrant Jurgis Rudkus as he and his family navigate the brutal working conditions, wage exploitation, and unsanitary practices of Chicago's meatpacking industry at the turn of the twentieth century. The narrative exposes the human cost of unregulated industrial capitalism and culminates in Jurgis's conversion to socialism as the only coherent response to what he has witnessed.
 ---

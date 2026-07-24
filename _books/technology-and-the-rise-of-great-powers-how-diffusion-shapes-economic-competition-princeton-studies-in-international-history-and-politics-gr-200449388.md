@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jeffrey Ding argues that technological revolutions reshape great-power competition not through who invents first but through which nations most successfully diffuse new technologies across their entire economies. Drawing on historical case studies from three industrial revolutions, the book shows that institutional adaptations enabling broad technological adoption determine which states rise, fall, or maintain dominance.
 ---

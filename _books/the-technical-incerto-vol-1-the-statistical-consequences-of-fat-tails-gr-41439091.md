@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Statistical Consequences of Fat Tails investigates how conventional statistical methods break down when applied to heavy-tailed distributions, documenting the pre-asymptotic zone where real-world data lives rather than the idealized limits assumed by standard theory. Taleb identifies how these errors have produced systematic failures in financial economics, econometrics, and behavioral economics.
 ---

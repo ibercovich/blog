@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Shana discovers her sister has fallen into an inexplicable sleepwalking state, drawn with hundreds of others across America toward an unknown destination. As shepherds rally to protect the afflicted, society fractures and the true threat turns out to be not the mysterious epidemic itself but the panic it unleashes.
 ---

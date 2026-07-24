@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert Greene synthesizes thousands of years of military history, philosophy, and political thought into thirty-three strategic principles drawn from commanders and leaders ranging from Napoleon to Hannibal. Each chapter presents an offensive or defensive strategy for gaining advantage in competitive situations, framing warfare's lessons as universally applicable to professional and personal conflict.
 ---
