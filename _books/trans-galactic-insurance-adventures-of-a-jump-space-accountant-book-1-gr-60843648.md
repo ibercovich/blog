@@ -8,5 +8,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: After the Galactic Empire's disappearance, scholarship student Jake Stewart leaves an outer-belt station to study at a merchant academy and build a stable career. A corrupt boss, manipulated paperwork, and a friend's debts leave him accused of murder, forcing him to evade the Planetary Militia and use his accounting skills to establish what happened.
 ---

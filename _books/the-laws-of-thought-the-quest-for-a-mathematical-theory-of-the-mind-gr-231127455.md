@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'The book traces three major attempts to formalize intelligence: symbolic rules, neural networks, and probability and statistics. Through the people and discoveries behind each tradition, it explains how mathematical models of thought developed, how they shaped artificial intelligence, and what their strengths and limitations suggest about human reasoning.'
 ---

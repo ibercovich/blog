@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Brad Feld and Ian Hathaway treat startup communities as complex adaptive systems whose value emerges from interactions among entrepreneurs, institutions, capital, talent, and local conditions. They explain why top-down attempts often fail and offer a framework emphasizing founder leadership, broad participation, experimentation, connectivity, inclusion, and sustained commitment over repeated cycles of growth and decline.
 ---

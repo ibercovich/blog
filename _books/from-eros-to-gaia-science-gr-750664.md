@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This collection gathers thirty-five pieces Freeman Dyson wrote across six decades, beginning with a childhood science-fiction story and ending with reflections on Earth as a living system. The essays, lectures, reviews, and recollections range across physics, astronomy, scientific institutions, nuclear weapons, space exploration, environmental questions, literature, and portraits of other scientists.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In 2082, evidence of alien intelligence sends the spacecraft Theseus and a specialized transhuman crew to investigate an object at the edge of the solar system. Narrated by observer Siri Keeton, the encounter tests whether consciousness is necessary for intelligence and forces the crew to interpret a species whose cognition, communication, and motives may be fundamentally nonhuman.
 ---

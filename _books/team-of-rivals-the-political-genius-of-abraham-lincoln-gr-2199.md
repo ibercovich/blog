@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Doris Kearns Goodwin follows Abraham Lincoln’s rise over prominent rivals William Seward, Salmon Chase, and Edward Bates, then his decision to bring them into his cabinet. The biography examines how Lincoln managed competing personalities and political factions while leading the Union through civil war and moving the country toward abolition.
 ---

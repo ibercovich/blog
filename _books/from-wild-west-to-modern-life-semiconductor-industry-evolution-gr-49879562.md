@@ -10,5 +10,5 @@ collections: []
 physical_copy: false
 recommended: false
 finished_on: '2025-05-26'
-synopsis: ''
+synopsis: This collection traces the semiconductor industry’s transformation from a concentrated group of early manufacturers into a worldwide ecosystem of chipmakers, equipment suppliers, materials companies, and design software firms. Drawing on Walden Rhines’s career at Texas Instruments and Mentor Graphics, its essays recount technical breakthroughs, business decisions, industry personalities, and the growth of electronic design automation.
 ---

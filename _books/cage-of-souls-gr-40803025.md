@@ -8,5 +8,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: On a far-future Earth beneath a dying sun, scholar and dissident Stefan Advani recounts his fall from Shadrapar, humanity's last city, into a remote prison. His memoir moves between corrupt city politics and survival among prisoners, guards, ancient ruins, and rapidly changing creatures in a world becoming increasingly alien to humans.
 ---

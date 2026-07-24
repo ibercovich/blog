@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jacques Ellul analyzes modern propaganda as a continuous social technique that uses psychology, mass media, and existing cultural beliefs to shape attitudes and prompt action. He distinguishes political from sociological propaganda and agitation from integration, examining the conditions that make propaganda effective and its consequences for individual judgment, conformity, and democratic life.
 ---

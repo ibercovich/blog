@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Salvatore Basile follows the development of air conditioning from early cooling schemes and Willis Carrier’s humidity-control equipment through its gradual commercial and domestic adoption. The history shows how mechanical cooling changed factories, theaters, architecture, migration, work, leisure, and settlement across the United States while creating new patterns of energy use.
 ---

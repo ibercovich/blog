@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book follows waste streams through sewers, incinerators, landfills, recycling facilities, nuclear storage, and international markets for discarded clothing, electronics, and plastics. Reporting from the United Kingdom, India, Ghana, and the United States connects consumption to the workers, companies, and communities handling its remains, while assessing proposed ways to reduce waste and make producers responsible for disposal.
 ---

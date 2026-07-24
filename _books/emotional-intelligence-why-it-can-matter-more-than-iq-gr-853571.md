@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Daniel Goleman argues that conventional intelligence measures omit emotional abilities that strongly affect learning, relationships, work, and health. Drawing on psychology and neuroscience, he examines self-awareness, regulation of emotion, motivation, empathy, and social skill, explains how failures in these capacities shape behavior, and considers how emotional competencies can be developed through education and practice.
 ---

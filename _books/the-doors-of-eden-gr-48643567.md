@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Four years after Mal disappears while searching for monsters on Bodmin Moor, she suddenly returns with claims of travel among parallel Earths shaped by different evolutionary histories. Her reappearance converges with an intelligence investigation and a physicist’s research into widening cracks between worlds, as unfamiliar species and hostile actors begin crossing the collapsing boundaries.
 ---

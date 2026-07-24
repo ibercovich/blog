@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book argues that prisons are historical institutions rather than inevitable responses to harm, linking their development to slavery, convict leasing, racism, gender, and profit. It examines the prison-industrial complex and calls for decarceration alongside social and restorative alternatives that address violence, education, health, housing, and economic inequality without relying on incarceration.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book develops a simulation-based approach to understanding how managerial policies shape production, distribution, employment, sales, inventory, orders, and corporate growth over time. It explains feedback, delays, aggregation, decision rules, model validation, and flow diagrams, then applies them to business systems where local decisions can amplify fluctuations and create cycles across an organization.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'The book presents a four-stage method for solving mathematical problems: understand the problem, devise a plan, carry out the plan, and review the result. It develops practical heuristics such as drawing diagrams, working backward, using analogies, examining simpler related problems, and testing whether a solution can be improved or generalized.'
 ---

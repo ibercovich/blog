@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Joe Tournier lives in a French-ruled England where he is enslaved and remembers nothing before stepping from a train as an adult. A ninety-one-year-old postcard addressed to him leads toward a remote Scottish lighthouse and journeys through time, as he investigates an erased history and confronts choices that could restore a different version of Britain.
 ---

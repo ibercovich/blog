@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book examines why the twentieth century combined rapid economic and technological progress with unprecedented warfare, ethnic violence, and genocide. Moving across Europe and Asia, it attributes this pattern to ethnic conflict, economic volatility, and the decline of multinational empires, while connecting the world wars and other conflicts as parts of a broader global crisis.
 ---

@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The novel follows seven generations of the Buendía family in Macondo, the isolated town founded by José Arcadio Buendía and Úrsula Iguarán. Repeated names, desires, wars, inventions, political violence, a foreign banana company, and supernatural events form a cyclical history in which private solitude and collective forgetting shape the family's fate.
 ---

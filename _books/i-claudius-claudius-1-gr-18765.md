@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Presented as the autobiography of Roman emperor Claudius, the novel recounts the intrigues, marriages, murders, and successions of the Julio-Claudian dynasty. Dismissed because of his disabilities and stammer, Claudius survives the reigns of Augustus, Tiberius, and Caligula by appearing harmless, while privately observing the family and political forces that eventually place him on the throne.
 ---

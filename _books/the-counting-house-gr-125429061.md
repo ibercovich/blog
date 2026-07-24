@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: A university chief investment officer oversees a six-billion-dollar endowment while fielding pitches from hedge funds, venture capitalists, and other money managers. As his assumptions about investing, professional judgment, and the choices that shaped his life begin to unravel, the novel examines finance, institutional ambition, and personal doubt.
 ---

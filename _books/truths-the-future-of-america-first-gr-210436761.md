@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Vivek Ramaswamy argues that the American conservative movement must define an affirmative program rather than organize mainly around opposition to progressivism, globalism, and large government. Drawing on his presidential campaign and policy views, he presents an America First agenda centered on national identity, political accountability, economic independence, and forthright debate about contested public questions.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The guide presents conversational techniques for discussing disputed beliefs without turning disagreement into hostility, progressing from basic listening skills to approaches for entrenched positions. It covers rapport, precise questions, identifying confidence levels, examining evidence, avoiding argument traps, managing emotional escalation, and encouraging reflection, with examples involving politics, religion, identity, morality, and other contentious subjects.
 ---

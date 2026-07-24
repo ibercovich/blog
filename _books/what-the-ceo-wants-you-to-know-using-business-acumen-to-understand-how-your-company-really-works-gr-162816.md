@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book explains the basic financial and operational relationships that reveal how a company works, using examples from businesses of different sizes. It connects revenue, margins, cash flow, inventory velocity, return on invested capital, customers, and growth, showing how employees can interpret these measures together and align everyday decisions with the organization’s overall performance.
 ---

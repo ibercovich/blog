@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Five-year-old Zezé grows up amid poverty and violence in Brazil, using mischief, imagination, and conversations with a young sweet-orange tree to escape a painful home life. A friendship with a Portuguese man gives him affection and security, but sudden loss forces him to confront grief and the end of childhood.
 ---

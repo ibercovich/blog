@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book argues that current artificial intelligence solves well-structured path problems but lacks the capacity to formulate new representations for unfamiliar, ill-structured situations. Drawing on cognitive science, it assesses machine learning, neural networks, and the Turing Test while identifying perception, analogy, ambiguity, common sense, creativity, and insight as components required for artificial general intelligence.
 ---

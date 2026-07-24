@@ -8,5 +8,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Thousands of years after a terraforming mission encounters native life on the planet Nod, humans and their spider allies follow fragmentary signals to a derelict outpost. The expedition uncovers the consequences of the earlier scientists’ attempt to remake an alien world, including a dangerous organism whose capacity to learn and inhabit other beings threatens every species involved.
 ---

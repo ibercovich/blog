@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Culture agent Diziet Sma recruits mercenary Cheradenine Zakalwe to alter the course of wars and political crises through diplomacy, deception, and force. Alternating narrative strands move forward through a new mission and backward through his earlier interventions, gradually exposing the personal history and unresolved trauma behind his usefulness as a weapon.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Epstein argues that well-chosen constraints can improve creativity, collaboration, decision-making, and satisfaction by narrowing attention and forcing people to develop new approaches. Through examples from work, science, sports, and the arts, he examines how limits can counter excessive choice and help individuals and organizations identify productive edges.
 ---

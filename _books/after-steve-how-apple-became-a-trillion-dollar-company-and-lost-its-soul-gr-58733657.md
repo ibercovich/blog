@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book follows Apple after Steve Jobs’s death through the contrasting leadership of design chief Jony Ive and operations executive Tim Cook. It traces the company’s expansion into a trillion-dollar enterprise while examining tensions between design and finance, the development of products such as the Apple Watch, Ive’s eventual departure, and the organizational choices that reshape Apple’s culture.
 ---

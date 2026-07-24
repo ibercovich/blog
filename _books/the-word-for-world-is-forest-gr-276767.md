@@ -8,5 +8,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Earth colonists occupy the forest planet Athshe, cutting its trees and enslaving its indigenous inhabitants for labor. After violence against his community, the Athshean Selver organizes resistance and introduces his people to deliberate killing, transforming both their culture and the colonial struggle while exposing the costs of conquest and ecological destruction.
 ---

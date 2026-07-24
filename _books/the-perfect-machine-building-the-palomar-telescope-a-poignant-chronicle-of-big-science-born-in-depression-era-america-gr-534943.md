@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book chronicles the decades-long effort to design, fund, construct, and operate the 200-inch Hale Telescope at Palomar Observatory. Set against Depression-era America, it follows the scientists, engineers, craftsmen, donors, and institutions whose technical disputes and persistence turned an unprecedented astronomical instrument into a landmark of big science.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ron Chernow follows Samuel Clemens from his Missouri childhood and Mississippi River years through his emergence as Mark Twain, an author, lecturer, publisher, entrepreneur, and international celebrity. Drawing on letters and manuscripts, the biography examines his writing, performances, family relationships, financial ventures, travels, political views, racial contradictions, personal losses, and influence on American culture.
 ---

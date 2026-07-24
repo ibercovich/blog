@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Humanity’s survivors live in a vast underground silo, governed by strict rules and taught that the outside air is fatal; anyone who asks to leave is sent out to clean the external sensors. After the sheriff chooses that punishment, mechanic Juliette Nichols is drawn into leadership and an investigation that exposes concealed histories, surveillance, and the silo’s system of control.
 ---

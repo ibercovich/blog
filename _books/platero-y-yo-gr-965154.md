@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In a series of prose poems set around Moguer in Andalusia, a narrator wanders the countryside with his small silver-gray donkey, Platero. Their encounters with children, workers, animals, festivals, illness, cruelty, and changing seasons create a portrait of village life shaped by tenderness, social observation, nature, and mortality.
 ---

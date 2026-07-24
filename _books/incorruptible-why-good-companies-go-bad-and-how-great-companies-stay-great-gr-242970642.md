@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Eric Ries argues that companies often abandon their missions because growth changes their ownership, incentives, accountability, and decision-making systems, not simply because leaders become unethical. He presents governance as a design problem and offers approaches intended to help organizations remain durable, profitable, and aligned with their founding purposes.
 ---

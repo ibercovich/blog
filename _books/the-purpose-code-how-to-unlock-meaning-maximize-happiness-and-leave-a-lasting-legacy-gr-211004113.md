@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book distinguishes between a grand, outcome-driven purpose that can produce anxiety and a smaller purpose grounded in everyday activities and personal agency. It offers exercises using life review, goal setting, and reflection to identify meaningful pursuits, deepen connection, address inherited patterns, and build a legacy through achievable actions.
 ---

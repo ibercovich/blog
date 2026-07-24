@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book presents retirement as a transition that requires more than financial preparation, organizing its guidance around passion, purpose, and planning. Drawing on retirees’ experiences, it offers practical prompts for building routines, relationships, activities, and goals that can make later life active and meaningful.
 ---

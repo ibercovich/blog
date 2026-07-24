@@ -10,5 +10,5 @@ collections: []
 physical_copy: false
 recommended: false
 finished_on: '2025-11-29'
-synopsis: ''
+synopsis: Drawing on journals kept since adolescence, Matthew McConaughey recounts episodes from his Texas childhood, travels, relationships, family life, and acting career. He mixes memoir with poems, prayers, photographs, and personal maxims, using the idea of traffic lights to describe recognizing opportunities, responding to setbacks, and finding direction in changing circumstances.
 ---

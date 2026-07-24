@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This first volume follows Henry Kissinger from his childhood in Nazi Germany and refugee years in New York through military service, Harvard scholarship, and his 1968 appointment as national security adviser. Using private papers and archival research, it traces the experiences and ideas behind his views on history, nuclear strategy, diplomacy, and political power.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book examines how weak evidence and misleading claims spread through alternative medicine, nutrition, pharmaceutical research, journalism, and public health controversies. Through examples involving detox products, homeopathy, placebos, clinical trials, statistics, and vaccine scares, it explains randomization, blinding, sample size, publication bias, meta-analysis, and other tools for judging medical and scientific claims.
 ---

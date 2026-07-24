@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nine people develop life-shaping connections to trees through family histories, scientific research, art, work, and chance encounters. Their separate stories converge around efforts to defend old-growth forests, while the novel follows the consequences of activism and places individual human lives within the much longer processes of forests, succession, and ecological interdependence.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This history reconstructs the American radical underground of the late 1960s and 1970s, when groups pursued revolution through bombings, robberies, prison breaks, and kidnappings. It follows organizations including the Weather Underground, Black Liberation Army, FALN, and Symbionese Liberation Army alongside the federal campaign to identify and stop them.
 ---

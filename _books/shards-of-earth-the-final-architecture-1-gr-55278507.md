@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Decades after moon-sized Architects destroyed Earth and were driven away, the modified Intermediary Idris Telemmier works aboard the salvage ship Vulture God while avoiding governments that want to use him. A chance encounter reveals that the Architects may have returned, drawing the crew and rival human factions into a renewed fight for survival.
 ---

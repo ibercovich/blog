@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nathan Vardi chronicles the scientific and financial race to develop two medicines for blood cancers, Imbruvica and Calquence. The account follows researchers, biotechnology executives, investors, and billionaires through laboratory discoveries, company deals, clinical trials, regulatory decisions, patent disputes, and rivalries, showing how medical progress and speculative capital combined to create blockbuster drugs and fortunes.
 ---

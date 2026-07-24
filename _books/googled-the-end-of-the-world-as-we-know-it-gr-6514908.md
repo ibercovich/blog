@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book traces Google’s rise from a search startup into a dominant advertising and technology company, focusing on its founders, internal culture, business model, and expansion. It also examines how search, targeted advertising, and free online services disrupt newspapers, publishing, television, music, and other media industries while creating conflicts over privacy, copyright, competition, and corporate power.
 ---

@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Presented as correspondence from senior demon Screwtape to his nephew Wormwood, the book follows their efforts to corrupt an ordinary Englishman known as the Patient. Screwtape’s inverted advice examines temptation, pride, distraction, fear, relationships, war, prayer, and moral choice, using satire to describe how small habits can shape a person’s spiritual direction.
 ---

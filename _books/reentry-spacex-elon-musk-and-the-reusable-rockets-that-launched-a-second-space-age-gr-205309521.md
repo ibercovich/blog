@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Eric Berger chronicles SpaceX’s development of the Falcon 9 from an expendable launcher into a rocket whose first stage could land and fly again. The account follows the engineering failures, financial pressures, launch campaigns, and internal decisions that made routine reuse possible and reshaped the economics and pace of orbital spaceflight.
 ---

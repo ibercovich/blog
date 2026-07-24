@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In Wonderland, Alice follows a White Rabbit underground and encounters abrupt changes in size, a disappearing cat, a perpetual tea party, and the Queen of Hearts’s chaotic court. Through the Looking-Glass sends her across a chessboard world of reversed logic, living game pieces, wordplay, and shifting identity until she becomes a queen and wakes from the dream.
 ---

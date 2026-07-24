@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Teenagers Max, Noah, and Leya take Max's younger sister Chloe into Muir Woods for a school project and are accidentally abducted by alien surveyors. Stranded hundreds of light-years from Earth, the four enter an interstellar war in which the destruction of their new friends' civilization could also expose humanity to extinction.
 ---

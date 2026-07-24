@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The novel forms a historical triptych about science, computation, and the pursuit of machine intelligence, centered on mathematician John von Neumann and his far-reaching work. Its outer sections follow physicist Paul Ehrenfest's collapse and Go champion Lee Sedol's contest against AlphaGo, connecting twentieth-century breakthroughs to artificial intelligence beyond human control.
 ---

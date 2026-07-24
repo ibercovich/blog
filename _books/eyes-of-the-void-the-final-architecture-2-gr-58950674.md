@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The Architects return and begin destroying inhabited worlds despite the ancient Originator relics that once protected them, throwing the human colonies into political conflict. Idris and his allies search for a weapon while competing powers pursue him, forcing him back into unspace to investigate what guides the planet-destroying enemy.
 ---

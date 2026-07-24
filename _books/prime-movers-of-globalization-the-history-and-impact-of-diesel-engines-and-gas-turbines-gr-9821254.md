@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Vaclav Smil traces the invention and development of high-compression diesel engines and gas turbines, explaining their engineering, performance, and adoption. He argues that enormous marine diesels and aircraft jet engines are the physical foundations of modern globalization, making it possible to move bulk goods cheaply across oceans and people rapidly between continents.
 ---

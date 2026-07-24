@@ -8,5 +8,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Johnny Truant discovers a dead man's manuscript analyzing a documentary that appears never to have existed, about the Navidson family's house becoming impossibly larger inside than outside. Nested narrators, footnotes, appendices, and shifting typography trace explorations of the house's expanding dark corridors while also recording the manuscript's destabilizing effect on its reader.
 ---

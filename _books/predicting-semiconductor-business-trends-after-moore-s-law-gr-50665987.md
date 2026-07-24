@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book uses decades of semiconductor market and technology data to identify recurring patterns that can support business forecasts beyond simple transistor-density versions of Moore’s Law. It explains learning curves, stable industry constants, Gompertz growth, consolidation and specialization, electronic design automation, international competition, differentiation, and emerging demand from artificial intelligence, edge computing, 5G, and automobiles.
 ---

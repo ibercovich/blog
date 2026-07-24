@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Tim Wu traces how an internet once expected to distribute opportunity became dominated by platforms that capture attention, data, revenue, and control over market access. He examines the economic classes and political power these systems create, then considers competition policy, public rules, and alternative institutional designs intended to restore broader ownership and individual autonomy.
 ---

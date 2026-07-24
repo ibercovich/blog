@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Vaclav Smil explains the material foundations of modern civilization through energy, food, industrial materials, globalization, risk, and environmental change. Using quantitative evidence, he challenges both catastrophic and techno-optimistic narratives and argues that effective decisions about decarbonization and the future require an accurate understanding of physical constraints.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The guide presents a ten-stage program for developing stable attention and mindfulness, combining Buddhist meditation maps with models drawn from cognitive science. It explains how to establish a practice, work with mind-wandering, dullness, and subtle distraction, cultivate sustained attention and metacognitive awareness, and progress toward tranquility, insight, and unification of mind.
 ---

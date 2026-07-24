@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Malcolm Gladwell argues that exceptional achievement cannot be explained by talent and effort alone, because opportunity, timing, culture, family background, and cumulative advantage shape who succeeds. Using cases including athletes, musicians, software entrepreneurs, lawyers, and pilots, he examines practice, birth-date effects, inherited norms, and social conditions that allow ability to develop.
 ---

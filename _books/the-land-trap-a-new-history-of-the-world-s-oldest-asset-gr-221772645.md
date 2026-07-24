@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Mike Bird traces three centuries of land ownership, speculation, reform, and taxation to show how land became central to wealth and the global banking system. Moving from colonial America to modern China and other economies, he connects property values and collateral to housing costs, inequality, financial crises, political conflict, and the constraints governments face when land grows scarce.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Lloyd Blankfein recounts his path from Brooklyn public housing and an early legal career to commodities trading and three decades at Goldman Sachs. The memoir covers the firm’s partnership culture, public offering, leadership succession, financial innovation, the 2008 crisis, regulatory conflict, and the decisions he faced as chief executive.
 ---

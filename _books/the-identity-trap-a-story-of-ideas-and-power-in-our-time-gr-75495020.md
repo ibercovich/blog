@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book traces a body of ideas that treats social identities and power relations as central to understanding politics, institutions, and personal experience. It argues that this approach can harden group boundaries and weaken universal principles, then proposes a liberal alternative based on equal rights, open debate, shared citizenship, and policies that benefit people across identities.
 ---

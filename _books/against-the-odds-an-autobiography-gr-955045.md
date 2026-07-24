@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The autobiography recounts Dyson’s development from art and engineering student into an inventor and manufacturer, centering on the prolonged creation and commercialization of the bagless Dual Cyclone vacuum cleaner. It follows repeated prototypes, licensing disputes, financial setbacks, and resistance from established appliance companies, alongside earlier inventions and the decisions involved in building an independent design-led business.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: After a lethal heat wave in India, aid worker Frank May becomes entangled with Mary Murphy, head of a United Nations agency charged with representing future generations. Their stories anchor a near-future account of climate response involving central banks, carbon incentives, activism, violence, geoengineering, migration, and international institutions attempting to reduce emissions and stabilize the planet.
 ---

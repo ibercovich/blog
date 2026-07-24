@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book presents a near-term plan for making lunar development economically sustainable rather than dependent on government exploration programs. It examines falling launch costs, revenue-producing missions, local resource extraction, manufacturing and construction from lunar materials, transportation and settlement infrastructure, and the sequence of investments needed to create a self-supporting economy on the Moon.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The textbook presents single-variable calculus through infinitesimals, restoring the intuitive framework used in the subject’s early development while still deriving standard results. It covers derivatives and their applications, integration, the fundamental theorem of calculus, infinite series, parametric equations, and polar coordinates, with concise explanations, proofs, and exercises designed for active reading.
 ---

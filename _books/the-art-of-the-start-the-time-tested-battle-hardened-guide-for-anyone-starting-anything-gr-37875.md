@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book provides a practical framework for turning an idea into a functioning organization, beginning with making meaning and expressing a clear purpose. It covers positioning, pitching, bootstrapping, recruiting, partnerships, branding, sales, and fundraising, emphasizing early action, limited resources, customer feedback, and adaptation over elaborate planning.
 ---

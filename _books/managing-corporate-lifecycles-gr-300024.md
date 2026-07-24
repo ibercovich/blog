@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book models organizations as moving through stages from Courtship, Infancy, and rapid Go-Go growth through Adolescence and Prime, followed by possible aging and decline. It distinguishes normal transition problems from avoidable pathologies and recommends stage-specific changes to leadership, authority, structure, goals, and decision-making that help a company reach and sustain Prime.
 ---

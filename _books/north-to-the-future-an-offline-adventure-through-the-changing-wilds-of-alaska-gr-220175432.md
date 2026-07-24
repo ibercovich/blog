@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ben Weissenbach recounts a series of expeditions across Alaska that began when he traveled north as a college student interested in climate change. Working alongside field researchers and residents, he encounters glaciers, wildlife, remote communities, and hazardous conditions while examining a rapidly changing landscape and the difference between direct experience and a life mediated by screens.
 ---

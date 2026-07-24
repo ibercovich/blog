@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book constructs a detailed future in which human brains can be copied into digital emulations, or “ems,” that perform most economic work. Using economics and social science, it examines their speeds and bodies, training and careers, virtual cities, energy use, inequality, identity, law, politics, war, religion, retirement, friendship, and love.
 ---

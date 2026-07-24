@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The manual presents Customer Development as a repeatable process for searching for a scalable business model before a startup commits to execution. It guides founders through stating and testing hypotheses, interviewing customers, validating demand and channels, iterating products and pricing, creating customers, and transitioning from discovery into an operating company.
 ---

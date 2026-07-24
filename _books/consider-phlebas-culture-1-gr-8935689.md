@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: During the war between the Culture and the religious Idiran Empire, shape-shifting agent Bora Horza Gobuchul accepts a mission to recover a stranded Culture Mind from a forbidden planet. His route through mercenary crews, orbital habitats, battles, capture, and shifting loyalties tests his hostility toward machine intelligence and exposes the costs of both sides’ competing visions.
 ---

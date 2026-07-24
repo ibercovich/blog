@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book traces the creation and judicial interpretation of Section 230, the United States law that generally shields online services from liability for user-generated content. It examines how that protection enabled online speech and platform growth, the harms and controversies that followed, and competing proposals for changing the law.
 ---

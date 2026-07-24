@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In a far-future solar system linked by sentient cables and nanotechnology, Director Amés wages war from the inner worlds against independent artificial intelligences and outer-system societies. General Roger Sherman organizes resistance near Neptune and Pluto while his son serves the opposing army, as the development of faster-than-light travel threatens to give the regime decisive reach.
 ---

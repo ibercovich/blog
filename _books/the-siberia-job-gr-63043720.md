@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In post-Soviet Russia, an American businessman and his Russian partner buy shares in newly privatized Siberian energy companies, expecting neglected assets to rise in value. Their improvised investment scheme draws attention from oligarchs, officials, and organized crime, forcing them to navigate corruption, threats, and shifting alliances as control of the country’s resources becomes increasingly concentrated.
 ---

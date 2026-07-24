@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The novel follows the volatile Karamazov family after their corrupt father, Fyodor, is murdered and his eldest son Dmitri is accused of the crime. Through Dmitri, the skeptical Ivan, the religious Alyosha, and their half-brother Smerdyakov, the story explores family rivalry, guilt, faith, doubt, free will, moral responsibility, and redemption.
 ---

@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book investigates automated systems used to allocate public benefits, prioritize housing for unhoused people, and assess child-welfare risk in Indiana, Los Angeles, and Pittsburgh. It argues that data collection, eligibility algorithms, and predictive models can reproduce punitive assumptions about poverty, increase surveillance, and deny needed resources while concealing political choices behind claims of technical neutrality.
 ---

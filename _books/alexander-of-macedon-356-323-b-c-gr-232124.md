@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The biography traces Alexander from his upbringing at the Macedonian court and accession after Philip II’s death through the conquest of Persia and campaigns reaching India. It examines his battlefield command, political calculations, treatment of conquered peoples, pursuit of personal glory, increasingly autocratic rule, and death in Babylon, placing the military record alongside the violence and instability of his empire-building.
 ---

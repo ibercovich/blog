@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book traces the intellectual history of risk from ancient reliance on fate and divination to mathematical methods for measuring uncertainty and making decisions. Moving through probability, statistics, insurance, utility, regression, portfolio theory, and behavioral research, it follows the mathematicians, merchants, gamblers, and economists whose ideas transformed uncertainty into a central problem of modern finance and society.
 ---

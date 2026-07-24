@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This collection of twenty-two science-fiction stories explores possible relationships between advanced artificial intelligence and humanity. Across futures involving neural interfaces, copied or merged minds, automated scientific discovery, new political systems, and extinction risks, the stories examine how increasingly capable machines might alter love, identity, power, consciousness, and what remains recognizably human.
 ---

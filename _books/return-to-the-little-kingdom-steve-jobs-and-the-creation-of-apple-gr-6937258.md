@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Michael Moritz recounts Apple’s first decade alongside the early lives and partnership of Steve Jobs and Steve Wozniak. This revised edition follows the company from a small Silicon Valley venture through rapid growth and adds later perspective on Jobs’s return and Apple’s transformation into a global technology business.
 ---

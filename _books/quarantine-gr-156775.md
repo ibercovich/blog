@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In a future where the solar system has been enclosed by an opaque barrier, private investigator Nick Stavrianos is hired to find a missing woman with severe brain damage. His search leads through neural modifications, corporate secrecy, and experiments linking consciousness to quantum measurement, forcing him to confront whether observation selects reality and who can control that process.
 ---

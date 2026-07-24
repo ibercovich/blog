@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The collection brings together essays on system dynamics, management, and social systems, including production-distribution networks, inventory adjustment, corporate growth, research costs, urban development, and public policy. Across the papers, feedback structure, delays, nonlinear interactions, and computer simulation are used to explain why organizational and social interventions often generate oscillation, resistance, or consequences opposite to those intended.
 ---

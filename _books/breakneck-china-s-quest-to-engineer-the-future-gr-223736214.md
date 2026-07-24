@@ -10,5 +10,5 @@ collections: []
 physical_copy: false
 recommended: false
 finished_on: '2026-03-20'
-synopsis: ''
+synopsis: Dan Wang contrasts China’s engineering-centered state with an American system shaped heavily by lawyers, procedures, and limits on construction. Drawing on years in China, he examines the country’s manufacturing and infrastructure capacity, the political and human costs of rapid execution, and what each nation’s strengths and failures reveal about governing for the future.
 ---

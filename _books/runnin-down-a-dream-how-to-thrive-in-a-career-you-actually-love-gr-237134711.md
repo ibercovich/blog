@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Bill Gurley argues that a satisfying career begins with identifying an absorbing pursuit and deliberately building the skills and relationships needed to follow it. Combining his own path through technology and venture capital with profiles from several industries, he discusses risk, persistence, mentorship, setbacks, and avoiding conventional career choices that produce regret.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: William Lecky traces the gradual decline of supernatural explanations and the growth of rationalist habits in European thought. This first volume examines changing beliefs about magic, witchcraft, miracles, persecution, and religious tolerance, connecting intellectual shifts with developments in science, ethics, art, and social institutions from antiquity through the modern era.
 ---

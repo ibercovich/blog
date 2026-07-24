@@ -10,5 +10,5 @@ collections: []
 physical_copy: false
 recommended: false
 finished_on: '2025-05-04'
-synopsis: ''
+synopsis: Tae Kim traces Nvidia from its 1993 founding and early focus on graphics chips through repeated technical and commercial crises to its central role in artificial intelligence computing. Based on interviews with Jensen Huang, cofounders, investors, and employees, the history examines the company’s product bets, management practices, internal culture, and creation of new markets.
 ---

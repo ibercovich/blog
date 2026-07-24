@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Priya Parker argues that effective gatherings begin with a clear purpose and deliberate choices rather than inherited conventions or a focus on logistics. Using meetings, conferences, dinners, camps, and public events, she explains how hosts can define boundaries, shape participation, create productive structure, manage conflict, and close an occasion so that people share a meaningful experience.
 ---

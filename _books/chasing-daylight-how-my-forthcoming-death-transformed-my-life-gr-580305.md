@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: After being diagnosed with an aggressive brain tumor and given only months to live, KPMG chief executive Eugene O’Kelly steps away from work and plans how to use his remaining time. He describes deliberately closing relationships, creating moments of full attention with family and friends, and reconsidering achievement, balance, presence, and the process of accepting death.
 ---

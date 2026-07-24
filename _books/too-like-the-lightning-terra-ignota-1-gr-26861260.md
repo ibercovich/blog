@@ -8,5 +8,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In the twenty-fifth century, convict Mycroft Canner travels the world performing compulsory service within a prosperous society organized into voluntary global affiliations rather than nations. His work with spiritual counselor Carlyle Foster reveals Bridger, a child who can animate objects, while thefts and political secrets threaten the systems that regulate identity, religion, gender, and power.
 ---

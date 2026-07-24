@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Written for ambitious students and recent graduates, the book combines ideas and exercises intended to connect high performance with personal satisfaction. It covers inspiration, vision, responsibility, habits, study, health, communication, networking, mentoring, and leisure, presenting these areas as parts of a practical framework for pursuing excellence across different fields.
 ---

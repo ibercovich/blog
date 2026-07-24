@@ -8,5 +8,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Divorced and broke, Charlie learns that his recently deceased uncle operated an international supervillain business and left it to him. He inherits a hidden volcano headquarters, specialized employees, talking cats, and hostile rivals, then must understand the enterprise quickly enough to survive attacks and decide how he will run it.
 ---

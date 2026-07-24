@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Felix Dennis combines memoir with practical advice drawn from building a magazine publishing company, focusing on the deliberate pursuit of substantial personal wealth. He stresses ownership, persistence, execution over ideas, hiring capable people, delegation, negotiation, and knowing when to sell, while describing the risks, sacrifices, and personal costs involved in choosing money as a central goal.
 ---

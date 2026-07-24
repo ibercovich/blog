@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Cal Newport defines deep work as distraction-free concentration on cognitively demanding tasks and argues that it is increasingly valuable as digital interruption makes it rarer. He contrasts it with shallow activity and proposes routines for scheduling focus, tolerating boredom, limiting social media, and reducing low-value obligations so people can learn difficult skills and produce better work.
 ---

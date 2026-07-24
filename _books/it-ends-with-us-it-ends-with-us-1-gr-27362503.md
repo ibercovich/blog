@@ -9,5 +9,5 @@ status: tbd
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Lily Bloom begins a new life in Boston and falls in love with neurosurgeon Ryle Kincaid, while memories of her first love, Atlas Corrigan, remain unresolved. When Ryle becomes violent, Lily confronts parallels with the abuse she witnessed in childhood and must decide how to protect herself and end a pattern carried across generations.
 ---
