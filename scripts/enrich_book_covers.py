@@ -38,6 +38,7 @@ REPORT_PATH = BLOG_ROOT / "_import" / "goodreads" / "covers.jsonl"
 OVERRIDES_PATH = BLOG_ROOT / "_import" / "goodreads" / "cover-overrides.jsonl"
 MIN_WIDTH, MIN_HEIGHT = 200, 280
 PREFERRED_WIDTH, PREFERRED_HEIGHT = 300, 450
+REVIEWED_MIN_WIDTH, REVIEWED_MIN_HEIGHT = 120, 170
 MIN_ASPECT, MAX_ASPECT = 0.35, 1.05
 MAX_BYTES, MAX_PIXELS = 10 * 1024 * 1024, 25_000_000
 DEFAULT_COLOR = "#6B4C3B"
@@ -249,10 +250,17 @@ def load_overrides():
             )
         if not is_http_url(source_url) or not is_http_url(source_page):
             raise ValueError(f"{OVERRIDES_PATH}:{number} has an invalid URL")
+        allow_low_resolution = entry.get("allow_low_resolution", False)
+        if not isinstance(allow_low_resolution, bool):
+            raise ValueError(
+                f"{OVERRIDES_PATH}:{number} has a non-boolean "
+                "allow_low_resolution value"
+            )
         entries[goodreads_id] = {
             "source_url": source_url,
             "source_page": source_page,
             "note": str(entry.get("note") or ""),
+            "allow_low_resolution": allow_low_resolution,
         }
     return entries
 
@@ -270,6 +278,8 @@ def discover_override(book, overrides):
     )
     if override["note"]:
         item["review_note"] = override["note"]
+    if override["allow_low_resolution"]:
+        item["allow_low_resolution"] = True
     return [item], []
 
 
@@ -424,7 +434,13 @@ def to_rgb(image):
     return image.convert("RGB")
 
 
-def inspect_image(data, mime, source_url, allow_unknown_mime=False):
+def inspect_image(
+    data,
+    mime,
+    source_url,
+    allow_unknown_mime=False,
+    allow_low_resolution=False,
+):
     result = {
         "status": "rejected",
         "mime": mime or None,
@@ -472,9 +488,15 @@ def inspect_image(data, mime, source_url, allow_unknown_mime=False):
     )
     if width * height > MAX_PIXELS:
         result["reasons"].append("too_many_pixels")
-    if width < MIN_WIDTH:
+    below_standard_resolution = width < MIN_WIDTH or height < MIN_HEIGHT
+    reviewed_resolution_allowed = (
+        allow_low_resolution
+        and width >= REVIEWED_MIN_WIDTH
+        and height >= REVIEWED_MIN_HEIGHT
+    )
+    if width < MIN_WIDTH and not reviewed_resolution_allowed:
         result["reasons"].append(f"width_below_{MIN_WIDTH}")
-    if height < MIN_HEIGHT:
+    if height < MIN_HEIGHT and not reviewed_resolution_allowed:
         result["reasons"].append(f"height_below_{MIN_HEIGHT}")
     if not MIN_ASPECT <= aspect <= MAX_ASPECT:
         result["reasons"].append("aspect_ratio_out_of_range")
@@ -484,7 +506,21 @@ def inspect_image(data, mime, source_url, allow_unknown_mime=False):
     if result["reasons"]:
         return result, None
     normalized_image = to_rgb(image)
-    normalized_image.thumbnail((900, 1200), Image.Resampling.LANCZOS)
+    upscaled = below_standard_resolution and reviewed_resolution_allowed
+    if upscaled:
+        scale = max(
+            PREFERRED_WIDTH / normalized_image.width,
+            PREFERRED_HEIGHT / normalized_image.height,
+        )
+        normalized_image = normalized_image.resize(
+            (
+                round(normalized_image.width * scale),
+                round(normalized_image.height * scale),
+            ),
+            Image.Resampling.LANCZOS,
+        )
+    else:
+        normalized_image.thumbnail((900, 1200), Image.Resampling.LANCZOS)
     output = io.BytesIO()
     normalized_image.save(
         output,
@@ -501,6 +537,7 @@ def inspect_image(data, mime, source_url, allow_unknown_mime=False):
             "normalized_height": normalized_image.height,
             "normalized_bytes": len(normalized),
             "sha256": sha256(normalized),
+            "upscaled": upscaled,
         }
     )
     return result, normalized
@@ -521,6 +558,10 @@ def inspect_candidate(session, item):
         mime,
         resolved,
         allow_unknown_mime=item.get("source") == "manual_review",
+        allow_low_resolution=(
+            item.get("source") == "manual_review"
+            and item.get("allow_low_resolution") is True
+        ),
     )
     report["resolved_url"] = resolved
     report.update(inspection)
@@ -942,6 +983,25 @@ def self_check():
         "https://images.example/small.png",
     )
     assert "width_below_200" in small["reasons"]
+    reviewed_small, reviewed_small_normalized = inspect_image(
+        make_test_image(150, 212),
+        "image/png",
+        "https://images.example/reviewed-small.png",
+        allow_low_resolution=True,
+    )
+    assert reviewed_small["status"] == "valid", reviewed_small
+    assert reviewed_small["upscaled"] is True
+    assert reviewed_small["normalized_width"] >= PREFERRED_WIDTH
+    assert reviewed_small["normalized_height"] >= PREFERRED_HEIGHT
+    assert reviewed_small_normalized
+    reviewed_too_small, _ = inspect_image(
+        make_test_image(100, 150),
+        "image/png",
+        "https://images.example/reviewed-too-small.png",
+        allow_low_resolution=True,
+    )
+    assert "width_below_200" in reviewed_too_small["reasons"]
+    assert "height_below_280" in reviewed_too_small["reasons"]
     blank = io.BytesIO()
     Image.new("RGB", (360, 540), "white").save(blank, format="PNG")
     rejected, _ = inspect_image(

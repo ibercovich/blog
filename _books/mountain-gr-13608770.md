@@ -2,8 +2,8 @@
 title: Mountain
 author: Liu, Cixin
 goodreads_id: '13608770'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/mountain-gr-13608770.jpg
+color: '#0C1F4D'
 status: want_to_read
 collections: []
 physical_copy: false

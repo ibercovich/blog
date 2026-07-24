@@ -27,6 +27,7 @@ FRONT_MATTER_RE = re.compile(
     r"\A---[ \t]*\r?\n(.*?)^---[ \t]*(?:\r?\n|\Z)",
     re.DOTALL | re.MULTILINE,
 )
+JEKYLL_DATE_LIKE = re.compile(r"\A\d{1,4}-\d{1,2}-\d{1,2}(?:-|\Z)")
 
 STATUS_MAP = {
     "read": "read",
@@ -232,8 +233,10 @@ def source_isbn(row: dict[str, str]) -> tuple[str, list[str]]:
 
 def slugify(value: str, limit: int = 170) -> str:
     value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
-    value = re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower()
-    return value[:limit].rstrip("-") or "book"
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", value).strip("-").lower() or "book"
+    if JEKYLL_DATE_LIKE.match(slug):
+        slug = f"book-{slug}"
+    return slug[:limit].rstrip("-")
 
 
 def read_books() -> list[BookFile]:

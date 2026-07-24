@@ -51,6 +51,8 @@ any catalog UI that consumes the same endpoint.
   import or enrichment run.
 - Each Goodreads row maps to exactly one record and each imported record has a
   unique numeric `goodreads_id`.
+- Importers prefix date-like title slugs so Jekyll never interprets a book
+  collection filename as a dated post.
 - New Goodreads records are never recommended automatically.
 - The importer creates missing records but never rewrites or deletes existing
   records. Subsequent metadata edits belong in Decap or the individual book
@@ -194,6 +196,13 @@ uv run --with pyyaml --with requests --with pillow \
   python scripts/enrich_book_covers.py --ids 12345
 ```
 
+If an exact, visually inspected cover has no source at the normal minimum
+resolution, a reviewed override may add `"allow_low_resolution":true`. This is
+the only path that relaxes the normal 200×280 minimum, it still requires at
+least 120×170 source pixels, and the accepted image is upscaled to the preferred
+catalog size. Use it only after checking that no larger exact image exists and
+record that fact in the override note.
+
 The script deliberately refuses to overwrite an existing destination. To
 replace a wrong saved cover, first remove the old generated image and clear the
 record's `cover` value, then rerun the exact ID without `--resume`. Inspect the
@@ -214,7 +223,7 @@ git diff --check
 Before production, also run the repository's production Jekyll build locally:
 
 ```sh
-./build.sh
+bash build.sh
 ```
 
 Review the generated `/books/data.json`, open `/books/`, and test creating and

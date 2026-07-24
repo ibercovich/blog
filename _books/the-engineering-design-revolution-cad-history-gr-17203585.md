@@ -2,8 +2,8 @@
 title: The Engineering Design Revolution CAD History
 author: Weisberg, Dave
 goodreads_id: '17203585'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-engineering-design-revolution-cad-history-gr-17203585.jpg
+color: '#E2D8C9'
 status: want_to_read
 collections: []
 physical_copy: false

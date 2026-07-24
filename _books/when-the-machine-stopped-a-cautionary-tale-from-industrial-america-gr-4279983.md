@@ -3,8 +3,8 @@ title: 'When the machine stopped: A cautionary tale from industrial America'
 author: Holland, Max
 goodreads_id: '4279983'
 isbn: '9780875842080'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/when-the-machine-stopped-a-cautionary-tale-from-industrial-america-gr-4279983.jpg
+color: '#A8A89C'
 status: want_to_read
 collections: []
 physical_copy: false

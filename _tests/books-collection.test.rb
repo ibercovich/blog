@@ -56,6 +56,15 @@ class BooksCollectionTest < Minitest::Test
     end
   end
 
+  def test_book_filenames_do_not_look_like_jekyll_dates
+    date_like = BOOK_PATHS.map do |path|
+      name = Pathname(path).basename.to_s
+      name if name.match?(/\A\d{1,4}-\d{1,2}-\d{1,2}(?:-|\.md\z)/)
+    end.compact
+    assert_empty date_like,
+                 "Jekyll interprets date-like collection filenames as posts"
+  end
+
   def test_titles_and_isbns_are_unique
     assert_unique books.map { |book| book.fetch("title") }, "title"
     assert_unique books.map { |book| book["isbn"] }.compact, "ISBN"

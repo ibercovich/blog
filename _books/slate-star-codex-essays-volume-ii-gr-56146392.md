@@ -3,8 +3,8 @@ title: 'Slate Star Codex Essays: Volume II'
 author: Alexander, Scott
 goodreads_id: '56146392'
 isbn: '9781735797113'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/slate-star-codex-essays-volume-ii-gr-56146392.jpg
+color: '#344051'
 status: want_to_read
 collections: []
 physical_copy: false

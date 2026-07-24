@@ -29,6 +29,7 @@ BLOG_ROOT = Path(__file__).resolve().parent.parent
 BOOKS_DIR = BLOG_ROOT / "_books"
 COVERS_DIR = BLOG_ROOT / "assets" / "covers"
 SYNOPSIS_CACHE = Path(__file__).resolve().parent / "synopsis_cache.json"
+JEKYLL_DATE_LIKE = re.compile(r"\A\d{1,4}-\d{1,2}-\d{1,2}(?:-|\Z)")
 
 
 @dataclass
@@ -44,8 +45,10 @@ def slugify(text):
     """Convert text to a filesystem-safe slug."""
     text = text.lower().strip()
     text = re.sub(r"[^\w\s-]", "", text)
-    text = re.sub(r"[\s_]+", "-", text)
-    return text.strip("-")[:80]
+    slug = re.sub(r"[\s_]+", "-", text).strip("-") or "book"
+    if JEKYLL_DATE_LIKE.match(slug):
+        slug = f"book-{slug}"
+    return slug[:80].rstrip("-")
 
 
 def fetch_google_cover_url(title, author, isbn, api_key=None):
