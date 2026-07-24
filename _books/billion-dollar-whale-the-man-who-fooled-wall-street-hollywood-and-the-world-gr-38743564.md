@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Tom Wright and Bradley Hope trace how Malaysian financier Jho Low stole billions from the 1MDB sovereign wealth fund, using the money to buy access to Hollywood, Wall Street, and global political figures. The book reconstructs one of the largest financial frauds in modern history and the networks of complicity that allowed it to persist.
 ---

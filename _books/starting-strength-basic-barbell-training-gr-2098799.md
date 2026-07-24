@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Mark Rippetoe presents comprehensive instruction on the five fundamental barbell movements—squat, press, deadlift, bench press, and power clean—explaining the biomechanics of each lift in precise anatomical detail. The book also covers how the body adapts to progressive overload through recovery, establishing this adaptive process as the foundation of long-term strength development.
 ---

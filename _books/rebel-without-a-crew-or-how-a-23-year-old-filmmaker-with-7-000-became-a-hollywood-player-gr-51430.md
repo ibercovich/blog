@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert Rodriguez recounts how he made the feature film El Mariachi at age 23 on a budget of $7,000, combining a production diary with practical advice on low-budget independent filmmaking. The book lays out the creative problem-solving and resourceful techniques he used to launch a Hollywood career without formal film school training.
 ---

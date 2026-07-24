@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Frédéric Laloux surveys pioneering organizations that have abandoned conventional hierarchical management in favor of self-management, wholeness, and evolutionary purpose, which he groups under the label Teal. Through case studies and historical analysis of organizational paradigms, the book argues that a new stage of human consciousness makes radically different and more fulfilling organizational structures both possible and practical.
 ---

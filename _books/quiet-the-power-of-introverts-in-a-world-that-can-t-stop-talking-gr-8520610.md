@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Susan Cain argues that Western culture has come to overvalue extroversion, sidelining the introverted third of the population who bring distinct strengths in listening, creativity, and careful thought. Drawing on research in psychology and neuroscience, she challenges the Extrovert Ideal and shows how individuals and institutions can better harness the power of quieter personalities.
 ---

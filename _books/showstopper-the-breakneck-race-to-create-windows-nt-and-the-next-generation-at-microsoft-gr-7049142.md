@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: G. Pascal Zachary chronicles the multi-year effort to build Windows NT, led by the demanding engineer David Cutler and a team that sacrificed their personal lives to deliver a modern, stable operating system from scratch. The book examines the internal tensions, management pressures, and technical challenges that defined one of the most ambitious software projects in computing history.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Debt: The First 5,000 Years challenges standard economic history by arguing, through anthropological evidence, that credit systems preceded coinage and that barter economies of the textbook variety never actually existed. David Graeber contends that the moral weight placed on debt repayment has historically justified violence and inequality, from ancient agrarian empires through the modern financial system.'
 ---

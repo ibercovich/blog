@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Yuval Noah Harari examines how humanity, having largely conquered famine, plague, and war, now pursues the new agenda of achieving immortality, bliss, and god-like abilities through biotechnology and artificial intelligence. He argues that these ambitions may ultimately render humans obsolete as data-driven algorithms and dataism replace humanism as the dominant value system.
 ---

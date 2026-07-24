@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Thomas Gryta and Ted Mann trace the collapse of General Electric from one of America's most admired corporations to a struggling conglomerate, attributing the decline to strategic overreach, financial engineering, and leadership failures under CEO Jeff Immelt following the exit of Jack Welch. The book draws on extensive reporting to reconstruct the internal decisions and cultural pressures that eroded GE's industrial foundations.
 ---

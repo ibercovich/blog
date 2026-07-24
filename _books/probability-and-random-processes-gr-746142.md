@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Geoffrey Grimmett and David Stirzaker present a comprehensive treatment of probability theory and stochastic processes, moving from foundational concepts—random variables, generating functions, and Markov chains—through advanced topics including martingales, diffusion processes, and stochastic calculus. The text spans undergraduate through graduate level, with emphasis on modeling and nearly four hundred exercises.
 ---

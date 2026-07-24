@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Darwin's autobiography, written for his family and first published in complete form in 1959, covers his education, the voyage of the Beagle, and the development of his thinking on evolution by natural selection. It also reflects candidly on his working methods, his views on religion and philosophy, and the personal relationships that shaped his intellectual life.
 ---

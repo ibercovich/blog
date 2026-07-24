@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Gabriel Weinberg and Lauren McCann catalog over a hundred mental models drawn from psychology, economics, physics, and other disciplines, presenting each as a practical tool for clearer thinking and better decisions. The book organizes these frameworks thematically so readers can apply concepts like Occam's Razor, the Eisenhower Matrix, and sunk cost reasoning to everyday professional and personal challenges.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Written in pieces between 1771 and 1790 and addressed originally to his son, Benjamin Franklin's autobiography recounts his rise from a Boston printer's apprentice to a central figure in American civic, scientific, and political life. It details his self-improvement methods, business ventures, civic projects, and evolving philosophical views on virtue, religion, and public service.
 ---

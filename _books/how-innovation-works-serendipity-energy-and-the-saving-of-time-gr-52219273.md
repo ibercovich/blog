@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Matt Ridley argues that innovation is not the product of solitary genius or top-down planning but an emergent, collective, and gradual process driven by exchange, trial and error, and the recombination of existing ideas. Drawing on case studies ranging from the steam engine to the internet, he traces the common patterns of how transformative inventions actually develop and spread.
 ---

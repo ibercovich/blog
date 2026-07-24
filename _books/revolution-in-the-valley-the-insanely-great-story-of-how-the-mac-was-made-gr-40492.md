@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Andy Hertzfeld, a core member of the original Macintosh software team, collects firsthand anecdotes about the creation of the Mac from 1979 through its 1984 launch, illustrating the personalities, conflicts, and creative breakthroughs that shaped the personal computer revolution. The book draws on Hertzfeld's direct involvement in building the Mac's user interface software to give an insider account of how the project came to life.
 ---

@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Epstein argues that in most complex, unpredictable fields, breadth of experience across domains outperforms early specialization, drawing on research in sports, science, and the arts. Generalists who sample widely, think laterally, and delay commitment are better equipped to solve novel problems than those who narrow their focus from the start.
 ---

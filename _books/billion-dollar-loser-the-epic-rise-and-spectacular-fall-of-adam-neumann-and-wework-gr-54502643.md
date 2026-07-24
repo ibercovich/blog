@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Reeves Wiedeman chronicles the rise and collapse of WeWork, tracing how CEO Adam Neumann built a co-working startup into a nearly $50 billion valuation before a failed IPO exposed unsustainable finances and chaotic management. Drawing on interviews with employees, the book examines WeWork as a case study in 2010s startup excess and investor credulity.
 ---

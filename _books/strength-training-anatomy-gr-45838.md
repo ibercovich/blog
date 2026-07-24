@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Frédéric Delavier pairs over 700 detailed anatomical illustrations with descriptions of strength training exercises, revealing the primary muscles engaged alongside surrounding bones, ligaments, and tendons for each movement. The visual format allows athletes and trainers to understand exactly which structures are activated during exercises ranging from basic compound lifts to isolation movements.
 ---

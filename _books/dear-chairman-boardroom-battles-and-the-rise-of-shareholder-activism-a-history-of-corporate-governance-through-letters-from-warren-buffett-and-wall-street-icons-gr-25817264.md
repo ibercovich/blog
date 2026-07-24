@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Dear Chairman traces shareholder activism from the 1920s to the present through a series of pivotal boardroom battles, anchored by original letters from investors including Benjamin Graham, Warren Buffett, Carl Icahn, and Ross Perot. Jefferson Gramm uses these campaigns to examine how the balance of power between shareholders and corporate management has shifted and what it reveals about the contested theory of corporate purpose.
 ---

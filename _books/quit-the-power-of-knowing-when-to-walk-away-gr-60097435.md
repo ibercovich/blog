@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Annie Duke makes the case that quitting is a rational strategy and that most people quit too late rather than too early, held back by cognitive biases like sunk cost and loss aversion. She provides frameworks—including kill criteria and expected-value thinking—for deciding when to walk away from careers, projects, or relationships.
 ---

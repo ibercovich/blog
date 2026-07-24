@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Capital without Borders investigates the profession of wealth management through an eight-year study in which sociologist Brooke Harrington trained and worked as a wealth manager, then conducted interviews across eighteen tax havens. The book reveals how practitioners use offshore structures, trusts, and shell corporations to help ultra-high-net-worth clients shield assets from taxation, creditors, and legal obligations, perpetuating global inequality.
 ---

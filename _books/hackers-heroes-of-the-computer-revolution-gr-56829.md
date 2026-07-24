@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Hackers chronicles the culture that formed around computers from MIT's late-1950s mainframe pioneers through the personal computer era of the 1980s, profiling the programmers who built and shared software out of curiosity and a belief that information should be free. Levy identifies a common set of values he calls the Hacker Ethic and traces how that ethos evolved as computing shifted from institutions to individuals.
 ---

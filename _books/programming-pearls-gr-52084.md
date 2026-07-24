@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jon Bentley collects essays on practical programming techniques and fundamental design principles, each grown from real problems encountered by working programmers, covering algorithms, data structures, correctness, performance tuning, and code optimization. The essays combine lucid explanations with concrete case studies and exercises intended to sharpen how programmers think about problem decomposition and efficiency.
 ---

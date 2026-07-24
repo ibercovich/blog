@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Wright Thompson collects longform magazine pieces that examine the psychological and personal costs paid by athletes, coaches, and competitors in the pursuit of greatness, profiling figures including Michael Jordan, Tiger Woods, and Dan Gable. A recurring thread throughout the collection is how obsessive ambition shapes—and often strains—the relationships between fathers and children.
 ---

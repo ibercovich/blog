@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Generative Deep Learning introduces the key architectures behind creative AI systems—variational autoencoders, generative adversarial networks, Transformers, and diffusion models—through hands-on implementations in Python. Using TensorFlow and Keras, the book walks through building models that generate images, text, and music, progressing from foundational deep learning concepts to state-of-the-art generative techniques.
 ---

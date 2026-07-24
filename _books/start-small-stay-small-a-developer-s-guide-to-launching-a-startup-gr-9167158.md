@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Rob Walling lays out a step-by-step blueprint for software developers who want to launch a self-funded startup without seeking venture capital. The guide covers finding a product idea, validating market demand, converting visitors to customers, and reaching profitability without outside investment.
 ---

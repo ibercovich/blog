@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Offshore examines how a global network of offshore financial centers, rooted in the remnants of colonialism, enables wealthy individuals to hide assets from taxation and democratic accountability. Sociologist Brooke Harrington draws on eight years of fieldwork and interviews with wealth managers across nineteen countries to trace how this system degrades public institutions and perpetuates inequality.
 ---

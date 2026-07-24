@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Phillips Payson O'Brien argues that World War II was decided not by mass land armies on the Eastern Front but by Allied dominance in air and sea power, which destroyed Axis production and logistics before most equipment ever reached a traditional battlefield. He recasts the war's decisive theater as a vast air-sea arena where production and technology determined victory.
 ---

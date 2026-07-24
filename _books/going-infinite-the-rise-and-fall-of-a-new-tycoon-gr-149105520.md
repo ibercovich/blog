@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Going Infinite traces the arc of Sam Bankman-Fried from obscure quantitative trader to founder of the cryptocurrency exchange FTX and then to his arrest and fraud trial following its collapse. Lewis reconstructs Bankman-Fried's worldview, his management of FTX, and the decisions that led to one of the largest financial frauds in American history.
 ---

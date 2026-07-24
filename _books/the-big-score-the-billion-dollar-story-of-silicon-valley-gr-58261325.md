@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Michael Malone traces Silicon Valley's history from the birth of the semiconductor in the 1930s through the explosive growth of the personal computer era, drawing on interviews with figures including William Shockley and Steve Jobs. The book documents the ambition, competition, and darker forces—espionage, grueling working conditions, betrayal—that drove the Valley's transformation from a cluster of garages into a global industry.
 ---

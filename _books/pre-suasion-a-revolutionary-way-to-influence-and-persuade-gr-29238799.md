@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert Cialdini argues that effective persuasion depends not only on the message itself but on what happens in the moments immediately before it is delivered, a concept he calls pre-suasion. By directing an audience's attention strategically beforehand, a communicator can prime receptivity to a request without altering the substance of the argument.
 ---

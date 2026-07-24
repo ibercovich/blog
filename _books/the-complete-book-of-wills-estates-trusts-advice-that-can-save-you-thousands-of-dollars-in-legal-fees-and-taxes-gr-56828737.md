@@ -10,5 +10,5 @@ collections: []
 physical_copy: false
 recommended: false
 finished_on: '2024-06-28'
-synopsis: ''
+synopsis: Attorneys Alexander Bove and Melissa Langa explain the principles and mechanics of wills, trusts, probate, and estate administration in plain language, covering how to structure documents to minimize taxes and legal costs. The book addresses common pitfalls such as contested wills, inadequate powers of attorney, and creditor exposure, illustrated with real case examples.
 ---

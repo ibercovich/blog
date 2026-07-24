@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: With Earth dying, bridger Infinity and her new partner Desmond are tasked with leading 718 refugees to an occupied alien world and establishing a colony without resorting to conflict. When violence erupts with the planet's inhabitants, they face an impossible choice between honoring their oath to protect the refugees and doing what may be necessary to save the colony.
 ---

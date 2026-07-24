@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Operating Systems: Three Easy Pieces organizes the study of operating systems around three core themes—virtualization of CPU and memory, concurrency through locks and condition variables, and persistence via file systems and storage. Each chapter presents a specific problem and then develops solutions drawn from the primary research literature, making the book suitable for both undergraduates and graduate students.'
 ---

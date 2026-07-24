@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Jed Talks #2 continues McKenna''s exploration of non-dual philosophy through essays and a five-act play titled Deception: Your Mind is the Scene of the Crime, examining the disconnect between inner awareness and the external persona others perceive. The book uses analogies drawn from movies and daily life to illuminate the teaching that the sense of self is an illusory construct rather than a genuine entity.'
 ---

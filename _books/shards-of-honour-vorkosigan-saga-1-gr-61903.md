@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Cordelia Naismith, a Betan survey officer, is taken captive by Barrayaran commander Aral Vorkosigan after her crew is ambushed, and the two must survive a grueling trek together across hostile terrain. Set against an impending interstellar war between their sharply opposed civilizations, the novel traces the unlikely bond and deepening feelings that form between them.
 ---

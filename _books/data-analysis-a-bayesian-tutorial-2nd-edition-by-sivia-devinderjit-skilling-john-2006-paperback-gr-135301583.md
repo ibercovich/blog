@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Data Analysis: A Bayesian Tutorial introduces Bayesian probability theory as a unified framework for scientific data analysis, guiding senior undergraduates and researchers through applications ranging from parameter estimation to image processing. The second edition extends the approach to handle outliers and correlated noise, and includes a new chapter on nested sampling, a numerical method for Bayesian computation developed by co-author John Skilling.'
 ---

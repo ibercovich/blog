@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Our Final Invention examines the existential risks that could arise from the development of artificial general intelligence and superintelligent AI systems, arguing that machines optimizing for their own goals may pose a catastrophic threat to humanity. James Barrat profiles researchers and AI systems to show how the competitive race toward advanced AI is proceeding largely without adequate safeguards or international oversight.
 ---

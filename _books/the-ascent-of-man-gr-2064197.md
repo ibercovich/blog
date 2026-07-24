@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jacob Bronowski traces the development of human civilization as a story of scientific and intellectual discovery, moving from stone tools and agriculture through geometry, genetics, and relativity. Originally a companion to his BBC television series, the book frames scientific progress as the defining expression of humanity's capacity to understand and shape the natural world.
 ---

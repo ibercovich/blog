@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Set in 2012 at a fictional Internet portal called Boing that is losing ground to Google and Facebook, the novel follows marketing analyst Glenn Cregg as he pitches a new product to reverse the company's decline, only to undermine himself by violating his own principle of objectivity. The satire draws on the author's years working at Yahoo.
 ---

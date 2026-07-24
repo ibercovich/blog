@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ted Nelson outlines Project Xanadu, a hypertext system that would allow any document to link bidirectionally to any other and enable micropayments for reused content through transclusion, coining the terms "hypertext" and "hypermedia" in the process. The book lays out the theoretical architecture for a globally interconnected docuverse and remains a foundational text in the history of networked information.
 ---

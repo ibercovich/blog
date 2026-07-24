@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Paper Belt on Fire recounts how two outsiders—a former charter school principal and a defrocked philosopher—founded the 1517 Fund, a venture capital firm that invests in college dropouts and uncredentialed innovators. Michael Gibson argues that elite higher education has become a gatekeeping credential rather than a source of genuine knowledge, and that backing unconventional founders offers a path to real technological progress.
 ---

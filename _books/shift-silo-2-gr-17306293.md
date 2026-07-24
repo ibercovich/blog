@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Set as a prequel to Wool, this installment centers on Donald Keene, a U.S. congressman unwittingly recruited into the secret project that built the underground silos before civilization's collapse. Through multiple timelines, it reveals the conspiratorial origins and hidden purpose of the silo network, deepening the world established in the first novel.
 ---

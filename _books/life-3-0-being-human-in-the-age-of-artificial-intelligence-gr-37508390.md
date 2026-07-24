@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Max Tegmark examines how artificial intelligence may transform human civilization across domains including employment, warfare, criminal justice, and the nature of consciousness, framing AI as the most consequential technology humanity has yet produced. The book presents competing scenarios for humanity's future with advanced AI and argues for proactive thinking about how to steer toward beneficial outcomes.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Harold Abelson and Gerald Jay Sussman use the Scheme programming language to introduce fundamental concepts of computation, including abstraction, recursion, higher-order functions, and metalinguistic abstraction across five chapters. The textbook builds progressively from simple expressions to interpreters and compilers, establishing a conceptual framework applicable to all programming languages.
 ---

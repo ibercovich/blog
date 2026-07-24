@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Physicist David Deutsch argues that good explanations—those that are hard to vary while still accounting for the phenomena—are the engine of all human progress, from science and politics to art and moral philosophy. The book contends that the capacity to generate and improve explanations is potentially unlimited, making the scope of future human achievement boundless.
 ---

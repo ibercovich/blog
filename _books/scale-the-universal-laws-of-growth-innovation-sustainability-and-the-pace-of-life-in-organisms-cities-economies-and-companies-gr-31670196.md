@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Scale presents a unified mathematical framework showing that organisms, cities, companies, and economies all obey the same power-law scaling rules, where metabolic rates, innovation output, and income scale predictably with size. Physicist Geoffrey West uses these quantitative patterns to explore questions about growth limits, the pace of urban life, and why companies—unlike cities—almost inevitably stagnate and die.
 ---

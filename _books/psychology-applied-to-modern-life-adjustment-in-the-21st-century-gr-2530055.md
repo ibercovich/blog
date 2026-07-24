@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Wayne Weiten applies psychological research to practical challenges of everyday life, covering topics such as self-esteem, stress management, relationships, career development, and psychological disorders with an emphasis on helping readers understand and adjust to contemporary social environments. The textbook integrates classic and current research with accessible examples drawn from real-world situations.
 ---

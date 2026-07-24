@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Baron Schwartz, Peter Zaitsev, and Vadim Tkachenko provide in-depth guidance on designing schemas, indexes, and queries to extract maximum performance from MySQL, alongside practical coverage of replication, load balancing, high availability, and failover. The book also addresses operating system and hardware tuning to help engineers run MySQL at scale under demanding production workloads.
 ---

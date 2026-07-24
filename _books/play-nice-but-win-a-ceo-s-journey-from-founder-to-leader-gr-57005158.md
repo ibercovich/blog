@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Michael Dell recounts his journey from founding a PC business in his University of Texas dorm room to leading one of the world''s largest technology companies, tracing three defining corporate battles: the company''s launch, a fight to preserve it against activist investor Carl Icahn, and its transformation. The memoir examines how Dell matured from entrepreneur to executive while navigating competitors, mentors, and high-stakes takeover conflicts.'
 ---

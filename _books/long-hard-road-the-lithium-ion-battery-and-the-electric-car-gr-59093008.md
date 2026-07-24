@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Charles Murray traces the lithium-ion battery from university research labs through intense corporate competition between Asahi Chemical and Sony to its emergence in consumer electronics and eventual adoption as the core technology of electric vehicles. The book shows that this chemistry resulted from dozens of incremental breakthroughs across many laboratories rather than a single inventor's discovery.
 ---

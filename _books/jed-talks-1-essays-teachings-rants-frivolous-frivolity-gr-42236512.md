@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Jed Talks #1 collects essays, teachings, and commentary from Jed McKenna, covering non-dualist philosophy and the nature of enlightenment through a combination of direct instruction and irreverent humor. The second edition includes a six-act play titled Starship Gita: The Song of the Borg alongside essays on topics from the mechanics of awakening to critiques of conventional spiritual seeking.'
 ---

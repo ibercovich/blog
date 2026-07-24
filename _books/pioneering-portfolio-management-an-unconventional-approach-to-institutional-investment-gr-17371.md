@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Swensen draws on his experience managing Yale's endowment to lay out a framework for institutional portfolio management centered on broad diversification and a heavy allocation to alternative asset classes like private equity. The book covers investment philosophy, asset allocation strategy, manager selection, and the governance structures that allow endowments to pursue unconventional approaches unavailable to most individual investors.
 ---

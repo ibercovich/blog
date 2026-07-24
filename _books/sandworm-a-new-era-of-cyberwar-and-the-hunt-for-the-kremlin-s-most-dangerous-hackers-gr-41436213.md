@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Sandworm investigates Sandworm, an elite Russian hacking unit responsible for some of the most destructive cyberattacks in history, including the NotPetya malware that caused billions in global damage and repeated strikes on Ukraine's power grid. The book argues that these operations represent a new era of warfare in which the boundary between peacetime sabotage and armed conflict has effectively dissolved.
 ---

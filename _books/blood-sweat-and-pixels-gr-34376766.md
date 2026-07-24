@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jason Schreier goes behind the scenes of ten major video games—including Diablo III, The Witcher 3, and Uncharted 4—to document the turbulent, often grueling development processes that produced them. Through extensive interviews with developers, the book reveals how creative ambition, management dysfunction, and relentless crunch time shape the games players ultimately experience.
 ---

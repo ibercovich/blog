@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Zen priest and punk musician Brad Warner uses the thirteenth-century Japanese master Dogen's Shobogenzo as the anchor for a wide-ranging commentary on meditation, death, sex, God, and the overlapping antiauthoritarianism shared by Zen and punk rock. Each chapter weaves textual engagement with Dogen's cryptic writing together with personal anecdotes and a travelogue of Warner's return to play in an Akron punk reunion.
 ---

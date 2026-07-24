@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Integrity argues that character—not just honesty—determines professional and personal success, defining integrity as the integration of disparate character elements rather than merely the absence of dishonesty. Henry Cloud identifies six qualities of character that enable people to meet reality's demands, drawing on examples from business and sports to show how gaps in character derail otherwise capable individuals.
 ---

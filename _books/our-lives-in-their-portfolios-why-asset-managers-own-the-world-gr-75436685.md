@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Our Lives in Their Portfolios traces how asset management firms like BlackRock and Blackstone have become the dominant owners of housing, infrastructure, farmland, and basic services that shape daily life. Brett Christophers argues that this shift to an "asset manager society" prioritizes short-term financial returns over community needs and represents a distinct and underexamined form of capitalist power.
 ---

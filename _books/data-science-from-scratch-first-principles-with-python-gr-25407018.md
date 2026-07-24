@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Data Science from Scratch teaches core data science algorithms and tools by having readers implement them in Python from first principles rather than relying on pre-built libraries, covering statistics, linear algebra, machine learning, and natural language processing. Joel Grus structures the book for readers with a mathematics background and some programming experience who want to understand how the underlying methods work before using higher-level frameworks.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Journey to the Center of the Earth follows Professor Lidenbrock, his nephew Axel, and their Icelandic guide Hans descending into a volcanic crater, navigating subterranean tunnels, and reaching an underground sea populated by prehistoric creatures. Jules Verne's 1864 novel combines scientific speculation about Earth's interior with adventure, ultimately expelling the explorers to the surface through a volcanic eruption.
 ---

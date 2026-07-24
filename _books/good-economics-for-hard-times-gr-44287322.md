@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Good Economics for Hard Times applies economic research to contemporary problems including immigration, trade, inequality, technological displacement, and climate change, drawing on evidence from randomized controlled trials and natural experiments. Nobel laureates Banerjee and Duflo challenge both political and economic orthodoxies to argue for evidence-based policy interventions grounded in realistic models of human behavior.
 ---

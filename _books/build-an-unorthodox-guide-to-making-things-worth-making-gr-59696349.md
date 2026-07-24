@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Build draws on Tony Fadell's decades at Apple and Google—where he led development of the iPod, iPhone, and Nest thermostat—to provide practical guidance on product design, leadership, and career growth. Organized as a series of short essays, the book covers how to craft products people need, build and manage teams, navigate startup challenges, and make consequential decisions.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Drawing on more than twenty-five years of interviews with prominent investors including Charlie Munger, John Templeton, and Jack Bogle, William Green examines the mental models and decision-making habits that drive sustained long-term investment success. The book argues that the same principles of rational, disciplined thinking that produce market outperformance also apply to building a better life.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Capital Returns compiles reports written by Marathon Asset Management between 2002 and 2015 to illustrate the capital cycle approach to investing, which focuses on how changes in industry supply—driven by capital inflows and outflows—predict future returns. Edward Chancellor's editorial introduction frames the collected reports within a coherent investment philosophy, showing through examples across sectors how monitoring capital allocation can identify mispriced opportunities.
 ---

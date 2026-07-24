@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Spiegelhalter examines how probability and statistical reasoning can help people think more clearly about risk, chance, and unknowns encountered in medicine, climate science, and everyday decision-making. The book explores how to update beliefs in light of new evidence and how to communicate uncertainty honestly.
 ---

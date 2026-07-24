@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: During his third year at Hogwarts, Harry Potter learns that convicted murderer Sirius Black—a supposed follower of Voldemort—has escaped from the wizard prison Azkaban and may be hunting him, while dementors guard the school grounds. The truth about Sirius's connection to Harry's parents proves far more complicated than the official story suggests.
 ---

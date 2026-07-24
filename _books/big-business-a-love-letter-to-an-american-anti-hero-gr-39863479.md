@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Economist Tyler Cowen mounts an evidence-based defense of large corporations, arguing that businesses create significant social value by spurring innovation, rewarding merit, and generating the material abundance on which modern life depends. Cowen pushes back against widespread anti-corporate sentiment, contending that the common criticisms of big business are overstated or misattribute to corporations harms that stem from other sources.
 ---

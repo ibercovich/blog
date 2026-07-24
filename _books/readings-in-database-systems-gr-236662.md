@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Joseph Hellerstein and Michael Stonebraker assemble influential research papers in database systems, organized with editorial commentary to give students and professionals a foundation in both classical ideas and emerging trends. The collection, known as the Red Book, covers query processing, storage, transactions, and distributed data management.
 ---

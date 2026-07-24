@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: BCG economists Philipp Carlsson-Szlezak and Paul Swartz contend that conventional macroeconomic forecasting fails decision-makers because it conflates genuine structural crises with recoverable shocks and false alarms. Their alternative framework, called economic eclecticism, draws on empirical data, historical context, and structural narratives to help executives and investors form better judgment about real economic risk.
 ---

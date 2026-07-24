@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Greg Lukianoff and Rikki Schlott argue that cancel culture is not a moral panic but a systematic set of tactics—including labeling, whataboutism, and ad hominem attacks—used to silence dissent and consolidate social power across universities, workplaces, and media. Drawing on original research and hundreds of documented cases, they propose concrete reforms to restore norms of free expression.
 ---

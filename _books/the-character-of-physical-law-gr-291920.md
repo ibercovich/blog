@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Richard Feynman's seven Cornell lectures explore the nature of physical laws, covering gravitation, the relationship between mathematics and physics, conservation principles, symmetry, and quantum mechanics. He examines what it means for nature to obey mathematical rules and reflects on the character of scientific discovery itself.
 ---

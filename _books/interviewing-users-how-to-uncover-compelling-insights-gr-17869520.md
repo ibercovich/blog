@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Interviewing Users teaches researchers how to conduct user interviews that move beyond data collection toward uncovering meaningful insights about people's behaviors and motivations. The book covers interviewing techniques, fieldwork logistics, documentation practices, analysis and synthesis methods, and how to ensure research results influence organizational decisions.
 ---

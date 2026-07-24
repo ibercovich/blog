@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Seeing Like a State examines why large-scale state schemes to improve human welfare—from Soviet collectivization to Le Corbusier's urban planning—repeatedly cause catastrophic harm when governments impose simplified order on complex social systems they cannot fully understand. James C. Scott argues that local, practical knowledge is irreplaceable and that high-modernist confidence in central planning undermines the very conditions its success depends on.
 ---

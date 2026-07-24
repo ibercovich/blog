@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Tyler Cowen argues that since the 1980s Americans have become less willing to take risks, move to new places, or accept disruptive change, and that this collective complacency is suppressing economic dynamism and cultural innovation. He traces how matching algorithms, residential segregation by preference, and regulatory entrenchment reinforce each other to produce a society that optimizes for comfort over progress.
 ---

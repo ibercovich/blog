@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Tiago Macedo and Fred Oliveira present concise, problem-focused recipes for working with Redis, the in-memory data structure store, covering installation, client libraries in multiple languages, caching patterns, and operational concerns like backups and sharding. Each recipe explains not just what to do but why the solution works.
 ---

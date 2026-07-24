@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Béla Bollobás provides an introductory course in functional analysis and linear analysis aimed at advanced undergraduates, covering Banach spaces, linear operators, dual spaces, and the geometry of finite-dimensional spaces alongside unusual topics such as fixed-point theorems and the Bishop-Phelps theorem. The text emphasizes applications in contemporary mathematics and includes a large collection of exercises ranging from routine to challenging.
 ---

@@ -9,5 +9,5 @@ collections: []
 physical_copy: false
 recommended: false
 finished_on: '2024-09-18'
-synopsis: ''
+synopsis: Quantum physicist Tyson Klein discovers an encoded signal in data from the Large Hadron Collider at CERN that appears to originate from alternate realities, drawing him and three others into a conspiracy that transports them across parallel worlds where World War II ended differently. The novel blends hard science concepts with alternate-history military thriller elements as the group races to decode the quantum radio's purpose.
 ---

@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: When humanity is transported to a deadly alternate dimension called the Seven Layers, only a handful of warriors can fight through each stage to survive, and protagonist Micheal Care uses memories of a future timeline to guide his strategy in this LitRPG/wuxia hybrid. The story follows his careful planning and calculated sacrifices as he attempts to steer humanity toward victory the second time around.
 ---

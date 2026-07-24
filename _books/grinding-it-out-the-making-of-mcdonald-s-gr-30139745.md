@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Grinding It Out is Ray Kroc's memoir of how he transformed a single McDonald's hamburger stand operated by the McDonald brothers into a global fast-food franchise, beginning when Kroc was a 52-year-old milkshake machine salesman. The book covers the operational standards, real estate strategy, and interpersonal conflicts that shaped McDonald's growth from regional chain to one of the world's largest corporations.
 ---

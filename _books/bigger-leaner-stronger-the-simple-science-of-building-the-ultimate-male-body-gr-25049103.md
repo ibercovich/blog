@@ -10,5 +10,5 @@ collections: []
 physical_copy: false
 recommended: false
 finished_on: '2024-05-19'
-synopsis: ''
+synopsis: Michael Matthews presents a science-based program for men seeking to build muscle and lose fat, covering strength training, nutrition, and recovery without extreme dieting or excessive gym time. The book draws on peer-reviewed research to provide step-by-step workout and diet plans designed to produce sustainable physical transformation.
 ---

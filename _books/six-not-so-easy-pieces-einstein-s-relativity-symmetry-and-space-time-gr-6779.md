@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Also drawn from Feynman's Caltech lecture series, these six chapters focus specifically on Einstein's theory of relativity, covering vectors, symmetry in physical laws, relativistic energy and momentum, and curved space-time. The presentations are more demanding than those in the companion volume but retain Feynman's characteristic directness in making counterintuitive concepts as clear as possible.
 ---

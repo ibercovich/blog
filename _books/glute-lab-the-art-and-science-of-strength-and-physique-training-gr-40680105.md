@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Glute Lab draws on Bret Contreras's research in sports science to explain the anatomy, function, and training of the gluteal muscles, making the case that properly developed glutes underpin both athletic performance and injury prevention. The book provides thirty-six weeks of programming, step-by-step exercise descriptions, and guidance on designing individualized training plans.
 ---

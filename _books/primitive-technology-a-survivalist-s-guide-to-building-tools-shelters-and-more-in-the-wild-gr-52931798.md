@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: John Plant, creator of the Primitive Technology YouTube channel, provides step-by-step illustrated instructions for constructing over fifty tools, shelters, and functional objects using only natural materials found in the wild. Each project includes guidance on material sourcing and historical context for the techniques involved.
 ---

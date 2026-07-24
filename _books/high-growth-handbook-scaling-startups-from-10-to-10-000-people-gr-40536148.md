@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Elad Gil draws on his experience advising Airbnb, Twitter, Stripe, and other fast-growing companies to provide a practical guide for startup leaders navigating the transition from a small team to thousands of employees. The handbook covers topics including the CEO's evolving role, board management, executive hiring, mergers and acquisitions, and late-stage fundraising.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Secrets of Sand Hill Road provides an insider's guide to how venture capital funds raise money, evaluate startups, structure term sheets, and manage portfolio companies, written by the managing partner of Andreessen Horowitz. The book explains the incentives and decision-making logic of VCs so that founders can negotiate more effectively and build productive long-term relationships with their investors.
 ---

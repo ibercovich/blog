@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Kin Stewart is a time-traveling secret agent from 2142 who has spent years stranded in suburban San Francisco, quietly building a family while hiding his true identity, until a rescue team arrives eighteen years too late. When pulled back to his own era, Kin must choose between the life he left behind in the future and the daughter he raised in the past.
 ---

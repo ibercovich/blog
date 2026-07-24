@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Inventing Temperature investigates how scientists developed thermometers and temperature scales during the 18th and 19th centuries, examining the circular epistemological challenge of validating measurement instruments without relying on those same instruments. Hasok Chang combines history and philosophy of science to show that even seemingly straightforward physical quantities required substantial conceptual innovation, painstaking experimentation, and prolonged scientific controversy to establish.
 ---

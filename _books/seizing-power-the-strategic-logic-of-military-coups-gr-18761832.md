@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Seizing Power develops a coordination-game theory of military coups, arguing that outcomes depend less on firepower than on each faction's ability to signal inevitability and persuade fence-sitters to join the winning side. Drawing on 471 coup attempts from 1950 to 2000 and 300 hours of interviews, Naunihal Singh identifies three structural coup types with distinct probabilities of success.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Spiegelhalter uses real-world problems—from the Harold Shipman murders to ovarian cancer screening—to guide readers through the principles statisticians use to extract knowledge from data. The book covers how to frame questions, assess assumptions, and correctly interpret results in an era defined by the proliferation of data.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Eric S. Raymond contrasts cathedral-style software development—small expert teams working in private—with the bazaar model of open, distributed collaboration exemplified by the Linux kernel. Through essays rooted in his work on the fetchmail project, he argues that many-eyeball peer review and rapid iteration produce more reliable software, and he examines the social dynamics sustaining volunteer open-source contribution.
 ---

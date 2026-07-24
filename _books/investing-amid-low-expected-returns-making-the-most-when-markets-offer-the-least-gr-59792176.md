@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Investing Amid Low Expected Returns examines how investors can navigate a financial environment where decades of falling yields and rising asset prices have depleted future return potential across traditional asset classes. Antti Ilmanen surveys major asset class premia, illiquidity premia, style premia, and alpha sources, arguing that discipline, humility, and diversification across reliable return drivers are critical when market tailwinds become headwinds.
 ---

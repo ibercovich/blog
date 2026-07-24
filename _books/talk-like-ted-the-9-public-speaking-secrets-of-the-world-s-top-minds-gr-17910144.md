@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Carmine Gallo analyzes hundreds of TED talks and interviews with top presenters to distill nine principles behind effective public speaking, including emotional storytelling, visual simplicity, and conveying genuine passion. The book translates these patterns into a practical framework anyone can apply to make their presentations more persuasive and memorable.
 ---

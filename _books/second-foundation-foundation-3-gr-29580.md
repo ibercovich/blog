@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Second Foundation concludes the original Foundation trilogy with two interleaved stories: the First Foundation''s desperate search for the hidden Second Foundation, and the Second Foundation''s covert efforts to steer galactic history back onto Hari Seldon''s planned course after the mutant Mule''s conquest. Asimov uses the conflict to explore themes of free will, mental power, and whether psychohistory''s blueprint for civilization can survive its own exposure.'
 ---

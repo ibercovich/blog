@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Dark Hero of the Information Age is a biography of Norbert Wiener, the MIT mathematician who founded cybernetics and whose theories on feedback and control shaped modern computers and telecommunications. Using declassified government documents and interviews with Wiener's family, Conway and Siegelman reveal how the FBI and CIA targeted him to curtail his social activism during the Cold War.
 ---

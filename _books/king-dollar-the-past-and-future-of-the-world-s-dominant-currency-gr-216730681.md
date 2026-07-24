@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: King Dollar examines how the US dollar has maintained global reserve currency dominance despite predictions of decline from cryptocurrency advocates, renminbi partisans, and those warning of US debt. Paul Blustein argues that dollar supremacy rests on US Treasuries as the world's preeminent safe asset and on Washington's continued role in maintaining global financial stability.
 ---

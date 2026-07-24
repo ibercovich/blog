@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: One night Tyler Dupree watches the stars vanish behind an alien barrier that causes time outside Earth to flow a hundred million years for every second within it, giving humanity only decades before the sun dies. Three friends respond to this existential crisis in divergent ways as Earth scrambles to terraform Mars and unravel the mystery of the Spin.
 ---

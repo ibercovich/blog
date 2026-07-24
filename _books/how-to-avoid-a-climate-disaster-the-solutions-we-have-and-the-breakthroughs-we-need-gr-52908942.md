@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Bill Gates maps out the changes needed across five major sectors—electricity generation, manufacturing, agriculture, transportation, and buildings—to eliminate greenhouse gas emissions and avoid the worst outcomes of climate change. He assesses which existing technologies can scale immediately, where significant cost reductions are needed, and what categories of breakthrough innovation remain necessary to reach net zero.
 ---

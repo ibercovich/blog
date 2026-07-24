@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Good Calories, Bad Calories reviews decades of nutritional research and argues that conventional low-fat dietary advice rests on flawed science, and that refined carbohydrates are the primary driver of obesity, diabetes, and chronic disease. Taubes contends that the type of calories consumed rather than the total quantity determines metabolic health, with insulin as the central mechanism of fat storage.
 ---

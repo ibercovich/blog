@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Safi Bahcall draws on the physics of phase transitions to explain why organizations abruptly shift from nurturing radical ideas to rejecting them, and proposes structural changes to incentives and team design that let creative exploration and disciplined execution coexist. The book illustrates its framework through cases spanning radar development in World War II, pharmaceutical breakthroughs, and technology companies.
 ---

@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: John Gall presents a series of satirical principles describing how large systems—bureaucracies, governments, and institutions—characteristically fail, resist change, and produce outcomes opposite to their designers' intentions. Drawing on engineering failures and organizational anecdotes, the book argues that complex systems must be grown from simpler working systems rather than designed from scratch.
 ---

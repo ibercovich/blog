@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jordan Ellenberg demonstrates that mathematical reasoning is not an abstract academic exercise but a practical tool embedded in everyday decisions, from evaluating polling data to understanding lottery schemes and public health statistics. Working across history, politics, and science, he shows how ignoring mathematical logic leads to systematic errors in judgment that affect individuals and societies alike.
 ---

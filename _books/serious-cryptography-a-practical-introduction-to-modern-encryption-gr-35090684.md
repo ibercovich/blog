@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Serious Cryptography covers the mathematical foundations and practical implementation of modern encryption, including symmetric ciphers, hash functions, public-key cryptography, and protocols such as TLS, with attention to where real-world systems fail. Jean-Philippe Aumasson explains attacker models, authenticated encryption, and advanced techniques like zero-knowledge proofs in a way that bridges theoretical rigor and engineering practice.
 ---

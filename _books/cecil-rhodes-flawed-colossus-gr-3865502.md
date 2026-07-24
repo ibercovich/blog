@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Brian Roberts traces Cecil Rhodes from his English origins to his accumulation of vast wealth in South African diamond mining, his control of De Beers, and his tenure as Prime Minister of the Cape Colony. The biography confronts Rhodes's brutal treatment of indigenous Africans, the Jameson Raid debacle, and the contradictions of a man whose legacy spans the Rhodes Scholarships and the foundations of apartheid.
 ---

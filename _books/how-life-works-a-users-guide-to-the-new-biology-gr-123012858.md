@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Philip Ball challenges the conventional picture of biology in which DNA serves as a master blueprint, arguing instead that genes, proteins, and cells operate within a complex multi-level system governed by principles of emergence, context, and self-organization that classical molecular biology missed. The book surveys how this revised understanding of life unlocks new possibilities in medicine, from reprogramming cells to regenerating tissues.
 ---

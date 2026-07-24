@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Tyler Cowen argues that prioritizing sustained economic growth is the most important moral obligation a society can adopt, because compounding growth over generations produces vastly more human welfare than short-term redistribution. The book constructs a philosophical case for treating growth and individual rights as near-absolute values that should guide policy decisions across time horizons.
 ---

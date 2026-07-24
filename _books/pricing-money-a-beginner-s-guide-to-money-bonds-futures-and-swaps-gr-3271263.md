@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Julian Wiseman provides a non-mathematical introduction to fixed-income markets, explaining how deposits, bonds, futures, and swaps are structured and priced, along with the roles played by different participants in those markets. The book targets newcomers to financial services—traders, analysts, lawyers, and accountants—and uses practical examples to explain pricing conventions and trading mechanics.
 ---

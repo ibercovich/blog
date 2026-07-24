@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Greg Nuckols and Omar Isuf present a framework for strength training that emphasizes individual variation, purposeful programming, and ongoing self-experimentation over rigid prescriptions. The book argues that effective lifting requires aligning training goals, program design, and personal feedback to build lasting progress.
 ---

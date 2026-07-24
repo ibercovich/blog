@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ripples in Spacetime traces the decades-long international effort to detect gravitational waves, explaining the physics of Einstein's prediction and the precision engineering of the LIGO detectors that finally confirmed it in 2015. The book examines how this discovery launched a new field of gravitational-wave astronomy capable of observing black hole collisions and neutron star mergers invisible to conventional telescopes.
 ---

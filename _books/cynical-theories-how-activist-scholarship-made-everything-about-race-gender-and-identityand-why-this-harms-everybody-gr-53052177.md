@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Cynical Theories traces the intellectual lineage of contemporary social justice scholarship from French postmodern philosophy through its transformation into applied activist academic fields focused on race, gender, and identity. Helen Pluckrose and James Lindsay argue that this tradition treats knowledge as socially constructed and science as a tool of oppression, and that these premises ultimately harm the marginalized communities the scholarship claims to champion.
 ---

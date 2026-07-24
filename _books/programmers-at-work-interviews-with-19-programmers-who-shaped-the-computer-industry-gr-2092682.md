@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Susan Lammers compiles in-depth interviews with nineteen software pioneers—including Charles Simonyi, Dan Bricklin, Bob Frankston, and Andy Hertzfeld—who built the foundational programs of the personal computer era. The interviews probe each programmer's design philosophy, creative process, and approach to solving problems under severe hardware constraints.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jeremy N. Smith profiles a woman known only as Alien, tracing her journey from MIT's underground hacking culture through a career in cybersecurity consulting that takes her into corporate espionage, government intelligence work, and the inner circles of the security industry. The book uses her career as a lens through which to examine two decades of hacking history and the evolving landscape of digital security.
 ---

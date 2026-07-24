@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nick Bostrom examines the possible paths by which machines could surpass human-level general intelligence and analyzes what motivations and capabilities such a superintelligence might develop. He argues that a sufficiently advanced AI could become extremely difficult to control and that solving the alignment problem before superintelligence is created is among humanity's most urgent challenges.
 ---

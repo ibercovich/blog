@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Drawn from six lectures Richard Feynman delivered at Caltech in the early 1960s, this collection introduces general readers to the foundational concepts of physics: atoms, energy, gravitation, quantum mechanics, and the relationship between physics and other sciences. Feynman explains each topic using minimal jargon and a wealth of concrete examples, preserving the wit and clarity that defined his teaching.'
 ---

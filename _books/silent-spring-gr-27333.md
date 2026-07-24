@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Rachel Carson documents how the widespread and indiscriminate use of synthetic pesticides, particularly DDT, was poisoning ecosystems, killing wildlife, and threatening human health. The book argues that the chemical industry disseminated misleading information while government officials accepted industry claims uncritically, and calls for a rethinking of humanity's relationship with the natural world.
 ---

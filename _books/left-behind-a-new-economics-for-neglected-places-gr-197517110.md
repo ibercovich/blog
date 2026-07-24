@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Paul Collier examines why some regions within wealthy nations remain persistently poor while surrounding areas prosper, challenging the assumption that market forces alone will correct regional imbalances. Drawing on behavioral psychology, evolutionary biology, and moral philosophy, he outlines policies that can help neglected places rebuild economies through local agency, improved governance, and targeted external support.
 ---

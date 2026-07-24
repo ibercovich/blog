@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Goodsell surveys how biological cells build and operate molecular-scale machines, drawing on structural biology to illuminate principles that engineers can apply when designing synthetic nanomachines. The book moves from natural nanomachinery—proteins, DNA, and cellular motors—to emerging applications in bionanotechnology, pairing technical analysis with Goodsell's original watercolor illustrations.
 ---

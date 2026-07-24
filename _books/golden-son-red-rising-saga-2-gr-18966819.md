@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Golden Son is the second novel in the Red Rising Saga, continuing the story of Darrow, a lowborn miner who has infiltrated the ruling Gold caste of a rigid color-coded society to destroy it from within. Darrow navigates shifting political alliances and open warfare among powerful Gold houses as he attempts to build a coalition capable of overthrowing the entire social order.
 ---

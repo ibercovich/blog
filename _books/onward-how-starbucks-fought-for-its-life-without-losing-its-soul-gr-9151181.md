@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Onward chronicles Howard Schultz's return as Starbucks CEO in 2008, when the company faced overexpansion, a global recession, and eroding brand identity. Schultz recounts how he restructured operations and refocused the company on its core values while restoring financial health without abandoning its commitment to the customer experience.
 ---

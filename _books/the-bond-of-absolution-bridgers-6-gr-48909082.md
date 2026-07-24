@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Earth is dead, and the last two surviving bridgers lead a small group of migrants to a new world they hope will be their final refuge. What appears to be a paradise turns dangerous when they discover a slaughtered camp and realize the resident alien species is far more threatening than they were told.
 ---

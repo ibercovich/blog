@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Three Wall Street analysts study ten major industrial corporations—including GE, Boeing, Honeywell, and Danaher—to extract operational and strategic lessons that modern technology companies can apply to achieve durable success. The book argues that these industrial titans, once the high-tech companies of their era, mastered innovation, operational discipline, and resilience in ways that remain directly relevant to today's economy.
 ---

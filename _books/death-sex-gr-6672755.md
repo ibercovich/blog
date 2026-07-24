@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Death & Sex binds two essays back-to-back: Tyler Volk''s exploration of how mortality functions as a biological mechanism that ultimately enhances life, and Dorion Sagan''s examination of the evolutionary origins and diversity of sexual reproduction. Both works treat death and sex as complementary forces that have shaped the complexity of life on Earth.'
 ---

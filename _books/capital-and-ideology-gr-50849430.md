@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Capital and Ideology surveys a millennium of global economic history to argue that inequality is always sustained by political ideologies that legitimize ownership regimes, from feudal societies through colonialism to modern social democracy. Drawing on cross-national data, Piketty proposes a "participatory socialism" grounded in progressive wealth taxation and broader capital access.
 ---

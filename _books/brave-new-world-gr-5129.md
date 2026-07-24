@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In a future World State where humans are engineered and conditioned from birth, the novel follows Bernard Marx and the outsider John the Savage as they clash with a society that has traded freedom for happiness enforced through drugs and consumerism. Huxley's dystopia contends that stability achieved by eliminating individuality, art, and religion exacts an irreversible human cost.
 ---

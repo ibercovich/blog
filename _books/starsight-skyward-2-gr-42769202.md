@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Spensa Nightshade infiltrates the alien Superiority to uncover secrets about the war threatening humanity's survival and her own mysterious cytonic abilities. She discovers that humanity's role in the galactic conflict is far more complicated than she was taught, forcing her to question everything she believed about heroes and enemies.
 ---

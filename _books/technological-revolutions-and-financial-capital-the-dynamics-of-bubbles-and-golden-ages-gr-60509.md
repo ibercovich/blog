@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Carlota Pérez argues that each technological revolution follows a recurring two-phase pattern: a financial installation period marked by speculation and bubbles, followed by a productive deployment period of broad economic growth. Her framework links recurring financial crises to this structural transition, tracing the pattern across five revolutions from the industrial era to the information age.'
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Earl Swift chronicles the decades-long political, engineering, and social struggle behind the creation of the American interstate highway system, profiling the largely forgotten planners and visionaries who shaped it long before Eisenhower signed the Federal Aid Highway Act of 1956. The book also examines how the highways displaced thousands of urban residents and transformed the physical and cultural landscape of the country.
 ---

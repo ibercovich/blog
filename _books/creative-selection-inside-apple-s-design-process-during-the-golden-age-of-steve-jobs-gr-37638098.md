@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Creative Selection recounts Ken Kocienda's years at Apple developing Safari and the original iPhone keyboard, revealing how the company's design culture operated through iterative demos in which engineers showed working prototypes to receive direct feedback before the next version. Kocienda argues this cycle of demo, critique, and refinement—combined with craft, taste, and empathy—drove product decisions during the Steve Jobs era.
 ---

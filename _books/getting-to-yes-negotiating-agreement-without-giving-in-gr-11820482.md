@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Getting to Yes presents a principled negotiation framework developed at the Harvard Negotiation Project, built around four core practices: separating people from the problem, focusing on interests rather than positions, generating multiple options before committing, and insisting on objective criteria. The method offers an alternative to positional bargaining and addresses how to handle negotiators who refuse to play by these rules.'
 ---

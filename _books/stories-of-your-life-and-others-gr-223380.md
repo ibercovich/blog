@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ted Chiang's debut collection gathers eight science fiction stories that blend scientific rationalism with deep human emotion, ranging from a Babylonian tower reaching the firmament to an alien language that restructures a linguist's perception of time. Each story uses a rigorous speculative premise to examine questions of consciousness, free will, identity, and the nature of reality.
 ---

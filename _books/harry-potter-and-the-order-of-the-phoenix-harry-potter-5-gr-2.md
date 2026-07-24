@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Harry Potter's fifth year at Hogwarts is dominated by a Ministry of Magic that denies Voldemort's return and a manipulative new teacher who makes life miserable for students. Meanwhile, a secret organization called the Order of the Phoenix works in hiding to oppose the growing dark threat that only Harry's circle believes is real.
 ---

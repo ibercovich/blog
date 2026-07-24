@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Joel Spolsky, co-founder of Fog Creek Software and creator of the Joel Test, offers a practical guide to recruiting and hiring excellent software engineers, covering candidate sourcing, resume screening, phone screens, and in-person interviews. The book rests on the premise that the best programmers are dramatically more productive than average ones, so every step of the hiring process deserves serious attention.
 ---

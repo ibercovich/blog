@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Gilbert Strang presents a unified course in linear algebra and its applications to deep learning and data analysis, covering the four fundamental subspaces, singular value decomposition, probability and statistics, optimization, and the architecture of neural networks. The textbook bridges classical matrix theory and modern machine learning, making the mathematical foundations of data science accessible to advanced undergraduate and graduate students.
 ---

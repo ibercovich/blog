@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Kevin Mitnick draws on his background as a former hacker to show how governments, corporations, and criminals track individuals' digital activity without their knowledge. The book provides step-by-step techniques for protecting personal data, from password hygiene and Wi-Fi security to advanced methods for achieving online anonymity.
 ---

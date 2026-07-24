@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Hatching Twitter chronicles how four friends—Ev Williams, Jack Dorsey, Biz Stone, and Noah Glass—stumbled onto the idea that became Twitter and then tore their relationships apart fighting over credit, control, and direction as the platform grew explosively. Drawing on hundreds of documents and interviews, Nick Bilton reconstructs the internal power struggles that shaped one of the world's most influential companies.
 ---

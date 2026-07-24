@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Kochland traces how Charles Koch built a regional pipeline company into one of the largest private corporations in America over five decades, documenting the company's influence on labor relations, income inequality, and climate policy. Christopher Leonard draws on seven years of reporting to show how Koch Industries developed a political-influence operation that reshaped American capitalism and the Republican Party.
 ---

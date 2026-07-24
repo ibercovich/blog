@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Hermann Simon examines over a thousand mid-sized companies that have quietly achieved global market leadership in narrow niches while remaining virtually unknown to the public, tracing the common strategies and leadership behaviors that sustain their dominance across generations. The book explores how globalization has affected these hidden champions and why their model of focused excellence proves difficult for larger rivals to replicate.
 ---

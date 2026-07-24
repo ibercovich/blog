@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In his fourth year at Hogwarts, Harry Potter is unexpectedly selected by the Goblet of Fire to compete in the dangerous Triwizard Tournament despite being underage. The competition forces him to face dragons and dark magic while Lord Voldemort moves to regain his physical form.
 ---

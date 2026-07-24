@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'JavaScript: The Good Parts identifies a subset of JavaScript that is reliable, readable, and maintainable by separating the language''s elegant features—functions, loose typing, dynamic objects, and expressive object literal notation—from its poorly designed ones. Douglas Crockford argues that mastering this curated subset allows developers to write extensible and efficient code without needing to unlearn the language''s numerous flaws.'
 ---

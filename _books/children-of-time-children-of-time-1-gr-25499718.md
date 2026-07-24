@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Children of Time alternates between the last survivors of a dying Earth searching for a new home aboard a generation ship and the accelerated evolution of an intelligent spider civilization on a terraformed planet intended for humans. When the two species' paths converge, the novel examines whether radically different forms of intelligence can coexist.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Peter Diamandis and Steven Kotler argue that exponential technologies—including artificial intelligence, robotics, 3D printing, and synthetic biology—are enabling entrepreneurs to build billion-dollar companies and address large-scale global problems faster than ever before. The book provides a practical framework drawing on moonshot thinking, crowd-powered tools, and incentive competitions to help individuals leverage these technologies for wealth creation and societal impact.
 ---

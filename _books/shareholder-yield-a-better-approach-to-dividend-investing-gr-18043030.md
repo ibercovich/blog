@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Mebane Faber argues that focusing solely on dividend payments is a suboptimal investing strategy because it ignores other forms of cash return to shareholders. The book proposes a broader metric called shareholder yield—combining dividends, share buybacks, and debt reduction—and presents historical data showing that high shareholder-yield portfolios outperform both the broad market and pure dividend strategies.
 ---

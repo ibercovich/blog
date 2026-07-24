@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Former federal prosecutor Brendan Ballou examines how private equity firms acquire businesses across industries—retailers, nursing homes, prison services, and mobile-home parks—using borrowed money and legal structures that insulate them from liability, often leaving those companies bankrupt or hollowed out. The book argues that government policy actively enables these practices and proposes reforms to hold firms accountable.
 ---

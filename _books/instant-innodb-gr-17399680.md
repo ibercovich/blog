@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Instant InnoDB covers the installation, configuration, load testing, analysis, and long-term support of MySQL's default InnoDB storage engine. The guide walks through initial setup and system requirements, then addresses common problems users encounter to help achieve higher performance and greater stability in InnoDB-based database environments.
 ---

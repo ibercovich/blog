@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nassim Nicholas Taleb presents a collection of philosophical and practical aphorisms that challenge modern civilization's tendency to distort reality in order to fit preconceived models, from redefining intelligence to suit standardized tests to inventing ailments to sell treatments. Part of the Incerto series, the book uses the ancient aphoristic form to probe themes of uncertainty, knowledge, and human hubris.
 ---

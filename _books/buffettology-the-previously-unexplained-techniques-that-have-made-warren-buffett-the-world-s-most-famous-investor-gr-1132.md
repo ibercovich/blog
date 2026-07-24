@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Buffettology decodes Warren Buffett's investment philosophy through the lens of his former daughter-in-law, explaining how he identifies businesses with durable competitive advantages and predictable earnings. The book teaches readers to evaluate stocks as partial ownership of businesses, applying Buffett's core criteria for selecting companies likely to generate superior long-term returns.
 ---

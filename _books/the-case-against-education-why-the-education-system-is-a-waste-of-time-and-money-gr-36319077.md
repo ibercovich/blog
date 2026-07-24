@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Bryan Caplan contends that most of the earnings premium from formal education reflects signaling—proof to employers of pre-existing traits like intelligence and conscientiousness—rather than actual learning or skill development. He marshals labor economics data to argue the public heavily subsidizes education whose social returns are far lower than commonly assumed, and advocates redirecting resources toward vocational training.
 ---

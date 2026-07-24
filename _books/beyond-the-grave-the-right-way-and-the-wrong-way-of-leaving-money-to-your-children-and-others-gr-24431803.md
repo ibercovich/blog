@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Estate planning attorney Jeffrey Condon guides readers through the legal and human complexities of passing wealth to children and other heirs, showing how to protect inheritances from creditors, ex-spouses, addiction, and family conflict. The book factors human nature into estate planning decisions, offering practical strategies and tough-love advice for ensuring that inheritance instructions are carried out as intended.
 ---

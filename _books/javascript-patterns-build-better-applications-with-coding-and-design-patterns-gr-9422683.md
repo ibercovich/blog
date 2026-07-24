@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: JavaScript Patterns catalogs coding patterns and design patterns for building better JavaScript applications, covering objects, functions, inheritance, and architectural approaches for client-side, server-side, and desktop contexts. The book also addresses anti-patterns—common approaches that create more problems than they solve—and practical habits such as avoiding global variables and writing maintainable, high-quality JavaScript code.
 ---

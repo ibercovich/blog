@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Open Socrates recovers what philosopher Agnes Callard argues is the radical center of Socratic thought: that humans lack the tools to ask themselves the most important questions about how to live and who to become. Callard contends that the Socratic method is not merely a technique for reaching conclusions but a model of what one person can genuinely offer another through philosophical dialogue.'
 ---

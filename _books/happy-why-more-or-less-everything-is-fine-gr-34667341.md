@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Happy surveys ancient philosophical traditions—particularly Stoicism and Epicureanism—alongside modern psychology and neuroscience to challenge the self-help industry's prescriptions for achieving happiness. Derren Brown argues that practices like positive thinking and goal visualization are counterproductive, and that a more reliable path involves accepting impermanence, reframing one's internal narratives, and drawing on classical frameworks for living well.
 ---

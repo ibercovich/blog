@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Daniel Coyle studies high-performing groups—including Navy SEAL teams, a top basketball franchise, and a film studio—to identify three core skills that underpin strong organizational culture: building safety, sharing vulnerability, and establishing purpose. The book translates findings from behavioral research and field observation into concrete practices for leaders trying to build more cohesive teams.'
 ---

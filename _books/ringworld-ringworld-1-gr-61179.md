@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ringworld follows four mismatched travelers—a bored human, a cowardly alien diplomat, a young woman, and a kzin warrior—dispatched to explore an enormous artificial ring structure orbiting a distant star with three million times Earth's surface area. Their expedition collapses when their ship crashes, stranding the crew on a perilous trek across the vast alien construct.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Reid Hoffman and Chris Yeh define blitzscaling as a strategy of prioritizing speed over efficiency in conditions of uncertainty, arguing that companies must grow at extreme rates to capture winner-take-most markets before competitors do. The book outlines the techniques and management practices required to scale rapidly, drawing on case studies from companies including Airbnb, LinkedIn, and WeChat.
 ---

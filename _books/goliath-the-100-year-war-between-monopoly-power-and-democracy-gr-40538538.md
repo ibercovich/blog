@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Goliath traces a century of American political conflict between concentrated corporate power and democratic governance, arguing that antitrust policy was a central pillar of the political economy before being dismantled in the late twentieth century. Stoller profiles key figures and legislative battles that determined how monopoly came to be tolerated, and contends that reviving antitrust enforcement is necessary to restore democratic self-governance.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Jed Talks #3 blends philosophical essays with a six-act play drawing on Taoist themes, exploring consciousness, self-annihilation, and the nature of identity through McKenna''s characteristic blend of irreverence and directness. The book is part of his Trilogy of Trilogies and treats awakening less as a spiritual achievement than as a process of dissolution of the constructed self.'
 ---

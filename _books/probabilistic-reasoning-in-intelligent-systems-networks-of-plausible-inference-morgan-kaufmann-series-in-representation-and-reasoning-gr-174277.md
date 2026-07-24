@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Judea Pearl develops a rigorous probabilistic framework for reasoning under uncertainty in artificial intelligence, presenting belief networks as a mechanism for combining probability theory with automated inference. The book covers network propagation techniques, connections to alternative uncertainty formalisms such as Dempster-Shafer theory, and applications in diagnosis, forecasting, speech recognition, and decision support.
 ---

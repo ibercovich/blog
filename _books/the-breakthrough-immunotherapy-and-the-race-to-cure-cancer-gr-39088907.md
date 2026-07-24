@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Charles Graeber chronicles the decades-long scientific quest to harness the immune system against cancer, tracing the field from its nineteenth-century origins through the work of Nobel laureate James Allison and the development of checkpoint inhibitor therapies. The book follows patients, physicians, and researchers as a once-dismissed idea becomes a transformative class of cancer treatment.
 ---

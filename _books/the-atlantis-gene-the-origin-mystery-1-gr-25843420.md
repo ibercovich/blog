@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: A geneticist in Jakarta discovers a treatment that rewrites the understanding of human evolution, while a compromised intelligence agent uncovers a shadowy organization called the Immari that believes it holds the key to humanity's survival against a spreading virus. The thriller weaves together ancient conspiracy, genetic experimentation, and questions about the true origins of the human species.
 ---

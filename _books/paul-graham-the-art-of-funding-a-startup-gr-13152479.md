@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Paul Graham: The Art of Funding a Startup is a transcribed Mixergy interview in which Y Combinator co-founder Paul Graham discusses the principles behind funding and growing early-stage companies, drawing on experience with more than 170 startups. Andrew Warner''s questions guide Graham through topics including how to identify viable product ideas, attract users, and navigate the challenges founders face in the earliest stages.'
 ---

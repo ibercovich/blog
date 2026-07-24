@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Adrian Slywotzky presents 23 distinct business models through a Socratic dialogue between a mentor and protégé, each chapter examining a different strategy by which companies generate and sustain profit. The book teaches how to analyze competitive dynamics and identify the structural choices that determine which organizations thrive financially.
 ---
