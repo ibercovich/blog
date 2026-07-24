@@ -3,8 +3,8 @@ title: 'The Sporty Game: The High-Risk Competitive Business of Making and Sellin
 author: Newhouse, John
 goodreads_id: '312480'
 isbn: '9780394514475'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-sporty-game-the-high-risk-competitive-business-of-making-and-selling-commercial-airliners-gr-312480.jpg
+color: '#1A1309'
 status: want_to_read
 collections: []
 physical_copy: false

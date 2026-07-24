@@ -2,8 +2,8 @@
 title: 'Diary of a Very Bad Year: Interviews with an Anonymous Hedge Fund Manager'
 author: Manager, Anonymous Hedge Fund
 goodreads_id: '72482980'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/diary-of-a-very-bad-year-interviews-with-an-anonymous-hedge-fund-manager-gr-72482980.jpg
+color: '#ED4D33'
 status: want_to_read
 collections: []
 physical_copy: false

@@ -3,8 +3,8 @@ title: 'The Mind of Napoleon: A Selection of His Written and Spoken Words'
 author: Bonaparte, Napoléon
 goodreads_id: '1153633'
 isbn: '9780231085236'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-mind-of-napoleon-a-selection-of-his-written-and-spoken-words-gr-1153633.jpg
+color: '#212672'
 status: want_to_read
 collections: []
 physical_copy: false

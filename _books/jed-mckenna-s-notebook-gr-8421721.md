@@ -2,8 +2,8 @@
 title: Jed McKenna's Notebook
 author: McKenna, Jed
 goodreads_id: '8421721'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/jed-mckenna-s-notebook-gr-8421721.jpg
+color: '#526DA0'
 status: want_to_read
 collections: []
 physical_copy: false

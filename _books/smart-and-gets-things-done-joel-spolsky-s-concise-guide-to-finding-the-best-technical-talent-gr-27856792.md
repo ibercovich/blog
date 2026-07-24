@@ -3,8 +3,8 @@ title: 'Smart and Gets Things Done: Joel Spolsky''s Concise Guide to Finding the
 author: Spolsky, Joel
 goodreads_id: '27856792'
 isbn: '9788184894677'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/smart-and-gets-things-done-joel-spolsky-s-concise-guide-to-finding-the-best-technical-talent-gr-27856792.jpg
+color: '#F8C63A'
 status: want_to_read
 collections: []
 physical_copy: false

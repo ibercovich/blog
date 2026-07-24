@@ -3,8 +3,8 @@ title: Mathematical Statistics with Applications
 author: Wackerly, Dennis D.
 goodreads_id: '115105'
 isbn: '9780534377410'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/mathematical-statistics-with-applications-gr-115105.jpg
+color: '#97B3A9'
 status: read
 collections: []
 physical_copy: false
