@@ -2,8 +2,8 @@
 title: Thinking in Systems, A primer, Donella H. Meadows
 author: Green, Chelsea
 goodreads_id: '128156472'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/thinking-in-systems-a-primer-donella-h-meadows-gr-128156472.jpg
+color: '#EA832E'
 status: want_to_read
 collections: []
 physical_copy: false

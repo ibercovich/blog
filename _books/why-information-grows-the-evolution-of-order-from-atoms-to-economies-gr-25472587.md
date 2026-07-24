@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book explains information as physical order embodied in objects, organisms, and products, and asks how that order accumulates despite the tendency toward entropy. It links economic development to the capacity of individuals and networks to compute and share knowledge, showing how societies turn dispersed know-how into complex goods and productive capabilities.
 ---

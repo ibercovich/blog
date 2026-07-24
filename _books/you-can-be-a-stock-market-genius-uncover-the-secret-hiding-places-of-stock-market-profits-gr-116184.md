@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book explains how individual investors can search for mispriced securities in corporate events that large institutions often avoid or overlook. Through case studies, it covers spin-offs, restructurings, merger securities, rights offerings, recapitalizations, bankruptcies, and risk arbitrage, with methods for reading filings, evaluating incentives, estimating value, and managing the risks of special situations.
 ---

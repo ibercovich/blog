@@ -3,8 +3,8 @@ title: 'The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superi
 author: Mallaby, Sebastian
 goodreads_id: '241434373'
 isbn: '9780593831847'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-infinity-machine-demis-hassabis-deepmind-and-the-quest-for-superintelligence-gr-241434373.jpg
+color: '#A0B4C9'
 status: want_to_read
 collections: []
 physical_copy: false

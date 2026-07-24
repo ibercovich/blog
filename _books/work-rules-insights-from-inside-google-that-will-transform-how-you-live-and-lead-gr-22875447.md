@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Laszlo Bock draws on his experience leading Google’s people operations to describe approaches to hiring, management, compensation, performance, and workplace culture. Combining company examples with behavioral research, he advocates giving employees greater freedom, using data instead of intuition, learning from both strong and weak performers, sharing information, and treating people practices as experiments.
 ---

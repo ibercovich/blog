@@ -2,8 +2,8 @@
 title: 'The Startup Playbook: Secrets of the Fastest-Growing Startups from Their Founding Entrepreneurs'
 author: Kidder, David S.
 goodreads_id: '17946635'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-startup-playbook-secrets-of-the-fastest-growing-startups-from-their-founding-entrepreneurs-gr-17946635.jpg
+color: '#D7D7D4'
 status: read
 collections: []
 physical_copy: false

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book traces zero from ancient Babylonian notation and Indian mathematics through its contested adoption in Greece, Europe, and the Christian world. It explains how zero and infinity transformed algebra and calculus, then follows the mathematical problems they create in modern physics, including thermodynamics, relativity, quantum mechanics, black holes, and attempts to describe the universe.
 ---

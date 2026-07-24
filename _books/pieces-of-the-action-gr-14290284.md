@@ -2,8 +2,8 @@
 title: Pieces of the Action
 author: Bush, Vannevar
 goodreads_id: '14290284'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/pieces-of-the-action-gr-14290284.jpg
+color: '#231F20'
 status: want_to_read
 collections: []
 physical_copy: false

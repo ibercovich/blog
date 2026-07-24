@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jason Del Rey traces the rivalry between Walmart and Amazon as each moves beyond its original strength in physical retail or e-commerce to pursue an integrated shopping platform. Drawing on corporate decisions and internal competition, he examines the effects of consolidation on consumers, merchants, workers, delivery systems, and the future organization of retail.
 ---

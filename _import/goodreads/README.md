@@ -211,7 +211,7 @@ node --test _tests/decap-config.test.mjs
 git diff --check
 ```
 
-Before production, also run the same build Cloudflare Pages runs:
+Before production, also run the repository's production Jekyll build locally:
 
 ```sh
 ./build.sh
@@ -234,9 +234,11 @@ editing a book through Decap.
 ## Production and Decap
 
 Production Decap is configured in `admin/config.yml` to read and write
-`ibercovich/blog` on `master`. Cloudflare Pages also deploys the production
-branch. Pushing `agent/goodreads-catalog-import` therefore saves the work on
-GitHub but does not make its books visible in production Decap.
+`ibercovich/blog` on `master`. Cloudflare Pages deploys the production branch
+using its configured Jekyll build command; `build.sh` is the repository's
+equivalent local production-build entry point. Pushing
+`agent/goodreads-catalog-import` therefore saves the work on GitHub but does
+not make its books visible in production Decap.
 
 The release sequence is:
 

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Matthew Walker surveys research on sleep and dreaming, describing their roles in learning, memory, emotional regulation, metabolism, immunity, and physical health. He explains circadian rhythms and sleep stages, examines the effects of insufficient sleep across individual and public life, and discusses how schedules, substances, medications, light, and everyday habits influence sleep quality.
 ---

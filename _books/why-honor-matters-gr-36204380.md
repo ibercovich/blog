@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book argues that modern societies lose important moral resources when they dismiss honor as merely violent, hierarchical, or outdated. It distinguishes constructive honor from destructive forms and shows how shared standards, reputation, loyalty, courage, and solidarity could strengthen communities and inform approaches to education, policing, punishment, and mass incarceration.
 ---

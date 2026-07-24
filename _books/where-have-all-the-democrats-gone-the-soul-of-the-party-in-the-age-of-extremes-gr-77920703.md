@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The authors trace how the Democratic coalition shifted from industrial and rural working-class voters toward metropolitan professionals, women, and racial minorities, deepening geographic and cultural polarization. They examine elections from Barack Obama through Donald Trump, question the party’s approach to identity and economic policy, and propose rebuilding support around shared material interests and working-class concerns.
 ---

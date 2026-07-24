@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Joshua Brown revisits and expands essays from fifteen years of The Reformed Broker to explain how investing and Wall Street work in practice. The collection discusses market narratives, investor behavior, financial media, technical analysis, career incentives, risk, optimism, complexity, and the gap between the industry’s public explanations and the forces that shape decisions.
 ---

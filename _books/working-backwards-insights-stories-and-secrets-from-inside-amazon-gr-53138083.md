@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Former Amazon executives Colin Bryar and Bill Carr explain the management practices they observed as the company expanded from an online retailer into multiple businesses. They describe customer-focused product development, written six-page narratives, working-backwards press releases, leadership principles, hiring mechanisms, metrics, organizational design, and operating routines through accounts of Prime, Kindle, AWS, and other initiatives.
 ---

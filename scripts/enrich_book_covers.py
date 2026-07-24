@@ -424,7 +424,7 @@ def to_rgb(image):
     return image.convert("RGB")
 
 
-def inspect_image(data, mime, source_url):
+def inspect_image(data, mime, source_url, allow_unknown_mime=False):
     result = {
         "status": "rejected",
         "mime": mime or None,
@@ -432,9 +432,10 @@ def inspect_image(data, mime, source_url):
         "source_sha256": sha256(data),
         "reasons": [],
     }
-    if not mime:
+    unknown_mime = not mime or mime == "application/octet-stream"
+    if unknown_mime and not allow_unknown_mime:
         result["reasons"].append("missing_mime")
-    elif not mime.startswith("image/"):
+    elif not unknown_mime and not mime.startswith("image/"):
         result["reasons"].append(f"non_image_mime:{mime}")
     if placeholder_url(source_url):
         result["reasons"].append("placeholder_url")
@@ -515,7 +516,12 @@ def inspect_candidate(session, item):
     except FetchError as error:
         report.update(status="rejected", reasons=[str(error)])
         return report, None
-    inspection, normalized = inspect_image(data, mime, resolved)
+    inspection, normalized = inspect_image(
+        data,
+        mime,
+        resolved,
+        allow_unknown_mime=item.get("source") == "manual_review",
+    )
     report["resolved_url"] = resolved
     report.update(inspection)
     return report, normalized
@@ -950,6 +956,19 @@ def self_check():
         "https://images.example/cover.png",
     )
     assert "non_image_mime:text/html" in bad_mime["reasons"]
+    missing_mime, _ = inspect_image(
+        make_test_image(360, 540),
+        "",
+        "https://images.example/cover.png",
+    )
+    assert "missing_mime" in missing_mime["reasons"]
+    reviewed_unknown_mime, _ = inspect_image(
+        make_test_image(360, 540),
+        "application/octet-stream",
+        "https://images.example/cover.png",
+        allow_unknown_mime=True,
+    )
+    assert reviewed_unknown_mime["status"] == "valid", reviewed_unknown_mime
     bad_decode, _ = inspect_image(
         b"not an image",
         "image/jpeg",

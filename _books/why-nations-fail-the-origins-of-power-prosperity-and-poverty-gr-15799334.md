@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Daron Acemoglu and James Robinson argue that differences in national prosperity arise chiefly from political and economic institutions rather than geography, culture, or ignorance. Drawing on historical cases across continents, they contrast inclusive institutions that distribute power and encourage participation, investment, and innovation with extractive systems that concentrate authority and wealth, explaining how each pattern becomes self-reinforcing.
 ---

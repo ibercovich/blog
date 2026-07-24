@@ -3,8 +3,8 @@ title: Options, Futures and Other Derivatives
 author: Hull, John C.
 goodreads_id: '100827'
 isbn: '9788120328792'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/options-futures-and-other-derivatives-gr-100827.jpg
+color: '#017880'
 status: want_to_read
 collections: []
 physical_copy: false

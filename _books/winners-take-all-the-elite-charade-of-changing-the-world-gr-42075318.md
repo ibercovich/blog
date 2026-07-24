@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Anand Giridharadas argues that wealthy business leaders and philanthropists often promote market-friendly solutions to social problems while avoiding reforms that would reduce their own power or challenge the systems producing inequality. Through profiles of donors, consultants, and thought leaders, he contrasts private change-making with democratic institutions, taxation, labor power, and structural political action.
 ---

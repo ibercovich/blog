@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book argues that rigid objectives can obstruct discovery because the stepping stones to an important outcome often bear little resemblance to the outcome itself. Drawing on artificial-intelligence experiments with novelty search, it proposes pursuing interesting and unexpected directions as a way to generate innovation in research, education, careers, and other open-ended domains.
 ---

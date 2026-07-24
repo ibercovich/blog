@@ -2,8 +2,8 @@
 title: Dive into Deep Learning
 author: Zhang, A.
 goodreads_id: '43548327'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/dive-into-deep-learning-gr-43548327.jpg
+color: '#342F25'
 status: read
 collections: []
 physical_copy: false

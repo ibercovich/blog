@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book examines how open source software shifted from broad collaborative communities toward projects maintained by a small number of highly visible individual creators. Drawing on developer interviews and platform analysis, it classifies project structures, explains the social and economic costs of maintenance, and considers how attention, audience participation, and internet platforms shape online creative work.
 ---

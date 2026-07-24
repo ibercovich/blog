@@ -3,8 +3,8 @@ title: 'More Mathematical People: Contemporary Conversations'
 author: Albers, Donald J.
 goodreads_id: '1396429'
 isbn: '9780120482504'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/more-mathematical-people-contemporary-conversations-gr-1396429.jpg
+color: '#2C2522'
 status: want_to_read
 collections: []
 physical_copy: false

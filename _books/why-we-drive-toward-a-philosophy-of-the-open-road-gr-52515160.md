@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Matthew Crawford uses driving to examine autonomy, skilled action, risk, and the growing transfer of human judgment to automated systems and bureaucratic rules. Combining philosophy with accounts of restoring vehicles, racing, and automotive subcultures, he argues that practical competence and freedom of movement have civic and personal value that may be lost when people become passive passengers.
 ---

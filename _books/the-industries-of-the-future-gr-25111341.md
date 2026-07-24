@@ -3,8 +3,8 @@ title: The Industries of the Future
 author: Ross, Alec J.
 goodreads_id: '25111341'
 isbn: '9781476753652'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/the-industries-of-the-future-gr-25111341.jpg
+color: '#CF092A'
 status: want_to_read
 collections: []
 physical_copy: false

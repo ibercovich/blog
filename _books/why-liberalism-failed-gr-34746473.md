@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book argues that liberalism has produced many of the social conditions it promised to overcome, including concentrated power, weakened communities, inequality, and environmental damage. It traces these outcomes to the pursuit of individual autonomy through markets and the state, then considers local institutions, civic practices, family, and tradition as foundations for a different political culture.
 ---

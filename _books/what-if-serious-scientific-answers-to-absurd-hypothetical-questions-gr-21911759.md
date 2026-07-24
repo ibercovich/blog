@@ -3,8 +3,8 @@ title: 'What If?: Serious Scientific Answers to Absurd Hypothetical Questions'
 author: Munroe, Randall
 goodreads_id: '21911759'
 isbn: '9780544456860'
-cover: ''
-color: '#6B4C3B'
+cover: /assets/covers/what-if-serious-scientific-answers-to-absurd-hypothetical-questions-gr-21911759.jpg
+color: '#EBE8C9'
 status: want_to_read
 collections: []
 physical_copy: false

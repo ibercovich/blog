@@ -4,7 +4,7 @@ author: Schwarzman, Stephen A.
 goodreads_id: '45733318'
 isbn: '9781508279143'
 cover: /assets/covers/what-it-takes-lessons-in-the-pursuit-of-excellence-gr-45733318.jpg
-color: '#142934'
+color: '#6B6769'
 status: want_to_read
 collections: []
 physical_copy: false

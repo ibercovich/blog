@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: The book explains the mathematics that allows machine-learning systems to identify patterns and make predictions, developing the subject from linear algebra, calculus, probability, and optimization. It connects these tools to regression, classification, neural networks, and deep learning while tracing the researchers and conceptual breakthroughs that shaped modern artificial intelligence.
 ---
