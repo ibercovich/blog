@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ken Langone recounts his rise from a working-class background to co-founding Home Depot and becoming a major Wall Street investor, presenting his story as evidence that American capitalism remains an engine of upward mobility. The memoir covers his deal-making career, his legal confrontation with Eliot Spitzer, and his views on free markets and philanthropy.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This hands-on guide, written by Hugging Face engineers, shows how to build and fine-tune transformer models for NLP tasks including text classification, named entity recognition, and question answering. It also covers cross-lingual transfer learning, training on limited labeled data, and making models production-ready through distillation, pruning, and quantization.
 ---

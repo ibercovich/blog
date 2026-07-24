@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Riley Foster walks through the core instruments of estate planning—living trusts, powers of attorney, and beneficiary designations—and explains how to structure them to transfer wealth while minimizing taxes and avoiding probate. The book covers four broad areas: estate planning essentials, crafting an estate plan, tax strategies, and the role of life insurance.'
 ---

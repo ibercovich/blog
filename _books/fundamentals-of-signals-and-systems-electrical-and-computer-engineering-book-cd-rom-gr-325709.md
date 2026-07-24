@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Fundamentals of Signals and Systems by Benoit Boulet and Leo Chartrand presents the theory of linear time-invariant systems, Fourier and Laplace transforms, and the z-transform through seventy concise lectures designed for self-study and quick reference. The textbook connects signals and systems theory to practical applications including filters, feedback control, modulation, and sampling.
 ---

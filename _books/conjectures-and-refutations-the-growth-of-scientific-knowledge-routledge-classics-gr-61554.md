@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Conjectures and Refutations collects essays and lectures in which Karl Popper develops and applies his theory that scientific knowledge grows through bold conjectures subjected to rigorous attempts at falsification rather than through induction or the accumulation of verified facts. Popper extends this epistemological framework to questions about the demarcation between science and pseudoscience, the role of tradition, and the interpretation of historical and social knowledge.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Frank Wood's Business Accounting 1 is a foundational textbook that introduces bookkeeping and financial accounting through clear explanations and extensive worked examples, covering topics from double-entry bookkeeping to the preparation of financial statements. It serves as a standard first-year reference for accounting students and professionals worldwide.
 ---

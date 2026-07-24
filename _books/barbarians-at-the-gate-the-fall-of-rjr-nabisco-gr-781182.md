@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Bryan Burrough and John Helyar reconstruct the 1988 leveraged buyout battle for RJR Nabisco, at the time the largest corporate takeover in Wall Street history, through the competing ambitions of CEO F. Ross Johnson and buyout firm KKR. The account documents the ego-driven dealmaking, media warfare, and financial engineering of a pivotal moment in 1980s corporate culture.
 ---

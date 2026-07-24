@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Antti Ilmanen provides a systematic analysis of the expected returns available across major asset classes—equities, bonds, credit, real assets, and alternative strategies—examining the historical evidence, theoretical rationale, and current conditions for each. The book addresses how growth, inflation, liquidity, and behavioral factors such as extrapolation and overconfidence drive the risk premiums investors can harvest.
 ---

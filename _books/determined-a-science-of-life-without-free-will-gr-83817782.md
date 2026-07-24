@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert Sapolsky draws on neuroscience, genetics, chaos theory, and psychology to argue that human behavior is fully determined by biological and environmental factors, leaving no room for free will in any meaningful sense. The book then considers the consequences of this conclusion for moral responsibility, punishment, and the design of more humane social institutions.
 ---

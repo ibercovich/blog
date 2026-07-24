@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: John Maynard Keynes collected his public essays and articles from 1919 to 1940 in an attempt to shape economic and political events through persuasion, covering topics from the Versailles peace terms and reparations to inflation, the gold standard, and the prospects of capitalism. The volume shows how Keynes's arguments about monetary policy and aggregate demand developed in the years before his major theoretical works.
 ---

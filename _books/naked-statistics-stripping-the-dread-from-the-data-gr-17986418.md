@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Charles Wheelan strips away technical formulas to explain the intuition underlying statistical analysis, showing how data and well-chosen tools can answer meaningful questions about the world. The book covers probability, inference, regression, and common statistical pitfalls using accessible examples and plain language.
 ---

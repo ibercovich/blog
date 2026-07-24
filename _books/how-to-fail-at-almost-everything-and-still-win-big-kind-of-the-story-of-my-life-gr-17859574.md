@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Scott Adams argues that personal systems beat goal-setting as a strategy for success, drawing on his own career of repeated failures before creating Dilbert. The book outlines how combining mediocre skills, managing energy, and using luck strategically can produce outsized results.
 ---

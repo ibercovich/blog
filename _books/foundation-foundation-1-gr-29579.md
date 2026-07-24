@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Foundation is set at the twilight of a twelve-thousand-year Galactic Empire, where mathematician Hari Seldon uses his science of psychohistory to foresee millennia of barbarism and establishes a colony of scholars at the galaxy's edge to shorten the dark age. Isaac Asimov's novel follows successive generations of Foundation leaders as they navigate crises that Seldon predicted but could not publicly reveal.
 ---

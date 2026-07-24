@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Matt Richtel traces the science of the immune system through the stories of four patients whose lives illuminate how the body defends itself against cancer, infection, and autoimmune disease. The book weaves centuries of immunological discovery—from the Black Plague to modern checkpoint inhibitors—into a narrative about the balance between protection and self-destruction.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: William Janeway, drawing on decades as a venture capitalist, argues that the innovation economy is shaped by a three-player game among markets, the state, and financial speculators, with each player performing a distinct and necessary function. The book traces this dynamic from the First Industrial Revolution to the digital age, explaining why government investment and speculative bubbles have both been indispensable drivers of transformative technology.
 ---

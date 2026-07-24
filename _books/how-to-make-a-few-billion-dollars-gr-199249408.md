@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Brad Jacobs distills lessons from building eight companies, including United Rentals and XPO, into a practical framework for identifying major industry trends and executing large-scale mergers and acquisitions. The book covers hiring, capital allocation, negotiation, and the mindset required to pursue billion-dollar objectives.
 ---

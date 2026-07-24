@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In the second Rorschach Explorer Missions novel, the crew of the Rorschach Explorer discovers that deep space harbors dangerous alien predators after what seemed like a routine mission following their discoveries on Jupiter's moon Callisto. Forced into a brutal survival struggle far from Earth, the crew must adapt and forge unexpected alliances against threats that defy their assumptions about the cosmos.
 ---

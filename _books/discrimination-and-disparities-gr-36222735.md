@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Thomas Sowell challenges the assumption that discrimination is the primary explanation for economic disparities among groups, presenting empirical evidence that outcomes depend on multiple factors including geography, culture, and the timing of demographic shifts. The enlarged edition extends his analysis to the social consequences of policies built on that single-cause assumption.
 ---

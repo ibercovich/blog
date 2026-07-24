@@ -10,5 +10,5 @@ collections: []
 physical_copy: false
 recommended: false
 finished_on: '2024-10-20'
-synopsis: ''
+synopsis: Sebastian Raschka addresses 30 questions on machine learning and AI that go beyond introductory material, covering topics such as neural network architectures, model evaluation, computer vision, and natural language processing. Each self-contained chapter explains a concept through clear prose and diagrams without requiring readers to run code or solve proofs.
 ---

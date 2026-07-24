@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Chip Huyen presents a holistic framework for building machine learning systems that work reliably in production, covering training data creation, feature engineering, model selection, deployment, monitoring, and continual learning. Each design decision is evaluated in terms of its effect on the system's overall goals rather than as an isolated technical choice.
 ---

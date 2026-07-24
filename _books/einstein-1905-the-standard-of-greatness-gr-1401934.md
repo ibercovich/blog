@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'John Rigden examines the six months in 1905 when Einstein, then a patent clerk in Berne, produced five papers that reshaped physics: the photoelectric effect, Brownian motion, special relativity, mass-energy equivalence, and his doctoral dissertation on molecular dimensions. Each paper is explained in its scientific context, showing how this singular year established the framework for twentieth-century physics.'
 ---

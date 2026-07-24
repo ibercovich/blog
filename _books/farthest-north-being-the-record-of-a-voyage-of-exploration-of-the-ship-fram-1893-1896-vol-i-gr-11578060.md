@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Fridtjof Nansen recounts the 1893–1896 expedition of the specially built ship Fram, which was frozen into the Arctic ice pack to drift northward while Nansen and Lieutenant Johansen then attempted a sledge journey to reach the highest latitude ever achieved by Westerners. Volume I covers the planning and departure of the voyage and the early months locked in the polar ice.
 ---

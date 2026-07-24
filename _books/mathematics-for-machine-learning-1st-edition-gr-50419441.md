@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong build the mathematical foundations required to understand machine learning, covering linear algebra, analytic geometry, matrix decompositions, vector calculus, optimization, probability, and statistics in a self-contained volume. The authors then apply these tools to derive four central algorithms—linear regression, principal component analysis, Gaussian mixture models, and support vector machines.
 ---

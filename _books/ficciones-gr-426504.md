@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ficciones collects seventeen short stories by Jorge Luis Borges that plunge readers into labyrinthine libraries, fictional encyclopedias, and metaphysical puzzles involving infinity, time, and destiny. Each piece operates as an intellectual game, blending philosophical paradox with fantastical invention to challenge the boundary between reality and fiction.
 ---

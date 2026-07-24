@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Lawrence McDonald argues that fundamental shifts in global markets have made conventional investment theories obsolete and that a sustained migration of capital from financial assets into hard assets is underway. The book presents twenty-one economic indicators for detecting early signals of opportunity and risk, covering inflation dynamics, sovereign debt crises, and energy markets.
 ---

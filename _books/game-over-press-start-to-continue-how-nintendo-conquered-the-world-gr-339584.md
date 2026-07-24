@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Game Over, Press Start to Continue tells the story of Nintendo's rise from a Japanese playing-card company to a global entertainment giant, covering the creation of the Game Boy, the Tetris licensing battle, and Nintendo's fierce competition with Sega and other rivals. David Sheff reconstructs the corporate strategy, legal warfare, and product decisions that allowed Nintendo to dominate the video game industry.
 ---

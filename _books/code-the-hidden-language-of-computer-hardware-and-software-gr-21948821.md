@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Code: The Hidden Language of Computer Hardware and Software traces how computers work from the ground up, starting with everyday concepts like Morse code and Braille and building step by step through logic gates, memory, and processors. Charles Petzold shows how the layered abstractions of hardware and software arise from the same underlying principles of binary representation and Boolean logic.'
 ---

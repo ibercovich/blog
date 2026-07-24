@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Alasdair Nairn traces the financial history of transformative technologies—from railroads and electricity to the telephone, computer, and internet—revealing that major innovations follow recurring patterns of investor skepticism, speculative enthusiasm, and eventual market consolidation. By studying what these cycles meant for investors across two centuries, the book offers a framework for evaluating emerging technology companies.
 ---

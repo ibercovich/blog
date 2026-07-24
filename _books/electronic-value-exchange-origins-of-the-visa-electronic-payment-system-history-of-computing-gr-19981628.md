@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Stearns traces how BankAmericard evolved from a chaotic paper-based credit card program in 1950s California into the global VISA electronic payment network, examining the technological systems, cooperative governance structures, and regulatory environments that made the transformation possible. The history draws on personal interviews and primary documents to analyze how competing banks were persuaded to collaborate under a shared infrastructure.
 ---

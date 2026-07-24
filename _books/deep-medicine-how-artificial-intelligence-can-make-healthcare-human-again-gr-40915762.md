@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Eric Topol surveys how artificial intelligence can transform medicine by handling administrative burdens, interpreting medical images, and supporting diagnosis, thereby freeing physicians to spend more time with patients. The book contrasts this vision of deep, human-centered care with the distracted, time-pressured reality of contemporary clinical practice.
 ---

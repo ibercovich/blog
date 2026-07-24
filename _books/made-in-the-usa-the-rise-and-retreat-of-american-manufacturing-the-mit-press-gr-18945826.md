@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Vaclav Smil challenges the notion that manufacturing is an obsolete relic by tracing American industrial capacity from its rapid growth in the late nineteenth century through its consolidation, wartime role, and subsequent decline. He argues that no advanced economy can sustain long-term prosperity without a robust manufacturing base and evaluates proposed strategies for reversing the sector's retreat.
 ---

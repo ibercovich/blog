@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: A young Chilean exile travels to East Germany after the 1973 coup and falls in love with the daughter of Cuba's ambassador to Moscow, leading to a marriage celebrated in Havana and a gradual, disillusioning encounter with the realities of revolutionary Cuba. The autobiographical novel traces how political idealism collides with authoritarian practice across the socialist world of the 1970s.
 ---

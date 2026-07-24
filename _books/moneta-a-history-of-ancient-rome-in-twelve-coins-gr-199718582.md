@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Gareth Harney narrates Roman history from the founding myths through the collapse of empire by examining twelve coins, each chosen as a window into the political, military, and cultural forces of its era. The book treats coins as primary sources that record how Rome understood itself at moments of ambition, crisis, and transformation.
 ---

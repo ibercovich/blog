@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nadia Asparouhova examines why certain ideas—despite being important or interesting—fail to spread through public discourse, circulating instead in private channels like group chats and whisper networks. She argues that structural forces including complexity, personal discomfort, and a lack of incentives make some ideas resistant to the memetic dynamics that drive attention in digital culture.
 ---

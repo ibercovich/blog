@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Nick Bostrom examines what life could look like after technology and superintelligent AI have solved humanity's major problems—disease, poverty, labor—yet also rendered traditional human purpose uncertain. Through interleaved fiction and philosophical lectures, the book explores what values, meaning, and flourishing might look like in a post-instrumental world.
 ---

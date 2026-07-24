@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Investigative journalist Zeke Faux spent two years tracking the cryptocurrency boom, traveling from Bahamas resort compounds to a Cambodia trafficking operation powered by crypto fraud to document how a $3 trillion industry was built on hype and deception. The book centers on the 2022 collapse of FTX and the downfall of Sam Bankman-Fried, whom Faux followed from the height of his influence to his arrest.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Lori Ann LaRocco profiles twenty-one postwar shipping pioneers—shipowners and financiers from Oslo to Hong Kong—who built and lost vast fortunes moving commodities and consumer goods across the world's oceans. The book examines how these individuals shaped the global free-trade era by financing fleets and navigating the volatile cycles of international shipping markets.
 ---

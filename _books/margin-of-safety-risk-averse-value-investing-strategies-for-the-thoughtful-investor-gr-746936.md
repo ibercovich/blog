@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Seth Klarman lays out a risk-averse approach to value investing centered on purchasing securities only when their market price falls well below estimated intrinsic value, creating a buffer against errors in valuation and unforeseen events. The book covers the behavioral and analytical pitfalls that cause investors to overpay, and presents portfolio management principles designed to limit permanent loss of capital.
 ---

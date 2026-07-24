@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Donald Robertson, a cognitive psychotherapist, traces the life of Marcus Aurelius from his youth at Hadrian's court through his reign as Roman emperor, using each episode to illustrate the Stoic practices Marcus employed. The book applies those ancient techniques to modern challenges including anger, anxiety, and the fear of loss.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Kevin Murphy's textbook presents machine learning through a unified probabilistic framework, covering topics from foundational probability and linear algebra to graphical models, conditional random fields, and deep learning. The book stresses principled model-based reasoning over ad hoc heuristics and is accompanied by a MATLAB software toolkit implementing most of the covered algorithms.
 ---

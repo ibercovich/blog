@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: John Markoff traces the parallel histories of artificial intelligence and intelligence augmentation from their origins in the 1950s through contemporary development at companies like Google and Apple, examining how different engineering philosophies have shaped the relationship between humans and machines. The book argues that designers face a fundamental choice between technologies that replace human capability and those that extend it.
 ---

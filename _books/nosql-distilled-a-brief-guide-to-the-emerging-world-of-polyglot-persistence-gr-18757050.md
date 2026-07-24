@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Pramod Sadalage and Martin Fowler explain how NoSQL databases depart from the relational model and when they offer advantages, covering key-value, document, column-family, and graph data stores through concrete examples using Riak, MongoDB, Cassandra, and Neo4j. The book introduces the concept of polyglot persistence, where architects select different data storage technologies to match different access patterns within the same application.
 ---

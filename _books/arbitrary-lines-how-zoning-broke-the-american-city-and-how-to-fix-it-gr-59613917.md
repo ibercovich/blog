@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: City planner M. Nolan Gray argues that single-use zoning has entrenched segregation, inflated housing costs, and mandated sprawl across American cities, and that abolishing it is a prerequisite for building more equitable and sustainable urban environments. The book examines cities like Houston that already operate without conventional zoning and outlines what land-use regulation could look like in its absence.
 ---

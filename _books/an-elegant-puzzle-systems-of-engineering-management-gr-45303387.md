@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Will Larson draws on his engineering leadership roles at Digg, Uber, and Stripe to present frameworks for the persistent challenges of engineering management, including team sizing, handling technical debt, and succession planning. The book combines structured principles with a human-centered approach aimed at leaders across organizations of all sizes.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Code 2.0 argues that cyberspace is not inherently unregulable, and that computer code functions as a form of law by shaping what users can and cannot do online. Lawrence Lessig examines how the architecture of the internet affects core values such as free speech, privacy, and intellectual property, and how commercial forces and government interests can redesign that architecture to enable pervasive control.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Keith Johnstone, drawing on his work as Associate Director of the Royal Court Theatre, lays out the principles he developed for teaching theatrical improvisation, covering status, spontaneity, narrative skills, and mask work. The book argues that social conditioning suppresses natural creativity and that specific exercises can restore spontaneous imagination in performers.
 ---

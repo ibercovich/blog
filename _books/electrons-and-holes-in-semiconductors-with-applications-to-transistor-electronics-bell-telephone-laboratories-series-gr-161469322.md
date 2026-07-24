@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: William Shockley's 1950 textbook presents a comprehensive treatment of semiconductor physics—covering electrons, holes, energy bands, and junction behavior—alongside the theoretical foundations for the transistor that he co-invented at Bell Labs. The work served as the foundational text for an entire generation of physicists and engineers entering the new field of solid-state electronics.
 ---

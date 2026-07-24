@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Anthony Mayo and Nitin Nohria identify the business leaders who most shaped the twentieth century and argue that their success depended on "contextual intelligence"—the ability to read and leverage the economic, social, and political conditions of their era. The book groups leaders into entrepreneurial innovators, skilled managers, and transformational figures to analyze three distinct paths to organizational impact.
 ---

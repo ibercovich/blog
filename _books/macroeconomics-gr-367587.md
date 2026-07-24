@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: N. Gregory Mankiw's widely adopted textbook introduces the core concepts of macroeconomics, including national income accounting, economic growth, monetary and fiscal policy, inflation, unemployment, and international trade. The text integrates both classical and Keynesian frameworks, presenting short-run and long-run perspectives alongside real-world policy applications.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Jill Jonnes reconstructs the 1880s–1890s battle between Edison, Tesla, and Westinghouse over whether direct or alternating current would power the electrified world, tracing the rivalry from Wall Street to the 1893 Chicago World's Fair and Niagara Falls generators. The narrative shows how commercial competition and scientific disagreement shaped the electrical infrastructure that underpins modern civilization.
 ---

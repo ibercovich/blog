@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Gregory Makoff recounts Argentina's 2001 sovereign default on $100 billion in bonds and the fifteen-year legal conflict that reshaped sovereign debt law through U.S. court rulings affecting international creditors. The book traces IMF involvement, Argentina's debt restructuring negotiations, and the 2016 settlement that finally resolved most claims.
 ---

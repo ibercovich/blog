@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Peter Drucker presents entrepreneurship and innovation as systematic disciplines accessible to both established organizations and new ventures, identifying seven distinct sources of innovative opportunity that managers can analyze and exploit. The book examines the policies, strategies, and organizational structures that allow enterprises to practice innovation as a purposeful practice rather than a creative accident.
 ---

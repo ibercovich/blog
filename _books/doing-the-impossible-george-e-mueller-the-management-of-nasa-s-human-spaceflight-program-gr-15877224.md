@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Arthur Slotkin examines how George E. Mueller transformed NASA's human spaceflight program during the 1960s by importing Air Force systems management techniques, including the controversial all-up testing methodology, into an agency of competing institutional cultures. Mueller's disciplined approach to managing Apollo's parallel development tracks across NASA centers proved critical to landing astronauts on the Moon by 1969.
 ---

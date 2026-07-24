@@ -8,5 +8,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Dale Carnegie presents a set of principles for building rapport, influencing others, and handling disagreements without creating resentment, organized around practical techniques for interpersonal communication. First published in 1936, the book addresses how to make people feel valued, win them to your point of view, and become a more effective leader.
 ---

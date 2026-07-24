@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Framed as an instruction manual for a time traveler stranded in the past, this book surveys the key technologies and knowledge that enabled each stage of human civilization. Ryan North covers agriculture, written language, mathematics, medicine, and engineering, explaining both the history and the underlying principles.
 ---

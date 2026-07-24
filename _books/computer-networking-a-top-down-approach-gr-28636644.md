@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Computer Networking: A Top-Down Approach introduces networking concepts by starting at the application layer—the level most familiar to users—and working downward through transport, network, link, and physical layers. James Kurose and Keith Ross use the Internet as their primary example throughout, grounding protocol design and analysis in concrete real-world systems.'
 ---

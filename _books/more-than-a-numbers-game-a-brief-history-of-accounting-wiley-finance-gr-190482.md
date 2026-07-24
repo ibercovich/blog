@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Thomas King surveys the development of U.S. corporate accounting over the past century by focusing on the contested ideas behind reporting practices rather than the technical procedures, tracing how each major controversy shaped what companies must disclose. The book explains the conceptual failures that allowed earnings manipulation to flourish and culminate in the accounting scandals of the early 2000s.
 ---

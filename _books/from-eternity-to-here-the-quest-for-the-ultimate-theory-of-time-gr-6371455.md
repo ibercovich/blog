@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: From Eternity to Here argues that the arrow of time—the consistent direction from past to future that we experience—originates in the extraordinarily low-entropy conditions of the early universe rather than in any fundamental asymmetry of physical laws. Sean Carroll synthesizes thermodynamics, general relativity, and quantum mechanics to build a cosmological account of why time flows in one direction.
 ---

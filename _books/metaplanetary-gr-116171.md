@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Set in a future solar system where biological and artificial intelligences coexist, the novel follows diverse characters caught in a civil war between the inner planets and humanity's outer settlements. The conflict centers on who controls the Met, a vast network of living cables spanning space, and what form civilization will take going forward.
 ---

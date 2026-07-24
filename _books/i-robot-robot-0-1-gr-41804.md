@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Isaac Asimov's linked collection of nine stories follows robopsychologist Susan Calvin as she reflects on decades of human-robot interactions at U.S. Robots and Mechanical Men, Inc., where logical paradoxes in the Three Laws of Robotics produce increasingly complex and unsettling situations. Together the stories trace a fictional history of robotic development and the moral questions it raises.
 ---

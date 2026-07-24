@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: From the Earth to the Moon follows members of the Baltimore Gun Club who, seeking a new challenge after the Civil War ends, devise a plan to fire a projectile to the moon using an enormous cannon. Jules Verne's 1865 novel details the engineering calculations, public spectacle, and last-minute complications of the project with the precision of a technical report wrapped in adventure.
 ---

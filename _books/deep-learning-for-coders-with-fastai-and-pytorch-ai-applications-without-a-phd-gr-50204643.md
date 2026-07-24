@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This practical guide teaches deep learning through a top-down approach, showing Python programmers how to train state-of-the-art models using the fastai library and PyTorch with minimal mathematics. It covers computer vision, natural language processing, tabular data, and collaborative filtering, progressively revealing the theory behind each technique.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: When scientist Sam Anderson confesses to a murder he may not have committed to spare his daughter from punishment, he is sent 200 million years into the past using a time-displacement machine he helped invent. His daughter Adeline, left behind in the present, races to unravel the truth about the crime and find a way to bring him back.
 ---

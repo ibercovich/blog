@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Marc Benioff traces how Salesforce.com grew from a rented-apartment startup to a pioneer of cloud-based enterprise software, recounting the business, technology, and cultural decisions that enabled the company to survive the dot-com collapse and reshape how software is sold and delivered. The book is organized around practical playbooks covering sales, marketing, technology, philanthropy, and organizational culture.
 ---

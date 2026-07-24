@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This volume collects Warren Buffett's annual letters to Berkshire Hathaway shareholders, spanning decades of commentary on investing principles, capital allocation, business valuation, and the evolution of Berkshire from a struggling textile company into one of the world's largest conglomerates. The letters serve as a running record of Buffett's thinking on topics ranging from insurance economics to the behavior of stock markets.
 ---

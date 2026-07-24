@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ben Goldacre exposes systemic failures in pharmaceutical medicine, arguing that drug companies routinely suppress negative trial results, design studies to exaggerate benefits, and fund medical education in ways that distort prescribing practices. The book traces these problems from clinical trials through regulatory approval to the information doctors receive, contending that the result is widespread patient harm.
 ---

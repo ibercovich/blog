@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Former FBI lead hostage negotiator Chris Voss adapts high-stakes crisis negotiation techniques for everyday professional and personal situations. The book presents principles such as tactical empathy, calibrated questioning, and mirroring as tools for reaching better outcomes than conventional compromise-based approaches allow.
 ---

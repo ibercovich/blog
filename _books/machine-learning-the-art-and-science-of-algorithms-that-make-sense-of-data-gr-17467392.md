@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Peter Flach surveys machine learning through logical, geometric, and statistical models, using well-chosen examples to show how algorithms extract meaning from data across a range of domains. The book gives particular attention to the role of features and covers advanced topics including matrix factorization and ROC analysis within a single cohesive treatment.
 ---

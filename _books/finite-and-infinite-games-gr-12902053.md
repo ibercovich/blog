@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Finite and Infinite Games distinguishes between two modes of play: finite games, which are played to be won, and infinite games, which are played to keep play going. James Carse applies this framework across culture, religion, politics, and everyday life to reveal how the choice between the two shapes human institutions and relationships.'
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ricardo Baeza-Yates and Berthier Ribeiro-Neto provide a comprehensive introduction to the concepts and technology behind search, covering IR models, text indexing, user interfaces, web retrieval, and multimedia information retrieval. The textbook is designed for both undergraduate courses and graduate study, balancing theoretical foundations with practical implementation.
 ---

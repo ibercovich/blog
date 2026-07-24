@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Computer Architecture: A Quantitative Approach presents the principles of computer design through quantitative analysis, covering instruction set architectures, pipelining, memory hierarchies, storage systems, and interconnection networks. The fourth edition by John Hennessy and David Patterson emphasizes the shift to multicore processors and the importance of exploiting instruction-level and data-level parallelism as the primary path to performance improvement.'
 ---

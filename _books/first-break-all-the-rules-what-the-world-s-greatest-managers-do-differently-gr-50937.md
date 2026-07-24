@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: First, Break All the Rules draws on the Gallup Organization's interviews with over eighty thousand managers to identify the practices that distinguish exceptional managers from ordinary ones. Marcus Buckingham and Curt Coffman argue that great managers reject conventional wisdom about employee development, focusing instead on each person's natural talents.
 ---

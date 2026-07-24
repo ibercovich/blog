@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Gates traces Bill Gates's path from writing Microsoft BASIC at Harvard through the pivotal deal with IBM over DOS and the subsequent expansion of Microsoft into the dominant force in personal computer software. Stephen Manes and Paul Andrews interviewed Gates and nearly a thousand colleagues, employees, and competitors to examine the competitive strategies and personality behind the company's growth.
 ---

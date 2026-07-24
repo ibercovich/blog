@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: British Airways Chief Concorde Pilot Mike Bannister recounts the aircraft's full history from development through commercial service, the 2000 Paris crash, and final retirement in 2003. Drawing on his experience flying and commanding Concorde, Bannister covers its technical achievements alongside the investigations and decisions that defined its last years.
 ---

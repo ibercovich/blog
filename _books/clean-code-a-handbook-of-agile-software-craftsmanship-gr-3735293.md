@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Clean Code presents principles, patterns, and practices for writing readable, maintainable software, covering topics from naming and functions to error handling, testing, and refactoring. Martin and his colleagues from Object Mentor draw on decades of experience to show how to recognize bad code and transform it into clean, well-structured programs.
 ---

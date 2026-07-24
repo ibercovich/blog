@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Coders at Work collects in-depth interviews with fifteen distinguished programmers—including Jamie Zawinski, Douglas Crockford, and Joshua Bloch—about how they learned to program, how they debug, and what separates good code from bad. Peter Seibel draws out each programmer's philosophy on topics ranging from language design and literate programming to managing complexity in large systems.
 ---

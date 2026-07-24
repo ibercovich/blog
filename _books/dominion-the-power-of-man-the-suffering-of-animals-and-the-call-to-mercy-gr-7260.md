@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Matthew Scully argues from a conservative Christian perspective that human dominion over animals, as described in Genesis, carries an obligation of mercy rather than license for cruelty. The book investigates factory farming, sport hunting, and whaling to challenge the ethical and theological justifications used to defend industrial-scale animal suffering.
 ---

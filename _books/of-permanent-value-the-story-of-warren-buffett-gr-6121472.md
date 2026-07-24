@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Andrew Kilpatrick presents a comprehensive biography of Warren Buffett, covering his investment philosophy, business decisions, and the growth of Berkshire Hathaway through detailed quarter-by-quarter performance records. The book draws on a wide range of sources to chronicle how Buffett built one of the largest fortunes in American history through disciplined value investing.
 ---

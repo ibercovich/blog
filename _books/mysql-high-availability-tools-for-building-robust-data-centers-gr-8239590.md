@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Written by engineers who designed many of the tools it covers, this book explains how to use MySQL replication, clustering, and monitoring features to build systems that withstand server failures and outages. It covers the binary log, MySQL Replicant Library, read-load scaling, and tools including MySQL Enterprise Monitor and GTIDs.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Sebastian Mallaby traces the history of hedge funds from A.W. Jones's first hedged fund in the 1960s through the 2007–2009 financial crisis, profiling the investors and strategies that repeatedly beat the market and accumulated enormous influence over global finance. The book draws on hundreds of hours of interviews to explain why hedge funds succeeded where conventional investment managers could not.
 ---

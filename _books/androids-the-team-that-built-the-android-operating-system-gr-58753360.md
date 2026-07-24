@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Chet Haase recounts the history of Android from its origins as a two-person camera startup through Google's acquisition and the frantic development that led to the platform's global launch on over three billion devices. The narrative is assembled from firsthand interviews with early team members and covers the technical and competitive challenges of building a mobile OS from scratch.
 ---

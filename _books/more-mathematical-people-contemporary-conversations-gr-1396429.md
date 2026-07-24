@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This volume collects extended interviews with prominent twentieth-century mathematicians, letting them describe in their own words how they chose their fields, how they work, and what draws them to mathematics. The profiles span pure and applied mathematics and reveal the personal histories, collaborations, and outside lives of figures whose work shaped modern math.
 ---

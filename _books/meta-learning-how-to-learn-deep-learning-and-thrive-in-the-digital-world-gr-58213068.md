@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Radek Osmulski distills the lessons from his years learning deep learning through the fast.ai curriculum into a practical guide emphasizing project-based work, deliberate practice, and the right mindset for mastering machine learning. The book argues that consistent fundamentals and genuine engagement with real projects matter more than advanced techniques.
 ---

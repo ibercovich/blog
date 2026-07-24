@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Consciousness and the Brain presents Stanislas Dehaene's neuroscientific account of how the brain transitions information from unconscious processing to conscious awareness, using masking experiments and brain imaging to identify the neural signatures of conscious access. Dehaene defends the Global Neuronal Workspace theory, arguing that consciousness arises when information is broadcast widely across frontal and parietal cortices.
 ---

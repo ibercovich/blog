@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Peter Biskind chronicles the 1970s American cinema renaissance, tracing how a generation of young directors—Scorsese, Coppola, Spielberg, Altman, and others—seized creative control from the old studio system and produced a wave of distinctive, risk-taking films. Based on hundreds of interviews, the book also documents how the blockbuster success of Jaws and Star Wars ultimately closed off that era of director-driven filmmaking.
 ---

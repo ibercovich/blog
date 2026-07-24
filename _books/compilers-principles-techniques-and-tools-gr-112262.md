@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: 'Compilers: Principles, Techniques, and Tools, known as the Dragon Book, covers the theory and practice of building compiler systems, from lexical analysis and parsing through semantic analysis, intermediate code generation, and optimization. Alfred Aho, Monica Lam, Ravi Sethi, and Jeffrey Ullman frame compiler construction as a case study in applying formal language theory and algorithm design to a major software engineering challenge.'
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Harari traces the history of human information networks from prehistoric oral traditions through scripture, witch trials, totalitarian bureaucracies, and contemporary social media, arguing that societies build cooperative systems through shared fictions rather than objective truths. The book examines how AI differs from all previous information technologies and poses urgent questions about who will control the networks shaping humanity's future.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: David Brooks draws on psychology, neuroscience, and philosophy to argue that truly seeing another person is a learned, creative act requiring focused attention and genuine curiosity. The book offers practical frameworks for deeper listening and meaningful conversation, contending that the capacity to know others is central to healthy relationships and a cohesive society.
 ---

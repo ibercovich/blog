@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Fundamentals of Communication Systems by John Proakis and Masoud Salehi introduces the core techniques underlying modern analog and digital communications, including modulation, coding, and signal detection, with emphasis on wireless and data transmission networks. The textbook is structured for senior undergraduate courses in electrical engineering and provides both mathematical foundations and practical applications.
 ---

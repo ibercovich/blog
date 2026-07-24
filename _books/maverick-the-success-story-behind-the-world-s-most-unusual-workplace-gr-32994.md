@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ricardo Semler recounts how he transformed Semco, his family's Brazilian manufacturing company, by dismantling top-down management and letting workers set their own hours, salaries, and corporate direction. The result was a 600% growth rate over a decade, making Semco a model studied by businesses worldwide.
 ---

@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Joshua Foer traces his year of training under memory competitors, learning ancient techniques like the method of loci that allowed classical orators to memorize entire speeches, and ultimately winning the U.S. Memory Championship. The narrative uses his personal journey to examine how memory shapes identity, learning, and what it means to be human.
 ---

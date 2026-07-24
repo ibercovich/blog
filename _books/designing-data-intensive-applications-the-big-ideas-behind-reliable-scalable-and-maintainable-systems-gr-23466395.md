@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Martin Kleppmann examines the principles and trade-offs behind the databases, message queues, and distributed systems that power modern data-intensive applications, covering consistency, replication, partitioning, and stream processing. The book equips software engineers and architects to make informed decisions when choosing and combining data technologies for reliable, scalable systems.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Dan McCrum, a Financial Times investigative journalist, chronicles his years-long investigation into Wirecard, the German payments company that rose to a $30 billion valuation before collapsing in Europe's largest accounting fraud. The book details the short sellers, whistleblowers, and legal threats McCrum encountered as he pursued a story that powerful figures worked to suppress.
 ---

@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Kevin Kelly compiled 450 aphorisms he wrote starting on his 68th birthday as advice he wished he had known earlier, covering relationships, creativity, decision-making, and generosity. The pieces are short, tweet-length observations offering practical guidance drawn from Kelly's experience as a technologist, writer, and co-founder of Wired magazine.
 ---

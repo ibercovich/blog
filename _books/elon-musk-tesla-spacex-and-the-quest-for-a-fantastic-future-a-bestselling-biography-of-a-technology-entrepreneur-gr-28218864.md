@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ashlee Vance profiles Elon Musk's trajectory from a difficult childhood in South Africa through his founding of Zip2, PayPal, SpaceX, and Tesla, examining the management style and technical ambitions that drove each venture. The book uses Musk's career to investigate whether the United States can sustain technological leadership against intensifying global competition in manufacturing and engineering.
 ---

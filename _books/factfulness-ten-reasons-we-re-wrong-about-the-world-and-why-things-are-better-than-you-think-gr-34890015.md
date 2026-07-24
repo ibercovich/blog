@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund identify ten cognitive instincts—including the gap instinct, the fear instinct, and the straight-line instinct—that cause people to systematically misread global trends in health, poverty, education, and population. The book argues that a fact-based worldview, rather than dramatic narratives, reveals a world that has improved substantially across most measurable dimensions.
 ---

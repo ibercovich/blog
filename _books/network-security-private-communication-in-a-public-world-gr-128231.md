@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: This comprehensive reference explains cryptographic concepts and network security protocols, covering AES, IPsec, SSL, PKI standards, and web security in intuitive rather than purely mathematical terms. It also addresses the practical constraints and design trade-offs behind real protocol standards, including how implementation choices can introduce vulnerabilities even when underlying cryptography is sound.
 ---

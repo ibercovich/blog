@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert Greene argues that mastery—the highest level of creative and professional excellence—is available to anyone who follows a deliberate path through apprenticeship, active practice, and deep immersion in a chosen field. Drawing on historical figures including Darwin, da Vinci, and Mozart alongside contemporary practitioners, the book presents mastery as the fusion of accumulated knowledge with intuitive judgment.
 ---

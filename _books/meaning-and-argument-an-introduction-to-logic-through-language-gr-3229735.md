@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Ernest Lepore's textbook shifts introductory logic instruction away from proof derivations and toward symbolizing natural language arguments into formal notation, covering propositional logic, predicate logic, and identity. Students learn to evaluate arguments using semantic tableaux, with an emphasis on the philosophical relationship between language and logical form.
 ---

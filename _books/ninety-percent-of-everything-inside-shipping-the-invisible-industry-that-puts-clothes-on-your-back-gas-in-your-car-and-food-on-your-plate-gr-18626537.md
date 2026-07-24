@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Rose George sails aboard container ships and patrols with anti-piracy naval forces to illuminate the vast, largely invisible global shipping industry that moves ninety percent of world trade. The book examines the economics, labor conditions, environmental impact, and geopolitical tensions of an industry most consumers never think about.
 ---

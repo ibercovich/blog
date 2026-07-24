@@ -8,5 +8,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Robert Wright argues that both biological evolution and human cultural history are shaped by a directional logic of non-zero-sum interaction, in which organisms and societies grow more complex by finding ways to cooperate rather than merely compete. Ranging from bacteria to the World Trade Organization, the book contends that this tendency toward increasing complexity and interdependence gives human history a meaningful trajectory.
 ---

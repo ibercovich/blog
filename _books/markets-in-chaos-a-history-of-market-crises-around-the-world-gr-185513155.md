@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Brendan Hughes surveys eleven case studies of financial market crises spanning different countries, time periods, and macroeconomic triggers—from episodes of hyperinflation to the COVID-19 market shock—to identify patterns that recur across disparate events. The goal is not to predict the timing of future crashes but to equip readers with a comparative historical framework for understanding how crises unfold.
 ---

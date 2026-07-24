@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Co-Intelligence examines what large language models like ChatGPT mean for how people work, learn, and create, drawing on Wharton professor Ethan Mollick's research and experiments with AI across many domains. The book argues that treating AI as a collaborator rather than a tool or threat offers the most productive path forward for individuals and organizations.
 ---

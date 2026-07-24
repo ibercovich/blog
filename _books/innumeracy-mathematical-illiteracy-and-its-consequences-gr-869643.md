@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: John Allen Paulos argues that widespread inability to reason with large numbers and probability leads to poor decisions in public policy, personal finance, medicine, and media consumption. The book illustrates how innumeracy enables pseudoscience, distorts news coverage, and undermines rational assessment of risk across everyday situations.
 ---

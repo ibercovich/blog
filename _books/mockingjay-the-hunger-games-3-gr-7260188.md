@@ -9,5 +9,5 @@ status: read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In the final volume of the trilogy, Katniss Everdeen becomes the face of a rebellion against the Capitol while struggling to trust the leaders of District 13, who have their own authoritarian agenda. The novel follows her through a war that forces her to confront what freedom and justice actually require.
 ---

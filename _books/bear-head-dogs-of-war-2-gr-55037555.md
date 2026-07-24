@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: Set on a near-future Mars where bioengineered human-animal hybrids work as laborers in a colony under authoritarian control, the novel follows Jimmy, a genetically modified bear-human, as he becomes entangled in a political coup conspiracy with echoes of events on Earth. Adrian Tchaikovsky uses the premise to examine themes of mind control, corporate power, and the moral status of engineered sentience.
 ---

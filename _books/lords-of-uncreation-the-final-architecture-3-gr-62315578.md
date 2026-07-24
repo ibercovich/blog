@@ -9,5 +9,5 @@ status: want_to_read
 collections: []
 physical_copy: false
 recommended: false
-synopsis: ''
+synopsis: In this final volume of the Final Architecture trilogy, Idris Telemmier uncovers a critical weakness in the Architects—the alien destroyers of worlds—only to see interstellar powers wage war over control of his discovery rather than unite against the shared threat. Deep within unspace, the true masters behind the Architects grow aware of humanity and begin taking steps to eliminate it.
 ---
