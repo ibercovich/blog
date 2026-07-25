@@ -38,6 +38,29 @@ layout: default
     padding: 12px 0;
   }
 
+  .other-bookshelves {
+    width: calc(100% - 2rem);
+    max-width: 800px;
+    margin: 2rem auto 4rem;
+  }
+
+  .other-bookshelves h2 {
+    margin-bottom: 0.75rem;
+  }
+
+  .other-bookshelves ul {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+
+  .other-bookshelves li {
+    margin-bottom: 0.35rem;
+  }
+
+  .other-bookshelves a {
+    text-decoration: underline;
+  }
+
   .book-info-panel {
     position: fixed;
     z-index: 10;
@@ -262,6 +285,20 @@ layout: default
   <div class="book-info-author" id="infoAuthor"></div>
   <div class="book-info-synopsis" id="infoSynopsis"></div>
 </div>
+
+<section class="other-bookshelves">
+  <h2>Other bookshelves</h2>
+  <ul>
+    <li><a href="https://book-prize-index.vercel.app/books" target="_blank" rel="noopener">Most-awarded nonfiction books</a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1CvWL6J4eZWbAXHAOg8QGQljyg0leqTCalz-0L_LGhK8/edit#gid=0" target="_blank" rel="noopener">Bill Gates</a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1nOEWs3DAjEt63mCVGPVYqD1CT9HDF167wfQzuDxyAyE/edit#gid=0" target="_blank" rel="noopener">Jeff Bezos</a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1vVWJ9Y0y3h93eQ5DDeBrkeDF8Xpv_FoQ-eTFWzRozBQ/edit#gid=0" target="_blank" rel="noopener">Bill Gurley</a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1SnJLMdwfMVunYsQfAJlTRP2RZhphBEena5JFbixsOjE/edit#gid=0" target="_blank" rel="noopener">Alan Kay</a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/1fr1O7qaEKaPha6XUDfmwvwM21udKn_IUSZHVj-xoGL4/edit#gid=0" target="_blank" rel="noopener">Alan Turing</a></li>
+    <li><a href="https://docs.google.com/spreadsheets/d/15fpZdGTqyFI-YrrPuKqU0fIBsyoy6gcLHMwV6ftQwgU/edit#gid=0" target="_blank" rel="noopener">Nassim Nicholas Taleb</a></li>
+    <li><a href="https://d101vc9winf8ln.cloudfront.net/documents/28231/original/Favorite_Books.pdf?1527190190" target="_blank" rel="noopener">Tyler Cowen</a></li>
+  </ul>
+</section>
 
 <script type="module">
 import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
