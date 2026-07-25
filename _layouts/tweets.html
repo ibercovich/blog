@@ -9,6 +9,10 @@ layout: default
     text-align: left;
   }
 
+  .catalogue-item.tweet-thread {
+    margin-left: 1rem;
+  }
+
   .tweet-delete {
     display: none;
     float: right;
@@ -108,6 +112,7 @@ function render() {
     const item = document.createElement('div');
     item.className = 'catalogue-item';
     item.dataset.id = tw.id;
+    if (tw.thread_id) item.classList.add('tweet-thread');
     if (deleted.has(tw.id)) item.classList.add('deleted');
 
     const url = 'https://x.com/neversupervised/status/' + tw.id;
