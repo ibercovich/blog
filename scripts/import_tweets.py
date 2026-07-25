@@ -120,6 +120,44 @@ def expand_urls(text: str, urls: list[dict]) -> str:
     return text
 
 
+def render_text_html(text: str) -> str:
+    """Escape tweet text and link URLs and visible @mentions."""
+    escaped = html_mod.escape(text)
+
+    def linkify(match: re.Match) -> str:
+        value = match.group(0)
+        if value.startswith(("http://", "https://")):
+            trailing = ""
+            while value:
+                char = value[-1]
+                is_punctuation = char in ".,:!?"
+                is_semicolon = char == ";" and not value.endswith("&amp;")
+                is_unmatched_closer = (
+                    char in ")]}"
+                    and value.count(char)
+                    > value.count({")": "(", "]": "[", "}": "{"}[char])
+                )
+                if not (is_punctuation or is_semicolon or is_unmatched_closer):
+                    break
+                trailing = char + trailing
+                value = value[:-1]
+            return (
+                f'<a href="{value}" target="_blank" rel="noopener">{value}</a>'
+                f"{trailing}"
+            )
+        screen_name = value[1:]
+        return (
+            f'<a href="https://x.com/{screen_name}" target="_blank" '
+            f'rel="noopener">{value}</a>'
+        )
+
+    return re.sub(
+        r"https?://(?:[^\s<>&]|&amp;)+|(?<![\w@])@[A-Za-z0-9_]{1,15}\b",
+        linkify,
+        escaped,
+    )
+
+
 def expand_note_text(
     ft: str,
     created: datetime,
@@ -267,43 +305,9 @@ def process_tweet(
     if thread_num is not None and not re.match(r"^\d+/", ft):
         ft = f"{thread_num}/ {ft}"
 
-    # Escape HTML, then apply links and mentions
-    ft = html_mod.escape(ft)
-
     # Linkify URLs and visible @mentions in one pass so archive metadata
     # omissions cannot leave reply handles unlinked.
-    def linkify(match: re.Match) -> str:
-        value = match.group(0)
-        if value.startswith(("http://", "https://")):
-            trailing = ""
-            while value:
-                char = value[-1]
-                is_punctuation = char in ".,:!?"
-                is_semicolon = char == ";" and not value.endswith("&amp;")
-                is_unmatched_closer = (
-                    char in ")]}"
-                    and value.count(char)
-                    > value.count({")": "(", "]": "[", "}": "{"}[char])
-                )
-                if not (is_punctuation or is_semicolon or is_unmatched_closer):
-                    break
-                trailing = char + trailing
-                value = value[:-1]
-            return (
-                f'<a href="{value}" target="_blank" rel="noopener">{value}</a>'
-                f"{trailing}"
-            )
-        screen_name = value[1:]
-        return (
-            f'<a href="https://x.com/{screen_name}" target="_blank" '
-            f'rel="noopener">{value}</a>'
-        )
-
-    ft = re.sub(
-        r"https?://(?:[^\s<>&]|&amp;)+|(?<![\w@])@[A-Za-z0-9_]{1,15}\b",
-        linkify,
-        ft,
-    )
+    ft = render_text_html(ft)
 
     return {
         "id": tid,
@@ -487,7 +491,10 @@ def main():
     # Keep existing tweets that aren't blocked
     for tid, entry in existing.items():
         if tid not in blocked_set:
-            all_tweets[tid] = entry
+            normalized = dict(entry)
+            if "html" not in normalized and "text" in normalized:
+                normalized["html"] = render_text_html(normalized.pop("text"))
+            all_tweets[tid] = normalized
 
     # Add/update from archive, skip blocked
     new_count = 0

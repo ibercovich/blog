@@ -131,7 +131,11 @@ function render() {
 
     const p = document.createElement('p');
     p.className = 'tweet-text';
-    p.innerHTML = tw.html;
+    if (typeof tw.html === 'string') {
+      p.innerHTML = tw.html;
+    } else {
+      p.textContent = tw.text || '';
+    }
     item.appendChild(p);
 
     if (tw.images) {

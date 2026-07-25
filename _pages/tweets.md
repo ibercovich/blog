@@ -846,7 +846,7 @@ window.__TWEETS = [
   {
     "id": "2025072749866254711",
     "date": "2026-02-21",
-    "text": "A huge proportion of comercial transactions are driven by the seller reaching out to the buyer. Businesses are always looking for efficient channels where the cost of finding qualified leads is minimized.\n\nSome of the best channels are \"free\", in the sense that the channel itself doesn't monetize the transaction. It's not really free in that there's still sales and marketing effort that goes into these channels.\n\nSEO is a classic example. Once upon a time, a company could drive a huge amount of inbound interest by ranking high in organic search for relevant terms. Being great at SEO used to be a super weapon. TripAdvisor, Yelp, and others built empires by optimizing their rankings.\n\nFor years there was fearmongering about Google showing answers directly in search or including interactive widgets like maps or flights that competed with vertical websites. As it's often the case those fears took longer than expected to make a real dent.\n\nNow we find ourselves in a moment where SEO as a channel is being squeezed from both ends. On one side we have LLMs answering virtually anything without requiring us to visit a website. On the other hand producing content is effectively free, so there's an explosion of websites competing for the same queries. This has made SEO a significantly less effective channel.\n\nBut the impact goes across all channels. AIs can write customized emails at scale, so nobody trusts their inbox, and soon AIs will be reading and filtering our emails anyway. Same is true for texts, phone calls, etc.\n\nEvery free channel will become saturated because of AI.\n\nIn order to have effective channels there has to be some sort of scarcity. When high quality websites and sales calls were driven by humans who cost money, that was the limiting factor. AI takes that away, hence overwhelming many channels.\n\nSo what will happen next?\n\nAdvertising as a channel will strenghten. Whoever has a captive audience will be able to sell it to the highest bidder. In person events, which have natural filtering mechanisms, will become more valuable.\n\nWhat else?"
+    "html": "A huge proportion of comercial transactions are driven by the seller reaching out to the buyer. Businesses are always looking for efficient channels where the cost of finding qualified leads is minimized.\n\nSome of the best channels are &quot;free&quot;, in the sense that the channel itself doesn&#x27;t monetize the transaction. It&#x27;s not really free in that there&#x27;s still sales and marketing effort that goes into these channels.\n\nSEO is a classic example. Once upon a time, a company could drive a huge amount of inbound interest by ranking high in organic search for relevant terms. Being great at SEO used to be a super weapon. TripAdvisor, Yelp, and others built empires by optimizing their rankings.\n\nFor years there was fearmongering about Google showing answers directly in search or including interactive widgets like maps or flights that competed with vertical websites. As it&#x27;s often the case those fears took longer than expected to make a real dent.\n\nNow we find ourselves in a moment where SEO as a channel is being squeezed from both ends. On one side we have LLMs answering virtually anything without requiring us to visit a website. On the other hand producing content is effectively free, so there&#x27;s an explosion of websites competing for the same queries. This has made SEO a significantly less effective channel.\n\nBut the impact goes across all channels. AIs can write customized emails at scale, so nobody trusts their inbox, and soon AIs will be reading and filtering our emails anyway. Same is true for texts, phone calls, etc.\n\nEvery free channel will become saturated because of AI.\n\nIn order to have effective channels there has to be some sort of scarcity. When high quality websites and sales calls were driven by humans who cost money, that was the limiting factor. AI takes that away, hence overwhelming many channels.\n\nSo what will happen next?\n\nAdvertising as a channel will strenghten. Whoever has a captive audience will be able to sell it to the highest bidder. In person events, which have natural filtering mechanisms, will become more valuable.\n\nWhat else?"
   },
   {
     "id": "2024186282784788587",
@@ -1084,11 +1084,11 @@ window.__TWEETS = [
   {
     "id": "2001731770153341001",
     "date": "2025-12-18",
-    "text": "I'm pro free market, but there's something inherently fucked up about this. Flight from Buenos Aires to LAX, with layover in Houston, $481. Same flight to Houston, $1541. If you have a round-trip flight but skip a leg, the airline cancels the rest of the flight. Should that…",
     "images": [
       "/assets/tweets/2001731770153341001-G8eTirQa4AAxXOw.jpg",
       "/assets/tweets/2001731770153341001-G8eTnhLaoAATrLm.jpg"
-    ]
+    ],
+    "html": "I&#x27;m pro free market, but there&#x27;s something inherently fucked up about this. Flight from Buenos Aires to LAX, with layover in Houston, $481. Same flight to Houston, $1541. If you have a round-trip flight but skip a leg, the airline cancels the rest of the flight. Should that…"
   },
   {
     "id": "2001497719471513919",
@@ -1098,7 +1098,7 @@ window.__TWEETS = [
   {
     "id": "2001497571429356014",
     "date": "2025-12-18",
-    "text": "Righty-tighty, lefty-loosey is an under appreciated standard. No matter how right that olive can feels you can be sure there’s one way to open it."
+    "html": "Righty-tighty, lefty-loosey is an under appreciated standard. No matter how right that olive can feels you can be sure there’s one way to open it."
   },
   {
     "id": "2001494713774596145",
@@ -1402,11 +1402,11 @@ window.__TWEETS = [
   {
     "id": "1928845522531471867",
     "date": "2025-05-31",
-    "text": "To my favorite member of the technical staff at @OpenAI, @_dschnurr: o3 seems mentally unwell this morning.",
     "images": [
       "/assets/tweets/1928845522531471867-GsSh_aUaMAIFymm.png",
       "/assets/tweets/1928845522531471867-GsSiiYLaUAAnE1D.png"
-    ]
+    ],
+    "html": "To my favorite member of the technical staff at <a href=\"https://x.com/OpenAI\" target=\"_blank\" rel=\"noopener\">@OpenAI</a>, <a href=\"https://x.com/_dschnurr\" target=\"_blank\" rel=\"noopener\">@_dschnurr</a>: o3 seems mentally unwell this morning."
   },
   {
     "id": "1926376695398854834",
@@ -1471,7 +1471,7 @@ window.__TWEETS = [
   {
     "id": "1922454287449206993",
     "date": "2025-05-14",
-    "text": "Universal access to information didn’t result in the marginal utility of knowledge going to zero."
+    "html": "Universal access to information didn’t result in the marginal utility of knowledge going to zero."
   },
   {
     "id": "1922454189973574112",
@@ -1511,7 +1511,7 @@ window.__TWEETS = [
   {
     "id": "1892762815007490099",
     "date": "2025-02-21",
-    "text": "Founders usually filter too soon. Just meet smart, driven people—don’t worry about open roles or timing. Build a network of greatness."
+    "html": "Founders usually filter too soon. Just meet smart, driven people—don’t worry about open roles or timing. Build a network of greatness."
   },
   {
     "id": "1891914279776833685",
