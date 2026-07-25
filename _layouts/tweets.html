@@ -6,6 +6,11 @@ layout: default
   .tweet-text {
     white-space: pre-wrap;
     margin-top: 0.5rem;
+    text-align: left;
+  }
+
+  .catalogue-item.tweet-thread {
+    margin-left: 1rem;
   }
 
   .tweet-delete {
@@ -107,6 +112,7 @@ function render() {
     const item = document.createElement('div');
     item.className = 'catalogue-item';
     item.dataset.id = tw.id;
+    if (tw.thread_id) item.classList.add('tweet-thread');
     if (deleted.has(tw.id)) item.classList.add('deleted');
 
     const url = 'https://x.com/neversupervised/status/' + tw.id;
@@ -130,7 +136,11 @@ function render() {
 
     const p = document.createElement('p');
     p.className = 'tweet-text';
-    p.innerHTML = tw.html;
+    if (typeof tw.html === 'string') {
+      p.innerHTML = tw.html;
+    } else {
+      p.textContent = tw.text || '';
+    }
     item.appendChild(p);
 
     if (tw.images) {

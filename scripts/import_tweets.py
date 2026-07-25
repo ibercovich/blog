@@ -120,6 +120,44 @@ def expand_urls(text: str, urls: list[dict]) -> str:
     return text
 
 
+def render_text_html(text: str) -> str:
+    """Escape tweet text and link URLs and visible @mentions."""
+    escaped = html_mod.escape(text)
+
+    def linkify(match: re.Match) -> str:
+        value = match.group(0)
+        if value.startswith(("http://", "https://")):
+            trailing = ""
+            while value:
+                char = value[-1]
+                is_punctuation = char in ".,:!?"
+                is_semicolon = char == ";" and not value.endswith("&amp;")
+                is_unmatched_closer = (
+                    char in ")]}"
+                    and value.count(char)
+                    > value.count({")": "(", "]": "[", "}": "{"}[char])
+                )
+                if not (is_punctuation or is_semicolon or is_unmatched_closer):
+                    break
+                trailing = char + trailing
+                value = value[:-1]
+            return (
+                f'<a href="{value}" target="_blank" rel="noopener">{value}</a>'
+                f"{trailing}"
+            )
+        screen_name = value[1:]
+        return (
+            f'<a href="https://x.com/{screen_name}" target="_blank" '
+            f'rel="noopener">{value}</a>'
+        )
+
+    return re.sub(
+        r"https?://(?:[^\s<>&]|&amp;)+|(?<![\w@])@[A-Za-z0-9_]{1,15}\b",
+        linkify,
+        escaped,
+    )
+
+
 def expand_note_text(
     ft: str,
     created: datetime,
@@ -267,43 +305,9 @@ def process_tweet(
     if thread_num is not None and not re.match(r"^\d+/", ft):
         ft = f"{thread_num}/ {ft}"
 
-    # Escape HTML, then apply links and mentions
-    ft = html_mod.escape(ft)
-
     # Linkify URLs and visible @mentions in one pass so archive metadata
     # omissions cannot leave reply handles unlinked.
-    def linkify(match: re.Match) -> str:
-        value = match.group(0)
-        if value.startswith(("http://", "https://")):
-            trailing = ""
-            while value:
-                char = value[-1]
-                is_punctuation = char in ".,:!?"
-                is_semicolon = char == ";" and not value.endswith("&amp;")
-                is_unmatched_closer = (
-                    char in ")]}"
-                    and value.count(char)
-                    > value.count({")": "(", "]": "[", "}": "{"}[char])
-                )
-                if not (is_punctuation or is_semicolon or is_unmatched_closer):
-                    break
-                trailing = char + trailing
-                value = value[:-1]
-            return (
-                f'<a href="{value}" target="_blank" rel="noopener">{value}</a>'
-                f"{trailing}"
-            )
-        screen_name = value[1:]
-        return (
-            f'<a href="https://x.com/{screen_name}" target="_blank" '
-            f'rel="noopener">{value}</a>'
-        )
-
-    ft = re.sub(
-        r"https?://(?:[^\s<>&]|&amp;)+|(?<![\w@])@[A-Za-z0-9_]{1,15}\b",
-        linkify,
-        ft,
-    )
+    ft = render_text_html(ft)
 
     return {
         "id": tid,
@@ -312,22 +316,22 @@ def process_tweet(
     }
 
 
-def build_thread_chains(tweets: list[dict], kept_ids: set[str]) -> dict[str, int]:
-    """Build thread numbering for self-reply chains.
+def build_thread_chains(
+    tweets: list[dict], kept_ids: set[str]
+) -> dict[str, tuple[str, int]]:
+    """Build grouping and positions for self-reply chains.
 
-    Returns {tweet_id: thread_position} (1-indexed) for tweets in chains
-    of 2+ among the kept set. Skips tweets already labeled with N/ prefix.
+    Returns {tweet_id: (thread_root_id, position)} for every tweet in a
+    chain of 2+ among the kept set.
     """
     # Build reply map from archive
     reply_map: dict[str, str] = {}
-    tweet_text: dict[str, str] = {}
     for t in tweets:
         tw = t["tweet"]
         tid = tw["id_str"]
         reply_to = tw.get("in_reply_to_status_id_str")
         if reply_to:
             reply_map[tid] = reply_to
-        tweet_text[tid] = tw["full_text"]
 
     # Build parent -> children map among kept tweets
     children: dict[str, list[str]] = {}
@@ -341,28 +345,51 @@ def build_thread_chains(tweets: list[dict], kept_ids: set[str]) -> dict[str, int
         if parent not in reply_map or reply_map[parent] not in kept_ids:
             roots.add(parent)
 
-    # Walk each chain and assign positions
-    numbering: dict[str, int] = {}
+    # Collect each connected chain and assign chronological positions.
+    chains: dict[str, tuple[str, int]] = {}
     for root in roots:
-        chain = [root]
-        current = root
-        while current in children:
-            kids = sorted(children[current], key=int)
-            current = kids[0]
-            chain.append(current)
+        members = []
+        pending = [root]
+        while pending:
+            current = pending.pop()
+            members.append(current)
+            pending.extend(children.get(current, []))
 
-        if len(chain) < 2:
+        if len(members) < 2:
             continue
 
-        # Skip chains where the root is already manually labeled
-        root_text = tweet_text.get(root, "")
-        if re.match(r"^\d+/", root_text):
-            continue
+        for position, tid in enumerate(sorted(members, key=int), 1):
+            chains[tid] = (root, position)
 
-        for i, tid in enumerate(chain, 1):
-            numbering[tid] = i
+    return chains
 
-    return numbering
+
+def sort_tweets_for_display(tweets: list[dict]) -> list[dict]:
+    """Keep threads reverse-chronological as groups and chronological within."""
+    groups: dict[str, list[dict]] = {}
+    for tweet in tweets:
+        thread_id = tweet.get("thread_id")
+        key = f"thread:{thread_id}" if thread_id else f"tweet:{tweet['id']}"
+        groups.setdefault(key, []).append(tweet)
+
+    ordered_groups = sorted(
+        groups.values(),
+        key=lambda group: max((tweet["date"], int(tweet["id"])) for tweet in group),
+        reverse=True,
+    )
+
+    ordered_tweets = []
+    for group in ordered_groups:
+        if group[0].get("thread_id"):
+            group.sort(
+                key=lambda tweet: (
+                    int(tweet.get("thread_position", 0)),
+                    int(tweet["id"]),
+                )
+            )
+        ordered_tweets.extend(group)
+
+    return ordered_tweets
 
 
 def build_edit_groups(tweets: list[dict]) -> dict[str, str]:
@@ -471,11 +498,13 @@ def main():
     kept_ids = {tw["id_str"] for tw in filtered if tw["id_str"] not in blocked_set}
     kept_ids |= {tid for tid in existing if tid not in blocked_set}
 
-    # Build thread numbering for self-reply chains
-    thread_nums = build_thread_chains(tweets, kept_ids)
-    if thread_nums:
-        thread_count = sum(1 for v in thread_nums.values() if v == 1)
-        print(f"Threads auto-labeled: {thread_count} ({len(thread_nums)} tweets)")
+    # Build grouping and numbering for self-reply chains
+    thread_chains = build_thread_chains(tweets, kept_ids)
+    if thread_chains:
+        thread_count = sum(
+            1 for _, position in thread_chains.values() if position == 1
+        )
+        print(f"Threads found: {thread_count} ({len(thread_chains)} tweets)")
 
     print(f"Existing tweets in tweets.md: {len(existing)}")
     print(f"Blocked tweet IDs: {len(blocked_set)}")
@@ -487,7 +516,10 @@ def main():
     # Keep existing tweets that aren't blocked
     for tid, entry in existing.items():
         if tid not in blocked_set:
-            all_tweets[tid] = entry
+            normalized = dict(entry)
+            if "html" not in normalized and "text" in normalized:
+                normalized["html"] = render_text_html(normalized.pop("text"))
+            all_tweets[tid] = normalized
 
     # Add/update from archive, skip blocked
     new_count = 0
@@ -497,15 +529,19 @@ def main():
         if tid in blocked_set:
             continue
 
+        thread = thread_chains.get(tid)
+        thread_position = thread[1] if thread else None
+
         if tid in article_links:
             article = article_links[tid]
             title = html_mod.escape(article["title"])
             url = article["url"]
+            prefix = f"{thread_position}/ " if thread_position is not None else ""
             entry = {
                 "id": tid,
                 "date": parse_date(tw["created_at"]).strftime("%Y-%m-%d"),
                 "html": (
-                    f'<a href="{url}" target="_blank" '
+                    f'{prefix}<a href="{url}" target="_blank" '
                     f'rel="noopener">{title}</a>'
                 ),
             }
@@ -517,10 +553,15 @@ def main():
                 tw,
                 note_by_created,
                 note_by_prefix,
-                thread_nums.get(tid),
+                thread_position,
             )
             if media_paths:
                 entry["images"] = media_paths
+
+        if thread:
+            thread_id, thread_position = thread
+            entry["thread_id"] = thread_id
+            entry["thread_position"] = thread_position
 
         if tid not in all_tweets:
             new_count += 1
@@ -549,12 +590,7 @@ def main():
         if removed_images:
             print(f"Removed {removed_images} orphaned images")
 
-    # Sort by date descending, then by ID descending for same date
-    sorted_tweets = sorted(
-        all_tweets.values(),
-        key=lambda t: (t["date"], t["id"]),
-        reverse=True,
-    )
+    sorted_tweets = sort_tweets_for_display(list(all_tweets.values()))
 
     write_output(sorted_tweets, sorted(blocked_set))
     print(f"Wrote {OUTPUT_PATH}")
