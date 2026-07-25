@@ -7,6 +7,86 @@ permalink: /tweets/
 <script>
 window.__TWEETS = [
   {
+    "id": "2080698679661564168",
+    "date": "2026-07-24",
+    "html": "If you’re feeling too ASI-pilled and want to sober up, instead of thinking in binary (ASI solves all problems), it can be helpful to pick one problem and contemplate that. The classic one is space colonization. Read and think about the specifics of actually having 1M people on Mars. But you can pick even more mundane problems and realize they aren’t easy. One I like: when will I be able to grow a set of brand new, fully human teeth? I’m not talking about some experimental result. This would be the LASIK equivalent of growing teeth. It’s hard to imagine before 2040."
+  },
+  {
+    "id": "2080463612867690533",
+    "date": "2026-07-24",
+    "html": "GPT 5.6 Sol feels more RL maxed than Fable. It often prefers harder approaches for throwaway work. As if it was trained with RL tasks that are hard for the wrong reasons. Arbitrary roadblocks that make tasks artificially difficult and lead to abnormal trajectories."
+  },
+  {
+    "id": "2080425192707543536",
+    "date": "2026-07-23",
+    "html": "A lot of alpha is left on the table when great benchmarks aren&#x27;t maintained. <a href=\"https://x.com/ryanmart3n/status/2080321791361527843\" target=\"_blank\" rel=\"noopener\">https://x.com/ryanmart3n/status/2080321791361527843</a>"
+  },
+  {
+    "id": "2080326243409670607",
+    "date": "2026-07-23",
+    "html": "Terminal Bench 3 is finally live, and it&#x27;s called Frontier Bench. This is the result of an enormous amount of work by contributors, reviewers, and advisors. It&#x27;s incredible to see how much effort and attention to detail go into some open source projects! <a href=\"https://x.com/ryanmart3n/status/2080322620248281252\" target=\"_blank\" rel=\"noopener\">https://x.com/ryanmart3n/status/2080322620248281252</a>"
+  },
+  {
+    "id": "2079618533227684092",
+    "date": "2026-07-21",
+    "html": "My distaste for slop is not so much about creator effort. I just want to avoid becoming a distillation of the median LLM. I suspect we will eventually move to a paradigm where rather than checking if AI was involved in content production, we will want to know whether a piece is original (i.e., out of distribution). Today, the best proxy for out-of-distribution ideas is out-of-distribution writing style via Pangram. In theory you don’t need a human to curate the token arrangement of a piece of text for the ideas themselves to be worth reading. In practice, style and originality are correlated. I expect that in the near future, <a href=\"https://x.com/pangram\" target=\"_blank\" rel=\"noopener\">@pangram</a> will discern both style and underlying originality. <a href=\"https://x.com/max_spero_/status/2079610064705401327\" target=\"_blank\" rel=\"noopener\">https://x.com/max_spero_/status/2079610064705401327</a>"
+  },
+  {
+    "id": "2077578503650967745",
+    "date": "2026-07-16",
+    "html": "<a href=\"https://x.com/ryanmart3n\" target=\"_blank\" rel=\"noopener\">@ryanmart3n</a> <a href=\"https://x.com/alexgshaw\" target=\"_blank\" rel=\"noopener\">@alexgshaw</a> I see startup pitches every week that claim to be the best at something, but have never benchmarked their product. It’s totally fine to build a small vertical SaaS company that wraps ChatGPT, but if you want to build an AI-native company and claim your product is better than the alternative, you must own your industry’s benchmark."
+  },
+  {
+    "id": "2076747004169035839",
+    "date": "2026-07-13",
+    "html": "<a href=\"https://x.com/sachpatro97\" target=\"_blank\" rel=\"noopener\">@sachpatro97</a> This doesn&#x27;t solve the expert problem completely, but there are some instances where it does. For example, if you ask a model to trade in the real stock market and it makes real money, then the verifier is built-in and the objective is unambiguous. This is a very heavyweight verifier, to be clear! You need real money, real privileges, and it might take substantial time to get the data."
+  },
+  {
+    "id": "2076429468810502327",
+    "date": "2026-07-12",
+    "html": "<a href=\"https://x.com/sachpatro97\" target=\"_blank\" rel=\"noopener\">@sachpatro97</a> Thanks for the thoughts!\n\n1. Outcome vs Process: it helps to have novel tasks that don&#x27;t exist on the internet. In that case, it&#x27;s unlikely the agent will guess a difficult answer without doing the work.\n\n2. Deception vs Ambiguity: if the task is objectively ambiguous, the verifier should accept all solutions that ambiguity could lead to. The problem is when the instruction is ambiguous but the verifier expects one particular resolution.\n\n3. Golden vs Derived Solutions: it&#x27;s way more practical to use golden answers than to provide the full derivation, and soon it might become completely impractical otherwise. The problem is that we don&#x27;t know if a task is solvable without a derivation. Because it&#x27;s usually the same person who authors the entire task, they might not realize there are bits of privileged information somewhere without which you can&#x27;t solve the task. Golden is fine, but if no SOTA agent can solve it, it&#x27;s hard to prove it&#x27;s not impossible.\n\n4. Privileged Information: this has to do with TBench being a one-shot agentic benchmark. We don&#x27;t allow the agent to consult with the instruction author. I concede there is a variant where, in addition to instructions, there are hints. Here&#x27;s a paper by <a href=\"https://x.com/marcotcr\" target=\"_blank\" rel=\"noopener\">@marcotcr</a> that exposed me to this idea (arxiv 2506.22405).\n\n5 &amp; 6. Domain Experts: I agree this might not be sustainable. One idea is for experts to become a real-world process instead of a person. For example, if an AI is supposed to mix chemicals to make a better glue, someone in a lab follows the instructions and takes measurements."
+  },
+  {
+    "id": "2075725606193688629",
+    "date": "2026-07-10",
+    "html": "2/ <a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> an expanded overview of some questions you&#x27;ve asked me before."
+  },
+  {
+    "id": "2075648548402868350",
+    "date": "2026-07-10",
+    "html": "<a href=\"https://x.com/chrisbarber\" target=\"_blank\" rel=\"noopener\">@chrisbarber</a> 15 minutes after meeting <a href=\"https://x.com/bradley_emi\" target=\"_blank\" rel=\"noopener\">@bradley_emi</a> from <a href=\"https://x.com/pangram\" target=\"_blank\" rel=\"noopener\">@pangram</a>, I went from AI detection skeptic to believer, and voted to move forward with an investment. You can add my vote to Pangram."
+  },
+  {
+    "id": "2075624430320181665",
+    "date": "2026-07-10",
+    "html": "An interesting use for the <a href=\"https://x.com/pangram\" target=\"_blank\" rel=\"noopener\">@pangram</a> API. I often ask an AI to edit content I&#x27;ve produced, with ideas distributed across messaging platforms, email, and transcripts. I want the agent to sleuth through all this material and help me produce content. But the agent will inevitably start using its own words, in spite of my requirement to use my voice verbatim. One fix: give the agent access to Pangram and ask it to verify none of the final content was AI-generated."
+  },
+  {
+    "id": "2075432858270003462",
+    "date": "2026-07-10",
+    "html": "<a href=\"https://x.com/i/article/2075408223503536128\" target=\"_blank\" rel=\"noopener\">Good Benchmarks</a>"
+  },
+  {
+    "id": "2073461493312717061",
+    "date": "2026-07-04",
+    "html": "The people shaping the future of our economy and society are much closer to the singularity. You know it when you see it. I&#x27;ve been close enough to the event horizon to see it, even if I&#x27;m not worthy of crossing it."
+  },
+  {
+    "id": "2072856028044251361",
+    "date": "2026-07-03",
+    "html": "<a href=\"https://x.com/alexolegimas\" target=\"_blank\" rel=\"noopener\">@alexolegimas</a> There&#x27;s going to be a lot of experimentation with domain specific LLMs in the next year or two. BUT.\n\n1. A lot of value will accrue to the infra companies that actually do the training (e.g. Thinking Machines, Fireworks), rather than the model creators. Most models won&#x27;t outperform Claude X enough to matter.\n\n2. A lot of value will accrue to the open source base model creators, mostly in China, some domestic like Reflection AI. They&#x27;ll have an advantage serving these models as a platform (see point 1). Like MongoDB + their cloud.\n\n3. Some vertical AI companies will build models with a differentiated advantage in capability and/or cost, but I expect those companies to already have a strong market grip before they go into training, plus strong AI talent.\n\n4. A lot of companies are going to waste tons of money and effort training their own models, for vanity, valuation, or poor understanding of the technology. Tokenmaxxing but for training. This will create a lot of noise in the market.\n\n5. Open source&#x27;s token share will increase at the expense of proprietary models. Not much needs to happen for this to be true. Maybe there&#x27;s a cost or capability advantage. But mostly, most US usage comes from the big three labs, and an explosion in model diversity will create a lot of opportunities to shift market share."
+  },
+  {
+    "id": "2072428261477663012",
+    "date": "2026-07-01",
+    "html": "From time to time, a university I&#x27;ve been involved with reaches out with a request to provide industry viewpoints to improve the curriculum, particularly in the context of AI.\n\nI&#x27;m happy to meet with faculty or administration at my alma mater and share any useful insights. But I&#x27;m not interested in doing something performative just so I can be reminded of my glory days (which I already remember very fondly). If a university is systematically reviewing its curriculum and looking for concrete commentary, I&#x27;m more than happy to participate. I understand keeping alumni engaged is a proxy for charitable gifts, and I&#x27;m okay being involved, but I still want interactions to not be sales pitches. Mentoring students, being a guest speaker, and referring talented students/alumni to potential jobs are all interactions of substance in my experience.\n\nAs for how to improve the curriculum. \n\nI do believe curriculums have to adapt to AI, although it would take someone quite contrarian and forceful to get ahead of the median university. AI means schools need to be more rigorous with testing and sorting students. The current trend of not requiring SATs and inflating grades, coupled with AI doing all the homework, means the value of college converges to the value of being in a fraternity, which itself converges to the value of being admitted to an Ivy League school, ultimately undermining the idea that a talented young person can come from nowhere and earn their place in society through scholarship and merit.\n\nI empathize with the median educator&#x27;s intentions, but making individual performance illegible was an easier way to show desired results than actually attaining the spirit of the mission. AI exacerbates the issue. There is no more proof of work for anything. The outcome might very well be that human labor gets fully substituted, and I tend to lean in that direction. But if education is going to continue being an important phase in every person&#x27;s development, and I believe it should, we have to use the scientific method for teaching instead of systematically eliminating evidence."
+  },
+  {
+    "id": "2072401467852607495",
+    "date": "2026-07-01",
+    "html": "I was lucky to work with <a href=\"https://x.com/anton_iades\" target=\"_blank\" rel=\"noopener\">@anton_iades</a> on AI for science. We explore the problem of exploration... good science depends on novel discoveries, so an agent must explore ideas between the lines and on the margins of existing knowledge. Like <a href=\"https://x.com/AlbalakAlon\" target=\"_blank\" rel=\"noopener\">@AlbalakAlon</a> showed in his awesome Hivemind paper, LLMs tend to converge to a surprisingly narrow distribution, and this goes against novelty. This paper tests different algorithms to coerce the agent onto novel paths. <a href=\"https://x.com/anton_iades/status/2072396614287962156\" target=\"_blank\" rel=\"noopener\">https://x.com/anton_iades/status/2072396614287962156</a>"
+  },
+  {
     "id": "2069842910984712589",
     "date": "2026-06-24",
     "html": "The best tasks confront reality. You want to be somewhere where maybe 50% of your tasks are impossible, you don&#x27;t know which, and you have to build them anyway. That&#x27;s where this is going."
@@ -29,7 +109,7 @@ window.__TWEETS = [
   {
     "id": "2069494728236937375",
     "date": "2026-06-23",
-    "html": "<a href=\"http://x.com/i/article/2069494431011811328\" target=\"_blank\" rel=\"noopener\">http://x.com/i/article/2069494431011811328</a>"
+    "html": "<a href=\"https://x.com/i/article/2069494431011811328\" target=\"_blank\" rel=\"noopener\">What makes a benchmark actually hard?</a>"
   },
   {
     "id": "2069487439975162233",
@@ -59,7 +139,7 @@ window.__TWEETS = [
   {
     "id": "2064460978725789823",
     "date": "2026-06-09",
-    "html": "Lots of companies are doing agent monitoring, but they miss the insight. What do you really want to see? I want to know which of my employees are adding value to the agent. Who is a useful human in the loop and who is just pressing enter? And for the valuable ones, why? What do they know? @MariusHobbhahn"
+    "html": "Lots of companies are doing agent monitoring, but they miss the insight. What do you really want to see? I want to know which of my employees are adding value to the agent. Who is a useful human in the loop and who is just pressing enter? And for the valuable ones, why? What do they know? <a href=\"https://x.com/MariusHobbhahn\" target=\"_blank\" rel=\"noopener\">@MariusHobbhahn</a>"
   },
   {
     "id": "2064460544330154177",
@@ -79,7 +159,7 @@ window.__TWEETS = [
   {
     "id": "2064078154290122759",
     "date": "2026-06-08",
-    "html": "<a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> My perspective is not so much that everyone will be completely self sufficient, but that competition increases. Do you think SaaS will still have the same gross margins? Will buyers have the same predisposition to sit with a salesperson for an hour to hear their pitch? Will AI…"
+    "html": "<a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> My perspective is not so much that everyone will be completely self sufficient, but that competition increases. Do you think SaaS will still have the same gross margins? Will buyers have the same predisposition to sit with a salesperson for an hour to hear their pitch? Will AI make it easier or harder to onboard onto a competitor? Will users have the same tolerance for interacting with a large number of apps? There are many factors, besides GTM, that affect existing SaaS companies to different degrees and make me expect a higher rotation at the top. I think public multiples going down is an appropriate reaction to this uncertainty."
   },
   {
     "id": "2064075210878566825",
@@ -129,7 +209,7 @@ window.__TWEETS = [
   {
     "id": "2061213832652148814",
     "date": "2026-05-31",
-    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> We have some good diversity in terminal bench 3. Here&#x27;s an example of a music-related task for our upcoming benchmark release: <a href=\"https://github.com/harbor-framework/terminal-bench-3/pull/229\" target=\"_blank\" rel=\"noopener\">https://github.com/harbor-framework/terminal-bench-3/pull/229</a>\n\nTwo things to consider about these sorts of environments. 1) They are fully agentic: one instruction, one output that has to…",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> We have some good diversity in terminal bench 3. Here&#x27;s an example of a music-related task for our upcoming benchmark release: <a href=\"https://github.com/harbor-framework/terminal-bench-3/pull/229\" target=\"_blank\" rel=\"noopener\">https://github.com/harbor-framework/terminal-bench-3/pull/229</a>\n\nTwo things to consider about these sorts of environments. 1) They are fully agentic: one instruction, one output that has to fully pass the verifier. 2) They need to be fully verifiable, ideally every word in the instruction is checked.\n\nThis is different from using Claude Code interactively and &quot;verifying&quot; results by having the human in the loop accept them. Verification can get more nuanced as you move away from programming.",
     "images": [
       "/assets/tweets/2061213832652148814-HJrl5sea0AA2iYi.jpg"
     ]
@@ -142,7 +222,7 @@ window.__TWEETS = [
   {
     "id": "2061182351917650419",
     "date": "2026-05-31",
-    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> Some problematic patterns I&#x27;ve seen\n- Passing rate varies a lot from a tiny change: a library being pre-installed, a package version, or a small hint in the instructions. &quot;Good&quot; difficulty seems robust to small perturbations.\n- Multiple agent failures converge to the same wrong…"
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> Some problematic patterns I&#x27;ve seen\n- Passing rate varies a lot from a tiny change: a library being pre-installed, a package version, or a small hint in the instructions. &quot;Good&quot; difficulty seems robust to small perturbations.\n- Multiple agent failures converge to the same wrong answer. We&#x27;ve seen cases where this was okay, but it&#x27;s usually fishy.\n- Instructions have a large surface area, e.g. asking the agent to do a lot of things, look at a lot of files, etc.\n- The agent often near-misses, e.g. it gets 90 subgoals correct and misses 5. If those 5 are really more difficult, could the task just focus on that?\n- The provided solution is hardcoded: rather than a series of steps a normal person/agent would take, it just has the solution. E.g. an encryption task that knows the key.\n- The solution has privileged information about the task. Not always obvious, but common for synthetic tasks where information is scrambled or corrupted and the agent needs to recover it.\n- The task is too synthetic and it&#x27;s not clear how it relates to real-world scenarios.\n- After a bug in the task is fixed, it goes from very hard to very easy."
   },
   {
     "id": "2061175387741458620",
@@ -152,12 +232,12 @@ window.__TWEETS = [
   {
     "id": "2061174479888556543",
     "date": "2026-05-31",
-    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> I can speak as a reviewer of Terminal Bench 3 tasks. The limiting factor is that these tasks are made by generalists who haven&#x27;t really dealt with the task&#x27;s domain in a real professional setting. They are semi-synthetic in that sense. The reality is tasks are a bit like book…"
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> <a href=\"https://x.com/ChrisPainterYup\" target=\"_blank\" rel=\"noopener\">@ChrisPainterYup</a> I can speak as a reviewer of Terminal Bench 3 tasks. The limiting factor is that these tasks are made by generalists who haven&#x27;t really dealt with the task&#x27;s domain in a real professional setting. They are semi-synthetic in that sense. The reality is tasks are a bit like book ideas. Each person only has so many in them."
   },
   {
     "id": "2061110228545081552",
     "date": "2026-05-31",
-    "html": "<a href=\"https://x.com/a3voices\" target=\"_blank\" rel=\"noopener\">@a3voices</a> <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> There will be a huge amount of job displacement. The problem with these analyses is looking at lagging indicators. Look at employment patterns from recent college graduates. Look at your own approach to handling legal concerns without a lawyer. Not everyone will become a…"
+    "html": "<a href=\"https://x.com/a3voices\" target=\"_blank\" rel=\"noopener\">@a3voices</a> <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> There will be a huge amount of job displacement. The problem with these analyses is looking at lagging indicators. Look at employment patterns from recent college graduates. Look at your own approach to handling legal concerns without a lawyer. Not everyone will become a vibecoding solopreneur. Some people need jobs with a manager who guides them, and there will be fewer of these. There’s a famous line: “everyone knows there are sex differences except social scientists.” This is like that: “everyone knows AI will affect labor except economists.” I’m not saying there isn’t a new equilibrium of some sort on the other side.  But it’s unreasonable to think there’s a smooth transition for everyone involved."
   },
   {
     "id": "2060852243298169055",
@@ -167,7 +247,7 @@ window.__TWEETS = [
   {
     "id": "2060767524564926876",
     "date": "2026-05-30",
-    "html": "<a href=\"https://x.com/james_y_zou\" target=\"_blank\" rel=\"noopener\">@james_y_zou</a> With billions of dollars a year flowing from labs to data vendors, there’s a huge incentive to produce benchmark-style tasks at scale, across every verifiable domain, and of increasing difficulty. I don’t think this approach will scale much longer. Higher-quality tasks require…"
+    "html": "<a href=\"https://x.com/james_y_zou\" target=\"_blank\" rel=\"noopener\">@james_y_zou</a> With billions of dollars a year flowing from labs to data vendors, there’s a huge incentive to produce benchmark-style tasks at scale, across every verifiable domain, and of increasing difficulty. I don’t think this approach will scale much longer. Higher-quality tasks require more domain specialization, possibly dedicated companies."
   },
   {
     "id": "2059765213868753086",
@@ -197,7 +277,7 @@ window.__TWEETS = [
   {
     "id": "2058213148814200856",
     "date": "2026-05-23",
-    "html": "A lot of interesting model behavior information is lost in the liminal space right before a verifier goes from 0 to 1. A few things I&#x27;ve been thinking about:\n\n- beyond cause of failure, how close was it to passing? would a small hint have made the difference? rerun with the hint and see how many trials flip.\n- and if so, would the same hint be powerful enough that a lower capability model also passes?\n- at what point is the agent doomed? is there a bad decision or interpretation at the start of the run? could it have been detected early?\n- did the agent stumble on the right answer but not execute on it? or did it have the wrong idea all along?\n- are there clear variations in token/time efficiency across models? do certain approaches (writing code and running it vs running bash directly) consistently use more or less?\n- \ndid the agent attempt to reward hack and fail? we should be looking for attempts, not just successes.\n\nThis is a dimensionality on top of the existing taxonomy that I don&#x27;t have a good name for yet.\nThen there&#x27;s the question of difficulty itself. If several tasks have 0/9 passing rate, can we still tell which ones are harder? Can we build a rubric out of the failed trials? And can we use that to map the pareto frontier between difficulty and reward hacking?"
+    "html": "A lot of interesting model behavior information is lost in the liminal space right before a verifier goes from 0 to 1. A few things I&#x27;ve been thinking about:\n\n- beyond cause of failure, how close was it to passing? would a small hint have made the difference? rerun with the hint and see how many trials flip.\n- and if so, would the same hint be powerful enough that a lower capability model also passes?\n- at what point is the agent doomed? is there a bad decision or interpretation at the start of the run? could it have been detected early?\n- did the agent stumble on the right answer but not execute on it? or did it have the wrong idea all along?\n- are there clear variations in token/time efficiency across models? do certain approaches (writing code and running it vs running bash directly) consistently use more or less?\n-  did the agent attempt to reward hack and fail? we should be looking for attempts, not just successes.\n\nThis is a dimensionality on top of the existing taxonomy that I don&#x27;t have a good name for yet.\nThen there&#x27;s the question of difficulty itself. If several tasks have 0/9 passing rate, can we still tell which ones are harder? Can we build a rubric out of the failed trials? And can we use that to map the pareto frontier between difficulty and reward hacking?"
   },
   {
     "id": "2057830975716164007",
@@ -227,7 +307,7 @@ window.__TWEETS = [
   {
     "id": "2050614220866334885",
     "date": "2026-05-02",
-    "html": "<a href=\"https://x.com/bscholl\" target=\"_blank\" rel=\"noopener\">@bscholl</a> Have you had many AI doomers insulting you for your beliefs? Your message of definite optimism about the future is good. Insulting the incredibly smart and dedicated people who genuinely believe in AI risk is unproductive. Is there really nothing that <a href=\"https://x.com/ESYudkowsky\" target=\"_blank\" rel=\"noopener\">@ESYudkowsky</a> could say that…"
+    "html": "<a href=\"https://x.com/bscholl\" target=\"_blank\" rel=\"noopener\">@bscholl</a> Have you had many AI doomers insulting you for your beliefs? Your message of definite optimism about the future is good. Insulting the incredibly smart and dedicated people who genuinely believe in AI risk is unproductive. Is there really nothing that <a href=\"https://x.com/ESYudkowsky\" target=\"_blank\" rel=\"noopener\">@ESYudkowsky</a> could say that would affect any of your priors?"
   },
   {
     "id": "2048830843754582113",
@@ -237,7 +317,7 @@ window.__TWEETS = [
   {
     "id": "2048815905866653861",
     "date": "2026-04-27",
-    "html": "<a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> The jagged frontier means not everyone benefits from AI equally. I&#x27;ve flip-flopped from &quot;AI will make everyone equally smart&quot; to &quot;AI will make the smartest people even smarter,&quot; and the answer is neither. Some mid-career professionals are adapting well to this last mile effort.…"
+    "html": "<a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> The jagged frontier means not everyone benefits from AI equally. I&#x27;ve flip-flopped from &quot;AI will make everyone equally smart&quot; to &quot;AI will make the smartest people even smarter,&quot; and the answer is neither. Some mid-career professionals are adapting well to this last mile effort. Others don&#x27;t have it in them. They&#x27;ve hardened their synapses on tasks that are more exposed.\n\nSo there&#x27;s selection pressure on people&#x27;s ability to adapt their role to AI. But some specialties might disappear entirely, like translation, which required a non-trivial amount of training. And when productivity goes up enough in a field, you don&#x27;t need as many people doing it, even if the work has moved to the last mile.\n\nYour observations are right. They don&#x27;t prevent a period with 20% unemployment in the next 10 years. Do you disagree?"
   },
   {
     "id": "2047732301199540334",
@@ -247,17 +327,17 @@ window.__TWEETS = [
   {
     "id": "2046959394500587886",
     "date": "2026-04-22",
-    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> <a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> Yeah, the most exciting investment category outside of foundational stuff is very vertically integrated companies. Vertical SaaS has been a tax that particular industries have to pay, and a know-how subsidy from the best companies to the rest of the industry, since that’s where…"
+    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> <a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> Yeah, the most exciting investment category outside of foundational stuff is very vertically integrated companies. Vertical SaaS has been a tax that particular industries have to pay, and a know-how subsidy from the best companies to the rest of the industry, since that’s where the quality product feedback and requests come from. The very best companies are better off keeping their process insights to themselves and encapsulating them as custom software. What is Vertical SaaS anyway, if not a collection of processes and a system of record?"
   },
   {
     "id": "2046640481099288813",
     "date": "2026-04-21",
-    "html": "<a href=\"https://x.com/alexolegimas\" target=\"_blank\" rel=\"noopener\">@alexolegimas</a> If you knew society was headed toward an economy of status, at least for the human part of the economy, what could we do now to arrive at a desirable state? The expression of human ability, such as athletics, is pretty cool. Status derived from civil and community service is…"
+    "html": "<a href=\"https://x.com/alexolegimas\" target=\"_blank\" rel=\"noopener\">@alexolegimas</a> If you knew society was headed toward an economy of status, at least for the human part of the economy, what could we do now to arrive at a desirable state? The expression of human ability, such as athletics, is pretty cool. Status derived from civil and community service is great. Number of followers, bodyguards, servants, wives, and so on seem bad.\n\nMandatory civil service seems worth considering, and it also addresses the related concern of purpose."
   },
   {
     "id": "2046313629491060990",
     "date": "2026-04-20",
-    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> The challenge I have, which makes me espouse doomer views publicly, is seeing people say things like “there will be no job loss because it didn’t happen with previous tech.” It makes me think we are completely unprepared for certain scenarios, and I feel compelled to push back.…"
+    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> The challenge I have, which makes me espouse doomer views publicly, is seeing people say things like “there will be no job loss because it didn’t happen with previous tech.” It makes me think we are completely unprepared for certain scenarios, and I feel compelled to push back. If the posture were “there might be more job rotation than ever before, and this would cause serious social disruption, but we’ll have higher productivity and will figure it out, even if it takes a couple of decades,” then I’d be all for it. I just worry we are Faucing ourselves into a mask/no-mask political divide on AI prematurely, rather than looking at and reacting to the facts."
   },
   {
     "id": "2045579348405870918",
@@ -295,22 +375,22 @@ window.__TWEETS = [
   {
     "id": "2044265655445356681",
     "date": "2026-04-15",
-    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 5/n This shouldn&#x27;t be used for regulatory capture, political gain, etc. I just think there are facts in the making about how AI will reshape the economy, and those facts will be what they will be. And society will have to adapt to that reality, regardless of what would be most…"
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 5/n This shouldn&#x27;t be used for regulatory capture, political gain, etc. I just think there are facts in the making about how AI will reshape the economy, and those facts will be what they will be. And society will have to adapt to that reality, regardless of what would be most convenient to our values. The best we can do is to find a future that is both consistent with the facts and aligned with our values."
   },
   {
     "id": "2044265594556698988",
     "date": "2026-04-15",
-    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 4/n The Great Depression had an unemployment rate of 25% at its peak. Do you believe it is plausible (10% likely) that the USA could experience the same level of unemployment between now and 2030? We are not talking about The Terminator. We are talking about a lot of jobs being…"
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 4/n The Great Depression had an unemployment rate of 25% at its peak. Do you believe it is plausible (10% likely) that the USA could experience the same level of unemployment between now and 2030? We are not talking about The Terminator. We are talking about a lot of jobs being automated and not enough new jobs being created for humans. New jobs will be created, but will the trucker who lost his job have a comparative advantage at it?"
   },
   {
     "id": "2044265496003129760",
     "date": "2026-04-15",
-    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 3/n Not like railways making transportation faster or switches replacing telephone operators, but all jobs being affected at once. As far as self-improving, consider the speed to cross the USA over the past 100 years. There has been improvement on average, although we lost the…"
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 3/n Not like railways making transportation faster or switches replacing telephone operators, but all jobs being affected at once. As far as self-improving, consider the speed to cross the USA over the past 100 years. There has been improvement on average, although we lost the Concorde. But it hasn&#x27;t changed in 60 years. Now consider that AI is getting 10x better every year, and there is no stop in sight. How will that change labor when it&#x27;s 1,000x and 10,000x better in a few years?"
   },
   {
     "id": "2044265429317890274",
     "date": "2026-04-15",
-    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 2/n I don&#x27;t know, but I&#x27;ve seen enough evidence in my technical journey to believe in the possibility, as in not certain, but more likely than 10% probability, that AI will be all-encompassing in the number of jobs that it will compete with, and self-improving in a way that we&#x27;ve…"
+    "html": "<a href=\"https://x.com/AzizSunderji\" target=\"_blank\" rel=\"noopener\">@AzizSunderji</a> 2/n I don&#x27;t know, but I&#x27;ve seen enough evidence in my technical journey to believe in the possibility, as in not certain, but more likely than 10% probability, that AI will be all-encompassing in the number of jobs that it will compete with, and self-improving in a way that we&#x27;ve never seen."
   },
   {
     "id": "2044248768758067368",
@@ -325,7 +405,7 @@ window.__TWEETS = [
   {
     "id": "2044209230492893463",
     "date": "2026-04-15",
-    "html": "1/ I want to share a new dataset of 331 reward-hackable environments. These are real environments used in Terminal Bench and adjacent benchmarks. I first got interested in this because, as a reviewer of Terminal Bench, I noticed a lot of our tasks were hackable. I also noticed that…",
+    "html": "1/ I want to share a new dataset of 331 reward-hackable environments. These are real environments used in Terminal Bench and adjacent benchmarks. I first got interested in this because, as a reviewer of Terminal Bench, I noticed a lot of our tasks were hackable. I also noticed that many contributors to the benchmark do so because it provides credibility when selling environments to labs. Hence, TBench tasks are, in my opinion, held to a higher quality standard than those being used today for RL. No one is spending hours manually reviewing the $1B in tasks being purchased by major labs. As far as I understand, while everyone knows environments are hackable, nobody has released hundreds of &quot;realistic&quot; environments. (link in comment)",
     "images": [
       "/assets/tweets/2044209230492893463-HF59WfCasAI3VFG.jpg"
     ]
@@ -358,42 +438,42 @@ window.__TWEETS = [
   {
     "id": "2037917325010362564",
     "date": "2026-03-28",
-    "html": "7/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 7. In Summary\nAndreessen’s essay proves convincingly that narrow automation doesn’t cause permanent mass unemployment. That claim is well-supported by 250 years of evidence. But it then conflates that proven claim with an unproven one: that general-purpose cognitive automation…"
+    "html": "7/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 7. In Summary\nAndreessen’s essay proves convincingly that narrow automation doesn’t cause permanent mass unemployment. That claim is well-supported by 250 years of evidence. But it then conflates that proven claim with an unproven one: that general-purpose cognitive automation will behave the same way.\nThe mechanisms he relies on — demand creation, complementarity, comparative advantage, infinite wants — all have hidden preconditions that held in every historical case but may not hold when the automating technology is itself a general-purpose cognitive agent. His argument is essentially: the engine has never failed before, therefore it cannot fail. But AGI changes the fuel, the road, and the physics. Confidence drawn from past performance under different conditions isn’t evidence — it’s faith.\nThe burden of proof he places entirely on catastrophists should, in fact, be shared. If you’re claiming that a fundamentally novel technology will behave exactly like all the narrow technologies that preceded it, you need a mechanism-level argument for why the historical regularities will hold under radically different conditions — not just an observation that they held before."
   },
   {
     "id": "2037917202112987462",
     "date": "2026-03-28",
-    "html": "6/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 6. The Actual Structural Risk\nThe strongest counterargument isn’t that AGI will produce “permanent mass unemployment” in the way Andreessen frames it. It’s subtler and harder to dismiss:\nAGI may produce an economy with full technical employment but radical economic…"
+    "html": "6/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 6. The Actual Structural Risk\nThe strongest counterargument isn’t that AGI will produce “permanent mass unemployment” in the way Andreessen frames it. It’s subtler and harder to dismiss:\nAGI may produce an economy with full technical employment but radical economic marginalization — where most humans are technically “employed” but in roles so low-value relative to AGI-driven productivity that their economic and political agency effectively collapses. Not unemployment in the statistical sense, but functional irrelevance in the economic sense.\nThis outcome is fully compatible with every mechanism Andreessen describes: demand expands, new tasks emerge, humans fill them. The problem is that the tasks humans fill may carry so little economic weight relative to AGI output that “employment” becomes a semantic fig leaf over a fundamentally transformed power structure.\nAndreessen is right that this is ultimately a distributional and political problem rather than a purely technological one. But he’s wrong to treat that as a reassurance. Distributional and political problems are precisely the ones societies have historically handled worst — especially when the gains are concentrated among a small class of capital owners and the losses are diffused across a large, disorganized population."
   },
   {
     "id": "2037917095057592459",
     "date": "2026-03-28",
-    "html": "5/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 5. The “Zero for Ten” Empirical Claim Proves Less Than It Seems\nAndreessen claims technological unemployment predictions are “zero for approximately ten.” This is accurate as a historical statement. But as a predictive argument, it commits a survivorship-like error.\nEvery…"
+    "html": "5/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 5. The “Zero for Ten” Empirical Claim Proves Less Than It Seems\nAndreessen claims technological unemployment predictions are “zero for approximately ten.” This is accurate as a historical statement. But as a predictive argument, it commits a survivorship-like error.\nEvery previous technology was narrow. Predicting that a narrow technology would cause mass unemployment was always wrong because it underestimated the economy’s capacity to generate new tasks beyond that technology’s reach. But this means the historical track record is ten tests of the same underlying condition: automation that leaves human generality intact. It is zero tests of the condition AGI represents: automation that matches human generality.\nSaying “narrow automation never caused mass unemployment, therefore general automation won’t either” is like saying “every bullet I’ve dodged was a .22, therefore I’ll dodge the artillery shell.” The category of threat has changed."
   },
   {
     "id": "2037916965482995995",
     "date": "2026-03-28",
-    "html": "4/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 4. “Human Wants Are Infinite” Doesn’t Entail “Human Employment Is Infinite”\nAndreessen’s Section VI argues that even if AGI produces everything, humans will still want irreducibly human things: a massage from a person, a meal cooked with love, genuine companionship.\nThis is true…"
+    "html": "4/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 4. “Human Wants Are Infinite” Doesn’t Entail “Human Employment Is Infinite”\nAndreessen’s Section VI argues that even if AGI produces everything, humans will still want irreducibly human things: a massage from a person, a meal cooked with love, genuine companionship.\nThis is true but economically insufficient for his argument. These “irreducibly human” services share a feature: they’re low-scalability, low-productivity activities. An economy where most humans are employed giving massages, performing live music, and providing companionship is an economy where most humans earn very little, because these services can’t benefit from the productivity gains AGI brings to everything else.\nWorse, the argument quietly assumes people will pay premium prices for the human-origin version. Some will. But history suggests most consumers optimize on price and convenience, not artisanal authenticity. Most people buy machine-made bread, not artisan loaves. Most listen to recorded music, not live performances. Most communicate via text, not handwritten letters. The “irreducibly human” market is real but niche — not a macroeconomic employment base.\nAn economy where the highest-productivity work is done by AGI and humans are employed in the low-productivity care-and-craft sector is an economy with radical inequality — not because of a policy failure, but because the technology concentrates productive capacity in non-human capital. Andreessen briefly acknowledges this as “a distributional problem solvable through tax policy and redistribution,” but this concession is enormous. An economy that requires massive redistribution to prevent immiseration is not one where “the market” has solved the employment problem. It’s one where the employment problem was real and required political intervention to manage."
   },
   {
     "id": "2037916740743741622",
     "date": "2026-03-28",
-    "html": "3/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 3. The Complementarity Argument Has an Expiration Date\nAndreessen’s Gap D — that AI and labor are complements, not substitutes — is his strongest point for the near term. Current AI tools clearly augment skilled workers: a lawyer with GPT-4 is more productive, not unemployed.\nBut…"
+    "html": "3/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 3. The Complementarity Argument Has an Expiration Date\nAndreessen’s Gap D — that AI and labor are complements, not substitutes — is his strongest point for the near term. Current AI tools clearly augment skilled workers: a lawyer with GPT-4 is more productive, not unemployed.\nBut complementarity is a phase of adoption, not a permanent relationship. And the direction of travel is clear.\nConsider his own ATM example. ATMs complemented tellers for about two decades. Then online banking, mobile apps, and automated customer service progressively substituted for the relationship-based teller roles that ATMs had shifted humans into. U.S. bank teller employment peaked around 2007 and has been declining since. The complementarity phase was real — and temporary. The technology eventually caught up to the “complementary” tasks too.\nWith AGI, the cycle from complement to substitute would compress dramatically. If an AI system can write a first-draft legal brief today, and next year it can also review the brief, and the year after it can negotiate based on case strategy it developed — the window in which the lawyer is “complemented” rather than “substituted” may be measured in years, not decades. The historical pattern of smooth labor reallocation assumed decades-long adjustment windows. AGI may not grant that."
   },
   {
     "id": "2037916550142046627",
     "date": "2026-03-28",
-    "html": "2/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 2. The Historical Analogies Have a Hidden Precondition\nEvery example Andreessen cites — agriculture, industrial automation, computers, the internet — shares a feature he never examines: the automating technology was narrow. It was better than humans at specific tasks but worse at…"
+    "html": "2/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> 2. The Historical Analogies Have a Hidden Precondition\nEvery example Andreessen cites — agriculture, industrial automation, computers, the internet — shares a feature he never examines: the automating technology was narrow. It was better than humans at specific tasks but worse at the adjacent, emergent tasks that displaced workers moved into.\nThe mechanical loom automated weaving but couldn’t manage a factory floor. Spreadsheets automated calculation but couldn’t build a client relationship. ATMs dispensed cash but couldn’t advise customers on mortgages. In each case, the technology was a specialist and humans were generalists. The human advantage was adaptability itself — the ability to move to whatever the machine couldn’t yet do.\nAGI, by definition, is the technology where this no longer holds. A general-purpose cognitive system doesn’t leave a predictable residual of tasks “only humans can do.” It competes with humans precisely on the axis — cognitive generality — that made historical labor transitions work.\nAndreessen acknowledges this as “Difference 1” but then argues it merely means “the productivity gains and demand-creation effects operate across all domains simultaneously.” This is a non-sequitur. The question isn’t whether gains operate across all domains. The question is whether humans capture those gains through employment or whether AGI systems capture the productive role and humans become economically redundant recipients of redistribution. “More real income across the whole economy” is entirely compatible with that income flowing as capital returns to AGI owners rather than as wages to workers."
   },
   {
     "id": "2037916166073807300",
     "date": "2026-03-28",
-    "html": "1/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> You’re a smart guy making a compelling case supported by most of human history. Given that you don’t know the future, there’s a chance you’re wrong. That chance, let’s call it less than 10% (given your 0/10 observation), could still be devastating. Can you really not steelman an…"
+    "html": "1/ <a href=\"https://x.com/pmarca\" target=\"_blank\" rel=\"noopener\">@pmarca</a> You’re a smart guy making a compelling case supported by most of human history. Given that you don’t know the future, there’s a chance you’re wrong. That chance, let’s call it less than 10% (given your 0/10 observation), could still be devastating. Can you really not steelman an argument that 20% unemployment is plausible in the next 10 years and that it’s worth thinking about? I’m not saying halt progress with regulation. I get what you’re trying to prevent. But aren’t you just being like Fauci, being so certain when the answer could be more nuanced? This is the problem when scientists and technologists flirt with politics. In politics, you’re not allowed to entertain the other side.\n\nBy the way, Claude can make a counterargument.\n\nA Counterargument: Why AGI May Break the Historical Pattern\nAndreessen’s essay is rhetorically impressive and historically well-informed. But it contains a critical structural flaw: it treats the mechanisms of past technological transitions as laws of nature rather than what they actually are — empirical regularities that held under specific conditions. The argument amounts to: “This pattern held ten times, therefore it holds an eleventh.” That’s induction, not proof. And the entire question with AGI is whether the conditions that sustained those regularities still apply.\nLet me work through why they may not.\n\n1. The Lump of Labor Framing Is a Misdirection\nAndreessen frames nearly every concern about AGI unemployment as a version of the lump of labor fallacy — the mistaken belief that there’s a fixed amount of work to go around. This is effective rhetoric because the lump of labor fallacy is real and has been committed repeatedly throughout history.\nBut the strongest version of the AGI unemployment argument doesn’t commit this fallacy at all. It doesn’t claim that work is fixed. It claims something different: that the demand-creation feedback loop has always depended on humans retaining a comparative advantage in the new tasks that emerge, and AGI may be the first technology that closes that gap as fast as it opens.\nConsider the mechanism Andreessen himself relies on: technology automates Task A, humans move to Task B, demand expands, everyone’s better off. This works when humans can do Task B and the technology cannot (or does it poorly). But what if the technology can do Task B as well, and Task C, and every Task N that emerges? The feedback loop doesn’t break because work is “fixed.” It breaks because the speed at which humans can develop comparative advantage in new domains is slower than the speed at which AGI enters those domains.\nThis isn’t the lump of labor fallacy. It’s a rate-of-displacement argument, and Andreessen himself half-concedes it under his “Difference 2” discussion before waving it away as merely a “transitional” problem. But a transition that never finishes — because the technology keeps advancing faster than humans can re-skill — is indistinguishable from a structural problem."
   },
   {
     "id": "2037759924537790631",
     "date": "2026-03-28",
-    "html": "<a href=\"https://x.com/doppenhe\" target=\"_blank\" rel=\"noopener\">@doppenhe</a> This is why I keep coming back to the idea of 100x or 1000x more software within a few years. A lot of it will be disposable, but even if 5% goes to apps, that&#x27;s 5x-50x more app surface area than today. Chances are, the packaging, the distribution, the value exchange, end up…"
+    "html": "<a href=\"https://x.com/doppenhe\" target=\"_blank\" rel=\"noopener\">@doppenhe</a> This is why I keep coming back to the idea of 100x or 1000x more software within a few years. A lot of it will be disposable, but even if 5% goes to apps, that&#x27;s 5x-50x more app surface area than today. Chances are, the packaging, the distribution, the value exchange, end up quite different."
   },
   {
     "id": "2037758282128076915",
@@ -408,7 +488,7 @@ window.__TWEETS = [
   {
     "id": "2037597622211641375",
     "date": "2026-03-27",
-    "html": "<a href=\"https://x.com/reidhoffman\" target=\"_blank\" rel=\"noopener\">@reidhoffman</a> &quot;Now, the moat around SaaS has weakened. The defensibility that comes from sheer engineering labor is no longer the fortress it once was. But the critical distinction is that a reduction of margins—or an erosion of moat—is not the same as being dead.&quot;\n\nIn financial markets, this^…"
+    "html": "<a href=\"https://x.com/reidhoffman\" target=\"_blank\" rel=\"noopener\">@reidhoffman</a> &quot;Now, the moat around SaaS has weakened. The defensibility that comes from sheer engineering labor is no longer the fortress it once was. But the critical distinction is that a reduction of margins—or an erosion of moat—is not the same as being dead.&quot;\n\nIn financial markets, this^ is all that matters. If the market believes that margins will be narrower moving forward, multiples go down, and valuations stay down. It doesn&#x27;t mean companies die. They will still have cash flow for a long time. But the asset class changes. I interpret SaaS being &quot;dead&quot; as it not being the most exciting investment. It&#x27;s a strong-worded reaction for an asset class that, for a decade, was equally hyperbolized in the other direction."
   },
   {
     "id": "2037301156440068271",
@@ -428,7 +508,7 @@ window.__TWEETS = [
   {
     "id": "2037012573812658472",
     "date": "2026-03-26",
-    "html": "<a href=\"https://x.com/justinskycak\" target=\"_blank\" rel=\"noopener\">@justinskycak</a> Back in the day when I had the attention span to read many books a year, I would learn a topic by reading 5 different books which intersected. This would work best when the books were related to the topic but orthogonal with each other in some way. For example, a textbook, a…"
+    "html": "<a href=\"https://x.com/justinskycak\" target=\"_blank\" rel=\"noopener\">@justinskycak</a> Back in the day when I had the attention span to read many books a year, I would learn a topic by reading 5 different books which intersected. This would work best when the books were related to the topic but orthogonal with each other in some way. For example, a textbook, a biography, and a pop sci version of the same topic."
   },
   {
     "id": "2036982456080073114",
@@ -483,7 +563,7 @@ window.__TWEETS = [
   {
     "id": "2036109644012372228",
     "date": "2026-03-23",
-    "html": "<a href=\"https://x.com/deanwball\" target=\"_blank\" rel=\"noopener\">@deanwball</a> The two tails of the AI safety scenarios seem unproductive for policy making. Language-policing AIs on one end and full Terminator on the other. Both are plausible and bad. But there’s a middle ground that is both practical and doesn’t escape the average politician’s imagination.…"
+    "html": "<a href=\"https://x.com/deanwball\" target=\"_blank\" rel=\"noopener\">@deanwball</a> The two tails of the AI safety scenarios seem unproductive for policy making. Language-policing AIs on one end and full Terminator on the other. Both are plausible and bad. But there’s a middle ground that is both practical and doesn’t escape the average politician’s imagination. Will a weapon controlled by AI make mistakes? Will a bridge designed with reward-hacking exposure collapse?"
   },
   {
     "id": "2036108174407934155",
@@ -493,7 +573,7 @@ window.__TWEETS = [
   {
     "id": "2036107445018529997",
     "date": "2026-03-23",
-    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> As a company grows, you’ll occasionally hire latecomers who want to change your culture. I’m not talking about questioning stale practices or bringing someone so exceptional that others start to follow their behavior. This is someone without a strong track record who puts a lot…"
+    "html": "<a href=\"https://x.com/nrmehta\" target=\"_blank\" rel=\"noopener\">@nrmehta</a> As a company grows, you’ll occasionally hire latecomers who want to change your culture. I’m not talking about questioning stale practices or bringing someone so exceptional that others start to follow their behavior. This is someone without a strong track record who puts a lot of energy into seeking influence as an end in itself. They also tend to attract other non-influential people. Some founders struggle in these instances because while these people might be harming the culture, their behavior looks different from your classic low performance. Founders who worry too much about cosmic justice mess this up. These people should move on and find a culture that is compatible with their values. And the person in charge should make sure they move on before damage is done."
   },
   {
     "id": "2035892589552193708",
@@ -508,12 +588,12 @@ window.__TWEETS = [
   {
     "id": "2035878357674729672",
     "date": "2026-03-23",
-    "html": "<a href=\"https://x.com/martinvars\" target=\"_blank\" rel=\"noopener\">@martinvars</a> I don&#x27;t think it will be that fast, but it will be fast enough that people will get nervous. The reason multiples came down for SaaS wasn&#x27;t that the market believes revenue or margins will collapse tomorrow, but duration matters. If there is a general feeling that margins will…"
+    "html": "<a href=\"https://x.com/martinvars\" target=\"_blank\" rel=\"noopener\">@martinvars</a> I don&#x27;t think it will be that fast, but it will be fast enough that people will get nervous. The reason multiples came down for SaaS wasn&#x27;t that the market believes revenue or margins will collapse tomorrow, but duration matters. If there is a general feeling that margins will compress or revenue will slow down within the next 10 years, that&#x27;s enough to cut multiples. Likewise, the lawyer, consultant, and accountant are going to have an identity crisis, and possibly an employment crisis, as soon as society starts to believe that their skills might be irrelevant within 10 years."
   },
   {
     "id": "2035874944131948766",
     "date": "2026-03-23",
-    "html": "<a href=\"https://x.com/labenz\" target=\"_blank\" rel=\"noopener\">@labenz</a> <a href=\"https://x.com/RosieCampbell\" target=\"_blank\" rel=\"noopener\">@RosieCampbell</a> @pangramlabs I&#x27;m actually an investor in @pangramlabs, so I&#x27;m biased. When I first saw detection techniques based on the logits for a particular model, I thought it was hopeless. How hard can it be to alter token distribution enough to throw off the detector? But it&#x27;s not necessary to…"
+    "html": "<a href=\"https://x.com/labenz\" target=\"_blank\" rel=\"noopener\">@labenz</a> <a href=\"https://x.com/RosieCampbell\" target=\"_blank\" rel=\"noopener\">@RosieCampbell</a> <a href=\"https://x.com/pangramlabs\" target=\"_blank\" rel=\"noopener\">@pangramlabs</a> I&#x27;m actually an investor in <a href=\"https://x.com/pangramlabs\" target=\"_blank\" rel=\"noopener\">@pangramlabs</a>, so I&#x27;m biased. When I first saw detection techniques based on the logits for a particular model, I thought it was hopeless. How hard can it be to alter token distribution enough to throw off the detector? But it&#x27;s not necessary to identify a model signature to detect AI. All models are trained on roughly the same body of text, and have a similar distribution. No matter whether you point the LLM to a specific domain (quantum gravity) or style (&quot;talk like a pirate&quot;), it will behave as an average source in that domain. Every sub-sub-sub-cohort has an average, and that&#x27;s roughly how to think about text detection."
   },
   {
     "id": "2035756800558117351",
@@ -538,17 +618,17 @@ window.__TWEETS = [
   {
     "id": "2035457843898519675",
     "date": "2026-03-21",
-    "html": "<a href=\"https://x.com/labenz\" target=\"_blank\" rel=\"noopener\">@labenz</a> <a href=\"https://x.com/TheZvi\" target=\"_blank\" rel=\"noopener\">@TheZvi</a> The best chance of preserving wealth is making life not miserable for everyone else. And misery isn&#x27;t just poverty. When our sense of purpose and meaning reaches its logical technological conclusion, there&#x27;ll be chaos. People need material safety, purpose, and a sense of control…"
+    "html": "<a href=\"https://x.com/labenz\" target=\"_blank\" rel=\"noopener\">@labenz</a> <a href=\"https://x.com/TheZvi\" target=\"_blank\" rel=\"noopener\">@TheZvi</a> The best chance of preserving wealth is making life not miserable for everyone else. And misery isn&#x27;t just poverty. When our sense of purpose and meaning reaches its logical technological conclusion, there&#x27;ll be chaos. People need material safety, purpose, and a sense of control over their own lives."
   },
   {
     "id": "2035455506366738704",
     "date": "2026-03-21",
-    "html": "2/ Footnotes:\n\n[2] Terminal Bench 3 (accepting submissions): <a href=\"https://t.co/UQL96NZ4yl\" target=\"_blank\" rel=\"noopener\">https://t.co/UQL96NZ4yl</a>\n[3] install-windows-xp task: <a href=\"https://t.co/BCHULf2fVx\" target=\"_blank\" rel=\"noopener\">https://t.co/BCHULf2fVx</a>\n[4] install-windows-3.11: <a href=\"https://t.co/DptmLJPMV7\" target=\"_blank\" rel=\"noopener\">https://t.co/DptmLJPMV7</a>\n[5] video-processing: <a href=\"https://t.co/yPKiHq1aMB\" target=\"_blank\" rel=\"noopener\">https://t.co/yPKiHq1aMB</a>\n[6] Carlini&#x27;s swarm benchmark: <a href=\"https://t.co/Pb5HNLHpf8\" target=\"_blank\" rel=\"noopener\">https://t.co/Pb5HNLHpf8</a>\n[7] TB3 Task Proposal Rubric: <a href=\"https://t.co/gjwtp3ch9x\" target=\"_blank\" rel=\"noopener\">https://t.co/gjwtp3ch9x</a>\n[8] 100% human verification:"
+    "html": "2/ Footnotes:\n\n[2] Terminal Bench 3 (accepting submissions): <a href=\"http://github.com/harbor-framework/terminal-bench-3\" target=\"_blank\" rel=\"noopener\">http://github.com/harbor-framework/terminal-bench-3</a>\n[3] install-windows-xp task: <a href=\"http://github.com/harbor-framework/terminal-bench/tree/main/original-tasks/install-windows-xp\" target=\"_blank\" rel=\"noopener\">http://github.com/harbor-framework/terminal-bench/tree/main/original-tasks/install-windows-xp</a>\n[4] install-windows-3.11: <a href=\"http://tbench.ai/benchmarks/terminal-bench-2/install-windows-3.11\" target=\"_blank\" rel=\"noopener\">http://tbench.ai/benchmarks/terminal-bench-2/install-windows-3.11</a>\n[5] video-processing: <a href=\"http://tbench.ai/benchmarks/terminal-bench-2/video-processing\" target=\"_blank\" rel=\"noopener\">http://tbench.ai/benchmarks/terminal-bench-2/video-processing</a>\n[6] Carlini&#x27;s swarm benchmark: <a href=\"http://anthropic.com/engineering/building-c-compiler\" target=\"_blank\" rel=\"noopener\">http://anthropic.com/engineering/building-c-compiler</a>\n[7] TB3 Task Proposal Rubric: <a href=\"http://github.com/harbor-framework/terminal-bench-3/blob/main/TASK_PROPOSAL_RUBRIC.md\" target=\"_blank\" rel=\"noopener\">http://github.com/harbor-framework/terminal-bench-3/blob/main/TASK_PROPOSAL_RUBRIC.md</a>\n[8] 100% human verification: <a href=\"http://pangram.com/history/956bb536-1e28-4fc1-8bcb-89e26b738dd0\" target=\"_blank\" rel=\"noopener\">http://pangram.com/history/956bb536-1e28-4fc1-8bcb-89e26b738dd0</a>"
   },
   {
     "id": "2035455298417430911",
     "date": "2026-03-21",
-    "html": "1/ <a href=\"http://x.com/i/article/2035451402903048192\" target=\"_blank\" rel=\"noopener\">http://x.com/i/article/2035451402903048192</a>"
+    "html": "<a href=\"https://x.com/i/article/2035451402903048192\" target=\"_blank\" rel=\"noopener\">What Makes a Good Terminal Bench Task</a>"
   },
   {
     "id": "2035451169678790809",
@@ -563,12 +643,12 @@ window.__TWEETS = [
   {
     "id": "2035239785959497872",
     "date": "2026-03-21",
-    "html": "<a href=\"https://x.com/natashajaques\" target=\"_blank\" rel=\"noopener\">@natashajaques</a> An approach I find useful is to create an embeddings database of everything I say or write across many channels, and ask an agent to fetch all my relevant statements, verbatim, to create an outline. The ideas and communication style are mine, but the LLM helps with organizing a…"
+    "html": "<a href=\"https://x.com/natashajaques\" target=\"_blank\" rel=\"noopener\">@natashajaques</a> An approach I find useful is to create an embeddings database of everything I say or write across many channels, and ask an agent to fetch all my relevant statements, verbatim, to create an outline. The ideas and communication style are mine, but the LLM helps with organizing a lot of sound bites into a cogent essay."
   },
   {
     "id": "2035052436566725073",
     "date": "2026-03-20",
-    "html": "<a href=\"https://x.com/lossfunk\" target=\"_blank\" rel=\"noopener\">@lossfunk</a> It’s an interesting paper but I think you’re deceiving your audience with the intuition. Brainfuck uses way fewer symbols. A model has to encode a lot more information in fewer tokens without making the embeddings for those tokens larger. It’s unfair. Humans would (and do) have…"
+    "html": "<a href=\"https://x.com/lossfunk\" target=\"_blank\" rel=\"noopener\">@lossfunk</a> It’s an interesting paper but I think you’re deceiving your audience with the intuition. Brainfuck uses way fewer symbols. A model has to encode a lot more information in fewer tokens without making the embeddings for those tokens larger. It’s unfair. Humans would (and do) have the same problem with something like BF.  Tokens per task is proportional to thinking budget. It would be more reasonably to first write a BF transpiler. A smart enough AI will do that, eventually."
   },
   {
     "id": "2034833191060873541",
@@ -641,7 +721,7 @@ window.__TWEETS = [
   {
     "id": "2031748780018827496",
     "date": "2026-03-11",
-    "html": "<a href=\"https://x.com/emollick\" target=\"_blank\" rel=\"noopener\">@emollick</a> <a href=\"https://x.com/alexolegimas\" target=\"_blank\" rel=\"noopener\">@alexolegimas</a> Human relative advantage can still be dystopian. Consider a human with relative advantage of dexterity who doesn’t have plumbing training. Same human now wears AR glasses with earphones. A cheap AI tells the human exactly what to do. The human becomes a meat robot. All physical…"
+    "html": "<a href=\"https://x.com/emollick\" target=\"_blank\" rel=\"noopener\">@emollick</a> <a href=\"https://x.com/alexolegimas\" target=\"_blank\" rel=\"noopener\">@alexolegimas</a> Human relative advantage can still be dystopian. Consider a human with relative advantage of dexterity who doesn’t have plumbing training. Same human now wears AR glasses with earphones. A cheap AI tells the human exactly what to do. The human becomes a meat robot. All physical labor trends towards being an Amazon warehouse worker."
   },
   {
     "id": "2031746551199211614",
@@ -656,12 +736,12 @@ window.__TWEETS = [
   {
     "id": "2031744198177923494",
     "date": "2026-03-11",
-    "html": "<a href=\"https://x.com/agazdecki\" target=\"_blank\" rel=\"noopener\">@agazdecki</a> You have to think of the game differently. If you can make a SaaS a month, you can also expose yourself more to luck and see if anything sticks. Yeah it’s unlikely it will stick with zero effort but the equation is very different than when building a rudimentary SaaS tool 5x-10x…"
+    "html": "<a href=\"https://x.com/agazdecki\" target=\"_blank\" rel=\"noopener\">@agazdecki</a> You have to think of the game differently. If you can make a SaaS a month, you can also expose yourself more to luck and see if anything sticks. Yeah it’s unlikely it will stick with zero effort but the equation is very different than when building a rudimentary SaaS tool 5x-10x more time."
   },
   {
     "id": "2031393463657546184",
     "date": "2026-03-10",
-    "html": "<a href=\"https://x.com/HalderAlaka\" target=\"_blank\" rel=\"noopener\">@HalderAlaka</a> It does remove some of the intrinsic pleasure that attracted some of us to engineering as children: the thoughtful, meticulous, step-by-step iteration that leads to a working solution. But the new world is interesting in its own way. I suspect most people have confused feelings,…"
+    "html": "<a href=\"https://x.com/HalderAlaka\" target=\"_blank\" rel=\"noopener\">@HalderAlaka</a> It does remove some of the intrinsic pleasure that attracted some of us to engineering as children: the thoughtful, meticulous, step-by-step iteration that leads to a working solution. But the new world is interesting in its own way. I suspect most people have confused feelings, in part stemming from fear of job and purpose loss."
   },
   {
     "id": "2031080705917432013",
@@ -721,7 +801,7 @@ window.__TWEETS = [
   {
     "id": "2027869847548555301",
     "date": "2026-02-28",
-    "html": "<a href=\"https://x.com/tszzl\" target=\"_blank\" rel=\"noopener\">@tszzl</a> Do you believe the consistency between what is said in public would hold up to scrutiny if private conversations were revealed? That has not been the pattern. While this statement is good, it&#x27;s hard to know if it&#x27;s in good faith or just nice PR after defeating your competition…"
+    "html": "<a href=\"https://x.com/tszzl\" target=\"_blank\" rel=\"noopener\">@tszzl</a> Do you believe the consistency between what is said in public would hold up to scrutiny if private conversations were revealed? That has not been the pattern. While this statement is good, it&#x27;s hard to know if it&#x27;s in good faith or just nice PR after defeating your competition through political jiu-jitsu. Does <a href=\"https://x.com/sama\" target=\"_blank\" rel=\"noopener\">@sama</a> actually want this outcome? The whole point of deception is to say one thing while meaning another. I guess only those of you close to the action truly know."
   },
   {
     "id": "2027592137999847935",
@@ -751,7 +831,7 @@ window.__TWEETS = [
   {
     "id": "2026404957008838759",
     "date": "2026-02-24",
-    "html": "<a href=\"https://x.com/johnloeber\" target=\"_blank\" rel=\"noopener\">@johnloeber</a> I&#x27;m not sure you can add 100x the complexity to your typical SaaS solution. SaaS in its current form still targets individual human users with a limited scope. I&#x27;d posit that most SaaS software already has more features than most customers need, and that feature inflation is a…"
+    "html": "<a href=\"https://x.com/johnloeber\" target=\"_blank\" rel=\"noopener\">@johnloeber</a> I&#x27;m not sure you can add 100x the complexity to your typical SaaS solution. SaaS in its current form still targets individual human users with a limited scope. I&#x27;d posit that most SaaS software already has more features than most customers need, and that feature inflation is a byproduct of NRR rather than NPS."
   },
   {
     "id": "2025980199683412285",
@@ -761,7 +841,7 @@ window.__TWEETS = [
   {
     "id": "2025074599134986385",
     "date": "2026-02-21",
-    "html": "A huge proportion of comercial transactions are driven by the seller reaching out to the buyer. Businesses are always looking for efficient channels where the cost of finding qualified leads is minimized.\n\nSome of the best channels are &quot;free&quot;, in the sense that the channel itself doesn&#x27;t monetize the transaction. It&#x27;s not really free in that there&#x27;s still sales and marketing effort that goes into these channels.\n\nSEO is a classic example. Once upon a time, a company could drive a huge amount of inbound interest by ranking high in organic search for relevant terms. Being great at SEO used to be a super weapon. TripAdvisor, Yelp, and others built empires by optimizing their rankings.\n\nFor years there was fearmongering about Google showing answers directly in search or including interactive widgets like maps or flips that competed with vertical websites. As it&#x27;s often the case those fears took longer than expected to make a real dent.\n\nNow we find ourselves in a moment where SEO as a channel is being squeezed from both ends. On one side we have LLMs answering virtually anything without requiring us to visit a website. On the other hand producing content is effectively free, so there&#x27;s an explosion of websites competing for the same queries. This has made SEO a significantly less effective channel.\n\nBut the impact goes across all channels. AIs can write customized emails at scale, so nobody trusts their inbox, and soon AIs will be reading and filtering our emails anyway. Same is true for texts, phone calls, etc.\n\nEvery free channel will become saturdated because of AI.\n\nIn order to have effective channels there has to be some sort of scarcity. When high quality websites and sales calls were driven by humans who cost money, that was the limiting factor. AI takes that away, hence overwhelming many channels.\n\nSo what will happen next?\n\nAdvertising as a channel will strenghten. Whoever has a captive audience will be able to sell it to the highest bidder. In person events, which have natural filtering mechanisms, will become more valuable.\n\nWhat else?"
+    "html": "A huge proportion of comercial transactions are driven by the seller reaching out to the buyer. Businesses are always looking for efficient channels where the cost of finding qualified leads is minimized.\n\nSome of the best channels are &quot;free&quot;, in the sense that the channel itself doesn&#x27;t monetize the transaction. It&#x27;s not really free in that there&#x27;s still sales and marketing effort that goes into these channels.\n\nSEO is a classic example. Once upon a time, a company could drive a huge amount of inbound interest by ranking high in organic search for relevant terms. Being great at SEO used to be a super weapon. TripAdvisor, Yelp, and others built empires by optimizing their rankings.\n\nFor years there was fearmongering about Google showing answers directly in search or including interactive widgets like maps or flights that competed with vertical websites. As it&#x27;s often the case those fears took longer than expected to make a real dent.\n\nNow we find ourselves in a moment where SEO as a channel is being squeezed from both ends. On one side we have LLMs answering virtually anything without requiring us to visit a website. On the other hand producing content is effectively free, so there&#x27;s an explosion of websites competing for the same queries. This has made SEO a significantly less effective channel.\n\nBut the impact goes across all channels. AIs can write customized emails at scale, so nobody trusts their inbox, and soon AIs will be reading and filtering our emails anyway. Same is true for texts, phone calls, etc.\n\nEvery free channel will become saturated because of AI.\n\nIn order to have effective channels there has to be some sort of scarcity. When high quality websites and sales calls were driven by humans who cost money, that was the limiting factor. AI takes that away, hence overwhelming many channels.\n\nSo what will happen next?\n\nAdvertising as a channel will strenghten. Whoever has a captive audience will be able to sell it to the highest bidder. In person events, which have natural filtering mechanisms, will become more valuable.\n\nWhat else?"
   },
   {
     "id": "2025072749866254711",
@@ -771,7 +851,7 @@ window.__TWEETS = [
   {
     "id": "2024186282784788587",
     "date": "2026-02-18",
-    "html": "<a href=\"https://x.com/imcharliegraham\" target=\"_blank\" rel=\"noopener\">@imcharliegraham</a> We just haven’t done much spatial intelligence post training compared to other domains. I’m sure you can think of intelligence feats that are trivial for some humans and nearly impossible for others, such as recognizing faces or recalling a song. It’s just that the boundaries…"
+    "html": "<a href=\"https://x.com/imcharliegraham\" target=\"_blank\" rel=\"noopener\">@imcharliegraham</a> We just haven’t done much spatial intelligence post training compared to other domains. I’m sure you can think of intelligence feats that are trivial for some humans and nearly impossible for others, such as recognizing faces or recalling a song. It’s just that the boundaries between high/low competence in LLMs feel more abrupt."
   },
   {
     "id": "2023808502528176152",
@@ -791,7 +871,7 @@ window.__TWEETS = [
   {
     "id": "2023454315709689860",
     "date": "2026-02-16",
-    "html": "@g_leech_ We need more empirical evidence to complement the now pervasive intuition that benchmarks have issues. It makes me empathize with <a href=\"https://x.com/GaryMarcus\" target=\"_blank\" rel=\"noopener\">@GaryMarcus</a>. You test a newly minted model with stellar benchmark results across dozens of categories, yet you can still trace a path of stupidity by…"
+    "html": "<a href=\"https://x.com/g_leech_\" target=\"_blank\" rel=\"noopener\">@g_leech_</a> We need more empirical evidence to complement the now pervasive intuition that benchmarks have issues. It makes me empathize with <a href=\"https://x.com/GaryMarcus\" target=\"_blank\" rel=\"noopener\">@GaryMarcus</a>. You test a newly minted model with stellar benchmark results across dozens of categories, yet you can still trace a path of stupidity by circumscribing the ever-growing islands of local generalization. As the models get better, the demonstrations get more contrived, and we are left with a lingering intuition that something is off."
   },
   {
     "id": "2022347175683092824",
@@ -801,7 +881,7 @@ window.__TWEETS = [
   {
     "id": "2021986921044693154",
     "date": "2026-02-12",
-    "html": "<a href=\"https://x.com/WillManidis\" target=\"_blank\" rel=\"noopener\">@WillManidis</a> Whereas there are people that have always been into productivity porn, AI is causing every knowledge worker to think this way. And I notice a sort of nervous anxiety, likely caused by an underlying sense that everyone’s job is at risk. A lot of people are in a way desperate to…"
+    "html": "<a href=\"https://x.com/WillManidis\" target=\"_blank\" rel=\"noopener\">@WillManidis</a> Whereas there are people that have always been into productivity porn, AI is causing every knowledge worker to think this way. And I notice a sort of nervous anxiety, likely caused by an underlying sense that everyone’s job is at risk. A lot of people are in a way desperate to prove to themselves that AI gives them super powers rather than entirely do their jobs."
   },
   {
     "id": "2020957525303300096",
@@ -811,7 +891,7 @@ window.__TWEETS = [
   {
     "id": "2020895250869596233",
     "date": "2026-02-09",
-    "html": "The same observations can lead to different conclusions. The HBR article “AI Doesn’t Reduce Work, It Intensifies It” is looking at change from a pre-AI lens. &lt;<a href=\"https://t.co/rLDA6xjbUB\" target=\"_blank\" rel=\"noopener\">https://t.co/rLDA6xjbUB</a>&gt;\n\nHBR found that workers voluntarily took on more tasks, worked faster, and blurred the line between work and personal time, often enthusiastically. They describe this as unsustainable, leading to burnout and cognitive fatigue.\n\nThere is an undertone throughout that people won’t lose jobs, just that the work will get harder. They allude to a causal effect from automation to work reduction to replacement. \n\nMy interpretation is different. Workers realize AI is doing more and more of their jobs and they are nervously trying to prove they are still adding value. You can’t go faster than a computer any more than John Henry can steadily beat the steam drill. What Harvard Business Review describes isn’t a new"
+    "html": "The same observations can lead to different conclusions. The HBR article “AI Doesn’t Reduce Work, It Intensifies It” is looking at change from a pre-AI lens. &lt;<a href=\"https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it\" target=\"_blank\" rel=\"noopener\">https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it</a>&gt;\n\nHBR found that workers voluntarily took on more tasks, worked faster, and blurred the line between work and personal time, often enthusiastically. They describe this as unsustainable, leading to burnout and cognitive fatigue.\n\nThere is an undertone throughout that people won’t lose jobs, just that the work will get harder. They allude to a causal effect from automation to work reduction to replacement. \n\nMy interpretation is different. Workers realize AI is doing more and more of their jobs and they are nervously trying to prove they are still adding value. You can’t go faster than a computer any more than John Henry can steadily beat the steam drill. What Harvard Business Review describes isn’t a new"
   },
   {
     "id": "2020566191312654475",
@@ -826,7 +906,7 @@ window.__TWEETS = [
   {
     "id": "2020171419934679284",
     "date": "2026-02-07",
-    "html": "People say, “SaaS has a moat because of total cost of ownership. You need to pay for enterprise-grade security, customer success, and sales, and that scales better across many customers.”\n\nRead *The Innovator’s Dilemma*. Disruption starts at the bottom. Imagine small businesses developing internal tools. What is most SaaS software if not internal tools? If you have your own tool, does it need to be as secure as a massive company like Salesforce, which is a constant target for hackers? Maybe you use something like @Cloudflare zero trust for authentication, and only your team will ever be able to access the endpoint. You just have to gatekeep yourself from the outside world. If you built the tool, do you need customer support?\n\n“But adding features and fixing bugs is going to be hard.” Again, don’t compare this to enterprise-grade SaaS that needs to support other enterprises, all of which have different requirements. Think of software meant for a single small team with its own needs for a very specific use case. The equivalent of a spreadsheet. Vibe coding can maintain that. And when it gets unwieldy a year later, tell a smarter AI to take all the data from the old product and build a new one.​​​​​​​​​​​​​​​​\n\nI’m very long on the infrastructure to run all this like @daytonaio . There’s going to be infinitely more custom software."
+    "html": "People say, “SaaS has a moat because of total cost of ownership. You need to pay for enterprise-grade security, customer success, and sales, and that scales better across many customers.”\n\nRead *The Innovator’s Dilemma*. Disruption starts at the bottom. Imagine small businesses developing internal tools. What is most SaaS software if not internal tools? If you have your own tool, does it need to be as secure as a massive company like Salesforce, which is a constant target for hackers? Maybe you use something like <a href=\"https://x.com/Cloudflare\" target=\"_blank\" rel=\"noopener\">@Cloudflare</a> zero trust for authentication, and only your team will ever be able to access the endpoint. You just have to gatekeep yourself from the outside world. If you built the tool, do you need customer support?\n\n“But adding features and fixing bugs is going to be hard.” Again, don’t compare this to enterprise-grade SaaS that needs to support other enterprises, all of which have different requirements. Think of software meant for a single small team with its own needs for a very specific use case. The equivalent of a spreadsheet. Vibe coding can maintain that. And when it gets unwieldy a year later, tell a smarter AI to take all the data from the old product and build a new one.​​​​​​​​​​​​​​​​\n\nI’m very long on the infrastructure to run all this like <a href=\"https://x.com/daytonaio\" target=\"_blank\" rel=\"noopener\">@daytonaio</a> . There’s going to be infinitely more custom software."
   },
   {
     "id": "2020165787995041797",
@@ -836,7 +916,7 @@ window.__TWEETS = [
   {
     "id": "2019823449364132014",
     "date": "2026-02-06",
-    "html": "<a href=\"https://x.com/_dschnurr\" target=\"_blank\" rel=\"noopener\"><a href=\"https://x.com/_dschnurr\" target=\"_blank\" rel=\"noopener\">@_dschnurr</a></a> <a href=\"https://x.com/xeophon\" target=\"_blank\" rel=\"noopener\">@xeophon</a> I always dreamt of a h/t from @_dschnurr"
+    "html": "<a href=\"https://x.com/_dschnurr\" target=\"_blank\" rel=\"noopener\">@_dschnurr</a> <a href=\"https://x.com/xeophon\" target=\"_blank\" rel=\"noopener\">@xeophon</a> I always dreamt of a h/t from <a href=\"https://x.com/_dschnurr\" target=\"_blank\" rel=\"noopener\">@_dschnurr</a>"
   },
   {
     "id": "2019823253469204595",
@@ -871,7 +951,7 @@ window.__TWEETS = [
   {
     "id": "2012927215802142835",
     "date": "2026-01-18",
-    "html": "2/ Look at the comments on this article. The arguments are weak. “Teachers weren’t replaced by the internet in 1999!”, “My bathroom remodeler has a one-year wait list!”, “Musk’s predictions have been wrong before!”, “We heard the same thing about Y2K!” It might or might not be true, but people aren’t making good arguments; they’re wishing what they want the truth to be.​​​​​​​​​​​​​​​​\n\n<a href=\"https://t.co/7IsUeeu1Qv\" target=\"_blank\" rel=\"noopener\">https://t.co/7IsUeeu1Qv</a> ("
+    "html": "2/ Look at the comments on this article. The arguments are weak. “Teachers weren’t replaced by the internet in 1999!”, “My bathroom remodeler has a one-year wait list!”, “Musk’s predictions have been wrong before!”, “We heard the same thing about Y2K!” It might or might not be true, but people aren’t making good arguments; they’re wishing what they want the truth to be.​​​​​​​​​​​​​​​​\n\n<a href=\"https://www.wsj.com/tech/ai/why-the-tech-world-thinks-the-american-dream-is-dying-daf793dc\" target=\"_blank\" rel=\"noopener\">https://www.wsj.com/tech/ai/why-the-tech-world-thinks-the-american-dream-is-dying-daf793dc</a> (<a href=\"https://archive.is/1jgGr\" target=\"_blank\" rel=\"noopener\">https://archive.is/1jgGr</a>)"
   },
   {
     "id": "2012702189580685533",
@@ -881,7 +961,7 @@ window.__TWEETS = [
   {
     "id": "2012578007958086134",
     "date": "2026-01-17",
-    "html": "<a href=\"https://x.com/JeremyTate41\" target=\"_blank\" rel=\"noopener\">@JeremyTate41</a> Human brains start as mostly untrained neural networks, which over 2-3 decades take shape and then slowly calcify. That process is automatic. The child WILL learn. The question is what. If we stop teaching math under the pretext that it’s not needed, your child’s brain will just…"
+    "html": "<a href=\"https://x.com/JeremyTate41\" target=\"_blank\" rel=\"noopener\">@JeremyTate41</a> Human brains start as mostly untrained neural networks, which over 2-3 decades take shape and then slowly calcify. That process is automatic. The child WILL learn. The question is what. If we stop teaching math under the pretext that it’s not needed, your child’s brain will just have more room for TikTok. Pick wisely."
   },
   {
     "id": "2010482464607834467",
@@ -896,27 +976,27 @@ window.__TWEETS = [
   {
     "id": "2010083866174960057",
     "date": "2026-01-10",
-    "html": "<a href=\"https://x.com/championswimmer\" target=\"_blank\" rel=\"noopener\">@championswimmer</a> We still have people that lack some basic needs and dignity. Hopefully in a post AGI world that will no longer be the case. That said, UBI won’t do much else. Rich people don’t spend their money. The seek wealth because it bequests status. What people want is to matter. UBI won’t…"
+    "html": "<a href=\"https://x.com/championswimmer\" target=\"_blank\" rel=\"noopener\">@championswimmer</a> We still have people that lack some basic needs and dignity. Hopefully in a post AGI world that will no longer be the case. That said, UBI won’t do much else. Rich people don’t spend their money. The seek wealth because it bequests status. What people want is to matter. UBI won’t solve that."
   },
   {
     "id": "2010081302456971638",
     "date": "2026-01-10",
-    "html": "<a href=\"https://x.com/justinskycak\" target=\"_blank\" rel=\"noopener\">@justinskycak</a> The whole system has given up the mission to attract the best and brightest, but it’s such a ridiculous disposition for an education system that no insider is willing to say it out loud. So instead they make the facts murky by removing SATs, inflating GPAs, and so on. The…"
+    "html": "<a href=\"https://x.com/justinskycak\" target=\"_blank\" rel=\"noopener\">@justinskycak</a> The whole system has given up the mission to attract the best and brightest, but it’s such a ridiculous disposition for an education system that no insider is willing to say it out loud. So instead they make the facts murky by removing SATs, inflating GPAs, and so on. The implicit incentive is to make it impossible to identify individual performance."
   },
   {
     "id": "2008705539337830661",
     "date": "2026-01-07",
-    "html": "What you&#x27;re going through can&#x27;t be solved from the outside. Your actions are yours. Your consequences are yours. Not in the sense of fault, but in the sense of ownership. There&#x27;s always more control over what&#x27;s inside than what&#x27;s outside. You can&#x27;t make others feel something. You can only feel something yourself."
+    "html": "What you&#x27;re going through can&#x27;t be solved from the outside. Your actions are yours. Your consequences are yours. Not in the sense of fault, but in the sense of ownership. There&#x27;s always more control over what&#x27;s inside than what&#x27;s outside. You can&#x27;t make others feel something. You can only feel something."
   },
   {
     "id": "2006784141078225286",
     "date": "2026-01-01",
-    "html": "<a href=\"https://x.com/AutismCapital\" target=\"_blank\" rel=\"noopener\">@AutismCapital</a> I’ve never taken the posture that mainstream media is bad. I think most reporting is good. But this is embarrassing. For a huge institution like CNN to make a point to try to shut down a young man that produced an incredible piece of investigative journalism, is lame.…"
+    "html": "<a href=\"https://x.com/AutismCapital\" target=\"_blank\" rel=\"noopener\">@AutismCapital</a> I’ve never taken the posture that mainstream media is bad. I think most reporting is good. But this is embarrassing. For a huge institution like CNN to make a point to try to shut down a young man that produced an incredible piece of investigative journalism, is lame. <a href=\"https://x.com/nickshirleyy\" target=\"_blank\" rel=\"noopener\">@nickshirleyy</a> brought awareness to a potentially massive issue. And he’s right, it’s not for us citizens to give the government a pass because “investigations are in process”. If these childcare facilities are in fact frauds and are in fact receiving government money, then “ongoing investigation” is not an excuse. What if a restaurant poisoned its guests, would the government claim it’s okay for that restaurant to remain open until the investigation is completed? Nonsense. \n\nIf <a href=\"https://x.com/nickshirleyy\" target=\"_blank\" rel=\"noopener\">@nickshirleyy</a> was lying in his video, we will all find out very soon and his credibility will be shattered. There are plenty of people motivated to prove him wrong. For <a href=\"https://x.com/CNN\" target=\"_blank\" rel=\"noopener\">@CNN</a> to take an uninformed side is super lame."
   },
   {
     "id": "2006403285406613759",
     "date": "2025-12-31",
-    "html": "<a href=\"https://x.com/peterwildeford\" target=\"_blank\" rel=\"noopener\">@peterwildeford</a> <a href=\"https://x.com/AlecStapp\" target=\"_blank\" rel=\"noopener\">@AlecStapp</a> <a href=\"https://x.com/nytimes\" target=\"_blank\" rel=\"noopener\">@nytimes</a> This aligns with my response to the likes of <a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> . I’m a capitalist. I believe there’ll be new jobs (for now) as part of a rotation. But “job” is an abstract idea and doesn’t account for individual suffering from loss of income and identity. AI is poised to cause the highest…"
+    "html": "<a href=\"https://x.com/peterwildeford\" target=\"_blank\" rel=\"noopener\">@peterwildeford</a> <a href=\"https://x.com/AlecStapp\" target=\"_blank\" rel=\"noopener\">@AlecStapp</a> <a href=\"https://x.com/nytimes\" target=\"_blank\" rel=\"noopener\">@nytimes</a> This aligns with my response to the likes of <a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> . I’m a capitalist. I believe there’ll be new jobs (for now) as part of a rotation. But “job” is an abstract idea and doesn’t account for individual suffering from loss of income and identity. AI is poised to cause the highest rate of employment changes and identity crises in industrial times. It’s an important risk among many and we should be thinking about mitigations, rather than lecturing the affected about economic theory."
   },
   {
     "id": "2005005929222402419",
@@ -931,22 +1011,22 @@ window.__TWEETS = [
   {
     "id": "2004299316899570084",
     "date": "2025-12-25",
-    "html": "<a href=\"https://x.com/alexgshaw\" target=\"_blank\" rel=\"noopener\"><a href=\"https://x.com/alexgshaw\" target=\"_blank\" rel=\"noopener\">@alexgshaw</a></a> Exciting to have contributed a couple tasks on the far right of the difficulty spectrum. There&#x27;s a whole universe of amazing collaborators carving the path forward for frontier benchmarks. Thanks @alexgshaw for your leadership!"
+    "html": "<a href=\"https://x.com/alexgshaw\" target=\"_blank\" rel=\"noopener\">@alexgshaw</a> Exciting to have contributed a couple tasks on the far right of the difficulty spectrum. There&#x27;s a whole universe of amazing collaborators carving the path forward for frontier benchmarks. Thanks <a href=\"https://x.com/alexgshaw\" target=\"_blank\" rel=\"noopener\">@alexgshaw</a> for your leadership!"
   },
   {
     "id": "2004261315611889720",
     "date": "2025-12-25",
-    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> I agree humans are bad at rational thinking and causal analysis. But we are good at learning tacit things such as the concept of a dog, with very good sample efficiency. And I agree LLMs are awful at sample efficiency. The reason I still bet AIs will achieve higher absolute…"
+    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> I agree humans are bad at rational thinking and causal analysis. But we are good at learning tacit things such as the concept of a dog, with very good sample efficiency. And I agree LLMs are awful at sample efficiency. The reason I still bet AIs will achieve higher absolute learning rates is because they scale. We can brute force as much compute and data into as many parameters our economy is willing to fund. That kind of elasticity coupled with exponential scaling is hard to beat at the limit."
   },
   {
     "id": "2004068827802603584",
     "date": "2025-12-25",
-    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> In what way is it that humans are different in our ability to learn from external input? We can agree humans are more sample efficient, and we have the ability to learn continuously, among other things. But where is the trick for us to be able to pick up new information from…"
+    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> In what way is it that humans are different in our ability to learn from external input? We can agree humans are more sample efficient, and we have the ability to learn continuously, among other things. But where is the trick for us to be able to pick up new information from experience where an AI couldn’t ?"
   },
   {
     "id": "2003978743363354806",
     "date": "2025-12-24",
-    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> You are making the assumption that because an AI is operating in a loop, there is no source of new information. But you are wrong. When a system interacts with the world, it acquires information. If you write some code, run it, and get an error, that error is new information the…"
+    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> You are making the assumption that because an AI is operating in a loop, there is no source of new information. But you are wrong. When a system interacts with the world, it acquires information. If you write some code, run it, and get an error, that error is new information the system can use to improve. As long as a system can effectively engage with reality, it can most certainly self-improve."
   },
   {
     "id": "2003976531249701123",
@@ -956,12 +1036,12 @@ window.__TWEETS = [
   {
     "id": "2003975063348171187",
     "date": "2025-12-24",
-    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> Saying that &quot;this time is different&quot; is a bad argument, is just as bad of an argument. \n\nYou should be looking at the evidence to present a grounded opinion. The job displacement from AI might be bigger than anything we&#x27;ve seen before. Just one category, driving for a living,…"
+    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> Saying that &quot;this time is different&quot; is a bad argument, is just as bad of an argument. \n\nYou should be looking at the evidence to present a grounded opinion. The job displacement from AI might be bigger than anything we&#x27;ve seen before. Just one category, driving for a living, includes millions of people just in the USA. Have you talked to your Uber driver? Many of them don&#x27;t have formal education. Where do you think they will go? \n\nHow about everyone who was making a living on marketplaces like upwork? What do you think is the demand for translation services, marketing copy, or logo design? When you go to the grocery store, do you choose self-checkout or cashier? How about legal services? In the last year, how many times have you bypassed a lawyer thanks to your LLM of choice? \n\nWe are just a few years into the diffusion of LLMs and they are already capable enough to displace a high volume of tasks. Meanwhile, AI across the board keeps improving by increasingly difficult benchmarks. AI doesn&#x27;t have to be superhuman at everything to cause a massive rotation in the labor market. \n\nStop talking with certainty and pandering to people who look for reassurance on the internet. Just because you would prefer a certain reality, it doesn&#x27;t make it true. There is enough uncertainty to warrant a major effort to forecast how employment will change and prepare for the consequences."
   },
   {
     "id": "2002816882911355065",
     "date": "2025-12-21",
-    "html": "<a href=\"https://x.com/Noahpinion\" target=\"_blank\" rel=\"noopener\">@Noahpinion</a> This will eventually lead to the undoing of everything DEI allegedly stood for.  Competent people will go towards less self-destructive industries where they can thrive, and those industries will outperform the economy. What do you think demographics look like in AI? Talented…"
+    "html": "<a href=\"https://x.com/Noahpinion\" target=\"_blank\" rel=\"noopener\">@Noahpinion</a> This will eventually lead to the undoing of everything DEI allegedly stood for.  Competent people will go towards less self-destructive industries where they can thrive, and those industries will outperform the economy. What do you think demographics look like in AI? Talented rejects will cluster around new institutions and win."
   },
   {
     "id": "2002809034165166563",
@@ -981,12 +1061,12 @@ window.__TWEETS = [
   {
     "id": "2002803725879136612",
     "date": "2025-12-21",
-    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> There’s a skill in generating this kind of output. The prompt has to describe a large project, there’s usually some back and forth initially to agree on the plan. The agent has to be running with a harness that encourages it to continue (even something as simple as automatically…"
+    "html": "<a href=\"https://x.com/Dan_Jeffries1\" target=\"_blank\" rel=\"noopener\">@Dan_Jeffries1</a> There’s a skill in generating this kind of output. The prompt has to describe a large project, there’s usually some back and forth initially to agree on the plan. The agent has to be running with a harness that encourages it to continue (even something as simple as automatically saying “keep going” every time it stops). The agent benefits from access to a verification mechanism, such as checking if tests are passing (for example if you’re transcribing a program from one language to another). \n\nSo it’s not all tasks and it does take skill. But you can definitely have Claude run all night and deliver impressive results."
   },
   {
     "id": "2002801618337886231",
     "date": "2025-12-21",
-    "html": "<a href=\"https://x.com/AnjneyMidha\" target=\"_blank\" rel=\"noopener\">@AnjneyMidha</a> Yes, they will come with the pitchforks for AI. And slowing down technological progress to appease the unemployed would be self-destructive. But if you claim AI has nothing to do with job loss, you’re Faucing yourself. We don’t know yet. <a href=\"https://x.com/a16z\" target=\"_blank\" rel=\"noopener\">@a16z</a> has the position that job…"
+    "html": "<a href=\"https://x.com/AnjneyMidha\" target=\"_blank\" rel=\"noopener\">@AnjneyMidha</a> Yes, they will come with the pitchforks for AI. And slowing down technological progress to appease the unemployed would be self-destructive. But if you claim AI has nothing to do with job loss, you’re Faucing yourself. We don’t know yet. <a href=\"https://x.com/a16z\" target=\"_blank\" rel=\"noopener\">@a16z</a> has the position that job displacement will be business as usual. Others suspect a more tumultuous transition. It’s possible AI will cause severe job loss, and other societal problems. You can’t both believe something will be revolutionary and purely positive (net positive yes). Risks precede history, so we prepare for risks, even though some never realize. Acknowledging we don’t know and discussing alternative scenarios builds trust with those who don’t agree with our primary hypothesis."
   },
   {
     "id": "2002625179076473199",
@@ -996,7 +1076,7 @@ window.__TWEETS = [
   {
     "id": "2001731974390796776",
     "date": "2025-12-18",
-    "html": "I&#x27;m pro free market, but there&#x27;s something inherently fucked up about this. Flight from Buenos Aires to LAX, with layover in Houston, $481. Same flight to Houston, $1541. If you have a round-trip flight but skip a leg, the airline cancels the rest of the flight. Should that…",
+    "html": "I&#x27;m pro free market, but there&#x27;s something inherently fucked up about this. Flight from Buenos Aires to LAX, with layover in Houston, $481. Same flight to Houston, $1541. If you have a round-trip flight but skip a leg, the airline cancels the rest of the flight. Should that really be legal? Why can&#x27;t I pay for an empty seat if I want to? If I buy two one way flights and get off at my layover, will they cancel the other? This kind of arbitrage will lead to insane AI games between buyers and sellers.",
     "images": [
       "/assets/tweets/2001731974390796776-G8eUnsjakAEC-u1.jpg"
     ]
@@ -1023,7 +1103,7 @@ window.__TWEETS = [
   {
     "id": "2001494713774596145",
     "date": "2025-12-18",
-    "html": "<a href=\"https://x.com/avidseries\" target=\"_blank\" rel=\"noopener\">@avidseries</a> In college, I loved the challenge of brutal engineering test. I did well. But even people who struggled had respect for difficulty. Everyone understood an A is good, but an A when everyone else gets a C is better. We have lost that distinction. Too many people equate trophies to…"
+    "html": "<a href=\"https://x.com/avidseries\" target=\"_blank\" rel=\"noopener\">@avidseries</a> In college, I loved the challenge of brutal engineering test. I did well. But even people who struggled had respect for difficulty. Everyone understood an A is good, but an A when everyone else gets a C is better. We have lost that distinction. Too many people equate trophies to the act of winning."
   },
   {
     "id": "2000818680180171244",
@@ -1038,7 +1118,7 @@ window.__TWEETS = [
   {
     "id": "1998790437281345820",
     "date": "2025-12-10",
-    "html": "<a href=\"https://x.com/vrexec\" target=\"_blank\" rel=\"noopener\">@vrexec</a> <a href=\"https://x.com/ATabarrok\" target=\"_blank\" rel=\"noopener\">@ATabarrok</a> You point to a well-known dysfunction in America. In the USA, one can be violently attacked with litigation, and the only solution is to spend money and time to defend oneself. Umbrella policies are a good idea for anyone with something to lose.\n\nEurope often acts explicitly to…"
+    "html": "<a href=\"https://x.com/vrexec\" target=\"_blank\" rel=\"noopener\">@vrexec</a> <a href=\"https://x.com/ATabarrok\" target=\"_blank\" rel=\"noopener\">@ATabarrok</a> You point to a well-known dysfunction in America. In the USA, one can be violently attacked with litigation, and the only solution is to spend money and time to defend oneself. Umbrella policies are a good idea for anyone with something to lose.\n\nEurope often acts explicitly to slow down economic progress in favor of alleged social well-being. Rather than a dysfunction, it’s intentional. It dismisses the fact that economic growth has been the greatest force in the world when it comes to improving everyone’s quality of life.​​​​​​​​​​​​​​​​\n\nMany left-leaning policies use the common well being as a justification for actions that achieve just the opposite."
   },
   {
     "id": "1998785371480666305",
@@ -1048,12 +1128,12 @@ window.__TWEETS = [
   {
     "id": "1998785200122474865",
     "date": "2025-12-10",
-    "html": "<a href=\"https://x.com/gonvalenci\" target=\"_blank\" rel=\"noopener\">@gonvalenci</a> As far as detection, we invested in a company @pangramlabs which can help you tell. It’s likely that very soon, most of the content that you consume unintentionally will be AI slop. I try to look for high quality newsletters and read old books."
+    "html": "<a href=\"https://x.com/gonvalenci\" target=\"_blank\" rel=\"noopener\">@gonvalenci</a> As far as detection, we invested in a company <a href=\"https://x.com/pangramlabs\" target=\"_blank\" rel=\"noopener\">@pangramlabs</a> which can help you tell. It’s likely that very soon, most of the content that you consume unintentionally will be AI slop. I try to look for high quality newsletters and read old books."
   },
   {
     "id": "1998784704577941609",
     "date": "2025-12-10",
-    "html": "<a href=\"https://x.com/gonvalenci\" target=\"_blank\" rel=\"noopener\">@gonvalenci</a> Whether you’re able to tell is separate from the models having a narrow distribution. It’s a bit like always talking to the same friend, except everyone else is also always talking to that friend. Everything converges to that distribution. We all end up emulating the LLM list…"
+    "html": "<a href=\"https://x.com/gonvalenci\" target=\"_blank\" rel=\"noopener\">@gonvalenci</a> Whether you’re able to tell is separate from the models having a narrow distribution. It’s a bit like always talking to the same friend, except everyone else is also always talking to that friend. Everything converges to that distribution. We all end up emulating the LLM list like it emulates us. A catastrophic collapse of diversity of through and ideas."
   },
   {
     "id": "1998460307488846214",
@@ -1063,12 +1143,12 @@ window.__TWEETS = [
   {
     "id": "1996854815079731583",
     "date": "2025-12-05",
-    "html": "<a href=\"https://x.com/marcportermagee\" target=\"_blank\" rel=\"noopener\">@marcportermagee</a> Some of the poorest children can score 1300+ in their SATs. If schools use SATs and take into account income, these kids have a very high chance of going to a top college. This is how class mobility happens. If instead we eliminate SATs, these salient low income children are…"
+    "html": "<a href=\"https://x.com/marcportermagee\" target=\"_blank\" rel=\"noopener\">@marcportermagee</a> Some of the poorest children can score 1300+ in their SATs. If schools use SATs and take into account income, these kids have a very high chance of going to a top college. This is how class mobility happens. If instead we eliminate SATs, these salient low income children are actually less likely to get into a top school. That’s a fucking travesty! If we want better low income representation, let’s start with identifying the highest potential individuals. This requires measurement. SATs are excellent predictors of academic performance. Stop trying to wish inequality away by erasing useful information."
   },
   {
     "id": "1995287844487925917",
     "date": "2025-12-01",
-    "html": "<a href=\"https://x.com/SteveStuWill\" target=\"_blank\" rel=\"noopener\">@SteveStuWill</a> A big weakness of online dating is the lack of a robust narrative. &quot;How did I meet your mother&quot; is an important thread that brings continuity through ups and downs. In theory, improved assortment should make up for this. But since OkCupid first principles assortment hasn&#x27;t been a…"
+    "html": "<a href=\"https://x.com/SteveStuWill\" target=\"_blank\" rel=\"noopener\">@SteveStuWill</a> A big weakness of online dating is the lack of a robust narrative. &quot;How did I meet your mother&quot; is an important thread that brings continuity through ups and downs. In theory, improved assortment should make up for this. But since OkCupid first principles assortment hasn&#x27;t been a thing."
   },
   {
     "id": "1994932980113183054",
@@ -1083,7 +1163,7 @@ window.__TWEETS = [
   {
     "id": "1994463844589244714",
     "date": "2025-11-28",
-    "html": "<a href=\"https://x.com/RoKhanna\" target=\"_blank\" rel=\"noopener\">@RoKhanna</a> We need to get ahead of the issue and make the transition go well. You can’t hope drivers will be needed for safety, oversight, etc. Maybe they will, maybe they won’t. Just because you wish it’s true doesn’t make it so. If drivers are no longer necessary it’d be un-American to do…"
+    "html": "<a href=\"https://x.com/RoKhanna\" target=\"_blank\" rel=\"noopener\">@RoKhanna</a> We need to get ahead of the issue and make the transition go well. You can’t hope drivers will be needed for safety, oversight, etc. Maybe they will, maybe they won’t. Just because you wish it’s true doesn’t make it so. If drivers are no longer necessary it’d be un-American to do otherwise."
   },
   {
     "id": "1994461243986645133",
@@ -1098,7 +1178,7 @@ window.__TWEETS = [
   {
     "id": "1993838813555380625",
     "date": "2025-11-27",
-    "html": "<a href=\"https://x.com/algekalipso\" target=\"_blank\" rel=\"noopener\">@algekalipso</a> Behaviors that are logically disconnected are correlated because cultural clusters (eg political parties) include logically inconsistent values. So a short conversation or even a comment can reveal a lot about how a person generally thinks. I often make the mistake of pointing to…"
+    "html": "<a href=\"https://x.com/algekalipso\" target=\"_blank\" rel=\"noopener\">@algekalipso</a> Behaviors that are logically disconnected are correlated because cultural clusters (eg political parties) include logically inconsistent values. So a short conversation or even a comment can reveal a lot about how a person generally thinks. I often make the mistake of pointing to the signaling behavior instead of what I suspect to be a correlated target behavior, when I have to evaluate people. It would be best to be able to test the target behavior directly, but it’s not always obvious or easy. Furthermore, some people give the vibe that they adhere to whatever their cluster believes, whereas others appear to have a more curated repertoire. Unless we have views that don’t quite fit in any social club, we are just sheep."
   },
   {
     "id": "1993792510230188034",
@@ -1123,7 +1203,7 @@ window.__TWEETS = [
   {
     "id": "1993037321630106021",
     "date": "2025-11-24",
-    "html": "<a href=\"https://x.com/karpathy\" target=\"_blank\" rel=\"noopener\">@karpathy</a> The public school system chooses  methods that follow whatever makes it appear as if underperforming kids are improving. If AI at home makes it look as if kids are learning more, that’s how they’ll be taught. Making individual learning illegible to inspection has been a trend way…"
+    "html": "<a href=\"https://x.com/karpathy\" target=\"_blank\" rel=\"noopener\">@karpathy</a> The public school system chooses  methods that follow whatever makes it appear as if underperforming kids are improving. If AI at home makes it look as if kids are learning more, that’s how they’ll be taught. Making individual learning illegible to inspection has been a trend way before AI."
   },
   {
     "id": "1993035675625812188",
@@ -1138,7 +1218,7 @@ window.__TWEETS = [
   {
     "id": "1985485779448312205",
     "date": "2025-11-03",
-    "html": "<a href=\"https://x.com/timoreilly\" target=\"_blank\" rel=\"noopener\">@timoreilly</a> I think it comes down to the degrees of freedom the “agent” has. Traditional software, including the vast majority of vertical “AI” startups today, use tools in a prescriptive way. You know what you’ll get when you click a certain button. True agents have full discretion and…"
+    "html": "<a href=\"https://x.com/timoreilly\" target=\"_blank\" rel=\"noopener\">@timoreilly</a> I think it comes down to the degrees of freedom the “agent” has. Traditional software, including the vast majority of vertical “AI” startups today, use tools in a prescriptive way. You know what you’ll get when you click a certain button. True agents have full discretion and maneuverability in the tools they use. The goals you can accomplish can vary with the speed you can write a prompt. Whereas in workflow style work, you have to define new uses of such tools upfront. I think the change is substantial and categorical."
   },
   {
     "id": "1984031525848171004",
@@ -1203,7 +1283,7 @@ window.__TWEETS = [
   {
     "id": "1951023241071566912",
     "date": "2025-07-31",
-    "html": "<a href=\"https://x.com/heyrobinai\" target=\"_blank\" rel=\"noopener\"><a href=\"https://x.com/heyrobinai\" target=\"_blank\" rel=\"noopener\">@heyrobinai</a></a> Curious how it performs on this task I made <a href=\"https://www.tbench.ai/registry/terminal-bench-core/head/install-windows-xp\" target=\"_blank\" rel=\"noopener\">https://www.tbench.ai/registry/terminal-bench-core/head/install-windows-xp</a> @heyrobinai"
+    "html": "<a href=\"https://x.com/heyrobinai\" target=\"_blank\" rel=\"noopener\">@heyrobinai</a> Curious how it performs on this task I made <a href=\"https://www.tbench.ai/registry/terminal-bench-core/head/install-windows-xp\" target=\"_blank\" rel=\"noopener\">https://www.tbench.ai/registry/terminal-bench-core/head/install-windows-xp</a> <a href=\"https://x.com/heyrobinai\" target=\"_blank\" rel=\"noopener\">@heyrobinai</a>"
   },
   {
     "id": "1951021585026130009",
@@ -1304,7 +1384,7 @@ window.__TWEETS = [
   {
     "id": "1932255082411876628",
     "date": "2025-06-10",
-    "html": "It was fun to contribute to this research. It&#x27;s plausible that in the future models will regularly resort to making deliberate changes to their own code in order to improve, in addition to backpropagation. In this case, the agent is editing its prompts and runtime/tools. But I… <a href=\"https://x.com/AlfonAmayuelas/status/1932210058680787311\" target=\"_blank\" rel=\"noopener\">https://x.com/AlfonAmayuelas/status/1932210058680787311</a>"
+    "html": "It was fun to contribute to this research. It&#x27;s plausible that in the future models will regularly resort to making deliberate changes to their own code in order to improve, in addition to backpropagation. In this case, the agent is editing its prompts and runtime/tools. But I can imagine a future AI re-writing its own weights/circuits. <a href=\"https://x.com/AlfonAmayuelas/status/1932210058680787311\" target=\"_blank\" rel=\"noopener\">https://x.com/AlfonAmayuelas/status/1932210058680787311</a>"
   },
   {
     "id": "1932246808597868812",
@@ -1586,7 +1666,7 @@ window.__TWEETS = [
   {
     "id": "1887920730895171846",
     "date": "2025-02-07",
-    "html": "Some people who worked with me at Graphiq and Amazon might remember ramblings of how Knowledge Engineering was going to be big. It turned out to be Prompt Engineering, but the idea is the same. Empower product managers and others to have direct influence over what their tech… <a href=\"https://x.com/imjaredz/status/1887913611797925888\" target=\"_blank\" rel=\"noopener\">https://x.com/imjaredz/status/1887913611797925888</a>"
+    "html": "Some people who worked with me at Graphiq and Amazon might remember ramblings of how Knowledge Engineering was going to be big. It turned out to be Prompt Engineering, but the idea is the same. Empower product managers and others to have direct influence over what their tech teams are building. <a href=\"https://x.com/promptlayer\" target=\"_blank\" rel=\"noopener\">@promptlayer</a>  is doing great work to fulfill this mission. If you’re looking for new career opportunities, please reach out! <a href=\"https://x.com/imjaredz/status/1887913611797925888\" target=\"_blank\" rel=\"noopener\">https://x.com/imjaredz/status/1887913611797925888</a>"
   },
   {
     "id": "1885781175719153817",
@@ -1596,7 +1676,7 @@ window.__TWEETS = [
   {
     "id": "1885779983236465029",
     "date": "2025-02-01",
-    "html": "Even if the prospects of AGI are certain, it’s possible for the system to run out of steam before getting there. Our economic and infrastructure capabilities aren’t unbounded in the short term. There’s a chance this wave will collapse under the weight of its own investments. Technological “winters” don’t just happen due to lack of foresight. Still, we are very close right now…"
+    "html": "Even if the prospects of AGI are certain, it’s possible for the system to run out of steam before getting there. Our economic and infrastructure capabilities aren’t unbounded in the short term. There’s a chance this wave will collapse under the weight of its own investments. Technological “winters” don’t just happen due to lack of foresight. Still, we are close to the finish line…"
   },
   {
     "id": "1883178154250101074",
@@ -1611,7 +1691,7 @@ window.__TWEETS = [
   {
     "id": "1876307391685513678",
     "date": "2025-01-06",
-    "html": "<a href=\"https://x.com/santisiri\" target=\"_blank\" rel=\"noopener\"><a href=\"https://x.com/santisiri\" target=\"_blank\" rel=\"noopener\">@santisiri</a></a> @santisiri, tene un poco de empatía. el gil seguro paso el equivalente de 3 películas repitiendo el mismo guion en su auto alquilado, y después paso el resto del día mirando contenido similar producido por otro gil y sintiéndose inadecuado…"
+    "html": "<a href=\"https://x.com/santisiri\" target=\"_blank\" rel=\"noopener\">@santisiri</a> <a href=\"https://x.com/santisiri\" target=\"_blank\" rel=\"noopener\">@santisiri</a>, tene un poco de empatía. el gil seguro paso el equivalente de 3 películas repitiendo el mismo guion en su auto alquilado, y después paso el resto del día mirando contenido similar producido por otro gil y sintiéndose inadecuado…"
   },
   {
     "id": "1876304039815889281",
@@ -1636,7 +1716,7 @@ window.__TWEETS = [
   {
     "id": "1873956787436810551",
     "date": "2024-12-31",
-    "html": "Since the  o3 demo, the AI intelligentsia remains flabbergasted that markets haven&#x27;t reacted more, reasoning investors must not grasp AGI/ASI&#x27;s true potential. Maybe markets don&#x27;t get it. But maybe the AI crowd doesn&#x27;t get markets.\n\n- Nvidia dominates the AI trade now. But for how long?\n- If OpenAI were public, how would you split capital between them?\n- What CAPEX is needed for Nvidia&#x27;s continued growth? What could cause even temporary CAPEX slowdown? How would markets react for a stock with such meteoric growth?\n- Even without capability slowdowns, the world has limits on immediate marginal utility. Tech deployment takes time.\n- What if Taiwan faces invasion?\n- What if Jensen Huang steps down?\n- What if Google commercializes TPUs? Or Amazon + Anthropic have a breakthrough?\n\nI understand Nvidia&#x27;s unique position and AI&#x27;s potentially unprecedented implications. But assuming there are no market complications between here and there seems naive!"
+    "html": "Since the  o3 demo, the AI intelligentsia remains flabbergasted that markets haven&#x27;t reacted more, reasoning investors must not grasp AGI/ASI&#x27;s true potential. Maybe markets don&#x27;t get it. But maybe the AI crowd doesn&#x27;t get markets.\n\n- Nvidia dominates the AI trade now. But for how long?\n- If OpenAI were public, how would you split capital between them?\n- What CAPEX is needed for Nvidia&#x27;s continued growth? What could cause even temporary CAPEX slowdown? How would markets react for a stock with such meteoric growth?\n- Even without capability slowdowns, the world has limits on immediate marginal utility. Tech deployment takes time.\n- What if Taiwan faces invasion?\n- What if Jensen Huang steps down?\n- What if Google commercializes TPUs? Or Amazon + Anthropic have a breakthrough?\n\nI understand Nvidia&#x27;s unique position and AI&#x27;s potentially unprecedented implications. But assuming there are no market complications between here and there seems naive!\n\n<a href=\"https://x.com/TheZvi\" target=\"_blank\" rel=\"noopener\">@TheZvi</a> what am I missing?"
   },
   {
     "id": "1873927750739959960",
@@ -1646,7 +1726,7 @@ window.__TWEETS = [
   {
     "id": "1871707641233424484",
     "date": "2024-12-25",
-    "html": "Here&#x27;s a letter signed by 108 economists opposing <a href=\"https://x.com/JMilei\" target=\"_blank\" rel=\"noopener\">@JMilei</a> &#x27;s policies. Of the 19 signatories from the USA, 10 were from <a href=\"https://x.com/UMassAmherst\" target=\"_blank\" rel=\"noopener\">@UMassAmherst</a>, my alma mater. Glancing at the UMass names, it&#x27;s not clear who has expertise in LatAm. Maybe it&#x27;s time to take it back <a href=\"https://x.com/UMassEcon\" target=\"_blank\" rel=\"noopener\">@UMassEcon</a> (h/t…",
+    "html": "Here&#x27;s a letter signed by 108 economists opposing <a href=\"https://x.com/JMilei\" target=\"_blank\" rel=\"noopener\">@JMilei</a> &#x27;s policies. Of the 19 signatories from the USA, 10 were from <a href=\"https://x.com/UMassAmherst\" target=\"_blank\" rel=\"noopener\">@UMassAmherst</a>, my alma mater. Glancing at the UMass names, it&#x27;s not clear who has expertise in LatAm. Maybe it&#x27;s time to take it back <a href=\"https://x.com/UMassEcon\" target=\"_blank\" rel=\"noopener\">@UMassEcon</a> (h/t <a href=\"https://x.com/tylercowen\" target=\"_blank\" rel=\"noopener\">@tylercowen</a>)",
     "images": [
       "/assets/tweets/1871707641233424484-GfmWXt2aAAAQLnY.png",
       "/assets/tweets/1871707641233424484-GfmWXt3bMAA3b6v.jpg",
@@ -1672,22 +1752,22 @@ window.__TWEETS = [
   {
     "id": "1871231179313361303",
     "date": "2024-12-23",
-    "html": "1/ <a href=\"https://x.com/littmath\" target=\"_blank\" rel=\"noopener\">@littmath</a> Your statement is reasonable and the pushback unfair. The distinction between brute forcing and grokking is real. You’re pointing out the fact that the models aren’t grokking these problems at the moment. By extension you’re stating that inference time compute can get you harder…"
+    "html": "1/ <a href=\"https://x.com/littmath\" target=\"_blank\" rel=\"noopener\">@littmath</a> Your statement is reasonable and the pushback unfair. The distinction between brute forcing and grokking is real. You’re pointing out the fact that the models aren’t grokking these problems at the moment. By extension you’re stating that inference time compute can get you harder answers without making models “smarter”. If humans could think 1M times faster and never relented, we’d also be able to solve much harder problems. But intuitively we understand that’s qualitatively different from a more latent form of intelligence."
   },
   {
     "id": "1870522539040207093",
     "date": "2024-12-21",
-    "html": "<a href=\"https://x.com/dsp_\" target=\"_blank\" rel=\"noopener\">@dsp_</a> <a href=\"https://x.com/AnthropicAI\" target=\"_blank\" rel=\"noopener\">@AnthropicAI</a> I’m curious about how the additional layer of abstraction helps. Claude can code, and APIs are accessed through code. Why do I need more than a glossary of all APIs and their documentation? There could even be a workflow where I search through all APIs and add the desired ones to…"
+    "html": "<a href=\"https://x.com/dsp_\" target=\"_blank\" rel=\"noopener\">@dsp_</a> <a href=\"https://x.com/AnthropicAI\" target=\"_blank\" rel=\"noopener\">@AnthropicAI</a> I’m curious about how the additional layer of abstraction helps. Claude can code, and APIs are accessed through code. Why do I need more than a glossary of all APIs and their documentation? There could even be a workflow where I search through all APIs and add the desired ones to the context intentionally. Build an easy way for me to manage all my API keys."
   },
   {
     "id": "1870520424209293620",
     "date": "2024-12-21",
-    "html": "8/ <a href=\"https://x.com/RobertElderSoft\" target=\"_blank\" rel=\"noopener\">@RobertElderSoft</a> <a href=\"https://x.com/karpathy\" target=\"_blank\" rel=\"noopener\">@karpathy</a> <a href=\"https://x.com/jeremyphoward\" target=\"_blank\" rel=\"noopener\">@jeremyphoward</a> @TheCurveConf To be clear, wealth is not bad. Money might be the best signal as far as allocating personal effort. But it can also add noise. For example, I often tell startups to never be someone’s best cash offer. Because then you can’t distinguish cash from curiosity optimizers."
+    "html": "8/ <a href=\"https://x.com/RobertElderSoft\" target=\"_blank\" rel=\"noopener\">@RobertElderSoft</a> <a href=\"https://x.com/karpathy\" target=\"_blank\" rel=\"noopener\">@karpathy</a> <a href=\"https://x.com/jeremyphoward\" target=\"_blank\" rel=\"noopener\">@jeremyphoward</a> <a href=\"https://x.com/TheCurveConf\" target=\"_blank\" rel=\"noopener\">@TheCurveConf</a> To be clear, wealth is not bad. Money might be the best signal as far as allocating personal effort. But it can also add noise. For example, I often tell startups to never be someone’s best cash offer. Because then you can’t distinguish cash from curiosity optimizers."
   },
   {
     "id": "1870519534177951798",
     "date": "2024-12-21",
-    "html": "7/ <a href=\"https://x.com/RobertElderSoft\" target=\"_blank\" rel=\"noopener\">@RobertElderSoft</a> <a href=\"https://x.com/karpathy\" target=\"_blank\" rel=\"noopener\">@karpathy</a> <a href=\"https://x.com/jeremyphoward\" target=\"_blank\" rel=\"noopener\">@jeremyphoward</a> I was recently at @TheCurveConf and met some of the smartest, most relevantly skilled people. Everyone there has a path to 99.x th percentile wealth. But many were optimizing for a deeper inner drive."
+    "html": "7/ <a href=\"https://x.com/RobertElderSoft\" target=\"_blank\" rel=\"noopener\">@RobertElderSoft</a> <a href=\"https://x.com/karpathy\" target=\"_blank\" rel=\"noopener\">@karpathy</a> <a href=\"https://x.com/jeremyphoward\" target=\"_blank\" rel=\"noopener\">@jeremyphoward</a> I was recently at <a href=\"https://x.com/TheCurveConf\" target=\"_blank\" rel=\"noopener\">@TheCurveConf</a> and met some of the smartest, most relevantly skilled people. Everyone there has a path to 99.x th percentile wealth. But many were optimizing for a deeper inner drive."
   },
   {
     "id": "1870516592511221977",
@@ -1832,7 +1912,7 @@ window.__TWEETS = [
   {
     "id": "801539493815717888",
     "date": "2016-11-23",
-    "html": "@BAcomex <a href=\"https://x.com/pablomartin537\" target=\"_blank\" rel=\"noopener\">@pablomartin537</a> Dale, charlemos."
+    "html": "<a href=\"https://x.com/BAcomex\" target=\"_blank\" rel=\"noopener\">@BAcomex</a> <a href=\"https://x.com/pablomartin537\" target=\"_blank\" rel=\"noopener\">@pablomartin537</a> Dale, charlemos."
   },
   {
     "id": "755632639013482500",
@@ -1892,12 +1972,12 @@ window.__TWEETS = [
   {
     "id": "578675373891715072",
     "date": "2015-03-19",
-    "html": "@asupian Our analytics team feels like the CIA &quot;Successes will be secret and failures will be trumpeted&quot;-Kennedy <a href=\"https://lnkd.in/b3Q62R5\" target=\"_blank\" rel=\"noopener\">https://lnkd.in/b3Q62R5</a>"
+    "html": "<a href=\"https://x.com/asupian\" target=\"_blank\" rel=\"noopener\">@asupian</a> Our analytics team feels like the CIA &quot;Successes will be secret and failures will be trumpeted&quot;-Kennedy <a href=\"https://lnkd.in/b3Q62R5\" target=\"_blank\" rel=\"noopener\">https://lnkd.in/b3Q62R5</a>"
   },
   {
     "id": "578672353242013697",
     "date": "2015-03-19",
-    "html": "@asupian shared this awesome article. He points out the similarities between doing analytics at a startup and working at the CIA."
+    "html": "<a href=\"https://x.com/asupian\" target=\"_blank\" rel=\"noopener\">@asupian</a> shared this awesome article. He points out the similarities between doing analytics at a startup and working at the CIA."
   },
   {
     "id": "575827564859498496",
@@ -1912,27 +1992,27 @@ window.__TWEETS = [
   {
     "id": "574389818928451584",
     "date": "2015-03-08",
-    "html": "@DylanWhitman BTW, this is my first Tweet dispute, hope all is well."
+    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> BTW, this is my first Tweet dispute, hope all is well."
   },
   {
     "id": "574389674602450944",
     "date": "2015-03-08",
-    "html": "@DylanWhitman in the long term, that might reduce total conversions, but long term is harder to measure."
+    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> in the long term, that might reduce total conversions, but long term is harder to measure."
   },
   {
     "id": "574389548341272576",
     "date": "2015-03-08",
-    "html": "@DylanWhitman sorry to keep going... but there are many shady ways to make users convert to your action of choice."
+    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> sorry to keep going... but there are many shady ways to make users convert to your action of choice."
   },
   {
     "id": "574378644077871104",
     "date": "2015-03-08",
-    "html": "@DylanWhitman Gotcha. We are just operating under different definitions of measurable. I was thinking units, like volts, watts, UXions."
+    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> Gotcha. We are just operating under different definitions of measurable. I was thinking units, like volts, watts, UXions."
   },
   {
     "id": "574375328065265664",
     "date": "2015-03-08",
-    "html": "@DylanWhitman Phew, that makes me feel better. Curious, what unit would you use to measure UX?"
+    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> Phew, that makes me feel better. Curious, what unit would you use to measure UX?"
   },
   {
     "id": "574373044166135808",
@@ -1942,7 +2022,7 @@ window.__TWEETS = [
   {
     "id": "574371747157311489",
     "date": "2015-03-08",
-    "html": "@DylanWhitman &quot;completely untrue&quot; is pretty strong. This is purely my opinion, but hoped to get a few solid points. Care to elaborate?"
+    "html": "<a href=\"https://x.com/DylanWhitman\" target=\"_blank\" rel=\"noopener\">@DylanWhitman</a> &quot;completely untrue&quot; is pretty strong. This is purely my opinion, but hoped to get a few solid points. Care to elaborate?"
   },
   {
     "id": "573876850390274049",
@@ -2082,7 +2162,7 @@ window.__TWEETS = [
   {
     "id": "8466185486",
     "date": "2010-01-31",
-    "html": "@WayoftheWizard Fear of being incorrect might deceive people from sharing constructive criticism-we should be welcoming of other&#x27;s thoughts."
+    "html": "<a href=\"https://x.com/WayoftheWizard\" target=\"_blank\" rel=\"noopener\">@WayoftheWizard</a> Fear of being incorrect might deceive people from sharing constructive criticism-we should be welcoming of other&#x27;s thoughts."
   },
   {
     "id": "8450277352",
