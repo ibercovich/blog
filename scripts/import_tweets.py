@@ -53,8 +53,133 @@ def load_js_array(zf: zipfile.ZipFile, name: str) -> list:
     return json.loads(raw[eq + 1 :])
 
 
+def build_article_links(
+    tweets: list[dict],
+    articles: list[dict],
+    article_metadata: list[dict],
+) -> dict[str, dict[str, str]]:
+    """Map article-post tweet IDs to title-only links on X."""
+    article_tweet_ids = {
+        item.get("articleMetadata", {}).get("tweetId")
+        for item in article_metadata
+    }
+    article_tweet_ids.discard(None)
+
+    titles_by_id = {}
+    for item in articles:
+        article = item.get("article", {})
+        article_id = str(article.get("id", ""))
+        title = article.get("title", "")
+        if article_id and title:
+            titles_by_id[article_id] = title
+
+    links = {}
+    for item in tweets:
+        tw = item["tweet"]
+        if tw["id_str"] not in article_tweet_ids:
+            continue
+        for url in tw.get("entities", {}).get("urls", []):
+            expanded = url.get("expanded_url") or url.get("expandedUrl") or ""
+            match = re.fullmatch(
+                r"https?://(?:www\.)?x\.com/i/article/(\d+)/?", expanded
+            )
+            if not match:
+                continue
+
+            article_id = match.group(1)
+            title = titles_by_id.get(article_id)
+            if title:
+                links[tw["id_str"]] = {
+                    "title": title,
+                    "url": f"https://x.com/i/article/{article_id}",
+                }
+            break
+
+    return links
+
+
 def parse_date(d: str) -> datetime:
     return datetime.strptime(d, "%a %b %d %H:%M:%S %z %Y")
+
+
+def parse_iso_date(d: str) -> datetime:
+    return datetime.fromisoformat(d.replace("Z", "+00:00"))
+
+
+def expand_urls(text: str, urls: list[dict]) -> str:
+    """Expand URL entities from either tweet or note-tweet records."""
+    for url in urls:
+        short = url.get("url") or url.get("shortUrl") or ""
+        expanded = (
+            url.get("expanded_url")
+            or url.get("expandedUrl")
+            or short
+        )
+        if short and expanded:
+            text = text.replace(short, expanded)
+    return text
+
+
+def expand_note_text(
+    ft: str,
+    created: datetime,
+    note_by_created: dict[datetime, str],
+    note_by_prefix: dict[str, str],
+) -> str:
+    """Replace a truncated tweet body with its full note-tweet text."""
+    suffix_match = re.search(r"(?P<suffix>(?:\s+https://t\.co/\S+)+\s*)$", ft)
+    suffix = suffix_match.group("suffix") if suffix_match else ""
+    body = ft[: suffix_match.start()] if suffix_match else ft
+    body = body.rstrip()
+
+    if not body.endswith("\u2026"):
+        return ft
+
+    note_text = note_by_created.get(created)
+    if note_text is None:
+        # Fall back to text matching for archives whose timestamps do not align.
+        truncated = body.rstrip("\u2026").strip()
+        candidates = [truncated]
+        without_reply_mentions = re.sub(
+            r"^(?:@[A-Za-z0-9_]{1,15}\s+)+", "", truncated
+        )
+        if without_reply_mentions != truncated:
+            candidates.append(without_reply_mentions)
+        for candidate in candidates:
+            note_text = note_by_prefix.get(candidate[:30])
+            if note_text is not None:
+                break
+
+    if note_text is None:
+        return ft
+
+    # Twitter omits automatic reply recipients from note-tweet text, so retain
+    # any leading handles from the regular tweet record.
+    leading_match = re.match(r"^(?:@[A-Za-z0-9_]{1,15}\s+)+", body)
+    leading_handles = (
+        re.findall(r"@[A-Za-z0-9_]{1,15}", leading_match.group(0))
+        if leading_match
+        else []
+    )
+    note_handles = []
+    note_remainder = note_text.lstrip()
+    while note_handle_match := re.match(
+        r"@[A-Za-z0-9_]{1,15}\b", note_remainder
+    ):
+        note_handles.append(note_handle_match.group(0))
+        note_remainder = note_remainder[note_handle_match.end() :].lstrip()
+
+    overlap = 0
+    for size in range(min(len(leading_handles), len(note_handles)), 0, -1):
+        if [h.casefold() for h in leading_handles[-size:]] == [
+            h.casefold() for h in note_handles[:size]
+        ]:
+            overlap = size
+            break
+    retained_handles = leading_handles[: len(leading_handles) - overlap]
+    leading = f"{' '.join(retained_handles)} " if retained_handles else ""
+
+    return f"{leading}{note_text}{suffix}"
 
 
 def extract_media(zf: zipfile.ZipFile, tid: str, tw: dict) -> list[str]:
@@ -91,30 +216,49 @@ def extract_media(zf: zipfile.ZipFile, tid: str, tw: dict) -> list[str]:
     return paths
 
 
-def process_tweet(tw: dict, note_by_prefix: dict[str, str], thread_num: int | None = None) -> dict:
+def restore_missing_media(
+    zf: zipfile.ZipFile, tweets: dict[str, dict]
+) -> int:
+    """Restore referenced tweet images that are present in the archive."""
+    archive_names = set(zf.namelist())
+    restored = 0
+
+    for entry in tweets.values():
+        for image_path in entry.get("images", []):
+            filename = Path(image_path).name
+            output_path = MEDIA_DIR / filename
+            if output_path.exists():
+                continue
+
+            archive_path = f"data/tweets_media/{filename}"
+            if archive_path not in archive_names:
+                continue
+
+            MEDIA_DIR.mkdir(parents=True, exist_ok=True)
+            output_path.write_bytes(zf.read(archive_path))
+            restored += 1
+
+    return restored
+
+
+def process_tweet(
+    tw: dict,
+    note_by_created: dict[datetime, str],
+    note_by_prefix: dict[str, str],
+    thread_num: int | None = None,
+) -> dict:
     """Convert a raw tweet dict into a clean data object with HTML formatting."""
     tid = tw["id_str"]
     ft = tw["full_text"]
     created = parse_date(tw["created_at"])
 
     # Expand with note-tweet full text
-    if ft.rstrip().endswith("\u2026"):
-        prefix = ft.rstrip().rstrip("\u2026").strip()[:30]
-        if prefix in note_by_prefix:
-            ft = note_by_prefix[prefix]
+    ft = expand_note_text(ft, created, note_by_created, note_by_prefix)
 
-    # Collect replacements to apply after escaping.
-    # Each entry: (start_index, end_index, original_text, html_replacement)
-    # We use the original text to find positions after URL expansion.
-    mentions = tw.get("entities", {}).get("user_mentions", [])
     urls = tw.get("entities", {}).get("urls", [])
 
     # Expand t.co URLs in the plain text first
-    for u in urls:
-        short = u.get("url", "")
-        expanded = u.get("expanded_url", short)
-        if short and expanded:
-            ft = ft.replace(short, expanded)
+    ft = expand_urls(ft, urls)
 
     # Remove trailing t.co media URLs
     ft = re.sub(r"\s*https://t\.co/\S+\s*$", "", ft)
@@ -126,20 +270,40 @@ def process_tweet(tw: dict, note_by_prefix: dict[str, str], thread_num: int | No
     # Escape HTML, then apply links and mentions
     ft = html_mod.escape(ft)
 
-    # Linkify URLs (on the already-escaped text)
+    # Linkify URLs and visible @mentions in one pass so archive metadata
+    # omissions cannot leave reply handles unlinked.
+    def linkify(match: re.Match) -> str:
+        value = match.group(0)
+        if value.startswith(("http://", "https://")):
+            trailing = ""
+            while value:
+                char = value[-1]
+                is_punctuation = char in ".,:!?"
+                is_semicolon = char == ";" and not value.endswith("&amp;")
+                is_unmatched_closer = (
+                    char in ")]}"
+                    and value.count(char)
+                    > value.count({")": "(", "]": "[", "}": "{"}[char])
+                )
+                if not (is_punctuation or is_semicolon or is_unmatched_closer):
+                    break
+                trailing = char + trailing
+                value = value[:-1]
+            return (
+                f'<a href="{value}" target="_blank" rel="noopener">{value}</a>'
+                f"{trailing}"
+            )
+        screen_name = value[1:]
+        return (
+            f'<a href="https://x.com/{screen_name}" target="_blank" '
+            f'rel="noopener">{value}</a>'
+        )
+
     ft = re.sub(
-        r"(https?://[^\s<>&]+)",
-        r'<a href="\1" target="_blank" rel="noopener">\1</a>',
+        r"https?://(?:[^\s<>&]|&amp;)+|(?<![\w@])@[A-Za-z0-9_]{1,15}\b",
+        linkify,
         ft,
     )
-
-    # Linkify @mentions
-    for m in mentions:
-        screen_name = m.get("screen_name", "")
-        if screen_name:
-            handle = f"@{screen_name}"
-            link = f'<a href="https://x.com/{screen_name}" target="_blank" rel="noopener">{handle}</a>'
-            ft = ft.replace(html_mod.escape(handle), link, 1)
 
     return {
         "id": tid,
@@ -245,11 +409,21 @@ def main():
 
     tweets = load_js_array(zf, "data/tweets.js")
     notes = load_js_array(zf, "data/note-tweet.js")
+    articles = load_js_array(zf, "data/article.js")
+    article_metadata = load_js_array(zf, "data/article-metadata.js")
+    article_links = build_article_links(
+        tweets,
+        articles,
+        article_metadata,
+    )
 
     # Build note-tweet lookup
+    note_by_created: dict[datetime, str] = {}
     note_by_prefix: dict[str, str] = {}
     for n in notes:
-        text = n["noteTweet"]["core"]["text"]
+        core = n["noteTweet"]["core"]
+        text = expand_urls(core["text"], core.get("urls", []))
+        note_by_created[parse_iso_date(n["noteTweet"]["createdAt"])] = text
         note_by_prefix[text[:30]] = text
 
     # Build edit dedup map: old_id -> newest_id
@@ -322,12 +496,32 @@ def main():
         tid = tw["id_str"]
         if tid in blocked_set:
             continue
-        media_paths = extract_media(zf, tid, tw)
-        if media_paths:
-            media_count += len(media_paths)
-        entry = process_tweet(tw, note_by_prefix, thread_nums.get(tid))
-        if media_paths:
-            entry["images"] = media_paths
+
+        if tid in article_links:
+            article = article_links[tid]
+            title = html_mod.escape(article["title"])
+            url = article["url"]
+            entry = {
+                "id": tid,
+                "date": parse_date(tw["created_at"]).strftime("%Y-%m-%d"),
+                "html": (
+                    f'<a href="{url}" target="_blank" '
+                    f'rel="noopener">{title}</a>'
+                ),
+            }
+        else:
+            media_paths = extract_media(zf, tid, tw)
+            if media_paths:
+                media_count += len(media_paths)
+            entry = process_tweet(
+                tw,
+                note_by_created,
+                note_by_prefix,
+                thread_nums.get(tid),
+            )
+            if media_paths:
+                entry["images"] = media_paths
+
         if tid not in all_tweets:
             new_count += 1
         all_tweets[tid] = entry
@@ -335,6 +529,10 @@ def main():
     print(f"New tweets added: {new_count}")
     print(f"Images extracted: {media_count}")
     print(f"Total tweets: {len(all_tweets)}")
+
+    restored_images = restore_missing_media(zf, all_tweets)
+    if restored_images:
+        print(f"Missing referenced images restored: {restored_images}")
 
     # Clean up orphaned images
     referenced = set()
