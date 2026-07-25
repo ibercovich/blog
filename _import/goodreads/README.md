@@ -63,7 +63,7 @@ any catalog UI that consumes the same endpoint.
   export containing private Goodreads data.
 
 The collection tests enforce the import count, unique titles, unique ISBNs,
-valid record fields, existing cover paths, 967 non-recommended imported books,
+valid record fields, existing cover paths, 995 non-recommended imported books,
 and 89 recommended curated books.
 
 ## Dependencies
@@ -105,7 +105,10 @@ export, use the addition count reported by the dry run.
 
 The importer is intentionally not a two-way Goodreads synchronization tool. It
 does not update the status, tags, dates, or other fields of existing records,
-and it does not remove records missing from an export.
+and it does not remove records missing from an export. The manifest is
+cumulative as well: subsequent imports preserve prior rows and append only
+new Goodreads IDs, so removing a book from Goodreads does not erase its
+reconciliation history.
 
 ## Applying researched synopses
 

@@ -72,7 +72,7 @@ class BooksCollectionTest < Minitest::Test
 
   def test_goodreads_import_is_complete_and_not_recommended
     imported = books.select { |book| book.key?("goodreads_id") }
-    assert_equal 967, imported.length
+    assert_equal 995, imported.length
     assert_unique imported.map { |book| book.fetch("goodreads_id").to_s }, "Goodreads ID"
     assert imported.all? { |book| book.fetch("goodreads_id").to_s.match?(/\A\d+\z/) }
     assert imported.none? { |book| book["recommended"] }, "imported books must not be recommended"
@@ -82,7 +82,7 @@ class BooksCollectionTest < Minitest::Test
     manifest = manifest_path.each_line.map do |line|
       JSON.parse(line) unless line.strip.empty?
     end.compact
-    assert_equal 1_056, manifest.length
+    assert_equal 1_084, manifest.length
     assert_unique manifest.map { |row| row.fetch("goodreads_id") }, "manifest Goodreads ID"
     assert manifest.all? { |row| ROOT.join(row.fetch("record")).file? }
     assert_equal imported.map { |book| book.fetch("goodreads_id").to_s }.sort,

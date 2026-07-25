@@ -354,8 +354,100 @@ def write_manifest(rows: list[dict]) -> None:
     atomic_write(MANIFEST_PATH, source)
 
 
+def read_manifest(books: list[BookFile]) -> list[dict]:
+    if not MANIFEST_PATH.exists():
+        return []
+
+    books_by_record = {
+        str(book.path.relative_to(ROOT)): book
+        for book in books
+    }
+    rows = []
+    seen_ids = set()
+    seen_records = set()
+    for line_number, line in enumerate(
+        MANIFEST_PATH.read_text(encoding="utf-8").splitlines(), start=1
+    ):
+        if not line.strip():
+            continue
+        try:
+            row = json.loads(line)
+        except json.JSONDecodeError as error:
+            raise ValueError(
+                f"{MANIFEST_PATH}:{line_number}: invalid JSON: {error.msg}"
+            ) from error
+        if not isinstance(row, dict):
+            raise ValueError(f"{MANIFEST_PATH}:{line_number}: row must be an object")
+
+        goodreads_id = row.get("goodreads_id")
+        if not isinstance(goodreads_id, str) or not re.fullmatch(r"\d+", goodreads_id):
+            raise ValueError(
+                f"{MANIFEST_PATH}:{line_number}: invalid Goodreads ID {goodreads_id!r}"
+            )
+        if goodreads_id in seen_ids:
+            raise ValueError(
+                f"{MANIFEST_PATH}:{line_number}: duplicate Goodreads ID {goodreads_id}"
+            )
+        seen_ids.add(goodreads_id)
+
+        record = row.get("record")
+        record_path = Path(record) if isinstance(record, str) else None
+        if (
+            record_path is None
+            or record_path.is_absolute()
+            or record_path.parts[:1] != ("_books",)
+            or len(record_path.parts) != 2
+            or record_path.suffix != ".md"
+        ):
+            raise ValueError(
+                f"{MANIFEST_PATH}:{line_number}: invalid record path {record!r}"
+            )
+        if record in seen_records:
+            raise ValueError(
+                f"{MANIFEST_PATH}:{line_number}: duplicate record path {record}"
+            )
+        seen_records.add(record)
+        book = books_by_record.get(record)
+        if not book:
+            raise ValueError(f"{MANIFEST_PATH}:{line_number}: missing record {record}")
+
+        if not isinstance(row.get("protected"), bool):
+            raise ValueError(
+                f"{MANIFEST_PATH}:{line_number}: protected must be boolean"
+            )
+        protected_record = PROTECTED_GOODREADS_IDS.get(goodreads_id)
+        if row["protected"]:
+            if protected_record != record_path.name:
+                raise ValueError(
+                    f"{MANIFEST_PATH}:{line_number}: protected Goodreads "
+                    f"{goodreads_id} must map to {protected_record!r}, not "
+                    f"{record_path.name!r}"
+                )
+        else:
+            if protected_record:
+                raise ValueError(
+                    f"{MANIFEST_PATH}:{line_number}: Goodreads {goodreads_id} "
+                    "must be marked protected"
+                )
+            record_goodreads_id = str(book.data.get("goodreads_id") or "")
+            if record_goodreads_id != goodreads_id:
+                raise ValueError(
+                    f"{MANIFEST_PATH}:{line_number}: Goodreads {goodreads_id} "
+                    f"does not match {record}'s ID {record_goodreads_id!r}"
+                )
+        if not isinstance(row.get("source"), dict):
+            raise ValueError(
+                f"{MANIFEST_PATH}:{line_number}: source must be an object"
+            )
+
+        rows.append(row)
+
+    return rows
+
+
 def run(csv_path: Path, dry_run: bool, expected_new: int | None) -> None:
     existing = read_books()
+    previous_manifest = read_manifest(existing)
     originals = {book.path: book.source for book in existing}
     by_name = {book.path.name: book for book in existing}
     by_goodreads = {}
@@ -412,7 +504,10 @@ def run(csv_path: Path, dry_run: bool, expected_new: int | None) -> None:
     additions = []
     matches = []
     warnings = preflight_warnings
-    manifest = []
+    manifest = list(previous_manifest)
+    manifest_by_goodreads = {
+        row["goodreads_id"]: row for row in previous_manifest
+    }
     planned_paths = set(by_name)
     planned_titles = set(title_keys)
 
@@ -470,22 +565,31 @@ def run(csv_path: Path, dry_run: bool, expected_new: int | None) -> None:
                 for key in isbn_equivalents(isbn):
                     by_isbn[key].append(target)
 
-        manifest.append(
-            {
-                "goodreads_id": goodreads_id,
-                "record": str(target.path.relative_to(ROOT)),
-                "protected": bool(protected_name),
-                "source": {
-                    "title": clean_text(row.get("Title")),
-                    "author": author_for(row),
-                    "isbn": isbn or None,
-                    "status": STATUS_MAP[clean_text(row.get("Exclusive Shelf"))],
-                    "collections": collections_for(row),
-                    "physical_copy": int(clean_text(row.get("Owned Copies")) or "0") > 0,
-                    "date_read": source_date_read(row),
-                },
-            }
-        )
+        manifest_entry = {
+            "goodreads_id": goodreads_id,
+            "record": str(target.path.relative_to(ROOT)),
+            "protected": bool(protected_name),
+            "source": {
+                "title": clean_text(row.get("Title")),
+                "author": author_for(row),
+                "isbn": isbn or None,
+                "status": STATUS_MAP[clean_text(row.get("Exclusive Shelf"))],
+                "collections": collections_for(row),
+                "physical_copy": int(clean_text(row.get("Owned Copies")) or "0") > 0,
+                "date_read": source_date_read(row),
+            },
+        }
+        previous_entry = manifest_by_goodreads.get(goodreads_id)
+        if previous_entry:
+            for field in ("record", "protected"):
+                if previous_entry[field] != manifest_entry[field]:
+                    raise ValueError(
+                        f"Goodreads {goodreads_id} no longer maps to its recorded "
+                        f"{field}: {previous_entry[field]!r} != {manifest_entry[field]!r}"
+                    )
+        else:
+            manifest.append(manifest_entry)
+            manifest_by_goodreads[goodreads_id] = manifest_entry
 
     if expected_new is not None and len(additions) != expected_new:
         raise ValueError(f"expected {expected_new} new books, reconciled {len(additions)}")
