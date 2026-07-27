@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Speed Is THE Primary Business Strategy"
+title: Speed Is THE Primary Business Strategy
 author: Mike Cassidy
 date: 2026-07-26 00:00:00 -0700
-description: Mike Cassidy on making speed a single, consistent strategy across fundraising, hiring, product development, sales, marketing, and pivots.
+description: Mike Cassidy on making speed a single, consistent strategy across
+  fundraising, hiring, product development, sales, marketing, and pivots.
 categories: []
 ---
 
-> **Ivan's note:** This is one of those essays that I often come back to. I can't find it online, so I wanted to have a copy here to share with people. It is adapted from a talk Mike Cassidy gave on October 23, 2010.
+> **Ivan's note:** I often come back to this presentation. I can't find it online, so I wanted to have a copy here to share with people. It is adapted from a talk Mike Cassidy gave on October 23, 2010.
 
 ![Title slide: Speed As THE Primary Business Strategy](/assets/speed-primary-business-strategy/speed-strategy-01-title.jpg)
 
