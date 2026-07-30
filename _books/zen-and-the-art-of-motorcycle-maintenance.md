@@ -6,6 +6,7 @@ cover: "/assets/covers/zen-and-the-art-of-motorcycle-maintenance.jpg"
 color: "#FDFEFD"
 status: "read"
 collections: []
+physical_copy: true
 recommended: true
 synopsis: "A father and son embark on a summer motorcycle trip across America, and the journey becomes a philosophical exploration of fundamental questions about how to live. Through the craft of motorcycle maintenance, the narrator attempts to reconcile science, religion, and humanism while reckoning with his own past."
 ---
