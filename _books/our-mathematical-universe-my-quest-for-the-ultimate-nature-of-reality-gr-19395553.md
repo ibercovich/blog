@@ -7,7 +7,7 @@ cover: /assets/covers/our-mathematical-universe-my-quest-for-the-ultimate-nature
 color: '#234B66'
 status: read
 collections: []
-physical_copy: false
+physical_copy: true
 recommended: false
 finished_on: '2024-12-24'
 synopsis: Our Mathematical Universe develops physicist Max Tegmark's Mathematical Universe Hypothesis, which holds that physical reality is itself a mathematical structure rather than something merely described by mathematics. Tegmark surveys modern cosmology, quantum mechanics, and multiverse theory to build the case for this hypothesis and explore its implications for the nature of existence.

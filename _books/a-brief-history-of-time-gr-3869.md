@@ -7,7 +7,7 @@ cover: /assets/covers/a-brief-history-of-time-gr-3869.jpg
 color: '#0A121D'
 status: want_to_read
 collections: []
-physical_copy: false
+physical_copy: true
 recommended: false
 synopsis: The book surveys modern cosmology through questions about the universe’s origin, structure, boundaries, and eventual fate. It explains ideas including the big bang, black holes, quantum mechanics, relativity, the arrow of time, and the search for a unified theory capable of describing the fundamental forces of nature.
 ---

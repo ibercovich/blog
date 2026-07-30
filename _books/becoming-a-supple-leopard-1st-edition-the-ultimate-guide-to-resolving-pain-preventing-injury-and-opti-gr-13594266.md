@@ -7,7 +7,7 @@ cover: /assets/covers/becoming-a-supple-leopard-1st-edition-the-ultimate-guide-t
 color: '#AFB8C3'
 status: read
 collections: []
-physical_copy: false
+physical_copy: true
 recommended: false
 synopsis: This movement and mobility manual explains how posture, spinal organization, joint position, and torque affect athletic performance and injury risk. It teaches readers to diagnose inefficient movement, perform common strength exercises with stable mechanics, and use targeted soft-tissue and joint mobilizations to address stiffness, pain, restricted range of motion, and recovery.
 ---

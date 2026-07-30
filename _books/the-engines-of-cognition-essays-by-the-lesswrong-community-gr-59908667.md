@@ -7,7 +7,7 @@ cover: /assets/covers/the-engines-of-cognition-essays-by-the-lesswrong-community
 color: '#D1D0D2'
 status: want_to_read
 collections: []
-physical_copy: false
+physical_copy: true
 recommended: false
 synopsis: This collection gathers over fifty essays by contributors to the LessWrong rationalist community, covering topics from epistemology and incentives to modularity in complex systems and civilizational risk. The essays take varied forms—thought experiments, literature reviews, philosophical arguments, and mathematical explanations—unified by an effort to understand and improve the art of rationality.
 ---
