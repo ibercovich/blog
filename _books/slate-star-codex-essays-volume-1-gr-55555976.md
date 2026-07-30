@@ -1,5 +1,5 @@
 ---
-title: 'Slate Star Codex Essays: Volume 1'
+title: 'Slate Star Codex Essays: Volume I'
 author: Alexander, Scott
 goodreads_id: '55555976'
 isbn: '9781735797106'
@@ -7,7 +7,7 @@ cover: /assets/covers/slate-star-codex-essays-volume-1-gr-55555976.jpg
 color: '#354052'
 status: want_to_read
 collections: []
-physical_copy: false
+physical_copy: true
 recommended: false
 synopsis: This volume collects twenty-eight Slate Star Codex essays written in 2013 and 2014 on philosophy, politics, economics, religion, science, culture, history, mathematics, and society. The pieces use arguments, dialogues, stories, reviews, and satire to explore subjects including coordination failures, online outrage, political ideology, artificial intelligence, ethics, and human motivation.
 ---

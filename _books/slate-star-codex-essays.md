@@ -1,5 +1,5 @@
 ---
-title: "Slate Star Codex Essays"
+title: "Slate Star Codex Essays: Volume III"
 author: "Alexander, Scott"
 isbn: "9781735797120"
 cover: "/assets/covers/slate-star-codex-essays.jpg"
