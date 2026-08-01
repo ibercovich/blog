@@ -1,10 +1,10 @@
 # Goodreads library import
 
-This directory records the migration from Goodreads into the Git-backed Decap
+This guide documents the migration from Goodreads into the Git-backed Decap
 books collection. The collection itself is the database: every book is one
-front-matter-only Markdown file in `_books/`. Files here are import manifests,
-research provenance, and resumable processing reports; they are not an
-intermediate database used by the website.
+front-matter-only Markdown file in `_books/`. Import manifests, research
+provenance, and resumable processing reports live in `_import/goodreads/`;
+they are not an intermediate database used by the website.
 
 The original migration reconciled a complete 1,056-row Goodreads export with
 89 existing curated records and added 967 new records. Existing records are
@@ -39,10 +39,10 @@ any catalog UI that consumes the same endpoint.
 | Path | Purpose |
 | --- | --- |
 | `_books/*.md` | Canonical, Decap-editable book records. |
-| `library.jsonl` | One reconciliation row per Goodreads export row, including its target record and whether that record was protected. |
-| `synopses/*.jsonl` | Researched synopsis inputs and their source URLs. These preserve provenance after the synopsis is copied into `_books`. |
-| `covers.jsonl` | Resumable cover report with status, candidates, dimensions, hashes, selected source, and spine color. |
-| `cover-overrides.jsonl` | Manually reviewed cover URLs used when automatic candidates are absent or wrong. |
+| `_import/goodreads/library.jsonl` | One reconciliation row per Goodreads export row, including its target record and whether that record was protected. |
+| `_import/goodreads/synopses/*.jsonl` | Researched synopsis inputs and their source URLs. These preserve provenance after the synopsis is copied into `_books`. |
+| `_import/goodreads/covers.jsonl` | Resumable cover report with status, candidates, dimensions, hashes, selected source, and spine color. |
+| `_import/goodreads/cover-overrides.jsonl` | Manually reviewed cover URLs used when automatic candidates are absent or wrong. |
 | `assets/covers/*.jpg` | Normalized local cover files used by the site. |
 
 ## Invariants
@@ -172,7 +172,8 @@ Without a Google key, the script checks reviewed overrides, Open Library by
 validated ISBN, and Goodreads by exact Goodreads ID. It verifies the response
 type, decodes the image, rejects placeholders and implausible images, enforces
 minimum dimensions and aspect ratio, normalizes accepted images to JPEG, and
-calculates the spine color. Every result is checkpointed in `covers.jsonl`.
+calculates the spine color. Every result is checkpointed in
+`_import/goodreads/covers.jsonl`.
 
 `--resume` skips results that are still valid on disk and retries transient
 network failures. It also preserves terminal failures so a long run can be
@@ -180,7 +181,8 @@ restarted without repeating settled work.
 
 ### Manually reviewed covers
 
-Add one compact JSON object per line to `cover-overrides.jsonl`:
+Add one compact JSON object per line to
+`_import/goodreads/cover-overrides.jsonl`:
 
 ```json
 {"goodreads_id":"12345","source_url":"https://publisher.example/cover.jpg","source_page":"https://publisher.example/book","note":"Official publisher cover for the matching edition."}
@@ -233,7 +235,8 @@ editing a book through Decap.
 
 - Commit and push small, validated checkpoints. A pushed feature branch is a
   backup, but it is not a production deployment.
-- `library.jsonl` and `covers.jsonl` are written atomically.
+- `_import/goodreads/library.jsonl` and
+  `_import/goodreads/covers.jsonl` are written atomically.
 - Cover assets and book records are installed independently, so completed work
   survives an interrupted run.
 - After interruption, inspect `git status`, validate any partial synopsis JSONL,
