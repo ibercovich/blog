@@ -183,6 +183,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 
 ### Personal Philosophy & Meaning
 
+- The purpose of life is the pursuit of happiness and achievement.
 - Pursue radical work‑life integration
 - Be in flow by doing things for their own sake.
 - Find your duty and do it without fretting about the outcome
