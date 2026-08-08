@@ -8,15 +8,15 @@ permalink: /investments/
 <script>
 window.__INVESTMENTS = {
   principal: [
-    { name: "ChipAgents", url: "https://chipagents.ai/", role: "Board Member", notes: "First Investor" },
-    { name: "Rogo", url: "https://rogo.ai/", role: "2nd Investor (Seed)", notes: "Hired CTO Tumas Rackaitis" },
-    { name: "Unwrap", url: "https://www.unwrap.ai/", role: "Co-Founder, Investor", notes: "Incubated at AI2" },
-    { name: "PromptLayer", url: "https://www.promptlayer.com/", role: "Lead (Seed)" },
-    { name: "Userpilot", url: "https://userpilot.com/", role: "Board Member" },
-    { name: "HeyTutor", url: "https://heytutor.com/", role: "CEO, Board" },
-    { name: "Yogi", url: "https://www.meetyogi.com/", role: "Board Member" },
-    { name: "Voyager Portal", url: "https://www.voyagerportal.com/", role: "Board Member" },
-    { name: "Graphiq", role: "VP Eng., then GM", notes: "Acquired by Amazon 2017" }
+    { name: "ChipAgents", url: "https://chipagents.ai/" },
+    { name: "Rogo", url: "https://rogo.ai/" },
+    { name: "Unwrap", url: "https://www.unwrap.ai/" },
+    { name: "PromptLayer", url: "https://www.promptlayer.com/" },
+    { name: "Userpilot", url: "https://userpilot.com/" },
+    { name: "HeyTutor", url: "https://heytutor.com/" },
+    { name: "Yogi", url: "https://www.meetyogi.com/" },
+    { name: "Voyager Portal", url: "https://www.voyagerportal.com/" },
+    { name: "Graphiq", notes: "Acquired by Amazon" }
   ],
   scop: [
     { name: "Pearly", url: "https://www.pearly.co/" },
