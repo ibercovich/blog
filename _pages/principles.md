@@ -195,6 +195,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Hedonistic freedom won't bring you happiness.
 - Amor Fati: love one's destiny / fate.
 - Find the bottomless well within.
+- When the light of consciousness illuminates a part of our mind, it highlights our values at some deep level.
 - I'm the main character of my own life, and that's okay.
 - Life is an adventure of self‑discovery.
 - Get the most out of getting the most of.
