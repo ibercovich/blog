@@ -10,15 +10,16 @@ A list of principles, organized into categories, in no particular order. Very fe
 ### Epistemology & Cognition
 
 * The map is not the territory. — Alfred Korzybski
+* Cogito, ergo sum. — René Descartes
 * Curiosity is the First Virtue — Eliezer Yudkowsky
-* Everything that can be destroyed by truth, shall be
+* That which can be destroyed by the truth should be. — P. C. Hodgell
 * Context is that which is scarce
 
   * Keep building deeper and longer context by focusing on the same topics
 * Plain text is more conducive to deep reasoning than rich media
 * You can get more mileage from thinking than just being smart
 * Scrolling and reading too much drowns out your inner voice.
-* Have Will to Think
+* Have Will to Think — Enrico Fermi
 
   * Put energy into thinking deeply
 * Do your homework - be the most prepared person in the room
@@ -54,7 +55,7 @@ A list of principles, organized into categories, in no particular order. Very fe
   * e.g.: commit to public speaking, workshops/conferences, exercise with friends
 * Pursue visions
 * Make no little plans; they have no magic to stir men's blood. — Daniel Burnham
-* Do not go where the path may lead, go instead where there is no path and leave a trail.
+* I will not follow where the path may lead, but I will go where there is no path, and I will leave a trail. — Muriel Strode
 
   * An agentic individual is someone who takes an active role in shaping their life, making choices, and pursuing goals rather than passively reacting to circumstances.
 * Run your own race
@@ -71,7 +72,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Live the most unlikely version of your life
 * Try new things regularly
 
-  * "You won't conquer the oceans if you stay within sight of the shore."
+  * One doesn't discover new lands without consenting to lose sight of the shore for a very long time. — André Gide
 * Relentless is really hard to compete with.
 * Build a life. Don't run away from it.
 * You don't do anyone any favors by lurking, put yourself out there!
@@ -101,7 +102,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 * A hurt ego can lead to greatness
 * Some people do well during struggle
 * When you first feel like quitting, go a bit longer, and then re‑evaluate
-* If you're split on a difficult decision take the path more difficult in the short term
+* Simple heuristic: If you're evenly split on a difficult decision, take the path more painful in the short term. — Naval Ravikant
 * Fear is almost always a reason to lean in
 
   * Any really strong reaction is a clue that we should do something.
@@ -113,7 +114,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 ### Social Dynamics & Coordination
 
 * Trust is the greatest economic force
-* Culture is the worst behavior that you tolerate
+* The culture of any organization is shaped by the worst behavior the leader is willing to tolerate. — Steve Gruenert and Todd Whitaker
 * Culture is what happens on the margins
 * Great company/team culture is best manifested in the form of frequent positive surprises.
 * Communication is both essential and an overhead.
@@ -147,7 +148,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Invade an institution and take over from within
 
   * How people amassed incredible power
-* Destroy your enemy, Totally
+* Crush your enemy totally. — Robert Greene
 * Build enduring institutions
 * The youth pushes, the wise steer
 * Be an instigator
@@ -215,7 +216,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Customers want fewer vendors
 * Start with the Demo
 * The world is full of signals. Make sense of them.
-* Information is the resolution of uncertainty.
+* Information is the resolution of uncertainty. — Claude Shannon
 
 ### Personal Philosophy & Meaning
 
@@ -223,14 +224,14 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Pursue radical work‑life integration
 * Be in flow by doing things for their own sake.
 * Find your duty and do it without fretting about the outcome
-* "The meaning of life is to find your gift and the purpose is to give it away"
+* The purpose of life is to discover your gift. The work of life is to develop it. The meaning of life is to give your gift away. — David Viscott
 * It's much easier to work on things that are exciting to you.
 
   * Follow your compulsion
-* Desire is a contract you make with yourself to be unhappy until you succeed.
-* Happiness means to be content. Success requires dissatisfaction. Pick one.
+* Desire's a contract you make to be unhappy until you get what you want. — Naval Ravikant
+* Happiness is being satisfied with what you have. Success comes from dissatisfaction. Choose. — Naval Ravikant
 * Hedonistic freedom won't bring you happiness.
-* Amor Fati: love one's destiny / fate.
+* Amor fati: let that be my love henceforth! — Friedrich Nietzsche
 * Find the bottomless well within.
 * When the light of consciousness illuminates a part of our mind, it highlights our values at some deep level.
 * I'm the main character of my own life, and that's okay.
@@ -238,7 +239,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Get the most out of getting the most of.
 * "I am not done" — John Maeda
 * Divine discontent with our performance — David Ogilvy
-* We live in an age of infinite leverage, so you have to strive to be the best.
+* We live in an age of infinite leverage, and the economic rewards for genuine intellectual curiosity have never been higher. — Naval Ravikant
 * The world is a museum of passion projects. — John Collison
 
   * How much tenacity *everything* requires. That hotel, that park, that railway.
