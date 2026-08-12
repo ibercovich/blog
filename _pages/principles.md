@@ -10,8 +10,8 @@ A list of principles, organized into categories, in no particular order. Very fe
 
 ### Epistemology & Cognition
 
-- The map is not the territory.
-- Curiosity is the First Virtue
+- The map is not the territory. — Alfred Korzybski
+- Curiosity is the First Virtue — Eliezer Yudkowsky
 - Everything that can be destroyed by truth, shall be
 - Context is that which is scarce
   - Keep building deeper and longer context by focusing on the same topics
@@ -32,34 +32,34 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Introspection promotes Inaction
   - Introspection is important, but during times of high agency it can be counter-productive. Introspective people already have contemplated many scenarios and should be able to trust their gut during a critical period.
 - AI is an intelligence amplifier, your output is proportional to your input
-- That which can be asserted without evidence, can be dismissed without evidence
+- That which can be asserted without evidence, can be dismissed without evidence — Christopher Hitchens
 - The educated man can entertain an idea without accepting it.
-  - Aristotle
 
 ### Agency & Optimization
 
 - Solve for freedom: complete autonomy of one's schedule
 - Take responsibility so agency is within
 - Action precedes motivation.
-- Vision without execution is hallucination, Edison
-- Speed is THE primary business strategy
+- Vision without execution is hallucination
+- Speed is THE primary business strategy — Mike Cassidy
 - Relentless force applied consistently
 - Uncomfortable activity leads to growth.
   - Comfort leads to stagnation.
 - Use world entanglement as a forcing functions to accomplish things
   - e.g.: commit to public speaking, workshops/conferences, exercise with friends
 - Pursue visions
-- "Make no little plans; they have no magic to stir men's blood." Daniel Burnham
-- "Do not go where the path may lead, go instead where there is no path and leave a trail." Ralph Waldo Emerson
+- "Make no little plans; they have no magic to stir men's blood." — Daniel Burnham
+- "Do not go where the path may lead, go instead where there is no path and leave a trail."
   - An agentic individual is someone who takes an active role in shaping their life, making choices, and pursuing goals rather than passively reacting to circumstances.
 - Run your own race
 - Be comfortable with low status - avoid status games
-- Keep your identity small
+- Keep your identity small — Paul Graham
 - Put yourself in environments where you have to perform to your utmost
+- "Instead of valuing your work in terms of what you get in return, consider how much value you can add to the work itself. Do great work."
 - Maximize your amplitude
   - Double down when you feel energized and intentionally rest when drained
-- Do hard things, do your thing, do it for decades
-  - Live an Asymmetric life
+- Do hard things, do your thing, do it for decades — Graham Weaver
+  - Live an Asymmetric life — Graham Weaver
 - Live the most unlikely version of your life
 - Try new things regularly
   - "You won't conquer the oceans if you stay within sight of the shore."
@@ -74,14 +74,14 @@ A list of principles, organized into categories, in no particular order. Very fe
 
 - Conditional probabilities are not in your favor
   - e.g.: if selecting for wealth, parenting quality will go down
-- Luck Is What Happens When Preparation Meets Opportunity, Seneca
-- Increase surface area of luck
+- Luck Is What Happens When Preparation Meets Opportunity
+- Increase surface area of luck — Jason Roberts
 - Skill is knowing when you've gotten lucky
 - Outcomes are correlated to luck inversely to its dependence on skill
   - Eg: beating you at a game of chess is probably skill, beating you at a hand of poker is luck
 - The efficient market hypothesis is a lie
 - Never ever ever lose at the finish line. Win all deals.
-- Cutting losses quickly is the foremost rule of speculating
+- Cutting losses quickly is the foremost rule of speculating — Edwin Lefèvre
   - Set a stop‑loss at e.g. -5% but wait a month to avoid wash rule
 - Folding (as in poker) is only a small mistake
 - What can go right: avoid cynicism and focus on the positives.
@@ -101,6 +101,10 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Trust is the greatest economic force
 - Culture is the worst behavior that you tolerate
 - Culture is what happens on the margins
+- Great company/team culture is best manifested in the form of frequent positive surprises.
+- Communication is both essential and an overhead. Organize to minimize unnecessary communication.
+- Goals and Milestones should be exciting. Bring a marketing mindset when crafting internal objectives.
+- It's good to have a mission/values and recruit accordingly. Diversity of thought taken too far leads to an organization where the intersection of ideas == null.
 - Find your people: only talk to 10s and the occasional 9
   - Work with people you really respect
   - There are some people who, after you talk to them, you feel more energized and you want to conquer the world or climb a mountain.
@@ -129,15 +133,15 @@ A list of principles, organized into categories, in no particular order. Very fe
 
 ### Resource Allocation & Capital
 
-- "Market is a voting machine in the short term and a weighing machine in the long term", Ben Graham
+- "Market is a voting machine in the short term and a weighing machine in the long term." — Benjamin Graham
 - The more you know the less you diversify
   - Most people are ignorant and don't diversify enough
   - Build wealth by owning a lot of a great asset
-- Losers average losers
+- Losers average losers — Paul Tudor Jones
   - On dollar cost averaging stocks on the way down
-- It's not just what you buy, what you pay counts.
-- Good investing doesn't come from buying good things, but from buying things well.
-- There's no asset so good that it can't become overpriced and thus dangerous, and there are few assets so bad that they can't get cheap enough to be a bargain.
+- It's not just what you buy, what you pay counts. — Howard Marks
+- Good investing doesn't come from buying good things, but from buying things well. — Howard Marks
+- There's no asset so good that it can't become overpriced and thus dangerous, and there are few assets so bad that they can't get cheap enough to be a bargain. — Howard Marks
 - Time is the denominator: a week is 2% of the year
 - Stock compensation is a way to "borrow" from employees.
 - A lot of wealth is made through deal‑making between private parties
@@ -153,41 +157,40 @@ A list of principles, organized into categories, in no particular order. Very fe
 - Do a review of your year
   - Every year, write it out, figure out what was good and what was bad, use this to make your goals for the next year.
 - Doing as much as you can every day is a form of life extension.
-- Talent is the best asset class
+- Talent is the best asset class — Graham Duncan
 - Own companies and hold them forever
 - Invest early in people you know and where you share values
-- The Core Task of Investing Is Making Predictions About the Future. Neither Doing More Work nor Having Higher Conviction Leads to Better Predictive Accuracy.
+- The core task of investing is making predictions about the future. Neither doing more work nor having higher conviction leads to better predictive accuracy. — Brian Chingono
 - You can't fight the distribution
   - If an asset class has power law returns, your portfolio will have power law characteristics
 
 ### Systems Thinking & Emergence
 
-- The purpose of a system is what it does
+- The purpose of a system is what it does — Stafford Beer
   - (there was a debate about this on ACX, but it still resonates with me)
-- Technological advancements that enhance resource use efficiency often lead to higher, not lower, consumption.- Jevons' Paradox.
+- Technological advancements that enhance resource use efficiency often lead to higher, not lower, consumption. — Jevons' paradox.
   - demand for compute, like energy, can be infinitely high at low enough prices
 - Software was a layer below humans; now software will be in the same layer as humans
-- "The future is already here, it's just not evenly distributed". William Gibson
+- "The future is already here, it's just not evenly distributed." — William Gibson
 - Move to where the action is. Agglomeration effects are powerful.
-- The best way to predict the future is to invent it
+- The best way to predict the future is to invent it — Alan Kay
 - Consider problems that don't have a clear cost function (e.g. generative AI)
 - Productivity as measured by GDP ignores important factors.
   - Phone/elevator operators added no value. Less wasted time everywhere.
-- "I just don't change jobs" - Jensen Huang
+- "I just don't change jobs" — Jensen Huang
   - I think there is an idea here where one continues to expand instead of quitting and having to restart. I don't think this means to stay on the same job forever. But perhaps is about waiting for an inbound opportunity instead of looking to leave.
 - Customers want fewer vendors
 - Start with the Demo
 - The world is full of signals. Make sense of them.
 - "Information is the resolution of uncertainty."
-  - Claude Shannon
 
 ### Personal Philosophy & Meaning
 
-- The purpose of life is the pursuit of happiness and achievement.
+- The purpose of life is the pursuit of happiness and achievement. — Victor Niederhoffer
 - Pursue radical work‑life integration
 - Be in flow by doing things for their own sake.
 - Find your duty and do it without fretting about the outcome
-- "The meaning of life is to find your gift and the purpose is to give it away", Picasso
+- "The meaning of life is to find your gift and the purpose is to give it away"
 - It's much easier to work on things that are exciting to you.
   - Follow your compulsion
 - Desire is a contract you make with yourself to be unhappy until you succeed.
@@ -199,10 +202,10 @@ A list of principles, organized into categories, in no particular order. Very fe
 - I'm the main character of my own life, and that's okay.
 - Life is an adventure of self‑discovery.
 - Get the most out of getting the most of.
-- "I am not done", John Maeda
-- "Divine discontent with our performance", Ogilvy
+- "I am not done"
+- "Divine discontent with our performance" — David Ogilvy
 - We live in an age of infinite leverage, so you have to strive to be the best.
-- The world is a museum of passion projects.
+- The world is a museum of passion projects. — John Collison
   - How much tenacity _everything_ requires. That hotel, that park, that railway.
 - Your dream has to be externally focused – service, rather than self serving
 - Your attitude determines your attitude.
@@ -217,11 +220,10 @@ A list of principles, organized into categories, in no particular order. Very fe
   - If we were in a deserted island and had to survive, a failed project would just be a learning experience.
 - Don't believe everything you think.
 - There's who we think we should be and who we are best at being, and often they are not the same. - Me
-- "My biggest goal for myself is that my drift is back to real—back to the real me."
-  - Chris Sacca
+- "My biggest goal for myself is that my drift is back to real—back to the real me." — Chris Sacca
 - To underestimate oneself is no more virtuous than to overestimate oneself.
-- Get busy living or get busy dying.
-  - Shawshank Redemption 
+- Get busy living or get busy dying. — Stephen King
+  - From _Rita Hayworth and Shawshank Redemption_.
 - We pass our time to forget time is passing.
 
 ### Similar Lists
