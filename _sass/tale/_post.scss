@@ -35,6 +35,11 @@
     text-align: justify;
   }
 
+  // kramdown wraps loose list items in <p>; keep them flush with tight items
+  li p {
+    margin: 0;
+  }
+
   p a,
   li a,
   blockquote a {
