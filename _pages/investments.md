@@ -68,7 +68,8 @@ window.__INVESTMENTS = {
     { name: "Harbor", url: "https://harborframework.com/" },
     { name: "Quaise Energy", url: "https://www.quaise.com/" },
     { name: "Mulberry Industries", url: "https://www.mulberryindustries.com/" },
-    { name: "Made by Thomas", url: "https://madebythomas.ai/" }
+    { name: "Made by Thomas", url: "https://madebythomas.ai/" },
+    { name: "Strange Loop Research", url: "https://strangeloopresearch.com/" }
   ]
 };
 </script>

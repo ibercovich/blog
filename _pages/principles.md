@@ -18,7 +18,7 @@ A list of principles, organized into categories, in no particular order. Very fe
   * Keep building deeper and longer context by focusing on the same topics
 * Plain text is more conducive to deep reasoning than rich media
 * You can get more mileage from thinking than just being smart
-* Scrolling and reading too much drowns out your inner voice.
+* Scrolling and reading too much drowns out your inner voice. — from Nabeel Qureshi's website
 * Have Will to Think — Enrico Fermi
 
   * Put energy into thinking deeply
@@ -61,7 +61,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Run your own race
 * Be comfortable with low status - avoid status games
 * Keep your identity small — Paul Graham
-* Put yourself in environments where you have to perform to your utmost
+* Put yourself in environments where you have to perform to your utmost — from Nabeel Qureshi's website
 * "Instead of valuing your work in terms of what you get in return, consider how much value you can add to the work itself. Do great work."
 * Maximize your amplitude
 
@@ -75,7 +75,7 @@ A list of principles, organized into categories, in no particular order. Very fe
   * One doesn't discover new lands without consenting to lose sight of the shore for a very long time. — André Gide
 * Relentless is really hard to compete with.
 * Build a life. Don't run away from it.
-* You don't do anyone any favors by lurking, put yourself out there!
+* You don't do anyone any favors by lurking, put yourself out there! — from Nabeel Qureshi's website
 * You can just do things.
 * Action produces information.
 * Structure is not the opposite of freedom; freedom without structure can turn into aimlessness
@@ -128,8 +128,8 @@ A list of principles, organized into categories, in no particular order. Very fe
   * Diversity of thought taken too far leads to an organization where the intersection of ideas == null.
 * Find your people: only talk to 10s and the occasional 9
 
-  * Work with people you really respect
-  * There are some people who, after you talk to them, you feel more energized and you want to conquer the world or climb a mountain.
+  * Work with people you really respect — from Nabeel Qureshi's website
+  * There are some people who, after you talk to them, you feel more energized and you want to conquer the world or climb a mountain. — from Nabeel Qureshi's website
 * Good relationships require high expectations and high support
 * Trust is consistency over time
 * Your network is your net‑worth
@@ -181,11 +181,11 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Self-made wealth signals competence
 * Life begins with more time than money; and ends with more money than time.
 * Invest time with purpose and meaning
-* Pay attention to your production/consumption balance. If you're only consuming and not producing, fix that.
-* Do a review of your year
+* Pay attention to your production/consumption balance. If you're only consuming and not producing, fix that. — from Nabeel Qureshi's website
+* Do a review of your year — from Nabeel Qureshi's website
 
   * Every year, write it out, figure out what was good and what was bad, use this to make your goals for the next year.
-* Doing as much as you can every day is a form of life extension.
+* Doing as much as you can every day is a form of life extension. — from Nabeel Qureshi's website
 * Talent is the best asset class — Graham Duncan
 * Own companies and hold them forever
 * Invest early in people you know and where you share values
@@ -204,7 +204,7 @@ A list of principles, organized into categories, in no particular order. Very fe
   * demand for compute, like energy, can be infinitely high at low enough prices
 * Software was a layer below humans; now software will be in the same layer as humans
 * "The future is already here, it's just not evenly distributed." — William Gibson
-* Move to where the action is. Agglomeration effects are powerful.
+* Move to where the action is. Agglomeration effects are powerful. — from Nabeel Qureshi's website
 * The best way to predict the future is to invent it — Alan Kay
 * Consider problems that don't have a clear cost function (e.g. generative AI)
 * Productivity as measured by GDP ignores important factors.
