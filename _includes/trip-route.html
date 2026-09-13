@@ -1,0 +1,29 @@
+<section class="trip-route" aria-labelledby="trip-route-title">
+  <div class="trip-route-heading">
+    <h2 id="trip-route-title">Our route</h2>
+    <div class="trip-route-views" hidden>
+      <button type="button" class="trip-route-slovenia">Slovenia detail</button>
+      <button type="button" class="trip-route-reset">Whole route</button>
+    </div>
+  </div>
+  <div id="trip-map" class="trip-map" role="region" aria-label="Map of our journey from Zagreb to Split" data-tile-url="{{ include.route.tile_url | escape }}">
+    <p class="trip-map-fallback">Explore the stops below, or <a href="https://www.openstreetmap.org/#map=7/45.1/15.0">view the area on OpenStreetMap</a>.</p>
+  </div>
+  <p class="trip-map-status" role="status" hidden></p>
+  <ul class="trip-route-legend" aria-label="Travel modes">
+    <li><span class="trip-route-line trip-route-line-drive" aria-hidden="true"></span>Drive</li>
+    <li><span class="trip-route-line trip-route-line-bike" aria-hidden="true"></span>Bike</li>
+    <li><span class="trip-route-line trip-route-line-train" aria-hidden="true"></span>Train &amp; drive</li>
+  </ul>
+  <p class="trip-route-note">Approximate connections between our stops. Select a place to explore the map and jump to its story.</p>
+  <ol class="trip-route-stops">
+    {% for stop in include.route.stops %}
+    <li>
+      <a class="trip-route-stop" href="https://www.openstreetmap.org/?mlat={{ stop.lat }}&amp;mlon={{ stop.lon }}#map=12/{{ stop.lat }}/{{ stop.lon }}" data-lat="{{ stop.lat }}" data-lon="{{ stop.lon }}" data-name="{{ stop.name | escape }}" data-description="{{ stop.description | escape }}" data-section="{{ stop.section | escape }}" data-arrival="{{ stop.arrival }}">
+        <span class="trip-stop-number" aria-hidden="true">{{ forloop.index }}</span>
+        <span><span class="trip-stop-name">{{ stop.name }}</span><small>{{ stop.country }}</small></span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

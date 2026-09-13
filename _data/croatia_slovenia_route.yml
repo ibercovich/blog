@@ -1,0 +1,68 @@
+# One-time Nominatim lookups, cached on September 13, 2026.
+# Coordinates identify places; the connecting lines are an itinerary overview,
+# not recorded GPS tracks. Pokljuka uses a representative point on the plateau.
+tile_url: https://tile.openstreetmap.org/{z}/{x}/{y}.png
+stops:
+  - name: Zagreb
+    country: Croatia
+    lat: 45.8130967
+    lon: 15.9772795
+    source: https://www.openstreetmap.org/relation/226224
+    section: zagreb
+    description: An afternoon in the old city, the vegan festival, and a wedding procession through the streets.
+  - name: Lake Bled
+    country: Slovenia
+    lat: 46.3639132
+    lon: 14.0938069
+    source: https://www.openstreetmap.org/relation/646
+    section: lake-bled
+    arrival: drive
+    description: Lunch at Bled Castle, cream cake, and a rainy hike above the lake.
+  - name: Pokljuka Plateau
+    country: Slovenia
+    lat: 46.3441471
+    lon: 13.9218914
+    source: https://www.openstreetmap.org/node/4548144996
+    section: mountain-biking-in-triglav-national-park
+    arrival: bike
+    description: Our first mountain bike ride with Tomaž through Triglav National Park, forests, and alpine pastures.
+  - name: Lake Bohinj
+    country: Slovenia
+    lat: 46.2822654
+    lon: 13.8645306
+    source: https://www.openstreetmap.org/relation/11315147
+    section: mountain-biking-in-triglav-national-park
+    arrival: bike
+    description: A swim at the end of the ride, followed by the car train through the Julian Alps on our way to Kobarid.
+  - name: Kobarid
+    country: Slovenia
+    lat: 46.2455462
+    lon: 13.5791700
+    source: https://www.openstreetmap.org/node/175730569
+    section: kobarid-and-italy-by-bike
+    arrival: train
+    description: Two nights in the Soča Valley, a mountain bike ride across the Italian border, and a memorable detour in the van.
+  - name: Plitvice Lakes
+    country: Croatia
+    lat: 44.8523012
+    lon: 15.5903490
+    source: https://www.openstreetmap.org/relation/10047860
+    section: plitvice-lakes
+    arrival: drive
+    description: After driving through Slovenia and Italy back into Croatia, seven miles of lakes, waterfalls, and wooden walkways.
+  - name: Šibenik
+    country: Croatia
+    lat: 43.7340647
+    lon: 15.8944767
+    source: https://www.openstreetmap.org/relation/8820767
+    section: šibenik
+    arrival: drive
+    description: Stone streets, the Adriatic waterfront, gelato, and the hotel spa.
+  - name: Split
+    country: Croatia
+    lat: 43.5116383
+    lon: 16.4399659
+    source: https://www.openstreetmap.org/relation/11153757
+    section: split
+    arrival: drive
+    description: Kasjuni Beach, Diocletian’s Palace, the synagogue, Marjan Park, and our final seafood dinner.

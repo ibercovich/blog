@@ -1,0 +1,23 @@
+---
+layout: post
+---
+
+<div class="trip-report">
+  {{ content }}
+</div>
+
+<dialog class="trip-lightbox" aria-label="Trip photos">
+  <button type="button" class="trip-lightbox-close" aria-label="Close photo viewer" autofocus>×</button>
+  <button type="button" class="trip-lightbox-prev" aria-label="Previous photo">‹</button>
+  <figure>
+    <img alt="">
+    <figcaption aria-live="polite"></figcaption>
+  </figure>
+  <button type="button" class="trip-lightbox-next" aria-label="Next photo">›</button>
+</dialog>
+
+<script src="{{ '/assets/trip.js' | relative_url }}" defer></script>
+{% if page.trip_route %}
+<script src="{{ '/assets/vendor/leaflet/leaflet.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/trip-map.js' | relative_url }}" defer></script>
+{% endif %}

@@ -11,6 +11,12 @@
   <!-- CSS -->
   {% assign css_url = "/assets/main.css" | relative_url %}
   <link rel="stylesheet" href="{{ css_url }}?v={{ site.time | date: '%s' }}">
+  {% if page.trip_route %}
+  <link rel="stylesheet" href="{{ '/assets/vendor/leaflet/leaflet.css' | relative_url }}">
+  {% endif %}
+  {% if page.layout == 'trip' %}
+  <link rel="stylesheet" href="{{ '/assets/trip.css' | relative_url }}">
+  {% endif %}
 
 
   <!-- Fonts -->
