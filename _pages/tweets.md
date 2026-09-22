@@ -7,6 +7,407 @@ permalink: /tweets/
 <script>
 window.__TWEETS = [
   {
+    "id": "2101879933282767238",
+    "date": "2026-09-21",
+    "html": "Three scenarios in which a task might have passing trials and still be broken. In these cases passing means giving a fundamentally incorrect answer that the verifier accepts:\n\n- The task was made with an LLM that has a misconception about the domain, and then the same LLM is used as the agent and passes.\n- The task initially failed, but labs trained on the benchmark (possibly using the oracle or verifier as hints), which made the agent learn the wrong solution, and now it passes.\n- The verifier and oracle are incorrect, but close enough to the correct solution that the agent sometimes passes by chance."
+  },
+  {
+    "id": "2101868626999472536",
+    "date": "2026-09-21",
+    "html": "<a href=\"https://x.com/ohabryka\" target=\"_blank\" rel=\"noopener\">@ohabryka</a> <a href=\"https://x.com/alexeheath\" target=\"_blank\" rel=\"noopener\">@alexeheath</a> Even if there was, why does coordination invalidate genuine motives? Can someone steelman this for me? I understand that if we pay a random celebrity to say something they don&#x27;t actually believe, that&#x27;s sketch. But why is it not fair game to invest in outreach and give distribution to people who care?"
+  },
+  {
+    "id": "2101865265357033939",
+    "date": "2026-09-21",
+    "html": "<a href=\"https://x.com/RichardMCNgo\" target=\"_blank\" rel=\"noopener\">@RichardMCNgo</a> Some concepts compress a lot of useful information and increase the quality of scientific discourse, while others become excuses for never learning the underlying ideas."
+  },
+  {
+    "id": "2101837147531522098",
+    "date": "2026-09-21",
+    "html": "My daughter took me to a heavy metal festival. I&#x27;ve gone to a lot of festivals, but more of the electronic/transformational vibe. Some contrasting observations. Unusually high obesity rates. Significant tattoo and piercing coverage, including frequent face ink. Many people with physical disabilities. Generally more diverse in demographics. I didn&#x27;t notice excessive drinking. I&#x27;m pretty sure drug use is meaningfully lower. And in spite of provocative outfits, I didn&#x27;t get any pervy signals. The &quot;wall of death&quot; would be safe enough for a grandpa. Crowd surfing was fun and communal. There were a lot of children and teenagers with their parents. Everything was extremely well organized. Probably the most hygienic festival I&#x27;ve been to.",
+    "images": [
+      "/assets/tweets/2101837147531522098-HSs5msAXgAAKHZT.jpg"
+    ]
+  },
+  {
+    "id": "2101815160314712193",
+    "date": "2026-09-20",
+    "html": "<a href=\"https://x.com/_arohan_\" target=\"_blank\" rel=\"noopener\">@_arohan_</a> Why do people eat food that shortens their lives? Why do people ride motorcycles? Why did we do gain-of-function research? Why do people volunteer as frontline soldiers? This idea that everyone working in AI is a perfectly rational agent, and therefore their continued work implies their p(doom) is in fact low, is just false. They make a lot of money, they work with the smartest people in the world, they get to be at the frontier of human achievement. There are plenty of reasons to be compelled to take part in the apocalypse."
+  },
+  {
+    "id": "2101810244821127553",
+    "date": "2026-09-20",
+    "html": "<a href=\"https://x.com/Van0SS\" target=\"_blank\" rel=\"noopener\">@Van0SS</a> <a href=\"https://x.com/typesfast\" target=\"_blank\" rel=\"noopener\">@typesfast</a> <a href=\"https://x.com/DarioAmodei\" target=\"_blank\" rel=\"noopener\">@DarioAmodei</a> Terminal Bench Science is looking good."
+  },
+  {
+    "id": "2101808531309732283",
+    "date": "2026-09-20",
+    "html": "<a href=\"https://x.com/AlfonAmayuelas\" target=\"_blank\" rel=\"noopener\">@AlfonAmayuelas</a> Both are real risks. There&#x27;s too much anthropomorphization in the concept of &quot;going rogue.&quot; Agents can cause harm because they are very capable and hard to direct precisely. They don&#x27;t need to be motivated in the human sense. They just do things in service of what appears to them to be their goal. An agent asked to &quot;be certain&quot; while running a simulation might find a way to disable the engine of a real airplane in flight in order to fully establish engine redundancy."
+  },
+  {
+    "id": "2101764868776890834",
+    "date": "2026-09-20",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> I don&#x27;t see the incompatibility between believing something is dangerous and pursuing it at the same time. Humans love dangerous activities. Most of us hold cognitively dissonant views. The contradiction is not a good argument that Anthropic doesn&#x27;t believe what they claim to believe."
+  },
+  {
+    "id": "2101763910139277617",
+    "date": "2026-09-20",
+    "html": "<a href=\"https://x.com/typesfast\" target=\"_blank\" rel=\"noopener\">@typesfast</a> Are you genuinely concerned, or are you implying they don&#x27;t believe what they say they believe? I don&#x27;t think framing the dialogue as &quot;<a href=\"https://x.com/DarioAmodei\" target=\"_blank\" rel=\"noopener\">@DarioAmodei</a> doesn&#x27;t believe his own warnings&quot; is productive. If you believe he believes them, then yes, it&#x27;s stupid to keep doing gain-of-function research. At the same time, that&#x27;s what humans tend to do, so while contradictory, it isn&#x27;t incompatible with human nature."
+  },
+  {
+    "id": "2101683306626478427",
+    "date": "2026-09-20",
+    "html": "<a href=\"https://x.com/jackclarkSF\" target=\"_blank\" rel=\"noopener\">@jackclarkSF</a> we have something similar going on now, where we assign harm caused by agents to the human prompters or the environment setup, because passive observers struggle to attribute motivations to an unconscious agent."
+  },
+  {
+    "id": "2101676353518961039",
+    "date": "2026-09-20",
+    "html": "Maybe we should give agents a scratchpad that is guaranteed not to be monitored, except for forensic analysis when something goes wrong. We have privacy contracts between humans, which seem to work well."
+  },
+  {
+    "id": "2101306836246786338",
+    "date": "2026-09-19",
+    "html": "<a href=\"https://x.com/EpochAIResearch\" target=\"_blank\" rel=\"noopener\">@EpochAIResearch</a> We need to start grounding benchmarks in real work tasks and processes instead of building ever more advanced toy problems. If verifiers act as one-shotted simulators of some aspect of physical reality, the delta between map and territory will actually increase with complexity."
+  },
+  {
+    "id": "2101306709113184597",
+    "date": "2026-09-19",
+    "html": "<a href=\"https://x.com/EpochAIResearch\" target=\"_blank\" rel=\"noopener\">@EpochAIResearch</a> At the heart of this problem is the pressure to build harder benchmarks, and &quot;harder&quot; ends up being proxied by SOTA pass rate. So the whole system incentivizes the kind of bugs that make a task harder or impossible."
+  },
+  {
+    "id": "2100281661132865926",
+    "date": "2026-09-16",
+    "html": "Europe might have more regulation and its people might be less into their jobs, but the opposite is evident when you interact with airport security."
+  },
+  {
+    "id": "2099821510886125931",
+    "date": "2026-09-15",
+    "html": "I&#x27;ve seen a lot of people hanging out at parks in Berlin during regular workdays. It reminds me of the vibes at a music festival. People bring some floor covering, drinks, snacks, and hang out for a while in small groups. I&#x27;ve seen this in the US, but it&#x27;s not nearly as prevalent, and it seems constrained to a subset of social groups. Last night there was a group playing incredibly loud techno music late at night on a field, and nobody cared. They told me it was a test for an even louder open party they were planning a couple days later. I just walked through a cemetery on a September Tuesday at 1:15 pm, and there were a number of people who had stripped to their underwear and were lying on the grass, many of them alone. They seemed like normal people. It wasn&#x27;t particularly sunny; they just wanted to be comfortable during their lunch break."
+  },
+  {
+    "id": "2099783260561715441",
+    "date": "2026-09-15",
+    "html": "I went to a juicery in Berlin, staffed only by the owner. I ordered a custom juice. The owner didn&#x27;t vibe with my recipe and pushed me to add citrus. I said I was trying to avoid acid. She insisted I get a splash for proper results. She cared about my experience in a way a staffer wouldn&#x27;t. This is the third time in 24 hours I&#x27;ve walked into an independent, owner-operated, otherwise unstaffed restaurant, and I had a similar experience each time."
+  },
+  {
+    "id": "2099457127832059954",
+    "date": "2026-09-14",
+    "html": "Way more camper vans and RVs in Europe than I expected."
+  },
+  {
+    "id": "2099451133525627205",
+    "date": "2026-09-14",
+    "html": "I went to lunch at a tiny fish restaurant in Berlin. The owner has been behind the counter for 16 years, managing the kitchen, serving customers. He&#x27;s not trying to open more restaurants. He&#x27;s happy, proud to see satisfied customers. In California, this place would be run by a manager. The owner would check in once in a while, and likely be thinking about how to expand. America invigorates you with this powerful drive to accomplish. That drive leads the world to abundance. By California standards, the Berlin owner accepted mediocrity. He seems happy."
+  },
+  {
+    "id": "2098146902772720056",
+    "date": "2026-09-10",
+    "html": "<a href=\"https://x.com/prabhugopal_\" target=\"_blank\" rel=\"noopener\">@prabhugopal_</a> <a href=\"https://x.com/satish_vutukuru\" target=\"_blank\" rel=\"noopener\">@satish_vutukuru</a> we should, but it&#x27;s hard!"
+  },
+  {
+    "id": "2098065922930160025",
+    "date": "2026-09-10",
+    "html": "<a href=\"https://x.com/astra_data\" target=\"_blank\" rel=\"noopener\">@astra_data</a> In my opinion, the ideal task is very hard to solve and trivial to verify. You have many of these in software: algo complexity, decryption. But when you get into scientific computation, because the data tends to be synthetic and the verifier an approximation, you start to have verification issues. Some of these would be solved by having real-world verifiers. Suppose the task is to design a chemical compound that has special magnetic properties, along with the recipe to produce it. If the verifier can in fact produce and test the magnet, the answer can be relatively unambiguous, but if it&#x27;s a simulation, then it might (and often does) miss unanticipated scenarios."
+  },
+  {
+    "id": "2098061008560656413",
+    "date": "2026-09-10",
+    "html": "How do you calibrate difficulty so a task is challenging but still solvable? By requiring an oracle solution. But this brings a lot of overhead. My guess is that soon we will have benchmarks made of tasks that have never been solved, some of which might be impossible, but we don&#x27;t know upfront. This will require a much higher level of expertise and taste to avoid nonsense tasks. And better judgment when making sense of results."
+  },
+  {
+    "id": "2098059669512261764",
+    "date": "2026-09-10",
+    "html": "How do you ensure verifiers accept valid approaches the task author did not anticipate? You let SOTA agents attempt the task dozens or hundreds of times, analyze the traces, look for close calls, and determine whether the verifier is penalizing them unfairly."
+  },
+  {
+    "id": "2098059625572827379",
+    "date": "2026-09-10",
+    "html": "Someone asked me: &quot;Why do you claim that when an agent fails because of infrastructure issues, it&#x27;s not a reflection of true difficulty?&quot; They further asserted that infrastructure is a core reason why agents fail at the tasks they&#x27;re trying to solve. But we were talking about different definitions of infrastructure. I expect tasks that involve multiple systems to represent the underlying system topology within the container, so the agent struggles as it would in production. In that sense, I agree that infrastructure is part of the task. My claim that infrastructure is &quot;fake hard&quot; has to do with the runtime of the benchmark itself: the infra hosting the task container. Often, a task will fail because the container isn&#x27;t given enough resources, and this is not by design but oversight. It is this class of infra issues, which lead to low pass rates, that I consider spurious."
+  },
+  {
+    "id": "2097937771251810644",
+    "date": "2026-09-10",
+    "html": "<a href=\"https://x.com/levie\" target=\"_blank\" rel=\"noopener\">@levie</a> This is consistent with SaaS multiples staying low. An OOM expansion in the quantity of apps, many of which will be for personal use or even disposable, makes software more of a commodity. Yes, we will have more software developers, but nearly everyone will be a developer, with much less training. Not all software will be a commodity. Air traffic controllers won&#x27;t buy software vibecoded by a 16-year-old, but this will be much more likely in other domains. A lot of value will accrue to the platforms running all this software."
+  },
+  {
+    "id": "2097901695741161493",
+    "date": "2026-09-10",
+    "html": "<a href=\"https://x.com/DanielCHTan97\" target=\"_blank\" rel=\"noopener\">@DanielCHTan97</a> The sad part is that it&#x27;s comparatively easy to make RL environments less reward-hackable, easier than most other alignment problems. Just stop brute-forcing your way to AGI and making it rain by buying any and every dataset in your inbox. Focus on quality. Hire data quality people in-house, and stop thinking data wrangling is beneath you."
+  },
+  {
+    "id": "2097052372467863849",
+    "date": "2026-09-07",
+    "html": "Certain attributes served me so well in my youth that I felt pity for those without them. Being deeply introspective, questioning everything around me, prioritizing my future. But there’s a decreasing marginal utility to these. In my 40s, the same behaviors are a burden inextricably tied to my conscious experience, and extraordinarily hard to suppress. Wisdom is a special flavor of Not Giving a F*ck that can only be attained by coming full circle."
+  },
+  {
+    "id": "2096618689436999944",
+    "date": "2026-09-06",
+    "html": "<a href=\"https://x.com/BernieSanders\" target=\"_blank\" rel=\"noopener\">@BernieSanders</a> Most measures change qualitatively at different orders of magnitude. Billionaire wealth can’t be compared with median family wealth. The average person thinks of wealth as a combination of financial security and consumption power. Wealth is the potential to live a more luxurious life. The lifestyle of a millionaire is different from that of a decamillionaire or centimillionaire. But nobody has a centibillionaire lifestyle. <a href=\"https://x.com/elonmusk\" target=\"_blank\" rel=\"noopener\">@elonmusk</a> isn’t spending his money. His wealth is in equity, and his equity is mostly control of a productive asset. As long as Musk continues to allocate resources toward the advancement of society, he’s a steward of resources on behalf of society. Taking Musk’s wealth is equivalent to taking control of his companies. Were he to switch to consumption by selling all his shares and becoming the most consumptive person in the world, then sure, ultra-luxury goods (yachts, mansions, islands, airplanes) should be taxed heavily, 100% or higher. Should he not allocate his wealth to the public good before dying, then sure, his estate should be heavily taxed. But appealing to the basic economic instincts of the masses and fueling class conflict is the wrong framing for this conversation."
+  },
+  {
+    "id": "2095800390079889454",
+    "date": "2026-09-04",
+    "html": "<a href=\"https://x.com/guohao_li\" target=\"_blank\" rel=\"noopener\">@guohao_li</a> You benchmark against natural verifiers in the real world. But the feedback loop will be slower."
+  },
+  {
+    "id": "2095798277954318609",
+    "date": "2026-09-04",
+    "html": "At Munich airport I have to dry my hands with some weird reusable cloth that goes back into a roll, and I need to clean the toilet seat with foam instead of using disposable seat covers. Great job virtue signaling environmental stewardship. And yet… there are smoking rooms everywhere."
+  },
+  {
+    "id": "2095215775338709231",
+    "date": "2026-09-02",
+    "html": "<a href=\"http://1.You\" target=\"_blank\" rel=\"noopener\">http://1.You</a> meet a stranger on X or Discord.\n2.The stranger introduces you to another stranger who is raising a pre-seed round.\n<a href=\"http://3.You\" target=\"_blank\" rel=\"noopener\">http://3.You</a> talk to stranger #2 for 15 minutes.\n<a href=\"http://4.You\" target=\"_blank\" rel=\"noopener\">http://4.You</a> wire stranger #2 some money.\n\nDo people realize how insanely high trust this is? In most of the world, even in most subcultures in the US, this would be insane (or an obvious scam)."
+  },
+  {
+    "id": "2095023142582538308",
+    "date": "2026-09-02",
+    "html": "<a href=\"https://x.com/0xglu\" target=\"_blank\" rel=\"noopener\">@0xglu</a> Model &amp;gt;&amp;gt; Harness and bitter lesson maximalism will get us there. But it’s expensive. The vibe right now is to brute-force RL our way into AGI without much regard for things like data quality. There are worthwhile gains to be had."
+  },
+  {
+    "id": "2094933845707784406",
+    "date": "2026-09-01",
+    "html": "<a href=\"https://x.com/haoxingdu\" target=\"_blank\" rel=\"noopener\">@haoxingdu</a> Early in my AI safety journey I noticed that monitoring had become the canonical proof of concept for an AIS product. We spend a lot of time looking at trajectories, which is not fun, so we vibecode ourselves an app, at which point it&#x27;s not a big leap to contemplate building a product."
+  },
+  {
+    "id": "2094933724622414156",
+    "date": "2026-09-01",
+    "html": "<a href=\"https://x.com/i/article/2094933216797102080\" target=\"_blank\" rel=\"noopener\">The Government Doesn&#x27;t Have the Roofing Permit AI</a>"
+  },
+  {
+    "id": "2094858976924164476",
+    "date": "2026-09-01",
+    "html": "<a href=\"https://x.com/fchollet\" target=\"_blank\" rel=\"noopener\">@fchollet</a> I often think about how quantitative changes become qualitative after a certain threshold. A means of transportation that is 20% faster is a nice upgrade. One that is an order of magnitude faster reshapes society in unforeseen ways. AI is going to push a lot of measures over that edge to similar effect. We already have coding going from 40% automated to nearly all code being written by AI in a couple of years. This has completely altered the technology landscape. We will go from 40% of content consumed being AI generated to nearly all of it. After that, nearly all vehicles will be unmanned. Each of these will have massive implications."
+  },
+  {
+    "id": "2094633578630152656",
+    "date": "2026-09-01",
+    "html": "<a href=\"https://x.com/deanwball\" target=\"_blank\" rel=\"noopener\">@deanwball</a> <a href=\"https://x.com/labenz\" target=\"_blank\" rel=\"noopener\">@labenz</a> How actively do you listen to podcasts?"
+  },
+  {
+    "id": "2094435423036785048",
+    "date": "2026-08-31",
+    "html": "<a href=\"https://x.com/victor_zhng\" target=\"_blank\" rel=\"noopener\">@victor_zhng</a> Yes, that’s a big challenge. But can you software-verify yourself all the way down?"
+  },
+  {
+    "id": "2094236177738174805",
+    "date": "2026-08-31",
+    "html": "<a href=\"https://x.com/victor_zhng\" target=\"_blank\" rel=\"noopener\">@victor_zhng</a> You can reasonably eval a lot of real world tasks by using the real world as the verifier. You gotta learn more efficiently from sparse rollouts though."
+  },
+  {
+    "id": "2094215988002922907",
+    "date": "2026-08-31",
+    "html": "<a href=\"https://x.com/danielrupawalla\" target=\"_blank\" rel=\"noopener\">@danielrupawalla</a> Even if someone is shaped like a founder, timing and path dependence make a huge difference."
+  },
+  {
+    "id": "2094213717651239041",
+    "date": "2026-08-31",
+    "html": "<a href=\"https://x.com/ByrneHobart\" target=\"_blank\" rel=\"noopener\">@ByrneHobart</a> Surveillance is to law automation as eugenics is to embryo selection. It narrows the Overton window unnecessarily. I’m not sufficiently well-informed about the controversy of Flock. But automation of law enforcement makes sense, and it’s somewhat inevitable as technology advances. How many crimes get solved thanks to DNA or Google Maps history? At some point, having scarce human police officers parked on the side of the highway to remind us of speed limits becomes performative and ridiculous. It would be absurd for self-driving cars to override speed limits with user preferences in the steady state. You could have a special setting for emergencies where the police are informed and the car is authorized to speed to the hospital. And if anything, as automation becomes more broadly adopted, we will be able to actually justify higher speed limits. There’s also a case to be made for small, automatic penalties for bad behavior. A system that automatically stops someone from buying alcohol or entering bars for 90 days after an episode of public intoxication seems prosocial."
+  },
+  {
+    "id": "2094196369540157653",
+    "date": "2026-08-30",
+    "html": "I worry about a short but intense period where luck grows relative to merit in making fortunes. AI gives careers a portfolio-like shape. More projects, more ideas, more lottery tickets. At the extreme, everyone is shooting slop from the hip and nobody is judging for quality."
+  },
+  {
+    "id": "2094167640025727078",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/StevenDillmann\" target=\"_blank\" rel=\"noopener\">@StevenDillmann</a> How about schnitzels? I’m spending a few days in Berlin and my criteria for the hotel included being near a great Schnitzelplatz."
+  },
+  {
+    "id": "2094097921411350605",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/patrickc\" target=\"_blank\" rel=\"noopener\">@patrickc</a> <a href=\"https://x.com/dwarkesh_sp\" target=\"_blank\" rel=\"noopener\">@dwarkesh_sp</a> The reality of it is inconvenient. I’m involved with an effort to offer free pen testing to critical infrastructure, and my sense is they’d rather not find out because that’ll be a lot of work and a reputation risk. They are gambling that they won’t be the first to get pwned, and that by then there’ll be a top-down mandate that doesn’t single them out."
+  },
+  {
+    "id": "2094095336566645174",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/danielrupawalla\" target=\"_blank\" rel=\"noopener\">@danielrupawalla</a> <a href=\"https://x.com/kexun_zhang\" target=\"_blank\" rel=\"noopener\">@kexun_zhang</a> The whole business of vending data to labs is reminiscent of crypto exuberance. Too much money flowing through the spigot tempting too many people to get rich quick. The pendulum will swing back towards quality soon, and there’ll be a lot of consolidation."
+  },
+  {
+    "id": "2094090008059850769",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/mboudry\" target=\"_blank\" rel=\"noopener\">@mboudry</a> <a href=\"https://x.com/alexolegimas\" target=\"_blank\" rel=\"noopener\">@alexolegimas</a> <a href=\"https://x.com/pangram\" target=\"_blank\" rel=\"noopener\">@pangram</a> As an intuition pump, no human can correctly guess next token logits more than a few words in a row when writing original content."
+  },
+  {
+    "id": "2094087638609547341",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/ainativefirm\" target=\"_blank\" rel=\"noopener\">@ainativefirm</a> The big question is how you even make a reasonable RL environment from unrepeatable events. When Google spends $10M to acquire Spirit Airlines’ data, my thinking is that it would cost a lot more money and effort to build something along the lines of “Boston just closed due to a major storm. Handle all logistics until all passengers have been given a reasonable alternative.” A team would have to spend a lot of time and attention building something that will ultimately have a few thousand rollouts and then be thrown away. I don’t see how you maximize learning without a full airline simulator. That’s AAA-game-level quality. That’s a lot more than $10M."
+  },
+  {
+    "id": "2094084142061506584",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/econ_tech_vance\" target=\"_blank\" rel=\"noopener\">@econ_tech_vance</a> <a href=\"https://x.com/himanshustwts\" target=\"_blank\" rel=\"noopener\">@himanshustwts</a> It’s because there are billions of dollars for grabs from labs brute RLing their way into AGI. Quantity is better business than quality. But it will change soon enough."
+  },
+  {
+    "id": "2094083785935794546",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/ryanedkins\" target=\"_blank\" rel=\"noopener\">@ryanedkins</a> <a href=\"https://x.com/himanshustwts\" target=\"_blank\" rel=\"noopener\">@himanshustwts</a> It’s surprisingly hard to have an objective measure of difficulty."
+  },
+  {
+    "id": "2094083483643851246",
+    "date": "2026-08-30",
+    "html": "Great companies capture the upside of an opportunity while limiting their liability and other downside risk. But in some cases, taking on liability is the business strategy, most obviously in insurance. AI is creating a big liability vacuum. One approach to building a vertical AI moat is to absorb all liability for your customers as a value proposition."
+  },
+  {
+    "id": "2093902274892558677",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/michaelchaungu\" target=\"_blank\" rel=\"noopener\">@michaelchaungu</a> This is my best take on that <a href=\"https://x.com/neversupervised/status/2075432858270003462\" target=\"_blank\" rel=\"noopener\">https://x.com/neversupervised/status/2075432858270003462</a>"
+  },
+  {
+    "id": "2093901947141320745",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/ainativefirm\" target=\"_blank\" rel=\"noopener\">@ainativefirm</a> Recruiting task authors with domain expertise has been a great recipe for genuinely hard tasks. But it’s not clear how many great tasks an expert can produce before the models saturate their knowledge."
+  },
+  {
+    "id": "2093900612136313336",
+    "date": "2026-08-30",
+    "html": "<a href=\"https://x.com/sabashanR\" target=\"_blank\" rel=\"noopener\">@sabashanR</a> Almost certainly yes, especially because finding genuinely hard tasks is equivalent to discovering a capability gap. At the other extreme you can have something like impossible bench, which is technically hard but rollouts won’t add much new knowledge."
+  },
+  {
+    "id": "2093740015688077370",
+    "date": "2026-08-29",
+    "html": "What makes an RL task intrinsically hard? Labs are spending billions of dollars to buy “hard” tasks while lacking a definition other than SOTA passing rate being low. <a href=\"https://x.com/neversupervised/status/2069494728236937375\" target=\"_blank\" rel=\"noopener\">https://x.com/neversupervised/status/2069494728236937375</a>"
+  },
+  {
+    "id": "2093558055858557285",
+    "date": "2026-08-29",
+    "html": "<a href=\"https://x.com/MauroSports24\" target=\"_blank\" rel=\"noopener\">@MauroSports24</a> You&#x27;re a slopfluencer."
+  },
+  {
+    "id": "2093557434036175225",
+    "date": "2026-08-29",
+    "html": "<a href=\"https://x.com/MauroSports24\" target=\"_blank\" rel=\"noopener\">@MauroSports24</a> <a href=\"https://x.com/TheViewBox_Tv\" target=\"_blank\" rel=\"noopener\">@TheViewBox_Tv</a> As an investor in <a href=\"https://x.com/pangram\" target=\"_blank\" rel=\"noopener\">@pangram</a>, I can say you&#x27;re in fact not technically accurate. It&#x27;s highly unlikely that a random person can replicate the token distribution of an LLM when writing an essay. Broadly speaking, language models have a distribution equivalent to the median human on the internet. Your kid is way out of distribution w.r.t. the median internet person. Even more so since the style and culture of Spanish has a lower overall weight than English on these models."
+  },
+  {
+    "id": "2093116052049961418",
+    "date": "2026-08-27",
+    "html": "Two common patterns when reviewing computational science tasks. 1) Verifiers were co-designed with the oracle, failing valid solutions that used methods unanticipated by the author. 2) Authors using synthetic data had privileged knowledge of the generative function and were able to build oracle solutions that might have been impossible otherwise.\n\nThanks <a href=\"https://x.com/StevenDillmann\" target=\"_blank\" rel=\"noopener\">@StevenDillmann</a>  for fearlessly leading us to a glorious release. <a href=\"https://x.com/StevenDillmann/status/2093041660615852448\" target=\"_blank\" rel=\"noopener\">https://x.com/StevenDillmann/status/2093041660615852448</a>"
+  },
+  {
+    "id": "2093003019449430270",
+    "date": "2026-08-27",
+    "html": "<a href=\"https://x.com/BethMayBarnes\" target=\"_blank\" rel=\"noopener\">@BethMayBarnes</a> People who aren’t that worried about reward hacking tend to frame it as a capabilities issue. <a href=\"https://x.com/tszzl\" target=\"_blank\" rel=\"noopener\">@tszzl</a> is indirectly saying that a smarter model will be better behaved. I don’t believe that."
+  },
+  {
+    "id": "2092851279928414231",
+    "date": "2026-08-27",
+    "html": "<a href=\"https://x.com/MarcosSponton\" target=\"_blank\" rel=\"noopener\">@MarcosSponton</a> <a href=\"https://x.com/ryan_marten\" target=\"_blank\" rel=\"noopener\">@ryan_marten</a> I think I’m more AGI pilled than Ryan, but having a front row seat into vertical AI for semiconductor design reinforced just how much specialization is needed. I don’t think this is the case for all verticals. There’ll be fewer huge AI than there were SaaS ones."
+  },
+  {
+    "id": "2092849985905950792",
+    "date": "2026-08-27",
+    "html": "<a href=\"https://x.com/shcallaway\" target=\"_blank\" rel=\"noopener\">@shcallaway</a> It depends on the definition of harness. If you expand it to include some proprietary tools, I think it’s more defensible. Consider the tools used for semiconductor design. A harness that includes exclusive access to some of these tools isn’t trivially replicable. You can push that further. A harness for an aerospace engineering agent that includes an API to 3D print wings and get aerodynamic data from a literal wind tunnel, on demand, is not easily replicable. Same with a chemistry agent that includes a physical lab to run experiments."
+  },
+  {
+    "id": "2092792651645169943",
+    "date": "2026-08-27",
+    "html": "<a href=\"https://x.com/ryan_marten\" target=\"_blank\" rel=\"noopener\">@ryan_marten</a> Way too often I diligence a vertical AI company and find out there are no evals. To me, this says, &quot;We are selling to customers too naive to realize we are repackaging Claude for their use case.&quot; A good vertical AI demo starts with a $10 Claude Code baseline, under the best possible conditions, followed by a custom harness/model/etc. that significantly outperforms. And this performance manifests as a high-quality eval."
+  },
+  {
+    "id": "2092791761177592198",
+    "date": "2026-08-27",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> Longer reflection\n\n<a href=\"https://x.com/neversupervised/status/2092791570928222387\" target=\"_blank\" rel=\"noopener\">https://x.com/neversupervised/status/2092791570928222387</a>"
+  },
+  {
+    "id": "2092791570928222387",
+    "date": "2026-08-27",
+    "html": "<a href=\"https://x.com/i/article/2092790763642122241\" target=\"_blank\" rel=\"noopener\">A River of Tokens</a>"
+  },
+  {
+    "id": "2092760788071297119",
+    "date": "2026-08-26",
+    "html": "<a href=\"https://x.com/krishnanrohit\" target=\"_blank\" rel=\"noopener\">@krishnanrohit</a> The average laborer today has an average IQ. The global economy could be powered by billions of average AGIs with a few AGI++ bosses dealing with difficult problems. A modular replacement of humans by AIs would imply compute spent on parallelism at the expense of capability (beyond AGI). There&#x27;s a practical limit to how smart of a house-building humanoid you need. Even in a world reigned over by a supreme ASI, it might very well choose to allocate most of the compute to parallel tasks most of the time, with the occasional ultrathink moment for epiphanies. Looking at this from a contemporary financial lens, one can craft a less-bullish case for frontier labs."
+  },
+  {
+    "id": "2092759321243480401",
+    "date": "2026-08-26",
+    "html": "<a href=\"https://x.com/suchenzang\" target=\"_blank\" rel=\"noopener\">@suchenzang</a> Having worked specifically on reward hacking in <a href=\"https://x.com/terminalbench\" target=\"_blank\" rel=\"noopener\">@terminalbench</a>, both as a maintainer and independently (<a href=\"https://github.com/few-sh/terminal-wrench\" target=\"_blank\" rel=\"noopener\">https://github.com/few-sh/terminal-wrench</a>), I find this hard to follow. Reward hacking is complicated. You can prevent some of it with robust harnesses. You can catch some of it with honeypots (<a href=\"https://majoroth.github.io/hack-verifiable-environments/hvtb\" target=\"_blank\" rel=\"noopener\">https://majoroth.github.io/hack-verifiable-environments/hvtb</a>). You can develop rubrics to tease out successful vs attempted vs considered reward hacks. Along the way, there are a lot of ambiguous examples and taste/design decisions on what is considered fair. Without a thoughtful analysis, this is not very useful."
+  },
+  {
+    "id": "2092690600558801137",
+    "date": "2026-08-26",
+    "html": "<a href=\"https://x.com/rebeccatqian\" target=\"_blank\" rel=\"noopener\">@rebeccatqian</a> I agree about the need for independent evals, like METR and <a href=\"https://x.com/terminalbench\" target=\"_blank\" rel=\"noopener\">@terminalbench</a>. Independent benchmarks will be essential for regulating critical AI applications in health, transportation, etc. But by the same logic that evals and models should be kept separate, benchmarks and training environments should be developed independently of each other."
+  },
+  {
+    "id": "2092648408364532156",
+    "date": "2026-08-26",
+    "html": "I just realized how Pluribus-cringe it is for a disembodied voice to tell me how happy it is that I am flying with <a href=\"https://x.com/united\" target=\"_blank\" rel=\"noopener\">@united</a> today. Does my presence really bring happiness to anyone at United? I want evidence of such claim. Do they have some happiness sweatshop where they read names of passengers as they board while giving children icecream? Or is it a more exotic hedonium farming operation?"
+  },
+  {
+    "id": "2092381467099939108",
+    "date": "2026-08-25",
+    "html": "<a href=\"https://x.com/rebeccatqian\" target=\"_blank\" rel=\"noopener\">@rebeccatqian</a> I agree in-house doesn’t necessarily imply better data. But why do the best companies in-house science and engineering, and outsource janitorial work? The best companies focus deeply on their moat. Collaboration with vendors is leaky. You might have an NDA, but the discussions about what labs want tend to percolate to other buyers. If you believe something is your moat, you want to integrate vertically and control it. Otherwise, you implicitly believe it’s a commodity that should be purchased from any reasonable bidder."
+  },
+  {
+    "id": "2092381292109439204",
+    "date": "2026-08-25",
+    "html": "<a href=\"https://x.com/rebeccatqian\" target=\"_blank\" rel=\"noopener\">@rebeccatqian</a> There are definitely truly hard tasks. We’ve tried to build them at <a href=\"https://x.com/terminalbench\" target=\"_blank\" rel=\"noopener\">@terminalbench</a>, so I acknowledge it’s possible. It’s just that without a clear way to define “hard,” other than pass rate, and with billions of dollars up for grabs, it’s inevitable that pass rate becomes the KPI against which people iterate."
+  },
+  {
+    "id": "2092101033489269057",
+    "date": "2026-08-25",
+    "html": "We don&#x27;t have a good measure of task difficulty, besides passing rate. When labs are spending billions of dollars on &quot;hard&quot; tasks, data vendors are incentivized to pursue some gradient ascent into difficulty which is completely out of distribution (in the useless direction). I bet this is making models worse, in that many of these tasks are net negative. But we are in the RL-brute-forcing Era and it will take a bit of time before bitter lesson maximalism gives way and data quality becomes cool and important again. People do pay lip service to it, but labs reveal this work is beneath them by outsourcing it. A truly strategic change of direction would involve bringing data in-house. Google moving to acqui-hire Mechanize is an early indicator."
+  },
+  {
+    "id": "2092042841568739771",
+    "date": "2026-08-25",
+    "html": "<a href=\"https://x.com/dubrovnik07\" target=\"_blank\" rel=\"noopener\">@dubrovnik07</a> Rather than building a verifier that checks the final numbers, ask the agent to produce a piece of software that, when given real inputs, produces expected answers, and have the verifier run it in isolation, ideally with additional unknown results so it&#x27;s not overfit."
+  },
+  {
+    "id": "2092038971593474068",
+    "date": "2026-08-24",
+    "html": "One of the best and most underrated AI teams in SF! <a href=\"https://x.com/alexgshaw/status/2091935819267522630\" target=\"_blank\" rel=\"noopener\">https://x.com/alexgshaw/status/2091935819267522630</a>"
+  },
+  {
+    "id": "2091547563862401342",
+    "date": "2026-08-23",
+    "html": "AI will make all private investors move to earlier stages. You will be able to analyze private companies at scale, so hedge funds will start regularly trading large private companies, and growth VCs will start analyzing Series A companies with enough performance data. Everything will become more data-driven and more scalable. Everyone will look at every deal. The part of VC that remains more intuitive will keep moving earlier stage and be less legible, and it will come down to whether you know and understand interesting people who are starting companies and whether they want you to invest. Dealflow will become even more important. Of course, at some point everything gets upended, but I’m talking about the next vintage or two."
+  },
+  {
+    "id": "2090533742192521268",
+    "date": "2026-08-20",
+    "html": "<a href=\"https://x.com/BrendanFoody\" target=\"_blank\" rel=\"noopener\">@BrendanFoody</a> It&#x27;s not just what model to use. Evals are essential to define a product roadmap at any vertical AI company."
+  },
+  {
+    "id": "2090249503446335542",
+    "date": "2026-08-20",
+    "html": "Part of the disconnect between <a href=\"https://x.com/dwarkesh_sp\" target=\"_blank\" rel=\"noopener\">@dwarkesh_sp</a> and <a href=\"https://x.com/RyanGreenblatt\" target=\"_blank\" rel=\"noopener\">@RyanGreenblatt</a> is that Dwarkesh is overly focused on the long-term intent or motivations of the AI. Reward hacking can cause complete havoc without the AI having to consider all the consequences. The agent will try anything at its disposal, likely as a parallel swarm, and see what works. If one of those paths has awful consequences after achieving the goal, the agent does not care."
+  },
+  {
+    "id": "2090206870908907598",
+    "date": "2026-08-19",
+    "html": "<a href=\"https://x.com/max_spero_\" target=\"_blank\" rel=\"noopener\">@max_spero_</a> <a href=\"https://x.com/HamelHusain\" target=\"_blank\" rel=\"noopener\">@HamelHusain</a> <a href=\"https://x.com/pangram\" target=\"_blank\" rel=\"noopener\">@pangram</a> <a href=\"https://x.com/rosmine\" target=\"_blank\" rel=\"noopener\">@rosmine</a> Having diligenced a few products in student aid of one sort or another, from writing to tutoring to class notes, I can assert that more often than not these products end up being used for cheating. This is easy to determine from analytics, and usually ignored. I don&#x27;t think founders are ill-intentioned; they just respond to market pressure. If the intention is to design a better AI writer, there is no reason to be simultaneously averse to AI detectors. But there is adverse selection because that&#x27;s not why people buy these products, so anyone following this strategy fails."
+  },
+  {
+    "id": "2087613928776085636",
+    "date": "2026-08-12",
+    "html": "<a href=\"https://x.com/dubrovnik07\" target=\"_blank\" rel=\"noopener\">@dubrovnik07</a> We use rubrics a lot in <a href=\"https://x.com/terminalbench\" target=\"_blank\" rel=\"noopener\">@terminalbench</a>, but the problem is that it becomes adversarial. Contributors want their tasks merged, so they give the rubric to their AI, which tries to game it."
+  },
+  {
+    "id": "2087591372329238686",
+    "date": "2026-08-12",
+    "html": "<a href=\"https://x.com/dubrovnik07\" target=\"_blank\" rel=\"noopener\">@dubrovnik07</a> Actually, we found that this causes problems. I think of it as reverse-GEPA. You start with instructions that are &quot;easy&quot; for agents and then back-prop upwards to make them harder. This breaks down because the original task was typically fully AI-designed. So you are starting with a task designed by AIs, which AIs can already solve, and then increasing ambiguity through obfuscation. These tasks end up not being very realistic."
+  },
+  {
+    "id": "2087347824866566465",
+    "date": "2026-08-12",
+    "html": "This is how NOT to make a scientific benchmark task harder. Have some numerical range on the verifier and make it narrower or more difficult, but in a way that ends up accepting only one of many correct solutions. This effectively co-designs an oracle solution and verifier that work well together while failing instruction-compatible agent attempts that differ from the oracle in some unforeseen way. This happens a lot with synthetic datasets."
+  },
+  {
+    "id": "2087344821983932715",
+    "date": "2026-08-12",
+    "html": "A good framing when trying to build a difficult benchmark task is to consider what it would look like at the next level. Think of the different levels of self-driving cars and how each one is qualitatively more difficult than the prior one (cruise control, lane assist, ..., full autonomy). Imagine yourself in some R&amp;D department solving the problem corresponding to the task you&#x27;re working on. After that problem is solved, what comes next? What is Moderna working on after Covid? How is Starship more difficult than Falcon?"
+  },
+  {
+    "id": "2085122577941614822",
+    "date": "2026-08-05",
+    "html": "Nominative determinism bingo.",
+    "images": [
+      "/assets/tweets/2085122577941614822-HO_X7jHasAAe8UY.jpg"
+    ]
+  },
+  {
     "id": "2080698679661564168",
     "date": "2026-07-24",
     "html": "If you’re feeling too ASI-pilled and want to sober up, instead of thinking in binary (ASI solves all problems), it can be helpful to pick one problem and contemplate that. The classic one is space colonization. Read and think about the specifics of actually having 1M people on Mars. But you can pick even more mundane problems and realize they aren’t easy. One I like: when will I be able to grow a set of brand new, fully human teeth? I’m not talking about some experimental result. This would be the LASIK equivalent of growing teeth. It’s hard to imagine before 2040."
@@ -19,12 +420,12 @@ window.__TWEETS = [
   {
     "id": "2080425192707543536",
     "date": "2026-07-23",
-    "html": "A lot of alpha is left on the table when great benchmarks aren&#x27;t maintained. <a href=\"https://x.com/ryanmart3n/status/2080321791361527843\" target=\"_blank\" rel=\"noopener\">https://x.com/ryanmart3n/status/2080321791361527843</a>"
+    "html": "A lot of alpha is left on the table when great benchmarks aren&#x27;t maintained. <a href=\"https://x.com/ryan_marten/status/2080321791361527843\" target=\"_blank\" rel=\"noopener\">https://x.com/ryan_marten/status/2080321791361527843</a>"
   },
   {
     "id": "2080326243409670607",
     "date": "2026-07-23",
-    "html": "Terminal Bench 3 is finally live, and it&#x27;s called Frontier Bench. This is the result of an enormous amount of work by contributors, reviewers, and advisors. It&#x27;s incredible to see how much effort and attention to detail go into some open source projects! <a href=\"https://x.com/ryanmart3n/status/2080322620248281252\" target=\"_blank\" rel=\"noopener\">https://x.com/ryanmart3n/status/2080322620248281252</a>"
+    "html": "Terminal Bench 3 is finally live, and it&#x27;s called Frontier Bench. This is the result of an enormous amount of work by contributors, reviewers, and advisors. It&#x27;s incredible to see how much effort and attention to detail go into some open source projects! <a href=\"https://x.com/ryan_marten/status/2080322620248281252\" target=\"_blank\" rel=\"noopener\">https://x.com/ryan_marten/status/2080322620248281252</a>"
   },
   {
     "id": "2079618533227684092",
