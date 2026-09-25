@@ -17,17 +17,21 @@ I'm deeply involved with task quality for [Terminal-Bench 3](https://github.com/
 
 ## Under Review
 
-Three papers are currently under review at NeurIPS 2026.
+Two papers are currently under review at NeurIPS 2026.
 
 **[Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops](https://arxiv.org/abs/2606.08960).** A method for automatically building exploit-resistant verifiers for agent benchmarks, using adversarial loops of cooperating LLM agents rather than per-task manual patching.
 
 **[SWE-Marathon: Long-Horizon Software Engineering Benchmark](https://www.swe-marathon.org/).** A benchmark of project-scale software tasks that take hours and millions of tokens, designed to measure sustained agent progress and to resist single-test shortcut solutions.
 
-**[Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty](https://arxiv.org/abs/2606.25198).** A framework for studying how different search and quality-diversity strategies affect the ability of autonomous agents to explore and produce genuinely novel machine learning research.
-
 ## Publications
 
 ### 2026
+
+**[Heuresis: Evaluating Search Strategies for Autonomous Machine Learning Research Agents](https://arxiv.org/abs/2606.25198)**
+A Antoniades, D Nathani, R Saha, A Amayuelas, I Bercovich, Z Weng, V Baskaran, K Bhatia, WY Wang
+*NeurIPS 2026 Main Track (Poster)*
+
+A framework for studying how different search and quality-diversity strategies affect the ability of autonomous agents to explore and produce genuinely novel machine learning research.
 
 **[Good Benchmarks](https://arxiv.org/abs/2607.12217)**
 Ivan Bercovich
