@@ -100,7 +100,7 @@ The next morning we met our guide, Tomaž, who turned out to be one of the highl
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_3336.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_3336.jpg' | relative_url }}" alt="David and Ivan with bikes" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_3336.jpg' | relative_url }}" alt="Ivan and David with bikes" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -202,7 +202,7 @@ The first descent was a primitive forest trail with steep slopes, branches, thor
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0224.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0224.jpg' | relative_url }}" alt="Ivan on the steep embankment beside the trail" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0224.jpg' | relative_url }}" alt="David on the steep embankment beside the trail" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -368,7 +368,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0150.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0150.jpg' | relative_url }}" alt="David and Ivan mountain biking in Slovenia" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0150.jpg' | relative_url }}" alt="Ivan and David mountain biking in Slovenia" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -380,7 +380,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0044.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0044.jpg' | relative_url }}" alt="David beside a sculpture in Zagreb" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0044.jpg' | relative_url }}" alt="Ivan beside a sculpture in Zagreb" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -393,7 +393,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0080.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0080.jpg' | relative_url }}" alt="Ivan overlooking Lake Bled from the castle" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0080.jpg' | relative_url }}" alt="David overlooking Lake Bled from the castle" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -405,19 +405,19 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0100.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0100.jpg' | relative_url }}" alt="Ivan and David beside Lake Bled" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0100.jpg' | relative_url }}" alt="David and Ivan beside Lake Bled" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0112.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0112.jpg' | relative_url }}" alt="David and Ivan hiking above Lake Bled in the rain" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0112.jpg' | relative_url }}" alt="Ivan and David hiking above Lake Bled in the rain" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0134.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0134.jpg' | relative_url }}" alt="David descending a steep forest trail above Lake Bled" width="1952" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0134.jpg' | relative_url }}" alt="Ivan descending a steep forest trail above Lake Bled" width="1952" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -448,19 +448,19 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0151.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0151.jpg' | relative_url }}" alt="David and Ivan with their bikes in an alpine village" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0151.jpg' | relative_url }}" alt="Ivan and David with their bikes in an alpine village" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0152.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0152.jpg' | relative_url }}" alt="David and Ivan beside a wooden heart in an alpine pasture" width="2600" height="1950" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0152.jpg' | relative_url }}" alt="Ivan and David beside a wooden heart in an alpine pasture" width="2600" height="1950" loading="lazy" decoding="async">
   </a>
 </figure>
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0154.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0154.jpg' | relative_url }}" alt="David at an outdoor mountain lunch stop" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0154.jpg' | relative_url }}" alt="Ivan at an outdoor mountain lunch stop" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -473,19 +473,19 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0170.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0170.jpg' | relative_url }}" alt="David standing in the clear water of Lake Bohinj" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0170.jpg' | relative_url }}" alt="Ivan standing in the clear water of Lake Bohinj" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0192.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0192.jpg' | relative_url }}" alt="David at the seafood dinner in Kobarid" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0192.jpg' | relative_url }}" alt="Ivan at the seafood dinner in Kobarid" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0195.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0195.jpg' | relative_url }}" alt="Ivan taking a photo during the mountain bike ride" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0195.jpg' | relative_url }}" alt="David taking a photo during the mountain bike ride" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -498,7 +498,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0212.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0212.jpg' | relative_url }}" alt="Ivan with his bike above the mountain pastures" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0212.jpg' | relative_url }}" alt="David with his bike above the mountain pastures" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -523,7 +523,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0233.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0233.jpg' | relative_url }}" alt="David at the entrance to a World War I tunnel" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0233.jpg' | relative_url }}" alt="Ivan at the entrance to a World War I tunnel" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -563,7 +563,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0300.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0300.jpg' | relative_url }}" alt="David beside a cannon outside a stone fortress in Šibenik" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0300.jpg' | relative_url }}" alt="Ivan beside a cannon outside a stone fortress in Šibenik" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -575,7 +575,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0312.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0312.jpg' | relative_url }}" alt="David looking out over the Adriatic from the fortress" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0312.jpg' | relative_url }}" alt="Ivan looking out over the Adriatic from the fortress" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -599,7 +599,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0319.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0319.jpg' | relative_url }}" alt="David beside a coastal gun overlooking the Adriatic" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0319.jpg' | relative_url }}" alt="Ivan beside a coastal gun overlooking the Adriatic" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -642,13 +642,13 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0344.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0344.jpg' | relative_url }}" alt="David and Ivan walking through Split" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0344.jpg' | relative_url }}" alt="Ivan and David walking through Split" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0350.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0350.jpg' | relative_url }}" alt="Ivan and David at their final dinner in Split" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0350.jpg' | relative_url }}" alt="David and Ivan at their final dinner in Split" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -661,7 +661,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0352.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0352.jpg' | relative_url }}" alt="David on the palm-lined waterfront promenade in Split" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_0352.jpg' | relative_url }}" alt="Ivan on the palm-lined waterfront promenade in Split" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
@@ -691,7 +691,7 @@ Both Slovenia and Croatia are beautiful countries with kind, hardworking people 
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_3329.jpg' | relative_url }}">
-    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_3329.jpg' | relative_url }}" alt="Ivan and David with their bikes in a mountain pasture" width="1950" height="2600" loading="lazy" decoding="async">
+    <img src="{{ '/assets/croatia-slovenia-2026/img/IMG_3329.jpg' | relative_url }}" alt="David and Ivan with their bikes in a mountain pasture" width="1950" height="2600" loading="lazy" decoding="async">
   </a>
 </figure>
 
