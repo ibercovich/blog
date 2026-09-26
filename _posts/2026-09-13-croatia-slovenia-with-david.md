@@ -8,7 +8,7 @@ description: "Six days in Croatia and Slovenia: mountain biking in the Julian Al
 image: /assets/croatia-slovenia-2026/img/IMG_0228.jpg
 ---
 
-This post was written by David, and I'm keeping a copy on my blog for posterity, with minor edits to tell it from my perspective.
+This post was written by David, and I'm keeping a copy on my blog for posterity.
 
 <figure class="trip-photo trip-hero">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0228.jpg' | relative_url }}">
@@ -16,7 +16,7 @@ This post was written by David, and I'm keeping a copy on my blog for posterity,
   </a>
 </figure>
 
-I went to Denver the night before the trip, and we started things off with a mountain bike ride on North Table Mountain before heading to the airport. After an uncomfortable overnight flight and quick layover in Munich, we flew over the Alps into Zagreb and picked up our rental car.
+Ivan came to Denver the night before the trip, and we started things off with a mountain bike ride on North Table Mountain before heading to the airport. After an uncomfortable overnight flight and quick layover in Munich, we flew over the Alps into Zagreb and picked up our rental car.
 
 {% assign journey = site.data[page.trip_route] %}
 {% include trip-route.html route=journey %}
@@ -96,7 +96,7 @@ That evening we walked into town for traditional Slovenian food. There was a loc
 
 ## Mountain Biking in Triglav National Park
 
-The next morning we met our guide, Tomaž, who turned out to be one of the highlights of the trip. He had helped us plan much of the Slovenia portion and had excellent Santa Cruz bikes waiting for us. David rode an AXS Hightower while I chose an e-bike.
+The next morning we met our guide, Tomaž, who turned out to be one of the highlights of the trip. He had helped us plan much of the Slovenia portion and had excellent Santa Cruz bikes waiting for us. David rode an AXS Hightower while Ivan chose an e-bike.
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_3336.jpg' | relative_url }}">
@@ -104,7 +104,7 @@ The next morning we met our guide, Tomaž, who turned out to be one of the highl
   </a>
 </figure>
 
-Our first ride climbed for roughly three hours into Triglav National Park through extremely green forests, pastures and small mountain farming communities. Local farmers pasture their cows together in the mountains, sharing a shepherd while producing cheese in the small alpine villages. It was mushroom season, and families were out collecting porcini. We stopped for coffee and blueberry strudel, which I quickly ate most of, while David's request for an iced coffee produced an espresso with a single ice cube. We later had lunch in a mountain pasture village and spent most of the day surrounded by views of the Julian Alps.
+Our first ride climbed for roughly three hours into Triglav National Park through extremely green forests, pastures and small mountain farming communities. Local farmers pasture their cows together in the mountains, sharing a shepherd while producing cheese in the small alpine villages. It was mushroom season, and families were out collecting porcini. We stopped for coffee and blueberry strudel, which Ivan quickly ate most of, while David's request for an iced coffee produced an espresso with a single ice cube. We later had lunch in a mountain pasture village and spent most of the day surrounded by views of the Julian Alps.
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_3347.jpg' | relative_url }}">
@@ -126,7 +126,7 @@ Our first ride climbed for roughly three hours into Triglav National Park throug
 
 David convinced Tomaž to get us off the gravel road and onto a primitive singletrack descent. It was steep, rooty, off-camber and more of a hiking trail.
 
-We eventually descended all the way to Lake Bohinj and went for a swim with the locals. The water was surprisingly warm. The pebbles were less friendly to my sensitive feet.
+We eventually descended all the way to Lake Bohinj and went for a swim with the locals. The water was surprisingly warm. The pebbles were less friendly to Ivan's sensitive feet.
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0168.jpg' | relative_url }}">
@@ -186,7 +186,7 @@ The next morning we headed out for another ride. We climbed through farms and pa
   </a>
 </figure>
 
-The first descent was a primitive forest trail with steep slopes, branches, thorns and obstacles everywhere. Tomaž periodically stopped, pulled a saw out of his backpack and performed some impromptu trail maintenance. I eventually took a dramatic slide down an embankment that resulted in essentially no injuries but concluded my technical riding for the day.
+The first descent was a primitive forest trail with steep slopes, branches, thorns and obstacles everywhere. Tomaž periodically stopped, pulled a saw out of his backpack and performed some impromptu trail maintenance. Ivan eventually took a dramatic slide down an embankment that resulted in essentially no injuries but concluded his technical riding for the day.
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_3433.jpg' | relative_url }}">
@@ -206,11 +206,11 @@ The first descent was a primitive forest trail with steep slopes, branches, thor
   </a>
 </figure>
 
-David and Tomaž continued to another downhill while I volunteered to shuttle the van. Before the final descent, we stopped at a mountaintop World War I site with old trenches and huge views over the Kobarid Valley.
+David and Tomaž continued to another downhill while Ivan volunteered to shuttle the van. Before the final descent, we stopped at a mountaintop World War I site with old trenches and huge views over the Kobarid Valley.
 
-Before leaving, I asked Tomaž whether the pedal on the left was the clutch, then immediately stalled his beautiful new van after forgetting to release the parking brake.
+Before leaving, Ivan asked Tomaž whether the pedal on the left was the clutch, then immediately stalled his beautiful new van after forgetting to release the parking brake.
 
-David and Tomaž had a long, technical and very fun final descent while I accidentally took a 30-kilometer detour on a tiny mountain road. It was one of the best drives I've ever done.
+David and Tomaž had a long, technical and very fun final descent while Ivan accidentally took a 30-kilometer detour on a tiny mountain road that he described as one of the best drives he has ever done.
 
 <div class="trip-pair">
 <figure class="trip-photo">
@@ -279,7 +279,7 @@ From Plitvice we continued to Šibenik, which exceeded expectations. The old cit
 </figure>
 </div>
 
-After dinner we found an excellent gelato shop run by a very enthusiastic attendant who confidently assured us we had chosen the best place in town. I had blood orange sorbet, David had tiramisu gelato, apparently the preferred choice of Americans over 60, and we were given a bonus scoop of lavender-lemon sorbet.
+After dinner we found an excellent gelato shop run by a very enthusiastic attendant who confidently assured us we had chosen the best place in town. Ivan had blood orange sorbet, David had tiramisu gelato, apparently the preferred choice of Americans over 60, and we were given a bonus scoop of lavender-lemon sorbet.
 
 After walking along the waterfront, we enjoyed the hotel spa, including the sauna, steam room and a giant overhead bucket that dumped cold water on you when you pulled the handle.
 
@@ -291,7 +291,7 @@ After walking along the waterfront, we enjoyed the hotel spa, including the saun
 
 ## Split
 
-Our final stop was Split. Before checking in, we went to a small pebble beach called Kasjuni near Marjan Park. David found a cliff to jump off and I eventually became impatient enough to move the trip along.
+Our final stop was Split. Before checking in, we went to a small pebble beach called Kasjuni near Marjan Park. David found a cliff to jump off and Ivan eventually became impatient enough to move the trip along.
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0316.jpg' | relative_url }}">
@@ -320,7 +320,7 @@ Split itself was fascinating. The city has essentially grown into and around the
   </a>
 </figure>
 
-One of our memorable stops was the synagogue inside the old city. It is the third-oldest active synagogue in Europe. It was closed when we arrived, but we rang the doorbell and a woman who has worked there for 36 years let us in and gave us a quick tour. She showed us an approximately 400-year-old Torah scroll and the memorial wall listing members of Split's Jewish community killed during the Holocaust.
+One of our memorable stops was the synagogue inside the old city. It is the third-oldest active synagogue in Europe. It was closed when we arrived, but we rang the doorbell and a woman who has worked there for 36 years let us in and gave us a quick tour. She showed us an approximately 400-year-old Torah scroll and the memorial wall listing members of Split's Jewish community murdered during the Holocaust.
 
 <figure class="trip-photo">
   <a href="{{ '/assets/croatia-slovenia-2026/img/IMG_0325.jpg' | relative_url }}">
