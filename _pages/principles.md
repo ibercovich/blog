@@ -69,6 +69,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Do hard things, do your thing, do it for decades — Graham Weaver
 
   * Live an Asymmetric life — Graham Weaver
+* When you look back, you’ll wish you’d just done the long-term version of everything. — Naval Ravikant
 * Live the most unlikely version of your life
 * Try new things regularly
 
