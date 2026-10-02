@@ -11,8 +11,6 @@ I'm deeply involved with task quality for [Terminal-Bench 3](https://github.com/
 
 ## In Progress
 
-**Training secure coding agents.** A follow-up to [SusVibes](https://arxiv.org/abs/2512.03262), moving from benchmarking to training. The original work showed that frontier models produce functionally correct but insecure code. This project improves data synthesis methods and explores training outcomes.
-
 **Training coding agents with privileged information.** This project injects oracle hints (such as the fix patch) at training time to elicit correct trajectories the model can't reach unaided, and uses action-level entropy to decide when a teacher should guide the agent versus let it act on its own.
 
 ## Under Review
@@ -24,6 +22,12 @@ One paper is currently under review at NeurIPS 2026.
 ## Publications
 
 ### 2026
+
+**[AuraForge: Scaling Security Supervision for Training Coding Agents](https://arxiv.org/abs/2610.00850)**
+D Wang, S Zhao, H Sharma, J Wang, AV Duarte, I Bercovich, L Li
+*arXiv preprint arXiv:2610.00850*
+
+AuraForge synthesizes and validates executable security tests for training secure coding agents. Its AuraGym dataset contains 679 feature-implementation tasks from 344 real-world repositories across Python, JavaScript, and TypeScript, covering 177 CWE categories. On tasks with human-written security tests, AuraForge generates roughly three times as many tests with an 83.23% lower false-positive rate, and training with its synthesized tests improves both functional correctness and security.
 
 **[SWE-Marathon: Can AI Agents Autonomously Complete Ultra-Long-Horizon Software Work?](https://arxiv.org/abs/2606.07682)**
 R Desai, J Hu, J Cabezas, N Harsola, P Shukla, R Ben Chaim, A El Assadi, …, I Bercovich, S Dillmann
