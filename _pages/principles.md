@@ -272,3 +272,4 @@ A list of principles, organized into categories, in no particular order. Very fe
 
 * [Nabeel S. Qureshi](https://nabeelqu.co/principles)
 * [Eli Tyre](https://elityre.com/principles.html)
+* [Ben Kuhn](https://www.benkuhn.net/)
