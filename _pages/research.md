@@ -15,7 +15,7 @@ I'm deeply involved with task quality for [Terminal-Bench 3](https://github.com/
 
 ## Under Review
 
-One paper is currently under review at NeurIPS 2026.
+One paper is currently under review at ICLR.
 
 **[Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops](https://arxiv.org/abs/2606.08960).** A method for automatically building exploit-resistant verifiers for agent benchmarks, using adversarial loops of cooperating LLM agents rather than per-task manual patching.
 

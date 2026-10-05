@@ -46,11 +46,14 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Action precedes motivation.
 * Vision without execution is hallucination
 * Speed is THE primary business strategy — Mike Cassidy
-* “Direction is more important than magnitude”—it’s usually better to have a lower-velocity project that works on the right things.
+* Direction is more important than magnitude
+  * It’s usually better to have a lower-velocity project that works on the right things
 * Relentless force applied consistently
 * Uncomfortable activity leads to growth.
 
   * Comfort leads to stagnation.
+* Get comfortable looking into the abyss
+  * (This is a mindset I need to rebuild)
 * Use world entanglement as a forcing functions to accomplish things
 
   * e.g.: commit to public speaking, workshops/conferences, exercise with friends
