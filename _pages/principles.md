@@ -46,6 +46,7 @@ A list of principles, organized into categories, in no particular order. Very fe
 * Action precedes motivation.
 * Vision without execution is hallucination
 * Speed is THE primary business strategy — Mike Cassidy
+* “Direction is more important than magnitude”—it’s usually better to have a lower-velocity project that works on the right things.
 * Relentless force applied consistently
 * Uncomfortable activity leads to growth.
 
