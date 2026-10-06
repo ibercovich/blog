@@ -273,3 +273,4 @@ A list of principles, organized into categories, in no particular order. Very fe
 * [Nabeel S. Qureshi](https://nabeelqu.co/principles)
 * [Eli Tyre](https://elityre.com/principles.html)
 * [Ben Kuhn](https://www.benkuhn.net/)
+* [Milan Cvitkovic](https://milan.cvitkovic.net/things_youre_allowed_to_do/)
